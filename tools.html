@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>测算工具 · 电力数据研究工作台</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f7f8;color:#182026}.app{min-height:100vh;display:grid;grid-template-columns:248px 1fr}aside{background:#10212a;color:#f7fbfc;padding:20px 16px;position:sticky;top:0;height:100vh}.brand{font-size:20px;font-weight:700;line-height:1.35;margin-bottom:24px}.nav-section{color:#9fb0b8;font-size:12px;margin:22px 8px 8px}nav a{display:flex;color:#d9e4e8;text-decoration:none;padding:10px 12px;border-radius:8px;font-size:14px;margin:2px 0}nav a.active,nav a:hover{background:rgba(255,255,255,.1);color:#fff}main{padding:24px 28px 36px;max-width:1200px}.subtitle{color:#61717c}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px}.card{background:#fff;border:1px solid #dbe2e6;border-radius:8px;padding:16px;box-shadow:0 10px 28px rgba(20,32,38,.08)}.card p{color:#61717c;line-height:1.6}button{border:1px solid #173b4a;background:#173b4a;color:#fff;padding:9px 12px;border-radius:8px;cursor:pointer}@media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr)}}@media(max-width:720px){main{padding:18px 14px}nav{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">电力数据<br>研究工作台</div>
+      <div class="nav-section">核心模块</div>
+      <nav>
+        <a href="index.html">Dashboard</a><a href="hydro.html">来水与水电</a><a href="price.html">电价数据</a><a href="power.html">电量与装机</a><a href="holdings.html">机构持仓</a><a class="active" href="tools.html">测算工具</a><a href="data-catalog.html">数据目录</a>
+      </nav>
+    </aside>
+    <main>
+      <h1>测算工具</h1>
+      <p class="subtitle">测算工具放在数据页稳定之后做，避免在口径未定时把结果做“精确”。</p>
+      <button onclick="location.href='index.html'">返回首页</button>
+      <div class="grid">
+        <div class="card"><h2>水电来水敏感性</h2><p>输入来水假设，输出 QTD 电量区间和公司弹性。建议第一优先级。</p></div>
+        <div class="card"><h2>火电度电毛利</h2><p>输入电价、煤价、利用小时，输出度电毛利和利润变化。</p></div>
+        <div class="card"><h2>电价弹性</h2><p>测算 1 分/kWh 变化对公司利润的影响。</p></div>
+        <div class="card"><h2>供需评分</h2><p>综合用电增速、装机增速、外送/受入和价格变化。</p></div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

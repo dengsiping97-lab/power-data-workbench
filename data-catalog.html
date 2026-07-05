@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>数据目录 · 电力数据研究工作台</title>
+  <style>
+    :root {
+      --bg: #f6f7f8;
+      --surface: #ffffff;
+      --surface-2: #eef2f4;
+      --text: #182026;
+      --muted: #61717c;
+      --line: #dbe2e6;
+      --green: #227d55;
+      --blue: #256f9f;
+      --amber: #9a681c;
+      --red: #a6423b;
+      --shadow: 0 10px 28px rgba(20, 32, 38, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 248px 1fr;
+    }
+
+    aside {
+      background: #10212a;
+      color: #f7fbfc;
+      padding: 20px 16px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 24px;
+    }
+
+    .nav-section {
+      color: #9fb0b8;
+      font-size: 12px;
+      margin: 22px 8px 8px;
+    }
+
+    nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #d9e4e8;
+      text-decoration: none;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      margin: 2px 0;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+    }
+
+    main {
+      padding: 24px 28px 36px;
+      max-width: 1480px;
+      width: 100%;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--text);
+      padding: 9px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    button.primary {
+      background: #173b4a;
+      color: #fff;
+      border-color: #173b4a;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      min-height: 96px;
+    }
+
+    .summary .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .summary .value {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .summary .note {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--line);
+      padding: 14px 16px;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .section-body {
+      padding: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th, td {
+      padding: 10px 8px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600;
+      background: #f7f9fa;
+    }
+
+    code {
+      background: #eef2f4;
+      padding: 2px 5px;
+      border-radius: 5px;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 12px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 12px;
+      white-space: nowrap;
+      background: #e8f3ee;
+      color: var(--green);
+    }
+
+    .pill.p1 {
+      background: #e8f0f7;
+      color: var(--blue);
+    }
+
+    .pill.p2 {
+      background: #f6efe3;
+      color: var(--amber);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .schema {
+      display: grid;
+      gap: 10px;
+    }
+
+    .schema-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfc;
+      padding: 12px;
+    }
+
+    .schema-item strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .schema-item span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 1180px) {
+      .app { grid-template-columns: 1fr; }
+      aside {
+        position: static;
+        height: auto;
+      }
+      nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+      }
+      .summary-grid { grid-template-columns: repeat(2, 1fr); }
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 720px) {
+      main { padding: 18px 14px 28px; }
+      .topbar { flex-direction: column; }
+      nav { grid-template-columns: 1fr 1fr; }
+      .summary-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">电力数据<br>研究工作台</div>
+      <div class="nav-section">核心模块</div>
+      <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="hydro.html">来水与水电</a>
+        <a href="price.html">电价数据</a>
+        <a href="power.html">电量与装机</a>
+        <a href="holdings.html">机构持仓</a>
+        <a href="tools.html">测算工具</a>
+        <a class="active" href="data-catalog.html">数据目录</a>
+      </nav>
+      <div class="nav-section">研究归档</div>
+      <nav>
+        <a href="research.html">查询记录</a>
+        <a href="companies.html">公司页面</a>
+        <a href="decisions.html">决策复盘</a>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h1>数据目录</h1>
+          <p class="subtitle">把现有 Obsidian 数据库拆成网站可读数据集，已接入稳定 CSV 和电力月度 Markdown 自动转表。</p>
+        </div>
+        <button class="primary" onclick="location.href='index.html'">返回首页</button>
+      </div>
+
+      <div class="summary-grid">
+        <div class="summary">
+          <div class="label">P0 数据源</div>
+          <div class="value" id="summary-p0-count">8+</div>
+          <div class="note">水电、电价和电力月度主表已进入网站快照。</div>
+        </div>
+        <div class="summary">
+          <div class="label">剩余待结构化</div>
+          <div class="value" id="summary-p1-count">6</div>
+          <div class="note">当前主要剩机构持仓和公司映射需要结构化。</div>
+        </div>
+        <div class="summary">
+          <div class="label">第一版事实表</div>
+          <div class="value">7</div>
+          <div class="note">覆盖水情、电价、用电、装机、捕获价格。</div>
+        </div>
+        <div class="summary">
+          <div class="label">快照日期</div>
+          <div class="value" id="summary-updated">水电 + 电价</div>
+          <div class="note">先做周度高频，再接月度基本面。</div>
+        </div>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>P0：已接入网站快照</h2>
+          <span class="pill">可上首页</span>
+        </div>
+        <div class="section-body">
+          <table>
+            <thead>
+              <tr>
+                <th>模块</th>
+                <th>数据集</th>
+                <th>粒度</th>
+                <th>状态</th>
+              </tr>
+            </thead>
+            <tbody id="p0-dataset-body">
+              <tr><td colspan="4">加载 P0 数据目录...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>P1：自动转表与待结构化</h2>
+          <span class="pill p1">部分已接入</span>
+        </div>
+        <div class="section-body">
+          <table>
+            <thead>
+              <tr>
+                <th>对象</th>
+                <th>当前状态</th>
+                <th>目标表</th>
+                <th>网站用途</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>中国用电量</td>
+                <td>已自动转表</td>
+                <td><code>power_consumption_monthly</code></td>
+                <td>需求强弱、分产业用电、两年复合增速</td>
+              </tr>
+              <tr>
+                <td>中国发电量</td>
+                <td>已自动转表</td>
+                <td><code>power_generation_monthly</code></td>
+                <td>分电源发电量、火水风光替代关系</td>
+              </tr>
+              <tr>
+                <td>中国装机容量</td>
+                <td>已自动转表</td>
+                <td><code>installed_capacity_monthly</code></td>
+                <td>装机结构、新能源供给压力</td>
+              </tr>
+              <tr>
+                <td>机构持仓</td>
+                <td>需结构化</td>
+                <td><code>institution_holding_quarterly</code></td>
+                <td>基本面改善但持仓未反映的预期差</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="grid">
+        <section>
+          <div class="section-head">
+            <h2>目标事实表</h2>
+          </div>
+          <div class="section-body schema">
+            <div class="schema-item">
+              <strong>fact_hydro_weekly</strong>
+              <span>电站-周：入库、出库、水位、同比、历史分位。</span>
+            </div>
+            <div class="schema-item">
+              <strong>fact_power_price_daily</strong>
+              <span>省份-日：日前、实时、单位、周度聚合标记。</span>
+            </div>
+            <div class="schema-item">
+              <strong>fact_capture_price_monthly</strong>
+              <span>省份-电源-月：分电源捕获价格。</span>
+            </div>
+            <div class="schema-item">
+              <strong>fact_power_consumption_monthly</strong>
+              <span>区域/产业-月：用电量、同比、增量贡献。</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>开发顺序</h2>
+          </div>
+          <div class="section-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>顺序</th>
+                  <th>任务</th>
+                  <th>产出</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>接水电周度和电价日/月度 CSV</td>
+                  <td>首页 + 来水页 + 电价页</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>把电力月度 Markdown 转长表</td>
+                  <td>电量与装机页</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>抽取机构持仓结构化字段</td>
+                  <td>持仓验证页</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="assets/workbench-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
