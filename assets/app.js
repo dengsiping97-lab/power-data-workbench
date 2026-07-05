@@ -73,8 +73,12 @@
     const threeGorges = data.hydroWeeklyLatest.find((row) => row.station === "三峡") || latestWeek;
     const latestHour = data.hydroHourlyLatest[0];
     const latestSpot = data.spotWeeklyLatest?.[0];
+    const latestProxy = data.proxyPurchaseLatest?.[0];
+    const latestPower = data.powerConsumptionMonthly?.[0];
+    const latestCapacity = data.installedCapacityMonthly?.[0];
     const hydroCount = data.hydroWeeklyLatest.length;
     const avgSpot = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
+    const avgProxy = data.proxyPurchaseLatest?.length ? avg(data.proxyPurchaseLatest.map((row) => row.proxyPrice)) : null;
 
     setText("metric-hydro-signal", `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
     setText("metric-hydro-note", `${hydroCount} 个周度电站快照，${threeGorges.station}入库 ${fmt(threeGorges.inflow)} m3/s，同比 ${pct(threeGorges.inflowYoy)}`);
@@ -82,6 +86,10 @@
     setText("metric-hydro-hour-note", `${latestHour.river} ${latestHour.station} 入库 ${fmt(latestHour.inflow)} m3/s`);
     setText("metric-spot", `${fmt(avgSpot, 0)}`);
     setText("metric-spot-note", `${latestSpot.isoYear}-W${latestSpot.isoWeek} 周度均值，单位元/MWh`);
+    setText("metric-proxy", avgProxy ? `${fmt(avgProxy, 0)}` : "跟踪中");
+    setText("metric-proxy-note", latestProxy ? `${latestProxy.month}，${data.proxyPurchaseLatest.length} 个省份样本，单位元/MWh` : "按省份查看月度历史");
+    setText("metric-power", latestPower?.month || latestCapacity?.month || "月度");
+    setText("metric-power-note", latestPower && latestCapacity ? `用电 ${fmt(latestPower.total)} 亿kWh；装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW` : "用电、发电、装机结构联动");
     setText("metric-dataset", `${data.datasets.p0.length} 张`);
     setText("metric-dataset-note", `P0 可直接接入，更新于 ${data.updatedAt}`);
 
@@ -104,8 +112,8 @@
       spotBody.innerHTML = data.spotWeeklyLatest.map((row) => `
         <tr>
           <td>${row.province}</td>
-          <td>${row.isoYear}-W${row.isoWeek}</td>
           <td>${fmt(row.coalBenchmark, 1)}</td>
+          <td>${row.isoYear}-W${row.isoWeek}</td>
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
           <td>${pct(row.spotWow)}</td>

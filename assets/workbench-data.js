@@ -137,276 +137,276 @@
                           ],
     "hydroHourlyLatest":  [
                               {
-                                  "station":  "大岗山",
-                                  "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1760,
-                                  "outflow":  1650,
-                                  "waterLevel":  1126.52
-                              },
-                              {
-                                  "station":  "瀑布沟",
-                                  "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1700,
-                                  "outflow":  2050,
-                                  "waterLevel":  839.53
-                              },
-                              {
-                                  "station":  "长河坝水电站",
-                                  "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1262,
-                                  "outflow":  1155,
-                                  "waterLevel":  1688.49
-                              },
-                              {
-                                  "station":  "猴子岩",
-                                  "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1150,
-                                  "outflow":  1160,
-                                  "waterLevel":  1836.86
-                              },
-                              {
-                                  "station":  "龙头石",
-                                  "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1670,
-                                  "outflow":  1660,
-                                  "waterLevel":  954.02
-                              },
-                              {
-                                  "station":  "向家坝水库",
-                                  "river":  "金沙江",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  null,
-                                  "outflow":  5450,
-                                  "waterLevel":  371.95
-                              },
-                              {
-                                  "station":  "溪洛渡水库",
-                                  "river":  "金沙江",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  null,
-                                  "outflow":  7280,
-                                  "waterLevel":  563.64
-                              },
-                              {
                                   "station":  "铜街子",
                                   "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  2330,
-                                  "outflow":  2110,
-                                  "waterLevel":  473.04
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  2110,
+                                  "outflow":  2150,
+                                  "waterLevel":  472.39
                               },
                               {
                                   "station":  "龚嘴",
                                   "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  2770,
-                                  "outflow":  2490,
-                                  "waterLevel":  527.35
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  2270,
+                                  "outflow":  2620,
+                                  "waterLevel":  527.41
+                              },
+                              {
+                                  "station":  "溪洛渡水库",
+                                  "river":  "金沙江",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  null,
+                                  "outflow":  7390,
+                                  "waterLevel":  563.96
+                              },
+                              {
+                                  "station":  "瀑布沟",
+                                  "river":  "大渡河",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1960,
+                                  "outflow":  1890,
+                                  "waterLevel":  839.56
                               },
                               {
                                   "station":  "泸定",
                                   "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1410,
-                                  "outflow":  1370,
-                                  "waterLevel":  1377.78
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1610,
+                                  "outflow":  1490,
+                                  "waterLevel":  1377.28
                               },
                               {
-                                  "station":  "锦屏一级",
-                                  "river":  "雅砻江",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1952,
-                                  "outflow":  1747,
-                                  "waterLevel":  1838.19
-                              },
-                              {
-                                  "station":  "黄金坪水电站",
+                                  "station":  "猴子岩",
                                   "river":  "大渡河",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  1194,
-                                  "outflow":  1336,
-                                  "waterLevel":  1474.37
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1510,
+                                  "outflow":  1520,
+                                  "waterLevel":  1837.66
                               },
                               {
-                                  "station":  "二滩",
-                                  "river":  "雅砻江",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  2170,
-                                  "outflow":  1938,
-                                  "waterLevel":  1181.55
+                                  "station":  "大岗山",
+                                  "river":  "大渡河",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1630,
+                                  "outflow":  1660,
+                                  "waterLevel":  1126.07
                               },
                               {
                                   "station":  "官地",
                                   "river":  "雅砻江",
-                                  "time":  "2026-07-04 21:00",
-                                  "inflow":  2060,
-                                  "outflow":  1921,
-                                  "waterLevel":  1324.53
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  2110,
+                                  "outflow":  1804,
+                                  "waterLevel":  1325.42
+                              },
+                              {
+                                  "station":  "锦屏一级",
+                                  "river":  "雅砻江",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1867,
+                                  "outflow":  1755,
+                                  "waterLevel":  1838.74
+                              },
+                              {
+                                  "station":  "龙头石",
+                                  "river":  "大渡河",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1670,
+                                  "outflow":  1670,
+                                  "waterLevel":  953.53
+                              },
+                              {
+                                  "station":  "二滩",
+                                  "river":  "雅砻江",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  2020,
+                                  "outflow":  1958,
+                                  "waterLevel":  1181.84
+                              },
+                              {
+                                  "station":  "向家坝水库",
+                                  "river":  "金沙江",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  null,
+                                  "outflow":  5420,
+                                  "waterLevel":  372.39
+                              },
+                              {
+                                  "station":  "长河坝水电站",
+                                  "river":  "大渡河",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1565,
+                                  "outflow":  1458,
+                                  "waterLevel":  1688.8
+                              },
+                              {
+                                  "station":  "黄金坪水电站",
+                                  "river":  "大渡河",
+                                  "time":  "2026-07-05 21:00",
+                                  "inflow":  1540,
+                                  "outflow":  1587,
+                                  "waterLevel":  1474.81
                               },
                               {
                                   "station":  "沙湾",
                                   "river":  "大渡河",
-                                  "time":  "2026-07-04 15:00",
-                                  "inflow":  1960,
-                                  "outflow":  1580,
-                                  "waterLevel":  430.16
+                                  "time":  "2026-07-05 15:00",
+                                  "inflow":  1820,
+                                  "outflow":  1970,
+                                  "waterLevel":  429.2
                               }
                           ],
     "hydroQtdMetrics":  [
                             {
                                 "station":  "向家坝水库",
                                 "river":  "金沙江",
-                                "latestTime":  "2026-07-04 21:00",
+                                "latestTime":  "2026-07-05 21:00",
                                 "latestInflow":  null,
-                                "avg7dInflow":  5983.33,
-                                "avg14dInflow":  5983.33,
-                                "qtdInflow":  6315,
-                                "sampleHours":  87
+                                "avg7dInflow":  5948.57,
+                                "avg14dInflow":  5948.57,
+                                "qtdInflow":  6200,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "溪洛渡水库",
                                 "river":  "金沙江",
-                                "latestTime":  "2026-07-04 21:00",
+                                "latestTime":  "2026-07-05 21:00",
                                 "latestInflow":  null,
-                                "avg7dInflow":  5760,
-                                "avg14dInflow":  5760,
-                                "qtdInflow":  5640,
-                                "sampleHours":  87
+                                "avg7dInflow":  5851.43,
+                                "avg14dInflow":  5851.43,
+                                "qtdInflow":  5792,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "龚嘴",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  2770,
-                                "avg7dInflow":  3034.81,
-                                "avg14dInflow":  3311.17,
-                                "qtdInflow":  2391.03,
-                                "sampleHours":  87
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  2270,
+                                "avg7dInflow":  2908.03,
+                                "avg14dInflow":  3176.53,
+                                "qtdInflow":  2338.35,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "瀑布沟",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1700,
-                                "avg7dInflow":  2611.11,
-                                "avg14dInflow":  2892.57,
-                                "qtdInflow":  2321.26,
-                                "sampleHours":  87
-                            },
-                            {
-                                "station":  "大岗山",
-                                "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1760,
-                                "avg7dInflow":  2499.93,
-                                "avg14dInflow":  2738.71,
-                                "qtdInflow":  2267.82,
-                                "sampleHours":  87
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1960,
+                                "avg7dInflow":  2506.05,
+                                "avg14dInflow":  2775.03,
+                                "qtdInflow":  2228.44,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "铜街子",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  2330,
-                                "avg7dInflow":  2888.96,
-                                "avg14dInflow":  3201.05,
-                                "qtdInflow":  2210.69,
-                                "sampleHours":  87
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  2110,
+                                "avg7dInflow":  2763.31,
+                                "avg14dInflow":  3063.26,
+                                "qtdInflow":  2166.61,
+                                "sampleHours":  109
                             },
                             {
-                                "station":  "黄金坪水电站",
+                                "station":  "大岗山",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1194,
-                                "avg7dInflow":  2294.55,
-                                "avg14dInflow":  2576.4,
-                                "qtdInflow":  2089.71,
-                                "sampleHours":  84
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1630,
+                                "avg7dInflow":  2364.52,
+                                "avg14dInflow":  2601.35,
+                                "qtdInflow":  2119.63,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "二滩",
                                 "river":  "雅砻江",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  2170,
-                                "avg7dInflow":  2067.07,
-                                "avg14dInflow":  1996.92,
-                                "qtdInflow":  2038.41,
-                                "sampleHours":  86
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  2020,
+                                "avg7dInflow":  2021,
+                                "avg14dInflow":  1967.79,
+                                "qtdInflow":  1978.98,
+                                "sampleHours":  108
                             },
                             {
                                 "station":  "沙湾",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 15:00",
-                                "latestInflow":  1960,
-                                "avg7dInflow":  2635.07,
-                                "avg14dInflow":  2863.12,
-                                "qtdInflow":  1979.11,
-                                "sampleHours":  74
-                            },
-                            {
-                                "station":  "泸定",
-                                "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1410,
-                                "avg7dInflow":  2236.81,
-                                "avg14dInflow":  2541.1,
-                                "qtdInflow":  1972.99,
-                                "sampleHours":  87
+                                "latestTime":  "2026-07-05 15:00",
+                                "latestInflow":  1820,
+                                "avg7dInflow":  2540.61,
+                                "avg14dInflow":  2766.11,
+                                "qtdInflow":  1951.93,
+                                "sampleHours":  90
                             },
                             {
                                 "station":  "锦屏一级",
                                 "river":  "雅砻江",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1952,
-                                "avg7dInflow":  1950.44,
-                                "avg14dInflow":  1899.76,
-                                "qtdInflow":  1971.72,
-                                "sampleHours":  86
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1867,
+                                "avg7dInflow":  1937.39,
+                                "avg14dInflow":  1895.1,
+                                "qtdInflow":  1948.9,
+                                "sampleHours":  108
+                            },
+                            {
+                                "station":  "黄金坪水电站",
+                                "river":  "大渡河",
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1540,
+                                "avg7dInflow":  2161.69,
+                                "avg14dInflow":  2436.6,
+                                "qtdInflow":  1943.41,
+                                "sampleHours":  105
                             },
                             {
                                 "station":  "龙头石",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
+                                "latestTime":  "2026-07-05 21:00",
                                 "latestInflow":  1670,
-                                "avg7dInflow":  2243.97,
-                                "avg14dInflow":  2516.72,
-                                "qtdInflow":  1971.14,
-                                "sampleHours":  88
+                                "avg7dInflow":  2152.34,
+                                "avg14dInflow":  2412.24,
+                                "qtdInflow":  1894.09,
+                                "sampleHours":  110
+                            },
+                            {
+                                "station":  "泸定",
+                                "river":  "大渡河",
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1610,
+                                "avg7dInflow":  2110.06,
+                                "avg14dInflow":  2404.72,
+                                "qtdInflow":  1843.67,
+                                "sampleHours":  109
                             },
                             {
                                 "station":  "长河坝水电站",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1262,
-                                "avg7dInflow":  2153.82,
-                                "avg14dInflow":  2385.56,
-                                "qtdInflow":  1912.19,
-                                "sampleHours":  84
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1565,
+                                "avg7dInflow":  2034.1,
+                                "avg14dInflow":  2259.68,
+                                "qtdInflow":  1789.55,
+                                "sampleHours":  106
                             },
                             {
                                 "station":  "官地",
                                 "river":  "雅砻江",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  2060,
-                                "avg7dInflow":  1834.23,
-                                "avg14dInflow":  1787.11,
-                                "qtdInflow":  1783.78,
-                                "sampleHours":  86
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  2110,
+                                "avg7dInflow":  1830.16,
+                                "avg14dInflow":  1789.3,
+                                "qtdInflow":  1788.29,
+                                "sampleHours":  108
                             },
                             {
                                 "station":  "猴子岩",
                                 "river":  "大渡河",
-                                "latestTime":  "2026-07-04 21:00",
-                                "latestInflow":  1150,
-                                "avg7dInflow":  2007.93,
-                                "avg14dInflow":  2205.67,
-                                "qtdInflow":  1776.78,
-                                "sampleHours":  87
+                                "latestTime":  "2026-07-05 21:00",
+                                "latestInflow":  1510,
+                                "avg7dInflow":  1912.93,
+                                "avg14dInflow":  2105.85,
+                                "qtdInflow":  1686.61,
+                                "sampleHours":  109
                             }
                         ],
     "spotWeeklyLatest":  [

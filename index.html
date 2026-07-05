@@ -109,6 +109,107 @@
       justify-content: flex-end;
     }
 
+    .overview {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .intro-panel,
+    .priority-panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 16px;
+    }
+
+    .intro-panel h2,
+    .priority-panel h2 {
+      font-size: 17px;
+      margin: 0 0 10px;
+    }
+
+    .intro-panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 13px;
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .module-link {
+      display: block;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--line);
+      background: #fbfcfc;
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 96px;
+    }
+
+    .module-link strong {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .module-link span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .module-link:hover {
+      border-color: #b9d3dc;
+      background: #f3f8fa;
+    }
+
+    .priority-list {
+      display: grid;
+      gap: 9px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .priority-list li {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 8px;
+      align-items: start;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .priority-list b {
+      color: var(--text);
+      font-weight: 650;
+    }
+
+    .rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: #e8f3ee;
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
     button {
       border: 1px solid var(--line);
       background: var(--surface);
@@ -133,12 +234,21 @@
     }
 
     .metric {
+      display: block;
       background: var(--surface);
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 14px;
       min-height: 108px;
       box-shadow: var(--shadow);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .metric:hover,
+    .tool:hover {
+      border-color: #b9d3dc;
+      background: #f8fbfc;
     }
 
     .metric .label {
@@ -205,12 +315,14 @@
     }
 
     .tab {
+      display: inline-flex;
       border: 1px solid var(--line);
       background: var(--surface-2);
       border-radius: 8px;
       padding: 6px 10px;
       font-size: 12px;
       color: #40515b;
+      text-decoration: none;
     }
 
     .tab.active {
@@ -313,11 +425,14 @@
     }
 
     .tool {
+      display: block;
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 14px;
       background: #fbfcfc;
       min-height: 112px;
+      color: var(--text);
+      text-decoration: none;
     }
 
     .tool h3 {
@@ -354,6 +469,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 4px;
       }
+      .overview { grid-template-columns: 1fr; }
+      .module-grid { grid-template-columns: repeat(2, 1fr); }
       .metric-grid { grid-template-columns: repeat(3, 1fr); }
       .grid { grid-template-columns: 1fr; }
       .tool-grid { grid-template-columns: repeat(2, 1fr); }
@@ -364,6 +481,7 @@
       .topbar { flex-direction: column; }
       .actions { justify-content: flex-start; }
       nav { grid-template-columns: 1fr 1fr; }
+      .module-grid { grid-template-columns: 1fr; }
       .metric-grid { grid-template-columns: 1fr 1fr; }
       .river-layout { grid-template-columns: 1fr; }
       .tool-grid { grid-template-columns: 1fr; }
@@ -397,47 +515,81 @@
     <main>
       <div class="topbar">
         <div>
-          <h1>Dashboard</h1>
-          <p class="subtitle">以公用事业数据库为底座，跟踪来水、电价、电量、装机和持仓的研究信号。</p>
+          <h1>电力数据研究工作台</h1>
+          <p class="subtitle">把来水、电价、电量、装机和持仓数据集中到一个研究入口，优先服务周度跟踪和公司弹性判断。</p>
         </div>
         <div class="actions">
-          <button onclick="location.href='data-catalog.html'">查看数据目录</button>
-          <button>导出周报</button>
-          <button class="primary">新增研究结论</button>
+          <button onclick="location.href='data-catalog.html'">数据目录</button>
+          <button onclick="location.href='research.html'">查询记录</button>
+          <button class="primary" onclick="location.href='decisions.html'">决策复盘</button>
+        </div>
+      </div>
+
+      <div class="overview">
+        <div class="intro-panel">
+          <h2>核心入口</h2>
+          <p>当前网站先覆盖四类成熟数据：水电来水、现货与代理购电价格、电量与装机、机构持仓。首页只保留高频监控项，详细表格和历史序列放到各专题页。</p>
+          <div class="module-grid">
+            <a class="module-link" href="hydro.html">
+              <strong>来水与水电</strong>
+              <span>周度来水、水位、小时水情和 QTD 监控。</span>
+            </a>
+            <a class="module-link" href="price.html">
+              <strong>电价数据</strong>
+              <span>分省现货周度价格、代理购电价和历史趋势。</span>
+            </a>
+            <a class="module-link" href="power.html">
+              <strong>电量与装机</strong>
+              <span>用电结构、发电同比、装机结构和单月净增。</span>
+            </a>
+            <a class="module-link" href="data-catalog.html">
+              <strong>数据目录</strong>
+              <span>查看哪些数据已接入，哪些仍待结构化。</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="priority-panel">
+          <h2>本周先看</h2>
+          <ul class="priority-list">
+            <li><span class="rank">1</span><span><b>水电</b>：先看三峡、金沙江、雅砻江和大渡河来水是否延续改善。</span></li>
+            <li><span class="rank">2</span><span><b>电价</b>：现货均价和代理购电价分开看，避免把短期天气扰动直接外推。</span></li>
+            <li><span class="rank">3</span><span><b>电量装机</b>：用电需求、火电发电和新能源净增装机一起验证供需弹性。</span></li>
+          </ul>
         </div>
       </div>
 
       <div class="metric-grid">
-        <div class="metric">
-          <div class="label">重点流域来水</div>
+        <a class="metric" href="hydro.html">
+          <div class="label">周度来水快照</div>
           <div class="value up" id="metric-hydro-signal">偏丰</div>
           <div class="note" id="metric-hydro-note">近 14 日水位/入库综合信号</div>
-        </div>
-        <div class="metric">
+        </a>
+        <a class="metric" href="hydro.html">
           <div class="label">小时水情</div>
           <div class="value blue" id="metric-hydro-hour">跟踪中</div>
           <div class="note" id="metric-hydro-hour-note">长电、雅砻江、大渡河优先</div>
-        </div>
-        <div class="metric">
-          <div class="label">现货实时均价</div>
+        </a>
+        <a class="metric" href="price.html">
+          <div class="label">现货周度均价</div>
           <div class="value warn" id="metric-spot">分化</div>
           <div class="note" id="metric-spot-note">分省和分电源捕获价需拆开看</div>
-        </div>
-        <div class="metric">
-          <div class="label">用电需求</div>
-          <div class="value">月度</div>
-          <div class="note">等待能源局/统计局新月度数据</div>
-        </div>
-        <div class="metric">
-          <div class="label">新增装机</div>
-          <div class="value down">压制</div>
-          <div class="note">新能源消纳和电价联动跟踪</div>
-        </div>
-        <div class="metric">
+        </a>
+        <a class="metric" href="price.html">
+          <div class="label">代理购电价</div>
+          <div class="value" id="metric-proxy">跟踪中</div>
+          <div class="note" id="metric-proxy-note">按省份查看月度历史</div>
+        </a>
+        <a class="metric" href="power.html">
+          <div class="label">电量与装机</div>
+          <div class="value blue" id="metric-power">月度</div>
+          <div class="note" id="metric-power-note">用电、发电、装机结构联动</div>
+        </a>
+        <a class="metric" href="data-catalog.html">
           <div class="label">P0 数据源</div>
           <div class="value" id="metric-dataset">低配</div>
           <div class="note" id="metric-dataset-note">季度更新，验证预期差</div>
-        </div>
+        </a>
       </div>
 
       <div class="grid">
@@ -446,10 +598,10 @@
             <div class="section-head">
               <h2>来水与水电</h2>
               <div class="tabs">
-                <span class="tab active">流域</span>
-                <span class="tab">公司</span>
-                <span class="tab">QTD</span>
-                <span class="tab">历史分位</span>
+                <a class="tab active" href="hydro.html">流域</a>
+                <a class="tab" href="companies.html">公司</a>
+                <a class="tab" href="hydro.html">QTD</a>
+                <a class="tab" href="hydro.html">历史分位</a>
               </div>
             </div>
             <div class="section-body river-layout">
@@ -482,10 +634,10 @@
             <div class="section-head">
               <h2>电价、电量与装机</h2>
               <div class="tabs">
-                <span class="tab active">电价</span>
-                <span class="tab">用电量</span>
-                <span class="tab">装机</span>
-                <span class="tab">供需评分</span>
+                <a class="tab active" href="price.html">电价</a>
+                <a class="tab" href="power.html">用电量</a>
+                <a class="tab" href="power.html">装机</a>
+                <a class="tab" href="power.html">供需评分</a>
               </div>
             </div>
             <div class="section-body">
@@ -543,22 +695,22 @@
               <h2>测算工具</h2>
             </div>
             <div class="section-body tool-grid">
-              <div class="tool">
+              <a class="tool" href="tools.html">
                 <h3>水电来水敏感性</h3>
                 <p>输入来水假设，输出电量区间和公司弹性。</p>
-              </div>
-              <div class="tool">
+              </a>
+              <a class="tool" href="tools.html">
                 <h3>火电度电毛利</h3>
                 <p>电价、煤价、利用小时联动测算利润。</p>
-              </div>
-              <div class="tool">
+              </a>
+              <a class="tool" href="tools.html">
                 <h3>电价弹性</h3>
                 <p>测算 1 分/kWh 变化对盈利的影响。</p>
-              </div>
-              <div class="tool">
+              </a>
+              <a class="tool" href="tools.html">
                 <h3>供需评分</h3>
                 <p>省份维度合成需求、装机和价格信号。</p>
-              </div>
+              </a>
             </div>
           </section>
         </div>
