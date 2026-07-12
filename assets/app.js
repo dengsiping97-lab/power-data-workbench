@@ -26,7 +26,7 @@
   };
 
   const chartInstances = new Map();
-  const chartColors = ["#0f7f78", "#2c6f9d", "#b97716", "#7b68a6", "#b64b42"];
+  const chartColors = ["#b4473a", "#c07a2d", "#7f4b45", "#8b6f62", "#65758a"];
 
   const renderChart = (id, option) => {
     const node = document.getElementById(id);
@@ -47,15 +47,15 @@
   };
 
   const axisStyle = {
-    axisLine: { lineStyle: { color: "#dfe7e8" } },
+    axisLine: { lineStyle: { color: "#e5d9cf" } },
     axisTick: { show: false },
-    axisLabel: { color: "#66808a", fontSize: 11 },
-    splitLine: { lineStyle: { color: "#edf2f2" } }
+    axisLabel: { color: "#836f68", fontSize: 11 },
+    splitLine: { lineStyle: { color: "#efe7e0" } }
   };
 
   const tooltipStyle = {
     trigger: "axis",
-    backgroundColor: "rgba(10, 24, 32, .94)",
+    backgroundColor: "rgba(45, 29, 27, .96)",
     borderWidth: 0,
     textStyle: { color: "#fff", fontSize: 12 },
     padding: [10, 12]
@@ -306,7 +306,7 @@
         ],
         dataZoom: [
           { type: "inside", start: 35, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#dfe7e8", fillerColor: "rgba(15,127,120,.14)" }
+          { type: "slider", height: 18, bottom: 18, borderColor: "#e5d9cf", fillerColor: "rgba(180,71,58,.16)" }
         ],
         series: [
           { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },

@@ -1,36 +1,69 @@
 :root {
-  --ink-950: #0a1820;
-  --ink-900: #10232d;
-  --ink-800: #173743;
-  --ink-700: #28505d;
-  --ink-500: #66808a;
-  --paper: #f2f5f5;
-  --surface: #ffffff;
-  --surface-soft: #f7f9f9;
-  --line-soft: #dfe7e8;
-  --aqua: #0f7f78;
-  --aqua-soft: #dff2ee;
-  --blue: #2c6f9d;
-  --blue-soft: #e5f0f7;
-  --amber: #b97716;
-  --amber-soft: #fbefd9;
-  --red: #b64b42;
-  --red-soft: #f8e5e2;
-  --shadow-soft: 0 10px 30px rgba(13, 35, 45, 0.06);
-  --shadow-strong: 0 18px 50px rgba(13, 35, 45, 0.10);
+  --ink-950: #241b19;
+  --ink-900: #312321;
+  --ink-800: #4a3430;
+  --ink-700: #674b45;
+  --ink-500: #836f68;
+  --paper: #f4f0ea;
+  --surface: #fffdf9;
+  --surface-soft: #faf6f1;
+  --line-soft: #e5d9cf;
+  --accent: #b4473a;
+  --accent-soft: #f5e2dc;
+  --blue: #65758a;
+  --blue-soft: #e9edf2;
+  --amber: #bf792c;
+  --amber-soft: #f7ead8;
+  --red: #b4473a;
+  --red-soft: #f5e2dc;
+  --green: #b4473a;
+  --teal: #a65a3a;
+  --bg: #f4f0ea;
+  --text: #241b19;
+  --muted: #836f68;
+  --line: #e5d9cf;
+  --shadow-soft: 0 10px 30px rgba(67, 42, 35, 0.07);
+  --shadow-strong: 0 18px 50px rgba(67, 42, 35, 0.11);
 }
 
 body {
   color: var(--ink-950);
   background:
-    radial-gradient(circle at 78% -10%, rgba(15, 127, 120, 0.10), transparent 34%),
+    radial-gradient(circle at 78% -10%, rgba(180, 71, 58, 0.12), transparent 34%),
     var(--paper);
+}
+
+a { color: var(--accent); }
+button.primary,
+.primary {
+  border-color: #5b302c;
+  background: #5b302c;
+  color: #fff;
+}
+nav a.active,
+nav a:hover {
+  background: rgba(224, 151, 105, 0.18);
+  color: #fff8f2;
+}
+.compact,
+.pill,
+.status,
+.tab.active {
+  border-color: #ead0c5;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+select:focus,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(180, 71, 58, 0.35);
+  outline-offset: 2px;
 }
 
 .app { grid-template-columns: 232px minmax(0, 1fr); }
 
 aside {
-  background: linear-gradient(180deg, #0b2029 0%, #102d37 58%, #0d252e 100%);
+  background: linear-gradient(180deg, #24191a 0%, #382426 58%, #2a1c1d 100%);
   border-right: 1px solid rgba(255, 255, 255, 0.07);
 }
 
@@ -66,7 +99,7 @@ main {
 
 .eyebrow {
   margin-bottom: 8px;
-  color: var(--aqua);
+  color: var(--accent);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -97,7 +130,7 @@ main {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--aqua);
+  background: var(--accent);
   content: "";
 }
 
@@ -125,7 +158,7 @@ main {
   padding: 30px;
   color: #fff;
   background:
-    linear-gradient(125deg, rgba(9, 36, 46, 0.98), rgba(18, 72, 78, 0.95)),
+    linear-gradient(125deg, rgba(52, 31, 31, 0.99), rgba(112, 58, 44, 0.96)),
     var(--ink-900);
 }
 
@@ -137,11 +170,11 @@ main {
   height: 310px;
   border: 1px solid rgba(137, 226, 208, 0.20);
   border-radius: 50%;
-  box-shadow: 0 0 0 54px rgba(112, 205, 187, 0.06), 0 0 0 108px rgba(112, 205, 187, 0.04);
+  box-shadow: 0 0 0 54px rgba(224, 151, 105, 0.08), 0 0 0 108px rgba(224, 151, 105, 0.05);
   content: "";
 }
 
-.hero-brief .eyebrow { color: #86d8c8; }
+.hero-brief .eyebrow { color: #efb184; }
 .hero-brief h2 {
   position: relative;
   z-index: 1;
@@ -198,8 +231,8 @@ main {
   height: 32px;
   place-items: center;
   border-radius: 9px;
-  color: var(--aqua);
-  background: var(--aqua-soft);
+  color: var(--accent);
+  background: var(--accent-soft);
   font-size: 12px;
   font-weight: 800;
 }
@@ -218,7 +251,7 @@ main {
 }
 .metric:hover {
   transform: translateY(-2px);
-  border-color: rgba(15, 127, 120, 0.35);
+  border-color: rgba(180, 71, 58, 0.38);
   box-shadow: var(--shadow-soft);
 }
 .metric .label { color: var(--ink-500); font-size: 12px; font-weight: 700; }
@@ -296,9 +329,9 @@ section {
   border-radius: 11px;
 }
 .table-scroll table { min-width: 700px; }
-th { background: #f3f7f7; color: var(--ink-500); font-size: 11px; letter-spacing: .025em; }
+th { background: #f8f2ed; color: var(--ink-500); font-size: 11px; letter-spacing: .025em; }
 td { font-variant-numeric: tabular-nums; }
-tbody tr:hover { background: #f5faf9; }
+tbody tr:hover { background: #fbf4ef; }
 
 .summary-grid { gap: 12px; }
 .price-summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
