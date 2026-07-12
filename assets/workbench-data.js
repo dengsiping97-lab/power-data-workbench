@@ -5,7 +5,8 @@
                       "hydroWeekly":  "2026-W27",
                       "hydroHourly":  "2026-07-11 21:00",
                       "spotWeekly":  "2026-06-22",
-                      "proxyMonthly":  "2026-07"
+                      "proxyMonthly":  "2026-07",
+                      "systemFeeMonthly":  "2026-07"
                   },
     "hydroWeeklyLatest":  [
                               {
@@ -28494,6 +28495,6526 @@
                                      "proxyWow":  null
                                  }
                              ],
+    "systemFeeLatest":  [
+                            {
+                                "province":  "安徽",
+                                "month":  "2026-07",
+                                "total":  147.79999999999998,
+                                "totalWow":  16.7,
+                                "coalCapacity":  34.4,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "北京",
+                                "month":  "2026-07",
+                                "total":  -4.627,
+                                "totalWow":  242.7,
+                                "coalCapacity":  11.252,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "福建",
+                                "month":  "2026-07",
+                                "total":  43.072,
+                                "totalWow":  42.9,
+                                "coalCapacity":  21.133,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "广东",
+                                "month":  "2026-07",
+                                "total":  32.7,
+                                "totalWow":  7.6,
+                                "coalCapacity":  34.7,
+                                "ancillary":  2.6,
+                                "pumpedStorage":  5.4
+                            },
+                            {
+                                "province":  "广西",
+                                "month":  "2026-07",
+                                "total":  83.696999999999989,
+                                "totalWow":  26.2,
+                                "coalCapacity":  33.687000000000005,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "贵州",
+                                "month":  "2026-07",
+                                "total":  10.171,
+                                "totalWow":  -50.4,
+                                "coalCapacity":  null,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "海南",
+                                "month":  "2026-07",
+                                "total":  75.032,
+                                "totalWow":  -2.6,
+                                "coalCapacity":  null,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "河北",
+                                "month":  "2026-07",
+                                "total":  38.872,
+                                "totalWow":  -22.1,
+                                "coalCapacity":  32.813,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "河南",
+                                "month":  "2026-07",
+                                "total":  95.736,
+                                "totalWow":  -18.9,
+                                "coalCapacity":  34.763000000000005,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "黑龙江",
+                                "month":  "2026-07",
+                                "total":  138.764,
+                                "totalWow":  -4.5,
+                                "coalCapacity":  102.188,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "湖北",
+                                "month":  "2026-07",
+                                "total":  67.791000000000011,
+                                "totalWow":  -7.7,
+                                "coalCapacity":  32.129,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "湖南",
+                                "month":  "2026-07",
+                                "total":  92.02000000000001,
+                                "totalWow":  -18.9,
+                                "coalCapacity":  56.861000000000004,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "吉林",
+                                "month":  "2026-07",
+                                "total":  142.249,
+                                "totalWow":  29.5,
+                                "coalCapacity":  81.614,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "江苏",
+                                "month":  "2026-07",
+                                "total":  90.300000000000011,
+                                "totalWow":  8.4,
+                                "coalCapacity":  23.900000000000002,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "江西",
+                                "month":  "2026-07",
+                                "total":  46.251,
+                                "totalWow":  5.2,
+                                "coalCapacity":  31.386999999999997,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "辽宁",
+                                "month":  "2026-07",
+                                "total":  139.573,
+                                "totalWow":  0.2,
+                                "coalCapacity":  26.928,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "内蒙古",
+                                "month":  "2026-06",
+                                "total":  44.3,
+                                "totalWow":  24.1,
+                                "coalCapacity":  21.7,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "宁夏",
+                                "month":  "2026-07",
+                                "total":  59.038,
+                                "totalWow":  20,
+                                "coalCapacity":  14.6,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "青海",
+                                "month":  "2026-07",
+                                "total":  32.953,
+                                "totalWow":  8.6,
+                                "coalCapacity":  7.1060000000000008,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "山东",
+                                "month":  "2026-07",
+                                "total":  102.6,
+                                "totalWow":  27.6,
+                                "coalCapacity":  23.3,
+                                "ancillary":  null,
+                                "pumpedStorage":  4
+                            },
+                            {
+                                "province":  "山西",
+                                "month":  "2026-07",
+                                "total":  91.741,
+                                "totalWow":  -9.2,
+                                "coalCapacity":  29.357000000000003,
+                                "ancillary":  3.023,
+                                "pumpedStorage":  -1.536
+                            },
+                            {
+                                "province":  "陕西",
+                                "month":  "2026-07",
+                                "total":  99.8,
+                                "totalWow":  0.1,
+                                "coalCapacity":  14.200000000000001,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "上海",
+                                "month":  "2026-07",
+                                "total":  37.633,
+                                "totalWow":  -7.6,
+                                "coalCapacity":  17.155,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "四川",
+                                "month":  "2026-07",
+                                "total":  18.333,
+                                "totalWow":  -41,
+                                "coalCapacity":  8.226,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "天津",
+                                "month":  "2026-07",
+                                "total":  106.869,
+                                "totalWow":  29.3,
+                                "coalCapacity":  37.162,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "新疆",
+                                "month":  "2026-07",
+                                "total":  83.213,
+                                "totalWow":  -2.2,
+                                "coalCapacity":  29.481,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "云南",
+                                "month":  "2026-07",
+                                "total":  27.751,
+                                "totalWow":  91.2,
+                                "coalCapacity":  null,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            },
+                            {
+                                "province":  "重庆",
+                                "month":  "2026-07",
+                                "total":  56.726,
+                                "totalWow":  50.4,
+                                "coalCapacity":  22.574,
+                                "ancillary":  null,
+                                "pumpedStorage":  null
+                            }
+                        ],
+    "systemFeeHistory":  [
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-07",
+                                 "total":  147.79999999999998,
+                                 "totalWow":  16.7,
+                                 "coalCapacity":  34.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-06",
+                                 "total":  126.6,
+                                 "totalWow":  14.7,
+                                 "coalCapacity":  39.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-05",
+                                 "total":  110.39999999999999,
+                                 "totalWow":  10.6,
+                                 "coalCapacity":  38.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-04",
+                                 "total":  99.8,
+                                 "totalWow":  44.8,
+                                 "coalCapacity":  42.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-03",
+                                 "total":  68.9,
+                                 "totalWow":  -6.1,
+                                 "coalCapacity":  37.900000000000006,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-02",
+                                 "total":  73.4,
+                                 "totalWow":  -16.2,
+                                 "coalCapacity":  49.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2026-01",
+                                 "total":  87.6,
+                                 "totalWow":  256.1,
+                                 "coalCapacity":  34,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-12",
+                                 "total":  24.6,
+                                 "totalWow":  -33,
+                                 "coalCapacity":  19.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-11",
+                                 "total":  36.7,
+                                 "totalWow":  -45.2,
+                                 "coalCapacity":  22.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-10",
+                                 "total":  67,
+                                 "totalWow":  -3.6,
+                                 "coalCapacity":  22.700000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-09",
+                                 "total":  69.5,
+                                 "totalWow":  -18.5,
+                                 "coalCapacity":  19.099999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-08",
+                                 "total":  85.3,
+                                 "totalWow":  39.6,
+                                 "coalCapacity":  18.700000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-07",
+                                 "total":  61.1,
+                                 "totalWow":  1.2,
+                                 "coalCapacity":  19.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-06",
+                                 "total":  60.400000000000006,
+                                 "totalWow":  5.4,
+                                 "coalCapacity":  21.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-05",
+                                 "total":  57.3,
+                                 "totalWow":  21.1,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-04",
+                                 "total":  47.300000000000004,
+                                 "totalWow":  -6.3,
+                                 "coalCapacity":  20.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-03",
+                                 "total":  50.5,
+                                 "totalWow":  3056.2,
+                                 "coalCapacity":  21.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-02",
+                                 "total":  1.6,
+                                 "totalWow":  -93.9,
+                                 "coalCapacity":  24.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2025-01",
+                                 "total":  26.200000000000003,
+                                 "totalWow":  59.8,
+                                 "coalCapacity":  22.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2024-12",
+                                 "total":  16.400000000000002,
+                                 "totalWow":  -0.6,
+                                 "coalCapacity":  20.299999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2024-11",
+                                 "total":  16.5,
+                                 "totalWow":  -58.3,
+                                 "coalCapacity":  21.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2024-10",
+                                 "total":  39.6,
+                                 "totalWow":  -14.3,
+                                 "coalCapacity":  20.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2024-09",
+                                 "total":  46.199999999999996,
+                                 "totalWow":  10.5,
+                                 "coalCapacity":  27.400000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "安徽",
+                                 "month":  "2024-08",
+                                 "total":  41.8,
+                                 "totalWow":  null,
+                                 "coalCapacity":  14.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-07",
+                                 "total":  -4.627,
+                                 "totalWow":  242.7,
+                                 "coalCapacity":  11.252,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-06",
+                                 "total":  -1.35,
+                                 "totalWow":  -120,
+                                 "coalCapacity":  13.571,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-05",
+                                 "total":  6.7470000000000008,
+                                 "totalWow":  -64.7,
+                                 "coalCapacity":  16.548000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-04",
+                                 "total":  19.127000000000002,
+                                 "totalWow":  179.5,
+                                 "coalCapacity":  23.531,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-03",
+                                 "total":  6.844,
+                                 "totalWow":  -56.5,
+                                 "coalCapacity":  14.037,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-02",
+                                 "total":  15.723999999999998,
+                                 "totalWow":  118.8,
+                                 "coalCapacity":  24.164,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2026-01",
+                                 "total":  7.1869999999999994,
+                                 "totalWow":  -236.1,
+                                 "coalCapacity":  19.455,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-12",
+                                 "total":  -5.281,
+                                 "totalWow":  -380.5,
+                                 "coalCapacity":  9.635,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-11",
+                                 "total":  1.883,
+                                 "totalWow":  -82.5,
+                                 "coalCapacity":  14.61,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-10",
+                                 "total":  10.781,
+                                 "totalWow":  24.2,
+                                 "coalCapacity":  20.479,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-09",
+                                 "total":  8.682,
+                                 "totalWow":  -639.9,
+                                 "coalCapacity":  18.851,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-08",
+                                 "total":  -1.608,
+                                 "totalWow":  -66.1,
+                                 "coalCapacity":  13.159,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-07",
+                                 "total":  -4.746,
+                                 "totalWow":  175.6,
+                                 "coalCapacity":  13.953999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-06",
+                                 "total":  -1.722,
+                                 "totalWow":  -123.7,
+                                 "coalCapacity":  14.040000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-05",
+                                 "total":  7.265,
+                                 "totalWow":  -46.6,
+                                 "coalCapacity":  17.334,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-04",
+                                 "total":  13.593,
+                                 "totalWow":  37.1,
+                                 "coalCapacity":  15.882,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-03",
+                                 "total":  9.912,
+                                 "totalWow":  -40.7,
+                                 "coalCapacity":  13.889999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-02",
+                                 "total":  16.705000000000002,
+                                 "totalWow":  63.5,
+                                 "coalCapacity":  23.887999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2025-01",
+                                 "total":  10.219000000000001,
+                                 "totalWow":  76.3,
+                                 "coalCapacity":  20.079,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2024-12",
+                                 "total":  5.796,
+                                 "totalWow":  41.4,
+                                 "coalCapacity":  12.119,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2024-11",
+                                 "total":  4.099,
+                                 "totalWow":  -130.1,
+                                 "coalCapacity":  17.035999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2024-10",
+                                 "total":  -13.602,
+                                 "totalWow":  -216.7,
+                                 "coalCapacity":  19.934,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2024-09",
+                                 "total":  11.657,
+                                 "totalWow":  -1432.2,
+                                 "coalCapacity":  19.89,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "北京",
+                                 "month":  "2024-08",
+                                 "total":  -0.875,
+                                 "totalWow":  null,
+                                 "coalCapacity":  17.28,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-07",
+                                 "total":  43.072,
+                                 "totalWow":  42.9,
+                                 "coalCapacity":  21.133,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-06",
+                                 "total":  30.147,
+                                 "totalWow":  -44.7,
+                                 "coalCapacity":  22.651,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-05",
+                                 "total":  54.467,
+                                 "totalWow":  -8,
+                                 "coalCapacity":  27.137,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-04",
+                                 "total":  59.217,
+                                 "totalWow":  111.9,
+                                 "coalCapacity":  25.997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-03",
+                                 "total":  27.95,
+                                 "totalWow":  -72.1,
+                                 "coalCapacity":  24.613,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-02",
+                                 "total":  100.199,
+                                 "totalWow":  61.8,
+                                 "coalCapacity":  42.077999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2026-01",
+                                 "total":  61.943,
+                                 "totalWow":  204,
+                                 "coalCapacity":  24.636000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-12",
+                                 "total":  20.372999999999998,
+                                 "totalWow":  -31.3,
+                                 "coalCapacity":  13.934999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-11",
+                                 "total":  29.661,
+                                 "totalWow":  -14.4,
+                                 "coalCapacity":  15.405999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-10",
+                                 "total":  34.632999999999996,
+                                 "totalWow":  -19.5,
+                                 "coalCapacity":  14.863,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-09",
+                                 "total":  43,
+                                 "totalWow":  12.3,
+                                 "coalCapacity":  14,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-08",
+                                 "total":  38.3,
+                                 "totalWow":  29,
+                                 "coalCapacity":  12.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-07",
+                                 "total":  29.7,
+                                 "totalWow":  -11.1,
+                                 "coalCapacity":  15.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-06",
+                                 "total":  33.4,
+                                 "totalWow":  48.4,
+                                 "coalCapacity":  13.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-05",
+                                 "total":  22.5,
+                                 "totalWow":  -43.8,
+                                 "coalCapacity":  13.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-04",
+                                 "total":  40,
+                                 "totalWow":  21.6,
+                                 "coalCapacity":  14.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-03",
+                                 "total":  32.9,
+                                 "totalWow":  -37.7,
+                                 "coalCapacity":  14.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-02",
+                                 "total":  52.8,
+                                 "totalWow":  47.1,
+                                 "coalCapacity":  18.700000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2025-01",
+                                 "total":  35.9,
+                                 "totalWow":  -6.8,
+                                 "coalCapacity":  17.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2024-12",
+                                 "total":  38.5,
+                                 "totalWow":  52.2,
+                                 "coalCapacity":  14.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2024-11",
+                                 "total":  25.3,
+                                 "totalWow":  38.3,
+                                 "coalCapacity":  14.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2024-10",
+                                 "total":  18.3,
+                                 "totalWow":  -37.8,
+                                 "coalCapacity":  13.799999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2024-09",
+                                 "total":  29.4,
+                                 "totalWow":  59.8,
+                                 "coalCapacity":  12.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "福建",
+                                 "month":  "2024-08",
+                                 "total":  18.4,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-07",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  5.8,
+                                 "pumpedStorage":  0.005
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-06",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  5.107,
+                                 "pumpedStorage":  0.028
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-05",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  7.169,
+                                 "pumpedStorage":  0.82
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-04",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  91.78,
+                                 "ancillary":  4.951,
+                                 "pumpedStorage":  0.8899999999999999
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-03",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  39.870999999999995,
+                                 "ancillary":  5.1190000000000007,
+                                 "pumpedStorage":  0.773
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-02",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  30.476,
+                                 "ancillary":  17.761,
+                                 "pumpedStorage":  0.887
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2026-01",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11.03,
+                                 "ancillary":  14.437,
+                                 "pumpedStorage":  0.7649999999999999
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-12",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  10.914,
+                                 "ancillary":  15.049,
+                                 "pumpedStorage":  0.753
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-11",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.562999999999999,
+                                 "ancillary":  11.112,
+                                 "pumpedStorage":  0.825
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-10",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.447000000000001,
+                                 "ancillary":  8.872,
+                                 "pumpedStorage":  0.84900000000000009
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-09",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.426,
+                                 "ancillary":  8.521,
+                                 "pumpedStorage":  0.874
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-08",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.82,
+                                 "ancillary":  10.19,
+                                 "pumpedStorage":  0.906
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-07",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.801,
+                                 "ancillary":  7.621,
+                                 "pumpedStorage":  0.902
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-06",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  14.525,
+                                 "ancillary":  15.001000000000001,
+                                 "pumpedStorage":  0.916
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-05",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.291,
+                                 "ancillary":  4.333,
+                                 "pumpedStorage":  0.837
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-04",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.962,
+                                 "ancillary":  3.8310000000000004,
+                                 "pumpedStorage":  0.892
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-03",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.029,
+                                 "ancillary":  4.732,
+                                 "pumpedStorage":  1.091
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-02",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11.719,
+                                 "ancillary":  8.2900000000000009,
+                                 "pumpedStorage":  0.94700000000000006
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2025-01",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11.544,
+                                 "ancillary":  6.997,
+                                 "pumpedStorage":  0.527
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2024-12",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.709,
+                                 "ancillary":  5.876,
+                                 "pumpedStorage":  0.361
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2024-11",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  14.222,
+                                 "ancillary":  13.879000000000001,
+                                 "pumpedStorage":  0.434
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2024-10",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  13.180000000000001,
+                                 "ancillary":  16.141,
+                                 "pumpedStorage":  0.621
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2024-09",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.696000000000002,
+                                 "ancillary":  5.116,
+                                 "pumpedStorage":  0
+                             },
+                             {
+                                 "province":  "甘肃",
+                                 "month":  "2024-08",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  12.578000000000001,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  0
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-07",
+                                 "total":  32.7,
+                                 "totalWow":  7.6,
+                                 "coalCapacity":  34.7,
+                                 "ancillary":  2.6,
+                                 "pumpedStorage":  5.4
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-06",
+                                 "total":  30.4,
+                                 "totalWow":  -47.7,
+                                 "coalCapacity":  32.4,
+                                 "ancillary":  1.7,
+                                 "pumpedStorage":  5.3
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-05",
+                                 "total":  58.1,
+                                 "totalWow":  -32.4,
+                                 "coalCapacity":  35.1,
+                                 "ancillary":  2.2,
+                                 "pumpedStorage":  5.8
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-04",
+                                 "total":  85.9,
+                                 "totalWow":  -18.2,
+                                 "coalCapacity":  40.4,
+                                 "ancillary":  3.3,
+                                 "pumpedStorage":  6.8
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-03",
+                                 "total":  105,
+                                 "totalWow":  -18.5,
+                                 "coalCapacity":  44.900000000000006,
+                                 "ancillary":  1.7,
+                                 "pumpedStorage":  6.8999999999999995
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-02",
+                                 "total":  128.8,
+                                 "totalWow":  86.7,
+                                 "coalCapacity":  68,
+                                 "ancillary":  3.4,
+                                 "pumpedStorage":  13.4
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2026-01",
+                                 "total":  69,
+                                 "totalWow":  -4.7,
+                                 "coalCapacity":  42.4,
+                                 "ancillary":  4.2,
+                                 "pumpedStorage":  7.6
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-12",
+                                 "total":  72.4,
+                                 "totalWow":  -11.6,
+                                 "coalCapacity":  34.2,
+                                 "ancillary":  2.3,
+                                 "pumpedStorage":  6.7
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-11",
+                                 "total":  81.9,
+                                 "totalWow":  74.3,
+                                 "coalCapacity":  32.2,
+                                 "ancillary":  1.2,
+                                 "pumpedStorage":  6.2
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-10",
+                                 "total":  47,
+                                 "totalWow":  33.9,
+                                 "coalCapacity":  39.800000000000004,
+                                 "ancillary":  1.2,
+                                 "pumpedStorage":  6
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-09",
+                                 "total":  35.1,
+                                 "totalWow":  64,
+                                 "coalCapacity":  28.5,
+                                 "ancillary":  0.9,
+                                 "pumpedStorage":  5.7
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-08",
+                                 "total":  21.4,
+                                 "totalWow":  5.9,
+                                 "coalCapacity":  15.299999999999999,
+                                 "ancillary":  0.9,
+                                 "pumpedStorage":  5.2
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-07",
+                                 "total":  20.2,
+                                 "totalWow":  -11.8,
+                                 "coalCapacity":  14.3,
+                                 "ancillary":  0.9,
+                                 "pumpedStorage":  5
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-06",
+                                 "total":  22.9,
+                                 "totalWow":  -12.6,
+                                 "coalCapacity":  16.5,
+                                 "ancillary":  0.7,
+                                 "pumpedStorage":  5.7
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-05",
+                                 "total":  26.200000000000003,
+                                 "totalWow":  8.3,
+                                 "coalCapacity":  19.599999999999998,
+                                 "ancillary":  0.9,
+                                 "pumpedStorage":  5.7
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-04",
+                                 "total":  24.2,
+                                 "totalWow":  -6.9,
+                                 "coalCapacity":  17.4,
+                                 "ancillary":  0.8,
+                                 "pumpedStorage":  6
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-03",
+                                 "total":  26,
+                                 "totalWow":  -32.3,
+                                 "coalCapacity":  19.400000000000002,
+                                 "ancillary":  0.6,
+                                 "pumpedStorage":  6
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-02",
+                                 "total":  38.4,
+                                 "totalWow":  4.6,
+                                 "coalCapacity":  28,
+                                 "ancillary":  1.4,
+                                 "pumpedStorage":  9
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2025-01",
+                                 "total":  36.7,
+                                 "totalWow":  52.3,
+                                 "coalCapacity":  26.4,
+                                 "ancillary":  1.4,
+                                 "pumpedStorage":  8.9
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2024-12",
+                                 "total":  24.1,
+                                 "totalWow":  -0.8,
+                                 "coalCapacity":  16.7,
+                                 "ancillary":  1.1,
+                                 "pumpedStorage":  6.3
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2024-11",
+                                 "total":  24.299999999999997,
+                                 "totalWow":  2.1,
+                                 "coalCapacity":  16.8,
+                                 "ancillary":  1.2,
+                                 "pumpedStorage":  6.3
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2024-10",
+                                 "total":  23.8,
+                                 "totalWow":  13.3,
+                                 "coalCapacity":  16.7,
+                                 "ancillary":  0.9,
+                                 "pumpedStorage":  6.2
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2024-09",
+                                 "total":  21,
+                                 "totalWow":  0.5,
+                                 "coalCapacity":  14.6,
+                                 "ancillary":  0.8,
+                                 "pumpedStorage":  5.6
+                             },
+                             {
+                                 "province":  "广东",
+                                 "month":  "2024-08",
+                                 "total":  20.9,
+                                 "totalWow":  null,
+                                 "coalCapacity":  14.5,
+                                 "ancillary":  0.8,
+                                 "pumpedStorage":  5.6
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-07",
+                                 "total":  83.696999999999989,
+                                 "totalWow":  26.2,
+                                 "coalCapacity":  33.687000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-06",
+                                 "total":  66.332000000000008,
+                                 "totalWow":  -22.2,
+                                 "coalCapacity":  21.249,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-05",
+                                 "total":  85.288,
+                                 "totalWow":  -10.2,
+                                 "coalCapacity":  22.689,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-04",
+                                 "total":  94.987000000000009,
+                                 "totalWow":  -33.4,
+                                 "coalCapacity":  23.168999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-03",
+                                 "total":  142.625,
+                                 "totalWow":  5.3,
+                                 "coalCapacity":  24.304,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-02",
+                                 "total":  135.41400000000002,
+                                 "totalWow":  95.7,
+                                 "coalCapacity":  34.366,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2026-01",
+                                 "total":  69.202,
+                                 "totalWow":  100.5,
+                                 "coalCapacity":  24.752,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-12",
+                                 "total":  34.522999999999996,
+                                 "totalWow":  56.5,
+                                 "coalCapacity":  29.688,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-11",
+                                 "total":  22.053,
+                                 "totalWow":  3.3,
+                                 "coalCapacity":  21.003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-10",
+                                 "total":  21.340999999999998,
+                                 "totalWow":  10.2,
+                                 "coalCapacity":  20.344,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-09",
+                                 "total":  19.369,
+                                 "totalWow":  -6,
+                                 "coalCapacity":  18.39,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-08",
+                                 "total":  20.611,
+                                 "totalWow":  7,
+                                 "coalCapacity":  19.639,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-07",
+                                 "total":  19.256,
+                                 "totalWow":  -9,
+                                 "coalCapacity":  18.218,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-06",
+                                 "total":  21.155,
+                                 "totalWow":  -12.6,
+                                 "coalCapacity":  20.080000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-05",
+                                 "total":  24.206,
+                                 "totalWow":  -13.5,
+                                 "coalCapacity":  23.114,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-04",
+                                 "total":  27.969,
+                                 "totalWow":  4.4,
+                                 "coalCapacity":  26.672,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-03",
+                                 "total":  26.790000000000003,
+                                 "totalWow":  -13.2,
+                                 "coalCapacity":  25.612,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-02",
+                                 "total":  30.846999999999998,
+                                 "totalWow":  17.7,
+                                 "coalCapacity":  29.465999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2025-01",
+                                 "total":  26.218,
+                                 "totalWow":  7.8,
+                                 "coalCapacity":  24.932,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2024-12",
+                                 "total":  24.328,
+                                 "totalWow":  -22.3,
+                                 "coalCapacity":  23.23,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2024-11",
+                                 "total":  31.307000000000002,
+                                 "totalWow":  35.3,
+                                 "coalCapacity":  30.186,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2024-10",
+                                 "total":  23.137,
+                                 "totalWow":  2.3,
+                                 "coalCapacity":  21.961000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2024-09",
+                                 "total":  22.609,
+                                 "totalWow":  6.6,
+                                 "coalCapacity":  21.467,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "广西",
+                                 "month":  "2024-08",
+                                 "total":  21.204,
+                                 "totalWow":  null,
+                                 "coalCapacity":  21.204,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-07",
+                                 "total":  10.171,
+                                 "totalWow":  -50.4,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-06",
+                                 "total":  20.502,
+                                 "totalWow":  -41.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-05",
+                                 "total":  35.098,
+                                 "totalWow":  -18.5,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-04",
+                                 "total":  43.085,
+                                 "totalWow":  24.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-03",
+                                 "total":  34.556000000000004,
+                                 "totalWow":  -20.9,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-02",
+                                 "total":  43.67,
+                                 "totalWow":  -33.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2026-01",
+                                 "total":  65.515,
+                                 "totalWow":  -557.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-12",
+                                 "total":  -14.327,
+                                 "totalWow":  -142.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-11",
+                                 "total":  34.022999999999996,
+                                 "totalWow":  0.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-10",
+                                 "total":  33.753,
+                                 "totalWow":  -2.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-09",
+                                 "total":  34.461,
+                                 "totalWow":  -50.2,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-08",
+                                 "total":  69.131,
+                                 "totalWow":  -20,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-07",
+                                 "total":  86.457000000000008,
+                                 "totalWow":  27.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-06",
+                                 "total":  68.035,
+                                 "totalWow":  15.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-05",
+                                 "total":  58.989,
+                                 "totalWow":  -0.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-04",
+                                 "total":  59.342999999999996,
+                                 "totalWow":  -2.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-03",
+                                 "total":  60.642,
+                                 "totalWow":  4.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-02",
+                                 "total":  57.931000000000004,
+                                 "totalWow":  11.4,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2025-01",
+                                 "total":  52.019000000000005,
+                                 "totalWow":  4.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2024-12",
+                                 "total":  49.616,
+                                 "totalWow":  -7.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2024-11",
+                                 "total":  53.689,
+                                 "totalWow":  -8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2024-10",
+                                 "total":  58.342,
+                                 "totalWow":  21.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2024-09",
+                                 "total":  48.193,
+                                 "totalWow":  103.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "贵州",
+                                 "month":  "2024-08",
+                                 "total":  23.708,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-07",
+                                 "total":  75.032,
+                                 "totalWow":  -2.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-06",
+                                 "total":  77,
+                                 "totalWow":  -15.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-05",
+                                 "total":  90.913,
+                                 "totalWow":  -21.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-04",
+                                 "total":  116.19200000000001,
+                                 "totalWow":  -26.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-03",
+                                 "total":  158.319,
+                                 "totalWow":  15.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-02",
+                                 "total":  137.59199999999998,
+                                 "totalWow":  -3127.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2026-01",
+                                 "total":  -4.5450000000000008,
+                                 "totalWow":  -90.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-12",
+                                 "total":  -46.682,
+                                 "totalWow":  268.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-11",
+                                 "total":  -12.661,
+                                 "totalWow":  -120.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-10",
+                                 "total":  60.796,
+                                 "totalWow":  -22.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-09",
+                                 "total":  78.226,
+                                 "totalWow":  696,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-08",
+                                 "total":  9.828,
+                                 "totalWow":  -50.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-07",
+                                 "total":  19.689999999999998,
+                                 "totalWow":  -69.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-06",
+                                 "total":  64.095,
+                                 "totalWow":  -4.4,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-05",
+                                 "total":  67.054,
+                                 "totalWow":  -3.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-04",
+                                 "total":  69.166000000000011,
+                                 "totalWow":  -3.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-03",
+                                 "total":  71.765999999999991,
+                                 "totalWow":  30.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-02",
+                                 "total":  54.908,
+                                 "totalWow":  23.2,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2025-01",
+                                 "total":  44.57,
+                                 "totalWow":  -12,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2024-12",
+                                 "total":  50.642,
+                                 "totalWow":  1.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2024-11",
+                                 "total":  50.090999999999994,
+                                 "totalWow":  37.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2024-10",
+                                 "total":  36.364,
+                                 "totalWow":  -18,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2024-09",
+                                 "total":  44.345000000000006,
+                                 "totalWow":  0.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "海南",
+                                 "month":  "2024-08",
+                                 "total":  44.302,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-07",
+                                 "total":  38.872,
+                                 "totalWow":  -22.1,
+                                 "coalCapacity":  32.813,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-06",
+                                 "total":  49.873,
+                                 "totalWow":  -1.3,
+                                 "coalCapacity":  33.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-05",
+                                 "total":  50.535,
+                                 "totalWow":  -7.4,
+                                 "coalCapacity":  37.511999999999993,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-04",
+                                 "total":  54.583,
+                                 "totalWow":  18.6,
+                                 "coalCapacity":  41.469,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-03",
+                                 "total":  46.035,
+                                 "totalWow":  -46.3,
+                                 "coalCapacity":  34.704,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-02",
+                                 "total":  85.652,
+                                 "totalWow":  33.8,
+                                 "coalCapacity":  47.489000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2026-01",
+                                 "total":  64,
+                                 "totalWow":  93.9,
+                                 "coalCapacity":  323.69,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-12",
+                                 "total":  33.001999999999995,
+                                 "totalWow":  102.3,
+                                 "coalCapacity":  18.405,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-11",
+                                 "total":  16.315,
+                                 "totalWow":  -23.7,
+                                 "coalCapacity":  22.591,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-10",
+                                 "total":  21.392999999999997,
+                                 "totalWow":  -40.9,
+                                 "coalCapacity":  23.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-09",
+                                 "total":  36.217,
+                                 "totalWow":  10.2,
+                                 "coalCapacity":  22.700000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-08",
+                                 "total":  32.877,
+                                 "totalWow":  4.3,
+                                 "coalCapacity":  22.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-07",
+                                 "total":  31.529,
+                                 "totalWow":  -39,
+                                 "coalCapacity":  21.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-06",
+                                 "total":  51.712,
+                                 "totalWow":  64.3,
+                                 "coalCapacity":  23.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-05",
+                                 "total":  31.473000000000003,
+                                 "totalWow":  -11,
+                                 "coalCapacity":  23,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-04",
+                                 "total":  35.356,
+                                 "totalWow":  -33.7,
+                                 "coalCapacity":  23.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-03",
+                                 "total":  53.357,
+                                 "totalWow":  0.2,
+                                 "coalCapacity":  22.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-02",
+                                 "total":  53.265,
+                                 "totalWow":  -19.5,
+                                 "coalCapacity":  25.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2025-01",
+                                 "total":  66.163,
+                                 "totalWow":  58.1,
+                                 "coalCapacity":  24.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2024-12",
+                                 "total":  41.842,
+                                 "totalWow":  83.2,
+                                 "coalCapacity":  21,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2024-11",
+                                 "total":  22.844,
+                                 "totalWow":  2309.7,
+                                 "coalCapacity":  22.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2024-10",
+                                 "total":  0.948,
+                                 "totalWow":  -110.4,
+                                 "coalCapacity":  25.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2024-09",
+                                 "total":  -9.155,
+                                 "totalWow":  -145,
+                                 "coalCapacity":  19,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河北",
+                                 "month":  "2024-08",
+                                 "total":  20.342,
+                                 "totalWow":  null,
+                                 "coalCapacity":  27.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-07",
+                                 "total":  95.736,
+                                 "totalWow":  -18.9,
+                                 "coalCapacity":  34.763000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-06",
+                                 "total":  118.029,
+                                 "totalWow":  -17.4,
+                                 "coalCapacity":  38.025000000000006,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-05",
+                                 "total":  142.896,
+                                 "totalWow":  17.9,
+                                 "coalCapacity":  40.252,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-04",
+                                 "total":  121.208,
+                                 "totalWow":  11.4,
+                                 "coalCapacity":  42.552,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-03",
+                                 "total":  108.82600000000001,
+                                 "totalWow":  -14.4,
+                                 "coalCapacity":  41.559,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-02",
+                                 "total":  127.17,
+                                 "totalWow":  25.6,
+                                 "coalCapacity":  52.143,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2026-01",
+                                 "total":  101.23899999999999,
+                                 "totalWow":  25.7,
+                                 "coalCapacity":  38.400999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-12",
+                                 "total":  80.536,
+                                 "totalWow":  60.6,
+                                 "coalCapacity":  38.504,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-11",
+                                 "total":  50.14,
+                                 "totalWow":  -8.3,
+                                 "coalCapacity":  43.062000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-10",
+                                 "total":  54.649,
+                                 "totalWow":  12,
+                                 "coalCapacity":  44.329,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-09",
+                                 "total":  48.803,
+                                 "totalWow":  -25.5,
+                                 "coalCapacity":  40.307,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-08",
+                                 "total":  65.49199999999999,
+                                 "totalWow":  -1.6,
+                                 "coalCapacity":  36.108000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-07",
+                                 "total":  66.589,
+                                 "totalWow":  -2.9,
+                                 "coalCapacity":  36.289,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-06",
+                                 "total":  68.575,
+                                 "totalWow":  -5.1,
+                                 "coalCapacity":  40.138,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-05",
+                                 "total":  72.256,
+                                 "totalWow":  4.1,
+                                 "coalCapacity":  41.818,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-04",
+                                 "total":  69.424,
+                                 "totalWow":  -22.8,
+                                 "coalCapacity":  45.424,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-03",
+                                 "total":  89.908,
+                                 "totalWow":  21.7,
+                                 "coalCapacity":  41.906,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-02",
+                                 "total":  73.852,
+                                 "totalWow":  14.7,
+                                 "coalCapacity":  47.753,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2025-01",
+                                 "total":  64.404,
+                                 "totalWow":  204.8,
+                                 "coalCapacity":  41.986999999999995,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2024-12",
+                                 "total":  21.132,
+                                 "totalWow":  878.8,
+                                 "coalCapacity":  38.174,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2024-11",
+                                 "total":  2.159,
+                                 "totalWow":  -104.9,
+                                 "coalCapacity":  29.573999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2024-10",
+                                 "total":  -44.17,
+                                 "totalWow":  -248.2,
+                                 "coalCapacity":  28.962000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2024-09",
+                                 "total":  29.808999999999997,
+                                 "totalWow":  -62.6,
+                                 "coalCapacity":  36.388999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "河南",
+                                 "month":  "2024-08",
+                                 "total":  79.694,
+                                 "totalWow":  null,
+                                 "coalCapacity":  41.797000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-07",
+                                 "total":  138.764,
+                                 "totalWow":  -4.5,
+                                 "coalCapacity":  102.188,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-06",
+                                 "total":  145.297,
+                                 "totalWow":  7,
+                                 "coalCapacity":  114.36699999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-05",
+                                 "total":  135.816,
+                                 "totalWow":  3.6,
+                                 "coalCapacity":  113.29599999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-04",
+                                 "total":  131.139,
+                                 "totalWow":  -2.1,
+                                 "coalCapacity":  55.244,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-03",
+                                 "total":  133.99099999999999,
+                                 "totalWow":  -2.2,
+                                 "coalCapacity":  88.419,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-02",
+                                 "total":  136.95,
+                                 "totalWow":  17.2,
+                                 "coalCapacity":  92.747,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2026-01",
+                                 "total":  116.858,
+                                 "totalWow":  292.9,
+                                 "coalCapacity":  78.206,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-12",
+                                 "total":  29.741,
+                                 "totalWow":  -24.7,
+                                 "coalCapacity":  19.518,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-11",
+                                 "total":  39.504999999999995,
+                                 "totalWow":  2.8,
+                                 "coalCapacity":  27.389,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-10",
+                                 "total":  38.42,
+                                 "totalWow":  -2.7,
+                                 "coalCapacity":  29.076999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-09",
+                                 "total":  39.491,
+                                 "totalWow":  -14.3,
+                                 "coalCapacity":  26.358,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-08",
+                                 "total":  46.104,
+                                 "totalWow":  -12.6,
+                                 "coalCapacity":  25.138,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-07",
+                                 "total":  52.741,
+                                 "totalWow":  25.4,
+                                 "coalCapacity":  27.608,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-06",
+                                 "total":  42.071,
+                                 "totalWow":  -6.8,
+                                 "coalCapacity":  31.148,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-05",
+                                 "total":  45.138,
+                                 "totalWow":  -6.4,
+                                 "coalCapacity":  30.401999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-04",
+                                 "total":  48.2,
+                                 "totalWow":  -1.5,
+                                 "coalCapacity":  29.822000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-03",
+                                 "total":  48.914,
+                                 "totalWow":  -4.7,
+                                 "coalCapacity":  23.209,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-02",
+                                 "total":  51.308,
+                                 "totalWow":  1.9,
+                                 "coalCapacity":  24.503,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2025-01",
+                                 "total":  50.329,
+                                 "totalWow":  45.5,
+                                 "coalCapacity":  22.423,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2024-12",
+                                 "total":  34.594,
+                                 "totalWow":  9.6,
+                                 "coalCapacity":  14.837,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2024-11",
+                                 "total":  31.551000000000002,
+                                 "totalWow":  27.2,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2024-10",
+                                 "total":  24.797,
+                                 "totalWow":  -33,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2024-09",
+                                 "total":  37.036,
+                                 "totalWow":  0.3,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "黑龙江",
+                                 "month":  "2024-08",
+                                 "total":  36.909,
+                                 "totalWow":  null,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-07",
+                                 "total":  67.791000000000011,
+                                 "totalWow":  -7.7,
+                                 "coalCapacity":  32.129,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-06",
+                                 "total":  73.477,
+                                 "totalWow":  21.7,
+                                 "coalCapacity":  36.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-05",
+                                 "total":  60.39,
+                                 "totalWow":  16.3,
+                                 "coalCapacity":  38.793,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-04",
+                                 "total":  51.928000000000004,
+                                 "totalWow":  -17.7,
+                                 "coalCapacity":  40.094,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-03",
+                                 "total":  63.116000000000007,
+                                 "totalWow":  -40.1,
+                                 "coalCapacity":  36.851,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-02",
+                                 "total":  105.318,
+                                 "totalWow":  28,
+                                 "coalCapacity":  51.409000000000006,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2026-01",
+                                 "total":  82.273,
+                                 "totalWow":  40.9,
+                                 "coalCapacity":  36.657000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-12",
+                                 "total":  58.406,
+                                 "totalWow":  93.5,
+                                 "coalCapacity":  20.976000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-11",
+                                 "total":  30.189,
+                                 "totalWow":  -30.7,
+                                 "coalCapacity":  22.351,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-10",
+                                 "total":  43.553000000000004,
+                                 "totalWow":  31.2,
+                                 "coalCapacity":  22.044999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-09",
+                                 "total":  33.2,
+                                 "totalWow":  -18.6,
+                                 "coalCapacity":  19,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-08",
+                                 "total":  40.800000000000004,
+                                 "totalWow":  6,
+                                 "coalCapacity":  17.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-07",
+                                 "total":  38.5,
+                                 "totalWow":  111.5,
+                                 "coalCapacity":  18.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-06",
+                                 "total":  18.2,
+                                 "totalWow":  -4.7,
+                                 "coalCapacity":  20.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-05",
+                                 "total":  19.099999999999998,
+                                 "totalWow":  -29,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-04",
+                                 "total":  26.9,
+                                 "totalWow":  -24,
+                                 "coalCapacity":  25.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-03",
+                                 "total":  35.4,
+                                 "totalWow":  -55.6,
+                                 "coalCapacity":  22.599999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-02",
+                                 "total":  79.8,
+                                 "totalWow":  30.4,
+                                 "coalCapacity":  30.099999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2025-01",
+                                 "total":  61.199999999999996,
+                                 "totalWow":  56.5,
+                                 "coalCapacity":  20.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2024-12",
+                                 "total":  39.1,
+                                 "totalWow":  53.3,
+                                 "coalCapacity":  12.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2024-11",
+                                 "total":  25.5,
+                                 "totalWow":  200,
+                                 "coalCapacity":  18.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2024-10",
+                                 "total":  8.5,
+                                 "totalWow":  -77,
+                                 "coalCapacity":  21,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2024-09",
+                                 "total":  36.900000000000006,
+                                 "totalWow":  118.3,
+                                 "coalCapacity":  39.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖北",
+                                 "month":  "2024-08",
+                                 "total":  16.9,
+                                 "totalWow":  null,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-07",
+                                 "total":  92.02000000000001,
+                                 "totalWow":  -18.9,
+                                 "coalCapacity":  56.861000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-06",
+                                 "total":  113.51899999999999,
+                                 "totalWow":  123.7,
+                                 "coalCapacity":  82.14,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-05",
+                                 "total":  50.746,
+                                 "totalWow":  -42.2,
+                                 "coalCapacity":  57.163,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-04",
+                                 "total":  87.817000000000007,
+                                 "totalWow":  151.9,
+                                 "coalCapacity":  48.917,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-03",
+                                 "total":  34.86,
+                                 "totalWow":  -61.2,
+                                 "coalCapacity":  29.762,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-02",
+                                 "total":  89.863,
+                                 "totalWow":  158.5,
+                                 "coalCapacity":  66.669999999999987,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2026-01",
+                                 "total":  34.76,
+                                 "totalWow":  -36.8,
+                                 "coalCapacity":  48.157,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-12",
+                                 "total":  54.961000000000006,
+                                 "totalWow":  -47.6,
+                                 "coalCapacity":  36.375,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-11",
+                                 "total":  104.86099999999999,
+                                 "totalWow":  -489.5,
+                                 "coalCapacity":  40.095,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-10",
+                                 "total":  -26.923,
+                                 "totalWow":  -817.9,
+                                 "coalCapacity":  52.477000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-09",
+                                 "total":  3.75,
+                                 "totalWow":  -93.4,
+                                 "coalCapacity":  37.26,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-08",
+                                 "total":  56.800000000000004,
+                                 "totalWow":  45.8,
+                                 "coalCapacity":  30.099999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-07",
+                                 "total":  38.97,
+                                 "totalWow":  612.4,
+                                 "coalCapacity":  31.02,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-06",
+                                 "total":  5.47,
+                                 "totalWow":  -88,
+                                 "coalCapacity":  40.58,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-05",
+                                 "total":  45.580000000000005,
+                                 "totalWow":  -34.4,
+                                 "coalCapacity":  36.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-04",
+                                 "total":  69.45,
+                                 "totalWow":  222,
+                                 "coalCapacity":  39.96,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-03",
+                                 "total":  21.57,
+                                 "totalWow":  -47.8,
+                                 "coalCapacity":  38.980000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-02",
+                                 "total":  41.300000000000004,
+                                 "totalWow":  12.7,
+                                 "coalCapacity":  44.040000000000006,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2025-01",
+                                 "total":  36.64,
+                                 "totalWow":  -10.6,
+                                 "coalCapacity":  39.95,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2024-12",
+                                 "total":  40.99,
+                                 "totalWow":  -4866.3,
+                                 "coalCapacity":  35.42,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2024-11",
+                                 "total":  -0.86,
+                                 "totalWow":  -95,
+                                 "coalCapacity":  37.28,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2024-10",
+                                 "total":  -17.32,
+                                 "totalWow":  -20.3,
+                                 "coalCapacity":  41.14,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2024-09",
+                                 "total":  -21.74,
+                                 "totalWow":  220.2,
+                                 "coalCapacity":  36.589999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "湖南",
+                                 "month":  "2024-08",
+                                 "total":  -6.79,
+                                 "totalWow":  null,
+                                 "coalCapacity":  32.410000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-07",
+                                 "total":  142.249,
+                                 "totalWow":  29.5,
+                                 "coalCapacity":  81.614,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-06",
+                                 "total":  109.86,
+                                 "totalWow":  -26.8,
+                                 "coalCapacity":  90.823000000000008,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-05",
+                                 "total":  150.03900000000002,
+                                 "totalWow":  43.6,
+                                 "coalCapacity":  115.802,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-04",
+                                 "total":  104.514,
+                                 "totalWow":  4.5,
+                                 "coalCapacity":  103.51,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-03",
+                                 "total":  99.995,
+                                 "totalWow":  -14.4,
+                                 "coalCapacity":  66.341,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-02",
+                                 "total":  116.80799999999999,
+                                 "totalWow":  25.8,
+                                 "coalCapacity":  89.897,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2026-01",
+                                 "total":  92.863,
+                                 "totalWow":  59.1,
+                                 "coalCapacity":  80.683,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-12",
+                                 "total":  58.372,
+                                 "totalWow":  70.7,
+                                 "coalCapacity":  25.201,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-11",
+                                 "total":  34.198,
+                                 "totalWow":  -5.4,
+                                 "coalCapacity":  27.325,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-10",
+                                 "total":  36.168,
+                                 "totalWow":  -33.7,
+                                 "coalCapacity":  24.464,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-09",
+                                 "total":  54.57,
+                                 "totalWow":  48.1,
+                                 "coalCapacity":  26.110999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-08",
+                                 "total":  36.846,
+                                 "totalWow":  -48.9,
+                                 "coalCapacity":  34.347,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-07",
+                                 "total":  72.113,
+                                 "totalWow":  -8.7,
+                                 "coalCapacity":  44.456,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-06",
+                                 "total":  78.977,
+                                 "totalWow":  0.1,
+                                 "coalCapacity":  23.810000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-05",
+                                 "total":  78.881999999999991,
+                                 "totalWow":  -10,
+                                 "coalCapacity":  28.166,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-04",
+                                 "total":  87.63,
+                                 "totalWow":  28.1,
+                                 "coalCapacity":  43.753,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-03",
+                                 "total":  68.423,
+                                 "totalWow":  -3.9,
+                                 "coalCapacity":  27.096,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-02",
+                                 "total":  71.22,
+                                 "totalWow":  40.6,
+                                 "coalCapacity":  24.954,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2025-01",
+                                 "total":  50.666000000000004,
+                                 "totalWow":  -10.2,
+                                 "coalCapacity":  27.576,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2024-12",
+                                 "total":  56.416000000000004,
+                                 "totalWow":  40,
+                                 "coalCapacity":  30.981,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2024-11",
+                                 "total":  40.284,
+                                 "totalWow":  3.9,
+                                 "coalCapacity":  26.504,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2024-10",
+                                 "total":  38.773,
+                                 "totalWow":  83.2,
+                                 "coalCapacity":  39.400999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2024-09",
+                                 "total":  21.169,
+                                 "totalWow":  -60,
+                                 "coalCapacity":  33.829,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "吉林",
+                                 "month":  "2024-08",
+                                 "total":  52.954,
+                                 "totalWow":  null,
+                                 "coalCapacity":  18.689999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-07",
+                                 "total":  90.300000000000011,
+                                 "totalWow":  8.4,
+                                 "coalCapacity":  23.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-06",
+                                 "total":  83.3,
+                                 "totalWow":  11.1,
+                                 "coalCapacity":  32.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-05",
+                                 "total":  75,
+                                 "totalWow":  9,
+                                 "coalCapacity":  34,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-04",
+                                 "total":  68.8,
+                                 "totalWow":  -21.5,
+                                 "coalCapacity":  34.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-03",
+                                 "total":  87.6,
+                                 "totalWow":  -29.8,
+                                 "coalCapacity":  35,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-02",
+                                 "total":  124.8,
+                                 "totalWow":  53.3,
+                                 "coalCapacity":  43,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2026-01",
+                                 "total":  81.4,
+                                 "totalWow":  88,
+                                 "coalCapacity":  26.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-12",
+                                 "total":  43.3,
+                                 "totalWow":  10.5,
+                                 "coalCapacity":  13.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-11",
+                                 "total":  39.199999999999996,
+                                 "totalWow":  14,
+                                 "coalCapacity":  14.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-10",
+                                 "total":  34.4,
+                                 "totalWow":  -40.8,
+                                 "coalCapacity":  15.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-09",
+                                 "total":  58.1,
+                                 "totalWow":  -16.6,
+                                 "coalCapacity":  14.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-08",
+                                 "total":  69.7,
+                                 "totalWow":  6.2,
+                                 "coalCapacity":  12.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-07",
+                                 "total":  65.600000000000009,
+                                 "totalWow":  52.6,
+                                 "coalCapacity":  12.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-06",
+                                 "total":  43,
+                                 "totalWow":  40.1,
+                                 "coalCapacity":  15.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-05",
+                                 "total":  30.700000000000003,
+                                 "totalWow":  13.7,
+                                 "coalCapacity":  15.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-04",
+                                 "total":  27,
+                                 "totalWow":  -17.9,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-03",
+                                 "total":  32.9,
+                                 "totalWow":  -31.9,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-02",
+                                 "total":  48.300000000000004,
+                                 "totalWow":  -30.7,
+                                 "coalCapacity":  17.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2025-01",
+                                 "total":  69.7,
+                                 "totalWow":  86.4,
+                                 "coalCapacity":  18.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2024-12",
+                                 "total":  37.400000000000006,
+                                 "totalWow":  7.2,
+                                 "coalCapacity":  15.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2024-11",
+                                 "total":  34.9,
+                                 "totalWow":  22,
+                                 "coalCapacity":  16.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2024-10",
+                                 "total":  28.6,
+                                 "totalWow":  -16.6,
+                                 "coalCapacity":  16.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2024-09",
+                                 "total":  34.3,
+                                 "totalWow":  6.9,
+                                 "coalCapacity":  14.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江苏",
+                                 "month":  "2024-08",
+                                 "total":  32.099999999999994,
+                                 "totalWow":  null,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-07",
+                                 "total":  46.251,
+                                 "totalWow":  5.2,
+                                 "coalCapacity":  31.386999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-06",
+                                 "total":  43.948,
+                                 "totalWow":  24.2,
+                                 "coalCapacity":  35.631,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-05",
+                                 "total":  35.399,
+                                 "totalWow":  15.8,
+                                 "coalCapacity":  36.037,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-04",
+                                 "total":  30.561,
+                                 "totalWow":  -26.2,
+                                 "coalCapacity":  35.97,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-03",
+                                 "total":  41.417,
+                                 "totalWow":  46.4,
+                                 "coalCapacity":  38.366,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-02",
+                                 "total":  28.289,
+                                 "totalWow":  -26.2,
+                                 "coalCapacity":  59.15,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2026-01",
+                                 "total":  38.317,
+                                 "totalWow":  -0.8,
+                                 "coalCapacity":  33.547,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-12",
+                                 "total":  38.618,
+                                 "totalWow":  -20.8,
+                                 "coalCapacity":  18.138,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-11",
+                                 "total":  48.733,
+                                 "totalWow":  74.3,
+                                 "coalCapacity":  19.997999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-10",
+                                 "total":  27.961,
+                                 "totalWow":  -35.9,
+                                 "coalCapacity":  21.638,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-09",
+                                 "total":  43.64,
+                                 "totalWow":  151.8,
+                                 "coalCapacity":  17.97,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-08",
+                                 "total":  17.330000000000002,
+                                 "totalWow":  6.1,
+                                 "coalCapacity":  15.02,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-07",
+                                 "total":  16.34,
+                                 "totalWow":  -17.3,
+                                 "coalCapacity":  16.51,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-06",
+                                 "total":  19.759999999999998,
+                                 "totalWow":  3.4,
+                                 "coalCapacity":  17.23,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-05",
+                                 "total":  19.11,
+                                 "totalWow":  31.8,
+                                 "coalCapacity":  20.22,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-04",
+                                 "total":  14.5,
+                                 "totalWow":  -29,
+                                 "coalCapacity":  16.729999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-03",
+                                 "total":  20.42,
+                                 "totalWow":  -41,
+                                 "coalCapacity":  22.970000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-02",
+                                 "total":  34.62,
+                                 "totalWow":  -35,
+                                 "coalCapacity":  22.41,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2025-01",
+                                 "total":  53.24,
+                                 "totalWow":  -442.6,
+                                 "coalCapacity":  23.39,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2024-12",
+                                 "total":  -15.54,
+                                 "totalWow":  142.8,
+                                 "coalCapacity":  14.02,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2024-11",
+                                 "total":  -6.4,
+                                 "totalWow":  -128,
+                                 "coalCapacity":  18.270000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2024-10",
+                                 "total":  22.82,
+                                 "totalWow":  34.7,
+                                 "coalCapacity":  28.580000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2024-09",
+                                 "total":  16.94,
+                                 "totalWow":  -483.3,
+                                 "coalCapacity":  20.490000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "江西",
+                                 "month":  "2024-08",
+                                 "total":  -4.42,
+                                 "totalWow":  null,
+                                 "coalCapacity":  21.57,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-07",
+                                 "total":  139.573,
+                                 "totalWow":  0.2,
+                                 "coalCapacity":  26.928,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-06",
+                                 "total":  139.353,
+                                 "totalWow":  -0.1,
+                                 "coalCapacity":  26.784,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-05",
+                                 "total":  139.549,
+                                 "totalWow":  -2.7,
+                                 "coalCapacity":  29.677,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-04",
+                                 "total":  143.47899999999998,
+                                 "totalWow":  -8.6,
+                                 "coalCapacity":  27.077,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-03",
+                                 "total":  157.027,
+                                 "totalWow":  58.1,
+                                 "coalCapacity":  21.503999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-02",
+                                 "total":  99.305,
+                                 "totalWow":  157.9,
+                                 "coalCapacity":  25.696,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2026-01",
+                                 "total":  38.498,
+                                 "totalWow":  36.6,
+                                 "coalCapacity":  23.980999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-12",
+                                 "total":  28.191000000000003,
+                                 "totalWow":  -4.5,
+                                 "coalCapacity":  14.498000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-11",
+                                 "total":  29.529,
+                                 "totalWow":  -28.2,
+                                 "coalCapacity":  14.316,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-10",
+                                 "total":  41.099999999999994,
+                                 "totalWow":  -25.2,
+                                 "coalCapacity":  14.788,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-09",
+                                 "total":  54.963,
+                                 "totalWow":  48.7,
+                                 "coalCapacity":  16.999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-08",
+                                 "total":  36.961,
+                                 "totalWow":  24.3,
+                                 "coalCapacity":  16.532999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-07",
+                                 "total":  29.724,
+                                 "totalWow":  -10.9,
+                                 "coalCapacity":  14.199,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-06",
+                                 "total":  33.358,
+                                 "totalWow":  -6.9,
+                                 "coalCapacity":  14.504,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-05",
+                                 "total":  35.842999999999996,
+                                 "totalWow":  -32.3,
+                                 "coalCapacity":  16.913999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-04",
+                                 "total":  52.916,
+                                 "totalWow":  -3.6,
+                                 "coalCapacity":  16.877,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-03",
+                                 "total":  54.904,
+                                 "totalWow":  1632,
+                                 "coalCapacity":  15.893999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-02",
+                                 "total":  3.17,
+                                 "totalWow":  -87.4,
+                                 "coalCapacity":  7.3309999999999995,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2025-01",
+                                 "total":  25.239,
+                                 "totalWow":  -43.3,
+                                 "coalCapacity":  9.148,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2024-12",
+                                 "total":  44.497,
+                                 "totalWow":  20.6,
+                                 "coalCapacity":  12.765,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2024-11",
+                                 "total":  36.903999999999996,
+                                 "totalWow":  80.4,
+                                 "coalCapacity":  10.351,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2024-10",
+                                 "total":  20.458000000000002,
+                                 "totalWow":  -16.8,
+                                 "coalCapacity":  1.9589999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2024-09",
+                                 "total":  24.577,
+                                 "totalWow":  -29.1,
+                                 "coalCapacity":  2.911,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "辽宁",
+                                 "month":  "2024-08",
+                                 "total":  34.643,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11.991,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-07",
+                                 "total":  null,
+                                 "totalWow":  null,
+                                 "coalCapacity":  20.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-06",
+                                 "total":  44.3,
+                                 "totalWow":  24.1,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-05",
+                                 "total":  35.7,
+                                 "totalWow":  -32.3,
+                                 "coalCapacity":  19.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-04",
+                                 "total":  52.699999999999996,
+                                 "totalWow":  83.6,
+                                 "coalCapacity":  23.099999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-03",
+                                 "total":  28.7,
+                                 "totalWow":  -31.2,
+                                 "coalCapacity":  22.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-02",
+                                 "total":  41.7,
+                                 "totalWow":  4.2,
+                                 "coalCapacity":  20.299999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2026-01",
+                                 "total":  40,
+                                 "totalWow":  640.7,
+                                 "coalCapacity":  17.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-12",
+                                 "total":  5.4,
+                                 "totalWow":  -72.7,
+                                 "coalCapacity":  10.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-11",
+                                 "total":  19.8,
+                                 "totalWow":  -10.8,
+                                 "coalCapacity":  12.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-10",
+                                 "total":  22.2,
+                                 "totalWow":  3.7,
+                                 "coalCapacity":  12.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-09",
+                                 "total":  21.4,
+                                 "totalWow":  170.9,
+                                 "coalCapacity":  13.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-08",
+                                 "total":  7.9,
+                                 "totalWow":  -33.6,
+                                 "coalCapacity":  9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-07",
+                                 "total":  11.9,
+                                 "totalWow":  -43.1,
+                                 "coalCapacity":  13.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-06",
+                                 "total":  20.9,
+                                 "totalWow":  -5.4,
+                                 "coalCapacity":  19.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-05",
+                                 "total":  22.1,
+                                 "totalWow":  24.9,
+                                 "coalCapacity":  16.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-04",
+                                 "total":  17.7,
+                                 "totalWow":  20.4,
+                                 "coalCapacity":  15.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-03",
+                                 "total":  14.7,
+                                 "totalWow":  -22.6,
+                                 "coalCapacity":  9.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-02",
+                                 "total":  19,
+                                 "totalWow":  206.5,
+                                 "coalCapacity":  11.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2025-01",
+                                 "total":  6.2,
+                                 "totalWow":  -10.1,
+                                 "coalCapacity":  9.2999999999999989,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2024-12",
+                                 "total":  6.8999999999999995,
+                                 "totalWow":  -66.2,
+                                 "coalCapacity":  9.7999999999999989,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2024-11",
+                                 "total":  20.400000000000002,
+                                 "totalWow":  -9.3,
+                                 "coalCapacity":  15.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2024-10",
+                                 "total":  22.5,
+                                 "totalWow":  104.5,
+                                 "coalCapacity":  16.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2024-09",
+                                 "total":  11,
+                                 "totalWow":  7.8,
+                                 "coalCapacity":  11.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "内蒙古",
+                                 "month":  "2024-08",
+                                 "total":  10.200000000000001,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-07",
+                                 "total":  59.038,
+                                 "totalWow":  20,
+                                 "coalCapacity":  14.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-06",
+                                 "total":  49.194,
+                                 "totalWow":  24.6,
+                                 "coalCapacity":  14.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-05",
+                                 "total":  39.473,
+                                 "totalWow":  -1.9,
+                                 "coalCapacity":  13.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-04",
+                                 "total":  40.224999999999994,
+                                 "totalWow":  -21.9,
+                                 "coalCapacity":  15.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-03",
+                                 "total":  51.486999999999995,
+                                 "totalWow":  17.9,
+                                 "coalCapacity":  13.799999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-02",
+                                 "total":  43.687999999999995,
+                                 "totalWow":  45.1,
+                                 "coalCapacity":  14.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2026-01",
+                                 "total":  30.104,
+                                 "totalWow":  17.3,
+                                 "coalCapacity":  13,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-12",
+                                 "total":  25.672,
+                                 "totalWow":  2.2,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-11",
+                                 "total":  25.115,
+                                 "totalWow":  127.7,
+                                 "coalCapacity":  15.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-10",
+                                 "total":  11.032,
+                                 "totalWow":  -348.5,
+                                 "coalCapacity":  13.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-09",
+                                 "total":  -4.439,
+                                 "totalWow":  -144.3,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-08",
+                                 "total":  10.022,
+                                 "totalWow":  -9.1,
+                                 "coalCapacity":  15.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-07",
+                                 "total":  11.027000000000001,
+                                 "totalWow":  67,
+                                 "coalCapacity":  16.400000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-06",
+                                 "total":  6.6030000000000006,
+                                 "totalWow":  93.3,
+                                 "coalCapacity":  14.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-05",
+                                 "total":  3.4160000000000004,
+                                 "totalWow":  -39.7,
+                                 "coalCapacity":  14.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-04",
+                                 "total":  5.664,
+                                 "totalWow":  -57.3,
+                                 "coalCapacity":  17,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-03",
+                                 "total":  13.252999999999998,
+                                 "totalWow":  -41.5,
+                                 "coalCapacity":  14.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-02",
+                                 "total":  22.654,
+                                 "totalWow":  3.8,
+                                 "coalCapacity":  18.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2025-01",
+                                 "total":  21.834,
+                                 "totalWow":  380.3,
+                                 "coalCapacity":  15.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2024-12",
+                                 "total":  4.5459999999999994,
+                                 "totalWow":  -72.5,
+                                 "coalCapacity":  12.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2024-11",
+                                 "total":  16.548000000000002,
+                                 "totalWow":  -14.7,
+                                 "coalCapacity":  16,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2024-10",
+                                 "total":  19.400000000000002,
+                                 "totalWow":  84.8,
+                                 "coalCapacity":  17.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2024-09",
+                                 "total":  10.498000000000001,
+                                 "totalWow":  -63.3,
+                                 "coalCapacity":  16.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "宁夏",
+                                 "month":  "2024-08",
+                                 "total":  28.6,
+                                 "totalWow":  null,
+                                 "coalCapacity":  15.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-07",
+                                 "total":  32.953,
+                                 "totalWow":  8.6,
+                                 "coalCapacity":  7.1060000000000008,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-06",
+                                 "total":  30.349999999999998,
+                                 "totalWow":  -21.2,
+                                 "coalCapacity":  7.136,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-05",
+                                 "total":  38.514,
+                                 "totalWow":  -22.4,
+                                 "coalCapacity":  7.514,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-04",
+                                 "total":  49.647999999999996,
+                                 "totalWow":  17.3,
+                                 "coalCapacity":  7.4339999999999993,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-03",
+                                 "total":  42.325,
+                                 "totalWow":  2.5,
+                                 "coalCapacity":  7.392,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-02",
+                                 "total":  41.272999999999996,
+                                 "totalWow":  47.9,
+                                 "coalCapacity":  8.911999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2026-01",
+                                 "total":  27.900000000000002,
+                                 "totalWow":  1.7,
+                                 "coalCapacity":  4.757,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-12",
+                                 "total":  27.432000000000002,
+                                 "totalWow":  156.4,
+                                 "coalCapacity":  7.239,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-11",
+                                 "total":  10.697999999999999,
+                                 "totalWow":  33.7,
+                                 "coalCapacity":  6.2459999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-10",
+                                 "total":  8,
+                                 "totalWow":  60.2,
+                                 "coalCapacity":  4.7860000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-09",
+                                 "total":  4.994,
+                                 "totalWow":  46.2,
+                                 "coalCapacity":  4.2459999999999996,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-08",
+                                 "total":  3.4160000000000004,
+                                 "totalWow":  1.7,
+                                 "coalCapacity":  4.6430000000000007,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-07",
+                                 "total":  3.359,
+                                 "totalWow":  -48.9,
+                                 "coalCapacity":  5.364,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-06",
+                                 "total":  6.5729999999999995,
+                                 "totalWow":  29.6,
+                                 "coalCapacity":  5.29,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-05",
+                                 "total":  5.072,
+                                 "totalWow":  -54.5,
+                                 "coalCapacity":  5.199,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-04",
+                                 "total":  11.157,
+                                 "totalWow":  -36.2,
+                                 "coalCapacity":  4.794,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-03",
+                                 "total":  17.476,
+                                 "totalWow":  -25.1,
+                                 "coalCapacity":  5.1190000000000007,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-02",
+                                 "total":  23.321,
+                                 "totalWow":  64.8,
+                                 "coalCapacity":  5.749,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2025-01",
+                                 "total":  14.147,
+                                 "totalWow":  65.8,
+                                 "coalCapacity":  4.91,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2024-12",
+                                 "total":  8.5349999999999984,
+                                 "totalWow":  182.9,
+                                 "coalCapacity":  5.1190000000000007,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2024-11",
+                                 "total":  3.0170000000000003,
+                                 "totalWow":  90,
+                                 "coalCapacity":  5.163,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2024-10",
+                                 "total":  1.588,
+                                 "totalWow":  -223.6,
+                                 "coalCapacity":  5.472,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2024-09",
+                                 "total":  -1.285,
+                                 "totalWow":  -20.6,
+                                 "coalCapacity":  5.7010000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "青海",
+                                 "month":  "2024-08",
+                                 "total":  -1.619,
+                                 "totalWow":  null,
+                                 "coalCapacity":  5.449,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-07",
+                                 "total":  102.6,
+                                 "totalWow":  27.6,
+                                 "coalCapacity":  23.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-06",
+                                 "total":  80.4,
+                                 "totalWow":  14,
+                                 "coalCapacity":  19.099999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.2
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-05",
+                                 "total":  70.5,
+                                 "totalWow":  -36.9,
+                                 "coalCapacity":  17.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.2
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-04",
+                                 "total":  111.8,
+                                 "totalWow":  26,
+                                 "coalCapacity":  20.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.8999999999999995
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-03",
+                                 "total":  88.7,
+                                 "totalWow":  2.8,
+                                 "coalCapacity":  18.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.2
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-02",
+                                 "total":  86.3,
+                                 "totalWow":  58.1,
+                                 "coalCapacity":  26.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  6.4
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2026-01",
+                                 "total":  54.6,
+                                 "totalWow":  825.4,
+                                 "coalCapacity":  17.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.6
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-12",
+                                 "total":  5.8999999999999995,
+                                 "totalWow":  -71.8,
+                                 "coalCapacity":  17.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.8
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-11",
+                                 "total":  20.9,
+                                 "totalWow":  945,
+                                 "coalCapacity":  18.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.3
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-10",
+                                 "total":  2,
+                                 "totalWow":  -85.3,
+                                 "coalCapacity":  18.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.6
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-09",
+                                 "total":  13.6,
+                                 "totalWow":  -51.3,
+                                 "coalCapacity":  14.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.1000000000000005
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-08",
+                                 "total":  27.900000000000002,
+                                 "totalWow":  -10.9,
+                                 "coalCapacity":  16.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.4
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-07",
+                                 "total":  31.3,
+                                 "totalWow":  104.6,
+                                 "coalCapacity":  18.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.3
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-06",
+                                 "total":  15.299999999999999,
+                                 "totalWow":  183.3,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.5
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-05",
+                                 "total":  5.4,
+                                 "totalWow":  -72.3,
+                                 "coalCapacity":  19.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.4
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-04",
+                                 "total":  19.5,
+                                 "totalWow":  -22.6,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.6
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-03",
+                                 "total":  25.2,
+                                 "totalWow":  13,
+                                 "coalCapacity":  19.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.6
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-02",
+                                 "total":  22.3,
+                                 "totalWow":  -13.6,
+                                 "coalCapacity":  23,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  6.4
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2025-01",
+                                 "total":  25.8,
+                                 "totalWow":  -25.4,
+                                 "coalCapacity":  21.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.7
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2024-12",
+                                 "total":  34.6,
+                                 "totalWow":  130.7,
+                                 "coalCapacity":  18.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.1000000000000005
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2024-11",
+                                 "total":  15,
+                                 "totalWow":  2.7,
+                                 "coalCapacity":  19.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.5
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2024-10",
+                                 "total":  14.6,
+                                 "totalWow":  -21.5,
+                                 "coalCapacity":  17.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.2
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2024-09",
+                                 "total":  18.599999999999998,
+                                 "totalWow":  -65.1,
+                                 "coalCapacity":  18.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  5.2
+                             },
+                             {
+                                 "province":  "山东",
+                                 "month":  "2024-08",
+                                 "total":  53.3,
+                                 "totalWow":  null,
+                                 "coalCapacity":  16.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  4.8
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-07",
+                                 "total":  91.741,
+                                 "totalWow":  -9.2,
+                                 "coalCapacity":  29.357000000000003,
+                                 "ancillary":  3.023,
+                                 "pumpedStorage":  -1.536
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-06",
+                                 "total":  101.021,
+                                 "totalWow":  28.5,
+                                 "coalCapacity":  31.99,
+                                 "ancillary":  3.23,
+                                 "pumpedStorage":  -1.309
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-05",
+                                 "total":  78.626,
+                                 "totalWow":  -25.6,
+                                 "coalCapacity":  30.73,
+                                 "ancillary":  3.521,
+                                 "pumpedStorage":  -1.3699999999999999
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-04",
+                                 "total":  105.657,
+                                 "totalWow":  -7.8,
+                                 "coalCapacity":  37.411,
+                                 "ancillary":  3.4090000000000003,
+                                 "pumpedStorage":  2.8739999999999997
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-03",
+                                 "total":  114.581,
+                                 "totalWow":  7.6,
+                                 "coalCapacity":  32.734,
+                                 "ancillary":  3.473,
+                                 "pumpedStorage":  2.369
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-02",
+                                 "total":  106.514,
+                                 "totalWow":  9.3,
+                                 "coalCapacity":  30.768,
+                                 "ancillary":  3.9779999999999998,
+                                 "pumpedStorage":  2.8240000000000003
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2026-01",
+                                 "total":  97.464999999999989,
+                                 "totalWow":  133.6,
+                                 "coalCapacity":  23.661,
+                                 "ancillary":  3.301,
+                                 "pumpedStorage":  2.32
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-12",
+                                 "total":  41.727,
+                                 "totalWow":  41.8,
+                                 "coalCapacity":  13.126000000000001,
+                                 "ancillary":  2.627,
+                                 "pumpedStorage":  2.193
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-11",
+                                 "total":  29.435,
+                                 "totalWow":  79.7,
+                                 "coalCapacity":  15.715,
+                                 "ancillary":  2.62,
+                                 "pumpedStorage":  2.562
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-10",
+                                 "total":  16.376,
+                                 "totalWow":  -40.1,
+                                 "coalCapacity":  18.824,
+                                 "ancillary":  3.364,
+                                 "pumpedStorage":  2.783
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-09",
+                                 "total":  27.329,
+                                 "totalWow":  109.9,
+                                 "coalCapacity":  18.155,
+                                 "ancillary":  3.238,
+                                 "pumpedStorage":  2.692
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-08",
+                                 "total":  13.017000000000001,
+                                 "totalWow":  -46.7,
+                                 "coalCapacity":  16.145,
+                                 "ancillary":  2.604,
+                                 "pumpedStorage":  2.745
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-07",
+                                 "total":  24.407999999999998,
+                                 "totalWow":  37.2,
+                                 "coalCapacity":  16.75,
+                                 "ancillary":  2.663,
+                                 "pumpedStorage":  2.7239999999999998
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-06",
+                                 "total":  17.793,
+                                 "totalWow":  22.9,
+                                 "coalCapacity":  15.232000000000001,
+                                 "ancillary":  2.818,
+                                 "pumpedStorage":  2.557
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-05",
+                                 "total":  14.478,
+                                 "totalWow":  -27.3,
+                                 "coalCapacity":  14.296,
+                                 "ancillary":  1.173,
+                                 "pumpedStorage":  2.511
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-04",
+                                 "total":  19.923,
+                                 "totalWow":  -47.5,
+                                 "coalCapacity":  15.587,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.78
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-03",
+                                 "total":  37.948,
+                                 "totalWow":  16.6,
+                                 "coalCapacity":  17.125999999999998,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.7520000000000002
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-02",
+                                 "total":  32.544999999999995,
+                                 "totalWow":  -31.2,
+                                 "coalCapacity":  20.389,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.8800000000000003
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2025-01",
+                                 "total":  47.322,
+                                 "totalWow":  12.1,
+                                 "coalCapacity":  15.004,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.5149999999999997
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2024-12",
+                                 "total":  42.215,
+                                 "totalWow":  35.1,
+                                 "coalCapacity":  13.246,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.4659999999999997
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2024-11",
+                                 "total":  31.255,
+                                 "totalWow":  202.7,
+                                 "coalCapacity":  15.542,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.682
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2024-10",
+                                 "total":  10.327,
+                                 "totalWow":  -30.8,
+                                 "coalCapacity":  17.628999999999998,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.904
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2024-09",
+                                 "total":  14.912999999999998,
+                                 "totalWow":  -47.9,
+                                 "coalCapacity":  20.36,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  3.013
+                             },
+                             {
+                                 "province":  "山西",
+                                 "month":  "2024-08",
+                                 "total":  28.604999999999997,
+                                 "totalWow":  null,
+                                 "coalCapacity":  18.271,
+                                 "ancillary":  0,
+                                 "pumpedStorage":  2.7039999999999997
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-07",
+                                 "total":  99.8,
+                                 "totalWow":  0.1,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-06",
+                                 "total":  99.7,
+                                 "totalWow":  2.9,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-05",
+                                 "total":  96.9,
+                                 "totalWow":  -9.4,
+                                 "coalCapacity":  17.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-04",
+                                 "total":  106.89999999999999,
+                                 "totalWow":  0,
+                                 "coalCapacity":  33.300000000000004,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-03",
+                                 "total":  106.89999999999999,
+                                 "totalWow":  21.9,
+                                 "coalCapacity":  28.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-02",
+                                 "total":  87.7,
+                                 "totalWow":  15.9,
+                                 "coalCapacity":  22.599999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2026-01",
+                                 "total":  75.7,
+                                 "totalWow":  286.2,
+                                 "coalCapacity":  17.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-12",
+                                 "total":  19.599999999999998,
+                                 "totalWow":  -61.4,
+                                 "coalCapacity":  26.200000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-11",
+                                 "total":  50.8,
+                                 "totalWow":  43.9,
+                                 "coalCapacity":  27.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-10",
+                                 "total":  35.3,
+                                 "totalWow":  -30.8,
+                                 "coalCapacity":  21.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-09",
+                                 "total":  51,
+                                 "totalWow":  89.6,
+                                 "coalCapacity":  26.599999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-08",
+                                 "total":  26.9,
+                                 "totalWow":  -15.1,
+                                 "coalCapacity":  25.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-07",
+                                 "total":  31.7,
+                                 "totalWow":  19.2,
+                                 "coalCapacity":  21,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-06",
+                                 "total":  26.599999999999998,
+                                 "totalWow":  0.8,
+                                 "coalCapacity":  23.599999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-05",
+                                 "total":  26.4,
+                                 "totalWow":  -30.9,
+                                 "coalCapacity":  28,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-04",
+                                 "total":  38.199999999999996,
+                                 "totalWow":  1.9,
+                                 "coalCapacity":  28,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-03",
+                                 "total":  37.5,
+                                 "totalWow":  8.4,
+                                 "coalCapacity":  19.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-02",
+                                 "total":  34.6,
+                                 "totalWow":  41.8,
+                                 "coalCapacity":  23.900000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2025-01",
+                                 "total":  24.400000000000002,
+                                 "totalWow":  208.9,
+                                 "coalCapacity":  29,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2024-12",
+                                 "total":  7.9,
+                                 "totalWow":  -58,
+                                 "coalCapacity":  22.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2024-11",
+                                 "total":  18.8,
+                                 "totalWow":  -38.8,
+                                 "coalCapacity":  17,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2024-10",
+                                 "total":  30.700000000000003,
+                                 "totalWow":  25.3,
+                                 "coalCapacity":  23.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2024-09",
+                                 "total":  24.5,
+                                 "totalWow":  31,
+                                 "coalCapacity":  28.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "陕西",
+                                 "month":  "2024-08",
+                                 "total":  18.700000000000003,
+                                 "totalWow":  null,
+                                 "coalCapacity":  22.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-07",
+                                 "total":  37.633,
+                                 "totalWow":  -7.6,
+                                 "coalCapacity":  17.155,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-06",
+                                 "total":  40.717999999999996,
+                                 "totalWow":  -8.1,
+                                 "coalCapacity":  20.216,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-05",
+                                 "total":  44.318000000000005,
+                                 "totalWow":  -17.9,
+                                 "coalCapacity":  22.786,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-04",
+                                 "total":  53.948,
+                                 "totalWow":  108.3,
+                                 "coalCapacity":  26.536,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-03",
+                                 "total":  25.898,
+                                 "totalWow":  -33.7,
+                                 "coalCapacity":  14.705,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-02",
+                                 "total":  39.059999999999995,
+                                 "totalWow":  -6,
+                                 "coalCapacity":  27.398,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2026-01",
+                                 "total":  41.57,
+                                 "totalWow":  36.4,
+                                 "coalCapacity":  21.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-12",
+                                 "total":  30.47,
+                                 "totalWow":  50.3,
+                                 "coalCapacity":  11.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-11",
+                                 "total":  20.27,
+                                 "totalWow":  3.4,
+                                 "coalCapacity":  12.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-10",
+                                 "total":  19.599999999999998,
+                                 "totalWow":  31.5,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-09",
+                                 "total":  14.9,
+                                 "totalWow":  -46.7,
+                                 "coalCapacity":  12.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-08",
+                                 "total":  27.97,
+                                 "totalWow":  -22.2,
+                                 "coalCapacity":  9.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-07",
+                                 "total":  35.97,
+                                 "totalWow":  16.1,
+                                 "coalCapacity":  10.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-06",
+                                 "total":  30.970000000000002,
+                                 "totalWow":  -8.6,
+                                 "coalCapacity":  13.299999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-05",
+                                 "total":  33.87,
+                                 "totalWow":  -7.1,
+                                 "coalCapacity":  14.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-04",
+                                 "total":  36.47,
+                                 "totalWow":  9.3,
+                                 "coalCapacity":  16.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-03",
+                                 "total":  33.37,
+                                 "totalWow":  33.6,
+                                 "coalCapacity":  14.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-02",
+                                 "total":  24.97,
+                                 "totalWow":  -35.6,
+                                 "coalCapacity":  16.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2025-01",
+                                 "total":  38.769999999999996,
+                                 "totalWow":  20.5,
+                                 "coalCapacity":  14.200000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2024-12",
+                                 "total":  32.169999999999995,
+                                 "totalWow":  89.6,
+                                 "coalCapacity":  13.299999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2024-11",
+                                 "total":  16.97,
+                                 "totalWow":  89.2,
+                                 "coalCapacity":  14.3,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2024-10",
+                                 "total":  8.97,
+                                 "totalWow":  -28.1,
+                                 "coalCapacity":  13.700000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2024-09",
+                                 "total":  12.47,
+                                 "totalWow":  -58.8,
+                                 "coalCapacity":  12,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "上海",
+                                 "month":  "2024-08",
+                                 "total":  30.27,
+                                 "totalWow":  null,
+                                 "coalCapacity":  11.6,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-07",
+                                 "total":  18.333,
+                                 "totalWow":  -41,
+                                 "coalCapacity":  8.226,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-06",
+                                 "total":  31.051,
+                                 "totalWow":  -29.5,
+                                 "coalCapacity":  9.011,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-05",
+                                 "total":  44.039,
+                                 "totalWow":  -31.7,
+                                 "coalCapacity":  9.639,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-04",
+                                 "total":  64.503,
+                                 "totalWow":  32.9,
+                                 "coalCapacity":  13.274,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-03",
+                                 "total":  48.529999999999994,
+                                 "totalWow":  -43.7,
+                                 "coalCapacity":  10.491,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-02",
+                                 "total":  86.223,
+                                 "totalWow":  31.4,
+                                 "coalCapacity":  14.157,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2026-01",
+                                 "total":  65.598,
+                                 "totalWow":  51.9,
+                                 "coalCapacity":  7.687,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-12",
+                                 "total":  43.197,
+                                 "totalWow":  113,
+                                 "coalCapacity":  7.221,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-11",
+                                 "total":  20.285,
+                                 "totalWow":  151.8,
+                                 "coalCapacity":  7.016,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-10",
+                                 "total":  8.0560000000000009,
+                                 "totalWow":  -49,
+                                 "coalCapacity":  6.5729999999999995,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-09",
+                                 "total":  15.79,
+                                 "totalWow":  -313.1,
+                                 "coalCapacity":  6.507,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-08",
+                                 "total":  -7.4110000000000005,
+                                 "totalWow":  -424,
+                                 "coalCapacity":  6.243,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-07",
+                                 "total":  2.287,
+                                 "totalWow":  -115.9,
+                                 "coalCapacity":  6.263,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-06",
+                                 "total":  -14.356,
+                                 "totalWow":  -125.3,
+                                 "coalCapacity":  6.912,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-05",
+                                 "total":  56.694,
+                                 "totalWow":  -4.8,
+                                 "coalCapacity":  7.126,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-04",
+                                 "total":  59.579,
+                                 "totalWow":  9.1,
+                                 "coalCapacity":  8.335,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-03",
+                                 "total":  54.588,
+                                 "totalWow":  -12.4,
+                                 "coalCapacity":  7.91,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-02",
+                                 "total":  62.317,
+                                 "totalWow":  12.7,
+                                 "coalCapacity":  8.833,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2025-01",
+                                 "total":  55.300000000000004,
+                                 "totalWow":  -48.7,
+                                 "coalCapacity":  8.1,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2024-12",
+                                 "total":  107.89999999999999,
+                                 "totalWow":  1283.3,
+                                 "coalCapacity":  7.1000000000000005,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2024-11",
+                                 "total":  7.8,
+                                 "totalWow":  -29.7,
+                                 "coalCapacity":  7.4,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2024-10",
+                                 "total":  11.1,
+                                 "totalWow":  29.1,
+                                 "coalCapacity":  7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2024-09",
+                                 "total":  8.6,
+                                 "totalWow":  -222.9,
+                                 "coalCapacity":  6.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "四川",
+                                 "month":  "2024-08",
+                                 "total":  -7,
+                                 "totalWow":  null,
+                                 "coalCapacity":  6.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-07",
+                                 "total":  106.869,
+                                 "totalWow":  29.3,
+                                 "coalCapacity":  37.162,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-06",
+                                 "total":  82.63,
+                                 "totalWow":  19.9,
+                                 "coalCapacity":  51.377,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-05",
+                                 "total":  68.934,
+                                 "totalWow":  -5.2,
+                                 "coalCapacity":  51.853,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-04",
+                                 "total":  72.737,
+                                 "totalWow":  -16.9,
+                                 "coalCapacity":  41.501999999999995,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-03",
+                                 "total":  87.522,
+                                 "totalWow":  -24.6,
+                                 "coalCapacity":  34.397,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-02",
+                                 "total":  116.122,
+                                 "totalWow":  -21.2,
+                                 "coalCapacity":  36.182,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2026-01",
+                                 "total":  147.416,
+                                 "totalWow":  48.4,
+                                 "coalCapacity":  32.915,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-12",
+                                 "total":  99.345,
+                                 "totalWow":  68.4,
+                                 "coalCapacity":  10.597000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-11",
+                                 "total":  58.985,
+                                 "totalWow":  64.2,
+                                 "coalCapacity":  14.671,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-10",
+                                 "total":  35.929,
+                                 "totalWow":  -30.9,
+                                 "coalCapacity":  17.77,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-09",
+                                 "total":  52,
+                                 "totalWow":  -26.3,
+                                 "coalCapacity":  16.299999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-08",
+                                 "total":  70.6,
+                                 "totalWow":  -12.8,
+                                 "coalCapacity":  13.2,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-07",
+                                 "total":  81,
+                                 "totalWow":  33.7,
+                                 "coalCapacity":  11.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-06",
+                                 "total":  60.6,
+                                 "totalWow":  -4,
+                                 "coalCapacity":  13,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-05",
+                                 "total":  63.1,
+                                 "totalWow":  27.7,
+                                 "coalCapacity":  13.299999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-04",
+                                 "total":  49.4,
+                                 "totalWow":  -45.5,
+                                 "coalCapacity":  19.7,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-03",
+                                 "total":  90.6,
+                                 "totalWow":  0.4,
+                                 "coalCapacity":  13.799999999999999,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-02",
+                                 "total":  90.2,
+                                 "totalWow":  -3.3,
+                                 "coalCapacity":  15.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2025-01",
+                                 "total":  93.3,
+                                 "totalWow":  0.8,
+                                 "coalCapacity":  16.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2024-12",
+                                 "total":  92.600000000000009,
+                                 "totalWow":  53.1,
+                                 "coalCapacity":  13.100000000000001,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2024-11",
+                                 "total":  60.5,
+                                 "totalWow":  -0.5,
+                                 "coalCapacity":  17.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2024-10",
+                                 "total":  60.8,
+                                 "totalWow":  5.6,
+                                 "coalCapacity":  18.9,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2024-09",
+                                 "total":  57.6,
+                                 "totalWow":  -20.2,
+                                 "coalCapacity":  17.8,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "天津",
+                                 "month":  "2024-08",
+                                 "total":  72.2,
+                                 "totalWow":  null,
+                                 "coalCapacity":  16.5,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-07",
+                                 "total":  83.213,
+                                 "totalWow":  -2.2,
+                                 "coalCapacity":  29.481,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-06",
+                                 "total":  85.09899999999999,
+                                 "totalWow":  23.1,
+                                 "coalCapacity":  29.607000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-05",
+                                 "total":  69.155,
+                                 "totalWow":  -6.4,
+                                 "coalCapacity":  28.216,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-04",
+                                 "total":  73.879,
+                                 "totalWow":  30.7,
+                                 "coalCapacity":  33.739,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-03",
+                                 "total":  56.547,
+                                 "totalWow":  -7.5,
+                                 "coalCapacity":  23.532999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-02",
+                                 "total":  61.102999999999994,
+                                 "totalWow":  -10.1,
+                                 "coalCapacity":  27.753,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2026-01",
+                                 "total":  67.982,
+                                 "totalWow":  416.9,
+                                 "coalCapacity":  24.174999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-12",
+                                 "total":  13.153,
+                                 "totalWow":  -23.4,
+                                 "coalCapacity":  13.763,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-11",
+                                 "total":  17.169,
+                                 "totalWow":  -53.8,
+                                 "coalCapacity":  16.978,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-10",
+                                 "total":  37.138,
+                                 "totalWow":  -14.9,
+                                 "coalCapacity":  20.740000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-09",
+                                 "total":  43.636,
+                                 "totalWow":  17.4,
+                                 "coalCapacity":  15.367,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-08",
+                                 "total":  37.17,
+                                 "totalWow":  56.5,
+                                 "coalCapacity":  18.551000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-07",
+                                 "total":  23.754,
+                                 "totalWow":  -27,
+                                 "coalCapacity":  20.186,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-06",
+                                 "total":  32.531,
+                                 "totalWow":  38.6,
+                                 "coalCapacity":  25.361,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-05",
+                                 "total":  23.467,
+                                 "totalWow":  -29.9,
+                                 "coalCapacity":  20.858999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-04",
+                                 "total":  33.483,
+                                 "totalWow":  -14.8,
+                                 "coalCapacity":  18.329,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-03",
+                                 "total":  39.309,
+                                 "totalWow":  -10,
+                                 "coalCapacity":  17.894000000000002,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-02",
+                                 "total":  43.685,
+                                 "totalWow":  113.6,
+                                 "coalCapacity":  17.813,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2025-01",
+                                 "total":  20.452,
+                                 "totalWow":  78.7,
+                                 "coalCapacity":  12.924,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2024-12",
+                                 "total":  11.448,
+                                 "totalWow":  213.5,
+                                 "coalCapacity":  12.23,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2024-11",
+                                 "total":  3.6519999999999997,
+                                 "totalWow":  -88.3,
+                                 "coalCapacity":  14.475,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2024-10",
+                                 "total":  31.249,
+                                 "totalWow":  -5.5,
+                                 "coalCapacity":  17.111,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2024-09",
+                                 "total":  33.08,
+                                 "totalWow":  43.1,
+                                 "coalCapacity":  16.385,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "新疆",
+                                 "month":  "2024-08",
+                                 "total":  23.115,
+                                 "totalWow":  null,
+                                 "coalCapacity":  15.075,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-07",
+                                 "total":  27.751,
+                                 "totalWow":  91.2,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-06",
+                                 "total":  14.517000000000001,
+                                 "totalWow":  -40.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-05",
+                                 "total":  24.507,
+                                 "totalWow":  -38.5,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-04",
+                                 "total":  39.858,
+                                 "totalWow":  27.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-03",
+                                 "total":  31.302000000000003,
+                                 "totalWow":  553.4,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-02",
+                                 "total":  4.791,
+                                 "totalWow":  37.1,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2026-01",
+                                 "total":  3.494,
+                                 "totalWow":  36.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-12",
+                                 "total":  2.556,
+                                 "totalWow":  24.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-10",
+                                 "total":  2.056,
+                                 "totalWow":  55.2,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-09",
+                                 "total":  1.325,
+                                 "totalWow":  -51.7,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-08",
+                                 "total":  2.746,
+                                 "totalWow":  -49.8,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-07",
+                                 "total":  5.466,
+                                 "totalWow":  2.3,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-06",
+                                 "total":  5.345,
+                                 "totalWow":  7.6,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-05",
+                                 "total":  4.967,
+                                 "totalWow":  -26.2,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-04",
+                                 "total":  6.728,
+                                 "totalWow":  20,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2025-03",
+                                 "total":  5.606,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-10",
+                                 "total":  0,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-08",
+                                 "total":  0,
+                                 "totalWow":  -100,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-07",
+                                 "total":  6.275,
+                                 "totalWow":  -5,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-06",
+                                 "total":  6.6049999999999995,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-05",
+                                 "total":  0,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-04",
+                                 "total":  0,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-03",
+                                 "total":  0,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "云南",
+                                 "month":  "2024-02",
+                                 "total":  0,
+                                 "totalWow":  null,
+                                 "coalCapacity":  null,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-07",
+                                 "total":  56.726,
+                                 "totalWow":  50.4,
+                                 "coalCapacity":  22.574,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-06",
+                                 "total":  37.725,
+                                 "totalWow":  0.9,
+                                 "coalCapacity":  26.322000000000003,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-05",
+                                 "total":  37.388999999999996,
+                                 "totalWow":  -9.2,
+                                 "coalCapacity":  27.026999999999997,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-04",
+                                 "total":  41.188,
+                                 "totalWow":  -13.1,
+                                 "coalCapacity":  29.228,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-03",
+                                 "total":  47.408,
+                                 "totalWow":  -50,
+                                 "coalCapacity":  27.721,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-02",
+                                 "total":  94.898,
+                                 "totalWow":  62.8,
+                                 "coalCapacity":  36.812,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2026-01",
+                                 "total":  58.291000000000004,
+                                 "totalWow":  752.2,
+                                 "coalCapacity":  26.618,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-12",
+                                 "total":  6.84,
+                                 "totalWow":  -892.6,
+                                 "coalCapacity":  25.605,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-11",
+                                 "total":  -0.8630000000000001,
+                                 "totalWow":  -104.2,
+                                 "coalCapacity":  28.256,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-10",
+                                 "total":  20.406,
+                                 "totalWow":  -14.6,
+                                 "coalCapacity":  28.34,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-09",
+                                 "total":  23.901,
+                                 "totalWow":  -59.9,
+                                 "coalCapacity":  23.046,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-08",
+                                 "total":  59.649,
+                                 "totalWow":  7.6,
+                                 "coalCapacity":  21.134,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-07",
+                                 "total":  55.427,
+                                 "totalWow":  44.5,
+                                 "coalCapacity":  23.314,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-06",
+                                 "total":  38.355,
+                                 "totalWow":  28.9,
+                                 "coalCapacity":  26.324,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-05",
+                                 "total":  29.748,
+                                 "totalWow":  -20.9,
+                                 "coalCapacity":  28.093,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-04",
+                                 "total":  37.613,
+                                 "totalWow":  -49.8,
+                                 "coalCapacity":  30.232,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-03",
+                                 "total":  74.887,
+                                 "totalWow":  -0.4,
+                                 "coalCapacity":  29.418,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-02",
+                                 "total":  75.198000000000008,
+                                 "totalWow":  19.2,
+                                 "coalCapacity":  32.735,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2025-01",
+                                 "total":  63.065999999999995,
+                                 "totalWow":  4.3,
+                                 "coalCapacity":  29.108999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2024-12",
+                                 "total":  60.464,
+                                 "totalWow":  58.1,
+                                 "coalCapacity":  26.533,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2024-11",
+                                 "total":  38.253,
+                                 "totalWow":  -35.4,
+                                 "coalCapacity":  26.387,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2024-10",
+                                 "total":  59.231,
+                                 "totalWow":  77.9,
+                                 "coalCapacity":  29.515,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2024-09",
+                                 "total":  33.300999999999995,
+                                 "totalWow":  -20.7,
+                                 "coalCapacity":  26.82,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             },
+                             {
+                                 "province":  "重庆",
+                                 "month":  "2024-08",
+                                 "total":  41.979,
+                                 "totalWow":  null,
+                                 "coalCapacity":  23.942999999999998,
+                                 "ancillary":  null,
+                                 "pumpedStorage":  null
+                             }
+                         ],
     "powerConsumptionMonthly":  [
                                     {
                                         "month":  "2026-05",
@@ -29331,6 +35852,12 @@
                                 {
                                     "module":  "电价",
                                     "name":  "代理购电_月度.csv",
+                                    "grain":  "省份-月",
+                                    "status":  "可直接接入"
+                                },
+                                {
+                                    "module":  "电价",
+                                    "name":  "系统运行费折价_月度.csv",
                                     "grain":  "省份-月",
                                     "status":  "可直接接入"
                                 },

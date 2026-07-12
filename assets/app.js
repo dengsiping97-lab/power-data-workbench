@@ -14,6 +14,12 @@
     return `${sign}${number.toFixed(1)}%`;
   };
 
+  const toPctNumber = (value) => {
+    if (value === null || value === undefined || value === "" || value === "-") return null;
+    const number = Number(String(value).replace("%", "").replace("+", "").trim());
+    return Number.isFinite(number) ? number : null;
+  };
+
   const setText = (id, text) => {
     const node = document.getElementById(id);
     if (node) node.textContent = text;
@@ -457,6 +463,13 @@
       setText("proxy-page-avg", `${fmt(avgProxy, 0)} 元/MWh`);
       setText("proxy-page-note", `${latestProxyMonth}，${data.proxyPurchaseLatest.length} 个省份样本`);
     }
+    if (data.systemFeeLatest?.length) {
+      const validTotals = data.systemFeeLatest.map((row) => row.total).filter((value) => value !== null && value !== undefined);
+      const avgSystemFee = validTotals.length ? validTotals.reduce((sum, value) => sum + Number(value), 0) / validTotals.length : null;
+      const latestSystemFeeMonth = data.systemFeeLatest.reduce((latest, row) => row.month > latest ? row.month : latest, data.systemFeeLatest[0].month);
+      setText("system-fee-page-avg", `${fmt(avgSystemFee, 0)} 元/MWh`);
+      setText("system-fee-page-note", `${latestSystemFeeMonth}，${data.systemFeeLatest.length} 个省份总值样本；折价可正可负`);
+    }
 
     let spotLatestExpanded = false;
     const provinceBody = document.getElementById("price-province-body");
@@ -492,6 +505,53 @@
     let spotHistoryExpanded = false;
     const provinces = [...new Set(data.spotWeeklyHistory.map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
     const preferredProvince = provinces.includes("广东") ? "广东" : (latestSpot?.province || provinces[0]);
+    const priceChartSelect = document.getElementById("price-chart-province");
+
+    const renderPriceHistoryChart = (province) => {
+      const rows = data.spotWeeklyHistory
+        .filter((row) => row.province === province)
+        .sort((a, b) => String(a.weekStart).localeCompare(String(b.weekStart)));
+      const yoyRaw = rows.map((row) => toPctNumber(row.spotYoy));
+      const validYoy = yoyRaw.filter((value) => value !== null);
+      const yoyAxisMax = Math.min(300, Math.max(50, Math.ceil((Math.max(...validYoy.map((value) => Math.abs(value)), 50) * 1.1) / 25) * 25));
+      const yoyData = yoyRaw.map((rawValue) => {
+        if (rawValue === null) return null;
+        const clippedValue = Math.max(-yoyAxisMax, Math.min(yoyAxisMax, rawValue));
+        return { value: clippedValue, rawValue, clipped: clippedValue !== rawValue };
+      });
+      renderChart("price-history-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          formatter: (params) => {
+            const items = Array.isArray(params) ? params : [params];
+            const lines = [items[0]?.axisValueLabel || items[0]?.name || ""];
+            items.forEach((item) => {
+              const isYoy = item.seriesName === "同比";
+              const rawValue = isYoy && item.data && typeof item.data === "object" ? item.data.rawValue : item.value;
+              const display = rawValue === null || rawValue === undefined ? "-" : (isYoy ? pct(rawValue) : `${fmt(rawValue, 1)} 元/MWh`);
+              lines.push(`${item.marker}${item.seriesName}：${display}`);
+            });
+            return lines.join("<br>");
+          }
+        },
+        legend: { top: 12, right: 22, textStyle: { color: "#66808a", fontSize: 11 } },
+        grid: { left: 64, right: 68, top: 58, bottom: 72 },
+        xAxis: { type: "category", boundaryGap: true, data: rows.map((row) => row.weekStart), ...axisStyle },
+        yAxis: [
+          { type: "value", name: "元/MWh", nameTextStyle: { color: "#66808a" }, scale: true, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+        ],
+        dataZoom: [
+          { type: "inside", start: 0, end: 100 },
+          { type: "slider", height: 18, bottom: 18, borderColor: "#dfe7e8", fillerColor: "rgba(44,111,157,.14)" }
+        ],
+        series: [
+          { name: "现货均价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.spotAvg), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
+          { name: "煤电基准", type: "line", smooth: false, showSymbol: false, data: rows.map((row) => row.coalBenchmark), lineStyle: { width: 1.4, type: "dashed", color: "#66808a" }, itemStyle: { color: "#66808a" } },
+          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoyData, itemStyle: { color: "rgba(185,119,22,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+        ]
+      });
+    };
 
     const renderSpotHistory = (province) => {
       if (!weeklyBody) return;
@@ -519,7 +579,20 @@
     if (provinceSelect && weeklyBody && data.spotWeeklyHistory) {
       provinceSelect.innerHTML = provinces.map((province) => `<option value="${province}">${province}</option>`).join("");
       provinceSelect.value = preferredProvince;
-      provinceSelect.addEventListener("change", () => renderSpotHistory(provinceSelect.value));
+      if (priceChartSelect) {
+        priceChartSelect.innerHTML = provinces.map((province) => `<option value="${province}">${province}</option>`).join("");
+        priceChartSelect.value = preferredProvince;
+        priceChartSelect.addEventListener("change", () => {
+          provinceSelect.value = priceChartSelect.value;
+          renderSpotHistory(priceChartSelect.value);
+          renderPriceHistoryChart(priceChartSelect.value);
+        });
+      }
+      provinceSelect.addEventListener("change", () => {
+        if (priceChartSelect) priceChartSelect.value = provinceSelect.value;
+        renderSpotHistory(provinceSelect.value);
+        renderPriceHistoryChart(provinceSelect.value);
+      });
       if (spotHistoryToggle) {
         spotHistoryToggle.addEventListener("click", () => {
           spotHistoryExpanded = !spotHistoryExpanded;
@@ -527,6 +600,7 @@
         });
       }
       renderSpotHistory(provinceSelect.value);
+      renderPriceHistoryChart(provinceSelect.value);
     }
 
     const proxySelect = document.getElementById("proxy-province");
@@ -566,6 +640,50 @@
         });
       }
       renderProxyHistory(proxySelect.value);
+    }
+
+    const systemFeeSelect = document.getElementById("system-fee-province");
+    const systemFeeNote = document.getElementById("system-fee-province-note");
+    const systemFeeBody = document.getElementById("system-fee-history-body");
+    const systemFeeToggle = document.getElementById("system-fee-history-toggle");
+    let systemFeeExpanded = false;
+    const systemFeeProvinces = data.systemFeeHistory
+      ? [...new Set(data.systemFeeHistory.filter((row) => row.total !== null && row.total !== undefined).map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"))
+      : [];
+    const preferredSystemFeeProvince = systemFeeProvinces.includes("广东") ? "广东" : systemFeeProvinces[0];
+    const renderSystemFeeHistory = (province) => {
+      if (!systemFeeBody) return;
+      const rows = data.systemFeeHistory.filter((row) => row.province === province && row.total !== null && row.total !== undefined);
+      if (systemFeeNote) {
+        const latest = rows[0];
+        const prefix = systemFeeExpanded ? "全部公开窗口" : "最近 5 月";
+        systemFeeNote.textContent = latest ? `${province} ${prefix} / 共 ${rows.length} 月，最新 ${latest.month}` : "暂无系统运行费折价总值";
+      }
+      const visibleRows = systemFeeExpanded ? rows : rows.slice(0, 5);
+      systemFeeBody.innerHTML = visibleRows.map((row) => `
+        <tr>
+          <td>${row.province}</td>
+          <td>${row.month}</td>
+          <td>${fmt(row.total, 1)}</td>
+          <td>${pct(row.totalWow)}</td>
+          <td>${fmt(row.coalCapacity, 1)}</td>
+          <td>${fmt(row.ancillary, 1)}</td>
+          <td>${fmt(row.pumpedStorage, 1)}</td>
+        </tr>
+      `).join("");
+      if (systemFeeToggle) systemFeeToggle.textContent = systemFeeExpanded ? "收起" : `展开全部 ${rows.length}`;
+    };
+    if (systemFeeSelect && systemFeeBody && data.systemFeeHistory && systemFeeProvinces.length) {
+      systemFeeSelect.innerHTML = systemFeeProvinces.map((province) => `<option value="${province}">${province}</option>`).join("");
+      systemFeeSelect.value = preferredSystemFeeProvince;
+      systemFeeSelect.addEventListener("change", () => renderSystemFeeHistory(systemFeeSelect.value));
+      if (systemFeeToggle) {
+        systemFeeToggle.addEventListener("click", () => {
+          systemFeeExpanded = !systemFeeExpanded;
+          renderSystemFeeHistory(systemFeeSelect.value);
+        });
+      }
+      renderSystemFeeHistory(systemFeeSelect.value);
     }
   };
 

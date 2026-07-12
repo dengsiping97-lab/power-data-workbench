@@ -288,6 +288,7 @@ td { font-variant-numeric: tabular-nums; }
 tbody tr:hover { background: #f5faf9; }
 
 .summary-grid { gap: 12px; }
+.price-summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .summary {
   border-color: var(--line-soft);
   border-radius: 14px;
@@ -318,6 +319,7 @@ tbody tr:hover { background: #f5faf9; }
   .dashboard-charts,
   .hydro-chart-grid { grid-template-columns: 1fr; }
   .chart-card.wide { grid-column: auto; }
+  .price-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 1380px) {
@@ -336,6 +338,7 @@ tbody tr:hover { background: #f5faf9; }
   .research-note { grid-template-columns: 1fr; }
   .freshness-strip { gap: 6px; }
   .freshness-chip { width: 100%; justify-content: space-between; }
+  .price-summary-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 460px) {
