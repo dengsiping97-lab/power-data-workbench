@@ -26,7 +26,7 @@
   };
 
   const chartInstances = new Map();
-  const chartColors = ["#b4473a", "#c07a2d", "#7f4b45", "#8b6f62", "#65758a"];
+  const chartColors = ["#b85c4d", "#c58a45", "#8a5d56", "#98847a", "#748296"];
 
   const renderChart = (id, option) => {
     const node = document.getElementById(id);
@@ -47,10 +47,10 @@
   };
 
   const axisStyle = {
-    axisLine: { lineStyle: { color: "#e5d9cf" } },
+    axisLine: { lineStyle: { color: "#eadfd7" } },
     axisTick: { show: false },
-    axisLabel: { color: "#836f68", fontSize: 11 },
-    splitLine: { lineStyle: { color: "#efe7e0" } }
+    axisLabel: { color: "#8b7a74", fontSize: 11 },
+    splitLine: { lineStyle: { color: "#f0e9e3" } }
   };
 
   const tooltipStyle = {
@@ -828,7 +828,7 @@
     }
     renderChart("power-balance-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)}%` },
-      legend: { top: 10, textStyle: { color: "#836f68" } },
+      legend: { top: 10, textStyle: { color: "#8b7a74" } },
       grid: { left: 56, right: 28, top: 58, bottom: 42 },
       xAxis: { type: "category", data: balanceRows.map((row) => row.month), ...axisStyle },
       yAxis: { type: "value", name: "%", ...axisStyle },
@@ -838,7 +838,7 @@
           type: "bar",
           barMaxWidth: 18,
           data: balanceRows.map((row) => +(Number(row.totalYoy) - Number(row.capacity.totalYoy)).toFixed(1)),
-          itemStyle: { color: "#8b6f62", borderRadius: [4, 4, 0, 0] },
+          itemStyle: { color: "#98847a", borderRadius: [4, 4, 0, 0] },
           markLine: { silent: true, symbol: "none", lineStyle: { color: "#d6c7bc", type: "dashed" }, data: [{ yAxis: 0 }] }
         },
         {
@@ -847,8 +847,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.totalYoy),
-          lineStyle: { width: 3, color: "#b4473a" },
-          itemStyle: { color: "#b4473a" }
+          lineStyle: { width: 3, color: "#b85c4d" },
+          itemStyle: { color: "#b85c4d" }
         },
         {
           name: "装机同比",
@@ -856,8 +856,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.capacity.totalYoy),
-          lineStyle: { width: 2, color: "#c07a2d" },
-          itemStyle: { color: "#c07a2d" }
+          lineStyle: { width: 2, color: "#c58a45" },
+          itemStyle: { color: "#c58a45" }
         }
       ]
     });
@@ -865,7 +865,7 @@
     const generationTrendRows = data.powerGenerationMonthly.slice(0, 12).reverse();
     renderChart("power-generation-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => value === null || value === undefined ? "-" : `${Number(value).toFixed(1)}%` },
-      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#836f68", fontSize: 11 } },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#8b7a74", fontSize: 11 } },
       grid: { left: 48, right: 24, top: 58, bottom: 42 },
       xAxis: { type: "category", data: generationTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
       yAxis: { type: "value", name: "%", ...axisStyle },
@@ -892,7 +892,7 @@
     }
     renderChart("power-additions-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)} GW` },
-      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#836f68", fontSize: 11 } },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#8b7a74", fontSize: 11 } },
       grid: { left: 48, right: 24, top: 58, bottom: 42 },
       xAxis: { type: "category", data: additionsTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
       yAxis: { type: "value", name: "GW", ...axisStyle },
