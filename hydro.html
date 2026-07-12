@@ -258,6 +258,7 @@
       h1 { font-size: 24px; }
     }
   </style>
+  <link rel="stylesheet" href="assets/dashboard-v2.css">
 </head>
 <body>
   <div class="app">
@@ -284,10 +285,18 @@
     <main>
       <div class="topbar">
         <div>
+          <div class="eyebrow">HYDRO MONITOR</div>
           <h1>来水与水电</h1>
-          <p class="subtitle">跟踪重点流域来水、水位和出库，连接水电公司电量测算与季度预期差。</p>
+          <p class="subtitle">先看流域边际和历史趋势，再下钻到电站周度、小时水情与 QTD 样本。</p>
         </div>
         <button class="primary" onclick="location.href='index.html'">返回首页</button>
+      </div>
+
+      <div class="freshness-strip" aria-label="来水数据新鲜度">
+        <span class="freshness-chip"><strong>快照</strong><span id="hydro-freshness-snapshot">加载中</span></span>
+        <span class="freshness-chip"><strong>完整周</strong><span id="hydro-freshness-week">加载中</span></span>
+        <span class="freshness-chip"><strong>小时水情</strong><span id="hydro-freshness-hour">加载中</span></span>
+        <span class="freshness-chip"><strong>公开趋势窗</strong><span>每站最近 80 期</span></span>
       </div>
 
       <div class="summary-grid">
@@ -311,6 +320,36 @@
           <div class="value" id="hydro-page-qtd">加载中</div>
           <div class="note" id="hydro-page-qtd-note">近 7 日、近 14 日、季度至今</div>
         </div>
+      </div>
+
+      <div class="hydro-chart-grid">
+        <section class="chart-card wide">
+          <div class="chart-head">
+            <div>
+              <h2>电站周度来水趋势</h2>
+              <p>最近约 80 周公开展示数据；支持缩放查看单周变化</p>
+            </div>
+            <div class="toolbar">
+              <label for="hydro-trend-station">电站</label>
+              <select id="hydro-trend-station"></select>
+            </div>
+          </div>
+          <div id="hydro-trend-chart" class="echart" role="img" aria-label="电站周度来水趋势图"></div>
+        </section>
+
+        <section class="chart-card">
+          <div class="chart-head">
+            <div><h2>流域边际强弱</h2><p>近 7 日、近 14 日与 QTD 对比</p></div>
+          </div>
+          <div id="hydro-river-chart" class="echart compact" role="img" aria-label="流域边际强弱图"></div>
+        </section>
+
+        <section class="chart-card">
+          <div class="chart-head">
+            <div><h2>重点电站来水结构</h2><p>最新入库与 QTD 均值对比</p></div>
+          </div>
+          <div id="hydro-station-chart" class="echart compact" role="img" aria-label="重点电站来水结构图"></div>
+        </section>
       </div>
 
       <section>
@@ -461,6 +500,7 @@
     </main>
   </div>
   <script src="assets/workbench-data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

@@ -489,6 +489,7 @@
       h1 { font-size: 24px; }
     }
   </style>
+  <link rel="stylesheet" href="assets/dashboard-v2.css">
 </head>
 <body>
   <div class="app">
@@ -515,8 +516,9 @@
     <main>
       <div class="topbar">
         <div>
+          <div class="eyebrow">POWER RESEARCH TERMINAL</div>
           <h1>电力数据研究工作台</h1>
-          <p class="subtitle">把来水、电价、电量、装机和持仓数据集中到一个研究入口，优先服务周度跟踪和公司弹性判断。</p>
+          <p class="subtitle">把高频数据压缩成可以直接用于周度判断的信号：先看变化，再看解释，最后下钻到原始明细。</p>
         </div>
         <div class="actions">
           <button onclick="location.href='data-catalog.html'">数据目录</button>
@@ -525,37 +527,43 @@
         </div>
       </div>
 
-      <div class="overview">
-        <div class="intro-panel">
-          <h2>核心入口</h2>
-          <p>当前网站先覆盖四类成熟数据：水电来水、现货与代理购电价格、电量与装机、机构持仓。首页只保留高频监控项，详细表格和历史序列放到各专题页。</p>
-          <div class="module-grid">
-            <a class="module-link" href="hydro.html">
-              <strong>来水与水电</strong>
-              <span>周度来水、水位、小时水情和 QTD 监控。</span>
-            </a>
-            <a class="module-link" href="price.html">
-              <strong>电价数据</strong>
-              <span>分省现货周度价格、代理购电价和历史趋势。</span>
-            </a>
-            <a class="module-link" href="power.html">
-              <strong>电量与装机</strong>
-              <span>用电结构、发电同比、装机结构和单月净增。</span>
-            </a>
-            <a class="module-link" href="data-catalog.html">
-              <strong>数据目录</strong>
-              <span>查看哪些数据已接入，哪些仍待结构化。</span>
-            </a>
+      <div class="freshness-strip" aria-label="数据新鲜度">
+        <span class="freshness-chip"><strong>快照</strong><span id="freshness-snapshot">加载中</span></span>
+        <span class="freshness-chip"><strong>来水周度</strong><span id="freshness-hydro-week">加载中</span></span>
+        <span class="freshness-chip"><strong>小时水情</strong><span id="freshness-hydro-hour">加载中</span></span>
+        <span class="freshness-chip stale"><strong>现货价格</strong><span id="freshness-spot">加载中</span></span>
+        <span class="freshness-chip"><strong>代理购电</strong><span id="freshness-proxy">加载中</span></span>
+      </div>
+
+      <div class="hero-v2">
+        <div class="hero-brief">
+          <div class="eyebrow">WEEKLY BRIEF</div>
+          <h2 id="weekly-brief-title">正在生成本周数据摘要</h2>
+          <p id="weekly-brief-note">综合来水边际、现货价格和月度代理购电数据，形成首页研究读数。</p>
+          <div class="hero-tags">
+            <span>来水与水电</span>
+            <span>现货与代理购电</span>
+            <span>电量与装机</span>
+            <span>数据口径可追溯</span>
           </div>
         </div>
 
-        <div class="priority-panel">
+        <div class="hero-watch">
           <h2>本周先看</h2>
-          <ul class="priority-list">
-            <li><span class="rank">1</span><span><b>水电</b>：先看三峡、金沙江、雅砻江和大渡河来水是否延续改善。</span></li>
-            <li><span class="rank">2</span><span><b>电价</b>：现货均价和代理购电价分开看，避免把短期天气扰动直接外推。</span></li>
-            <li><span class="rank">3</span><span><b>电量装机</b>：用电需求、火电发电和新能源净增装机一起验证供需弹性。</span></li>
-          </ul>
+          <div class="watch-list">
+            <div class="watch-item">
+              <span class="watch-index">01</span>
+              <div><strong>流域边际</strong><p id="watch-hydro">比较近 7 日、近 14 日和 QTD 来水。</p></div>
+            </div>
+            <div class="watch-item">
+              <span class="watch-index">02</span>
+              <div><strong>现货分化</strong><p id="watch-price">比较各省现货均价与煤电基准价。</p></div>
+            </div>
+            <div class="watch-item">
+              <span class="watch-index">03</span>
+              <div><strong>月度验证</strong><p id="watch-power">用电、发电和装机共同验证供需。</p></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -592,6 +600,30 @@
         </a>
       </div>
 
+      <div class="dashboard-charts">
+        <section class="chart-card">
+          <div class="chart-head">
+            <div>
+              <h2>重点流域来水强弱</h2>
+              <p>近 7 日、近 14 日与季度至今平均入库对比</p>
+            </div>
+            <a class="tab active" href="hydro.html">查看来水专题</a>
+          </div>
+          <div id="home-hydro-chart" class="echart" role="img" aria-label="重点流域来水强弱图"></div>
+        </section>
+
+        <section class="chart-card">
+          <div class="chart-head">
+            <div>
+              <h2>现货价格与煤电基准</h2>
+              <p>最新周度现货均价，展示偏离最大的省份</p>
+            </div>
+            <a class="tab active" href="price.html">查看电价专题</a>
+          </div>
+          <div id="home-price-chart" class="echart" role="img" aria-label="现货价格与煤电基准对比图"></div>
+        </section>
+      </div>
+
       <div class="grid">
         <div>
           <section>
@@ -604,15 +636,8 @@
                 <a class="tab" href="hydro.html">历史分位</a>
               </div>
             </div>
-            <div class="section-body river-layout">
-              <div class="chart" aria-label="来水示意图">
-                <div class="bar green" style="height: 72%"><span>长江</span></div>
-                <div class="bar teal" style="height: 52%"><span>雅砻江</span></div>
-                <div class="bar amber" style="height: 44%"><span>大渡河</span></div>
-                <div class="bar" style="height: 61%"><span>红水河</span></div>
-                <div class="bar green" style="height: 68%"><span>澜沧江</span></div>
-              </div>
-              <table>
+            <div class="section-body">
+              <div class="table-scroll"><table>
                 <thead>
                   <tr>
                     <th>电站</th>
@@ -626,7 +651,7 @@
                 <tbody id="hydro-latest-body">
                   <tr><td colspan="6">加载水电快照...</td></tr>
                 </tbody>
-              </table>
+              </table></div>
             </div>
           </section>
 
@@ -641,7 +666,7 @@
               </div>
             </div>
             <div class="section-body">
-              <table>
+              <div class="table-scroll"><table>
                 <thead>
                   <tr>
                     <th>省份</th>
@@ -655,7 +680,7 @@
                 <tbody id="spot-latest-body">
                   <tr><td colspan="6">加载现货周度价格...</td></tr>
                 </tbody>
-              </table>
+              </table></div>
             </div>
           </section>
         </div>
@@ -718,6 +743,7 @@
     </main>
   </div>
   <script src="assets/workbench-data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

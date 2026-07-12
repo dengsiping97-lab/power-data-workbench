@@ -19,6 +19,42 @@
     if (node) node.textContent = text;
   };
 
+  const chartInstances = new Map();
+  const chartColors = ["#0f7f78", "#2c6f9d", "#b97716", "#7b68a6", "#b64b42"];
+
+  const renderChart = (id, option) => {
+    const node = document.getElementById(id);
+    if (!node) return null;
+    if (!window.echarts) {
+      node.innerHTML = '<div class="chart-fallback">图表组件加载失败，明细数据仍可在下方表格查看。</div>';
+      return null;
+    }
+    const chart = chartInstances.get(id) || window.echarts.init(node, null, { renderer: "canvas" });
+    chartInstances.set(id, chart);
+    chart.setOption({
+      color: chartColors,
+      animationDuration: 500,
+      textStyle: { fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif' },
+      ...option
+    }, true);
+    return chart;
+  };
+
+  const axisStyle = {
+    axisLine: { lineStyle: { color: "#dfe7e8" } },
+    axisTick: { show: false },
+    axisLabel: { color: "#66808a", fontSize: 11 },
+    splitLine: { lineStyle: { color: "#edf2f2" } }
+  };
+
+  const tooltipStyle = {
+    trigger: "axis",
+    backgroundColor: "rgba(10, 24, 32, .94)",
+    borderWidth: 0,
+    textStyle: { color: "#fff", fontSize: 12 },
+    padding: [10, 12]
+  };
+
   const uniqueSorted = (rows, field) => [...new Set(rows.map((row) => row[field]).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
 
@@ -93,6 +129,63 @@
     setText("metric-dataset", `${data.datasets.p0.length} 张`);
     setText("metric-dataset-note", `P0 可直接接入，更新于 ${data.updatedAt}`);
 
+    const freshness = data.freshness || {};
+    setText("freshness-snapshot", data.updatedAt);
+    setText("freshness-hydro-week", freshness.hydroWeekly || `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("freshness-hydro-hour", freshness.hydroHourly || latestHour.time);
+    setText("freshness-spot", freshness.spotWeekly || latestSpot?.weekStart || "-");
+    setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
+
+    const riverQtd = buildRiverQtd();
+    const strongestRiver = [...riverQtd]
+      .filter((row) => row.qtdInflow && row.avg7dInflow)
+      .sort((a, b) => (b.avg7dInflow / b.qtdInflow) - (a.avg7dInflow / a.qtdInflow))[0];
+    const avgBenchmark = avg(data.spotWeeklyLatest.map((row) => row.coalBenchmark));
+    const spotSpread = avgBenchmark ? avgSpot - avgBenchmark : null;
+    const hydroPhrase = strongestRiver
+      ? `${strongestRiver.river}近 7 日较 QTD ${strongestRiver.avg7dInflow >= strongestRiver.qtdInflow ? "改善" : "回落"}`
+      : "重点流域等待更多样本";
+    const pricePhrase = spotSpread === null
+      ? "现货价格继续观察"
+      : `样本省份现货均价较煤电基准${spotSpread >= 0 ? "高" : "低"} ${fmt(Math.abs(spotSpread), 0)} 元/MWh`;
+    setText("weekly-brief-title", `${hydroPhrase}，${pricePhrase}`);
+    setText("weekly-brief-note", `快照更新于 ${data.updatedAt}。现货、来水和代理购电采用各自最新可得口径，不将旧数据冒充本周数据。`);
+    setText("watch-hydro", strongestRiver ? `${strongestRiver.river}：近7日 ${fmt(strongestRiver.avg7dInflow)}，QTD ${fmt(strongestRiver.qtdInflow)} m3/s。` : "比较近 7 日、近 14 日和 QTD 来水。");
+    setText("watch-price", `${data.spotWeeklyLatest.length} 个省份样本，最新数据期 ${freshness.spotWeekly || latestSpot?.weekStart || "-"}。`);
+    setText("watch-power", latestPower && latestCapacity ? `${latestPower.month}用电 ${fmt(latestPower.total)} 亿kWh，总装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW。` : "用电、发电和装机共同验证供需。");
+
+    const riverRows = riverQtd.slice(0, 8);
+    renderChart("home-hydro-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
+      legend: { top: 12, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+      grid: { left: 58, right: 24, top: 58, bottom: 48 },
+      xAxis: { type: "category", data: riverRows.map((row) => row.river), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: riverRows.length > 6 ? 24 : 0 } },
+      yAxis: { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
+      series: [
+        { name: "近7日", type: "bar", barMaxWidth: 22, data: riverRows.map((row) => row.avg7dInflow), itemStyle: { borderRadius: [4, 4, 0, 0] } },
+        { name: "近14日", type: "bar", barMaxWidth: 22, data: riverRows.map((row) => row.avg14dInflow), itemStyle: { borderRadius: [4, 4, 0, 0] } },
+        { name: "QTD", type: "line", smooth: true, symbolSize: 7, data: riverRows.map((row) => row.qtdInflow), lineStyle: { width: 2.5 } }
+      ]
+    });
+
+    const priceRows = data.spotWeeklyLatest
+      .filter((row) => row.spotAvg !== null && row.coalBenchmark !== null)
+      .map((row) => ({ ...row, spread: row.spotAvg - row.coalBenchmark }))
+      .sort((a, b) => Math.abs(b.spread) - Math.abs(a.spread))
+      .slice(0, 10)
+      .sort((a, b) => a.spotAvg - b.spotAvg);
+    renderChart("home-price-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value, 1)} 元/MWh` },
+      legend: { top: 12, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+      grid: { left: 52, right: 28, top: 58, bottom: 30, containLabel: true },
+      xAxis: { type: "value", ...axisStyle },
+      yAxis: { type: "category", data: priceRows.map((row) => row.province), ...axisStyle },
+      series: [
+        { name: "现货均价", type: "bar", data: priceRows.map((row) => row.spotAvg), barMaxWidth: 13, itemStyle: { borderRadius: [0, 4, 4, 0] } },
+        { name: "煤电基准", type: "scatter", symbol: "diamond", symbolSize: 10, data: priceRows.map((row, index) => [row.coalBenchmark, index]) }
+      ]
+    });
+
     const hydroBody = document.getElementById("hydro-latest-body");
     if (hydroBody) {
       hydroBody.innerHTML = data.hydroWeeklyLatest.slice(0, 8).map((row) => `
@@ -156,6 +249,74 @@
       setText("hydro-page-qtd-note", `近7日 ${fmt(focusQtd.avg7dInflow)}；近14日 ${fmt(focusQtd.avg14dInflow)}；${focusQtd.signal}`);
     }
 
+    const freshness = data.freshness || {};
+    setText("hydro-freshness-snapshot", data.updatedAt);
+    setText("hydro-freshness-week", freshness.hydroWeekly || `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("hydro-freshness-hour", freshness.hydroHourly || latestHour.time);
+
+    const historyRows = data.hydroWeeklyHistory || [];
+    const trendSelect = document.getElementById("hydro-trend-station");
+    const trendStations = uniqueSorted(historyRows, "station");
+    const renderTrendChart = (station) => {
+      const rows = historyRows
+        .filter((row) => row.station === station)
+        .sort((a, b) => String(a.weekStart).localeCompare(String(b.weekStart)));
+      renderChart("hydro-trend-chart", {
+        tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
+        legend: { top: 12, right: 22, textStyle: { color: "#66808a", fontSize: 11 } },
+        grid: { left: 62, right: 26, top: 58, bottom: 72 },
+        xAxis: { type: "category", boundaryGap: false, data: rows.map((row) => row.weekStart), ...axisStyle },
+        yAxis: { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
+        dataZoom: [
+          { type: "inside", start: 35, end: 100 },
+          { type: "slider", height: 18, bottom: 18, borderColor: "#dfe7e8", fillerColor: "rgba(15,127,120,.14)" }
+        ],
+        series: [
+          { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
+          { name: "出库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.outflow), lineStyle: { width: 1.5, type: "dashed" } }
+        ]
+      });
+    };
+    if (trendSelect && trendStations.length) {
+      const preferredTrend = trendStations.includes("三峡") ? "三峡" : trendStations[0];
+      setSelectOptions(trendSelect, trendStations, preferredTrend);
+      trendSelect.addEventListener("change", () => renderTrendChart(trendSelect.value));
+      renderTrendChart(preferredTrend);
+    }
+
+    const riverChartRows = riverQtd.slice(0, 8);
+    renderChart("hydro-river-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
+      legend: { top: 10, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+      grid: { left: 46, right: 18, top: 52, bottom: 48 },
+      xAxis: { type: "category", data: riverChartRows.map((row) => row.river), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: 26 } },
+      yAxis: { type: "value", ...axisStyle },
+      series: [
+        { name: "近7日", type: "bar", barMaxWidth: 18, data: riverChartRows.map((row) => row.avg7dInflow), itemStyle: { borderRadius: [4, 4, 0, 0] } },
+        { name: "QTD", type: "line", smooth: true, symbolSize: 6, data: riverChartRows.map((row) => row.qtdInflow) }
+      ]
+    });
+
+    const renderHydroStationChart = (river) => {
+      const rows = (data.hydroQtdMetrics || [])
+        .filter((row) => !river || row.river === river)
+        .sort((a, b) => (b.qtdInflow || 0) - (a.qtdInflow || 0))
+        .slice(0, 9)
+        .reverse();
+      renderChart("hydro-station-chart", {
+        tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
+        legend: { top: 10, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+        grid: { left: 18, right: 24, top: 52, bottom: 28, containLabel: true },
+        xAxis: { type: "value", ...axisStyle },
+        yAxis: { type: "category", data: rows.map((row) => row.station), ...axisStyle },
+        series: [
+          { name: "最新", type: "bar", barMaxWidth: 12, data: rows.map((row) => row.latestInflow), itemStyle: { borderRadius: [0, 4, 4, 0] } },
+          { name: "QTD", type: "scatter", symbol: "diamond", symbolSize: 9, data: rows.map((row, index) => [row.qtdInflow, index]) }
+        ]
+      });
+    };
+    renderHydroStationChart(focusQtd?.river || null);
+
     const weeklyBody = document.getElementById("hydro-page-weekly-body");
     const weeklySelect = document.getElementById("hydro-weekly-basin");
     const weeklyNote = document.getElementById("hydro-weekly-basin-note");
@@ -215,6 +376,7 @@
     const renderQtdByRiver = (river) => {
       if (!qtdBody) return;
       const rows = data.hydroQtdMetrics.filter((row) => row.river === river);
+      renderHydroStationChart(river);
       if (qtdNote) qtdNote.textContent = `${river} 共 ${rows.length} 个电站 QTD 样本`;
       qtdBody.innerHTML = rows.map((row) => `
         <tr>
@@ -504,5 +666,10 @@
     renderHydroPage();
     renderPricePage();
     renderPowerPage();
+    let resizeTimer = null;
+    window.addEventListener("resize", () => {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => chartInstances.forEach((chart) => chart.resize()), 120);
+    });
   });
 })();
