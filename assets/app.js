@@ -261,19 +261,51 @@
       const rows = historyRows
         .filter((row) => row.station === station)
         .sort((a, b) => String(a.weekStart).localeCompare(String(b.weekStart)));
+      const inflowByWeek = new Map(rows.map((row) => [`${row.isoYear}-${row.isoWeek}`, row.inflow]));
+      const inflowYoyRaw = rows.map((row) => {
+        const priorInflow = inflowByWeek.get(`${row.isoYear - 1}-${row.isoWeek}`);
+        if (row.inflow === null || row.inflow === undefined || Number(row.inflow) <= 0 || priorInflow === null || priorInflow === undefined || Number(priorInflow) <= 0) return null;
+        return Number((((Number(row.inflow) / Number(priorInflow)) - 1) * 100).toFixed(1));
+      });
+      const validYoy = inflowYoyRaw.filter((value) => value !== null);
+      const yoyAxisMax = Math.min(300, Math.max(50, Math.ceil((Math.max(...validYoy.map((value) => Math.abs(value)), 50) * 1.1) / 25) * 25));
+      const inflowYoy = inflowYoyRaw.map((rawValue) => {
+        if (rawValue === null) return null;
+        const clippedValue = Math.max(-yoyAxisMax, Math.min(yoyAxisMax, rawValue));
+        return { value: clippedValue, rawValue, clipped: clippedValue !== rawValue };
+      });
       renderChart("hydro-trend-chart", {
-        tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
+        tooltip: {
+          ...tooltipStyle,
+          formatter: (params) => {
+            const items = Array.isArray(params) ? params : [params];
+            const lines = [items[0]?.axisValueLabel || items[0]?.name || ""];
+            items.forEach((item) => {
+              const isYoy = item.seriesName === "入库同比";
+              const rawValue = isYoy && item.data && typeof item.data === "object" ? item.data.rawValue : item.value;
+              const display = rawValue === null || rawValue === undefined
+                ? "-"
+                : (isYoy ? pct(rawValue) : `${fmt(rawValue)} m3/s`);
+              lines.push(`${item.marker}${item.seriesName}：${display}`);
+            });
+            return lines.join("<br>");
+          }
+        },
         legend: { top: 12, right: 22, textStyle: { color: "#66808a", fontSize: 11 } },
-        grid: { left: 62, right: 26, top: 58, bottom: 72 },
+        grid: { left: 62, right: 68, top: 58, bottom: 72 },
         xAxis: { type: "category", boundaryGap: false, data: rows.map((row) => row.weekStart), ...axisStyle },
-        yAxis: { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
+        yAxis: [
+          { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+        ],
         dataZoom: [
           { type: "inside", start: 35, end: 100 },
           { type: "slider", height: 18, bottom: 18, borderColor: "#dfe7e8", fillerColor: "rgba(15,127,120,.14)" }
         ],
         series: [
-          { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
-          { name: "出库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.outflow), lineStyle: { width: 1.5, type: "dashed" } }
+          { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
+          { name: "出库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.outflow), lineStyle: { width: 1.5, type: "dashed" }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
+          { name: "入库同比", type: "line", yAxisIndex: 1, smooth: true, showSymbol: true, symbol: "circle", symbolSize: (value, params) => params.data?.clipped ? 8 : 0, connectNulls: false, data: inflowYoy, itemStyle: { color: "#b97716" }, lineStyle: { color: "#b97716", width: 1.8 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
