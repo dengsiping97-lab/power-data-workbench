@@ -100,6 +100,10 @@
             <span class="history-note" id="proxy-province-note">选择省份后查看代理购电价</span>
             <button class="compact" id="proxy-history-toggle" type="button">展开全部</button>
           </div>
+          <div class="inline-chart-wrap">
+            <div class="inline-chart-note">代理购电价使用左轴，月度同比使用右侧百分比轴</div>
+            <div id="proxy-history-chart" class="echart compact" role="img" aria-label="分省代理购电价走势与同比图"></div>
+          </div>
           <table>
             <thead><tr><th>省份</th><th>月份</th><th>代理购电价</th><th>环比</th></tr></thead>
             <tbody id="proxy-history-body"><tr><td colspan="4">加载代理购电价...</td></tr></tbody>
@@ -117,6 +121,10 @@
             <select id="system-fee-province"></select>
             <span class="history-note" id="system-fee-province-note">选择省份后查看系统运行费折价</span>
             <button class="compact" id="system-fee-history-toggle" type="button">展开全部</button>
+          </div>
+          <div class="inline-chart-wrap">
+            <div class="inline-chart-note">总值及可得分项使用左轴，总值同比使用右侧百分比轴</div>
+            <div id="system-fee-history-chart" class="echart compact" role="img" aria-label="系统运行费折价走势与同比图"></div>
           </div>
           <table>
             <thead><tr><th>省份</th><th>月份</th><th>总值</th><th>环比</th><th>煤电容量</th><th>辅助服务</th><th>抽蓄容量</th></tr></thead>

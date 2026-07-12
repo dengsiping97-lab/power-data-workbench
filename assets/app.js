@@ -603,6 +603,23 @@
       renderPriceHistoryChart(provinceSelect.value);
     }
 
+    const buildMonthlyYoy = (rows, valueField) => {
+      const valueByMonth = new Map(rows.map((row) => [row.month, row[valueField]]));
+      const raw = rows.map((row) => {
+        const [year, month] = String(row.month).split("-");
+        const currentValue = row[valueField];
+        const priorValue = valueByMonth.get(`${Number(year) - 1}-${month}`);
+        if (currentValue === null || currentValue === undefined || Number(currentValue) <= 0 || priorValue === null || priorValue === undefined || Number(priorValue) <= 0) return null;
+        return Number((((Number(currentValue) / Number(priorValue)) - 1) * 100).toFixed(1));
+      });
+      const valid = raw.filter((value) => value !== null);
+      const axisMax = Math.min(300, Math.max(50, Math.ceil((Math.max(...valid.map((value) => Math.abs(value)), 50) * 1.1) / 25) * 25));
+      return {
+        axisMax,
+        data: raw.map((rawValue) => rawValue === null ? null : { value: Math.max(-axisMax, Math.min(axisMax, rawValue)), rawValue, clipped: Math.abs(rawValue) > axisMax })
+      };
+    };
+
     const proxySelect = document.getElementById("proxy-province");
     const proxyNote = document.getElementById("proxy-province-note");
     const proxyBody = document.getElementById("proxy-history-body");
@@ -610,6 +627,39 @@
     let proxyHistoryExpanded = false;
     const proxyProvinces = data.proxyPurchaseHistory ? [...new Set(data.proxyPurchaseHistory.map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN")) : [];
     const preferredProxyProvince = proxyProvinces.includes("广东") ? "广东" : proxyProvinces[0];
+    const renderProxyChart = (province) => {
+      const rows = data.proxyPurchaseHistory
+        .filter((row) => row.province === province)
+        .sort((a, b) => String(a.month).localeCompare(String(b.month)));
+      const yoy = buildMonthlyYoy(rows, "proxyPrice");
+      renderChart("proxy-history-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          formatter: (params) => {
+            const items = Array.isArray(params) ? params : [params];
+            const lines = [items[0]?.axisValueLabel || items[0]?.name || ""];
+            items.forEach((item) => {
+              const isYoy = item.seriesName === "同比";
+              const rawValue = isYoy && item.data && typeof item.data === "object" ? item.data.rawValue : item.value;
+              lines.push(`${item.marker}${item.seriesName}：${rawValue === null || rawValue === undefined ? "-" : (isYoy ? pct(rawValue) : `${fmt(rawValue, 1)} 元/MWh`)}`);
+            });
+            return lines.join("<br>");
+          }
+        },
+        legend: { top: 10, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+        grid: { left: 62, right: 68, top: 52, bottom: 58 },
+        xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
+        yAxis: [
+          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#66808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+        ],
+        dataZoom: [{ type: "inside", start: Math.max(0, 100 - (24 / Math.max(rows.length, 24)) * 100), end: 100 }],
+        series: [
+          { name: "代理购电价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.proxyPrice), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
+          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(185,119,22,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+        ]
+      });
+    };
     const renderProxyHistory = (province) => {
       if (!proxyBody) return;
       const rows = data.proxyPurchaseHistory.filter((row) => row.province === province);
@@ -628,6 +678,7 @@
         </tr>
       `).join("");
       if (proxyHistoryToggle) proxyHistoryToggle.textContent = proxyHistoryExpanded ? "收起" : `展开全部 ${rows.length}`;
+      renderProxyChart(province);
     };
     if (proxySelect && proxyBody && data.proxyPurchaseHistory) {
       proxySelect.innerHTML = proxyProvinces.map((province) => `<option value="${province}">${province}</option>`).join("");
@@ -651,6 +702,41 @@
       ? [...new Set(data.systemFeeHistory.filter((row) => row.total !== null && row.total !== undefined).map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"))
       : [];
     const preferredSystemFeeProvince = systemFeeProvinces.includes("广东") ? "广东" : systemFeeProvinces[0];
+    const renderSystemFeeChart = (province) => {
+      const rows = data.systemFeeHistory
+        .filter((row) => row.province === province && row.total !== null && row.total !== undefined)
+        .sort((a, b) => String(a.month).localeCompare(String(b.month)));
+      const yoy = buildMonthlyYoy(rows, "total");
+      renderChart("system-fee-history-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          formatter: (params) => {
+            const items = Array.isArray(params) ? params : [params];
+            const lines = [items[0]?.axisValueLabel || items[0]?.name || ""];
+            items.forEach((item) => {
+              const isYoy = item.seriesName === "总值同比";
+              const rawValue = isYoy && item.data && typeof item.data === "object" ? item.data.rawValue : item.value;
+              lines.push(`${item.marker}${item.seriesName}：${rawValue === null || rawValue === undefined ? "-" : (isYoy ? pct(rawValue) : `${fmt(rawValue, 1)} 元/MWh`)}`);
+            });
+            return lines.join("<br>");
+          }
+        },
+        legend: { top: 8, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+        grid: { left: 62, right: 68, top: 54, bottom: 58 },
+        xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
+        yAxis: [
+          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#66808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+        ],
+        series: [
+          { name: "总值", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.total), lineStyle: { width: 2.6 }, areaStyle: { opacity: .08 } },
+          { name: "煤电容量", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.coalCapacity), lineStyle: { width: 1.4, type: "dashed" } },
+          { name: "辅助服务", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.ancillary), lineStyle: { width: 1.2, type: "dotted" } },
+          { name: "抽蓄容量", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.pumpedStorage), lineStyle: { width: 1.2, type: "dotted" } },
+          { name: "总值同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(185,119,22,.28)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+        ]
+      });
+    };
     const renderSystemFeeHistory = (province) => {
       if (!systemFeeBody) return;
       const rows = data.systemFeeHistory.filter((row) => row.province === province && row.total !== null && row.total !== undefined);
@@ -672,6 +758,7 @@
         </tr>
       `).join("");
       if (systemFeeToggle) systemFeeToggle.textContent = systemFeeExpanded ? "收起" : `展开全部 ${rows.length}`;
+      renderSystemFeeChart(province);
     };
     if (systemFeeSelect && systemFeeBody && data.systemFeeHistory && systemFeeProvinces.length) {
       systemFeeSelect.innerHTML = systemFeeProvinces.map((province) => `<option value="${province}">${province}</option>`).join("");

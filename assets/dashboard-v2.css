@@ -267,6 +267,19 @@ main {
   font-size: 13px;
 }
 
+.inline-chart-wrap {
+  overflow: hidden;
+  margin: 2px 0 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  background: var(--surface-soft);
+}
+.inline-chart-note {
+  padding: 12px 16px 0;
+  color: var(--ink-500);
+  font-size: 12px;
+}
+
 section {
   overflow: hidden;
   border-color: var(--line-soft);
