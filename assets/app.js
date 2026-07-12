@@ -26,7 +26,7 @@
   };
 
   const chartInstances = new Map();
-  const chartColors = ["#b85c4d", "#c58a45", "#8a5d56", "#98847a", "#748296"];
+  const chartColors = ["#607d98", "#c5a66f", "#89939b", "#7f8ea0", "#9d8064"];
 
   const renderChart = (id, option) => {
     const node = document.getElementById(id);
@@ -47,10 +47,10 @@
   };
 
   const axisStyle = {
-    axisLine: { lineStyle: { color: "#eadfd7" } },
+    axisLine: { lineStyle: { color: "#d9e2e7" } },
     axisTick: { show: false },
-    axisLabel: { color: "#8b7a74", fontSize: 11 },
-    splitLine: { lineStyle: { color: "#f0e9e3" } }
+    axisLabel: { color: "#74808a", fontSize: 11 },
+    splitLine: { lineStyle: { color: "#e8eef1" } }
   };
 
   const tooltipStyle = {
@@ -163,10 +163,10 @@
     const riverRows = riverQtd.slice(0, 8);
     renderChart("home-hydro-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
-      legend: { top: 12, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+      legend: { top: 12, right: 18, textStyle: { color: "#74808a", fontSize: 11 } },
       grid: { left: 58, right: 24, top: 58, bottom: 48 },
       xAxis: { type: "category", data: riverRows.map((row) => row.river), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: riverRows.length > 6 ? 24 : 0 } },
-      yAxis: { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
+      yAxis: { type: "value", name: "m3/s", nameTextStyle: { color: "#74808a" }, ...axisStyle },
       series: [
         { name: "近7日", type: "bar", barMaxWidth: 22, data: riverRows.map((row) => row.avg7dInflow), itemStyle: { borderRadius: [4, 4, 0, 0] } },
         { name: "近14日", type: "bar", barMaxWidth: 22, data: riverRows.map((row) => row.avg14dInflow), itemStyle: { borderRadius: [4, 4, 0, 0] } },
@@ -182,7 +182,7 @@
       .sort((a, b) => a.spotAvg - b.spotAvg);
     renderChart("home-price-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value, 1)} 元/MWh` },
-      legend: { top: 12, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+      legend: { top: 12, right: 18, textStyle: { color: "#74808a", fontSize: 11 } },
       grid: { left: 52, right: 28, top: 58, bottom: 30, containLabel: true },
       xAxis: { type: "value", ...axisStyle },
       yAxis: { type: "category", data: priceRows.map((row) => row.province), ...axisStyle },
@@ -297,21 +297,21 @@
             return lines.join("<br>");
           }
         },
-        legend: { top: 12, right: 22, textStyle: { color: "#66808a", fontSize: 11 } },
+        legend: { top: 12, right: 22, textStyle: { color: "#74808a", fontSize: 11 } },
         grid: { left: 62, right: 68, top: 58, bottom: 72 },
         xAxis: { type: "category", boundaryGap: false, data: rows.map((row) => row.weekStart), ...axisStyle },
         yAxis: [
-          { type: "value", name: "m3/s", nameTextStyle: { color: "#66808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "m3/s", nameTextStyle: { color: "#74808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [
           { type: "inside", start: 35, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#e5d9cf", fillerColor: "rgba(180,71,58,.16)" }
+          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.16)" }
         ],
         series: [
           { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
           { name: "出库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.outflow), lineStyle: { width: 1.5, type: "dashed" }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
-          { name: "入库同比", type: "line", yAxisIndex: 1, smooth: true, showSymbol: true, symbol: "circle", symbolSize: (value, params) => params.data?.clipped ? 8 : 0, connectNulls: false, data: inflowYoy, itemStyle: { color: "#b97716" }, lineStyle: { color: "#b97716", width: 1.8 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "入库同比", type: "line", yAxisIndex: 1, smooth: true, showSymbol: true, symbol: "circle", symbolSize: (value, params) => params.data?.clipped ? 8 : 0, connectNulls: false, data: inflowYoy, itemStyle: { color: "#a88752" }, lineStyle: { color: "#a88752", width: 1.8 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
@@ -325,7 +325,7 @@
     const riverChartRows = riverQtd.slice(0, 8);
     renderChart("hydro-river-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
-      legend: { top: 10, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+      legend: { top: 10, right: 16, textStyle: { color: "#74808a", fontSize: 10 } },
       grid: { left: 46, right: 18, top: 52, bottom: 48 },
       xAxis: { type: "category", data: riverChartRows.map((row) => row.river), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: 26 } },
       yAxis: { type: "value", ...axisStyle },
@@ -343,7 +343,7 @@
         .reverse();
       renderChart("hydro-station-chart", {
         tooltip: { ...tooltipStyle, valueFormatter: (value) => `${fmt(value)} m3/s` },
-        legend: { top: 10, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+        legend: { top: 10, right: 16, textStyle: { color: "#74808a", fontSize: 10 } },
         grid: { left: 18, right: 24, top: 52, bottom: 28, containLabel: true },
         xAxis: { type: "value", ...axisStyle },
         yAxis: { type: "category", data: rows.map((row) => row.station), ...axisStyle },
@@ -534,21 +534,21 @@
             return lines.join("<br>");
           }
         },
-        legend: { top: 12, right: 22, textStyle: { color: "#66808a", fontSize: 11 } },
+        legend: { top: 12, right: 22, textStyle: { color: "#74808a", fontSize: 11 } },
         grid: { left: 64, right: 68, top: 58, bottom: 72 },
         xAxis: { type: "category", boundaryGap: true, data: rows.map((row) => row.weekStart), ...axisStyle },
         yAxis: [
-          { type: "value", name: "元/MWh", nameTextStyle: { color: "#66808a" }, scale: true, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "元/MWh", nameTextStyle: { color: "#74808a" }, scale: true, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [
           { type: "inside", start: 0, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#dfe7e8", fillerColor: "rgba(44,111,157,.14)" }
+          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.14)" }
         ],
         series: [
           { name: "现货均价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.spotAvg), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
-          { name: "煤电基准", type: "line", smooth: false, showSymbol: false, data: rows.map((row) => row.coalBenchmark), lineStyle: { width: 1.4, type: "dashed", color: "#66808a" }, itemStyle: { color: "#66808a" } },
-          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoyData, itemStyle: { color: "rgba(185,119,22,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "煤电基准", type: "line", smooth: false, showSymbol: false, data: rows.map((row) => row.coalBenchmark), lineStyle: { width: 1.4, type: "dashed", color: "#74808a" }, itemStyle: { color: "#74808a" } },
+          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoyData, itemStyle: { color: "rgba(197,166,111,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
@@ -646,17 +646,17 @@
             return lines.join("<br>");
           }
         },
-        legend: { top: 10, right: 18, textStyle: { color: "#66808a", fontSize: 11 } },
+        legend: { top: 10, right: 18, textStyle: { color: "#74808a", fontSize: 11 } },
         grid: { left: 62, right: 68, top: 52, bottom: 58 },
         xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
         yAxis: [
-          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#66808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#74808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [{ type: "inside", start: Math.max(0, 100 - (24 / Math.max(rows.length, 24)) * 100), end: 100 }],
         series: [
           { name: "代理购电价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.proxyPrice), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
-          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(185,119,22,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(197,166,111,.32)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
@@ -721,19 +721,19 @@
             return lines.join("<br>");
           }
         },
-        legend: { top: 8, right: 16, textStyle: { color: "#66808a", fontSize: 10 } },
+        legend: { top: 8, right: 16, textStyle: { color: "#74808a", fontSize: 10 } },
         grid: { left: 62, right: 68, top: 54, bottom: 58 },
         xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
         yAxis: [
-          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#66808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#b97716" }, ...axisStyle, axisLabel: { color: "#b97716", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#74808a" }, ...axisStyle },
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         series: [
           { name: "总值", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.total), lineStyle: { width: 2.6 }, areaStyle: { opacity: .08 } },
           { name: "煤电容量", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.coalCapacity), lineStyle: { width: 1.4, type: "dashed" } },
           { name: "辅助服务", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.ancillary), lineStyle: { width: 1.2, type: "dotted" } },
           { name: "抽蓄容量", type: "line", smooth: true, showSymbol: false, connectNulls: false, data: rows.map((row) => row.pumpedStorage), lineStyle: { width: 1.2, type: "dotted" } },
-          { name: "总值同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(185,119,22,.28)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(185,119,22,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "总值同比", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: yoy.data, itemStyle: { color: "rgba(197,166,111,.28)", borderRadius: [3, 3, 0, 0] }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
@@ -828,7 +828,7 @@
     }
     renderChart("power-balance-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)}%` },
-      legend: { top: 10, textStyle: { color: "#8b7a74" } },
+      legend: { top: 10, textStyle: { color: "#74808a" } },
       grid: { left: 56, right: 28, top: 58, bottom: 42 },
       xAxis: { type: "category", data: balanceRows.map((row) => row.month), ...axisStyle },
       yAxis: { type: "value", name: "%", ...axisStyle },
@@ -838,7 +838,7 @@
           type: "bar",
           barMaxWidth: 18,
           data: balanceRows.map((row) => +(Number(row.totalYoy) - Number(row.capacity.totalYoy)).toFixed(1)),
-          itemStyle: { color: "#98847a", borderRadius: [4, 4, 0, 0] },
+          itemStyle: { color: "#89939b", borderRadius: [4, 4, 0, 0] },
           markLine: { silent: true, symbol: "none", lineStyle: { color: "#d6c7bc", type: "dashed" }, data: [{ yAxis: 0 }] }
         },
         {
@@ -847,8 +847,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.totalYoy),
-          lineStyle: { width: 3, color: "#b85c4d" },
-          itemStyle: { color: "#b85c4d" }
+          lineStyle: { width: 3, color: "#607d98" },
+          itemStyle: { color: "#607d98" }
         },
         {
           name: "装机同比",
@@ -856,8 +856,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.capacity.totalYoy),
-          lineStyle: { width: 2, color: "#c58a45" },
-          itemStyle: { color: "#c58a45" }
+          lineStyle: { width: 2, color: "#c5a66f" },
+          itemStyle: { color: "#c5a66f" }
         }
       ]
     });
@@ -865,7 +865,7 @@
     const generationTrendRows = data.powerGenerationMonthly.slice(0, 12).reverse();
     renderChart("power-generation-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => value === null || value === undefined ? "-" : `${Number(value).toFixed(1)}%` },
-      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#8b7a74", fontSize: 11 } },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
       grid: { left: 48, right: 24, top: 58, bottom: 42 },
       xAxis: { type: "category", data: generationTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
       yAxis: { type: "value", name: "%", ...axisStyle },
@@ -892,7 +892,7 @@
     }
     renderChart("power-additions-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)} GW` },
-      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#8b7a74", fontSize: 11 } },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
       grid: { left: 48, right: 24, top: 58, bottom: 42 },
       xAxis: { type: "category", data: additionsTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
       yAxis: { type: "value", name: "GW", ...axisStyle },
