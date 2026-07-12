@@ -47,6 +47,40 @@
         <div class="summary"><div class="label">单月新增</div><div class="value" id="power-additions-total">加载中</div><div class="note" id="power-additions-note">装机新增节奏</div></div>
       </div>
 
+      <div class="power-chart-grid">
+        <article class="chart-card wide">
+          <div class="chart-head">
+            <div>
+              <h2>需求—供给剪刀差</h2>
+              <p>用电增速减装机增速：正值有利于利用小时，负值提示供给释放快于需求</p>
+            </div>
+            <span class="pill" id="power-balance-signal">计算中</span>
+          </div>
+          <div id="power-balance-chart" class="echart" role="img" aria-label="全社会用电量同比、总装机同比与供需剪刀差趋势图"></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-head">
+            <div>
+              <h2>分电源发电增速</h2>
+              <p>观察水火替代与新能源出力，辅助判断火电利用小时和水电业绩弹性</p>
+            </div>
+          </div>
+          <div id="power-generation-trend-chart" class="echart compact" role="img" aria-label="火电、水电、核电、风电和太阳能发电量同比趋势图"></div>
+        </article>
+
+        <article class="chart-card">
+          <div class="chart-head">
+            <div>
+              <h2>新增装机结构</h2>
+              <p>跟踪风光供给释放与传统电源补位，判断消纳压力、电价弹性和设备订单景气</p>
+            </div>
+            <span class="pill" id="power-renewable-addition-share">计算中</span>
+          </div>
+          <div id="power-additions-trend-chart" class="echart compact" role="img" aria-label="分电源月度新增装机堆叠趋势图"></div>
+        </article>
+      </div>
+
       <section>
         <div class="section-head"><h2>用电量结构</h2><span class="pill">分产业</span></div>
         <div class="section-body">
@@ -107,6 +141,7 @@
     </main>
   </div>
   <script src="assets/workbench-data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

@@ -816,6 +816,102 @@
     setText("power-additions-total", `${fmt(additions.total / 100, 1)} GW`);
     setText("power-additions-note", `${additions.month}，风光新增 ${fmt(((additions.wind || 0) + (additions.solar || 0)) / 100, 1)} GW`);
 
+    const balanceRows = data.powerConsumptionMonthly
+      .map((row) => ({ ...row, capacity: findByMonth(data.installedCapacityMonthly, row.month) }))
+      .filter((row) => row.totalYoy !== null && row.totalYoy !== undefined && row.capacity.totalYoy !== null && row.capacity.totalYoy !== undefined)
+      .slice(0, 12)
+      .reverse();
+    const latestBalance = balanceRows[balanceRows.length - 1];
+    if (latestBalance) {
+      const gap = Number(latestBalance.totalYoy) - Number(latestBalance.capacity.totalYoy);
+      setText("power-balance-signal", `${latestBalance.month} ${gap >= 0 ? "需求快" : "供给快"} ${Math.abs(gap).toFixed(1)}pct`);
+    }
+    renderChart("power-balance-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)}%` },
+      legend: { top: 10, textStyle: { color: "#836f68" } },
+      grid: { left: 56, right: 28, top: 58, bottom: 42 },
+      xAxis: { type: "category", data: balanceRows.map((row) => row.month), ...axisStyle },
+      yAxis: { type: "value", name: "%", ...axisStyle },
+      series: [
+        {
+          name: "剪刀差",
+          type: "bar",
+          barMaxWidth: 18,
+          data: balanceRows.map((row) => +(Number(row.totalYoy) - Number(row.capacity.totalYoy)).toFixed(1)),
+          itemStyle: { color: "#8b6f62", borderRadius: [4, 4, 0, 0] },
+          markLine: { silent: true, symbol: "none", lineStyle: { color: "#d6c7bc", type: "dashed" }, data: [{ yAxis: 0 }] }
+        },
+        {
+          name: "用电同比",
+          type: "line",
+          smooth: true,
+          symbolSize: 6,
+          data: balanceRows.map((row) => row.totalYoy),
+          lineStyle: { width: 3, color: "#b4473a" },
+          itemStyle: { color: "#b4473a" }
+        },
+        {
+          name: "装机同比",
+          type: "line",
+          smooth: true,
+          symbolSize: 6,
+          data: balanceRows.map((row) => row.capacity.totalYoy),
+          lineStyle: { width: 2, color: "#c07a2d" },
+          itemStyle: { color: "#c07a2d" }
+        }
+      ]
+    });
+
+    const generationTrendRows = data.powerGenerationMonthly.slice(0, 12).reverse();
+    renderChart("power-generation-trend-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => value === null || value === undefined ? "-" : `${Number(value).toFixed(1)}%` },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#836f68", fontSize: 11 } },
+      grid: { left: 48, right: 24, top: 58, bottom: 42 },
+      xAxis: { type: "category", data: generationTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
+      yAxis: { type: "value", name: "%", ...axisStyle },
+      series: [
+        ["火电", "thermalYoy"],
+        ["水电", "hydroYoy"],
+        ["核电", "nuclearYoy"],
+        ["风电", "windYoy"],
+        ["太阳能", "solarYoy"]
+      ].map(([name, field]) => ({
+        name,
+        type: "line",
+        smooth: true,
+        showSymbol: false,
+        emphasis: { focus: "series" },
+        data: generationTrendRows.map((row) => row[field])
+      }))
+    });
+
+    const additionsTrendRows = (data.installedCapacityAdditions || []).slice(0, 12).reverse();
+    if (additions.total) {
+      const renewableShare = ((Number(additions.wind || 0) + Number(additions.solar || 0)) / Number(additions.total)) * 100;
+      setText("power-renewable-addition-share", `${additions.month} 风光占新增 ${renewableShare.toFixed(0)}%`);
+    }
+    renderChart("power-additions-trend-chart", {
+      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)} GW` },
+      legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#836f68", fontSize: 11 } },
+      grid: { left: 48, right: 24, top: 58, bottom: 42 },
+      xAxis: { type: "category", data: additionsTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
+      yAxis: { type: "value", name: "GW", ...axisStyle },
+      series: [
+        ["水电", "hydro"],
+        ["火电", "thermal"],
+        ["核电", "nuclear"],
+        ["风电", "wind"],
+        ["太阳能", "solar"]
+      ].map(([name, field]) => ({
+        name,
+        type: "bar",
+        stack: "新增装机",
+        barMaxWidth: 26,
+        emphasis: { focus: "series" },
+        data: additionsTrendRows.map((row) => +(Number(row[field] || 0) / 100).toFixed(1))
+      }))
+    });
+
     bindMonthSelect("power-consumption-month", data.powerConsumptionMonthly, consumption.month, (month) => {
       const row = findByMonth(data.powerConsumptionMonthly, month);
       setText("power-consumption-month-note", `${month} 全社会 ${fmt(row.total)} 亿kWh，同比 ${pct(row.totalYoy)}`);

@@ -259,7 +259,8 @@ main {
 .metric .note { color: var(--ink-500); line-height: 1.5; }
 
 .dashboard-charts,
-.hydro-chart-grid {
+.hydro-chart-grid,
+.power-chart-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   gap: 16px;
@@ -269,7 +270,7 @@ main {
 .grid {
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
 }
-.grid > *, .dashboard-charts > *, .hydro-chart-grid > * { min-width: 0; }
+.grid > *, .dashboard-charts > *, .hydro-chart-grid > *, .power-chart-grid > * { min-width: 0; }
 
 .chart-card {
   min-width: 0;
@@ -363,7 +364,8 @@ tbody tr:hover { background: #fbf4ef; }
   main { padding: 26px 22px 42px; }
   .hero-v2,
   .dashboard-charts,
-  .hydro-chart-grid { grid-template-columns: 1fr; }
+  .hydro-chart-grid,
+  .power-chart-grid { grid-template-columns: 1fr; }
   .chart-card.wide { grid-column: auto; }
   .price-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
