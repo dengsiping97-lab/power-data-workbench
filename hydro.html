@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>来水与水电 · 电力数据研究工作台</title>
+  <title>水电跟踪 · 电力数据研究工作台</title>
   <style>
     :root {
       --bg: #f6f7f8;
@@ -266,19 +266,17 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a href="index.html">Dashboard</a>
-        <a class="active" href="hydro.html">来水与水电</a>
-        <a href="price.html">电价数据</a>
-        <a href="power.html">电量与装机</a>
-        <a href="holdings.html">机构持仓</a>
-        <a href="tools.html">测算工具</a>
-        <a href="data-catalog.html">数据目录</a>
+        <a href="index.html">跟踪总览</a>
+        <a class="active" href="hydro.html">水电跟踪</a>
+        <a href="price.html">电价与市场</a>
+        <a href="power.html">电力供需</a>
+        <a href="holdings.html">估值与资金</a>
+        <a href="tools.html">测算中心</a>
       </nav>
       <div class="nav-section">研究归档</div>
       <nav>
-        <a href="research.html">查询记录</a>
-        <a href="companies.html">公司页面</a>
-        <a href="decisions.html">决策复盘</a>
+        <a href="research.html">观点与复盘</a>
+        <a href="companies.html">公司弹性</a>
       </nav>
     </aside>
 
@@ -286,8 +284,8 @@
       <div class="topbar">
         <div>
           <div class="eyebrow">HYDRO MONITOR</div>
-          <h1>来水与水电</h1>
-          <p class="subtitle">先看流域边际和历史趋势，再下钻到电站周度、小时水情与 QTD 样本。</p>
+          <h1>水电跟踪</h1>
+          <p class="subtitle">跟踪重点流域来水、核心电站周度入库与出库、小时水情、QTD 边际变化和水电公司电量测算，连接水电出力弹性与公司受益方向。</p>
         </div>
         <button class="primary" onclick="location.href='index.html'">返回首页</button>
       </div>
@@ -342,13 +340,42 @@
             <div><h2>流域边际强弱</h2><p>近 7 日、近 14 日与 QTD 对比</p></div>
           </div>
           <div id="hydro-river-chart" class="echart compact" role="img" aria-label="流域边际强弱图"></div>
+          <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”，这里指从本季度开始到最新数据日的平均入库口径。</p>
         </section>
 
         <section class="chart-card">
           <div class="chart-head">
-            <div><h2>重点电站来水结构</h2><p>最新入库与 QTD 均值对比</p></div>
+            <div><h2>重点电站来水结构</h2><p>近 7 日、近 14 日与 QTD 均值对比</p></div>
           </div>
           <div id="hydro-station-chart" class="echart compact" role="img" aria-label="重点电站来水结构图"></div>
+          <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”，用于和近 7 日、近 14 日比较边际变化。</p>
+        </section>
+      </div>
+
+      <div class="hydro-generation-grid">
+        <section class="chart-card hydro-generation-main">
+          <div class="chart-head">
+            <div>
+              <h2>水电公司季度电量与同比</h2>
+              <p>历史公告与模型前瞻统一到单季度口径；已公告优先，金色虚线柱仅表示未公告测算值</p>
+            </div>
+            <div class="toolbar">
+              <label for="hydro-company-select">公司</label>
+              <select id="hydro-company-select" aria-label="选择水电公司"></select>
+            </div>
+          </div>
+          <div id="hydro-company-generation-chart" class="echart" role="img" aria-label="水电公司季度发电量及同比趋势图"></div>
+          <div class="chart-footnote" id="hydro-company-generation-note"></div>
+        </section>
+
+        <section class="chart-card hydro-generation-rank">
+          <div class="chart-head">
+            <div>
+              <h2>2026Q2 电量同比对比</h2>
+              <p>公告优先，未披露公司保留测算中枢，直接观察业绩弹性方向</p>
+            </div>
+          </div>
+          <div id="hydro-company-rank-chart" class="echart" role="img" aria-label="2026年二季度水电公司电量同比对比图"></div>
         </section>
       </div>
 
@@ -374,6 +401,7 @@
               <tr><td colspan="7">加载流域 QTD 摘要...</td></tr>
             </tbody>
           </table>
+          <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”；本表按当前小时水情样本聚合到流域层面。</p>
         </div>
       </section>
 
@@ -435,6 +463,7 @@
                 <tr><td colspan="7">加载 QTD 指标...</td></tr>
               </tbody>
             </table>
+            <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”；用于观察当前来水相对本季度平均水平是否改善。</p>
           </div>
         </section>
 
@@ -449,6 +478,7 @@
               <select id="hydro-hourly-river"></select>
               <span class="filter-note" id="hydro-hourly-river-note">选择流域查看小时水情</span>
             </div>
+            <div class="table-scroll compact-water-table">
             <table>
               <thead>
                 <tr>
@@ -464,6 +494,7 @@
                 <tr><td colspan="6">加载小时水情...</td></tr>
               </tbody>
             </table>
+            </div>
           </div>
         </section>
 
@@ -490,7 +521,7 @@
                 </tr>
                 <tr>
                   <td>是否形成预期差？</td>
-                  <td>把 QTD 测算结果与公告、市场预期和机构持仓变化对照。</td>
+                  <td>把 QTD 测算结果与公告、市场预期和估值与资金变化对照。</td>
                 </tr>
               </tbody>
             </table>

@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>电量与装机 · 电力数据研究工作台</title>
+  <title>电力供需 · 电力数据研究工作台</title>
   <style>
     :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--blue:#256f9f;--amber:#9a681c;--shadow:0 10px 28px rgba(20,32,38,.08)}
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
@@ -28,13 +28,13 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a href="index.html">Dashboard</a><a href="hydro.html">来水与水电</a><a href="price.html">电价数据</a><a class="active" href="power.html">电量与装机</a><a href="holdings.html">机构持仓</a><a href="tools.html">测算工具</a><a href="data-catalog.html">数据目录</a>
+        <a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="price.html">电价与市场</a><a class="active" href="power.html">电力供需</a><a href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a>
       </nav>
     </aside>
     <main>
       <div class="topbar">
         <div>
-          <h1>电量与装机</h1>
+          <h1>电力供需</h1>
           <p class="subtitle">跟踪全社会用电量、规上发电量和电源装机，观察需求强弱、来水影响和新能源供给压力。</p>
         </div>
         <button class="primary" onclick="location.href='index.html'">返回首页</button>
@@ -51,12 +51,12 @@
         <article class="chart-card wide">
           <div class="chart-head">
             <div>
-              <h2>需求—供给剪刀差</h2>
-              <p>用电增速减装机增速：正值有利于利用小时，负值提示供给释放快于需求</p>
+              <h2>用电与装机增速差</h2>
+              <p>用电增速减装机增速：正值提示需求快于装机，负值提示装机释放快于需求</p>
             </div>
             <span class="pill" id="power-balance-signal">计算中</span>
           </div>
-          <div id="power-balance-chart" class="echart" role="img" aria-label="全社会用电量同比、总装机同比与供需剪刀差趋势图"></div>
+          <div id="power-balance-chart" class="echart" role="img" aria-label="全社会用电量同比、总装机同比与增速差趋势图"></div>
         </article>
 
         <article class="chart-card">
@@ -81,6 +81,21 @@
         </article>
       </div>
 
+      <section class="chart-card wide power-year-consumption-card">
+        <div class="chart-head">
+          <div>
+              <h2>2026年分产业累计用电量及增速</h2>
+              <p>按产业选择，观察年内累计用电量和累计同比变化</p>
+          </div>
+          <div class="toolbar">
+            <label for="power-industry-select">产业</label>
+            <select id="power-industry-select"></select>
+            <span class="filter-note" id="power-industry-note">选择产业查看走势</span>
+          </div>
+        </div>
+        <div id="power-industry-year-chart" class="echart compact" role="img" aria-label="2026年分产业累计用电量及累计同比图"></div>
+      </section>
+
       <section>
         <div class="section-head"><h2>用电量结构</h2><span class="pill">分产业</span></div>
         <div class="section-body">
@@ -95,25 +110,25 @@
 
       <div class="grid">
         <section>
-          <div class="section-head"><h2>发电量同比</h2><span class="pill">分电源</span></div>
+          <div class="section-head"><h2>2026年分电源发电量及同比</h2><span class="pill">分电源</span></div>
           <div class="section-body">
             <div class="toolbar">
-              <label for="power-generation-month">月份</label>
-              <select id="power-generation-month"></select>
-              <span class="filter-note" id="power-generation-month-note">选择月份查看同比</span>
+              <label for="power-generation-source">电源</label>
+              <select id="power-generation-source"></select>
+              <span class="filter-note" id="power-generation-source-note">选择电源查看走势</span>
             </div>
-            <div class="bars" id="power-generation-bars"></div>
+            <div id="power-generation-source-chart" class="echart compact" role="img" aria-label="2026年分电源发电量及同比图"></div>
           </div>
         </section>
         <section>
-          <div class="section-head"><h2>装机结构</h2><span class="pill">累计装机</span></div>
+          <div class="section-head"><h2>2026年分电源装机及同比</h2><span class="pill">累计装机</span></div>
           <div class="section-body">
             <div class="toolbar">
-              <label for="power-capacity-month">月份</label>
-              <select id="power-capacity-month"></select>
-              <span class="filter-note" id="power-capacity-month-note">选择月份查看累计装机</span>
+              <label for="power-capacity-source">电源</label>
+              <select id="power-capacity-source"></select>
+              <span class="filter-note" id="power-capacity-source-note">选择电源查看走势</span>
             </div>
-            <div class="bars" id="power-capacity-bars"></div>
+            <div id="power-capacity-source-chart" class="echart compact" role="img" aria-label="2026年分电源装机及同比图"></div>
           </div>
         </section>
         <section>
@@ -129,13 +144,20 @@
         </section>
       </div>
 
-      <section>
-        <div class="section-head"><h2>月度明细</h2><span class="pill">最新 12 期</span></div>
-        <div class="section-body">
+      <section id="power-monthly-panel">
+        <div class="section-head">
+          <h2>月度明细</h2>
+          <div class="section-head-actions">
+            <span class="pill">最新 5 期</span>
+          </div>
+        </div>
+        <div class="section-body" id="power-monthly-body-wrap">
+          <div class="table-scroll power-monthly-table">
           <table>
             <thead><tr><th>月份</th><th>全社会用电量</th><th>用电同比</th><th>发电量</th><th>发电同比</th><th>总装机</th><th>装机同比</th><th>新增装机</th></tr></thead>
-            <tbody id="power-monthly-body"><tr><td colspan="8">加载电量与装机数据...</td></tr></tbody>
+            <tbody id="power-monthly-body"><tr><td colspan="8">加载电力供需数据...</td></tr></tbody>
           </table>
+          </div>
         </div>
       </section>
     </main>

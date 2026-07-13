@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
@@ -228,7 +228,7 @@
 
     .metric-grid {
       display: grid;
-      grid-template-columns: repeat(6, minmax(128px, 1fr));
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
       gap: 12px;
       margin-bottom: 18px;
     }
@@ -497,19 +497,17 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a class="active" href="index.html">Dashboard</a>
-        <a href="hydro.html">来水与水电</a>
-        <a href="price.html">电价数据</a>
-        <a href="power.html">电量与装机</a>
-        <a href="holdings.html">机构持仓</a>
-        <a href="tools.html">测算工具</a>
-        <a href="data-catalog.html">数据目录</a>
+        <a class="active" href="index.html">跟踪总览</a>
+        <a href="hydro.html">水电跟踪</a>
+        <a href="price.html">电价与市场</a>
+        <a href="power.html">电力供需</a>
+        <a href="holdings.html">估值与资金</a>
+        <a href="tools.html">测算中心</a>
       </nav>
       <div class="nav-section">研究归档</div>
       <nav>
-        <a href="research.html">查询记录</a>
-        <a href="companies.html">公司页面</a>
-        <a href="decisions.html">决策复盘</a>
+        <a href="research.html">观点与复盘</a>
+        <a href="companies.html">公司弹性</a>
       </nav>
     </aside>
 
@@ -518,21 +516,11 @@
         <div>
           <div class="eyebrow">POWER RESEARCH TERMINAL</div>
           <h1>电力数据研究工作台</h1>
-          <p class="subtitle">把高频数据压缩成可以直接用于周度判断的信号：先看变化，再看解释，最后下钻到原始明细。</p>
+          <p class="subtitle">网站打磨迭代中，每周一更，欢迎联系 dengsiping97@gmail.com</p>
         </div>
         <div class="actions">
-          <button onclick="location.href='data-catalog.html'">数据目录</button>
-          <button onclick="location.href='research.html'">查询记录</button>
-          <button class="primary" onclick="location.href='decisions.html'">决策复盘</button>
+          <button class="primary" onclick="location.href='research.html'">观点与复盘</button>
         </div>
-      </div>
-
-      <div class="freshness-strip" aria-label="数据新鲜度">
-        <span class="freshness-chip"><strong>快照</strong><span id="freshness-snapshot">加载中</span></span>
-        <span class="freshness-chip"><strong>来水周度</strong><span id="freshness-hydro-week">加载中</span></span>
-        <span class="freshness-chip"><strong>小时水情</strong><span id="freshness-hydro-hour">加载中</span></span>
-        <span class="freshness-chip stale"><strong>现货价格</strong><span id="freshness-spot">加载中</span></span>
-        <span class="freshness-chip"><strong>代理购电</strong><span id="freshness-proxy">加载中</span></span>
       </div>
 
       <div class="hero-v2">
@@ -540,11 +528,14 @@
           <div class="eyebrow">WEEKLY BRIEF</div>
           <h2 id="weekly-brief-title">正在生成本周数据摘要</h2>
           <p id="weekly-brief-note">综合来水边际、现货价格和月度代理购电数据，形成首页研究读数。</p>
-          <div class="hero-tags">
-            <span>来水与水电</span>
-            <span>现货与代理购电</span>
-            <span>电量与装机</span>
-            <span>数据口径可追溯</span>
+          <div class="hero-meta" aria-label="数据新鲜度">
+            <span class="hero-meta-label">数据更新</span>
+            <div class="freshness-strip">
+              <span class="freshness-chip"><strong>来水周度</strong><span id="freshness-hydro-week">加载中</span></span>
+              <span class="freshness-chip"><strong>小时水情</strong><span id="freshness-hydro-hour">加载中</span></span>
+              <span class="freshness-chip stale"><strong>现货价格</strong><span id="freshness-spot">加载中</span></span>
+              <span class="freshness-chip"><strong>代理购电</strong><span id="freshness-proxy">加载中</span></span>
+            </div>
           </div>
         </div>
 
@@ -553,193 +544,68 @@
           <div class="watch-list">
             <div class="watch-item">
               <span class="watch-index">01</span>
-              <div><strong>流域边际</strong><p id="watch-hydro">比较近 7 日、近 14 日和 QTD 来水。</p></div>
+              <div><strong>来水好在哪里</strong><p id="watch-hydro">比较近 7 日、近 14 日和 QTD 来水。</p></div>
             </div>
             <div class="watch-item">
               <span class="watch-index">02</span>
-              <div><strong>现货分化</strong><p id="watch-price">比较各省现货均价与煤电基准价。</p></div>
+              <div><strong>电价哪里向好</strong><p id="watch-price">比较各省现货均价与煤电基准价。</p></div>
             </div>
             <div class="watch-item">
               <span class="watch-index">03</span>
-              <div><strong>月度验证</strong><p id="watch-power">用电、发电和装机共同验证供需。</p></div>
+              <div><strong>月度验证</strong><p id="watch-power">全国全社会用电量、规上发电量和装机共同验证供需。</p></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="metric-grid">
+      <div class="metric-grid signal-metrics">
         <a class="metric" href="hydro.html">
-          <div class="label">周度来水快照</div>
+          <div class="label">来水</div>
           <div class="value up" id="metric-hydro-signal">偏丰</div>
           <div class="note" id="metric-hydro-note">近 14 日水位/入库综合信号</div>
         </a>
-        <a class="metric" href="hydro.html">
-          <div class="label">小时水情</div>
-          <div class="value blue" id="metric-hydro-hour">跟踪中</div>
-          <div class="note" id="metric-hydro-hour-note">长电、雅砻江、大渡河优先</div>
-        </a>
         <a class="metric" href="price.html">
-          <div class="label">现货周度均价</div>
+          <div class="label">电价</div>
           <div class="value warn" id="metric-spot">分化</div>
           <div class="note" id="metric-spot-note">分省和分电源捕获价需拆开看</div>
         </a>
-        <a class="metric" href="price.html">
-          <div class="label">代理购电价</div>
-          <div class="value" id="metric-proxy">跟踪中</div>
-          <div class="note" id="metric-proxy-note">按省份查看月度历史</div>
-        </a>
         <a class="metric" href="power.html">
-          <div class="label">电量与装机</div>
+          <div class="label">供需</div>
           <div class="value blue" id="metric-power">月度</div>
-          <div class="note" id="metric-power-note">用电、发电、装机结构联动</div>
-        </a>
-        <a class="metric" href="data-catalog.html">
-          <div class="label">P0 数据源</div>
-          <div class="value" id="metric-dataset">低配</div>
-          <div class="note" id="metric-dataset-note">季度更新，验证预期差</div>
+          <div class="note" id="metric-power-note">装机增速与用电增速差、偏紧省份</div>
         </a>
       </div>
 
-      <div class="dashboard-charts">
-        <section class="chart-card">
+      <div class="dashboard-charts single">
+        <section class="chart-card wide">
           <div class="chart-head">
             <div>
-              <h2>重点流域来水强弱</h2>
-              <p>近 7 日、近 14 日与季度至今平均入库对比</p>
+              <h2>电力行业景气温度图</h2>
+              <p>合并用电增速、装机增速差、现货溢价和来水边际，给出供需偏紧/均衡/宽松判断</p>
             </div>
-            <a class="tab active" href="hydro.html">查看来水专题</a>
-          </div>
-          <div id="home-hydro-chart" class="echart" role="img" aria-label="重点流域来水强弱图"></div>
-        </section>
-
-        <section class="chart-card">
-          <div class="chart-head">
-            <div>
-              <h2>现货价格与煤电基准</h2>
-              <p>最新周度现货均价，展示偏离最大的省份</p>
+            <div class="topic-links">
+              <a class="tab active topic-link" href="hydro.html">来水专题</a>
+              <a class="tab active topic-link" href="price.html">电价专题</a>
+              <a class="tab active topic-link" href="power.html">供需专题</a>
             </div>
-            <a class="tab active" href="price.html">查看电价专题</a>
           </div>
-          <div id="home-price-chart" class="echart" role="img" aria-label="现货价格与煤电基准对比图"></div>
+          <div id="home-temperature-chart" class="echart home-temperature-chart" role="img" aria-label="电力行业景气温度图"></div>
+          <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”。首页只放方向性结论，明细下沉到各专题页。</p>
         </section>
       </div>
 
-      <div class="grid">
-        <div>
-          <section>
-            <div class="section-head">
-              <h2>来水与水电</h2>
-              <div class="tabs">
-                <a class="tab active" href="hydro.html">流域</a>
-                <a class="tab" href="companies.html">公司</a>
-                <a class="tab" href="hydro.html">QTD</a>
-                <a class="tab" href="hydro.html">历史分位</a>
-              </div>
-            </div>
-            <div class="section-body">
-              <div class="table-scroll"><table>
-                <thead>
-                  <tr>
-                    <th>电站</th>
-                    <th>流域</th>
-                    <th>周度</th>
-                    <th>入库 m3/s</th>
-                    <th>入库同比</th>
-                    <th>水位 m</th>
-                  </tr>
-                </thead>
-                <tbody id="hydro-latest-body">
-                  <tr><td colspan="6">加载水电快照...</td></tr>
-                </tbody>
-              </table></div>
-            </div>
-          </section>
-
-          <section>
-            <div class="section-head">
-              <h2>电价、电量与装机</h2>
-              <div class="tabs">
-                <a class="tab active" href="price.html">电价</a>
-                <a class="tab" href="power.html">用电量</a>
-                <a class="tab" href="power.html">装机</a>
-                <a class="tab" href="power.html">供需评分</a>
-              </div>
-            </div>
-            <div class="section-body">
-              <div class="table-scroll"><table>
-                <thead>
-                  <tr>
-                    <th>省份</th>
-                    <th>燃煤标杆电价</th>
-                    <th>周度</th>
-                    <th>现货均价</th>
-                    <th>同比</th>
-                    <th>环比</th>
-                  </tr>
-                </thead>
-                <tbody id="spot-latest-body">
-                  <tr><td colspan="6">加载现货周度价格...</td></tr>
-                </tbody>
-              </table></div>
-            </div>
-          </section>
+      <section class="event-calendar">
+        <div class="section-head">
+          <div>
+            <h2>未来 30 天事件日历</h2>
+            <p>只放最需要跟踪的 5 件事，公告和资讯优先通过 iFinD/Wind 更新。</p>
+          </div>
+          <a class="tab active topic-link" href="research.html">查看记录</a>
         </div>
-
-        <div>
-          <section>
-            <div class="section-head">
-              <h2>本周异常信号</h2>
-              <span class="status">人工确认后入库</span>
-            </div>
-            <div class="section-body signal-list">
-              <div class="signal green">
-                <strong>来水信号</strong>
-                <p>若近 7 日与近 14 日同时改善，优先更新水电公司 QTD 测算。</p>
-              </div>
-              <div class="signal amber">
-                <strong>电价信号</strong>
-                <p>分省电价不直接外推，先拆负荷、风光出力、系统运行费和长协覆盖。</p>
-              </div>
-              <div class="signal red">
-                <strong>装机信号</strong>
-                <p>新能源新增过快时，重点看中午低价、峰谷价差和辅助服务补偿。</p>
-              </div>
-              <div class="signal">
-                <strong>持仓信号</strong>
-                <p>基本面改善但机构仍低配，可能形成后续预期差观察池。</p>
-              </div>
-              <div class="signal green">
-                <strong>数据接入</strong>
-                <p>P0 数据源优先接入来水周度、小时水情、代理购电、现货周度和分电源捕获价格。</p>
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <div class="section-head">
-              <h2>测算工具</h2>
-            </div>
-            <div class="section-body tool-grid">
-              <a class="tool" href="tools.html">
-                <h3>水电来水敏感性</h3>
-                <p>输入来水假设，输出电量区间和公司弹性。</p>
-              </a>
-              <a class="tool" href="tools.html">
-                <h3>火电度电毛利</h3>
-                <p>电价、煤价、利用小时联动测算利润。</p>
-              </a>
-              <a class="tool" href="tools.html">
-                <h3>电价弹性</h3>
-                <p>测算 1 分/kWh 变化对盈利的影响。</p>
-              </a>
-              <a class="tool" href="tools.html">
-                <h3>供需评分</h3>
-                <p>省份维度合成需求、装机和价格信号。</p>
-              </a>
-            </div>
-          </section>
+        <div class="section-body event-list" id="home-event-list">
+          <div class="event-item"><span>加载中</span><strong>正在生成事件日历...</strong></div>
         </div>
-      </div>
+      </section>
     </main>
   </div>
   <script src="assets/workbench-data.js"></script>

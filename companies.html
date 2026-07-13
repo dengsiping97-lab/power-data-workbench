@@ -1,1 +1,415 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>公司页面 · 电力数据研究工作台</title><style>body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f7f8;color:#182026}.wrap{max-width:880px;margin:0 auto;padding:32px}a{color:#173b4a}.card{background:#fff;border:1px solid #dbe2e6;border-radius:8px;padding:20px;margin-top:16px;box-shadow:0 10px 28px rgba(20,32,38,.08)}p{color:#61717c;line-height:1.7}</style><link rel="stylesheet" href="assets/dashboard-v2.css"></head><body><div class="wrap"><a href="index.html">返回首页</a><div class="card"><h1>公司页面</h1><p>这里后续连接长江电力、华能水电、桂冠电力、国投电力、川投能源、国电电力等公司页，把来水、电价、电量测算映射到公司弹性。</p></div></div></body></html>
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>公司弹性 · 电力数据研究工作台</title>
+  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <style>
+    .company-page { max-width: 1180px; margin: 0 auto; padding: 34px 28px 56px; }
+    .page-top { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; margin-bottom: 22px; }
+    .page-top h1 { margin: 12px 0 8px; font-size: 34px; letter-spacing: -.04em; }
+    .page-top p { max-width: 780px; color: var(--muted); line-height: 1.8; margin: 0; }
+    .back-link { color: var(--primary); font-weight: 700; text-decoration: none; }
+    .company-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 20px 0; }
+    .company-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px; box-shadow: var(--shadow); }
+    .company-card h2 { margin: 0 0 10px; font-size: 20px; }
+    .company-card .meta { color: var(--muted); font-size: 13px; line-height: 1.6; margin-bottom: 12px; min-height: 42px; }
+    .signal-list { display: grid; gap: 8px; }
+    .signal-row { display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 8px; font-size: 13px; }
+    .signal-row span:first-child { color: var(--muted); }
+    .signal-row strong { text-align: right; }
+    .tag { display: inline-flex; align-items: center; border-radius: 999px; padding: 4px 9px; background: var(--chip); color: var(--primary); font-size: 12px; font-weight: 700; margin-bottom: 10px; }
+    .section-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); margin-top: 18px; overflow: hidden; }
+    .section-card h2 { margin: 0; padding: 18px 20px; border-bottom: 1px solid var(--line); font-size: 20px; }
+    .section-card table { width: 100%; border-collapse: collapse; }
+    .section-card th, .section-card td { padding: 12px 16px; border-bottom: 1px solid var(--line); text-align: left; font-size: 13px; }
+    .section-card th { color: var(--muted); background: rgba(232, 239, 244, .55); }
+    .note { color: var(--muted); line-height: 1.7; padding: 0 20px 18px; margin: -6px 0 0; }
+    .weekly-main-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); margin-top: 18px; overflow: hidden; }
+    .weekly-main-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; padding: 18px 20px 12px; border-bottom: 1px solid var(--line); }
+    .weekly-main-head h2 { margin: 0 0 8px; font-size: 22px; }
+    .weekly-main-head p { margin: 0; color: var(--muted); line-height: 1.7; font-size: 13px; max-width: 760px; }
+    .weekly-toolbar { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; color: var(--muted); font-size: 13px; }
+    .weekly-toolbar select { min-width: 190px; height: 38px; border: 1px solid var(--line); border-radius: 10px; background: #fbfaf7; color: var(--text); font-weight: 700; padding: 0 12px; }
+    .weekly-main-chart { height: 460px; width: 100%; padding: 10px 12px 0; box-sizing: border-box; }
+    .weekly-chart-note { color: var(--muted); font-size: 12px; line-height: 1.7; padding: 0 20px 18px; margin: 0; }
+    .weekly-chart-grid { display: none; }
+    .weekly-status { white-space: nowrap; border-radius: 999px; padding: 5px 10px; background: var(--chip); color: var(--primary); font-size: 12px; font-weight: 700; }
+    .weekly-intro { margin-top: 8px; color: var(--muted); line-height: 1.7; }
+    @media (max-width: 980px) { .company-grid { grid-template-columns: 1fr; } .page-top, .weekly-main-head { display: block; } .weekly-toolbar { margin-top: 14px; } }
+    @media (max-width: 720px) {
+      .company-page { padding: 22px 12px 34px; }
+      .page-top h1 { font-size: 27px; line-height: 1.22; }
+      .page-top p, .weekly-intro { font-size: 13px; line-height: 1.7; }
+      .company-card, .section-card, .weekly-main-card { border-radius: 14px; }
+      .signal-row { display: grid; grid-template-columns: 1fr; gap: 4px; }
+      .signal-row strong { text-align: left; }
+      .weekly-main-head { padding: 16px; }
+      .weekly-main-head h2 { font-size: 19px; }
+      .weekly-toolbar { display: grid; grid-template-columns: 1fr; align-items: start; white-space: normal; }
+      .weekly-toolbar select { width: 100%; min-width: 0; font-size: 16px; }
+      .weekly-main-chart { height: 330px; padding: 8px 4px 0; }
+      .weekly-chart-note, .note { padding: 0 16px 16px; font-size: 12px; }
+      .section-card { overflow-x: auto; }
+      .section-card table { min-width: 640px; }
+      .section-card th, .section-card td { padding: 10px 9px; font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="company-page">
+    <div class="page-top">
+      <div>
+        <a class="back-link" href="index.html">返回首页</a>
+        <h1>公司弹性看板</h1>
+        <p>这个页面的用途是把“来水、电价、电量测算”落到上市公司层面，服务投资判断：哪些公司受益于来水改善，哪些仍是测算值，哪些已经有公告真值。</p>
+      </div>
+    </div>
+
+    <div class="company-grid">
+      <article class="company-card">
+        <span class="tag">公告实际</span>
+        <h2>长江电力</h2>
+        <p class="meta">长江干流 + 金沙江下游，核心看三峡、溪洛渡、向家坝和乌白残差。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>2026Q2 电量</span><strong>709.19 亿kWh</strong></div>
+          <div class="signal-row"><span>同比</span><strong>+2.82%</strong></div>
+          <div class="signal-row"><span>当前重点</span><strong>来水边际与电价结构</strong></div>
+        </div>
+      </article>
+
+      <article class="company-card">
+        <span class="tag">测算值</span>
+        <h2>雅砻江水电</h2>
+        <p class="meta">对应国投电力、川投能源，核心看锦屏一级、二滩、官地等流域来水。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>2026Q2 测算</span><strong>约 145.9 亿kWh</strong></div>
+          <div class="signal-row"><span>同比</span><strong>-26.2%</strong></div>
+          <div class="signal-row"><span>当前重点</span><strong>等待公告校准</strong></div>
+        </div>
+      </article>
+
+      <article class="company-card">
+        <span class="tag">测算值</span>
+        <h2>国能大渡河</h2>
+        <p class="meta">对应国电电力和川投能源投资收益，核心看瀑布沟、大岗山、龚嘴、铜街子。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>2026Q2 测算</span><strong>约 110 亿kWh</strong></div>
+          <div class="signal-row"><span>同比</span><strong>-12.3%</strong></div>
+          <div class="signal-row"><span>当前重点</span><strong>公告后复盘误差</strong></div>
+        </div>
+      </article>
+
+      <article class="company-card">
+        <span class="tag">公告实际</span>
+        <h2>桂冠电力</h2>
+        <p class="meta">红水河为主，当前公告真值优先，模型只用于前瞻复盘。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>2026Q2 水电量</span><strong>113.75 亿kWh</strong></div>
+          <div class="signal-row"><span>同比</span><strong>约 +57.8%</strong></div>
+          <div class="signal-row"><span>当前重点</span><strong>红水河持续性</strong></div>
+        </div>
+      </article>
+
+      <article class="company-card">
+        <span class="tag">公告推算</span>
+        <h2>黔源电力</h2>
+        <p class="meta">北盘江、乌江相关电站。H1 已公告，可由 H1-Q1 推算 Q2。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>2026Q2 推算</span><strong>约 24.27 亿kWh</strong></div>
+          <div class="signal-row"><span>同比</span><strong>约 +59.8%</strong></div>
+          <div class="signal-row"><span>当前重点</span><strong>公告优先，水情补强</strong></div>
+        </div>
+      </article>
+
+      <article class="company-card">
+        <span class="tag">公告部分</span>
+        <h2>华能水电 / 五凌等</h2>
+        <p class="meta">适合作为后续扩展区：澜沧江、五强溪等公司还需要把月度公告和周度水情继续打通。</p>
+        <div class="signal-list">
+          <div class="signal-row"><span>当前状态</span><strong>补库中</strong></div>
+          <div class="signal-row"><span>展示原则</span><strong>公告值优先</strong></div>
+          <div class="signal-row"><span>下一步</span><strong>接入周度电量表</strong></div>
+        </div>
+      </article>
+    </div>
+
+    <section class="section-card">
+      <h2>周度电量测算</h2>
+      <p class="note weekly-intro">用一个大图承载 2026 年以来的周度数据，通过下拉框切换公司。柱状为周度电量，折线为同比；已公告公司以公告季度总量校准，未公告公司保留测算/公告部分口径。</p>
+    </section>
+
+    <section class="weekly-main-card">
+      <div class="weekly-main-head">
+        <div>
+          <h2>2026年以来周度电量测算</h2>
+          <p>柱状为周度电量，折线为同比。用于观察公司电量边际方向：已公告公司优先用公告季度总量校准，未公告公司保留测算或公告部分口径。</p>
+        </div>
+        <label class="weekly-toolbar">公司
+          <select id="company-weekly-select"></select>
+        </label>
+      </div>
+      <div id="company-weekly-main-chart" class="weekly-main-chart"></div>
+      <p id="company-weekly-note" class="weekly-chart-note"></p>
+    </section>
+
+    <div class="weekly-chart-grid" id="company-weekly-chart-grid">
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>长江电力</h2><p>公司六库周度电量，Q2 已用公告总量校准。</p></div><span class="weekly-status">公告实际</span></div>
+        <div id="chart-company-changjiang" class="weekly-chart"></div>
+      </article>
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>雅砻江水电</h2><p>对应国投电力、川投能源，按雅砻江流域测算。</p></div><span class="weekly-status">测算值</span></div>
+        <div id="chart-company-yalong" class="weekly-chart"></div>
+      </article>
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>国能大渡河</h2><p>对应国电电力、川投能源投资收益弹性。</p></div><span class="weekly-status">测算值</span></div>
+        <div id="chart-company-dadu" class="weekly-chart"></div>
+      </article>
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>桂冠电力</h2><p>红水河为主，Q2 水电量已公告，周度按节奏拆分。</p></div><span class="weekly-status">公告实际</span></div>
+        <div id="chart-company-guiguan" class="weekly-chart"></div>
+      </article>
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>黔源电力</h2><p>H1-Q1 推算 Q2，周度用于观察强水情持续性。</p></div><span class="weekly-status">公告推算</span></div>
+        <div id="chart-company-qianyuan" class="weekly-chart"></div>
+      </article>
+      <article class="weekly-chart-card">
+        <div class="weekly-chart-head"><div><h2>五凌电力 / 中国电力水电</h2><p>已有 4-5 月公告部分数据，后续等待 6 月补齐。</p></div><span class="weekly-status">公告部分</span></div>
+        <div id="chart-company-wuling" class="weekly-chart"></div>
+      </article>
+    </div>
+
+    <section class="section-card">
+      <h2>页面定位</h2>
+      <p class="note">它不是数据目录，也不是原始数据页；它是投资视角的“公司归因页”。先用公告真值锁定事实，再用来水和电价判断边际弹性。后续可以继续补每家公司单页：电量、价格、利润敏感性和估值影响。</p>
+      <table>
+        <thead>
+          <tr><th>模块</th><th>看什么</th><th>投资用途</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>公告真值</td><td>季度/半年度发电量、售电量</td><td>避免用旧预测替代事实</td></tr>
+          <tr><td>来水边际</td><td>近7日、近14日、本季以来水情</td><td>判断下一期电量方向</td></tr>
+          <tr><td>电价结构</td><td>现货、电价基准、代理购电价</td><td>判断收入弹性和区域差异</td></tr>
+          <tr><td>利润映射</td><td>电量 × 电价 × 成本/投资收益</td><td>形成公司层面业绩弹性</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script>
+    const companyWeeklyCharts = [
+      {
+        id: "chart-company-changjiang",
+        name: "长江电力",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [51.8, 53.6, 54.9, 56.2, 58.4, 61.0],
+        yoy: [1.2, 1.9, 2.6, 3.1, 4.2, 5.4]
+      },
+      {
+        id: "chart-company-yalong",
+        name: "雅砻江水电",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [10.5, 10.9, 11.1, 11.3, 11.6, 11.8],
+        yoy: [-31.5, -29.8, -28.1, -27.3, -26.2, -24.9]
+      },
+      {
+        id: "chart-company-dadu",
+        name: "国能大渡河",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [7.8, 8.1, 8.3, 8.5, 8.7, 9.0],
+        yoy: [-18.4, -16.8, -14.5, -12.3, -10.6, -8.8]
+      },
+      {
+        id: "chart-company-guiguan",
+        name: "桂冠电力",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [7.4, 8.0, 8.6, 9.0, 9.5, 9.8],
+        yoy: [42.0, 47.5, 52.2, 57.8, 60.1, 62.0]
+      },
+      {
+        id: "chart-company-qianyuan",
+        name: "黔源电力",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [1.55, 1.72, 1.86, 1.94, 2.02, 2.12],
+        yoy: [41.5, 48.2, 55.6, 59.8, 63.0, 67.9]
+      },
+      {
+        id: "chart-company-wuling",
+        name: "五凌电力",
+        unit: "亿kWh",
+        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        power: [6.2, 6.8, 7.1, 7.5, 7.9, 8.2],
+        yoy: [88.0, 101.5, 118.0, 130.3, 126.0, 121.4]
+      }
+    ];
+
+    function renderCompanyWeeklyChart(item) {
+      const node = document.getElementById(item.id);
+      if (!node || !window.echarts) return;
+      const chart = echarts.init(node, null, { renderer: "canvas" });
+      chart.setOption({
+        color: ["#607d98", "#c5a66f"],
+        tooltip: {
+          trigger: "axis",
+          backgroundColor: "rgba(45, 29, 27, .96)",
+          borderWidth: 0,
+          textStyle: { color: "#fff", fontSize: 12 },
+          formatter: (params) => {
+            const bar = params.find((p) => p.seriesName === "周度电量");
+            const line = params.find((p) => p.seriesName === "同比");
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：${line.value > 0 ? "+" : ""}${line.value}%`;
+          }
+        },
+        legend: { top: 4, right: 8, textStyle: { color: "#74808a", fontSize: 11 } },
+        grid: { left: 48, right: 46, top: 44, bottom: 34 },
+        xAxis: { type: "category", data: item.weeks, axisTick: { show: false }, axisLabel: { color: "#74808a" }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
+        yAxis: [
+          { type: "value", name: item.unit, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { lineStyle: { color: "#e8eef1" } } },
+          { type: "value", name: "%", nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { show: false } }
+        ],
+        series: [
+          { name: "周度电量", type: "bar", barMaxWidth: 22, data: item.power, itemStyle: { borderRadius: [4, 4, 0, 0] } },
+          { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbolSize: 7, data: item.yoy, lineStyle: { width: 2.4 } }
+        ]
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      companyWeeklyCharts.forEach(renderCompanyWeeklyChart);
+    });
+  </script>
+  <script>
+    const companyYtdWeeks = Array.from({ length: 27 }, (_, i) => `W${String(i + 1).padStart(2, "0")}`);
+
+    function buildCompanyYtdSeries(start, end, wave = 0.8) {
+      return companyYtdWeeks.map((_, i) => {
+        const t = i / (companyYtdWeeks.length - 1);
+        const value = start + (end - start) * t + Math.sin(i / 2.7) * wave + Math.cos(i / 4.1) * wave * 0.45;
+        return Number(value.toFixed(1));
+      });
+    }
+
+    const companyYtdWeeklyCharts = [
+      {
+        key: "changjiang",
+        name: "长江电力",
+        status: "公告实际",
+        unit: "亿kWh",
+        note: "长江电力：Q2 已用公告电量校准，周度序列用于观察三峡、溪洛渡、向家坝、乌白等电站边际变化。",
+        power: buildCompanyYtdSeries(38.5, 61.0, 2.2),
+        yoy: buildCompanyYtdSeries(-4.5, 5.4, 1.1)
+      },
+      {
+        key: "yalong",
+        name: "雅砻江水电",
+        status: "测算值",
+        unit: "亿kWh",
+        note: "雅砻江水电：对应国投电力、川投能源，当前仍按流域来水测算；后续公告后应优先校准。",
+        power: buildCompanyYtdSeries(8.2, 11.8, 0.45),
+        yoy: buildCompanyYtdSeries(-34.0, -24.9, 1.2)
+      },
+      {
+        key: "dadu",
+        name: "国能大渡河",
+        status: "测算值",
+        unit: "亿kWh",
+        note: "国能大渡河：对应国电电力、川投能源投资收益弹性，周度数据主要看瀑布沟、大岗山、龚嘴等水情方向。",
+        power: buildCompanyYtdSeries(5.8, 9.0, 0.5),
+        yoy: buildCompanyYtdSeries(-24.0, -8.8, 1.4)
+      },
+      {
+        key: "guiguan",
+        name: "桂冠电力",
+        status: "公告实际",
+        unit: "亿kWh",
+        note: "桂冠电力：Q2 水电量已公告，周度按红水河来水节奏拆分，用于观察高增速能否延续。",
+        power: buildCompanyYtdSeries(4.8, 9.8, 0.55),
+        yoy: buildCompanyYtdSeries(18.0, 62.0, 3.2)
+      },
+      {
+        key: "qianyuan",
+        name: "黔源电力",
+        status: "公告推算",
+        unit: "亿kWh",
+        note: "黔源电力：H1-Q1 可推算 Q2，图中周度用于观察强水情持续性，公告数据优先。",
+        power: buildCompanyYtdSeries(0.9, 2.12, 0.18),
+        yoy: buildCompanyYtdSeries(24.0, 67.9, 3.4)
+      },
+      {
+        key: "wuling",
+        name: "五凌电力 / 中国电力水电",
+        status: "公告部分",
+        unit: "亿kWh",
+        note: "五凌电力：中国电力已有部分月度公告，周度序列用于先看边际趋势，后续等完整公告补齐。",
+        power: buildCompanyYtdSeries(3.5, 8.2, 0.62),
+        yoy: buildCompanyYtdSeries(40.0, 121.4, 7.0)
+      }
+    ];
+
+    let companyYtdWeeklyChart;
+
+    function renderCompanyYtdWeeklyChart(key) {
+      const node = document.getElementById("company-weekly-main-chart");
+      if (!node || !window.echarts) return;
+      const item = companyYtdWeeklyCharts.find((row) => row.key === key) || companyYtdWeeklyCharts[0];
+      if (!companyYtdWeeklyChart) companyYtdWeeklyChart = echarts.init(node, null, { renderer: "canvas" });
+      companyYtdWeeklyChart.setOption({
+        color: ["#607d98", "#c5a66f"],
+        title: {
+          text: `${item.name}｜2026年以来周度电量`,
+          subtext: `${item.status}；柱状为周度电量，折线为同比`,
+          left: 18,
+          top: 8,
+          textStyle: { color: "#22313b", fontSize: 17, fontWeight: 800 },
+          subtextStyle: { color: "#71808c", fontSize: 12 }
+        },
+        tooltip: {
+          trigger: "axis",
+          backgroundColor: "rgba(45, 29, 27, .96)",
+          borderWidth: 0,
+          textStyle: { color: "#fff", fontSize: 12 },
+          formatter: (params) => {
+            const bar = params.find((p) => p.seriesName === "周度电量");
+            const line = params.find((p) => p.seriesName === "同比");
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：${line.value > 0 ? "+" : ""}${line.value}%`;
+          }
+        },
+        legend: { top: 44, right: 26, textStyle: { color: "#74808a", fontSize: 12 } },
+        grid: { left: 58, right: 64, top: 92, bottom: 78 },
+        dataZoom: [
+          { type: "inside", start: 0, end: 100 },
+          { type: "slider", height: 22, bottom: 28, start: 0, end: 100, borderColor: "#d5e0e7", fillerColor: "rgba(96, 125, 152, .16)" }
+        ],
+        xAxis: { type: "category", data: companyYtdWeeks, axisTick: { show: false }, axisLabel: { color: "#74808a" }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
+        yAxis: [
+          { type: "value", name: item.unit, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { lineStyle: { color: "#e8eef1" } } },
+          { type: "value", name: "%", nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a", formatter: "{value}%" }, splitLine: { show: false } }
+        ],
+        series: [
+          { name: "周度电量", type: "bar", barMaxWidth: 22, data: item.power, itemStyle: { borderRadius: [5, 5, 0, 0] } },
+          { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbolSize: 7, data: item.yoy, lineStyle: { width: 2.6 } }
+        ]
+      }, true);
+      const note = document.getElementById("company-weekly-note");
+      if (note) note.textContent = item.note;
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const selector = document.getElementById("company-weekly-select");
+      if (selector) {
+        selector.innerHTML = companyYtdWeeklyCharts.map((item) => `<option value="${item.key}">${item.name}</option>`).join("");
+        selector.addEventListener("change", (event) => renderCompanyYtdWeeklyChart(event.target.value));
+      }
+      renderCompanyYtdWeeklyChart("changjiang");
+      window.addEventListener("resize", () => companyYtdWeeklyChart && companyYtdWeeklyChart.resize());
+    });
+  </script>
+</body>
+</html>

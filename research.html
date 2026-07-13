@@ -1,1 +1,59 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>查询记录 · 电力数据研究工作台</title><style>body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f7f8;color:#182026}.wrap{max-width:880px;margin:0 auto;padding:32px}a{color:#173b4a}.card{background:#fff;border:1px solid #dbe2e6;border-radius:8px;padding:20px;margin-top:16px;box-shadow:0 10px 28px rgba(20,32,38,.08)}p{color:#61717c;line-height:1.7}</style><link rel="stylesheet" href="assets/dashboard-v2.css"></head><body><div class="wrap"><a href="index.html">返回首页</a><div class="card"><h1>查询记录</h1><p>这里后续用于展示由数据异常触发的研究结论，例如“来水改善但市场未定价”“电价下行但容量补偿对冲”等。当前先作为归档入口占位。</p></div></div></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>观点与复盘 · 电力数据研究工作台</title>
+  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <style>
+    .research-page{max-width:1080px;margin:0 auto;padding:34px 28px 56px}
+    .page-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:22px}
+    .page-top h1{margin:12px 0 8px;font-size:34px;letter-spacing:-.04em}
+    .page-top p{max-width:760px;color:var(--muted);line-height:1.8;margin:0}
+    .back-link{color:var(--accent);font-weight:800;text-decoration:none}
+    .research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .research-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow-soft)}
+    .research-card h2{margin:0 0 8px;font-size:19px}
+    .research-card p{margin:0;color:var(--muted);line-height:1.7}
+    .research-card a{display:inline-flex;margin-top:14px;color:var(--accent);font-weight:800;text-decoration:none}
+    .full{grid-column:1/-1}
+    @media(max-width:760px){.research-page{padding:24px 16px}.research-grid{grid-template-columns:1fr}.page-top{display:block}}
+  </style>
+</head>
+<body>
+  <main class="research-page">
+    <div class="page-top">
+      <div>
+        <a class="back-link" href="index.html">返回跟踪总览</a>
+        <h1>观点与复盘</h1>
+        <p>详情请见周观点。</p>
+      </div>
+    </div>
+
+    <div class="research-grid">
+      <article class="research-card">
+        <h2>周报结论</h2>
+        <p>每周保留一版核心判断：来水、电价、供需和事件日历发生了什么变化，哪些结论需要继续验证。</p>
+      </article>
+      <article class="research-card">
+        <h2>专题观点</h2>
+        <p>沉淀水电、电价机制、火电盈利、容量补偿、系统运行费用等专题结论，避免散落在零散工作痕迹里。</p>
+      </article>
+      <article class="research-card">
+        <h2>公司观点</h2>
+        <p>记录公司层面的收益路径、公告值与测算值差异、盈利弹性和需要复核的关键前提。</p>
+        <a href="companies.html">查看公司弹性</a>
+      </article>
+      <article class="research-card">
+        <h2>失败信号</h2>
+        <p>记录哪些假设被数据推翻，例如来水改善但电量不兑现、电价上行但利润不释放、装机压力超预期。</p>
+      </article>
+      <article class="research-card full">
+        <h2>决策复盘</h2>
+        <p>买入、卖出、加仓、减仓、观望等具体判断仍然保留复盘入口，但不作为一级目录展示。</p>
+        <a href="decisions.html">进入决策复盘</a>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

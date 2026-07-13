@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>电价数据 · 电力数据研究工作台</title>
+  <title>电价与市场 · 电力数据研究工作台</title>
   <style>
     :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--shadow:0 10px 28px rgba(20,32,38,.08)}
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
@@ -29,20 +29,19 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a href="index.html">Dashboard</a>
-        <a href="hydro.html">来水与水电</a>
-        <a class="active" href="price.html">电价数据</a>
-        <a href="power.html">电量与装机</a>
-        <a href="holdings.html">机构持仓</a>
-        <a href="tools.html">测算工具</a>
-        <a href="data-catalog.html">数据目录</a>
+        <a href="index.html">跟踪总览</a>
+        <a href="hydro.html">水电跟踪</a>
+        <a class="active" href="price.html">电价与市场</a>
+        <a href="power.html">电力供需</a>
+        <a href="holdings.html">估值与资金</a>
+        <a href="tools.html">测算中心</a>
       </nav>
     </aside>
     <main>
       <div class="topbar">
         <div>
           <div class="eyebrow">POWER PRICE MONITOR</div>
-          <h1>电价数据</h1>
+          <h1>电价与市场</h1>
           <p class="subtitle">跟踪分省现货走势、同比、代理购电价与系统运行费折价，连接度电收益和利润弹性。</p>
         </div>
         <button class="primary" onclick="location.href='index.html'">返回首页</button>
@@ -72,7 +71,7 @@
         <div class="section-body">
           <table>
             <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>周度</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
-            <tbody id="price-province-body"><tr><td colspan="7">加载电价数据...</td></tr></tbody>
+            <tbody id="price-province-body"><tr><td colspan="7">加载电价与市场...</td></tr></tbody>
           </table>
         </div>
       </section>
