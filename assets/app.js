@@ -14,6 +14,25 @@
     return `${sign}${number.toFixed(1)}%`;
   };
 
+  const isoWeekEndDate = (year, week) => {
+    const jan4 = new Date(Date.UTC(Number(year), 0, 4));
+    const jan4Day = jan4.getUTCDay() || 7;
+    const weekOneMonday = new Date(jan4);
+    weekOneMonday.setUTCDate(jan4.getUTCDate() - jan4Day + 1);
+    const weekEnd = new Date(weekOneMonday);
+    weekEnd.setUTCDate(weekOneMonday.getUTCDate() + (Number(week) - 1) * 7 + 6);
+    return weekEnd.toISOString().slice(0, 10);
+  };
+
+  const weekEndDate = (row) => row?.weekEnd || isoWeekEndDate(row?.isoYear, row?.isoWeek);
+
+  const formatWeekFreshness = (value, fallbackRow) => {
+    const match = String(value || "").match(/^(\d{4})-W(\d{1,2})$/i);
+    if (match) return `截至 ${isoWeekEndDate(match[1], match[2])}`;
+    if (value) return value;
+    return fallbackRow ? `截至 ${weekEndDate(fallbackRow)}` : "-";
+  };
+
   const toPctNumber = (value) => {
     if (value === null || value === undefined || value === "" || value === "-") return null;
     const number = Number(String(value).replace("%", "").replace("+", "").trim());
@@ -25,16 +44,41 @@
     if (node) node.textContent = text;
   };
 
+  const enhanceWideTables = () => {
+    document.querySelectorAll("table").forEach((table) => {
+      const columnCount = table.querySelectorAll("thead tr:first-child th").length;
+      if (columnCount < 4) return;
+
+      let wrapper = table.closest(".table-scroll");
+      if (!wrapper) {
+        wrapper = document.createElement("div");
+        wrapper.className = "table-scroll";
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      }
+
+      wrapper.classList.add("mobile-data-table", "auto-scroll-table");
+      wrapper.style.setProperty("--auto-table-width", `${Math.max(640, columnCount * 110)}px`);
+      wrapper.tabIndex = 0;
+      wrapper.setAttribute("role", "region");
+      wrapper.setAttribute("aria-label", "可左右滑动查看的完整数据表格");
+    });
+  };
+
   const chartInstances = new Map();
+  const pendingCharts = new Map();
   const chartColors = ["#607d98", "#c5a66f", "#89939b", "#7f8ea0", "#9d8064"];
 
   const renderChart = (id, option) => {
     const node = document.getElementById(id);
     if (!node) return null;
     if (!window.echarts) {
+      pendingCharts.set(id, option);
       node.innerHTML = '<div class="chart-fallback">图表组件加载失败，明细数据仍可在下方表格查看。</div>';
+      node.innerHTML = '<div class="chart-fallback">图表组件加载中，明细数据仍可在下方表格查看。</div>';
       return null;
     }
+    pendingCharts.delete(id);
     const chart = chartInstances.get(id) || window.echarts.init(node, null, { renderer: "canvas" });
     chartInstances.set(id, chart);
     chart.setOption({
@@ -44,6 +88,24 @@
       ...option
     }, true);
     return chart;
+  };
+
+  const flushPendingCharts = () => {
+    if (!window.echarts || !pendingCharts.size) return;
+    [...pendingCharts.entries()].forEach(([id, option]) => renderChart(id, option));
+  };
+
+  const waitForEcharts = () => {
+    if (window.echarts) {
+      flushPendingCharts();
+      return;
+    }
+    const retry = window.setInterval(() => {
+      if (!window.echarts) return;
+      window.clearInterval(retry);
+      flushPendingCharts();
+    }, 160);
+    window.setTimeout(() => window.clearInterval(retry), 6000);
   };
 
   const axisStyle = {
@@ -121,16 +183,16 @@
     const hydroCount = data.hydroWeeklyLatest.length;
     const avgSpot = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
 
-    setText("metric-hydro-signal", `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("metric-hydro-signal", isoWeekEndDate(latestWeek.isoYear, latestWeek.isoWeek));
     setText("metric-hydro-note", `${hydroCount} 个周度电站快照，${threeGorges.station}入库 ${fmt(threeGorges.inflow)} m3/s，同比 ${pct(threeGorges.inflowYoy)}`);
     setText("metric-spot", `${fmt(avgSpot, 0)}`);
-    setText("metric-spot-note", `${latestSpot.isoYear}-W${latestSpot.isoWeek} 周度均值，单位元/MWh`);
+    setText("metric-spot-note", `截至 ${latestSpot.weekEnd || isoWeekEndDate(latestSpot.isoYear, latestSpot.isoWeek)} 周度均值，单位元/MWh`);
     setText("metric-power", latestPower?.month || latestCapacity?.month || "月度");
     setText("metric-power-note", latestPower && latestCapacity ? `全国全社会用电 ${fmt(latestPower.total)} 亿kWh；装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW` : "全国用电、发电、装机结构联动");
 
     const freshness = data.freshness || {};
     setText("freshness-snapshot", data.updatedAt);
-    setText("freshness-hydro-week", data.updatedAt || freshness.hydroWeekly || `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("freshness-hydro-week", data.updatedAt || formatWeekFreshness(freshness.hydroWeekly, latestWeek));
     setText("freshness-hydro-hour", String(freshness.hydroHourly || latestHour.time || "").slice(0, 10));
     setText("freshness-spot", freshness.spotWeekly || latestSpot?.weekStart || "-");
     setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
@@ -148,7 +210,12 @@
       .filter((row) => Number.isFinite(row.spread) && row.spread > 0)
       .sort((a, b) => b.spread - a.spread)
       .slice(0, 4);
-    const avgBenchmark = avg(data.spotWeeklyLatest.map((row) => row.coalBenchmark));
+    const benchmarkValues = data.spotWeeklyLatest
+      .map((row) => Number(row.coalBenchmark))
+      .filter(Number.isFinite);
+    const avgBenchmark = benchmarkValues.length
+      ? benchmarkValues.reduce((sum, value) => sum + value, 0) / benchmarkValues.length
+      : null;
     const spotSpread = avgBenchmark ? avgSpot - avgBenchmark : null;
     const hydroPhrase = goodHydroStations.length
       ? `${goodHydroStations.slice(0, 2).map((row) => row.station).join("、")}来水同比改善`
@@ -177,78 +244,83 @@
       : null;
     const hydroEdge = strongestRiver?.qtdInflow
       ? ((Number(strongestRiver.avg7dInflow || 0) / Number(strongestRiver.qtdInflow)) - 1) * 100
-      : 0;
-    const priceEdge = spotSpread === null ? 0 : spotSpread / 10;
-    const demandEdge = Number(latestPower?.totalYoy || 0);
-    const supplyEdge = capacityDemandGap === null ? 0 : -capacityDemandGap;
+      : null;
+    const demandEdge = latestPower?.totalYoy === null || latestPower?.totalYoy === undefined
+      ? null
+      : Number(latestPower.totalYoy);
     const temperatureRows = [
-      { name: "用电同比", raw: latestPower ? pct(latestPower.totalYoy) : "-", value: demandEdge },
-      { name: "装机-用电增速差", raw: capacityDemandGap === null ? "-" : `${capacityDemandGap.toFixed(1)} pct`, value: supplyEdge },
-      { name: "现货较煤电基准", raw: spotSpread === null ? "-" : `${spotSpread >= 0 ? "+" : ""}${fmt(spotSpread, 0)} 元/MWh`, value: priceEdge },
-      { name: "来水较QTD", raw: `${hydroEdge >= 0 ? "+" : ""}${hydroEdge.toFixed(1)}%`, value: hydroEdge }
+      {
+        name: "用电需求",
+        raw: demandEdge === null ? "-" : pct(demandEdge),
+        status: demandEdge === null ? "等待数据" : demandEdge >= 5 ? "需求偏强" : demandEdge <= 0 ? "需求偏弱" : "需求平稳",
+        tone: demandEdge === null ? "neutral" : demandEdge >= 5 ? "tight" : demandEdge <= 0 ? "loose" : "neutral",
+        detail: latestPower ? `${latestPower.month} 全社会用电同比` : "暂无最新用电数据"
+      },
+      {
+        name: "新增供给",
+        raw: capacityDemandGap === null ? "-" : `${capacityDemandGap >= 0 ? "装机快" : "用电快"} ${Math.abs(capacityDemandGap).toFixed(1)} pct`,
+        status: capacityDemandGap >= 2 ? "供给宽松" : capacityDemandGap <= -2 ? "供给偏紧" : "供需同步",
+        tone: capacityDemandGap >= 2 ? "loose" : capacityDemandGap <= -2 ? "tight" : "neutral",
+        detail: "装机增速与用电增速之差"
+      },
+      {
+        name: "现货价格",
+        raw: spotSpread === null ? "-" : `${spotSpread >= 0 ? "+" : ""}${fmt(spotSpread, 0)} 元/MWh`,
+        status: spotSpread === null ? "等待数据" : spotSpread >= 20 ? "价格偏强" : spotSpread <= -20 ? "价格偏弱" : "价格平稳",
+        tone: spotSpread === null ? "neutral" : spotSpread >= 20 ? "tight" : spotSpread <= -20 ? "loose" : "neutral",
+        detail: "样本省份现货均价较煤电基准"
+      },
+      {
+        name: "水电供给",
+        raw: hydroEdge === null ? "-" : `${hydroEdge >= 0 ? "+" : ""}${hydroEdge.toFixed(1)}%`,
+        status: hydroEdge === null ? "等待数据" : hydroEdge >= 5 ? "来水改善" : hydroEdge <= -5 ? "来水偏弱" : "来水持平",
+        tone: hydroEdge === null ? "neutral" : hydroEdge >= 5 ? "loose" : hydroEdge <= -5 ? "tight" : "neutral",
+        detail: "重点流域近 7 日来水较 QTD"
+      }
     ];
-    const temperatureScore = temperatureRows.reduce((sum, row) => sum + Number(row.value || 0), 0);
-    const temperatureSignal = temperatureScore > 12 ? "偏紧" : temperatureScore < -8 ? "宽松" : "均衡";
+    const tightSignals = temperatureRows.filter((row) => row.tone === "tight");
+    const looseSignals = temperatureRows.filter((row) => row.tone === "loose");
+    const temperatureSignal = tightSignals.length && looseSignals.length
+      ? "信号分化"
+      : tightSignals.length >= 2
+        ? "供需偏紧"
+        : looseSignals.length >= 2
+          ? "供需偏松"
+          : "总体均衡";
+    const temperatureSummary = tightSignals.length && looseSignals.length
+      ? `${tightSignals.map((row) => row.name).join("、")}偏紧；${looseSignals.map((row) => row.name).join("、")}偏松。`
+      : tightSignals.length
+        ? `偏紧信号主要来自${tightSignals.map((row) => row.name).join("、")}。`
+        : looseSignals.length
+          ? `偏松信号主要来自${looseSignals.map((row) => row.name).join("、")}。`
+          : "四项指标暂未形成一致方向。";
     setText("metric-power", capacityDemandGap === null ? "月度" : `${capacityDemandGap >= 0 ? "装机快" : "用电快"}${Math.abs(capacityDemandGap).toFixed(1)}pct`);
     setText("metric-power-note", latestPower && latestCapacity
       ? `${latestPower.month} 用电同比 ${pct(latestPower.totalYoy)}，装机同比 ${pct(latestCapacity.totalYoy)}`
       : "装机增速与用电增速差、偏紧省份");
 
-    renderChart("home-temperature-chart", {
-      tooltip: {
-        ...tooltipStyle,
-        formatter: (params) => {
-          const row = temperatureRows[params.dataIndex];
-          return `${params.marker}${row.name}<br>原始读数：${row.raw}<br>景气贡献：${fmt(params.value, 1)}`;
-        }
-      },
-      title: {
-        text: temperatureSignal,
-        subtext: `综合得分 ${fmt(temperatureScore, 1)}`,
-        right: 34,
-        top: 28,
-        textStyle: { color: "#29343c", fontSize: 25, fontWeight: 800 },
-        subtextStyle: { color: "#74808a", fontSize: 12 }
-      },
-      grid: { left: 150, right: 150, top: 78, bottom: 46 },
-      xAxis: {
-        type: "value",
-        min: -30,
-        max: 30,
-        axisLabel: { color: "#74808a", fontSize: 11 },
-        splitLine: { lineStyle: { color: "#e8eef1" } },
-        axisLine: { lineStyle: { color: "#d9e2e7" } },
-        axisTick: { show: false }
-      },
-      yAxis: {
-        type: "category",
-        data: temperatureRows.map((row) => row.name),
-        axisLabel: { color: "#465b68", fontSize: 12 },
-        axisLine: { show: false },
-        axisTick: { show: false }
-      },
-      series: [{
-        name: "景气贡献",
-        type: "bar",
-        barMaxWidth: 22,
-        data: temperatureRows.map((row) => +Number(row.value || 0).toFixed(1)),
-        itemStyle: {
-          borderRadius: [4, 4, 4, 4],
-          color: (params) => params.value >= 0 ? "#607d98" : "#c5a66f"
-        },
-        label: {
-          show: true,
-          position: "right",
-          color: "#60717c",
-          formatter: (params) => temperatureRows[params.dataIndex].raw
-        },
-        markLine: {
-          symbol: "none",
-          lineStyle: { color: "#c9d5dc", type: "dashed" },
-          data: [{ xAxis: 0 }]
-        }
-      }]
-    });
+    const temperatureBoard = document.getElementById("home-temperature-chart");
+    if (temperatureBoard) {
+      temperatureBoard.innerHTML = `
+        <div class="signal-overview">
+          <span>综合判断</span>
+          <strong>${temperatureSignal}</strong>
+          <p>${temperatureSummary}</p>
+        </div>
+        <div class="home-signal-list">
+          ${temperatureRows.map((row) => `
+            <article class="home-signal-item">
+              <div class="home-signal-item-head">
+                <span>${row.name}</span>
+                <em class="signal-status ${row.tone}">${row.status}</em>
+              </div>
+              <strong>${row.raw}</strong>
+              <p>${row.detail}</p>
+            </article>
+          `).join("")}
+        </div>
+      `;
+    }
 
     const eventList = document.getElementById("home-event-list");
     if (eventList) {
@@ -290,7 +362,7 @@
     const riverQtd = buildRiverQtd();
     const focusQtd = riverQtd.find((row) => row.river === "雅砻江") || riverQtd.find((row) => row.river === "大渡河") || riverQtd[0];
 
-    setText("hydro-page-week", `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("hydro-page-week", weekEndDate(latestWeek));
     setText("hydro-page-week-note", `三峡入库 ${fmt(threeGorges.inflow)} m3/s，同比 ${pct(threeGorges.inflowYoy)}，周度样本 ${data.hydroWeeklyLatest.length} 个`);
     setText("hydro-page-hour", latestHour.time.slice(5));
     setText("hydro-page-hour-note", `${latestHour.river} ${latestHour.station} 入库 ${fmt(latestHour.inflow)} m3/s`);
@@ -301,7 +373,7 @@
 
     const freshness = data.freshness || {};
     setText("hydro-freshness-snapshot", data.updatedAt);
-    setText("hydro-freshness-week", freshness.hydroWeekly || `${latestWeek.isoYear}-W${latestWeek.isoWeek}`);
+    setText("hydro-freshness-week", formatWeekFreshness(freshness.hydroWeekly, latestWeek));
     setText("hydro-freshness-hour", freshness.hydroHourly || latestHour.time);
 
     const historyRows = data.hydroWeeklyHistory || [];
@@ -519,15 +591,15 @@
             return lines.join("<br>");
           }
         },
-        legend: { top: 10, right: 18, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 62, right: 62, top: 58, bottom: 48 },
+        legend: { top: 4, right: 12, itemWidth: 20, itemHeight: 10, textStyle: { color: "#74808a", fontSize: 11 } },
+        grid: { left: 54, right: 50, top: 42, bottom: 32 },
         xAxis: { type: "category", data: company.periods, ...axisStyle },
         yAxis: [
-          { type: "value", name: company.unit, nameTextStyle: { color: "#74808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: company.unit, splitNumber: 4, nameTextStyle: { color: "#74808a" }, ...axisStyle },
+          { type: "value", position: "right", splitNumber: 4, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         series: [
-          { name: "季度电量", type: "bar", barMaxWidth: 38, data: barData },
+          { name: "季度电量", type: "bar", barMaxWidth: 28, data: barData },
           { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbol: "circle", symbolSize: 7, data: yoy, itemStyle: { color: "#c5a66f" }, lineStyle: { color: "#c5a66f", width: 2 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
@@ -580,7 +652,7 @@
         <tr>
           <td>${row.station}</td>
           <td>${row.basin}</td>
-          <td>${row.isoYear}-W${row.isoWeek}</td>
+          <td>${weekEndDate(row)}</td>
           <td>${fmt(row.inflow)}</td>
           <td>${pct(row.inflowYoy)}</td>
           <td>${fmt(row.outflow)}</td>
@@ -666,7 +738,7 @@
   const renderPricePage = () => {
     const latestSpot = data.spotWeeklyLatest?.[0];
     const avgRealtime = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
-    setText("price-page-date", latestSpot ? `${latestSpot.isoYear}-W${latestSpot.isoWeek}` : "-");
+    setText("price-page-date", latestSpot ? weekEndDate(latestSpot) : "-");
     setText("price-page-avg", `${fmt(avgRealtime, 0)} 元/MWh`);
     setText("price-page-note", `${data.spotWeeklyLatest.length} 个省份周度样本，现货均价/同环比`);
     if (data.proxyPurchaseLatest?.length) {
@@ -693,7 +765,7 @@
         <tr>
           <td>${row.province}</td>
           <td>${fmt(row.coalBenchmark, 1)}</td>
-          <td>${row.isoYear}-W${row.isoWeek}</td>
+          <td>${weekEndDate(row)}</td>
           <td>${row.weekStart} 至 ${row.weekEnd}</td>
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
@@ -771,14 +843,14 @@
       if (historyNote) {
         const latest = rows[0];
         const prefix = spotHistoryExpanded ? "全部" : "最近 5 周";
-        historyNote.textContent = latest ? `${province} ${prefix} / 共 ${rows.length} 周，最新 ${latest.isoYear}-W${latest.isoWeek}` : "暂无历史数据";
+        historyNote.textContent = latest ? `${province} ${prefix} / 共 ${rows.length} 周，最新截至 ${weekEndDate(latest)}` : "暂无历史数据";
       }
       const visibleRows = spotHistoryExpanded ? rows : rows.slice(0, 5);
       weeklyBody.innerHTML = visibleRows.map((row) => `
         <tr>
           <td>${row.province}</td>
           <td>${fmt(row.coalBenchmark, 1)}</td>
-          <td>${row.isoYear}-W${row.isoWeek}</td>
+          <td>${weekEndDate(row)}</td>
           <td>${row.weekStart} 至 ${row.weekEnd}</td>
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
@@ -1441,6 +1513,8 @@
     renderHydroPage();
     renderPricePage();
     renderPowerPage();
+    enhanceWideTables();
+    waitForEcharts();
     let resizeTimer = null;
     window.addEventListener("resize", () => {
       window.clearTimeout(resizeTimer);

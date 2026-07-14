@@ -258,7 +258,7 @@
       h1 { font-size: 24px; }
     }
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-12">
 </head>
 <body>
   <div class="app">
@@ -285,7 +285,14 @@
         <div>
           <div class="eyebrow">HYDRO MONITOR</div>
           <h1>水电跟踪</h1>
-          <p class="subtitle">跟踪重点流域来水、核心电站周度入库与出库、小时水情、QTD 边际变化和水电公司电量测算，连接水电出力弹性与公司受益方向。</p>
+          <div class="hero-title-line">
+            <p class="subtitle">跟踪重点流域来水、核心电站周度入库与出库、小时水情、QTD 边际变化和水电公司电量测算，连接水电出力弹性与公司受益方向。</p>
+            <a class="hero-link-card" href="./companies.html#weekly-power-forecast" aria-label="查看水电上市公司周度电量预测">
+              <span class="hero-link-kicker">水电上市公司</span>
+              <span class="hero-link-main"><strong>周度电量预测</strong><b aria-hidden="true">→</b></span>
+              <span class="hero-link-note">按公司查看发电量测算</span>
+            </a>
+          </div>
         </div>
         <button class="primary" onclick="location.href='index.html'">返回首页</button>
       </div>
@@ -364,7 +371,7 @@
               <select id="hydro-company-select" aria-label="选择水电公司"></select>
             </div>
           </div>
-          <div id="hydro-company-generation-chart" class="echart" role="img" aria-label="水电公司季度发电量及同比趋势图"></div>
+          <div id="hydro-company-generation-chart" class="echart hydro-company-generation-chart" role="img" aria-label="水电公司季度发电量及同比趋势图"></div>
           <div class="chart-footnote" id="hydro-company-generation-note"></div>
         </section>
 
@@ -385,6 +392,7 @@
           <span class="pill">按当前小时水情样本聚合</span>
         </div>
         <div class="section-body">
+          <div class="table-scroll mobile-data-table river-qtd-table">
           <table>
             <thead>
               <tr>
@@ -401,6 +409,7 @@
               <tr><td colspan="7">加载流域 QTD 摘要...</td></tr>
             </tbody>
           </table>
+          </div>
           <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”；本表按当前小时水情样本聚合到流域层面。</p>
         </div>
       </section>
@@ -416,12 +425,13 @@
             <select id="hydro-weekly-basin"></select>
             <span class="filter-note" id="hydro-weekly-basin-note">选择流域查看周度来水</span>
           </div>
+          <div class="table-scroll mobile-data-table weekly-water-table">
           <table>
             <thead>
               <tr>
                 <th>电站</th>
                 <th>流域</th>
-                <th>周度</th>
+                <th>截至日期</th>
                 <th>入库 m3/s</th>
                 <th>入库同比</th>
                 <th>出库 m3/s</th>
@@ -432,6 +442,7 @@
               <tr><td colspan="7">加载周度水情...</td></tr>
             </tbody>
           </table>
+          </div>
         </div>
       </section>
 
@@ -447,6 +458,7 @@
               <select id="hydro-qtd-river"></select>
               <span class="filter-note" id="hydro-qtd-river-note">选择流域查看 QTD</span>
             </div>
+            <div class="table-scroll mobile-data-table qtd-monitor-table">
             <table>
               <thead>
                 <tr>
@@ -463,6 +475,7 @@
                 <tr><td colspan="7">加载 QTD 指标...</td></tr>
               </tbody>
             </table>
+            </div>
             <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”；用于观察当前来水相对本季度平均水平是否改善。</p>
           </div>
         </section>
@@ -478,7 +491,7 @@
               <select id="hydro-hourly-river"></select>
               <span class="filter-note" id="hydro-hourly-river-note">选择流域查看小时水情</span>
             </div>
-            <div class="table-scroll compact-water-table">
+            <div class="table-scroll compact-water-table mobile-data-table hourly-water-table">
             <table>
               <thead>
                 <tr>
@@ -531,7 +544,7 @@
     </main>
   </div>
   <script src="assets/workbench-data.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script src="assets/app.js?v=20260714-12"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>公司弹性 · 电力数据研究工作台</title>
-  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-12">
   <style>
     .company-page { max-width: 1180px; margin: 0 auto; padding: 34px 28px 56px; }
     .page-top { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; margin-bottom: 22px; }
@@ -135,7 +135,7 @@
       </article>
     </div>
 
-    <section class="section-card">
+    <section class="section-card" id="weekly-power-forecast">
       <h2>周度电量测算</h2>
       <p class="note weekly-intro">用一个大图承载 2026 年以来的周度数据，通过下拉框切换公司。柱状为周度电量，折线为同比；已公告公司以公告季度总量校准，未公告公司保留测算/公告部分口径。</p>
     </section>
@@ -197,14 +197,28 @@
       </table>
     </section>
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script>
+    const renderCompanyChartsWhenReady = (render) => {
+      if (window.echarts) {
+        render();
+        return;
+      }
+      const retry = window.setInterval(() => {
+        if (!window.echarts) return;
+        window.clearInterval(retry);
+        render();
+      }, 160);
+      window.setTimeout(() => window.clearInterval(retry), 6000);
+    };
+
+    const companyWeekEndDates = ["2026-05-31", "2026-06-07", "2026-06-14", "2026-06-21", "2026-06-28", "2026-07-05"];
     const companyWeeklyCharts = [
       {
         id: "chart-company-changjiang",
         name: "长江电力",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [51.8, 53.6, 54.9, 56.2, 58.4, 61.0],
         yoy: [1.2, 1.9, 2.6, 3.1, 4.2, 5.4]
       },
@@ -212,7 +226,7 @@
         id: "chart-company-yalong",
         name: "雅砻江水电",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [10.5, 10.9, 11.1, 11.3, 11.6, 11.8],
         yoy: [-31.5, -29.8, -28.1, -27.3, -26.2, -24.9]
       },
@@ -220,7 +234,7 @@
         id: "chart-company-dadu",
         name: "国能大渡河",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [7.8, 8.1, 8.3, 8.5, 8.7, 9.0],
         yoy: [-18.4, -16.8, -14.5, -12.3, -10.6, -8.8]
       },
@@ -228,7 +242,7 @@
         id: "chart-company-guiguan",
         name: "桂冠电力",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [7.4, 8.0, 8.6, 9.0, 9.5, 9.8],
         yoy: [42.0, 47.5, 52.2, 57.8, 60.1, 62.0]
       },
@@ -236,7 +250,7 @@
         id: "chart-company-qianyuan",
         name: "黔源电力",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [1.55, 1.72, 1.86, 1.94, 2.02, 2.12],
         yoy: [41.5, 48.2, 55.6, 59.8, 63.0, 67.9]
       },
@@ -244,7 +258,7 @@
         id: "chart-company-wuling",
         name: "五凌电力",
         unit: "亿kWh",
-        weeks: ["W22", "W23", "W24", "W25", "W26", "W27"],
+        weeks: companyWeekEndDates,
         power: [6.2, 6.8, 7.1, 7.5, 7.9, 8.2],
         yoy: [88.0, 101.5, 118.0, 130.3, 126.0, 121.4]
       }
@@ -269,7 +283,7 @@
         },
         legend: { top: 4, right: 8, textStyle: { color: "#74808a", fontSize: 11 } },
         grid: { left: 48, right: 46, top: 44, bottom: 34 },
-        xAxis: { type: "category", data: item.weeks, axisTick: { show: false }, axisLabel: { color: "#74808a" }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
+        xAxis: { type: "category", data: item.weeks, axisTick: { show: false }, axisLabel: { color: "#74808a", formatter: (value) => value.slice(5) }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
         yAxis: [
           { type: "value", name: item.unit, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { lineStyle: { color: "#e8eef1" } } },
           { type: "value", name: "%", nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { show: false } }
@@ -282,7 +296,7 @@
     }
 
     document.addEventListener("DOMContentLoaded", () => {
-      companyWeeklyCharts.forEach(renderCompanyWeeklyChart);
+      renderCompanyChartsWhenReady(() => companyWeeklyCharts.forEach(renderCompanyWeeklyChart));
     });
   </script>
   <script>
@@ -407,7 +421,7 @@
         selector.innerHTML = companyYtdWeeklyCharts.map((item) => `<option value="${item.key}">${item.name}</option>`).join("");
         selector.addEventListener("change", (event) => renderCompanyYtdWeeklyChart(event.target.value));
       }
-      renderCompanyYtdWeeklyChart("changjiang");
+      renderCompanyChartsWhenReady(() => renderCompanyYtdWeeklyChart("changjiang"));
       window.addEventListener("resize", () => companyYtdWeeklyChart && companyYtdWeeklyChart.resize());
     });
   </script>

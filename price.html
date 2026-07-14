@@ -21,7 +21,7 @@
     .toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}.toolbar label{font-size:13px;color:var(--muted)}select{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 10px;border-radius:8px;font-size:14px;min-width:160px}.history-note{font-size:12px;color:var(--muted);margin-left:auto}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px 28px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-8">
 </head>
 <body>
   <div class="app">
@@ -70,7 +70,7 @@
         <div class="section-head"><h2>分省现货周度价格</h2><button class="compact" id="spot-latest-toggle" type="button">展开全部</button></div>
         <div class="section-body">
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>周度</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
             <tbody id="price-province-body"><tr><td colspan="7">加载电价与市场...</td></tr></tbody>
           </table>
         </div>
@@ -85,7 +85,7 @@
             <button class="compact" id="spot-history-toggle" type="button">展开全部</button>
           </div>
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>周度</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
             <tbody id="price-weekly-history-body"><tr><td colspan="7">加载周度历史...</td></tr></tbody>
           </table>
         </div>
@@ -99,10 +99,8 @@
             <span class="history-note" id="proxy-province-note">选择省份后查看代理购电价</span>
             <button class="compact" id="proxy-history-toggle" type="button">展开全部</button>
           </div>
-          <div class="inline-chart-wrap">
-            <div class="inline-chart-note">代理购电价使用左轴，月度同比使用右侧百分比轴</div>
-            <div id="proxy-history-chart" class="echart compact" role="img" aria-label="分省代理购电价走势与同比图"></div>
-          </div>
+          <p class="chart-context-note">代理购电价使用左轴，月度同比使用右侧百分比轴</p>
+          <div id="proxy-history-chart" class="echart" role="img" aria-label="分省代理购电价走势与同比图"></div>
           <table>
             <thead><tr><th>省份</th><th>月份</th><th>代理购电价</th><th>环比</th></tr></thead>
             <tbody id="proxy-history-body"><tr><td colspan="4">加载代理购电价...</td></tr></tbody>
@@ -121,10 +119,8 @@
             <span class="history-note" id="system-fee-province-note">选择省份后查看系统运行费折价</span>
             <button class="compact" id="system-fee-history-toggle" type="button">展开全部</button>
           </div>
-          <div class="inline-chart-wrap">
-            <div class="inline-chart-note">总值及可得分项使用左轴，总值同比使用右侧百分比轴</div>
-            <div id="system-fee-history-chart" class="echart compact" role="img" aria-label="系统运行费折价走势与同比图"></div>
-          </div>
+          <p class="chart-context-note">总值及可得分项使用左轴，总值同比使用右侧百分比轴</p>
+          <div id="system-fee-history-chart" class="echart" role="img" aria-label="系统运行费折价走势与同比图"></div>
           <table>
             <thead><tr><th>省份</th><th>月份</th><th>总值</th><th>环比</th><th>煤电容量</th><th>辅助服务</th><th>抽蓄容量</th></tr></thead>
             <tbody id="system-fee-history-body"><tr><td colspan="7">加载系统运行费折价...</td></tr></tbody>
@@ -136,6 +132,6 @@
   </div>
   <script src="assets/workbench-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=20260714-9"></script>
 </body>
 </html>

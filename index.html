@@ -489,7 +489,7 @@
       h1 { font-size: 24px; }
     }
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-7">
 </head>
 <body>
   <div class="app">
@@ -580,8 +580,8 @@
         <section class="chart-card wide">
           <div class="chart-head">
             <div>
-              <h2>电力行业景气温度图</h2>
-              <p>合并用电增速、装机增速差、现货溢价和来水边际，给出供需偏紧/均衡/宽松判断</p>
+              <h2>供需信号一览</h2>
+              <p>四项指标分别判断方向，不再把不同单位强行相加</p>
             </div>
             <div class="topic-links">
               <a class="tab active topic-link" href="hydro.html">来水专题</a>
@@ -589,8 +589,8 @@
               <a class="tab active topic-link" href="power.html">供需专题</a>
             </div>
           </div>
-          <div id="home-temperature-chart" class="echart home-temperature-chart" role="img" aria-label="电力行业景气温度图"></div>
-          <p class="qtd-note"><strong>QTD</strong> = Quarter-to-Date，即“本季以来”。首页只放方向性结论，明细下沉到各专题页。</p>
+          <div id="home-temperature-chart" class="home-signal-board" aria-label="电力行业供需信号"></div>
+          <p class="qtd-note"><strong>判断口径：</strong>用电看需求，装机看新增供给，现货看价格强弱，来水看水电供给边际。QTD 指“本季以来”。</p>
         </section>
       </div>
 
@@ -610,6 +610,6 @@
   </div>
   <script src="assets/workbench-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=20260714-9"></script>
 </body>
 </html>

@@ -117,6 +117,65 @@ main {
   font-size: 14px;
 }
 
+.hero-title-line {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.hero-title-line .subtitle {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.hero-link-card {
+  display: grid;
+  flex: 0 0 auto;
+  min-width: 204px;
+  gap: 3px;
+  padding: 11px 13px 10px;
+  border: 1px solid rgba(96, 125, 152, 0.2);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(229, 237, 243, .9), rgba(255, 254, 250, .95));
+  box-shadow: 0 8px 20px rgba(57, 78, 92, .06);
+  color: var(--ink-800);
+  line-height: 1.35;
+  text-decoration: none;
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+.hero-link-kicker,
+.hero-link-note {
+  color: var(--ink-500);
+  font-size: 11px;
+}
+
+.hero-link-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.hero-link-main strong {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.hero-link-main b {
+  color: var(--accent);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hero-link-card:hover {
+  border-color: rgba(96, 125, 152, 0.42);
+  background: var(--surface);
+  box-shadow: 0 10px 24px rgba(57, 78, 92, .1);
+  transform: translateY(-1px);
+}
+
 .eyebrow {
   margin-bottom: 8px;
   color: var(--accent);
@@ -150,11 +209,11 @@ main {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--accent);
+  background: #9d8064;
   content: "";
 }
 
-.freshness-chip.stale::before { background: var(--amber); }
+.freshness-chip.stale::before { background: #9d8064; }
 .freshness-chip strong { color: var(--ink-800); }
 
 .hero-v2 {
@@ -384,6 +443,96 @@ main {
 }
 .echart { width: 100%; height: 330px; background: var(--surface); }
 .home-temperature-chart { height: 300px; }
+.hydro-company-generation-chart { height: 292px; }
+
+.home-signal-board {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.72fr) minmax(0, 2fr);
+  gap: 14px;
+  padding: 18px 20px 20px;
+  background: var(--surface);
+}
+
+.signal-overview {
+  display: flex;
+  min-height: 210px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 22px;
+  border: 1px solid #cfdae1;
+  border-radius: 14px;
+  background: linear-gradient(150deg, #e8f0f5 0%, #f6f8f9 100%);
+}
+
+.signal-overview span {
+  color: var(--ink-500);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.signal-overview strong {
+  margin: 8px 0 10px;
+  color: var(--ink-950);
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.signal-overview p,
+.home-signal-item p {
+  margin: 0;
+  color: var(--ink-500);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.home-signal-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.home-signal-item {
+  min-width: 0;
+  padding: 15px 16px;
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  background: var(--surface-soft);
+}
+
+.home-signal-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.home-signal-item-head > span {
+  color: var(--ink-700);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.home-signal-item > strong {
+  display: block;
+  margin: 10px 0 5px;
+  color: var(--ink-950);
+  font-size: 21px;
+  line-height: 1.15;
+}
+
+.signal-status {
+  flex: 0 0 auto;
+  padding: 3px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.signal-status.tight { color: var(--red); background: var(--red-soft); }
+.signal-status.loose { color: #4f7086; background: var(--blue-soft); }
+.signal-status.neutral { color: #8a7147; background: var(--amber-soft); }
 .echart.compact { height: 290px; }
 .power-year-consumption-card { margin-bottom: 18px; }
 .power-year-consumption-card .toolbar {
@@ -399,17 +548,12 @@ main {
   font-size: 13px;
 }
 
-.inline-chart-wrap {
-  overflow: hidden;
-  margin: 2px 0 18px;
-  border: 1px solid var(--line-soft);
-  border-radius: 12px;
-  background: var(--surface-soft);
-}
-.inline-chart-note {
-  padding: 12px 16px 0;
+.chart-context-note {
+  margin: 2px 0 0;
+  padding: 0;
   color: var(--ink-500);
   font-size: 12px;
+  line-height: 1.55;
 }
 
 section {
@@ -445,6 +589,30 @@ section {
   border-radius: 11px;
 }
 .table-scroll table { min-width: 700px; }
+.mobile-data-table {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.auto-scroll-table table {
+  min-width: var(--auto-table-width, 640px);
+}
+.mobile-data-table:focus-visible {
+  outline: 2px solid rgba(96, 125, 152, 0.32);
+  outline-offset: 2px;
+}
+.mobile-data-table table {
+  table-layout: auto;
+}
+.mobile-data-table th,
+.mobile-data-table td {
+  white-space: nowrap;
+}
+.river-qtd-table table { min-width: 680px; }
+.weekly-water-table table { min-width: 760px; }
+.qtd-monitor-table table { min-width: 720px; }
+.hourly-water-table table { min-width: 720px; }
 .home-hydro-table {
   max-height: 244px;
   overflow-y: auto;
@@ -588,73 +756,130 @@ tbody tr:hover { background: #eef3f6; }
     position: static !important;
     height: auto !important;
     min-height: auto !important;
-    padding: 14px 12px 12px !important;
+    overflow: hidden;
+    padding: 10px 12px 9px !important;
     border-right: 0;
     border-bottom: 1px solid var(--line-soft);
   }
   .brand {
-    margin-bottom: 10px !important;
-    font-size: 17px !important;
-    line-height: 1.25;
+    margin-bottom: 8px !important;
+    overflow: hidden;
+    font-size: 15px !important;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
+  .brand br { display: none; }
   .nav-section {
     display: none;
   }
   nav {
     display: flex !important;
-    gap: 8px !important;
+    gap: 6px !important;
     overflow-x: auto;
     padding-bottom: 2px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
+  aside nav:nth-of-type(n + 2) { display: none !important; }
   nav::-webkit-scrollbar {
     display: none;
   }
   nav a {
     flex: 0 0 auto;
-    min-height: 38px;
-    padding: 9px 12px !important;
+    min-height: 34px;
+    margin: 0;
+    padding: 7px 10px !important;
     white-space: nowrap;
     border: 1px solid rgba(96, 125, 152, 0.16);
+    border-radius: 999px;
     background: rgba(255, 255, 255, 0.38);
+    font-size: 13px;
   }
+  nav a.active { order: -1; }
   main {
     width: 100% !important;
     max-width: none !important;
-    padding: 18px 12px 32px !important;
+    padding: 14px 10px 28px !important;
   }
   .topbar {
     flex-direction: column !important;
-    gap: 10px !important;
-    margin-bottom: 16px;
+    gap: 8px !important;
+    margin-bottom: 12px;
   }
   .topbar h1,
   h1 {
-    font-size: 25px !important;
-    line-height: 1.22;
+    font-size: 23px !important;
+    line-height: 1.2;
+  }
+  .eyebrow {
+    margin-bottom: 5px;
+    font-size: 10px;
+    letter-spacing: .11em;
   }
   .subtitle {
     max-width: none;
-    font-size: 13px;
-    line-height: 1.7;
+    margin-top: 6px;
+    font-size: 12.5px;
+    line-height: 1.55;
   }
-  .hero-brief, .hero-watch { border-radius: 13px; }
-  .hero-brief { min-height: 0; padding: 22px; }
-  .hero-brief h2 { font-size: 23px; }
-  .hero-brief p {
+  .hero-title-line {
+    display: block;
+  }
+  .hero-link-card {
+    width: 100%;
+    min-width: 0;
+    margin-top: 10px;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border-radius: 12px;
+  }
+  .hero-link-kicker {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .hero-link-main {
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .hero-link-main strong {
     font-size: 13px;
-    line-height: 1.75;
+    white-space: nowrap;
+  }
+  .hero-link-main b { margin-left: auto; }
+  .hero-link-note {
+    justify-self: end;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .actions { gap: 6px; }
+  .actions button { padding: 8px 11px; font-size: 13px; }
+  .hero-v2 { gap: 12px; margin-bottom: 12px; }
+  .hero-brief, .hero-watch { border-radius: 13px; }
+  .hero-brief { min-height: 0; padding: 18px; }
+  .hero-brief h2 { font-size: 21px; line-height: 1.34; }
+  .hero-brief p {
+    margin-top: 10px;
+    font-size: 12.5px;
+    line-height: 1.65;
   }
   .hero-brief::after {
-    width: 220px;
-    height: 220px;
-    right: -96px;
-    bottom: -104px;
+    width: 190px;
+    height: 190px;
+    right: -104px;
+    bottom: -112px;
   }
-  .metric-grid { grid-template-columns: 1fr 1fr; }
-  .metric { min-height: 120px; }
-  .chart-head { flex-direction: column; padding: 17px 16px 0; }
+  .hero-watch { padding: 18px; }
+  .watch-list { gap: 11px; margin-top: 14px; }
+  .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .metric { min-height: 112px; padding: 14px; }
+  .metric .value { margin: 8px 0 6px; font-size: 22px; }
+  .metric .note { font-size: 11.5px; }
+  .chart-head { flex-direction: column; gap: 10px; padding: 15px 14px 0; }
+  .chart-head h2 { font-size: 16px; }
+  .chart-head p { line-height: 1.55; }
   .chart-head .toolbar,
   .toolbar {
     width: 100%;
@@ -683,16 +908,24 @@ tbody tr:hover { background: #eef3f6; }
   }
   .section-head-actions { justify-content: flex-start; }
   .section-head {
-    padding: 16px;
+    padding: 14px;
   }
   .section-body {
-    padding: 16px 12px;
+    padding: 14px 10px;
   }
   .echart,
   .echart.compact,
   .home-temperature-chart {
-    height: 260px;
+    height: 248px;
   }
+  .home-signal-board {
+    grid-template-columns: 1fr;
+    padding: 14px;
+  }
+  .hydro-company-generation-chart {
+    height: 210px !important;
+  }
+  .signal-overview { min-height: auto; }
   .chart-card,
   section,
   .summary,
@@ -712,6 +945,23 @@ tbody tr:hover { background: #eef3f6; }
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .mobile-data-table::before {
+    position: sticky;
+    left: 0;
+    display: block;
+    width: max-content;
+    margin: 7px 8px 5px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--ink-700);
+    content: "左右滑动查看完整表格 →";
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  .auto-scroll-table table {
+    min-width: var(--auto-table-width, 640px);
+  }
   .table-scroll table {
     min-width: 620px;
   }
@@ -726,31 +976,78 @@ tbody tr:hover { background: #eef3f6; }
   }
   .event-item {
     min-height: auto;
+    padding: 12px;
   }
   .research-note { grid-template-columns: 1fr; }
-  .hero-meta { display: block; padding-top: 18px; }
-  .hero-meta-label { display: block; margin-bottom: 8px; }
-  .freshness-strip { gap: 6px; }
-  .freshness-chip { width: 100%; justify-content: space-between; }
-  .price-summary-grid { grid-template-columns: 1fr; }
+  .hero-meta { display: block; margin-top: 14px; padding-top: 0; }
+  .hero-meta-label { display: block; margin-bottom: 6px; }
+  .freshness-strip {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .freshness-chip {
+    display: grid;
+    width: 100%;
+    min-height: 26px;
+    padding: 5px 8px;
+    grid-template-columns: 7px 78px minmax(0, 1fr);
+    align-items: center;
+    column-gap: 9px;
+    justify-content: initial;
+    font-size: 11px;
+  }
+  .freshness-chip::before { width: 7px; height: 7px; }
+  .freshness-chip strong {
+    min-width: 0;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .freshness-chip > span {
+    min-width: 0;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .summary-grid,
+  .price-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .summary { padding: 14px; }
 }
 
 @media (max-width: 460px) {
-  .metric-grid { grid-template-columns: 1fr; }
-  .metric { min-height: auto; }
+  .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .metric { min-height: 108px; }
   .hero-brief h2 {
-    font-size: 21px !important;
+    font-size: 20px !important;
   }
   .metric .value,
   .summary .value {
-    font-size: 23px !important;
+    font-size: 21px !important;
   }
   .echart,
   .echart.compact,
   .home-temperature-chart {
-    height: 240px;
+    height: 228px;
   }
+  .home-signal-board { height: auto; }
+  .home-signal-list { grid-template-columns: 1fr; }
+  .signal-overview { padding: 17px; }
   .table-scroll table {
-    min-width: 560px;
+    min-width: 540px;
   }
+  .river-qtd-table table { min-width: 680px; }
+  .weekly-water-table table { min-width: 760px; }
+  .qtd-monitor-table table,
+  .hourly-water-table table { min-width: 720px; }
+}
+
+@media (max-width: 359px) {
+  .metric-grid,
+  .summary-grid,
+  .price-summary-grid,
+  .freshness-strip {
+    grid-template-columns: 1fr !important;
+  }
+  .metric { min-height: auto; }
 }
