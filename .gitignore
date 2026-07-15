@@ -1,0 +1,5 @@
+node_modules/
+logs/
+*-preview.png
+playwright-report/
+test-results/

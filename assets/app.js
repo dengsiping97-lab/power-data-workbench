@@ -194,7 +194,7 @@
     setText("freshness-snapshot", data.updatedAt);
     setText("freshness-hydro-week", data.updatedAt || formatWeekFreshness(freshness.hydroWeekly, latestWeek));
     setText("freshness-hydro-hour", String(freshness.hydroHourly || latestHour.time || "").slice(0, 10));
-    setText("freshness-spot", freshness.spotWeekly || latestSpot?.weekStart || "-");
+    setText("freshness-spot", `截至 ${freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-")}`);
     setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
 
     const riverQtd = buildRiverQtd();

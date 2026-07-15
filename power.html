@@ -20,7 +20,7 @@
     .pill{display:inline-flex;border-radius:999px;padding:4px 8px;font-size:12px;background:#e8f3ee;color:var(--green)}.bars{display:grid;gap:10px}.bar-row{display:grid;grid-template-columns:72px 1fr 86px;align-items:center;gap:10px;font-size:13px}.track{height:10px;background:#edf1f3;border-radius:999px;overflow:hidden}.fill{height:100%;background:var(--blue);border-radius:999px}.fill.green{background:var(--green)}.fill.amber{background:var(--amber)}.toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}.toolbar label,.filter-note{font-size:13px;color:var(--muted)}select{min-width:150px;border:1px solid var(--line);background:#fff;color:var(--text);border-radius:8px;padding:8px 10px;font-size:14px}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid,.grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-7">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
 </head>
 <body>
   <div class="app">
@@ -28,17 +28,19 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="price.html">电价与市场</a><a class="active" href="power.html">电力供需</a><a href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a>
+        <a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="weather.html">负荷气象</a><a href="price.html">电价与市场</a><a class="active" href="power.html">电力供需</a><a href="company-generation.html">公司电量</a><a href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a>
       </nav>
     </aside>
     <main>
-      <div class="topbar">
-        <div>
+      <header class="module-hero module-hero--power">
+        <div class="module-hero-copy">
+          <div class="eyebrow">POWER SUPPLY &amp; DEMAND</div>
           <h1>电力供需</h1>
           <p class="subtitle">跟踪全社会用电量、规上发电量和电源装机，观察需求强弱、来水影响和新能源供给压力。</p>
+          <div class="module-hero-tags"><span>全社会用电</span><span>规上发电</span><span>装机结构</span><span>供需温度</span></div>
         </div>
-        <button class="primary" onclick="location.href='index.html'">返回首页</button>
-      </div>
+        <div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>本页重点</span><strong>需求增速与供给扩张</strong><small>比较用电增速、装机增速和电源结构</small></div></div>
+      </header>
 
       <div class="summary-grid">
         <div class="summary"><div class="label">最新用电量</div><div class="value" id="power-consumption-total">加载中</div><div class="note" id="power-consumption-note">全社会用电量</div></div>

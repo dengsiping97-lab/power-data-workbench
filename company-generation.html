@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公司电量 · 电力数据研究工作台</title>
+  <style>
+    :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--blue:#256f9f;--amber:#9a681c}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}.app{min-height:100vh;display:grid;grid-template-columns:248px 1fr}aside{padding:20px 16px;position:sticky;top:0;height:100vh}.brand{font-size:20px;font-weight:700;line-height:1.35;margin-bottom:24px}.nav-section{font-size:12px;margin:22px 8px 8px}nav a{display:flex;text-decoration:none;padding:10px 12px;border-radius:8px;font-size:14px;margin:2px 0}main{padding:24px 28px 40px;max-width:1480px;width:100%}h1{margin:0 0 6px;font-size:28px}.subtitle{margin:0;color:var(--muted);font-size:14px;line-height:1.55}.chart-toolbar{margin:0;padding:16px 20px 0}.chart-toolbar select{min-width:128px}.chart-toolbar #company-select{min-width:220px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}.toolbar label{font-size:13px;color:var(--muted)}select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff;color:var(--text)}.pill{display:inline-flex;border-radius:999px;padding:4px 8px;font-size:12px;background:#e8f3ee;color:var(--green)}.pill.amber{background:#f6efe3;color:var(--amber)}.chart-context{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto;color:var(--muted);font-size:12px}.chart-context strong{color:var(--text);font-size:14px}@media(max-width:1080px){.app{grid-template-columns:1fr}aside{position:static;height:auto}.chart-context{width:100%;margin-left:0}}@media(max-width:720px){main{padding:18px 12px 30px}.chart-toolbar select,.chart-toolbar #company-select{width:100%;min-width:0}}
+    .chart{height:360px}.public-guide{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}.public-guide article{padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.72)}.public-guide span{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.06em}.public-guide strong{display:block;margin:7px 0 5px;font-size:15px}.public-guide p{margin:0;color:var(--muted);font-size:12px;line-height:1.6}@media(max-width:720px){.chart{height:290px}.public-guide{grid-template-columns:1fr}}
+    .latest-power-section,.history-panel{margin-bottom:16px}.compact-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:18px 20px}.compact-head h2,.table-card-head h3{margin:0;color:var(--text)}.compact-head h2{font-size:17px}.compact-head p,.table-card-head p{margin:5px 0 0;color:var(--muted);font-size:12px;line-height:1.55}.latest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:0 18px 18px}.latest-table-card,.history-card{min-width:0;border:1px solid var(--line);border-radius:12px;background:#fbfcfc;overflow:hidden}.table-card-head{padding:14px 15px 11px;border-bottom:1px solid var(--line)}.table-card-head h3{font-size:15px}.data-scroll{overflow:auto}.latest-table-card .data-scroll{max-height:252px}.data-table{width:100%;border-collapse:separate;border-spacing:0;font-size:12px}.data-table th,.data-table td{padding:9px 10px;border-bottom:1px solid #e7ecef;text-align:right;white-space:nowrap}.data-table th{position:sticky;top:0;z-index:1;background:#f2f5f6;color:var(--muted);font-weight:600}.data-table th:first-child,.data-table td:first-child{text-align:left}.data-table tbody tr:last-child td{border-bottom:0}.data-table tbody tr:hover td{background:#f4f7f7}.data-table .company-cell{font-weight:650;color:var(--text)}.data-table .subtle{color:var(--muted)}.data-table .positive{color:#267253}.data-table .negative{color:#a14e48}.history-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 18px 18px}.history-scroll{height:264px;overflow:auto}.history-table{min-width:max-content}.history-table thead tr:nth-child(2) th{top:33px}.history-table th:first-child,.history-table td:first-child{position:sticky;left:0;z-index:2;background:#fbfcfc}.history-table th:first-child{z-index:3;background:#f2f5f6}.history-table .power-head{text-align:center;border-left:1px solid #dfe6e9}.history-table .value-col{border-left:1px solid #eef2f3}.empty-cell{text-align:center!important;color:var(--muted);padding:28px 12px!important}.history-caption{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.history-caption .pill{background:#eef3f5;color:#536b79}@media(max-width:1080px){.latest-grid{grid-template-columns:1fr}.history-grid{grid-template-columns:1fr}}@media(max-width:720px){.compact-head{padding:16px}.latest-grid,.history-grid{padding:0 12px 12px}.latest-table-card .data-scroll{max-height:224px}.history-scroll{height:264px}}
+  </style>
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-company-chart-1">
+  <style>
+    .generation-chart-card .chart-toolbar {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.35fr) repeat(3, minmax(128px, .8fr));
+      gap: 10px 12px;
+      align-items: end;
+    }
+    .generation-chart-card .chart-filter { min-width: 0; }
+    .generation-chart-card .chart-filter label {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .generation-chart-card .chart-filter select {
+      width: 100%;
+      min-width: 0;
+    }
+    .generation-chart-card .chart-context {
+      grid-column: 1 / -1;
+      justify-content: flex-start;
+      width: 100%;
+      margin: 0;
+      padding-top: 2px;
+    }
+    @media (max-width: 720px) {
+      .generation-chart-card .chart-toolbar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px 10px;
+        padding: 12px 14px 0;
+      }
+      .generation-chart-card .chart-filter label {
+        margin-bottom: 3px;
+        font-size: 11px;
+      }
+      .generation-chart-card .chart-filter select,
+      .generation-chart-card .chart-toolbar #company-select {
+        width: 100%;
+        min-width: 0;
+        min-height: 36px;
+        padding: 6px 8px;
+        font-size: 14px;
+      }
+      .generation-chart-card .chart-context {
+        grid-column: 1 / -1;
+        gap: 14px;
+        padding-top: 8px;
+        border-top: 1px solid var(--line-soft);
+        font-size: 11.5px;
+      }
+      .generation-chart-card .chart-context strong { font-size: 13px; }
+      .generation-chart-card .generation-chart { height: 248px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside><div class="brand">电力数据<br>研究工作台</div><div class="nav-section">核心模块</div><nav><a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="weather.html">负荷气象</a><a href="price.html">电价与市场</a><a href="power.html">电力供需</a><a class="active" href="company-generation.html">公司电量</a><a href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a></nav><div class="nav-section">研究归档</div><nav><a href="research.html">观点与复盘</a><a href="companies.html">公司弹性</a></nav></aside>
+    <main>
+      <header class="module-hero module-hero--company"><div class="module-hero-copy"><div class="eyebrow">COMPANY GENERATION</div><h1>公司电量</h1><p class="subtitle">跟踪八家电力运营商月度发电量，按公司、电源和区域查看趋势。电量统一展示为亿千瓦时，同比优先采用公告披露值。</p><div class="module-hero-tags"><span>公告数据</span><span>分电源</span><span>分区域</span><span>月度趋势</span></div></div><div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>数据快照</span><strong id="snapshot-date">加载中</strong><small>随公司月度公告滚动更新</small></div></div></header>
+      <section class="latest-power-section"><div class="compact-head"><div><h2>最新月度分电源电量</h2><p>展示各公司最近一期已披露的单月电量与公告同比；不同公司披露月份可能不同。</p></div><span class="pill">单位：亿kWh</span></div><div class="latest-grid"><article class="latest-table-card"><div class="table-card-head"><h3>火电（煤电）</h3><p>火电口径优先，未单列时采用煤电口径</p></div><div class="data-scroll"><table class="data-table"><thead><tr><th>公司</th><th>月份</th><th>电量</th><th>同比</th></tr></thead><tbody id="latest-thermal-body"></tbody></table></div></article><article class="latest-table-card"><div class="table-card-head"><h3>风电</h3><p>公司披露总口径</p></div><div class="data-scroll"><table class="data-table"><thead><tr><th>公司</th><th>月份</th><th>电量</th><th>同比</th></tr></thead><tbody id="latest-wind-body"></tbody></table></div></article><article class="latest-table-card"><div class="table-card-head"><h3>光伏</h3><p>公司披露总口径</p></div><div class="data-scroll"><table class="data-table"><thead><tr><th>公司</th><th>月份</th><th>电量</th><th>同比</th></tr></thead><tbody id="latest-solar-body"></tbody></table></div></article></div></section>
+      <section class="chart-card wide generation-chart-card"><div class="chart-head"><div><h2>公司月度电量趋势</h2><p>电量使用左轴、同比使用右轴；默认展示最近 24 期，极端同比按图轴截断，悬停显示真实值。</p></div><span class="pill amber" id="scope-note">口径加载中</span></div><div class="toolbar chart-toolbar"><div class="chart-filter"><label for="company-select">公司</label><select id="company-select"></select></div><div class="chart-filter"><label for="power-select">电源</label><select id="power-select"></select></div><div class="chart-filter"><label for="region-select">区域</label><select id="region-select"></select></div><div class="chart-filter"><label for="window-select">区间</label><select id="window-select"><option value="24">最近24期</option><option value="all">全部</option></select></div><div class="chart-context"><span>最新电量 <strong id="latest-value">—</strong></span><span>同比 <strong id="latest-yoy">—</strong></span></div></div><div class="chart generation-chart" id="generation-chart" role="img" aria-label="公司月度电量趋势图"></div></section>
+      <section class="history-panel"><div class="compact-head"><div><h2><span id="history-company">公司</span>历史分电源数据</h2><p>与上方公司选择联动；按公司披露总口径展示，表内可纵向查看历史、横向查看各电源。</p></div><div class="history-caption"><span class="pill">显示 6 行</span><span class="pill">可滚动</span></div></div><div class="history-grid"><article class="history-card"><div class="table-card-head"><h3>单月数据</h3><p>单月电量及单月同比</p></div><div class="data-scroll history-scroll"><table class="data-table history-table"><thead id="monthly-history-head"></thead><tbody id="monthly-history-body"></tbody></table></div></article><article class="history-card"><div class="table-card-head"><h3>累计月数据</h3><p>年初至当月累计电量及累计同比</p></div><div class="data-scroll history-scroll"><table class="data-table history-table"><thead id="ytd-history-head"></thead><tbody id="ytd-history-body"></tbody></table></div></article></div></section>
+      <div class="public-guide" aria-label="公开数据使用说明"><article><span>数据原则</span><strong>公告披露优先</strong><p>电量和同比直接采用公司公开公告，不用模型值覆盖已披露数据。</p></article><article><span>比较方法</span><strong>先统一口径再比较</strong><p>合并、控股和权益口径分别展示，不对不同范围直接加总。</p></article><article><span>更新节奏</span><strong>随公司公告滚动更新</strong><p>未披露月份停留在上一期，不把缺失月份显示为零。</p></article></div>
+    </main>
+  </div>
+  <script src="assets/company-generation-data.js"></script><script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script>
+  (() => {
+    const d = window.COMPANY_GENERATION_DATA;
+    if (!d) return;
+    const q = (id) => document.getElementById(id);
+    const fmt = (value, digits = 2) => value == null ? "—" : Number(value).toLocaleString("zh-CN", { maximumFractionDigits: digits });
+    const power = { total: "总量", hydro: "水电", thermal: "火电", coal: "煤电", gas: "燃气", wind: "风电", solar: "光伏", other: "其他" };
+    const powerOrder = ["total", "coal", "gas", "hydro", "wind", "solar", "thermal", "other"];
+    const scope = { consolidated: "合并", controlled: "控股", attributable: "权益", managed: "管理" };
+    q("snapshot-date").textContent = `快照 ${d.updatedAt}`;
+
+    const companySelect = q("company-select");
+    const powerSelect = q("power-select");
+    const regionSelect = q("region-select");
+    const windowSelect = q("window-select");
+    companySelect.innerHTML = d.companies.map((row) => `<option value="${row.companyId}">${row.companyName} · ${row.ticker}</option>`).join("");
+    let chart;
+
+    const preferredRegion = (regions) => ["中国", "全国", "湖北"].find((region) => regions.includes(region)) || regions[0];
+    const percentile = (values, p) => values.length ? values[Math.min(values.length - 1, Math.floor((values.length - 1) * p))] : 0;
+    const monthLabel = (period) => period ? period.slice(0, 7) : "—";
+    const yoyCell = (value) => value == null ? '<span class="subtle">—</span>' : `<span class="${value >= 0 ? "positive" : "negative"}">${fmt(value, 1)}%</span>`;
+    const regionRank = (region) => ({ "中国": 0, "全国": 1, "湖北": 2 }[region] ?? 9);
+
+    function companyAggregateRows(companyId) {
+      const grouped = new Map();
+      d.facts.filter((row) => row.companyId === companyId).forEach((row) => {
+        const key = `${row.period}|${row.powerType}`;
+        const current = grouped.get(key);
+        if (!current || regionRank(row.region) < regionRank(current.region)) grouped.set(key, row);
+      });
+      return [...grouped.values()];
+    }
+
+    function renderLatestTables() {
+      const configs = [
+        { id: "latest-thermal-body", types: ["thermal", "coal"] },
+        { id: "latest-wind-body", types: ["wind"] },
+        { id: "latest-solar-body", types: ["solar"] }
+      ];
+      configs.forEach((config) => {
+        const rows = d.companies.map((company) => {
+          const latest = companyAggregateRows(company.companyId)
+            .filter((row) => config.types.includes(row.powerType))
+            .sort((a, b) => b.period.localeCompare(a.period))[0];
+          return latest ? { company, latest } : null;
+        }).filter(Boolean);
+        q(config.id).innerHTML = rows.length ? rows.map(({ company, latest }) => `<tr><td><span class="company-cell">${company.companyName}</span></td><td class="subtle">${monthLabel(latest.period)}</td><td>${fmt(latest.valueBkwh, 2)}</td><td>${yoyCell(latest.yoyPct)}</td></tr>`).join("") : '<tr><td class="empty-cell" colspan="4">暂无披露数据</td></tr>';
+      });
+    }
+
+    function renderHistoryTable(companyId, mode) {
+      const rows = companyAggregateRows(companyId);
+      const valueKey = mode === "monthly" ? "valueBkwh" : "ytdBkwh";
+      const yoyKey = mode === "monthly" ? "yoyPct" : "ytdYoyPct";
+      const eligible = rows.filter((row) => row[valueKey] != null);
+      const types = [...new Set(eligible.map((row) => row.powerType))].sort((a, b) => powerOrder.indexOf(a) - powerOrder.indexOf(b));
+      const periods = [...new Set(eligible.map((row) => row.period))].sort((a, b) => b.localeCompare(a));
+      const head = q(mode === "monthly" ? "monthly-history-head" : "ytd-history-head");
+      const body = q(mode === "monthly" ? "monthly-history-body" : "ytd-history-body");
+      if (!types.length || !periods.length) {
+        head.innerHTML = '<tr><th>月份</th><th>电量</th><th>同比</th></tr>';
+        body.innerHTML = '<tr><td class="empty-cell" colspan="3">该公司暂未披露累计口径数据</td></tr>';
+        return;
+      }
+      head.innerHTML = `<tr><th rowspan="2">月份</th>${types.map((type) => `<th class="power-head" colspan="2">${power[type] || type}</th>`).join("")}</tr><tr>${types.map(() => '<th class="value-col">电量</th><th>同比</th>').join("")}</tr>`;
+      const index = new Map(eligible.map((row) => [`${row.period}|${row.powerType}`, row]));
+      body.innerHTML = periods.map((period) => `<tr><td>${monthLabel(period)}</td>${types.map((type) => {
+        const row = index.get(`${period}|${type}`);
+        return `<td class="value-col">${row ? fmt(row[valueKey], 2) : '<span class="subtle">—</span>'}</td><td>${row ? yoyCell(row[yoyKey]) : '<span class="subtle">—</span>'}</td>`;
+      }).join("")}</tr>`).join("");
+    }
+
+    function renderHistory(companyId) {
+      const company = d.companies.find((row) => row.companyId === companyId);
+      q("history-company").textContent = company?.companyName || "公司";
+      renderHistoryTable(companyId, "monthly");
+      renderHistoryTable(companyId, "ytd");
+    }
+
+    function render() {
+      const companyId = companySelect.value;
+      const company = d.companies.find((row) => row.companyId === companyId);
+      const companyRows = d.facts.filter((row) => row.companyId === companyId);
+      const types = [...new Set(companyRows.map((row) => row.powerType))].sort((a, b) => powerOrder.indexOf(a) - powerOrder.indexOf(b));
+      const previousPower = powerSelect.value;
+      powerSelect.innerHTML = types.map((type) => `<option value="${type}">${power[type] || type}</option>`).join("");
+      powerSelect.value = types.includes(previousPower) ? previousPower : (types.includes("total") ? "total" : types[0]);
+
+      const type = powerSelect.value;
+      const typeRows = companyRows.filter((row) => row.powerType === type);
+      const regions = [...new Set(typeRows.map((row) => row.region))];
+      const previousRegion = regionSelect.value;
+      regionSelect.innerHTML = regions.map((region) => `<option value="${region}">${region}</option>`).join("");
+      regionSelect.value = regions.includes(previousRegion) ? previousRegion : preferredRegion(regions);
+      const region = regionSelect.value;
+      const selectedAll = typeRows.filter((row) => row.region === region).sort((a, b) => a.period.localeCompare(b.period));
+      const selected = windowSelect.value === "all" ? selectedAll : selectedAll.slice(-Number(windowSelect.value));
+      const latest = selectedAll.at(-1);
+
+      q("scope-note").textContent = `${company.companyName} · ${region} · ${scope[company.scope] || company.scope}口径`;
+      q("latest-value").textContent = latest ? `${fmt(latest.valueBkwh, 2)} 亿kWh` : "—";
+      q("latest-yoy").textContent = latest?.yoyPct == null ? "—" : `${fmt(latest.yoyPct, 1)}%`;
+      renderHistory(companyId);
+      const yoyValues = selected.map((row) => Math.abs(row.yoyPct)).filter(Number.isFinite).sort((a, b) => a - b);
+      const yoyAxisMax = Math.min(100, Math.max(20, Math.ceil(percentile(yoyValues, 0.85) / 10) * 10));
+      const clippedYoy = selected.map((row) => row.yoyPct == null ? null : ({ value: Math.max(-yoyAxisMax, Math.min(yoyAxisMax, row.yoyPct)), raw: row.yoyPct }));
+      if (!chart) chart = echarts.init(q("generation-chart"), null, { renderer: "canvas" });
+      const compactChart = window.matchMedia("(max-width: 720px)").matches;
+      chart.setOption({
+        animationDuration: 420,
+        color: ["#607d98", "#b18a55"],
+        tooltip: {
+          trigger: "axis",
+          backgroundColor: "rgba(41,52,60,.94)",
+          borderWidth: 0,
+          textStyle: { color: "#fff" },
+          formatter: (items) => {
+            const valueItem = items.find((item) => item.seriesType === "bar");
+            const yoyItem = items.find((item) => item.seriesType === "line");
+            const rawYoy = yoyItem?.data?.raw ?? yoyItem?.data?.value ?? yoyItem?.value;
+            return `<strong>${items[0]?.axisValue || ""}</strong><br>${valueItem?.marker || ""}电量　${fmt(valueItem?.value, 3)} 亿kWh<br>${yoyItem?.marker || ""}同比　${rawYoy == null ? "—" : fmt(rawYoy, 1) + "%"}`;
+          }
+        },
+        legend: { top: 4, left: 58, itemWidth: 12, itemHeight: 8, textStyle: { color: "#60717c", fontSize: 11 }, data: ["电量", "同比"] },
+        grid: { left: compactChart ? 40 : 58, right: compactChart ? 42 : 60, top: compactChart ? 38 : 48, bottom: compactChart ? 34 : 42 },
+        xAxis: { type: "category", data: selected.map((row) => row.period.slice(0, 7)), axisTick: { show: false }, axisLine: { lineStyle: { color: "#cfd9df" } }, axisLabel: { color: "#74808a", fontSize: 11, hideOverlap: true } },
+        yAxis: [
+          { type: "value", name: "亿kWh", min: 0, splitNumber: 4, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a", fontSize: 11 }, splitLine: { lineStyle: { color: "#e5ebef" } } },
+          { type: "value", name: "同比", min: -yoyAxisMax, max: yoyAxisMax, splitNumber: 4, nameTextStyle: { color: "#a88752" }, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+        ],
+        series: [
+          { name: "电量", type: "bar", data: selected.map((row) => row.valueBkwh), barMaxWidth: 22, itemStyle: { color: "#607d98", borderRadius: [4, 4, 0, 0] }, emphasis: { itemStyle: { color: "#4e6f8c" } } },
+          { name: "同比", type: "line", yAxisIndex: 1, data: clippedYoy, smooth: 0.22, showSymbol: selected.length <= 12, symbolSize: 5, lineStyle: { width: 2, color: "#b18a55" }, itemStyle: { color: "#b18a55", borderColor: "#fffefa", borderWidth: 2 } }
+        ]
+      }, { notMerge: true });
+    }
+
+    companySelect.addEventListener("change", () => { powerSelect.value = ""; regionSelect.value = ""; render(); });
+    powerSelect.addEventListener("change", () => { regionSelect.value = ""; render(); });
+    regionSelect.addEventListener("change", render);
+    windowSelect.addEventListener("change", render);
+    renderLatestTables();
+    render();
+    window.addEventListener("resize", () => chart && chart.resize());
+  })();
+  </script>
+</body></html>

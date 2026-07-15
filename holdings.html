@@ -7,7 +7,7 @@
   <style>
     body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f7f8;color:#182026}.app{min-height:100vh;display:grid;grid-template-columns:248px 1fr}aside{background:#10212a;color:#f7fbfc;padding:20px 16px;position:sticky;top:0;height:100vh}.brand{font-size:20px;font-weight:700;line-height:1.35;margin-bottom:24px}.nav-section{color:#9fb0b8;font-size:12px;margin:22px 8px 8px}nav a{display:flex;color:#d9e4e8;text-decoration:none;padding:10px 12px;border-radius:8px;font-size:14px;margin:2px 0}nav a.active,nav a:hover{background:rgba(255,255,255,.1);color:#fff}main{padding:24px 28px 36px;max-width:1200px}.subtitle{color:#61717c}section{background:#fff;border:1px solid #dbe2e6;border-radius:8px;margin:16px 0;box-shadow:0 10px 28px rgba(20,32,38,.08)}.section-head{border-bottom:1px solid #dbe2e6;padding:14px 16px}.section-body{padding:16px}ul{line-height:1.9;color:#344650}button{border:1px solid #173b4a;background:#173b4a;color:#fff;padding:9px 12px;border-radius:8px;cursor:pointer}@media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr)}}@media(max-width:720px){main{padding:18px 14px}nav{grid-template-columns:1fr 1fr}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
 </head>
 <body>
   <div class="app">
@@ -15,13 +15,11 @@
       <div class="brand">电力数据<br>研究工作台</div>
       <div class="nav-section">核心模块</div>
       <nav>
-        <a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="price.html">电价与市场</a><a href="power.html">电力供需</a><a class="active" href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a>
+        <a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a href="weather.html">负荷气象</a><a href="price.html">电价与市场</a><a href="power.html">电力供需</a><a href="company-generation.html">公司电量</a><a class="active" href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a>
       </nav>
     </aside>
     <main>
-      <h1>估值与资金</h1>
-      <p class="subtitle">这个页面先不放持仓数据，后续主要回答“当前估值贵不贵、价格隐含了什么预期、股东回报是否有吸引力”。</p>
-      <button onclick="location.href='index.html'">返回首页</button>
+      <header class="module-hero module-hero--valuation"><div class="module-hero-copy"><div class="eyebrow">VALUATION &amp; CAPITAL</div><h1>估值与资金</h1><p class="subtitle">回答“当前估值贵不贵、价格隐含了什么预期、股东回报是否有吸引力”，并把估值与现金流质量放在一起观察。</p><div class="module-hero-tags"><span>估值分位</span><span>股息率</span><span>自由现金流</span><span>预期差</span></div></div><div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>估值框架</span><strong>价格、现金流与回报</strong><small>区分真正便宜与价值陷阱</small></div></div></header>
       <section>
         <div class="section-head"><h2>建议做法</h2></div>
         <div class="section-body">

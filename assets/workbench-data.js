@@ -4,7 +4,7 @@ window.WORKBENCH_DATA = {
     "freshness": {
         "hydroWeekly": "2026-W27",
         "hydroHourly": "2026-07-11 21:00",
-        "spotWeekly": "2026-06-22",
+        "spotWeekly": "2026-06-28",
         "proxyMonthly": "2026-07",
         "systemFeeMonthly": "2026-07",
         "eventsCalendar": "2026-07-14"
@@ -35928,6 +35928,12 @@ window.WORKBENCH_DATA = {
                 "name": "中国装机容量.md",
                 "grain": "电源-月",
                 "status": "已自动转表"
+            },
+            {
+                "module": "公司电量",
+                "name": "月度电量事实表.csv",
+                "grain": "公司-期间-区域-电源-口径",
+                "status": "已接入公司电量页"
             }
         ],
         "p1": [

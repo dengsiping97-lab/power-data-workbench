@@ -21,7 +21,7 @@
     .toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}.toolbar label{font-size:13px;color:var(--muted)}select{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 10px;border-radius:8px;font-size:14px;min-width:160px}.history-note{font-size:12px;color:var(--muted);margin-left:auto}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px 28px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-8">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
 </head>
 <body>
   <div class="app">
@@ -31,21 +31,24 @@
       <nav>
         <a href="index.html">跟踪总览</a>
         <a href="hydro.html">水电跟踪</a>
+        <a href="weather.html">负荷气象</a>
         <a class="active" href="price.html">电价与市场</a>
         <a href="power.html">电力供需</a>
+        <a href="company-generation.html">公司电量</a>
         <a href="holdings.html">估值与资金</a>
         <a href="tools.html">测算中心</a>
       </nav>
     </aside>
     <main>
-      <div class="topbar">
-        <div>
+      <header class="module-hero module-hero--price">
+        <div class="module-hero-copy">
           <div class="eyebrow">POWER PRICE MONITOR</div>
           <h1>电价与市场</h1>
           <p class="subtitle">跟踪分省现货走势、同比、代理购电价与系统运行费折价，连接度电收益和利润弹性。</p>
+          <div class="module-hero-tags"><span>现货均价</span><span>煤电基准</span><span>代理购电</span><span>系统运行费</span></div>
         </div>
-        <button class="primary" onclick="location.href='index.html'">返回首页</button>
-      </div>
+        <div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>价格信号</span><strong>现货与基准价差</strong><small>观察区域电价强弱和度电收益弹性</small></div></div>
+      </header>
       <div class="summary-grid price-summary-grid">
         <div class="summary"><div class="label">最新现货周度</div><div class="value" id="price-page-date">加载中</div><div class="note">来自现货周度数据</div></div>
         <div class="summary"><div class="label">实时均价</div><div class="value" id="price-page-avg">加载中</div><div class="note" id="price-page-note">读取快照中</div></div>

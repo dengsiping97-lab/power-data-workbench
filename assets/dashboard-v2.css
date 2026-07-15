@@ -176,6 +176,140 @@ main {
   transform: translateY(-1px);
 }
 
+/* Shared module header --------------------------------------------------- */
+.module-hero {
+  --module-rgb: 91, 119, 145;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 258px;
+  align-items: center;
+  gap: 34px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 25px 27px;
+  border: 1px solid rgba(var(--module-rgb), .18);
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(var(--module-rgb), .18), transparent 30%),
+    linear-gradient(135deg, #fbfcfd 0%, rgba(var(--module-rgb), .075) 58%, rgba(var(--module-rgb), .13) 100%);
+  box-shadow: 0 14px 34px rgba(47, 70, 86, .08);
+}
+
+.module-hero::after {
+  position: absolute;
+  right: 108px;
+  bottom: -122px;
+  width: 270px;
+  height: 270px;
+  border: 1px solid rgba(var(--module-rgb), .12);
+  border-radius: 50%;
+  box-shadow: 0 0 0 46px rgba(var(--module-rgb), .04);
+  content: "";
+  pointer-events: none;
+}
+
+.module-hero-copy,
+.module-hero-actions {
+  position: relative;
+  z-index: 1;
+}
+
+.module-hero h1 {
+  margin: 0 0 9px;
+  font-size: clamp(30px, 2.6vw, 40px);
+  letter-spacing: -.04em;
+  line-height: 1.12;
+}
+
+.module-hero .subtitle,
+.module-hero-copy > p {
+  max-width: 900px;
+  margin: 0;
+  color: var(--ink-500, #61717c);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.module-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 17px;
+}
+
+.module-hero-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid rgba(var(--module-rgb), .16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .62);
+  color: rgb(var(--module-rgb));
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.module-hero-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.module-hero-back {
+  justify-self: end;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: rgb(var(--module-rgb));
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.module-hero-back:hover {
+  border-color: rgba(var(--module-rgb), .18);
+  background: rgba(255, 255, 255, .68);
+}
+
+.module-hero-card {
+  display: grid;
+  gap: 4px;
+  padding: 16px 17px;
+  border: 1px solid rgba(var(--module-rgb), .2);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .84);
+  box-shadow: 0 10px 25px rgba(52, 77, 95, .08);
+  backdrop-filter: blur(10px);
+}
+
+.module-hero-card span {
+  color: rgb(var(--module-rgb));
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.module-hero-card strong {
+  color: var(--ink-900, #182026);
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.module-hero-card small {
+  color: var(--ink-500, #61717c);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.module-hero--weather { --module-rgb: 166, 105, 62; }
+.module-hero--price { --module-rgb: 151, 108, 45; }
+.module-hero--power { --module-rgb: 74, 108, 139; }
+.module-hero--company { --module-rgb: 54, 112, 96; }
+.module-hero--valuation { --module-rgb: 103, 91, 137; }
+.module-hero--tools { --module-rgb: 64, 108, 126; }
+.module-hero--research { --module-rgb: 126, 84, 91; }
+
 .eyebrow {
   margin-bottom: 8px;
   color: var(--accent);
@@ -444,6 +578,12 @@ main {
 .echart { width: 100%; height: 330px; background: var(--surface); }
 .home-temperature-chart { height: 300px; }
 .hydro-company-generation-chart { height: 292px; }
+.weather-chart-note {
+  margin: 8px 2px 0;
+  color: var(--ink-500);
+  font-size: 12px;
+  line-height: 1.55;
+}
 
 .home-signal-board {
   display: grid;
@@ -836,6 +976,16 @@ tbody tr:hover { background: #eef3f6; }
     padding: 9px 12px;
     border-radius: 12px;
   }
+  .module-hero {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px 18px;
+    border-radius: 16px;
+  }
+  .module-hero h1 { font-size: 25px !important; }
+  .module-hero-tags { margin-top: 13px; }
+  .module-hero-actions { gap: 8px; }
+  .module-hero-back { justify-self: start; order: 2; padding-left: 0; }
   .hero-link-kicker {
     font-size: 10px;
     white-space: nowrap;
@@ -922,8 +1072,17 @@ tbody tr:hover { background: #eef3f6; }
     grid-template-columns: 1fr;
     padding: 14px;
   }
-  .hydro-company-generation-chart {
+  .hydro-company-generation-chart,
+  #hydro-company-rank-chart {
     height: 210px !important;
+  }
+  .weather-chart {
+    height: 260px !important;
+  }
+  .weather-chart-note {
+    margin-top: 9px;
+    padding-top: 9px;
+    border-top: 1px solid var(--line-soft);
   }
   .signal-overview { min-height: auto; }
   .chart-card,

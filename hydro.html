@@ -235,6 +235,111 @@
       font-size: 14px;
     }
 
+    .hydro-hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 264px;
+      align-items: center;
+      gap: 34px;
+      overflow: hidden;
+      margin-bottom: 12px;
+      padding: 25px 27px;
+      border: 1px solid rgba(91, 119, 145, 0.18);
+      border-radius: 20px;
+      background:
+        radial-gradient(circle at 90% 10%, rgba(104, 145, 174, 0.18), transparent 30%),
+        linear-gradient(135deg, #f9fbfc 0%, #edf3f7 58%, #e8eff4 100%);
+      box-shadow: 0 14px 34px rgba(47, 70, 86, 0.08);
+    }
+
+    .hydro-hero::after {
+      position: absolute;
+      right: 112px;
+      bottom: -116px;
+      width: 270px;
+      height: 270px;
+      border: 1px solid rgba(91, 119, 145, 0.12);
+      border-radius: 50%;
+      box-shadow: 0 0 0 46px rgba(104, 145, 174, 0.045);
+      content: "";
+      pointer-events: none;
+    }
+
+    .hydro-hero-copy,
+    .hydro-hero-actions {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hydro-hero h1 {
+      margin-bottom: 9px;
+      font-size: clamp(30px, 2.6vw, 40px);
+    }
+
+    .hydro-hero .subtitle {
+      max-width: 900px;
+      margin-top: 0;
+      line-height: 1.7;
+    }
+
+    .hydro-focus-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 17px;
+    }
+
+    .hydro-focus-list span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 5px 10px;
+      border: 1px solid rgba(78, 111, 138, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.62);
+      color: #4d687e;
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .hydro-hero-actions {
+      display: grid;
+      gap: 10px;
+    }
+
+    .hydro-back {
+      justify-self: end;
+      padding: 7px 10px;
+      border-color: transparent;
+      background: transparent;
+      color: #527088;
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    .hydro-back:hover {
+      border-color: rgba(82, 112, 136, 0.18);
+      background: rgba(255, 255, 255, 0.68);
+    }
+
+    .hydro-hero .hero-link-card {
+      min-width: 0;
+      padding: 16px 17px;
+      border-color: rgba(80, 112, 139, 0.2);
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.84);
+      box-shadow: 0 10px 25px rgba(52, 77, 95, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .hydro-hero .hero-link-main strong {
+      font-size: 16px;
+    }
+
+    .hydro-hero + .freshness-strip {
+      margin-bottom: 20px;
+    }
+
     @media (max-width: 1180px) {
       .app { grid-template-columns: 1fr; }
       aside {
@@ -248,6 +353,7 @@
       }
       .summary-grid { grid-template-columns: repeat(2, 1fr); }
       .grid { grid-template-columns: 1fr; }
+      .hydro-hero { grid-template-columns: minmax(0, 1fr) 240px; }
     }
 
     @media (max-width: 720px) {
@@ -256,9 +362,19 @@
       nav { grid-template-columns: 1fr 1fr; }
       .summary-grid { grid-template-columns: 1fr; }
       h1 { font-size: 24px; }
+      .hydro-hero {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 20px 18px;
+        border-radius: 16px;
+      }
+      .hydro-focus-list { margin-top: 13px; }
+      .hydro-hero-actions { gap: 8px; }
+      .hydro-back { justify-self: start; order: 2; padding-left: 0; }
+      .hydro-hero .hero-link-card { margin-top: 0; }
     }
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-12">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-hydro-hero-2">
 </head>
 <body>
   <div class="app">
@@ -268,8 +384,10 @@
       <nav>
         <a href="index.html">跟踪总览</a>
         <a class="active" href="hydro.html">水电跟踪</a>
+        <a href="weather.html">负荷气象</a>
         <a href="price.html">电价与市场</a>
         <a href="power.html">电力供需</a>
+        <a href="company-generation.html">公司电量</a>
         <a href="holdings.html">估值与资金</a>
         <a href="tools.html">测算中心</a>
       </nav>
@@ -281,20 +399,26 @@
     </aside>
 
     <main>
-      <div class="topbar">
-        <div>
+      <div class="topbar hydro-hero">
+        <div class="hydro-hero-copy">
           <div class="eyebrow">HYDRO MONITOR</div>
           <h1>水电跟踪</h1>
-          <div class="hero-title-line">
-            <p class="subtitle">跟踪重点流域来水、核心电站周度入库与出库、小时水情、QTD 边际变化和水电公司电量测算，连接水电出力弹性与公司受益方向。</p>
-            <a class="hero-link-card" href="./companies.html#weekly-power-forecast" aria-label="查看水电上市公司周度电量预测">
-              <span class="hero-link-kicker">水电上市公司</span>
-              <span class="hero-link-main"><strong>周度电量预测</strong><b aria-hidden="true">→</b></span>
-              <span class="hero-link-note">按公司查看发电量测算</span>
-            </a>
+          <p class="subtitle">跟踪重点流域来水、核心电站周度入库与出库、小时水情和 QTD 边际变化，进一步连接水电出力弹性与上市公司受益方向。</p>
+          <div class="hydro-focus-list" aria-label="水电跟踪重点">
+            <span>流域来水</span>
+            <span>电站水情</span>
+            <span>QTD 边际</span>
+            <span>公司电量</span>
           </div>
         </div>
-        <button class="primary" onclick="location.href='index.html'">返回首页</button>
+        <div class="hydro-hero-actions">
+          <button class="hydro-back" onclick="location.href='index.html'">← 返回跟踪总览</button>
+          <a class="hero-link-card" href="./companies.html#weekly-power-forecast" aria-label="查看水电上市公司周度电量预测">
+            <span class="hero-link-kicker">水电上市公司</span>
+            <span class="hero-link-main"><strong>周度电量预测</strong><b aria-hidden="true">→</b></span>
+            <span class="hero-link-note">按公司查看发电量测算</span>
+          </a>
+        </div>
       </div>
 
       <div class="freshness-strip" aria-label="来水数据新鲜度">

@@ -1,0 +1,11 @@
+{
+  "name": "power-data-workbench-preview",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "screenshot:mobile": "node scripts/mobile-screenshot.js"
+  },
+  "devDependencies": {
+    "playwright": "1.61.1"
+  }
+}

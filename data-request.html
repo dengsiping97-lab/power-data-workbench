@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>申请完整数据 · 电力数据研究工作台</title>
+  <link rel="stylesheet" href="assets/engagement.css">
+</head>
+<body>
+  <div class="eng-app">
+    <aside class="eng-sidebar">
+      <div class="eng-brand">电力数据<br>研究工作台</div>
+      <div class="eng-nav-label">核心模块</div>
+      <nav class="eng-nav">
+        <a href="index.html">跟踪总览</a>
+        <a href="hydro.html">水电跟踪</a>
+        <a href="weather.html">负荷气象</a>
+        <a href="price.html">电价与市场</a>
+        <a href="power.html">电力供需</a>
+        <a href="companies.html">公司弹性</a>
+        <a class="active" href="data-request.html">申请完整数据</a>
+      </nav>
+    </aside>
+    <main class="eng-main">
+      <div class="eng-eyebrow">DATA ACCESS</div>
+      <h1>申请完整数据</h1>
+      <p class="eng-subtitle">公开站展示近期数据与研究样例。可按实际研究需求申请完整历史、数据字典或专题口径说明。</p>
+      <section class="eng-card">
+        <h2>可申请范围</h2>
+        <ul>
+          <li>来水、水情、现货电价、代理购电与电力供需的完整历史窗口。</li>
+          <li>指标定义、更新时间和样本覆盖范围等数据字典。</li>
+          <li>已公开页面的数据使用与口径说明。</li>
+        </ul>
+      </section>
+      <section class="eng-card">
+        <h2>申请登记</h2>
+        <form data-email-form data-recipient="dengsiping97@gmail.com" data-subject="[电力数据研究工作台] 完整数据申请">
+          <div class="eng-fields">
+            <div class="eng-field"><label for="request-name">姓名</label><input id="request-name" data-label="姓名" autocomplete="name" required></div>
+            <div class="eng-field"><label for="request-org">机构</label><input id="request-org" data-label="机构" autocomplete="organization"></div>
+            <div class="eng-field"><label for="request-email">邮箱</label><input id="request-email" data-label="邮箱" type="email" autocomplete="email" required></div>
+            <div class="eng-field"><label for="request-contact">其他联系渠道</label><input id="request-contact" data-label="其他联系渠道" placeholder="选填"></div>
+            <div class="eng-field full"><label for="request-scope">所需数据范围与使用场景</label><textarea id="request-scope" data-label="所需数据范围与使用场景" required placeholder="例如：广东现货电价日度数据、2024 年以来历史、用于跟踪市场价格变化"></textarea></div>
+          </div>
+          <label class="eng-consent"><input type="checkbox" required>我同意仅为本次数据申请与必要的研究交流使用上述联系信息。</label>
+          <button class="eng-submit" type="submit">提交申请</button>
+          <p id="form-status" class="eng-status" aria-live="polite"></p>
+        </form>
+      </section>
+      <section class="eng-card eng-note">
+        <h2>使用边界</h2>
+        <p>数据仅用于研究交流。具体可提供范围以原始来源授权、数据时效与口径核对结果为准；页面内容不构成投资建议。</p>
+      </section>
+    </main>
+  </div>
+  <script src="assets/engagement.js"></script>
+</body>
+</html>
