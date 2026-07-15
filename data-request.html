@@ -37,10 +37,10 @@
         <h2>申请登记</h2>
         <form data-email-form data-recipient="dengsiping97@gmail.com" data-subject="[电力数据研究工作台] 完整数据申请">
           <div class="eng-fields">
-            <div class="eng-field"><label for="request-name">姓名</label><input id="request-name" data-label="姓名" autocomplete="name" required></div>
-            <div class="eng-field"><label for="request-org">机构</label><input id="request-org" data-label="机构" autocomplete="organization"></div>
-            <div class="eng-field"><label for="request-email">邮箱</label><input id="request-email" data-label="邮箱" type="email" autocomplete="email" required></div>
-            <div class="eng-field"><label for="request-contact">其他联系渠道</label><input id="request-contact" data-label="其他联系渠道" placeholder="选填"></div>
+            <div class="eng-field"><label for="request-name">姓名 <span class="eng-required" aria-hidden="true">*</span></label><input id="request-name" name="name" data-label="姓名" autocomplete="name" required></div>
+            <div class="eng-field"><label for="request-org">机构 <span class="eng-required" aria-hidden="true">*</span></label><input id="request-org" name="organization" data-label="机构" autocomplete="organization" required></div>
+            <div class="eng-field"><label for="request-phone">手机号 <span class="eng-required" aria-hidden="true">*</span></label><input id="request-phone" name="phone" data-label="手机号" type="tel" inputmode="tel" autocomplete="tel" required></div>
+            <div class="eng-field"><label for="request-email">邮箱 <span class="eng-required" aria-hidden="true">*</span></label><input id="request-email" name="email" data-label="邮箱" type="email" autocomplete="email" required></div>
             <div class="eng-field full"><label for="request-scope">所需数据范围与使用场景</label><textarea id="request-scope" data-label="所需数据范围与使用场景" required placeholder="例如：广东现货电价日度数据、2024 年以来历史、用于跟踪市场价格变化"></textarea></div>
           </div>
           <label class="eng-consent"><input type="checkbox" required>我同意仅为本次数据申请与必要的研究交流使用上述联系信息。</label>

@@ -65,6 +65,7 @@ h1 { margin: 0; font-size: clamp(27px, 2.3vw, 38px); letter-spacing: -.035em; li
 .eng-field { display: grid; gap: 7px; }
 .eng-field.full { grid-column: 1 / -1; }
 .eng-field label, .eng-consent { color: var(--ink-700); font-size: 13px; font-weight: 650; }
+.eng-required { color: #b3534b; }
 .eng-field input, .eng-field select, .eng-field textarea {
   width: 100%;
   min-height: 42px;
