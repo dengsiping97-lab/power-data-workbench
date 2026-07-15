@@ -3,6 +3,7 @@
   const n = (v, digits=1) => v === null || v === undefined ? '-' : Number(v).toFixed(digits);
   const signed = (v, unit='') => v === null || v === undefined ? '-' : `${v > 0 ? '+' : ''}${n(v)}${unit}`;
   const tempTone = (v) => v > 1 ? 'up' : v < -1 ? 'down' : 'muted';
+  document.getElementById('weather-hero-date').textContent = d.weekEnd || '-';
   document.getElementById('week-end').textContent = `截至 ${d.weekEnd}`;
   document.getElementById('coverage').textContent = `${d.rows.length} 省`;
   document.getElementById('source').textContent = 'ERA5 再分析';

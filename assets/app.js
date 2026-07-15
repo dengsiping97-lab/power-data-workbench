@@ -14,6 +14,11 @@
     return `${sign}${number.toFixed(1)}%`;
   };
 
+  const changePct = (current, previous) => {
+    if (!Number.isFinite(current) || !Number.isFinite(previous) || previous === 0) return null;
+    return Number(((current / previous - 1) * 100).toFixed(1));
+  };
+
   const isoWeekEndDate = (year, week) => {
     const jan4 = new Date(Date.UTC(Number(year), 0, 4));
     const jan4Day = jan4.getUTCDay() || 7;
@@ -194,6 +199,7 @@
     setText("freshness-snapshot", data.updatedAt);
     setText("freshness-hydro-week", data.updatedAt || formatWeekFreshness(freshness.hydroWeekly, latestWeek));
     setText("freshness-hydro-hour", String(freshness.hydroHourly || latestHour.time || "").slice(0, 10));
+    setText("freshness-weather", window.WEATHER_DATA?.weekEnd ? `截至 ${window.WEATHER_DATA.weekEnd}` : "-");
     setText("freshness-spot", `截至 ${freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-")}`);
     setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
 
@@ -736,11 +742,16 @@
   };
 
   const renderPricePage = () => {
-    const latestSpot = data.spotWeeklyLatest?.[0];
+    const latestSpot = data.spotWeeklyLatest?.reduce((latest, row) => !latest || weekEndDate(row) > weekEndDate(latest) ? row : latest, null);
     const avgRealtime = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
     setText("price-page-date", latestSpot ? weekEndDate(latestSpot) : "-");
     setText("price-page-avg", `${fmt(avgRealtime, 0)} 元/MWh`);
-    setText("price-page-note", `${data.spotWeeklyLatest.length} 个省份周度样本，现货均价/同环比`);
+    setText("price-page-note", `${data.spotWeeklyLatest.length} 个省份各取最新可用周度实时均价`);
+    if (data.dayAheadDailyLatest?.length) {
+      const avgDayAhead = data.dayAheadDailyLatest.reduce((sum, row) => sum + Number(row.dayAheadAvg), 0) / data.dayAheadDailyLatest.length;
+      setText("dayahead-page-avg", `${fmt(avgDayAhead, 0)} 元/MWh`);
+      setText("dayahead-page-note", `${data.dayAheadDailyLatest[0].date}，${data.dayAheadDailyLatest.length} 个省份`);
+    }
     if (data.proxyPurchaseLatest?.length) {
       const avgProxy = data.proxyPurchaseLatest.reduce((sum, row) => sum + row.proxyPrice, 0) / data.proxyPurchaseLatest.length;
       const latestProxyMonth = data.proxyPurchaseLatest.reduce((latest, row) => row.month > latest ? row.month : latest, data.proxyPurchaseLatest[0].month);
@@ -770,6 +781,7 @@
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
           <td>${pct(row.spotWow)}</td>
+          <td>${row.source || "-"}</td>
         </tr>
       `).join("");
       if (spotLatestToggle) spotLatestToggle.textContent = spotLatestExpanded ? "收起" : `展开全部 ${data.spotWeeklyLatest.length}`;
@@ -781,6 +793,30 @@
       });
     }
     renderSpotLatest();
+
+    let dayAheadExpanded = false;
+    const dayAheadBody = document.getElementById("dayahead-latest-body");
+    const dayAheadToggle = document.getElementById("dayahead-latest-toggle");
+    const renderDayAheadLatest = () => {
+      if (!dayAheadBody || !data.dayAheadDailyLatest) return;
+      const rows = dayAheadExpanded ? data.dayAheadDailyLatest : data.dayAheadDailyLatest.slice(0, 5);
+      dayAheadBody.innerHTML = rows.map((row) => `
+        <tr>
+          <td>${row.province}</td>
+          <td>${row.date}</td>
+          <td>${fmt(row.dayAheadAvg, 1)}</td>
+          <td>${row.source || "电碳全国日前"}</td>
+        </tr>
+      `).join("");
+      if (dayAheadToggle) dayAheadToggle.textContent = dayAheadExpanded ? "收起" : `展开全部 ${data.dayAheadDailyLatest.length}`;
+    };
+    if (dayAheadToggle) {
+      dayAheadToggle.addEventListener("click", () => {
+        dayAheadExpanded = !dayAheadExpanded;
+        renderDayAheadLatest();
+      });
+    }
+    renderDayAheadLatest();
 
     const provinceSelect = document.getElementById("spot-history-province");
     const historyNote = document.getElementById("spot-history-note");
@@ -837,6 +873,59 @@
       });
     };
 
+    const dayAheadChartSelect = document.getElementById("dayahead-chart-province");
+    const dayAheadProvinces = [...new Set((data.dayAheadDailyHistory || []).map((row) => row.province))]
+      .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+    const dayAheadBenchmark = {
+      安徽: 384.4, 福建: 393.2, 甘肃: 307.8, 广东: 453.0, 广西: 420.7, 贵州: 351.5,
+      海南: 429.8, 冀南: 364.4, 河南: 377.9, 黑龙江: 374.0, 湖北: 416.1, 湖南: 450.0,
+      吉林: 373.1, 江苏: 391.0, 江西: 414.3, 辽宁: 374.9, 蒙东: 303.5, 蒙西: 282.9,
+      宁夏: 259.5, 青海: 324.7, 山东: 394.9, 山西: 332.0, 陕西: 354.5, 上海: 415.5,
+      四川: 401.2, 新疆: 250.0, 云南: 335.8, 浙江: 415.3, 重庆: 396.4
+    };
+
+    const renderDayAheadHistoryChart = (province) => {
+      const rows = (data.dayAheadDailyHistory || [])
+        .filter((row) => row.province === province)
+        .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+      const rolling7d = rows.map((row, index) => {
+        const windowRows = rows.slice(Math.max(0, index - 6), index + 1);
+        return Number((windowRows.reduce((sum, item) => sum + Number(item.dayAheadAvg), 0) / windowRows.length).toFixed(1));
+      });
+      const benchmark = dayAheadBenchmark[province] ?? null;
+      renderChart("dayahead-history-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          formatter: (params) => {
+            const items = Array.isArray(params) ? params : [params];
+            const lines = [items[0]?.axisValueLabel || items[0]?.name || ""];
+            items.forEach((item) => lines.push(`${item.marker}${item.seriesName}：${fmt(item.value, 1)} 元/MWh`));
+            return lines.join("<br>");
+          }
+        },
+        legend: { top: 12, right: 22, textStyle: { color: "#74808a", fontSize: 11 } },
+        grid: { left: 64, right: 32, top: 58, bottom: 72 },
+        xAxis: { type: "category", boundaryGap: false, data: rows.map((row) => row.date), ...axisStyle },
+        yAxis: { type: "value", name: "元/MWh", nameTextStyle: { color: "#74808a" }, scale: true, ...axisStyle },
+        dataZoom: [
+          { type: "inside", start: 0, end: 100 },
+          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.14)" }
+        ],
+        series: [
+          { name: "日前日均价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.dayAheadAvg), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
+          { name: "7日均线", type: "line", smooth: true, showSymbol: false, data: rolling7d, lineStyle: { width: 1.8, color: "#c5a66f" }, itemStyle: { color: "#c5a66f" } },
+          { name: "煤电基准", type: "line", smooth: false, showSymbol: false, data: rows.map(() => benchmark), lineStyle: { width: 1.4, type: "dashed", color: "#74808a" }, itemStyle: { color: "#74808a" } }
+        ]
+      });
+    };
+
+    if (dayAheadChartSelect && dayAheadProvinces.length) {
+      dayAheadChartSelect.innerHTML = dayAheadProvinces.map((province) => `<option value="${province}">${province}</option>`).join("");
+      dayAheadChartSelect.value = dayAheadProvinces.includes("广东") ? "广东" : dayAheadProvinces[0];
+      dayAheadChartSelect.addEventListener("change", () => renderDayAheadHistoryChart(dayAheadChartSelect.value));
+      renderDayAheadHistoryChart(dayAheadChartSelect.value);
+    }
+
     const renderSpotHistory = (province) => {
       if (!weeklyBody) return;
       const rows = data.spotWeeklyHistory.filter((row) => row.province === province);
@@ -855,6 +944,7 @@
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
           <td>${pct(row.spotWow)}</td>
+          <td>${row.source || "-"}</td>
         </tr>
       `).join("");
       if (spotHistoryToggle) spotHistoryToggle.textContent = spotHistoryExpanded ? "收起" : `展开全部 ${rows.length}`;
@@ -885,6 +975,67 @@
       }
       renderSpotHistory(provinceSelect.value);
       renderPriceHistoryChart(provinceSelect.value);
+    }
+
+    const dayAheadWeeklySelect = document.getElementById("dayahead-history-province");
+    const dayAheadWeeklyNote = document.getElementById("dayahead-history-note");
+    const dayAheadWeeklyBody = document.getElementById("dayahead-weekly-history-body");
+    const dayAheadWeeklyToggle = document.getElementById("dayahead-history-toggle");
+    let dayAheadWeeklyExpanded = false;
+    const dayAheadWeeklyProvinces = [...new Set((data.dayAheadWeeklyHistory || []).map((row) => row.province))]
+      .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+
+    const renderDayAheadWeeklyHistory = (province) => {
+      if (!dayAheadWeeklyBody) return;
+      const rows = (data.dayAheadWeeklyHistory || [])
+        .filter((row) => row.province === province)
+        .sort((a, b) => String(b.weekStart).localeCompare(String(a.weekStart)))
+        .map((row, index, provinceRows) => {
+          const dailyDates = (data.dayAheadDailyHistory || [])
+            .filter((daily) => daily.province === province && daily.date >= row.weekStart && daily.date <= row.weekEnd)
+            .map((daily) => daily.date)
+            .sort();
+          return {
+            ...row,
+            dataThrough: dailyDates.at(-1) || row.weekEnd,
+            dayAheadWow: changePct(Number(row.dayAheadAvg), Number(provinceRows[index + 1]?.dayAheadAvg))
+          };
+        });
+      const latest = rows[0];
+      const prefix = dayAheadWeeklyExpanded ? "全部" : "最近 5 周";
+      if (dayAheadWeeklyNote) {
+        const completeness = latest && Number(latest.nDays) < 7 ? `，最新周仅 ${latest.nDays} 天` : "";
+        dayAheadWeeklyNote.textContent = latest
+          ? `${province} ${prefix} / 共 ${rows.length} 周，最新数据截至 ${latest.dataThrough}，统计周 ${latest.weekStart} 至 ${latest.weekEnd}${completeness}`
+          : "暂无日前周度数据";
+      }
+      const visibleRows = dayAheadWeeklyExpanded ? rows : rows.slice(0, 5);
+      dayAheadWeeklyBody.innerHTML = visibleRows.map((row) => `
+        <tr>
+          <td>${row.province}</td>
+          <td>${fmt(dayAheadBenchmark[row.province], 1)}</td>
+          <td>${row.dataThrough}</td>
+          <td>${row.weekStart} 至 ${row.weekEnd}</td>
+          <td>${fmt(row.dayAheadAvg, 1)}</td>
+          <td>${row.nDays}${Number(row.nDays) < 7 ? "（未满周）" : ""}</td>
+          <td>${pct(row.dayAheadWow)}</td>
+          <td>${row.source || "电碳全国日前"}</td>
+        </tr>
+      `).join("");
+      if (dayAheadWeeklyToggle) dayAheadWeeklyToggle.textContent = dayAheadWeeklyExpanded ? "收起" : `展开全部 ${rows.length}`;
+    };
+
+    if (dayAheadWeeklySelect && dayAheadWeeklyProvinces.length) {
+      dayAheadWeeklySelect.innerHTML = dayAheadWeeklyProvinces.map((province) => `<option value="${province}">${province}</option>`).join("");
+      dayAheadWeeklySelect.value = dayAheadWeeklyProvinces.includes("广东") ? "广东" : dayAheadWeeklyProvinces[0];
+      dayAheadWeeklySelect.addEventListener("change", () => renderDayAheadWeeklyHistory(dayAheadWeeklySelect.value));
+      if (dayAheadWeeklyToggle) {
+        dayAheadWeeklyToggle.addEventListener("click", () => {
+          dayAheadWeeklyExpanded = !dayAheadWeeklyExpanded;
+          renderDayAheadWeeklyHistory(dayAheadWeeklySelect.value);
+        });
+      }
+      renderDayAheadWeeklyHistory(dayAheadWeeklySelect.value);
     }
 
     const buildMonthlyYoy = (rows, valueField) => {

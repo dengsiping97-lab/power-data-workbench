@@ -833,7 +833,7 @@ tbody tr:hover { background: #eef3f6; }
 }
 
 .summary-grid { gap: 12px; }
-.price-summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.price-summary-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .summary {
   border-color: var(--line-soft);
   border-radius: 14px;

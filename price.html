@@ -52,6 +52,7 @@
       <div class="summary-grid price-summary-grid">
         <div class="summary"><div class="label">最新现货周度</div><div class="value" id="price-page-date">加载中</div><div class="note">来自现货周度数据</div></div>
         <div class="summary"><div class="label">实时均价</div><div class="value" id="price-page-avg">加载中</div><div class="note" id="price-page-note">读取快照中</div></div>
+        <div class="summary"><div class="label">全国日前</div><div class="value" id="dayahead-page-avg">加载中</div><div class="note" id="dayahead-page-note">读取电碳日度数据</div></div>
         <div class="summary"><div class="label">代理购电价</div><div class="value" id="proxy-page-avg">加载中</div><div class="note" id="proxy-page-note">读取省份月度均价</div></div>
         <div class="summary"><div class="label">系统运行费折价</div><div class="value" id="system-fee-page-avg">加载中</div><div class="note" id="system-fee-page-note">折价口径，可正可负</div></div>
       </div>
@@ -69,12 +70,35 @@
         </div>
         <div id="price-history-chart" class="echart" role="img" aria-label="分省现货电价走势与同比图"></div>
       </section>
+      <section class="chart-card">
+        <div class="chart-head">
+          <div>
+            <h2>分省日前电价走势</h2>
+            <p>日前日均价、7 日均线与煤电基准均使用左轴；日前与实时口径分开展示</p>
+          </div>
+          <div class="toolbar">
+            <label for="dayahead-chart-province">省份</label>
+            <select id="dayahead-chart-province"></select>
+          </div>
+        </div>
+        <div id="dayahead-history-chart" class="echart" role="img" aria-label="分省日前电价走势、七日均线与煤电基准图"></div>
+      </section>
       <section>
         <div class="section-head"><h2>分省现货周度价格</h2><button class="compact" id="spot-latest-toggle" type="button">展开全部</button></div>
         <div class="section-body">
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
-            <tbody id="price-province-body"><tr><td colspan="7">加载电价与市场...</td></tr></tbody>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th><th>来源</th></tr></thead>
+            <tbody id="price-province-body"><tr><td colspan="8">加载电价与市场...</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><h2>全国日前日度最新</h2><button class="compact" id="dayahead-latest-toggle" type="button">展开全部</button></div>
+        <div class="section-body">
+          <p class="chart-context-note">日前与实时为不同市场口径，单独展示，不并入实时周度均价。</p>
+          <table>
+            <thead><tr><th>省份</th><th>数据日期</th><th>日前均价</th><th>来源</th></tr></thead>
+            <tbody id="dayahead-latest-body"><tr><td colspan="4">加载全国日前数据...</td></tr></tbody>
           </table>
         </div>
       </section>
@@ -88,8 +112,23 @@
             <button class="compact" id="spot-history-toggle" type="button">展开全部</button>
           </div>
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
-            <tbody id="price-weekly-history-body"><tr><td colspan="7">加载周度历史...</td></tr></tbody>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th><th>来源</th></tr></thead>
+            <tbody id="price-weekly-history-body"><tr><td colspan="8">加载周度历史...</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><h2>周度日前现货电价历史</h2><span class="pill">按省份查看</span></div>
+        <div class="section-body">
+          <div class="toolbar">
+            <label for="dayahead-history-province">省份</label>
+            <select id="dayahead-history-province"></select>
+            <span class="history-note" id="dayahead-history-note">选择省份后查看日前周度数据</span>
+            <button class="compact" id="dayahead-history-toggle" type="button">展开全部</button>
+          </div>
+          <table>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>日前均价</th><th>有效天数</th><th>环比</th><th>来源</th></tr></thead>
+            <tbody id="dayahead-weekly-history-body"><tr><td colspan="8">加载日前周度历史...</td></tr></tbody>
           </table>
         </div>
       </section>
