@@ -84,6 +84,7 @@ h1 { margin: 0; font-size: clamp(27px, 2.3vw, 38px); letter-spacing: -.035em; li
 .eng-consent input { width: 15px; height: 15px; margin-top: 3px; accent-color: #526f89; }
 .eng-submit { min-height: 40px; margin-top: 18px; padding: 10px 14px; border: 1px solid #526f89; border-radius: 9px; color: #fff; background: #526f89; font: inherit; font-size: 14px; cursor: pointer; }
 .eng-submit:hover { border-color: #3f5d73; background: #3f5d73; }
+.eng-submit:disabled, .eng-submit:disabled:hover { border-color: #aeb8bf; color: #f5f7f8; background: #aeb8bf; cursor: not-allowed; }
 .eng-status { min-height: 20px; margin: 12px 0 0; color: var(--ink-500); font-size: 13px; line-height: 1.55; }
 .eng-link { color: var(--accent); text-decoration: none; font-weight: 700; }
 
