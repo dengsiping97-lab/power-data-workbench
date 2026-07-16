@@ -3,7 +3,10 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "screenshot:mobile": "node scripts/mobile-screenshot.js"
+    "prepare:public": "node scripts/prepare-public-snapshot.js",
+    "release:public": "npm run prepare:public && npm run verify:public",
+    "screenshot:mobile": "node scripts/mobile-screenshot.js",
+    "verify:public": "node scripts/verify-public-site.js"
   },
   "devDependencies": {
     "playwright": "1.61.1"

@@ -183,3316 +183,6 @@ window.WORKBENCH_DATA = {
     ],
     "hydroWeeklyHistory": [
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 21,
-            "weekStart": "2021-05-24",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 53.48
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 23,
-            "weekStart": "2021-06-07",
-            "inflow": 950.6811,
-            "outflow": null,
-            "waterLevel": null
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 27,
-            "weekStart": "2021-07-05",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 950.31
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 28,
-            "weekStart": "2021-07-12",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 775.73
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 28,
-            "weekStart": "2021-07-12",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 950
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": 776,
-            "outflow": null,
-            "waterLevel": 616.75
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": -753,
-            "outflow": null,
-            "waterLevel": 393.49
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": 1790,
-            "outflow": null,
-            "waterLevel": 837.24
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": 1470,
-            "outflow": null,
-            "waterLevel": 192.62
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": 1170,
-            "outflow": null,
-            "waterLevel": 286.86
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 29,
-            "weekStart": "2021-07-19",
-            "inflow": -5300,
-            "outflow": null,
-            "waterLevel": 560.85
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": 4600,
-            "outflow": null,
-            "waterLevel": 560.35
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": -1370,
-            "outflow": null,
-            "waterLevel": 614.09
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 773.01
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": -320,
-            "outflow": null,
-            "waterLevel": 391.61
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 951.19
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": -1700,
-            "outflow": null,
-            "waterLevel": 835.29
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": 1540,
-            "outflow": null,
-            "waterLevel": 286.49
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 30,
-            "weekStart": "2021-07-26",
-            "inflow": -90.4,
-            "outflow": null,
-            "waterLevel": 194.05
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 952.3
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": 1390,
-            "outflow": null,
-            "waterLevel": 612.62
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": -1460,
-            "outflow": null,
-            "waterLevel": 286.76
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": 4900,
-            "outflow": null,
-            "waterLevel": 563.91
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": -1730,
-            "outflow": null,
-            "waterLevel": 833.34
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": 29.4,
-            "outflow": null,
-            "waterLevel": 193.39
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": 176,
-            "outflow": null,
-            "waterLevel": 390.05
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 31,
-            "weekStart": "2021-08-02",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 771.71
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": 3130,
-            "outflow": null,
-            "waterLevel": 286.29
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": -4900,
-            "outflow": null,
-            "waterLevel": 562.23
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 771.89
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": -401,
-            "outflow": null,
-            "waterLevel": 387.6
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": -165,
-            "outflow": null,
-            "waterLevel": 192.6
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 610.35
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": 1740,
-            "outflow": null,
-            "waterLevel": 832.72
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 32,
-            "weekStart": "2021-08-09",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 956.07
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": -1210,
-            "outflow": null,
-            "waterLevel": 287.81
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": 162,
-            "outflow": null,
-            "waterLevel": 193.42
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 771.64
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": 4800,
-            "outflow": null,
-            "waterLevel": 565.96
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": -323,
-            "outflow": null,
-            "waterLevel": 608.09
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 957.87
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": 428,
-            "outflow": null,
-            "waterLevel": 391.33
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 33,
-            "weekStart": "2021-08-16",
-            "inflow": -1600,
-            "outflow": null,
-            "waterLevel": 830.68
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 366.1333333333334,
-            "outflow": null,
-            "waterLevel": 195.44
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 666,
-            "outflow": null,
-            "waterLevel": 394.40333333333336
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 5400,
-            "outflow": null,
-            "waterLevel": 578.44
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 957.63
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 1020,
-            "outflow": null,
-            "waterLevel": 610.1966666666667
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 3393.333333333333,
-            "outflow": null,
-            "waterLevel": 835.1366666666667
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 784.13
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 34,
-            "weekStart": "2021-08-23",
-            "inflow": 990,
-            "outflow": null,
-            "waterLevel": 286.2633333333333
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": 3700,
-            "outflow": null,
-            "waterLevel": 843.1600000000001
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 791.34
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": -371.5,
-            "outflow": null,
-            "waterLevel": 395.545
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": 343.5,
-            "outflow": null,
-            "waterLevel": 613.27
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 971.08
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": 368,
-            "outflow": null,
-            "waterLevel": 196.085
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": -700,
-            "outflow": null,
-            "waterLevel": 586.31
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 35,
-            "weekStart": "2021-08-30",
-            "inflow": -625,
-            "outflow": null,
-            "waterLevel": 289.255
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": 75.8,
-            "outflow": null,
-            "waterLevel": 615.41
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": 8150,
-            "outflow": null,
-            "waterLevel": 587.795
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": 835,
-            "outflow": null,
-            "waterLevel": 843.16
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": 114.75,
-            "outflow": null,
-            "waterLevel": 196.335
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": -385.5,
-            "outflow": null,
-            "waterLevel": 394.125
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 36,
-            "weekStart": "2021-09-06",
-            "inflow": 410.9,
-            "outflow": null,
-            "waterLevel": 286.755
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": -125.05,
-            "outflow": null,
-            "waterLevel": 391.7915
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": 1985,
-            "outflow": null,
-            "waterLevel": 844.935
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": 520.5,
-            "outflow": null,
-            "waterLevel": 286.61
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": -9050,
-            "outflow": null,
-            "waterLevel": 594.865
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": -109.505,
-            "outflow": null,
-            "waterLevel": 194.22
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 37,
-            "weekStart": "2021-09-13",
-            "inflow": 204.4,
-            "outflow": null,
-            "waterLevel": 618.625
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": -33.619,
-            "outflow": null,
-            "waterLevel": 194.17
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": -7000,
-            "outflow": null,
-            "waterLevel": 594.85
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": 681,
-            "outflow": null,
-            "waterLevel": 288.39
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": 2540,
-            "outflow": null,
-            "waterLevel": 845.41
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 620.3
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2021,
-            "isoWeek": 38,
-            "weekStart": "2021-09-20",
-            "inflow": 273.741,
-            "outflow": null,
-            "waterLevel": 393.15
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": -647,
-            "outflow": null,
-            "waterLevel": 287.29
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": 5200,
-            "outflow": null,
-            "waterLevel": 949.09
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": 1.41,
-            "outflow": null,
-            "waterLevel": 183.57
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": 5100,
-            "outflow": null,
-            "waterLevel": 556.63
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": 865,
-            "outflow": null,
-            "waterLevel": 810.18
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": -2500,
-            "outflow": null,
-            "waterLevel": 777.26
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": -24.8,
-            "outflow": null,
-            "waterLevel": 369.95
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 35,
-            "weekStart": "2022-08-29",
-            "inflow": -162,
-            "outflow": null,
-            "waterLevel": 600.69
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": 1160,
-            "outflow": null,
-            "waterLevel": 812.605
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": -165,
-            "outflow": null,
-            "waterLevel": 602.04
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": 4950,
-            "outflow": null,
-            "waterLevel": 564.1500000000001
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": -23.8,
-            "outflow": null,
-            "waterLevel": 369.5935
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": -1950,
-            "outflow": null,
-            "waterLevel": 776.8
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": 11.775,
-            "outflow": null,
-            "waterLevel": 183.68
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": 300,
-            "outflow": null,
-            "waterLevel": 952.315
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 36,
-            "weekStart": "2022-09-05",
-            "inflow": -106.5,
-            "outflow": null,
-            "waterLevel": 288.41
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": -359,
-            "outflow": null,
-            "waterLevel": 601.87
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": 1065,
-            "outflow": null,
-            "waterLevel": 820.6700000000001
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": 4200,
-            "outflow": null,
-            "waterLevel": 571.015
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": -49.545,
-            "outflow": null,
-            "waterLevel": 369.16
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": 2.655,
-            "outflow": null,
-            "waterLevel": 183.695
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 37,
-            "weekStart": "2022-09-12",
-            "inflow": 108.5,
-            "outflow": null,
-            "waterLevel": 288.06500000000005
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": -2140,
-            "outflow": null,
-            "waterLevel": 783.115
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 116.5,
-            "outflow": null,
-            "waterLevel": 286.99
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 7.425499999999999,
-            "outflow": null,
-            "waterLevel": 183.83
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 500,
-            "outflow": null,
-            "waterLevel": 956.755
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 4150,
-            "outflow": null,
-            "waterLevel": 574.87
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 738.5,
-            "outflow": null,
-            "waterLevel": 827.4549999999999
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": 72.5,
-            "outflow": null,
-            "waterLevel": 368.9525
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 38,
-            "weekStart": "2022-09-19",
-            "inflow": -226.8,
-            "outflow": null,
-            "waterLevel": 601.315
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 350,
-            "outflow": null,
-            "waterLevel": 956.21
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 60.3,
-            "outflow": null,
-            "waterLevel": 369.283
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 1.75,
-            "outflow": null,
-            "waterLevel": 183.92
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 2355,
-            "outflow": null,
-            "waterLevel": 839.9749999999999
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 1400,
-            "outflow": null,
-            "waterLevel": 794.095
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 2900,
-            "outflow": null,
-            "waterLevel": 577.0899999999999
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": -173.5,
-            "outflow": null,
-            "waterLevel": 600.765
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 39,
-            "weekStart": "2022-09-26",
-            "inflow": 682.5,
-            "outflow": null,
-            "waterLevel": 286.855
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": 3.34,
-            "outflow": null,
-            "waterLevel": 183.38
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": -250,
-            "outflow": null,
-            "waterLevel": 599.92
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": 1790,
-            "outflow": null,
-            "waterLevel": 849.75
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": -143,
-            "outflow": null,
-            "waterLevel": 285.75
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": -1500,
-            "outflow": null,
-            "waterLevel": 805.87
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": 122,
-            "outflow": null,
-            "waterLevel": 369.21
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": 2500,
-            "outflow": null,
-            "waterLevel": 581.76
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 40,
-            "weekStart": "2022-10-03",
-            "inflow": 5100,
-            "outflow": null,
-            "waterLevel": 962.28
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": 28,
-            "outflow": null,
-            "waterLevel": 369.38
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": -85.5,
-            "outflow": null,
-            "waterLevel": 285.21000000000004
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": 635,
-            "outflow": null,
-            "waterLevel": 810.2149999999999
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": -2250,
-            "outflow": null,
-            "waterLevel": 581.63
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": 50,
-            "outflow": null,
-            "waterLevel": 849.7
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": -155.5,
-            "outflow": null,
-            "waterLevel": 599.625
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": 0,
-            "outflow": null,
-            "waterLevel": 962.955
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 41,
-            "weekStart": "2022-10-10",
-            "inflow": 2.045,
-            "outflow": null,
-            "waterLevel": 183.45
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": -202,
-            "outflow": null,
-            "waterLevel": 284.79
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": -2350,
-            "outflow": null,
-            "waterLevel": 849.13
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": 1900,
-            "outflow": null,
-            "waterLevel": 818.9
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": -145,
-            "outflow": null,
-            "waterLevel": 599.1
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": 1.49,
-            "outflow": null,
-            "waterLevel": 183.49
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": 4030,
-            "outflow": null,
-            "waterLevel": 821.15
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": -2200,
-            "outflow": null,
-            "waterLevel": 581.12
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2022,
-            "isoWeek": 42,
-            "weekStart": "2022-10-17",
-            "inflow": -10.5,
-            "outflow": null,
-            "waterLevel": 369.27
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": -531.5,
-            "outflow": null,
-            "waterLevel": 188.185
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": -238.5,
-            "outflow": null,
-            "waterLevel": 382.43
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": 1800,
-            "outflow": null,
-            "waterLevel": 545.11
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": -200,
-            "outflow": null,
-            "waterLevel": 952.03
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": 237.5,
-            "outflow": null,
-            "waterLevel": 601.665
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": 72,
-            "outflow": null,
-            "waterLevel": 797.72
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": -1150,
-            "outflow": null,
-            "waterLevel": 772.24
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 24,
-            "weekStart": "2023-06-12",
-            "inflow": -449,
-            "outflow": null,
-            "waterLevel": 285.015
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 2050,
-            "outflow": null,
-            "waterLevel": 774.815
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 395.5,
-            "outflow": null,
-            "waterLevel": 191.865
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 2950,
-            "outflow": null,
-            "waterLevel": 953.89
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 564.5,
-            "outflow": null,
-            "waterLevel": 603.745
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 684.5,
-            "outflow": null,
-            "waterLevel": 286.05
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 606,
-            "outflow": null,
-            "waterLevel": 797.905
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 638.5,
-            "outflow": null,
-            "waterLevel": 385.585
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 25,
-            "weekStart": "2023-06-19",
-            "inflow": 1800,
-            "outflow": null,
-            "waterLevel": 549.1800000000001
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": -3000,
-            "outflow": null,
-            "waterLevel": 783.84
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": -542,
-            "outflow": null,
-            "waterLevel": 385.12
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": 349,
-            "outflow": null,
-            "waterLevel": 605.67
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": -3200,
-            "outflow": null,
-            "waterLevel": 951.88
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": -968,
-            "outflow": null,
-            "waterLevel": 191.85
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": 932,
-            "outflow": null,
-            "waterLevel": 286.11
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": 1350,
-            "outflow": null,
-            "waterLevel": 803.91
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 26,
-            "weekStart": "2023-06-26",
-            "inflow": 1800,
-            "outflow": null,
-            "waterLevel": 549.83
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": 2500,
-            "outflow": null,
-            "waterLevel": 553.38
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": -684,
-            "outflow": null,
-            "waterLevel": 285.26
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": 351,
-            "outflow": null,
-            "waterLevel": 606.04
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": -2400,
-            "outflow": null,
-            "waterLevel": 948.42
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": 1650,
-            "outflow": null,
-            "waterLevel": 808.39
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": -803,
-            "outflow": null,
-            "waterLevel": 191.62
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": -1400,
-            "outflow": null,
-            "waterLevel": 785.01
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 27,
-            "weekStart": "2023-07-03",
-            "inflow": -400,
-            "outflow": null,
-            "waterLevel": 385.46
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": 2100,
-            "outflow": null,
-            "waterLevel": 288.5
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": 1650,
-            "outflow": null,
-            "waterLevel": 558.02
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": 1820,
-            "outflow": null,
-            "waterLevel": 609.75
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": -1400,
-            "outflow": null,
-            "waterLevel": 782.57
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": 2810,
-            "outflow": null,
-            "waterLevel": 819.33
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": -28.1,
-            "outflow": null,
-            "waterLevel": 191.15
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": 519,
-            "outflow": null,
-            "waterLevel": 387.1
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 28,
-            "weekStart": "2023-07-10",
-            "inflow": -3600,
-            "outflow": null,
-            "waterLevel": 952.71
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 2750,
-            "outflow": null,
-            "waterLevel": 830.56
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 1630,
-            "outflow": null,
-            "waterLevel": 286.48
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": -1500,
-            "outflow": null,
-            "waterLevel": 780.28
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": -2100,
-            "outflow": null,
-            "waterLevel": 562.49
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 64.2,
-            "outflow": null,
-            "waterLevel": 388.94
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 3900,
-            "outflow": null,
-            "waterLevel": 952.99
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 185,
-            "outflow": null,
-            "waterLevel": 613.88
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 29,
-            "weekStart": "2023-07-17",
-            "inflow": 103,
-            "outflow": null,
-            "waterLevel": 193.12
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": 322,
-            "outflow": null,
-            "waterLevel": 286.2
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": 4.96,
-            "outflow": null,
-            "waterLevel": 193.98
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": 37.5,
-            "outflow": null,
-            "waterLevel": 390.09
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": 1690,
-            "outflow": null,
-            "waterLevel": 832.79
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": 193,
-            "outflow": null,
-            "waterLevel": 615.57
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": -2200,
-            "outflow": null,
-            "waterLevel": 782.19
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": -4300,
-            "outflow": null,
-            "waterLevel": 954.2
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 30,
-            "weekStart": "2023-07-24",
-            "inflow": -1600,
-            "outflow": null,
-            "waterLevel": 561.13
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": -1310,
-            "outflow": null,
-            "waterLevel": 285.75
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": 3700,
-            "outflow": null,
-            "waterLevel": 951.48
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": 387,
-            "outflow": null,
-            "waterLevel": 392.82
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": 1800,
-            "outflow": null,
-            "waterLevel": 563.19
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": -1600,
-            "outflow": null,
-            "waterLevel": 788.2
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": 67.7,
-            "outflow": null,
-            "waterLevel": 194.39
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": 69,
-            "outflow": null,
-            "waterLevel": 617.64
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 31,
-            "weekStart": "2023-07-31",
-            "inflow": -1860,
-            "outflow": null,
-            "waterLevel": 839.34
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": -2000,
-            "outflow": null,
-            "waterLevel": 790.4
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": -228,
-            "outflow": null,
-            "waterLevel": 194.93
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": 1600,
-            "outflow": null,
-            "waterLevel": 285.91
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": 1160,
-            "outflow": null,
-            "waterLevel": 620.94
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": -1700,
-            "outflow": null,
-            "waterLevel": 565.26
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": 5800,
-            "outflow": null,
-            "waterLevel": 958.31
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": -357,
-            "outflow": null,
-            "waterLevel": 393.34
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 32,
-            "weekStart": "2023-08-07",
-            "inflow": 2640,
-            "outflow": null,
-            "waterLevel": 840.64
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": 42,
-            "outflow": null,
-            "waterLevel": 393.305
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": 1050,
-            "outflow": null,
-            "waterLevel": 800.21
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": -250,
-            "outflow": null,
-            "waterLevel": 958.45
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": -1745,
-            "outflow": null,
-            "waterLevel": 839.63
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": 425.5,
-            "outflow": null,
-            "waterLevel": 287.96500000000003
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": -342.5,
-            "outflow": null,
-            "waterLevel": 620.9549999999999
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": 3700,
-            "outflow": null,
-            "waterLevel": 574.3
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 33,
-            "weekStart": "2023-08-14",
-            "inflow": -45,
-            "outflow": null,
-            "waterLevel": 194.92
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 727,
-            "outflow": null,
-            "waterLevel": 391.42
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 2635,
-            "outflow": null,
-            "waterLevel": 840.0999999999999
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 4900,
-            "outflow": null,
-            "waterLevel": 580.595
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 116,
-            "outflow": null,
-            "waterLevel": 284.395
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": -500,
-            "outflow": null,
-            "waterLevel": 958.87
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": -69.5,
-            "outflow": null,
-            "waterLevel": 621.2
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 7550,
-            "outflow": null,
-            "waterLevel": 807.51
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 34,
-            "weekStart": "2023-08-21",
-            "inflow": 395,
-            "outflow": null,
-            "waterLevel": 194.32
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": 9400,
-            "outflow": null,
-            "waterLevel": 968.74
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": -321,
-            "outflow": null,
-            "waterLevel": 391.18
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": 7600,
-            "outflow": null,
-            "waterLevel": 815.75
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": -185,
-            "outflow": null,
-            "waterLevel": 193.94
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": null,
-            "outflow": null,
-            "waterLevel": 620.7
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": -2170,
-            "outflow": null,
-            "waterLevel": 842.86
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": -4700,
-            "outflow": null,
-            "waterLevel": 589.28
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 36,
-            "weekStart": "2023-09-04",
-            "inflow": 378,
-            "outflow": null,
-            "waterLevel": 285
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 418,
-            "outflow": null,
-            "waterLevel": 287.11
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": -5300,
-            "outflow": null,
-            "waterLevel": 963.05
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 8400,
-            "outflow": null,
-            "waterLevel": 820.58
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 463,
-            "outflow": null,
-            "waterLevel": 621.3
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 2570,
-            "outflow": null,
-            "waterLevel": 842.09
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 6900,
-            "outflow": null,
-            "waterLevel": 589.56
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": -45,
-            "outflow": null,
-            "waterLevel": 390.59
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 37,
-            "weekStart": "2023-09-11",
-            "inflow": 19.7,
-            "outflow": null,
-            "waterLevel": 194.06
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": -432.95,
-            "outflow": null,
-            "waterLevel": 621.8399999999999
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": -67,
-            "outflow": null,
-            "waterLevel": 287.71
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": 750,
-            "outflow": null,
-            "waterLevel": 590.395
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": -5400,
-            "outflow": null,
-            "waterLevel": 957.705
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": 764.1,
-            "outflow": null,
-            "waterLevel": 391.395
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": -1870,
-            "outflow": null,
-            "waterLevel": 841.24
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": 500,
-            "outflow": null,
-            "waterLevel": 821.595
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 38,
-            "weekStart": "2023-09-18",
-            "inflow": 419.43,
-            "outflow": null,
-            "waterLevel": 194.445
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": 1466.6666666666667,
-            "outflow": null,
-            "waterLevel": 821.4499999999999
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": -1733.3333333333333,
-            "outflow": null,
-            "waterLevel": 954.73
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": -707.5,
-            "outflow": null,
-            "waterLevel": 621.93
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": 1183.3333333333333,
-            "outflow": null,
-            "waterLevel": 195.98666666666668
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": -157.66666666666666,
-            "outflow": null,
-            "waterLevel": 288.47
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": 4366.666666666667,
-            "outflow": null,
-            "waterLevel": 593.4666666666667
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": -33.666666666666664,
-            "outflow": null,
-            "waterLevel": 397.4766666666667
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 39,
-            "weekStart": "2023-09-25",
-            "inflow": 893.3333333333334,
-            "outflow": null,
-            "waterLevel": 842.9933333333333
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": -1000,
-            "outflow": null,
-            "waterLevel": 823.07
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": 4000,
-            "outflow": null,
-            "waterLevel": 955.77
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": 2100,
-            "outflow": null,
-            "waterLevel": 594.49
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": 844,
-            "outflow": null,
-            "waterLevel": 289.37
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": -695,
-            "outflow": null,
-            "waterLevel": 197.79
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": -535,
-            "outflow": null,
-            "waterLevel": 621.53
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": -2200,
-            "outflow": null,
-            "waterLevel": 842.77
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 40,
-            "weekStart": "2023-10-02",
-            "inflow": 623,
-            "outflow": null,
-            "waterLevel": 395.76
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": 1670,
-            "outflow": null,
-            "waterLevel": 844.26
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": 5300,
-            "outflow": null,
-            "waterLevel": 973.16
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": -541,
-            "outflow": null,
-            "waterLevel": 198.26
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": -341,
-            "outflow": null,
-            "waterLevel": 397.35
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": -1200,
-            "outflow": null,
-            "waterLevel": 818.96
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": 3200,
-            "outflow": null,
-            "waterLevel": 599.2
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": 34,
-            "outflow": null,
-            "waterLevel": 290.29
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2023,
-            "isoWeek": 42,
-            "weekStart": "2023-10-16",
-            "inflow": -471,
-            "outflow": null,
-            "waterLevel": 622.22
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": 250,
-            "outflow": null,
-            "waterLevel": 959.95
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": 3050,
-            "outflow": null,
-            "waterLevel": 824.3199999999999
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": -3750,
-            "outflow": null,
-            "waterLevel": 565.22
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": 114.5,
-            "outflow": null,
-            "waterLevel": 609.4200000000001
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": -100,
-            "outflow": null,
-            "waterLevel": 774.935
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": 100,
-            "outflow": null,
-            "waterLevel": 371.94
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": -29.75,
-            "outflow": null,
-            "waterLevel": 184.8
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 23,
-            "weekStart": "2024-06-03",
-            "inflow": 465,
-            "outflow": null,
-            "waterLevel": 282.46500000000003
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": -42.88,
-            "outflow": null,
-            "waterLevel": 371.235
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": 4300,
-            "outflow": null,
-            "waterLevel": 780.77
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": -33.75,
-            "outflow": null,
-            "waterLevel": 182.71
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": 983.5,
-            "outflow": null,
-            "waterLevel": 613.255
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": 2640,
-            "outflow": null,
-            "waterLevel": 831.53
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": -480,
-            "outflow": null,
-            "waterLevel": 284.95
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": -3650,
-            "outflow": null,
-            "waterLevel": 956.12
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 24,
-            "weekStart": "2024-06-10",
-            "inflow": -3200,
-            "outflow": null,
-            "waterLevel": 561.5699999999999
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 3046.6666666666665,
-            "outflow": null,
-            "waterLevel": 835.63
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 4700,
-            "outflow": null,
-            "waterLevel": 783.1166666666667
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 1333.3333333333333,
-            "outflow": null,
-            "waterLevel": 955.1866666666666
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": -86.36666666666667,
-            "outflow": null,
-            "waterLevel": 370.16333333333336
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 1072.6666666666667,
-            "outflow": null,
-            "waterLevel": 616.3433333333334
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": -53.66666666666666,
-            "outflow": null,
-            "waterLevel": 283.24
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 104.93333333333334,
-            "outflow": null,
-            "waterLevel": 182.21
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 25,
-            "weekStart": "2024-06-17",
-            "inflow": 4066.6666666666665,
-            "outflow": null,
-            "waterLevel": 561.18
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": -4500,
-            "outflow": null,
-            "waterLevel": 783.69
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 593.3333333333334,
-            "outflow": null,
-            "waterLevel": 183.82333333333327
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 1636.6666666666667,
-            "outflow": null,
-            "waterLevel": 621.6466666666666
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 1119.3333333333333,
-            "outflow": null,
-            "waterLevel": 375.53
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 966.6666666666666,
-            "outflow": null,
-            "waterLevel": 837.2066666666666
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": -1266.6666666666667,
-            "outflow": null,
-            "waterLevel": 948.4633333333333
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 5933.333333333333,
-            "outflow": null,
-            "waterLevel": 562.6366666666667
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 26,
-            "weekStart": "2024-06-24",
-            "inflow": 4253.333333333333,
-            "outflow": null,
-            "waterLevel": 285.15000000000003
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 1014.6666666666666,
-            "outflow": null,
-            "waterLevel": 384.79
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 2000,
-            "outflow": null,
-            "waterLevel": 563.3133333333334
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": -4200,
-            "outflow": null,
-            "waterLevel": 781.4366666666666
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 5166.666666666667,
-            "outflow": null,
-            "waterLevel": 953.4833333333332
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 544.6666666666666,
-            "outflow": null,
-            "waterLevel": 185.1
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 3243.333333333333,
-            "outflow": null,
-            "waterLevel": 288.68666666666667
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": 810,
-            "outflow": null,
-            "waterLevel": 837.5966666666667
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 27,
-            "weekStart": "2024-07-01",
-            "inflow": -363.3333333333333,
-            "outflow": null,
-            "waterLevel": 628.7733333333333
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": -55,
-            "outflow": null,
-            "waterLevel": 286.51
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": 1375,
-            "outflow": null,
-            "waterLevel": 837.0699999999999
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": 5850,
-            "outflow": null,
-            "waterLevel": 783.6949999999999
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": -4900,
-            "outflow": null,
-            "waterLevel": 953.4
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": -956,
-            "outflow": null,
-            "waterLevel": 627.81
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": -747,
-            "outflow": null,
-            "waterLevel": 386.48
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": 900,
-            "outflow": null,
-            "waterLevel": 562.51
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 28,
-            "weekStart": "2024-07-08",
-            "inflow": 141.5,
-            "outflow": null,
-            "waterLevel": 187.58
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 5133.333333333333,
-            "outflow": null,
-            "waterLevel": 568.61
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 8133.333333333333,
-            "outflow": null,
-            "waterLevel": 787.5833333333334
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": -1006.6666666666666,
-            "outflow": null,
-            "waterLevel": 624.11
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": -558.6666666666666,
-            "outflow": null,
-            "waterLevel": 287.19666666666666
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 3233.333333333333,
-            "outflow": null,
-            "waterLevel": 952.4333333333334
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 1263.3333333333333,
-            "outflow": null,
-            "waterLevel": 191.36666666666667
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 4623.333333333333,
-            "outflow": null,
-            "waterLevel": 841.1
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 29,
-            "weekStart": "2024-07-15",
-            "inflow": 557.6666666666666,
-            "outflow": null,
-            "waterLevel": 395.6066666666666
-        },
-        {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2024,
@@ -3500,7 +190,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": -172.33333333333334,
             "outflow": null,
-            "waterLevel": 390.0666666666666
+            "waterLevel": 390.0666666666666,
+            "inflowYoy": -273
         },
         {
             "station": "乌东德",
@@ -3510,7 +201,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": 9233.333333333334,
             "outflow": null,
-            "waterLevel": 959.6233333333332
+            "waterLevel": 959.6233333333332,
+            "inflowYoy": -330.8
         },
         {
             "station": "彭水",
@@ -3520,7 +212,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": 563.3333333333334,
             "outflow": null,
-            "waterLevel": 286.91333333333336
+            "waterLevel": 286.91333333333336,
+            "inflowYoy": -62.4
         },
         {
             "station": "瀑布沟",
@@ -3530,7 +223,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": 1803.3333333333333,
             "outflow": null,
-            "waterLevel": 840.4866666666667
+            "waterLevel": 840.4866666666667,
+            "inflowYoy": 23.5
         },
         {
             "station": "隔河岩",
@@ -3540,7 +234,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": -95,
             "outflow": null,
-            "waterLevel": 194.45
+            "waterLevel": 194.45,
+            "inflowYoy": -172.5
         },
         {
             "station": "白鹤滩",
@@ -3550,7 +245,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": 8533.333333333334,
             "outflow": null,
-            "waterLevel": 798.1966666666667
+            "waterLevel": 798.1966666666667,
+            "inflowYoy": 55.2
         },
         {
             "station": "溪洛渡",
@@ -3560,7 +256,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": -1700,
             "outflow": null,
-            "waterLevel": 572.8033333333334
+            "waterLevel": 572.8033333333334,
+            "inflowYoy": -140.5
         },
         {
             "station": "构皮滩",
@@ -3570,7 +267,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-22",
             "inflow": 697,
             "outflow": null,
-            "waterLevel": 623.6766666666666
+            "waterLevel": 623.6766666666666,
+            "inflowYoy": -204.2
         },
         {
             "station": "水布垭",
@@ -3580,7 +278,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": -146.33333333333334,
             "outflow": null,
-            "waterLevel": 386.46
+            "waterLevel": 386.46,
+            "inflowYoy": -906.2
         },
         {
             "station": "白鹤滩",
@@ -3590,7 +289,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 11266.666666666666,
             "outflow": null,
-            "waterLevel": 805.9333333333334
+            "waterLevel": 805.9333333333334,
+            "inflowYoy": 22433.3
         },
         {
             "station": "彭水",
@@ -3600,7 +300,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 1728.6666666666667,
             "outflow": null,
-            "waterLevel": 287.04
+            "waterLevel": 287.04,
+            "inflowYoy": 52.6
         },
         {
             "station": "构皮滩",
@@ -3610,7 +311,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": -643.3333333333334,
             "outflow": null,
-            "waterLevel": 623.6066666666667
+            "waterLevel": 623.6066666666667,
+            "inflowYoy": -32
         },
         {
             "station": "隔河岩",
@@ -3620,7 +322,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 737,
             "outflow": null,
-            "waterLevel": 194.68666666666664
+            "waterLevel": 194.68666666666664,
+            "inflowYoy": 2184.6
         },
         {
             "station": "瀑布沟",
@@ -3630,7 +333,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 5023.333333333333,
             "outflow": null,
-            "waterLevel": 842.0733333333334
+            "waterLevel": 842.0733333333334,
+            "inflowYoy": 1632.2
         },
         {
             "station": "溪洛渡",
@@ -3640,7 +344,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 7200,
             "outflow": null,
-            "waterLevel": 575.04
+            "waterLevel": 575.04,
+            "inflowYoy": -4900
         },
         {
             "station": "乌东德",
@@ -3650,7 +355,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-07-29",
             "inflow": 12766.666666666666,
             "outflow": null,
-            "waterLevel": 965.3833333333332
+            "waterLevel": 965.3833333333332,
+            "inflowYoy": 211.4
         },
         {
             "station": "隔河岩",
@@ -3660,7 +366,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": -28.45,
             "outflow": null,
-            "waterLevel": 194.215
+            "waterLevel": 194.215,
+            "inflowYoy": -45.8
         },
         {
             "station": "白鹤滩",
@@ -3670,7 +377,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": 150,
             "outflow": null,
-            "waterLevel": 810
+            "waterLevel": 810,
+            "inflowYoy": -97.1
         },
         {
             "station": "乌东德",
@@ -3680,7 +388,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": 1050,
             "outflow": null,
-            "waterLevel": 974.05
+            "waterLevel": 974.05,
+            "inflowYoy": -76.4
         },
         {
             "station": "溪洛渡",
@@ -3690,7 +399,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": 7100,
             "outflow": null,
-            "waterLevel": 582.36
+            "waterLevel": 582.36,
+            "inflowYoy": 108.8
         },
         {
             "station": "水布垭",
@@ -3700,7 +410,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": 67.2,
             "outflow": null,
-            "waterLevel": 384.445
+            "waterLevel": 384.445,
+            "inflowYoy": 155
         },
         {
             "station": "构皮滩",
@@ -3710,7 +421,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": -669.5,
             "outflow": null,
-            "waterLevel": 623.505
+            "waterLevel": 623.505,
+            "inflowYoy": 16.2
         },
         {
             "station": "彭水",
@@ -3720,7 +432,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": -617,
             "outflow": null,
-            "waterLevel": 286.85
+            "waterLevel": 286.85,
+            "inflowYoy": -157.6
         },
         {
             "station": "瀑布沟",
@@ -3730,7 +443,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-05",
             "inflow": -150,
             "outflow": null,
-            "waterLevel": 842.95
+            "waterLevel": 842.95,
+            "inflowYoy": -91.6
         },
         {
             "station": "瀑布沟",
@@ -3900,7 +614,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 804.4,
             "outflow": null,
-            "waterLevel": 189.01
+            "waterLevel": 189.01,
+            "inflowYoy": -218.8
         },
         {
             "station": "瀑布沟",
@@ -3910,7 +625,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 980,
             "outflow": null,
-            "waterLevel": 837.5450000000001
+            "waterLevel": 837.5450000000001,
+            "inflowYoy": 327
         },
         {
             "station": "乌东德",
@@ -3920,7 +636,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": -5100,
             "outflow": null,
-            "waterLevel": 958.45
+            "waterLevel": 958.45,
+            "inflowYoy": -169.9
         },
         {
             "station": "溪洛渡",
@@ -3930,7 +647,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 4750,
             "outflow": null,
-            "waterLevel": 576.41
+            "waterLevel": 576.41,
+            "inflowYoy": -4
         },
         {
             "station": "构皮滩",
@@ -3940,7 +658,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": -286.5,
             "outflow": null,
-            "waterLevel": 624.375
+            "waterLevel": 624.375,
+            "inflowYoy": -247.7
         },
         {
             "station": "白鹤滩",
@@ -3950,7 +669,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 6150,
             "outflow": null,
-            "waterLevel": 799.08
+            "waterLevel": 799.08,
+            "inflowYoy": -19.1
         },
         {
             "station": "彭水",
@@ -3960,7 +680,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 563,
             "outflow": null,
-            "waterLevel": 288.595
+            "waterLevel": 288.595,
+            "inflowYoy": -1226
         },
         {
             "station": "水布垭",
@@ -3970,7 +691,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-08-26",
             "inflow": 2377.15,
             "outflow": null,
-            "waterLevel": 388.67
+            "waterLevel": 388.67,
+            "inflowYoy": -2054.1
         },
         {
             "station": "构皮滩",
@@ -3980,7 +702,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": -392,
             "outflow": null,
-            "waterLevel": 621.76
+            "waterLevel": 621.76,
+            "inflowYoy": -131.9
         },
         {
             "station": "隔河岩",
@@ -3990,7 +713,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": -18.9,
             "outflow": null,
-            "waterLevel": 188.325
+            "waterLevel": 188.325,
+            "inflowYoy": -95.1
         },
         {
             "station": "乌东德",
@@ -4000,7 +724,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": 150,
             "outflow": null,
-            "waterLevel": 967.005
+            "waterLevel": 967.005,
+            "inflowYoy": -62.5
         },
         {
             "station": "水布垭",
@@ -4010,7 +735,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": -53.045,
             "outflow": null,
-            "waterLevel": 382.84
+            "waterLevel": 382.84,
+            "inflowYoy": -19
         },
         {
             "station": "溪洛渡",
@@ -4020,7 +746,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": 4600,
             "outflow": null,
-            "waterLevel": 589.19
+            "waterLevel": 589.19,
+            "inflowYoy": -27.6
         },
         {
             "station": "白鹤滩",
@@ -4030,7 +757,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": -4800,
             "outflow": null,
-            "waterLevel": 810.14
+            "waterLevel": 810.14,
+            "inflowYoy": -158.2
         },
         {
             "station": "彭水",
@@ -4040,7 +768,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": 743.05,
             "outflow": null,
-            "waterLevel": 288.11
+            "waterLevel": 288.11,
+            "inflowYoy": -549
         },
         {
             "station": "瀑布沟",
@@ -4050,7 +779,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-02",
             "inflow": -1370,
             "outflow": null,
-            "waterLevel": 833.855
+            "waterLevel": 833.855,
+            "inflowYoy": -150.1
         },
         {
             "station": "构皮滩",
@@ -4060,7 +790,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -551.5,
             "outflow": null,
-            "waterLevel": 620.915
+            "waterLevel": 620.915,
+            "inflowYoy": -1437
         },
         {
             "station": "水布垭",
@@ -4070,7 +801,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -54,
             "outflow": null,
-            "waterLevel": 381.63
+            "waterLevel": 381.63,
+            "inflowYoy": -174.1
         },
         {
             "station": "乌东德",
@@ -4080,7 +812,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": 100,
             "outflow": null,
-            "waterLevel": 970.985
+            "waterLevel": 970.985,
+            "inflowYoy": -122.2
         },
         {
             "station": "白鹤滩",
@@ -4090,7 +823,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": 900,
             "outflow": null,
-            "waterLevel": 807.405
+            "waterLevel": 807.405,
+            "inflowYoy": -25
         },
         {
             "station": "彭水",
@@ -4100,7 +834,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -176.5,
             "outflow": null,
-            "waterLevel": 288.265
+            "waterLevel": 288.265,
+            "inflowYoy": -143.9
         },
         {
             "station": "溪洛渡",
@@ -4110,7 +845,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -3450,
             "outflow": null,
-            "waterLevel": 590.04
+            "waterLevel": 590.04,
+            "inflowYoy": -156.1
         },
         {
             "station": "隔河岩",
@@ -4120,7 +856,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -207.385,
             "outflow": null,
-            "waterLevel": 188.345
+            "waterLevel": 188.345,
+            "inflowYoy": 885.2
         },
         {
             "station": "瀑布沟",
@@ -4130,7 +867,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-09",
             "inflow": -998.5,
             "outflow": null,
-            "waterLevel": 831.595
+            "waterLevel": 831.595,
+            "inflowYoy": -898.8
         },
         {
             "station": "乌东德",
@@ -4140,7 +878,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -4300,
             "outflow": null,
-            "waterLevel": 971.17
+            "waterLevel": 971.17,
+            "inflowYoy": -8700
         },
         {
             "station": "水布垭",
@@ -4150,7 +889,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -41.3,
             "outflow": null,
-            "waterLevel": 380.73
+            "waterLevel": 380.73,
+            "inflowYoy": -109.1
         },
         {
             "station": "彭水",
@@ -4160,7 +900,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -172,
             "outflow": null,
-            "waterLevel": 287.9
+            "waterLevel": 287.9,
+            "inflowYoy": -119.1
         },
         {
             "station": "白鹤滩",
@@ -4170,7 +911,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": 3800,
             "outflow": null,
-            "waterLevel": 811.24
+            "waterLevel": 811.24,
+            "inflowYoy": 300
         },
         {
             "station": "隔河岩",
@@ -4180,7 +922,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -18.8,
             "outflow": null,
-            "waterLevel": 188.48
+            "waterLevel": 188.48,
+            "inflowYoy": 235.7
         },
         {
             "station": "溪洛渡",
@@ -4190,7 +933,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -3500,
             "outflow": null,
-            "waterLevel": 586.19
+            "waterLevel": 586.19,
+            "inflowYoy": -142.4
         },
         {
             "station": "瀑布沟",
@@ -4200,7 +944,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -1380,
             "outflow": null,
-            "waterLevel": 833.25
+            "waterLevel": 833.25,
+            "inflowYoy": -172.1
         },
         {
             "station": "构皮滩",
@@ -4210,7 +955,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-16",
             "inflow": -394,
             "outflow": null,
-            "waterLevel": 619.92
+            "waterLevel": 619.92,
+            "inflowYoy": -153.9
         },
         {
             "station": "乌东德",
@@ -4220,7 +966,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": -4450,
             "outflow": null,
-            "waterLevel": 967.03
+            "waterLevel": 967.03,
+            "inflowYoy": -4550
         },
         {
             "station": "隔河岩",
@@ -4230,7 +977,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": 13.13,
             "outflow": null,
-            "waterLevel": 187.905
+            "waterLevel": 187.905,
+            "inflowYoy": -97.8
         },
         {
             "station": "溪洛渡",
@@ -4240,7 +988,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": -3400,
             "outflow": null,
-            "waterLevel": 585.1949999999999
+            "waterLevel": 585.1949999999999,
+            "inflowYoy": -166
         },
         {
             "station": "瀑布沟",
@@ -4250,7 +999,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": 1303.5,
             "outflow": null,
-            "waterLevel": 837.3499999999999
+            "waterLevel": 837.3499999999999,
+            "inflowYoy": -41.3
         },
         {
             "station": "彭水",
@@ -4260,7 +1010,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": -60,
             "outflow": null,
-            "waterLevel": 288.47
+            "waterLevel": 288.47,
+            "inflowYoy": -138.7
         },
         {
             "station": "构皮滩",
@@ -4270,7 +1021,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": -225.5,
             "outflow": null,
-            "waterLevel": 619.425
+            "waterLevel": 619.425,
+            "inflowYoy": -52.4
         },
         {
             "station": "白鹤滩",
@@ -4280,7 +1032,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": 6500,
             "outflow": null,
-            "waterLevel": 813.9
+            "waterLevel": 813.9,
+            "inflowYoy": 664.7
         },
         {
             "station": "水布垭",
@@ -4290,7 +1043,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-23",
             "inflow": -2.88,
             "outflow": null,
-            "waterLevel": 380.36
+            "waterLevel": 380.36,
+            "inflowYoy": -99.2
         },
         {
             "station": "乌东德",
@@ -4300,7 +1054,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": -4500,
             "outflow": null,
-            "waterLevel": 963.21
+            "waterLevel": 963.21,
+            "inflowYoy": -18.2
         },
         {
             "station": "水布垭",
@@ -4310,7 +1065,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": -1,
             "outflow": null,
-            "waterLevel": 380.07
+            "waterLevel": 380.07,
+            "inflowYoy": -99.7
         },
         {
             "station": "构皮滩",
@@ -4320,7 +1076,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": -152,
             "outflow": null,
-            "waterLevel": 618.94
+            "waterLevel": 618.94,
+            "inflowYoy": -45.7
         },
         {
             "station": "彭水",
@@ -4330,7 +1087,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": -172,
             "outflow": null,
-            "waterLevel": 287.4
+            "waterLevel": 287.4,
+            "inflowYoy": -67.5
         },
         {
             "station": "白鹤滩",
@@ -4340,7 +1098,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": 5300,
             "outflow": null,
-            "waterLevel": 816.81
+            "waterLevel": 816.81,
+            "inflowYoy": -23.2
         },
         {
             "station": "溪洛渡",
@@ -4350,7 +1109,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": 2900,
             "outflow": null,
-            "waterLevel": 586.8
+            "waterLevel": 586.8,
+            "inflowYoy": -154.7
         },
         {
             "station": "瀑布沟",
@@ -4360,7 +1120,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": 1550,
             "outflow": null,
-            "waterLevel": 840.12
+            "waterLevel": 840.12,
+            "inflowYoy": -29.2
         },
         {
             "station": "隔河岩",
@@ -4370,7 +1131,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-09-30",
             "inflow": -11.8,
             "outflow": null,
-            "waterLevel": 187.12
+            "waterLevel": 187.12,
+            "inflowYoy": -101.9
         },
         {
             "station": "龙滩",
@@ -4380,7 +1142,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-11-25",
             "inflow": 864.2857142857143,
             "outflow": 1022.1428571428572,
-            "waterLevel": 364.1028571428571
+            "waterLevel": 364.1028571428571,
+            "inflowYoy": -38.7
         },
         {
             "station": "岩滩",
@@ -4390,7 +1153,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-11-25",
             "inflow": 1111.142857142857,
             "outflow": 2087.1428571428573,
-            "waterLevel": 221.71
+            "waterLevel": 221.71,
+            "inflowYoy": -19.8
         },
         {
             "station": "岩滩",
@@ -4400,7 +1164,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-02",
             "inflow": 1311.857142857143,
             "outflow": 1265.428571428571,
-            "waterLevel": 221.69285714285712
+            "waterLevel": 221.69285714285712,
+            "inflowYoy": 6.1
         },
         {
             "station": "龙滩",
@@ -4410,7 +1175,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-02",
             "inflow": 562.5714285714286,
             "outflow": 879.5714285714286,
-            "waterLevel": 362.4385714285714
+            "waterLevel": 362.4385714285714,
+            "inflowYoy": -60
         },
         {
             "station": "岩滩",
@@ -4420,7 +1186,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-09",
             "inflow": 868.1428571428571,
             "outflow": 1377.7142857142858,
-            "waterLevel": 222.42428571428573
+            "waterLevel": 222.42428571428573,
+            "inflowYoy": -28.9
         },
         {
             "station": "龙滩",
@@ -4430,7 +1197,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-09",
             "inflow": 708.7142857142857,
             "outflow": 1185.428571428571,
-            "waterLevel": 360.68285714285713
+            "waterLevel": 360.68285714285713,
+            "inflowYoy": -41.2
         },
         {
             "station": "岩滩",
@@ -4440,7 +1208,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-16",
             "inflow": 1393.857142857143,
             "outflow": 1777.142857142857,
-            "waterLevel": 222.14
+            "waterLevel": 222.14,
+            "inflowYoy": 6.2
         },
         {
             "station": "龙滩",
@@ -4450,7 +1219,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-16",
             "inflow": 1016.8571428571428,
             "outflow": 1752.142857142857,
-            "waterLevel": 358.84000000000003
+            "waterLevel": 358.84000000000003,
+            "inflowYoy": -21
         },
         {
             "station": "龙滩",
@@ -4460,7 +1230,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-23",
             "inflow": 672.1428571428571,
             "outflow": 909.5714285714286,
-            "waterLevel": 357.06714285714287
+            "waterLevel": 357.06714285714287,
+            "inflowYoy": -39.7
         },
         {
             "station": "三峡",
@@ -4470,7 +1241,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-23",
             "inflow": 7671.428571428572,
             "outflow": 6987.142857142857,
-            "waterLevel": 167.74
+            "waterLevel": 167.74,
+            "inflowYoy": 18.8
         },
         {
             "station": "岩滩",
@@ -4480,7 +1252,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-23",
             "inflow": 1010.8571428571428,
             "outflow": 1163.857142857143,
-            "waterLevel": 222.12714285714287
+            "waterLevel": 222.12714285714287,
+            "inflowYoy": -20.9
         },
         {
             "station": "向家坝",
@@ -4490,7 +1263,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-23",
             "inflow": 1357.142857142857,
             "outflow": 4025,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -38.7
         },
         {
             "station": "岩滩",
@@ -4500,7 +1274,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-30",
             "inflow": 1229.8333333333333,
             "outflow": 1222.1666666666667,
-            "waterLevel": 221.69000000000003
+            "waterLevel": 221.69000000000003,
+            "inflowYoy": 25
         },
         {
             "station": "向家坝",
@@ -4510,7 +1285,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-30",
             "inflow": 3183.333333333333,
             "outflow": 3690,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 12.5
         },
         {
             "station": "三峡",
@@ -4520,7 +1296,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-30",
             "inflow": 7557.142857142857,
             "outflow": 6957.142857142857,
-            "waterLevel": 168.11714285714285
+            "waterLevel": 168.11714285714285,
+            "inflowYoy": 12.9
         },
         {
             "station": "龙滩",
@@ -4530,7 +1307,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2024-12-30",
             "inflow": 890.8571428571429,
             "outflow": 1037.142857142857,
-            "waterLevel": 355.7685714285714
+            "waterLevel": 355.7685714285714,
+            "inflowYoy": -28
         },
         {
             "station": "岩滩",
@@ -4540,7 +1318,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-06",
             "inflow": 1108.2857142857142,
             "outflow": 1727.142857142857,
-            "waterLevel": 222.19
+            "waterLevel": 222.19,
+            "inflowYoy": -44.5
         },
         {
             "station": "三峡",
@@ -4550,7 +1329,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-06",
             "inflow": 7971.428571428572,
             "outflow": 6928.571428571428,
-            "waterLevel": 168.52428571428572
+            "waterLevel": 168.52428571428572,
+            "inflowYoy": 2.4
         },
         {
             "station": "龙滩",
@@ -4560,7 +1340,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-06",
             "inflow": 952,
             "outflow": 1257.2857142857142,
-            "waterLevel": 353.6014285714286
+            "waterLevel": 353.6014285714286,
+            "inflowYoy": -31.5
         },
         {
             "station": "向家坝",
@@ -4570,7 +1351,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-06",
             "inflow": 4285.714285714285,
             "outflow": 2853.333333333333,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 10.3
         },
         {
             "station": "三峡",
@@ -4580,7 +1362,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-13",
             "inflow": 7271.428571428572,
             "outflow": 7971.428571428572,
-            "waterLevel": 168.69
+            "waterLevel": 168.69,
+            "inflowYoy": -4.4
         },
         {
             "station": "岩滩",
@@ -4590,7 +1373,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-13",
             "inflow": 1582.571428571429,
             "outflow": 2017.2857142857144,
-            "waterLevel": 222.1728571428572
+            "waterLevel": 222.1728571428572,
+            "inflowYoy": -34
         },
         {
             "station": "龙滩",
@@ -4600,7 +1384,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-13",
             "inflow": 452.6,
             "outflow": 1454.8,
-            "waterLevel": 351.67600000000004
+            "waterLevel": 351.67600000000004,
+            "inflowYoy": -69.8
         },
         {
             "station": "向家坝",
@@ -4610,7 +1395,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-13",
             "inflow": 3585.714285714286,
             "outflow": 3694.285714285714,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -8.1
         },
         {
             "station": "龙滩",
@@ -4620,7 +1406,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-20",
             "inflow": 618.2857142857143,
             "outflow": 936,
-            "waterLevel": 349.46571428571434
+            "waterLevel": 349.46571428571434,
+            "inflowYoy": -53.6
         },
         {
             "station": "三峡",
@@ -4630,7 +1417,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-20",
             "inflow": 6485.714285714285,
             "outflow": 8085.714285714285,
-            "waterLevel": 168.21571428571428
+            "waterLevel": 168.21571428571428,
+            "inflowYoy": -16.6
         },
         {
             "station": "岩滩",
@@ -4640,7 +1428,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-20",
             "inflow": 825.7142857142857,
             "outflow": 1527.428571428571,
-            "waterLevel": 221.6371428571429
+            "waterLevel": 221.6371428571429,
+            "inflowYoy": -37.8
         },
         {
             "station": "向家坝",
@@ -4650,7 +1439,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-20",
             "inflow": 783.3333333333334,
             "outflow": 2265,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -81.5
         },
         {
             "station": "三峡",
@@ -4660,7 +1450,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-27",
             "inflow": 4757.142857142857,
             "outflow": 8262.857142857143,
-            "waterLevel": 166.74285714285716
+            "waterLevel": 166.74285714285716,
+            "inflowYoy": -38.4
         },
         {
             "station": "龙滩",
@@ -4670,7 +1461,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-27",
             "inflow": 1060.571428571429,
             "outflow": 244,
-            "waterLevel": 348.7257142857143
+            "waterLevel": 348.7257142857143,
+            "inflowYoy": -31.2
         },
         {
             "station": "向家坝",
@@ -4680,7 +1472,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-27",
             "inflow": 920,
             "outflow": 1735,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -76.9
         },
         {
             "station": "岩滩",
@@ -4690,7 +1483,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-01-27",
             "inflow": 741.7142857142857,
             "outflow": 1096.857142857143,
-            "waterLevel": 220.22857142857143
+            "waterLevel": 220.22857142857143,
+            "inflowYoy": -62
         },
         {
             "station": "三峡",
@@ -4700,7 +1494,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-03",
             "inflow": 5600,
             "outflow": 8307.142857142857,
-            "waterLevel": 164.49857142857144
+            "waterLevel": 164.49857142857144,
+            "inflowYoy": -28.7
         },
         {
             "station": "岩滩",
@@ -4710,7 +1505,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-03",
             "inflow": 771.8333333333334,
             "outflow": 1000.1666666666666,
-            "waterLevel": 220.3557142857143
+            "waterLevel": 220.3557142857143,
+            "inflowYoy": -59.7
         },
         {
             "station": "龙滩",
@@ -4720,7 +1516,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-03",
             "inflow": 575.5,
             "outflow": 520.3333333333334,
-            "waterLevel": 347.7471428571429
+            "waterLevel": 347.7471428571429,
+            "inflowYoy": -54
         },
         {
             "station": "向家坝",
@@ -4730,7 +1527,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-03",
             "inflow": 1416.6666666666667,
             "outflow": 3011.428571428572,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -66.8
         },
         {
             "station": "三峡",
@@ -4740,7 +1538,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-10",
             "inflow": 7114.285714285715,
             "outflow": 8318.57142857143,
-            "waterLevel": 163.92000000000002
+            "waterLevel": 163.92000000000002,
+            "inflowYoy": -3.3
         },
         {
             "station": "向家坝",
@@ -4750,7 +1549,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-10",
             "inflow": 2571.428571428572,
             "outflow": 2675,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -26.5
         },
         {
             "station": "岩滩",
@@ -4760,7 +1560,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-10",
             "inflow": 807.8333333333334,
             "outflow": 818.2,
-            "waterLevel": 220.67428571428573
+            "waterLevel": 220.67428571428573,
+            "inflowYoy": -58.6
         },
         {
             "station": "龙滩",
@@ -4770,7 +1571,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-10",
             "inflow": 561.25,
             "outflow": 277.5,
-            "waterLevel": 346.88428571428574
+            "waterLevel": 346.88428571428574,
+            "inflowYoy": -44.2
         },
         {
             "station": "向家坝",
@@ -4780,7 +1582,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-17",
             "inflow": 2566.6666666666665,
             "outflow": 2061.6666666666665,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 28.3
         },
         {
             "station": "岩滩",
@@ -4790,7 +1593,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-17",
             "inflow": 685.1666666666666,
             "outflow": 606.5714285714286,
-            "waterLevel": 221.2628571428572
+            "waterLevel": 221.2628571428572,
+            "inflowYoy": -47.2
         },
         {
             "station": "龙滩",
@@ -4800,7 +1604,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-17",
             "inflow": 865.8333333333334,
             "outflow": 369.5,
-            "waterLevel": 346.11428571428576
+            "waterLevel": 346.11428571428576,
+            "inflowYoy": 86.2
         },
         {
             "station": "三峡",
@@ -4810,7 +1615,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-17",
             "inflow": 6485.714285714285,
             "outflow": 8412.857142857143,
-            "waterLevel": 163.11285714285714
+            "waterLevel": 163.11285714285714,
+            "inflowYoy": 18.5
         },
         {
             "station": "三峡",
@@ -4820,7 +1626,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-24",
             "inflow": 7266.666666666667,
             "outflow": 8268.333333333334,
-            "waterLevel": 162.66666666666666
+            "waterLevel": 162.66666666666666,
+            "inflowYoy": 26.2
         },
         {
             "station": "向家坝",
@@ -4830,7 +1637,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-24",
             "inflow": 1520,
             "outflow": 1531.6666666666667,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -46.8
         },
         {
             "station": "龙滩",
@@ -4840,7 +1648,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-24",
             "inflow": 758.7142857142857,
             "outflow": 688.5714285714286,
-            "waterLevel": 345.96714285714285
+            "waterLevel": 345.96714285714285,
+            "inflowYoy": -19.8
         },
         {
             "station": "岩滩",
@@ -4850,7 +1659,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-02-24",
             "inflow": 785.1428571428571,
             "outflow": 531.7142857142857,
-            "waterLevel": 221.27142857142857
+            "waterLevel": 221.27142857142857,
+            "inflowYoy": -63.2
         },
         {
             "station": "龙滩",
@@ -4860,7 +1670,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-03",
             "inflow": 338.57142857142856,
             "outflow": 634,
-            "waterLevel": 345.1557142857143
+            "waterLevel": 345.1557142857143,
+            "inflowYoy": -69.9
         },
         {
             "station": "岩滩",
@@ -4870,7 +1681,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-03",
             "inflow": 865.1428571428571,
             "outflow": 811.5714285714286,
-            "waterLevel": 221.31571428571428
+            "waterLevel": 221.31571428571428,
+            "inflowYoy": -61
         },
         {
             "station": "三峡",
@@ -4880,7 +1692,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-03",
             "inflow": 8000,
             "outflow": 7858.571428571428,
-            "waterLevel": 162.79714285714286
+            "waterLevel": 162.79714285714286,
+            "inflowYoy": 11.8
         },
         {
             "station": "向家坝",
@@ -4890,7 +1703,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-03",
             "inflow": 1328.571428571429,
             "outflow": 3310,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -68.4
         },
         {
             "station": "向家坝",
@@ -4900,7 +1714,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-10",
             "inflow": 3257.1428571428573,
             "outflow": 3978.3333333333335,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -14
         },
         {
             "station": "三峡",
@@ -4910,7 +1725,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-10",
             "inflow": 8514.285714285714,
             "outflow": 7708.571428571428,
-            "waterLevel": 163.87857142857143
+            "waterLevel": 163.87857142857143,
+            "inflowYoy": 7
         },
         {
             "station": "岩滩",
@@ -4920,7 +1736,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-10",
             "inflow": 831.8571428571429,
             "outflow": 936.7142857142856,
-            "waterLevel": 221.7028571428572
+            "waterLevel": 221.7028571428572,
+            "inflowYoy": -41.9
         },
         {
             "station": "龙滩",
@@ -4930,7 +1747,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-10",
             "inflow": 437.57142857142856,
             "outflow": 518.2857142857143,
-            "waterLevel": 343.92285714285714
+            "waterLevel": 343.92285714285714,
+            "inflowYoy": -53.9
         },
         {
             "station": "三峡",
@@ -4940,7 +1758,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-17",
             "inflow": 8885.714285714286,
             "outflow": 8491.42857142857,
-            "waterLevel": 164.74
+            "waterLevel": 164.74,
+            "inflowYoy": -3.4
         },
         {
             "station": "向家坝",
@@ -4950,7 +1769,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-17",
             "inflow": 1283.3333333333333,
             "outflow": 970,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -56
         },
         {
             "station": "岩滩",
@@ -4960,7 +1780,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-17",
             "inflow": 937.5714285714286,
             "outflow": 679.5714285714286,
-            "waterLevel": 221.54142857142853
+            "waterLevel": 221.54142857142853,
+            "inflowYoy": -9.9
         },
         {
             "station": "龙滩",
@@ -4970,7 +1791,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-17",
             "inflow": 458.4,
             "outflow": 822.2,
-            "waterLevel": 343.16
+            "waterLevel": 343.16,
+            "inflowYoy": -47.5
         },
         {
             "station": "岩滩",
@@ -4980,7 +1802,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-24",
             "inflow": 1060.142857142857,
             "outflow": 1430.2857142857142,
-            "waterLevel": 221.7
+            "waterLevel": 221.7,
+            "inflowYoy": -19.7
         },
         {
             "station": "龙滩",
@@ -4990,7 +1813,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-24",
             "inflow": 462.1666666666667,
             "outflow": 767,
-            "waterLevel": 342.01500000000004
+            "waterLevel": 342.01500000000004,
+            "inflowYoy": -55.5
         },
         {
             "station": "三峡",
@@ -5000,7 +1824,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-24",
             "inflow": 6842.857142857143,
             "outflow": 10001.42857142857,
-            "waterLevel": 164.03714285714287
+            "waterLevel": 164.03714285714287,
+            "inflowYoy": -1.8
         },
         {
             "station": "向家坝",
@@ -5010,7 +1835,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-24",
             "inflow": 710,
             "outflow": 1330,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -64
         },
         {
             "station": "岩滩",
@@ -5020,7 +1846,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-31",
             "inflow": 872.2857142857143,
             "outflow": 825.2857142857143,
-            "waterLevel": 221.97
+            "waterLevel": 221.97,
+            "inflowYoy": -18.8
         },
         {
             "station": "向家坝",
@@ -5030,7 +1857,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-31",
             "inflow": 1490,
             "outflow": 1838.3333333333333,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -7.7
         },
         {
             "station": "三峡",
@@ -5040,7 +1868,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-31",
             "inflow": 6025,
             "outflow": 9942.5,
-            "waterLevel": 162.25
+            "waterLevel": 162.25,
+            "inflowYoy": -24.7
         },
         {
             "station": "龙滩",
@@ -5050,7 +1879,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-03-31",
             "inflow": 430.3333333333333,
             "outflow": 793.5,
-            "waterLevel": 340.20166666666665
+            "waterLevel": 340.20166666666665,
+            "inflowYoy": -66.4
         },
         {
             "station": "岩滩",
@@ -5060,7 +1890,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-07",
             "inflow": 665.7142857142857,
             "outflow": 919.1428571428572,
-            "waterLevel": 220.6071428571429
+            "waterLevel": 220.6071428571429,
+            "inflowYoy": -42.6
         },
         {
             "station": "龙滩",
@@ -5070,7 +1901,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-07",
             "inflow": 650.4285714285714,
             "outflow": 418.1428571428572,
-            "waterLevel": 339.05285714285714
+            "waterLevel": 339.05285714285714,
+            "inflowYoy": -24.5
         },
         {
             "station": "三峡",
@@ -5080,7 +1912,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-07",
             "inflow": 6542.857142857143,
             "outflow": 10871.42857142857,
-            "waterLevel": 159.68285714285713
+            "waterLevel": 159.68285714285713,
+            "inflowYoy": -26.6
         },
         {
             "station": "向家坝",
@@ -5090,7 +1923,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-07",
             "inflow": 2957.1428571428573,
             "outflow": 1818.3333333333333,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 4
         },
         {
             "station": "岩滩",
@@ -5100,7 +1934,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-14",
             "inflow": 656,
             "outflow": 817.4285714285714,
-            "waterLevel": 220.3557142857143
+            "waterLevel": 220.3557142857143,
+            "inflowYoy": -59.6
         },
         {
             "station": "向家坝",
@@ -5110,7 +1945,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-14",
             "inflow": 1983.3333333333333,
             "outflow": 2964.285714285714,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -31.3
         },
         {
             "station": "三峡",
@@ -5120,7 +1956,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-14",
             "inflow": 7171.428571428572,
             "outflow": 8591.42857142857,
-            "waterLevel": 157.56571428571428
+            "waterLevel": 157.56571428571428,
+            "inflowYoy": -37.1
         },
         {
             "station": "龙滩",
@@ -5130,7 +1967,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-14",
             "inflow": 526,
             "outflow": 445.2857142857143,
-            "waterLevel": 337.80571428571426
+            "waterLevel": 337.80571428571426,
+            "inflowYoy": -47.5
         },
         {
             "station": "岩滩",
@@ -5140,7 +1978,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-21",
             "inflow": 681.2857142857143,
             "outflow": 441,
-            "waterLevel": 219.88285714285715
+            "waterLevel": 219.88285714285715,
+            "inflowYoy": -57.5
         },
         {
             "station": "三峡",
@@ -5150,7 +1989,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-21",
             "inflow": 7800,
             "outflow": 8128.571428571428,
-            "waterLevel": 157.46714285714285
+            "waterLevel": 157.46714285714285,
+            "inflowYoy": -37.3
         },
         {
             "station": "向家坝",
@@ -5160,7 +2000,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-21",
             "inflow": 3600,
             "outflow": 3765,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 28.6
         },
         {
             "station": "龙滩",
@@ -5170,7 +2011,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-21",
             "inflow": 862.8571428571429,
             "outflow": 606.5714285714286,
-            "waterLevel": 337.6385714285715
+            "waterLevel": 337.6385714285715,
+            "inflowYoy": -23.4
         },
         {
             "station": "龙滩",
@@ -5180,7 +2022,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-28",
             "inflow": 827.1428571428571,
             "outflow": 315.2857142857143,
-            "waterLevel": 337.2757142857143
+            "waterLevel": 337.2757142857143,
+            "inflowYoy": -26.5
         },
         {
             "station": "向家坝",
@@ -5190,7 +2033,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-28",
             "inflow": 1828.571428571429,
             "outflow": 1703.3333333333333,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -22
         },
         {
             "station": "岩滩",
@@ -5200,7 +2044,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-28",
             "inflow": 426.4285714285714,
             "outflow": 533.2857142857143,
-            "waterLevel": 219.5514285714285
+            "waterLevel": 219.5514285714285,
+            "inflowYoy": -79.5
         },
         {
             "station": "三峡",
@@ -5210,7 +2055,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-04-28",
             "inflow": 8071.428571428572,
             "outflow": 8675.714285714286,
-            "waterLevel": 157.92857142857142
+            "waterLevel": 157.92857142857142,
+            "inflowYoy": -43.3
         },
         {
             "station": "龙滩",
@@ -5220,7 +2066,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-05",
             "inflow": 654.8571428571429,
             "outflow": 457.4285714285714,
-            "waterLevel": 336.8385714285714
+            "waterLevel": 336.8385714285714,
+            "inflowYoy": -55.5
         },
         {
             "station": "向家坝",
@@ -5230,7 +2077,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-05",
             "inflow": 1500,
             "outflow": 2921.428571428572,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": -39
         },
         {
             "station": "三峡",
@@ -5240,7 +2088,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-05",
             "inflow": 8328.57142857143,
             "outflow": 8954.285714285714,
-            "waterLevel": 157.65571428571428
+            "waterLevel": 157.65571428571428,
+            "inflowYoy": -20.7
         },
         {
             "station": "岩滩",
@@ -5250,7 +2099,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-05",
             "inflow": 511.4285714285714,
             "outflow": 744.4285714285714,
-            "waterLevel": 219.1942857142857
+            "waterLevel": 219.1942857142857,
+            "inflowYoy": -77.1
         },
         {
             "station": "向家坝",
@@ -5260,7 +2110,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-12",
             "inflow": 3321.6666666666665,
             "outflow": 1162.857142857143,
-            "waterLevel": 375.56
+            "waterLevel": 375.56,
+            "inflowYoy": 4.3
         },
         {
             "station": "溪洛渡",
@@ -5280,7 +2131,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-12",
             "inflow": 603,
             "outflow": 266.5,
-            "waterLevel": 219.325
+            "waterLevel": 219.325,
+            "inflowYoy": -77.9
         },
         {
             "station": "隔河岩",
@@ -5310,7 +2162,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-12",
             "inflow": 8671.42857142857,
             "outflow": 11572.857142857143,
-            "waterLevel": 157.41
+            "waterLevel": 157.41,
+            "inflowYoy": -14.8
         },
         {
             "station": "水布垭",
@@ -5340,7 +2193,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-12",
             "inflow": 1272.5,
             "outflow": 629,
-            "waterLevel": 337.29
+            "waterLevel": 337.29,
+            "inflowYoy": -38.2
         },
         {
             "station": "彭水",
@@ -5380,7 +2234,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": -1800,
             "outflow": null,
-            "waterLevel": 958.27
+            "waterLevel": 958.27,
+            "inflowYoy": 620
         },
         {
             "station": "构皮滩",
@@ -5390,7 +2245,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": 49.8,
             "outflow": null,
-            "waterLevel": 602.15
+            "waterLevel": 602.15,
+            "inflowYoy": -94.5
         },
         {
             "station": "溪洛渡",
@@ -5400,7 +2256,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": 4000,
             "outflow": null,
-            "waterLevel": 569.29
+            "waterLevel": 569.29,
+            "inflowYoy": -8100
         },
         {
             "station": "瀑布沟",
@@ -5410,7 +2267,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": 1340,
             "outflow": null,
-            "waterLevel": 824.43
+            "waterLevel": 824.43,
+            "inflowYoy": 0.8
         },
         {
             "station": "彭水",
@@ -5420,7 +2278,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": -3530,
             "outflow": null,
-            "waterLevel": 284.3
+            "waterLevel": 284.3,
+            "inflowYoy": -245.3
         },
         {
             "station": "水布垭",
@@ -5430,7 +2289,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": -18.1,
             "outflow": null,
-            "waterLevel": 381.79
+            "waterLevel": 381.79,
+            "inflowYoy": -101.6
         },
         {
             "station": "隔河岩",
@@ -5440,7 +2300,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": -31,
             "outflow": null,
-            "waterLevel": 186.15
+            "waterLevel": 186.15,
+            "inflowYoy": -263.2
         },
         {
             "station": "白鹤滩",
@@ -5450,7 +2311,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": -2200,
             "outflow": null,
-            "waterLevel": 790.21
+            "waterLevel": 790.21,
+            "inflowYoy": -358.8
         },
         {
             "station": "向家坝",
@@ -5460,7 +2322,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": 2216.6666666666665,
             "outflow": 4178.571428571428,
-            "waterLevel": 375.1
+            "waterLevel": 375.1,
+            "inflowYoy": -18.8
         },
         {
             "station": "三峡",
@@ -5470,7 +2333,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-19",
             "inflow": 8742.857142857143,
             "outflow": 11828.57142857143,
-            "waterLevel": 154.8457142857143
+            "waterLevel": 154.8457142857143,
+            "inflowYoy": -55.4
         },
         {
             "station": "乌东德",
@@ -5480,7 +2344,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 400,
             "outflow": null,
-            "waterLevel": 958.1
+            "waterLevel": 958.1,
+            "inflowYoy": -27.3
         },
         {
             "station": "隔河岩",
@@ -5490,7 +2355,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": -168,
             "outflow": null,
-            "waterLevel": 184.925
+            "waterLevel": 184.925,
+            "inflowYoy": -109.7
         },
         {
             "station": "溪洛渡",
@@ -5510,7 +2376,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": -827.5,
             "outflow": null,
-            "waterLevel": 284.685
+            "waterLevel": 284.685,
+            "inflowYoy": -263.9
         },
         {
             "station": "三峡",
@@ -5520,7 +2387,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 10342.857142857143,
             "outflow": 11885.714285714286,
-            "waterLevel": 154.65
+            "waterLevel": 154.65,
+            "inflowYoy": -51.7
         },
         {
             "station": "水布垭",
@@ -5530,7 +2398,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 126.05,
             "outflow": null,
-            "waterLevel": 380.805
+            "waterLevel": 380.805,
+            "inflowYoy": -90.3
         },
         {
             "station": "白鹤滩",
@@ -5540,7 +2409,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 250,
             "outflow": null,
-            "waterLevel": 786.775
+            "waterLevel": 786.775,
+            "inflowYoy": -83.3
         },
         {
             "station": "岩滩",
@@ -5550,7 +2420,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 1232.8333333333333,
             "outflow": 1148,
-            "waterLevel": 220.255
+            "waterLevel": 220.255,
+            "inflowYoy": -65.2
         },
         {
             "station": "构皮滩",
@@ -5560,7 +2431,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 1087,
             "outflow": null,
-            "waterLevel": 610.015
+            "waterLevel": 610.015,
+            "inflowYoy": 34.4
         },
         {
             "station": "向家坝",
@@ -5570,7 +2442,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 2082.8571428571427,
             "outflow": 3688.571428571429,
-            "waterLevel": 375.01
+            "waterLevel": 375.01,
+            "inflowYoy": -31.2
         },
         {
             "station": "瀑布沟",
@@ -5580,7 +2453,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 1350,
             "outflow": null,
-            "waterLevel": 828.97
+            "waterLevel": 828.97,
+            "inflowYoy": 1.9
         },
         {
             "station": "龙滩",
@@ -5590,7 +2464,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-05-26",
             "inflow": 1607.3333333333333,
             "outflow": 386.6666666666667,
-            "waterLevel": 339.72
+            "waterLevel": 339.72,
+            "inflowYoy": -43.7
         },
         {
             "station": "岩滩",
@@ -5600,7 +2475,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-02",
             "inflow": 1535.2857142857142,
             "outflow": 1249.142857142857,
-            "waterLevel": 220.4642857142857
+            "waterLevel": 220.4642857142857,
+            "inflowYoy": -53.3
         },
         {
             "station": "三峡",
@@ -5610,7 +2486,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-02",
             "inflow": 11014.285714285714,
             "outflow": 14842.857142857143,
-            "waterLevel": 154.42714285714283
+            "waterLevel": 154.42714285714283,
+            "inflowYoy": -26.6
         },
         {
             "station": "向家坝",
@@ -5620,7 +2497,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-02",
             "inflow": 3271.428571428572,
             "outflow": 4408.571428571428,
-            "waterLevel": null
+            "waterLevel": null,
+            "inflowYoy": 2.2
         },
         {
             "station": "龙滩",
@@ -5630,7 +2508,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-02",
             "inflow": 1648.142857142857,
             "outflow": 1019.7142857142856,
-            "waterLevel": 342.46714285714285
+            "waterLevel": 342.46714285714285,
+            "inflowYoy": -49.9
         },
         {
             "station": "隔河岩",
@@ -5640,7 +2519,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 369.95,
             "outflow": null,
-            "waterLevel": 184.045
+            "waterLevel": 184.045,
+            "inflowYoy": -170.3
         },
         {
             "station": "构皮滩",
@@ -5650,7 +2530,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 1080.5,
             "outflow": null,
-            "waterLevel": 614.74
+            "waterLevel": 614.74,
+            "inflowYoy": -51.4
         },
         {
             "station": "三峡",
@@ -5660,7 +2541,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 11957.142857142857,
             "outflow": 15471.42857142857,
-            "waterLevel": 151.26142857142855
+            "waterLevel": 151.26142857142855,
+            "inflowYoy": -33.4
         },
         {
             "station": "白鹤滩",
@@ -5670,7 +2552,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 1700,
             "outflow": null,
-            "waterLevel": 788.55
+            "waterLevel": 788.55,
+            "inflowYoy": -1233.3
         },
         {
             "station": "岩滩",
@@ -5680,7 +2563,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 1467,
             "outflow": 1493.428571428571,
-            "waterLevel": 220.25571428571428
+            "waterLevel": 220.25571428571428,
+            "inflowYoy": -49.6
         },
         {
             "station": "瀑布沟",
@@ -5690,7 +2574,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": -2150,
             "outflow": null,
-            "waterLevel": 839.7349999999999
+            "waterLevel": 839.7349999999999,
+            "inflowYoy": 527.7
         },
         {
             "station": "水布垭",
@@ -5700,7 +2585,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": -179.7,
             "outflow": null,
-            "waterLevel": 377.63
+            "waterLevel": 377.63,
+            "inflowYoy": 509.2
         },
         {
             "station": "向家坝",
@@ -5710,7 +2596,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 4080,
             "outflow": 4943.333333333333,
-            "waterLevel": 375.09
+            "waterLevel": 375.09,
+            "inflowYoy": 5.8
         },
         {
             "station": "乌东德",
@@ -5720,7 +2607,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 200,
             "outflow": null,
-            "waterLevel": 962.62
+            "waterLevel": 962.62,
+            "inflowYoy": -108.2
         },
         {
             "station": "溪洛渡",
@@ -5730,7 +2618,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": -4750,
             "outflow": null,
-            "waterLevel": 560.77
+            "waterLevel": 560.77,
+            "inflowYoy": 63.8
         },
         {
             "station": "彭水",
@@ -5740,7 +2629,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 256,
             "outflow": null,
-            "waterLevel": 281.575
+            "waterLevel": 281.575,
+            "inflowYoy": -44.9
         },
         {
             "station": "龙滩",
@@ -5750,7 +2640,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-09",
             "inflow": 1112.571428571429,
             "outflow": 821.2857142857143,
-            "waterLevel": 343.5014285714286
+            "waterLevel": 343.5014285714286,
+            "inflowYoy": -74.7
         },
         {
             "station": "岩滩",
@@ -5760,7 +2651,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 2053.8571428571427,
             "outflow": 1898,
-            "waterLevel": 220.09857142857143
+            "waterLevel": 220.09857142857143,
+            "inflowYoy": -40.3
         },
         {
             "station": "水布垭",
@@ -5770,7 +2662,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 718,
             "outflow": null,
-            "waterLevel": 377.43
+            "waterLevel": 377.43,
+            "inflowYoy": -266.6
         },
         {
             "station": "隔河岩",
@@ -5780,7 +2673,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 645.2,
             "outflow": null,
-            "waterLevel": 184.4
+            "waterLevel": 184.4,
+            "inflowYoy": -181.4
         },
         {
             "station": "向家坝",
@@ -5790,7 +2684,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 4533.333333333333,
             "outflow": 5512.857142857143,
-            "waterLevel": 373.92
+            "waterLevel": 373.92,
+            "inflowYoy": 58.7
         },
         {
             "station": "龙滩",
@@ -5800,7 +2695,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 2776.8571428571427,
             "outflow": 897.2857142857143,
-            "waterLevel": 345.32428571428574
+            "waterLevel": 345.32428571428574,
+            "inflowYoy": -42.6
         },
         {
             "station": "彭水",
@@ -5810,7 +2706,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": -733.5,
             "outflow": null,
-            "waterLevel": 281.76
+            "waterLevel": 281.76,
+            "inflowYoy": -332.9
         },
         {
             "station": "溪洛渡",
@@ -5820,7 +2717,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 6400,
             "outflow": null,
-            "waterLevel": 559.785
+            "waterLevel": 559.785,
+            "inflowYoy": 509.5
         },
         {
             "station": "乌东德",
@@ -5830,7 +2728,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": -4350,
             "outflow": null,
-            "waterLevel": 959.62
+            "waterLevel": 959.62,
+            "inflowYoy": -231.8
         },
         {
             "station": "三峡",
@@ -5840,7 +2739,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 15000,
             "outflow": 16614.285714285714,
-            "waterLevel": 149.19714285714286
+            "waterLevel": 149.19714285714286,
+            "inflowYoy": 8.8
         },
         {
             "station": "白鹤滩",
@@ -5850,7 +2750,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": -7200,
             "outflow": null,
-            "waterLevel": 788.325
+            "waterLevel": 788.325,
+            "inflowYoy": 278.9
         },
         {
             "station": "构皮滩",
@@ -5860,7 +2761,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": 548,
             "outflow": null,
-            "waterLevel": 615.7349999999999
+            "waterLevel": 615.7349999999999,
+            "inflowYoy": -3753.3
         },
         {
             "station": "瀑布沟",
@@ -5870,7 +2772,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-16",
             "inflow": -2005,
             "outflow": null,
-            "waterLevel": 837.71
+            "waterLevel": 837.71,
+            "inflowYoy": -173.3
         },
         {
             "station": "三峡",
@@ -5880,7 +2783,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 19371.42857142857,
             "outflow": 17571.428571428572,
-            "waterLevel": 149.70714285714286
+            "waterLevel": 149.70714285714286,
+            "inflowYoy": -7.8
         },
         {
             "station": "白鹤滩",
@@ -5890,7 +2794,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 200,
             "outflow": null,
-            "waterLevel": 786.69
+            "waterLevel": 786.69,
+            "inflowYoy": -96.6
         },
         {
             "station": "水布垭",
@@ -5900,7 +2805,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 883,
             "outflow": null,
-            "waterLevel": 382.53
+            "waterLevel": 382.53,
+            "inflowYoy": 46.9
         },
         {
             "station": "龙滩",
@@ -5910,7 +2816,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 5105.857142857143,
             "outflow": 987.8571428571428,
-            "waterLevel": 354.74285714285713
+            "waterLevel": 354.74285714285713,
+            "inflowYoy": -13.2
         },
         {
             "station": "溪洛渡",
@@ -5920,7 +2827,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 5700,
             "outflow": null,
-            "waterLevel": 563.465
+            "waterLevel": 563.465,
+            "inflowYoy": 6.5
         },
         {
             "station": "岩滩",
@@ -5930,7 +2838,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 2854,
             "outflow": 2682.714285714286,
-            "waterLevel": 220.79857142857145
+            "waterLevel": 220.79857142857145,
+            "inflowYoy": -31
         },
         {
             "station": "构皮滩",
@@ -5940,7 +2849,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 795,
             "outflow": null,
-            "waterLevel": 617.0250000000001
+            "waterLevel": 617.0250000000001,
+            "inflowYoy": 130.4
         },
         {
             "station": "隔河岩",
@@ -5950,7 +2860,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 132.5,
             "outflow": null,
-            "waterLevel": 189.185
+            "waterLevel": 189.185,
+            "inflowYoy": -148.4
         },
         {
             "station": "瀑布沟",
@@ -5960,7 +2871,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 260,
             "outflow": null,
-            "waterLevel": 835.935
+            "waterLevel": 835.935,
+            "inflowYoy": -55.9
         },
         {
             "station": "彭水",
@@ -5970,7 +2882,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 3440,
             "outflow": null,
-            "waterLevel": 286.685
+            "waterLevel": 286.685,
+            "inflowYoy": -890.8
         },
         {
             "station": "向家坝",
@@ -5980,7 +2893,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 5171.428571428572,
             "outflow": 5751.428571428572,
-            "waterLevel": 375.745
+            "waterLevel": 375.745,
+            "inflowYoy": 1.1
         },
         {
             "station": "乌东德",
@@ -5990,7 +2904,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-23",
             "inflow": 100,
             "outflow": null,
-            "waterLevel": 957.35
+            "waterLevel": 957.35,
+            "inflowYoy": -113.3
         },
         {
             "station": "乌东德",
@@ -6030,7 +2945,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-30",
             "inflow": 23014.28571428572,
             "outflow": 21085.714285714286,
-            "waterLevel": 152.44428571428574
+            "waterLevel": 152.44428571428574,
+            "inflowYoy": -5.1
         },
         {
             "station": "白鹤滩",
@@ -6060,7 +2976,8 @@ window.WORKBENCH_DATA = {
             "weekStart": "2025-06-30",
             "inflow": 5842.857142857143,
             "outflow": 5864.285714285715,
-            "waterLevel": 373.0700000000001
+            "waterLevel": 373.0700000000001,
+            "inflowYoy": 27
         },
         {
             "station": "溪洛渡",
@@ -22510,2251 +19427,2626 @@ window.WORKBENCH_DATA = {
             "province": "四川",
             "month": "2026-07",
             "proxyPrice": 231.646,
-            "proxyWow": 5.1
+            "proxyWow": 5.1,
+            "proxyYoy": 25.3
         },
         {
             "province": "广东",
             "month": "2026-07",
             "proxyPrice": 480.7,
-            "proxyWow": 9
+            "proxyWow": 9,
+            "proxyYoy": 4.1
         },
         {
             "province": "甘肃",
             "month": "2026-07",
             "proxyPrice": 154.543,
-            "proxyWow": 8.2
+            "proxyWow": 8.2,
+            "proxyYoy": -36.6
         },
         {
             "province": "上海",
             "month": "2026-07",
             "proxyPrice": 482.604,
-            "proxyWow": 6.5
+            "proxyWow": 6.5,
+            "proxyYoy": 4.6
         },
         {
             "province": "山西",
             "month": "2026-07",
             "proxyPrice": 283.474,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -15.2
         },
         {
             "province": "陕西",
             "month": "2026-07",
             "proxyPrice": 270.6,
-            "proxyWow": 3.3
+            "proxyWow": 3.3,
+            "proxyYoy": -24
         },
         {
             "province": "广西",
             "month": "2026-07",
             "proxyPrice": 359.111,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": -4.6
         },
         {
             "province": "浙江",
             "month": "2026-07",
             "proxyPrice": 421.346,
-            "proxyWow": 7.8
+            "proxyWow": 7.8,
+            "proxyYoy": -0.7
         },
         {
             "province": "北京",
             "month": "2026-07",
             "proxyPrice": 387.998,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -4.7
         },
         {
             "province": "重庆",
             "month": "2026-07",
             "proxyPrice": 458.039,
-            "proxyWow": 5.6
+            "proxyWow": 5.6,
+            "proxyYoy": -5.1
         },
         {
             "province": "云南",
             "month": "2026-07",
             "proxyPrice": 168.687,
-            "proxyWow": -18.2
+            "proxyWow": -18.2,
+            "proxyYoy": -19.6
         },
         {
             "province": "天津",
             "month": "2026-07",
             "proxyPrice": 384.851,
-            "proxyWow": 0.9
+            "proxyWow": 0.9,
+            "proxyYoy": -7.3
         },
         {
             "province": "福建",
             "month": "2026-07",
             "proxyPrice": 374.98900000000003,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": -9.2
         },
         {
             "province": "新疆",
             "month": "2026-07",
             "proxyPrice": 116.312,
-            "proxyWow": -23.6
+            "proxyWow": -23.6,
+            "proxyYoy": -55.3
         },
         {
             "province": "黑龙江",
             "month": "2026-07",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -23.1
         },
         {
             "province": "江西",
             "month": "2026-07",
             "proxyPrice": 405.745,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.7
         },
         {
             "province": "河南",
             "month": "2026-07",
             "proxyPrice": 351.45799999999997,
-            "proxyWow": 10.2
+            "proxyWow": 10.2,
+            "proxyYoy": -13.3
         },
         {
             "province": "江苏",
             "month": "2026-07",
             "proxyPrice": 398.9,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": -9.1
         },
         {
             "province": "湖南",
             "month": "2026-07",
             "proxyPrice": 286.07,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -39.2
         },
         {
             "province": "吉林",
             "month": "2026-07",
             "proxyPrice": 346.87,
-            "proxyWow": 0.9
+            "proxyWow": 0.9,
+            "proxyYoy": -11
         },
         {
             "province": "湖北",
             "month": "2026-07",
             "proxyPrice": 403.61,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -0.4
         },
         {
             "province": "青海",
             "month": "2026-07",
             "proxyPrice": 242.856,
-            "proxyWow": 18.3
+            "proxyWow": 18.3,
+            "proxyYoy": 1.6
         },
         {
             "province": "山东",
             "month": "2026-07",
             "proxyPrice": 357.20000000000005,
-            "proxyWow": 5.3
+            "proxyWow": 5.3,
+            "proxyYoy": -5.1
         },
         {
             "province": "贵州",
             "month": "2026-07",
             "proxyPrice": 384.52599999999995,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -4
         },
         {
             "province": "海南",
             "month": "2026-07",
             "proxyPrice": 430.53200000000004,
-            "proxyWow": -9.7
+            "proxyWow": -9.7,
+            "proxyYoy": -15.2
         },
         {
             "province": "辽宁",
             "month": "2026-07",
             "proxyPrice": 326.175,
-            "proxyWow": 11
+            "proxyWow": 11,
+            "proxyYoy": -20.9
         },
         {
             "province": "河北",
             "month": "2026-07",
             "proxyPrice": 402.886,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": -1.6
         },
         {
             "province": "宁夏",
             "month": "2026-07",
             "proxyPrice": 237.8,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -16.8
         },
         {
             "province": "安徽",
             "month": "2026-07",
             "proxyPrice": 303.06,
-            "proxyWow": -5.8
+            "proxyWow": -5.8,
+            "proxyYoy": -27.1
         },
         {
             "province": "江西",
             "month": "2026-06",
             "proxyPrice": 405.745,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -8.4
         },
         {
             "province": "山西",
             "month": "2026-06",
             "proxyPrice": 276.004,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -18
         },
         {
             "province": "福建",
             "month": "2026-06",
             "proxyPrice": 370.599,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -11.2
         },
         {
             "province": "甘肃",
             "month": "2026-06",
             "proxyPrice": 142.76500000000001,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": -40.1
         },
         {
             "province": "青海",
             "month": "2026-06",
             "proxyPrice": 205.22799999999998,
-            "proxyWow": -12.2
+            "proxyWow": -12.2,
+            "proxyYoy": -14
         },
         {
             "province": "海南",
             "month": "2026-06",
             "proxyPrice": 476.635,
-            "proxyWow": 14.9
+            "proxyWow": 14.9,
+            "proxyYoy": -2.9
         },
         {
             "province": "内蒙古",
             "month": "2026-06",
             "proxyPrice": 276,
-            "proxyWow": 1
+            "proxyWow": 1,
+            "proxyYoy": -2.7
         },
         {
             "province": "北京",
             "month": "2026-06",
             "proxyPrice": 386.08500000000004,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -3.5
         },
         {
             "province": "浙江",
             "month": "2026-06",
             "proxyPrice": 391.00600000000003,
-            "proxyWow": 5.1
+            "proxyWow": 5.1,
+            "proxyYoy": -7.5
         },
         {
             "province": "上海",
             "month": "2026-06",
             "proxyPrice": 453.34400000000005,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": -1.9
         },
         {
             "province": "河南",
             "month": "2026-06",
             "proxyPrice": 318.828,
-            "proxyWow": 2.1
+            "proxyWow": 2.1,
+            "proxyYoy": -21.3
         },
         {
             "province": "广西",
             "month": "2026-06",
             "proxyPrice": 354.888,
-            "proxyWow": 5.3
+            "proxyWow": 5.3,
+            "proxyYoy": -3.8
         },
         {
             "province": "云南",
             "month": "2026-06",
             "proxyPrice": 206.244,
-            "proxyWow": -19.8
+            "proxyWow": -19.8,
+            "proxyYoy": -10.3
         },
         {
             "province": "贵州",
             "month": "2026-06",
             "proxyPrice": 379.691,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.7
         },
         {
             "province": "吉林",
             "month": "2026-06",
             "proxyPrice": 343.77000000000004,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -12.2
         },
         {
             "province": "湖北",
             "month": "2026-06",
             "proxyPrice": 405.2,
-            "proxyWow": 1.7
+            "proxyWow": 1.7,
+            "proxyYoy": -2.7
         },
         {
             "province": "辽宁",
             "month": "2026-06",
             "proxyPrice": 293.799,
-            "proxyWow": 1.6
+            "proxyWow": 1.6,
+            "proxyYoy": -29.5
         },
         {
             "province": "江苏",
             "month": "2026-06",
             "proxyPrice": 391,
-            "proxyWow": 6.8
+            "proxyWow": 6.8,
+            "proxyYoy": -10.5
         },
         {
             "province": "山东",
             "month": "2026-06",
             "proxyPrice": 339.1,
-            "proxyWow": -4.2
+            "proxyWow": -4.2,
+            "proxyYoy": -18.7
         },
         {
             "province": "四川",
             "month": "2026-06",
             "proxyPrice": 220.492,
-            "proxyWow": -36.3
+            "proxyWow": -36.3,
+            "proxyYoy": -13.4
         },
         {
             "province": "新疆",
             "month": "2026-06",
             "proxyPrice": 152.292,
-            "proxyWow": -35.9
+            "proxyWow": -35.9,
+            "proxyYoy": -43.2
         },
         {
             "province": "广东",
             "month": "2026-06",
             "proxyPrice": 440.90000000000003,
-            "proxyWow": 3.8
+            "proxyWow": 3.8,
+            "proxyYoy": -5.5
         },
         {
             "province": "湖南",
             "month": "2026-06",
             "proxyPrice": 286.478,
-            "proxyWow": 11.4
+            "proxyWow": 11.4,
+            "proxyYoy": -38.4
         },
         {
             "province": "河北",
             "month": "2026-06",
             "proxyPrice": 398.59299999999996,
-            "proxyWow": 5.4
+            "proxyWow": 5.4,
+            "proxyYoy": -2.7
         },
         {
             "province": "陕西",
             "month": "2026-06",
             "proxyPrice": 261.90000000000003,
-            "proxyWow": -8.5
+            "proxyWow": -8.5,
+            "proxyYoy": -23.7
         },
         {
             "province": "宁夏",
             "month": "2026-06",
             "proxyPrice": 237.2,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -14.7
         },
         {
             "province": "天津",
             "month": "2026-06",
             "proxyPrice": 381.548,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -6.1
         },
         {
             "province": "重庆",
             "month": "2026-06",
             "proxyPrice": 433.791,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -2.7
         },
         {
             "province": "黑龙江",
             "month": "2026-06",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -23.1
         },
         {
             "province": "安徽",
             "month": "2026-06",
             "proxyPrice": 321.76,
-            "proxyWow": -6.9
+            "proxyWow": -6.9,
+            "proxyYoy": -22
         },
         {
             "province": "福建",
             "month": "2026-05",
             "proxyPrice": 371.38599999999997,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -14
         },
         {
             "province": "江苏",
             "month": "2026-05",
             "proxyPrice": 366,
-            "proxyWow": -2.3
+            "proxyWow": -2.3,
+            "proxyYoy": -15.1
         },
         {
             "province": "山东",
             "month": "2026-05",
             "proxyPrice": 353.8,
-            "proxyWow": 13.6
+            "proxyWow": 13.6,
+            "proxyYoy": -21.6
         },
         {
             "province": "重庆",
             "month": "2026-05",
             "proxyPrice": 437.098,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": -4.3
         },
         {
             "province": "辽宁",
             "month": "2026-05",
             "proxyPrice": 289.215,
-            "proxyWow": -3.8
+            "proxyWow": -3.8,
+            "proxyYoy": -31.2
         },
         {
             "province": "上海",
             "month": "2026-05",
             "proxyPrice": 459.464,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -0.6
         },
         {
             "province": "贵州",
             "month": "2026-05",
             "proxyPrice": 379.745,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": -4
         },
         {
             "province": "黑龙江",
             "month": "2026-05",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -22.7
         },
         {
             "province": "云南",
             "month": "2026-05",
             "proxyPrice": 257.092,
-            "proxyWow": -3.8
+            "proxyWow": -3.8,
+            "proxyYoy": -13.2
         },
         {
             "province": "河南",
             "month": "2026-05",
             "proxyPrice": 312.23499999999996,
-            "proxyWow": -11.5
+            "proxyWow": -11.5,
+            "proxyYoy": -22.9
         },
         {
             "province": "宁夏",
             "month": "2026-05",
             "proxyPrice": 238.5,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -17.9
         },
         {
             "province": "广东",
             "month": "2026-05",
             "proxyPrice": 424.9,
-            "proxyWow": 11.6
+            "proxyWow": 11.6,
+            "proxyYoy": -11.3
         },
         {
             "province": "广西",
             "month": "2026-05",
             "proxyPrice": 336.99,
-            "proxyWow": -2.9
+            "proxyWow": -2.9,
+            "proxyYoy": -5.9
         },
         {
             "province": "湖南",
             "month": "2026-05",
             "proxyPrice": 257.202,
-            "proxyWow": -30.9
+            "proxyWow": -30.9,
+            "proxyYoy": -44.9
         },
         {
             "province": "北京",
             "month": "2026-05",
             "proxyPrice": 387.02500000000003,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -3.1
         },
         {
             "province": "河北",
             "month": "2026-05",
             "proxyPrice": 377.996,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": -7.6
         },
         {
             "province": "甘肃",
             "month": "2026-05",
             "proxyPrice": 144.591,
-            "proxyWow": -17.1
+            "proxyWow": -17.1,
+            "proxyYoy": -37.6
         },
         {
             "province": "四川",
             "month": "2026-05",
             "proxyPrice": 346.24,
-            "proxyWow": -15.4
+            "proxyWow": -15.4,
+            "proxyYoy": 11.7
         },
         {
             "province": "内蒙古",
             "month": "2026-05",
             "proxyPrice": 273.2,
-            "proxyWow": -2
+            "proxyWow": -2,
+            "proxyYoy": -4.9
         },
         {
             "province": "山西",
             "month": "2026-05",
             "proxyPrice": 279.48499999999996,
-            "proxyWow": -4.1
+            "proxyWow": -4.1,
+            "proxyYoy": -16.9
         },
         {
             "province": "浙江",
             "month": "2026-05",
             "proxyPrice": 371.867,
-            "proxyWow": 5.4
+            "proxyWow": 5.4,
+            "proxyYoy": -14.9
         },
         {
             "province": "青海",
             "month": "2026-05",
             "proxyPrice": 233.747,
-            "proxyWow": -10.3
+            "proxyWow": -10.3,
+            "proxyYoy": -8
         },
         {
             "province": "新疆",
             "month": "2026-05",
             "proxyPrice": 237.646,
-            "proxyWow": 3.9
+            "proxyWow": 3.9,
+            "proxyYoy": -4.4
         },
         {
             "province": "安徽",
             "month": "2026-05",
             "proxyPrice": 345.46,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -16.4
         },
         {
             "province": "天津",
             "month": "2026-05",
             "proxyPrice": 383.864,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -11.2
         },
         {
             "province": "吉林",
             "month": "2026-05",
             "proxyPrice": 337.54,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -13.9
         },
         {
             "province": "湖北",
             "month": "2026-05",
             "proxyPrice": 398.38,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -9.2
         },
         {
             "province": "江西",
             "month": "2026-05",
             "proxyPrice": 405.74399999999997,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.4
         },
         {
             "province": "陕西",
             "month": "2026-05",
             "proxyPrice": 286.3,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -12.7
         },
         {
             "province": "江西",
             "month": "2026-04",
             "proxyPrice": 405.745,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.5
         },
         {
             "province": "福建",
             "month": "2026-04",
             "proxyPrice": 370.391,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": -9.5
         },
         {
             "province": "新疆",
             "month": "2026-04",
             "proxyPrice": 228.721,
-            "proxyWow": -28.9
+            "proxyWow": -28.9,
+            "proxyYoy": -13.1
         },
         {
             "province": "四川",
             "month": "2026-04",
             "proxyPrice": 409.366,
-            "proxyWow": -2.7
+            "proxyWow": -2.7,
+            "proxyYoy": -6
         },
         {
             "province": "内蒙古",
             "month": "2026-04",
             "proxyPrice": 278.8,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": -7.1
         },
         {
             "province": "甘肃",
             "month": "2026-04",
             "proxyPrice": 174.36499999999998,
-            "proxyWow": -25.9
+            "proxyWow": -25.9,
+            "proxyYoy": -34.6
         },
         {
             "province": "宁夏",
             "month": "2026-04",
             "proxyPrice": 238.5,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": -17.3
         },
         {
             "province": "海南",
             "month": "2026-04",
             "proxyPrice": 414.656,
-            "proxyWow": 4.4
+            "proxyWow": 4.4,
+            "proxyYoy": -14.7
         },
         {
             "province": "河北",
             "month": "2026-04",
             "proxyPrice": 383.88800000000003,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -6.3
         },
         {
             "province": "青海",
             "month": "2026-04",
             "proxyPrice": 260.721,
-            "proxyWow": -17.8
+            "proxyWow": -17.8,
+            "proxyYoy": -6.3
         },
         {
             "province": "河南",
             "month": "2026-04",
             "proxyPrice": 352.904,
-            "proxyWow": 7.6
+            "proxyWow": 7.6,
+            "proxyYoy": -12.9
         },
         {
             "province": "山东",
             "month": "2026-04",
             "proxyPrice": 311.5,
-            "proxyWow": -7.7
+            "proxyWow": -7.7,
+            "proxyYoy": -32.8
         },
         {
             "province": "上海",
             "month": "2026-04",
             "proxyPrice": 447.219,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": -3.4
         },
         {
             "province": "广东",
             "month": "2026-04",
             "proxyPrice": 380.8,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -18.2
         },
         {
             "province": "天津",
             "month": "2026-04",
             "proxyPrice": 386.07599999999996,
-            "proxyWow": 1
+            "proxyWow": 1,
+            "proxyYoy": -5.1
         },
         {
             "province": "辽宁",
             "month": "2026-04",
             "proxyPrice": 300.71,
-            "proxyWow": 49.4
+            "proxyWow": 49.4,
+            "proxyYoy": -28.1
         },
         {
             "province": "江苏",
             "month": "2026-04",
             "proxyPrice": 374.59999999999997,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -15.4
         },
         {
             "province": "贵州",
             "month": "2026-04",
             "proxyPrice": 375.721,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -5
         },
         {
             "province": "陕西",
             "month": "2026-04",
             "proxyPrice": 287.6,
-            "proxyWow": -8.1
+            "proxyWow": -8.1,
+            "proxyYoy": -12.1
         },
         {
             "province": "湖北",
             "month": "2026-04",
             "proxyPrice": 400.92,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": -6
         },
         {
             "province": "云南",
             "month": "2026-04",
             "proxyPrice": 267.327,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": -10.4
         },
         {
             "province": "重庆",
             "month": "2026-04",
             "proxyPrice": 444.074,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": -2.4
         },
         {
             "province": "安徽",
             "month": "2026-04",
             "proxyPrice": 344.53000000000003,
-            "proxyWow": 2.2
+            "proxyWow": 2.2,
+            "proxyYoy": -14.1
         },
         {
             "province": "湖南",
             "month": "2026-04",
             "proxyPrice": 372.308,
-            "proxyWow": -13.9
+            "proxyWow": -13.9,
+            "proxyYoy": -19.9
         },
         {
             "province": "广西",
             "month": "2026-04",
             "proxyPrice": 346.90500000000003,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -4.1
         },
         {
             "province": "北京",
             "month": "2026-04",
             "proxyPrice": 389.043,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -2.6
         },
         {
             "province": "山西",
             "month": "2026-04",
             "proxyPrice": 291.545,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -13.4
         },
         {
             "province": "浙江",
             "month": "2026-04",
             "proxyPrice": 352.658,
-            "proxyWow": -5.2
+            "proxyWow": -5.2,
+            "proxyYoy": -16
         },
         {
             "province": "黑龙江",
             "month": "2026-04",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -23.1
         },
         {
             "province": "吉林",
             "month": "2026-04",
             "proxyPrice": 339.11,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -13.1
         },
         {
             "province": "辽宁",
             "month": "2026-03",
             "proxyPrice": 201.213,
-            "proxyWow": -34.7
+            "proxyWow": -34.7,
+            "proxyYoy": -52.4
         },
         {
             "province": "湖南",
             "month": "2026-03",
             "proxyPrice": 432.185,
-            "proxyWow": -3.2
+            "proxyWow": -3.2,
+            "proxyYoy": -8.4
         },
         {
             "province": "吉林",
             "month": "2026-03",
             "proxyPrice": 340.75600000000003,
-            "proxyWow": -1
+            "proxyWow": -1,
+            "proxyYoy": -15.5
         },
         {
             "province": "广西",
             "month": "2026-03",
             "proxyPrice": 337.625,
-            "proxyWow": -5.9
+            "proxyWow": -5.9,
+            "proxyYoy": -6.6
         },
         {
             "province": "甘肃",
             "month": "2026-03",
             "proxyPrice": 235.37,
-            "proxyWow": -3.8
+            "proxyWow": -3.8,
+            "proxyYoy": -12.1
         },
         {
             "province": "青海",
             "month": "2026-03",
             "proxyPrice": 317.199,
-            "proxyWow": 9
+            "proxyWow": 9,
+            "proxyYoy": 10.8
         },
         {
             "province": "内蒙古",
             "month": "2026-03",
             "proxyPrice": 283.4,
-            "proxyWow": 0.7
+            "proxyWow": 0.7,
+            "proxyYoy": -3.7
         },
         {
             "province": "湖北",
             "month": "2026-03",
             "proxyPrice": 390.06,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -11.3
         },
         {
             "province": "山西",
             "month": "2026-03",
             "proxyPrice": 283.75800000000004,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -25.3
         },
         {
             "province": "四川",
             "month": "2026-03",
             "proxyPrice": 420.719,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": -5.3
         },
         {
             "province": "河北",
             "month": "2026-03",
             "proxyPrice": 391.12,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": -4.6
         },
         {
             "province": "天津",
             "month": "2026-03",
             "proxyPrice": 382.257,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -4.4
         },
         {
             "province": "北京",
             "month": "2026-03",
             "proxyPrice": 388.485,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -3.1
         },
         {
             "province": "江苏",
             "month": "2026-03",
             "proxyPrice": 369.8,
-            "proxyWow": 17.3
+            "proxyWow": 17.3,
+            "proxyYoy": -15.7
         },
         {
             "province": "陕西",
             "month": "2026-03",
             "proxyPrice": 313,
-            "proxyWow": -4.2
+            "proxyWow": -4.2,
+            "proxyYoy": -11.1
         },
         {
             "province": "福建",
             "month": "2026-03",
             "proxyPrice": 366.422,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -9.6
         },
         {
             "province": "山东",
             "month": "2026-03",
             "proxyPrice": 337.5,
-            "proxyWow": -13.2
+            "proxyWow": -13.2,
+            "proxyYoy": -29.3
         },
         {
             "province": "江西",
             "month": "2026-03",
             "proxyPrice": 405.745,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -10.1
         },
         {
             "province": "贵州",
             "month": "2026-03",
             "proxyPrice": 383.704,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -4.2
         },
         {
             "province": "海南",
             "month": "2026-03",
             "proxyPrice": 397.00600000000003,
-            "proxyWow": -9.6
+            "proxyWow": -9.6,
+            "proxyYoy": -16.5
         },
         {
             "province": "新疆",
             "month": "2026-03",
             "proxyPrice": 321.914,
-            "proxyWow": 14.6
+            "proxyWow": 14.6,
+            "proxyYoy": 22.9
         },
         {
             "province": "安徽",
             "month": "2026-03",
             "proxyPrice": 336.96999999999997,
-            "proxyWow": -6.3
+            "proxyWow": -6.3,
+            "proxyYoy": -17.8
         },
         {
             "province": "广东",
             "month": "2026-03",
             "proxyPrice": 382.7,
-            "proxyWow": 2.2
+            "proxyWow": 2.2,
+            "proxyYoy": -16.6
         },
         {
             "province": "黑龙江",
             "month": "2026-03",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -23.1
         },
         {
             "province": "上海",
             "month": "2026-03",
             "proxyPrice": 453.58500000000004,
-            "proxyWow": -4.6
+            "proxyWow": -4.6,
+            "proxyYoy": -2
         },
         {
             "province": "重庆",
             "month": "2026-03",
             "proxyPrice": 437.647,
-            "proxyWow": -3.4
+            "proxyWow": -3.4,
+            "proxyYoy": -5.8
         },
         {
             "province": "河南",
             "month": "2026-03",
             "proxyPrice": 328.02,
-            "proxyWow": -14.9
+            "proxyWow": -14.9,
+            "proxyYoy": -19
         },
         {
             "province": "宁夏",
             "month": "2026-03",
             "proxyPrice": 242.5,
-            "proxyWow": -5.1
+            "proxyWow": -5.1,
+            "proxyYoy": -16.2
         },
         {
             "province": "云南",
             "month": "2026-03",
             "proxyPrice": 264.53900000000004,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -11.1
         },
         {
             "province": "浙江",
             "month": "2026-03",
             "proxyPrice": 371.954,
-            "proxyWow": -3.8
+            "proxyWow": -3.8,
+            "proxyYoy": -9
         },
         {
             "province": "湖南",
             "month": "2026-02",
             "proxyPrice": 446.64300000000003,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": -5.7
         },
         {
             "province": "海南",
             "month": "2026-02",
             "proxyPrice": 439.247,
-            "proxyWow": -29.5
+            "proxyWow": -29.5,
+            "proxyYoy": -10.3
         },
         {
             "province": "宁夏",
             "month": "2026-02",
             "proxyPrice": 255.6,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -13.1
         },
         {
             "province": "重庆",
             "month": "2026-02",
             "proxyPrice": 453.163,
-            "proxyWow": 5
+            "proxyWow": 5,
+            "proxyYoy": -6.4
         },
         {
             "province": "陕西",
             "month": "2026-02",
             "proxyPrice": 326.7,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -8.2
         },
         {
             "province": "河北",
             "month": "2026-02",
             "proxyPrice": 403.83299999999997,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -1.9
         },
         {
             "province": "四川",
             "month": "2026-02",
             "proxyPrice": 412.6,
-            "proxyWow": -2.4
+            "proxyWow": -2.4,
+            "proxyYoy": -2.5
         },
         {
             "province": "内蒙古",
             "month": "2026-02",
             "proxyPrice": 281.5,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": -6.2
         },
         {
             "province": "广东",
             "month": "2026-02",
             "proxyPrice": 374.5,
-            "proxyWow": 1.6
+            "proxyWow": 1.6,
+            "proxyYoy": -21.3
         },
         {
             "province": "山西",
             "month": "2026-02",
             "proxyPrice": 291.25,
-            "proxyWow": -4.2
+            "proxyWow": -4.2,
+            "proxyYoy": -24.5
         },
         {
             "province": "浙江",
             "month": "2026-02",
             "proxyPrice": 386.65500000000003,
-            "proxyWow": -5.4
+            "proxyWow": -5.4,
+            "proxyYoy": -10.4
         },
         {
             "province": "云南",
             "month": "2026-02",
             "proxyPrice": 262.856,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -13
         },
         {
             "province": "上海",
             "month": "2026-02",
             "proxyPrice": 475.275,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 2.7
         },
         {
             "province": "河南",
             "month": "2026-02",
             "proxyPrice": 385.249,
-            "proxyWow": 13.4
+            "proxyWow": 13.4,
+            "proxyYoy": -4.9
         },
         {
             "province": "广西",
             "month": "2026-02",
             "proxyPrice": 358.65000000000003,
-            "proxyWow": 4.7
+            "proxyWow": 4.7,
+            "proxyYoy": -4.2
         },
         {
             "province": "江苏",
             "month": "2026-02",
             "proxyPrice": 315.3,
-            "proxyWow": -20.4
+            "proxyWow": -20.4,
+            "proxyYoy": -29.5
         },
         {
             "province": "江西",
             "month": "2026-02",
             "proxyPrice": 405.745,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": -12.1
         },
         {
             "province": "安徽",
             "month": "2026-02",
             "proxyPrice": 359.45,
-            "proxyWow": 3.3
+            "proxyWow": 3.3,
+            "proxyYoy": -12.7
         },
         {
             "province": "新疆",
             "month": "2026-02",
             "proxyPrice": 280.966,
-            "proxyWow": 19
+            "proxyWow": 19,
+            "proxyYoy": 19.9
         },
         {
             "province": "黑龙江",
             "month": "2026-02",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -23.1
         },
         {
             "province": "福建",
             "month": "2026-02",
             "proxyPrice": 368.022,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -9.1
         },
         {
             "province": "贵州",
             "month": "2026-02",
             "proxyPrice": 382.894,
-            "proxyWow": 2.2
+            "proxyWow": 2.2,
+            "proxyYoy": -4.6
         },
         {
             "province": "吉林",
             "month": "2026-02",
             "proxyPrice": 344.08,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -14.2
         },
         {
             "province": "天津",
             "month": "2026-02",
             "proxyPrice": 382.515,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -6.9
         },
         {
             "province": "北京",
             "month": "2026-02",
             "proxyPrice": 386.753,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -3.1
         },
         {
             "province": "湖北",
             "month": "2026-02",
             "proxyPrice": 391.13,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -3.5
         },
         {
             "province": "山东",
             "month": "2026-02",
             "proxyPrice": 388.90000000000003,
-            "proxyWow": -10.8
+            "proxyWow": -10.8,
+            "proxyYoy": -17.9
         },
         {
             "province": "青海",
             "month": "2026-02",
             "proxyPrice": 290.996,
-            "proxyWow": -3.5
+            "proxyWow": -3.5,
+            "proxyYoy": -0.5
         },
         {
             "province": "甘肃",
             "month": "2026-02",
             "proxyPrice": 244.792,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -10.8
         },
         {
             "province": "辽宁",
             "month": "2026-02",
             "proxyPrice": 308.022,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -29
         },
         {
             "province": "山东",
             "month": "2026-01",
             "proxyPrice": 436,
-            "proxyWow": -14.9
+            "proxyWow": -14.9,
+            "proxyYoy": -7.2
         },
         {
             "province": "海南",
             "month": "2026-01",
             "proxyPrice": 623.245,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": 23.3
         },
         {
             "province": "广西",
             "month": "2026-01",
             "proxyPrice": 342.563,
-            "proxyWow": -10.4
+            "proxyWow": -10.4,
+            "proxyYoy": -12.9
         },
         {
             "province": "贵州",
             "month": "2026-01",
             "proxyPrice": 374.558,
-            "proxyWow": -4.9
+            "proxyWow": -4.9,
+            "proxyYoy": -7.3
         },
         {
             "province": "陕西",
             "month": "2026-01",
             "proxyPrice": 325.7,
-            "proxyWow": -7.1
+            "proxyWow": -7.1,
+            "proxyYoy": -14.3
         },
         {
             "province": "青海",
             "month": "2026-01",
             "proxyPrice": 301.65799999999996,
-            "proxyWow": 8
+            "proxyWow": 8,
+            "proxyYoy": -1.5
         },
         {
             "province": "四川",
             "month": "2026-01",
             "proxyPrice": 422.843,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": 0.7
         },
         {
             "province": "山西",
             "month": "2026-01",
             "proxyPrice": 304.09999999999997,
-            "proxyWow": -21.1
+            "proxyWow": -21.1,
+            "proxyYoy": -22.9
         },
         {
             "province": "上海",
             "month": "2026-01",
             "proxyPrice": 477.3,
-            "proxyWow": -6.5
+            "proxyWow": -6.5,
+            "proxyYoy": 0.9
         },
         {
             "province": "辽宁",
             "month": "2026-01",
             "proxyPrice": 310.821,
-            "proxyWow": -25.8
+            "proxyWow": -25.8,
+            "proxyYoy": -26.8
         },
         {
             "province": "天津",
             "month": "2026-01",
             "proxyPrice": 383.083,
-            "proxyWow": -5.7
+            "proxyWow": -5.7,
+            "proxyYoy": -7
         },
         {
             "province": "吉林",
             "month": "2026-01",
             "proxyPrice": 344.2,
-            "proxyWow": -18.4
+            "proxyWow": -18.4,
+            "proxyYoy": -18.3
         },
         {
             "province": "北京",
             "month": "2026-01",
             "proxyPrice": 387.35900000000004,
-            "proxyWow": -3.2
+            "proxyWow": -3.2,
+            "proxyYoy": -3.1
         },
         {
             "province": "内蒙古",
             "month": "2026-01",
             "proxyPrice": 286.3,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -3.4
         },
         {
             "province": "湖北",
             "month": "2026-01",
             "proxyPrice": 388.09,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -12.3
         },
         {
             "province": "甘肃",
             "month": "2026-01",
             "proxyPrice": 249.928,
-            "proxyWow": -9
+            "proxyWow": -9,
+            "proxyYoy": -23.8
         },
         {
             "province": "黑龙江",
             "month": "2026-01",
             "proxyPrice": 299.20000000000005,
-            "proxyWow": -23.1
+            "proxyWow": -23.1,
+            "proxyYoy": -23.1
         },
         {
             "province": "江西",
             "month": "2026-01",
             "proxyPrice": 412.549,
-            "proxyWow": -6.5
+            "proxyWow": -6.5,
+            "proxyYoy": -11.3
         },
         {
             "province": "新疆",
             "month": "2026-01",
             "proxyPrice": 236.05200000000002,
-            "proxyWow": -13.6
+            "proxyWow": -13.6,
+            "proxyYoy": -9.2
         },
         {
             "province": "云南",
             "month": "2026-01",
             "proxyPrice": 265.06,
-            "proxyWow": -10
+            "proxyWow": -10,
+            "proxyYoy": -12.6
         },
         {
             "province": "江苏",
             "month": "2026-01",
             "proxyPrice": 395.9,
-            "proxyWow": -11.4
+            "proxyWow": -11.4,
+            "proxyYoy": -13.2
         },
         {
             "province": "安徽",
             "month": "2026-01",
             "proxyPrice": 347.86,
-            "proxyWow": -13.3
+            "proxyWow": -13.3,
+            "proxyYoy": -15
         },
         {
             "province": "河南",
             "month": "2026-01",
             "proxyPrice": 339.764,
-            "proxyWow": -14.8
+            "proxyWow": -14.8,
+            "proxyYoy": -16.2
         },
         {
             "province": "广东",
             "month": "2026-01",
             "proxyPrice": 368.70000000000005,
-            "proxyWow": -17.6
+            "proxyWow": -17.6,
+            "proxyYoy": -21.8
         },
         {
             "province": "湖南",
             "month": "2026-01",
             "proxyPrice": 441.134,
-            "proxyWow": 0.7
+            "proxyWow": 0.7,
+            "proxyYoy": -8.1
         },
         {
             "province": "宁夏",
             "month": "2026-01",
             "proxyPrice": 255.5,
-            "proxyWow": -12.2
+            "proxyWow": -12.2,
+            "proxyYoy": -16.9
         },
         {
             "province": "福建",
             "month": "2026-01",
             "proxyPrice": 369.438,
-            "proxyWow": -7.9
+            "proxyWow": -7.9,
+            "proxyYoy": -11.6
         },
         {
             "province": "重庆",
             "month": "2026-01",
             "proxyPrice": 431.55100000000004,
-            "proxyWow": -3.4
+            "proxyWow": -3.4,
+            "proxyYoy": -7.1
         },
         {
             "province": "河北",
             "month": "2026-01",
             "proxyPrice": 407.65000000000003,
-            "proxyWow": -7
+            "proxyWow": -7,
+            "proxyYoy": -0.9
         },
         {
             "province": "浙江",
             "month": "2026-01",
             "proxyPrice": 408.586,
-            "proxyWow": -7.7
+            "proxyWow": -7.7,
+            "proxyYoy": -5
         },
         {
             "province": "重庆",
             "month": "2025-12",
             "proxyPrice": 446.545,
-            "proxyWow": -5.7
+            "proxyWow": -5.7,
+            "proxyYoy": -6.9
         },
         {
             "province": "黑龙江",
             "month": "2025-12",
             "proxyPrice": 389.078,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "江苏",
             "month": "2025-12",
             "proxyPrice": 446.79999999999995,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -3.3
         },
         {
             "province": "贵州",
             "month": "2025-12",
             "proxyPrice": 394.032,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -3.2
         },
         {
             "province": "广西",
             "month": "2025-12",
             "proxyPrice": 382.324,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -5.5
         },
         {
             "province": "新疆",
             "month": "2025-12",
             "proxyPrice": 273.246,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -4.7
         },
         {
             "province": "山东",
             "month": "2025-12",
             "proxyPrice": 512.5,
-            "proxyWow": -4.2
+            "proxyWow": -4.2,
+            "proxyYoy": 10.7
         },
         {
             "province": "浙江",
             "month": "2025-12",
             "proxyPrice": 442.766,
-            "proxyWow": 5.8
+            "proxyWow": 5.8,
+            "proxyYoy": -5.5
         },
         {
             "province": "吉林",
             "month": "2025-12",
             "proxyPrice": 421.68,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": 0.1
         },
         {
             "province": "湖南",
             "month": "2025-12",
             "proxyPrice": 438.089,
-            "proxyWow": 8.1
+            "proxyWow": 8.1,
+            "proxyYoy": -5.7
         },
         {
             "province": "北京",
             "month": "2025-12",
             "proxyPrice": 399.99899999999997,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -2.7
         },
         {
             "province": "山西",
             "month": "2025-12",
             "proxyPrice": 385.446,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": 0.7
         },
         {
             "province": "云南",
             "month": "2025-12",
             "proxyPrice": 294.39500000000004,
-            "proxyWow": 41.8
+            "proxyWow": 41.8,
+            "proxyYoy": -3.2
         },
         {
             "province": "湖北",
             "month": "2025-12",
             "proxyPrice": 392.84999999999997,
-            "proxyWow": -6.6
+            "proxyWow": -6.6,
+            "proxyYoy": -14.4
         },
         {
             "province": "陕西",
             "month": "2025-12",
             "proxyPrice": 350.7,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": -12.7
         },
         {
             "province": "天津",
             "month": "2025-12",
             "proxyPrice": 406.13500000000005,
-            "proxyWow": -4.3
+            "proxyWow": -4.3,
+            "proxyYoy": -0.8
         },
         {
             "province": "辽宁",
             "month": "2025-12",
             "proxyPrice": 418.90500000000003,
-            "proxyWow": 2.2
+            "proxyWow": 2.2,
+            "proxyYoy": -1.4
         },
         {
             "province": "青海",
             "month": "2025-12",
             "proxyPrice": 279.435,
-            "proxyWow": -16.3
+            "proxyWow": -16.3,
+            "proxyYoy": 0.9
         },
         {
             "province": "上海",
             "month": "2025-12",
             "proxyPrice": 510.70000000000005,
-            "proxyWow": 5.1
+            "proxyWow": 5.1,
+            "proxyYoy": 8
         },
         {
             "province": "安徽",
             "month": "2025-12",
             "proxyPrice": 401,
-            "proxyWow": 3.2
+            "proxyWow": 3.2,
+            "proxyYoy": -8.1
         },
         {
             "province": "甘肃",
             "month": "2025-12",
             "proxyPrice": 274.78200000000004,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -15.1
         },
         {
             "province": "广东",
             "month": "2025-12",
             "proxyPrice": 447.2,
-            "proxyWow": 5.9
+            "proxyWow": 5.9,
+            "proxyYoy": -8.1
         },
         {
             "province": "海南",
             "month": "2025-12",
             "proxyPrice": 606.639,
-            "proxyWow": 6.9
+            "proxyWow": 6.9,
+            "proxyYoy": 20
         },
         {
             "province": "四川",
             "month": "2025-12",
             "proxyPrice": 430.56100000000004,
-            "proxyWow": 9.8
+            "proxyWow": 9.8,
+            "proxyYoy": -6.7
         },
         {
             "province": "内蒙古",
             "month": "2025-12",
             "proxyPrice": 287.3,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -2.9
         },
         {
             "province": "河北",
             "month": "2025-12",
             "proxyPrice": 438.25,
-            "proxyWow": 3.1
+            "proxyWow": 3.1,
+            "proxyYoy": 5.4
         },
         {
             "province": "宁夏",
             "month": "2025-12",
             "proxyPrice": 291.1,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -5.7
         },
         {
             "province": "福建",
             "month": "2025-12",
             "proxyPrice": 401.071,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -5.3
         },
         {
             "province": "江西",
             "month": "2025-12",
             "proxyPrice": 441.183,
-            "proxyWow": -3
+            "proxyWow": -3,
+            "proxyYoy": -6.9
         },
         {
             "province": "河南",
             "month": "2025-12",
             "proxyPrice": 398.72400000000005,
-            "proxyWow": 5.7
+            "proxyWow": 5.7,
+            "proxyYoy": -3.1
         },
         {
             "province": "湖北",
             "month": "2025-11",
             "proxyPrice": 420.46,
-            "proxyWow": 8.4
+            "proxyWow": 8.4,
+            "proxyYoy": -9.6
         },
         {
             "province": "山西",
             "month": "2025-11",
             "proxyPrice": 386.74399999999997,
-            "proxyWow": 10.4
+            "proxyWow": 10.4,
+            "proxyYoy": 5.8
         },
         {
             "province": "贵州",
             "month": "2025-11",
             "proxyPrice": 393.591,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -3.1
         },
         {
             "province": "山东",
             "month": "2025-11",
             "proxyPrice": 535,
-            "proxyWow": 7.3
+            "proxyWow": 7.3,
+            "proxyYoy": 14
         },
         {
             "province": "湖南",
             "month": "2025-11",
             "proxyPrice": 405.391,
-            "proxyWow": -10.5
+            "proxyWow": -10.5,
+            "proxyYoy": -11.8
         },
         {
             "province": "海南",
             "month": "2025-11",
             "proxyPrice": 567.6179999999999,
-            "proxyWow": 3.4
+            "proxyWow": 3.4,
+            "proxyYoy": 12.3
         },
         {
             "province": "安徽",
             "month": "2025-11",
             "proxyPrice": 388.51000000000005,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -11.1
         },
         {
             "province": "宁夏",
             "month": "2025-11",
             "proxyPrice": 293.7,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -6.4
         },
         {
             "province": "江苏",
             "month": "2025-11",
             "proxyPrice": 439,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -1.5
         },
         {
             "province": "黑龙江",
             "month": "2025-11",
             "proxyPrice": 389.079,
-            "proxyWow": -2.7
+            "proxyWow": -2.7,
+            "proxyYoy": -3.8
         },
         {
             "province": "青海",
             "month": "2025-11",
             "proxyPrice": 333.832,
-            "proxyWow": 12
+            "proxyWow": 12,
+            "proxyYoy": 26
         },
         {
             "province": "河南",
             "month": "2025-11",
             "proxyPrice": 377.40000000000003,
-            "proxyWow": -6.9
+            "proxyWow": -6.9,
+            "proxyYoy": -8.3
         },
         {
             "province": "吉林",
             "month": "2025-11",
             "proxyPrice": 427.37,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": 1.4
         },
         {
             "province": "内蒙古",
             "month": "2025-11",
             "proxyPrice": 289.8,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -2.8
         },
         {
             "province": "河北",
             "month": "2025-11",
             "proxyPrice": 425.225,
-            "proxyWow": 4
+            "proxyWow": 4,
+            "proxyYoy": 2.3
         },
         {
             "province": "重庆",
             "month": "2025-11",
             "proxyPrice": 473.451,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": 1.9
         },
         {
             "province": "江西",
             "month": "2025-11",
             "proxyPrice": 455.004,
-            "proxyWow": 0.7
+            "proxyWow": 0.7,
+            "proxyYoy": -2.1
         },
         {
             "province": "辽宁",
             "month": "2025-11",
             "proxyPrice": 409.70099999999996,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -2.4
         },
         {
             "province": "陕西",
             "month": "2025-11",
             "proxyPrice": 345.5,
-            "proxyWow": 2.3
+            "proxyWow": 2.3,
+            "proxyYoy": -13.3
         },
         {
             "province": "上海",
             "month": "2025-11",
             "proxyPrice": 486,
-            "proxyWow": 6.1
+            "proxyWow": 6.1,
+            "proxyYoy": 2.8
         },
         {
             "province": "福建",
             "month": "2025-11",
             "proxyPrice": 402.528,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -6
         },
         {
             "province": "新疆",
             "month": "2025-11",
             "proxyPrice": 271.05,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": 3.7
         },
         {
             "province": "浙江",
             "month": "2025-11",
             "proxyPrice": 418.32399999999996,
-            "proxyWow": -5.4
+            "proxyWow": -5.4,
+            "proxyYoy": -11.9
         },
         {
             "province": "北京",
             "month": "2025-11",
             "proxyPrice": 399.529,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -0.4
         },
         {
             "province": "广西",
             "month": "2025-11",
             "proxyPrice": 381.346,
-            "proxyWow": 2.5
+            "proxyWow": 2.5,
+            "proxyYoy": 4
         },
         {
             "province": "天津",
             "month": "2025-11",
             "proxyPrice": 424.199,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": 4.8
         },
         {
             "province": "广东",
             "month": "2025-11",
             "proxyPrice": 422.4,
-            "proxyWow": -12.3
+            "proxyWow": -12.3,
+            "proxyYoy": -9.9
         },
         {
             "province": "甘肃",
             "month": "2025-11",
             "proxyPrice": 267.471,
-            "proxyWow": 6.3
+            "proxyWow": 6.3,
+            "proxyYoy": -9.2
         },
         {
             "province": "四川",
             "month": "2025-11",
             "proxyPrice": 391.989,
-            "proxyWow": 21.3
+            "proxyWow": 21.3,
+            "proxyYoy": -1.5
         },
         {
             "province": "山东",
             "month": "2025-10",
             "proxyPrice": 498.7,
-            "proxyWow": 21
+            "proxyWow": 21,
+            "proxyYoy": 8.4
         },
         {
             "province": "天津",
             "month": "2025-10",
             "proxyPrice": 427.439,
-            "proxyWow": 4.3
+            "proxyWow": 4.3,
+            "proxyYoy": 7.5
         },
         {
             "province": "江西",
             "month": "2025-10",
             "proxyPrice": 451.994,
-            "proxyWow": 1.4
+            "proxyWow": 1.4,
+            "proxyYoy": -1.5
         },
         {
             "province": "广东",
             "month": "2025-10",
             "proxyPrice": 481.4,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": 2.9
         },
         {
             "province": "贵州",
             "month": "2025-10",
             "proxyPrice": 393.858,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "河北",
             "month": "2025-10",
             "proxyPrice": 408.86,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -1.6
         },
         {
             "province": "辽宁",
             "month": "2025-10",
             "proxyPrice": 407.221,
-            "proxyWow": -3
+            "proxyWow": -3,
+            "proxyYoy": -3.7
         },
         {
             "province": "宁夏",
             "month": "2025-10",
             "proxyPrice": 295.3,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -4.2
         },
         {
             "province": "吉林",
             "month": "2025-10",
             "proxyPrice": 422.86,
-            "proxyWow": 1.9
+            "proxyWow": 1.9,
+            "proxyYoy": 0.3
         },
         {
             "province": "黑龙江",
             "month": "2025-10",
             "proxyPrice": 399.94,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": -1.1
         },
         {
             "province": "河南",
             "month": "2025-10",
             "proxyPrice": 405.4,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "新疆",
             "month": "2025-10",
             "proxyPrice": 274.566,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": 6.9
         },
         {
             "province": "安徽",
             "month": "2025-10",
             "proxyPrice": 389.28000000000003,
-            "proxyWow": -5.6
+            "proxyWow": -5.6,
+            "proxyYoy": -10.8
         },
         {
             "province": "海南",
             "month": "2025-10",
             "proxyPrice": 548.766,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": 8.6
         },
         {
             "province": "青海",
             "month": "2025-10",
             "proxyPrice": 298.03499999999997,
-            "proxyWow": 9
+            "proxyWow": 9,
+            "proxyYoy": 11.2
         },
         {
             "province": "上海",
             "month": "2025-10",
             "proxyPrice": 458.2,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.1
         },
         {
             "province": "福建",
             "month": "2025-10",
             "proxyPrice": 403.188,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -7.4
         },
         {
             "province": "云南",
             "month": "2025-10",
             "proxyPrice": 207.66799999999998,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": 2.4
         },
         {
             "province": "四川",
             "month": "2025-10",
             "proxyPrice": 323.053,
-            "proxyWow": 52.5
+            "proxyWow": 52.5,
+            "proxyYoy": 13.1
         },
         {
             "province": "江苏",
             "month": "2025-10",
             "proxyPrice": 433.3,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -2.2
         },
         {
             "province": "陕西",
             "month": "2025-10",
             "proxyPrice": 337.8,
-            "proxyWow": -2.5
+            "proxyWow": -2.5,
+            "proxyYoy": -15.3
         },
         {
             "province": "甘肃",
             "month": "2025-10",
             "proxyPrice": 251.54399999999998,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -10.8
         },
         {
             "province": "内蒙古",
             "month": "2025-10",
             "proxyPrice": 290.5,
-            "proxyWow": 1
+            "proxyWow": 1,
+            "proxyYoy": -2.5
         },
         {
             "province": "湖北",
             "month": "2025-10",
             "proxyPrice": 387.91999999999996,
-            "proxyWow": -2.3
+            "proxyWow": -2.3,
+            "proxyYoy": -16.6
         },
         {
             "province": "北京",
             "month": "2025-10",
             "proxyPrice": 398.963,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": 1.1
         },
         {
             "province": "湖南",
             "month": "2025-10",
             "proxyPrice": 452.783,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -2.4
         },
         {
             "province": "广西",
             "month": "2025-10",
             "proxyPrice": 372.101,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": 5.1
         },
         {
             "province": "山西",
             "month": "2025-10",
             "proxyPrice": 350.185,
-            "proxyWow": 4.7
+            "proxyWow": 4.7,
+            "proxyYoy": -1.4
         },
         {
             "province": "浙江",
             "month": "2025-10",
             "proxyPrice": 442.09999999999997,
-            "proxyWow": 2.6
+            "proxyWow": 2.6,
+            "proxyYoy": -9.4
         },
         {
             "province": "重庆",
             "month": "2025-10",
             "proxyPrice": 467.477,
-            "proxyWow": -2
+            "proxyWow": -2,
+            "proxyYoy": 5.8
         },
         {
             "province": "江苏",
             "month": "2025-09",
             "proxyPrice": 429.8,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.4
         },
         {
             "province": "甘肃",
             "month": "2025-09",
             "proxyPrice": 249.579,
-            "proxyWow": 4.2
+            "proxyWow": 4.2,
+            "proxyYoy": -12
         },
         {
             "province": "上海",
             "month": "2025-09",
             "proxyPrice": 458.1,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -3.2
         },
         {
             "province": "云南",
             "month": "2025-09",
             "proxyPrice": 212.105,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": 6
         },
         {
             "province": "海南",
             "month": "2025-09",
             "proxyPrice": 566.196,
-            "proxyWow": 13.7
+            "proxyWow": 13.7,
+            "proxyYoy": 12
         },
         {
             "province": "河北",
             "month": "2025-09",
             "proxyPrice": 408.6,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -1.7
         },
         {
             "province": "安徽",
             "month": "2025-09",
             "proxyPrice": 412.47,
-            "proxyWow": 0.9
+            "proxyWow": 0.9,
+            "proxyYoy": -5.9
         },
         {
             "province": "河南",
             "month": "2025-09",
             "proxyPrice": 405.10200000000003,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "黑龙江",
             "month": "2025-09",
             "proxyPrice": 389.071,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "新疆",
             "month": "2025-09",
             "proxyPrice": 274.249,
-            "proxyWow": 2.5
+            "proxyWow": 2.5,
+            "proxyYoy": 17.2
         },
         {
             "province": "山西",
             "month": "2025-09",
             "proxyPrice": 334.51599999999996,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -5
         },
         {
             "province": "福建",
             "month": "2025-09",
             "proxyPrice": 404.3,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -7.1
         },
         {
             "province": "四川",
             "month": "2025-09",
             "proxyPrice": 211.82000000000002,
-            "proxyWow": -21.5
+            "proxyWow": -21.5,
+            "proxyYoy": -31.1
         },
         {
             "province": "青海",
             "month": "2025-09",
             "proxyPrice": 273.349,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": 21.7
         },
         {
             "province": "浙江",
             "month": "2025-09",
             "proxyPrice": 430.9,
-            "proxyWow": 4.9
+            "proxyWow": 4.9,
+            "proxyYoy": -10.2
         },
         {
             "province": "内蒙古",
             "month": "2025-09",
             "proxyPrice": 287.7,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -3.5
         },
         {
             "province": "重庆",
             "month": "2025-09",
             "proxyPrice": 476.92,
-            "proxyWow": -5.2
+            "proxyWow": -5.2,
+            "proxyYoy": 5.9
         },
         {
             "province": "吉林",
             "month": "2025-09",
             "proxyPrice": 414.87,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -1.6
         },
         {
             "province": "广东",
             "month": "2025-09",
             "proxyPrice": 472.7,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": 0.2
         },
         {
             "province": "辽宁",
             "month": "2025-09",
             "proxyPrice": 419.874,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -0.7
         },
         {
             "province": "北京",
             "month": "2025-09",
             "proxyPrice": 401.99800000000005,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": 0.9
         },
         {
             "province": "贵州",
             "month": "2025-09",
             "proxyPrice": 394.05400000000003,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -4.1
         },
         {
             "province": "宁夏",
             "month": "2025-09",
             "proxyPrice": 294.8,
-            "proxyWow": -77.2
+            "proxyWow": -77.2,
+            "proxyYoy": -4.9
         },
         {
             "province": "陕西",
             "month": "2025-09",
             "proxyPrice": 346.3,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -10.9
         },
         {
             "province": "天津",
             "month": "2025-09",
             "proxyPrice": 409.8,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -0.5
         },
         {
             "province": "湖南",
             "month": "2025-09",
             "proxyPrice": 457.1,
-            "proxyWow": 9.9
+            "proxyWow": 9.9,
+            "proxyYoy": -4
         },
         {
             "province": "广西",
             "month": "2025-09",
             "proxyPrice": 369.82300000000004,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": 8.7
         },
         {
             "province": "山东",
             "month": "2025-09",
             "proxyPrice": 412.2,
-            "proxyWow": 9.1
+            "proxyWow": 9.1,
+            "proxyYoy": -10
         },
         {
             "province": "湖北",
             "month": "2025-09",
             "proxyPrice": 397.2,
-            "proxyWow": -2.3
+            "proxyWow": -2.3,
+            "proxyYoy": -14.6
         },
         {
             "province": "江西",
             "month": "2025-09",
             "proxyPrice": 445.53999999999996,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -4.6
         },
         {
             "province": "广东",
             "month": "2025-08",
             "proxyPrice": 478.3,
-            "proxyWow": 3.6
+            "proxyWow": 3.6,
+            "proxyYoy": -1
         },
         {
             "province": "新疆",
             "month": "2025-08",
             "proxyPrice": 267.652,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": 13.9
         },
         {
             "province": "甘肃",
             "month": "2025-08",
             "proxyPrice": 239.566,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": -13.1
         },
         {
             "province": "山西",
             "month": "2025-08",
             "proxyPrice": 335.39799999999997,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -6.1
         },
         {
             "province": "福建",
             "month": "2025-08",
             "proxyPrice": 404.2,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -6.7
         },
         {
             "province": "江西",
             "month": "2025-08",
             "proxyPrice": 448.34000000000003,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -4.3
         },
         {
             "province": "海南",
             "month": "2025-08",
             "proxyPrice": 497.798,
-            "proxyWow": -1.9
+            "proxyWow": -1.9,
+            "proxyYoy": -1.5
         },
         {
             "province": "宁夏",
             "month": "2025-08",
             "proxyPrice": 1292.5,
-            "proxyWow": 352.2
+            "proxyWow": 352.2,
+            "proxyYoy": 317.2
         },
         {
             "province": "浙江",
             "month": "2025-08",
             "proxyPrice": 410.8,
-            "proxyWow": -3.2
+            "proxyWow": -3.2,
+            "proxyYoy": -12
         },
         {
             "province": "湖南",
             "month": "2025-08",
             "proxyPrice": 415.86,
-            "proxyWow": -11.6
+            "proxyWow": -11.6,
+            "proxyYoy": -13.7
         },
         {
             "province": "湖北",
             "month": "2025-08",
             "proxyPrice": 406.7,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -12.5
         },
         {
             "province": "天津",
             "month": "2025-08",
             "proxyPrice": 417.1,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -0.5
         },
         {
             "province": "山东",
             "month": "2025-08",
             "proxyPrice": 377.90000000000003,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -12.2
         },
         {
             "province": "广西",
             "month": "2025-08",
             "proxyPrice": 374.21700000000004,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": 13.6
         },
         {
             "province": "河北",
             "month": "2025-08",
             "proxyPrice": 409.8,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "云南",
             "month": "2025-08",
             "proxyPrice": 208.90800000000002,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 4.2
         },
         {
             "province": "辽宁",
             "month": "2025-08",
             "proxyPrice": 417.547,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -1.8
         },
         {
             "province": "北京",
             "month": "2025-08",
             "proxyPrice": 406.582,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -0.6
         },
         {
             "province": "陕西",
             "month": "2025-08",
             "proxyPrice": 349.1,
-            "proxyWow": -2
+            "proxyWow": -2,
+            "proxyYoy": -13.8
         },
         {
             "province": "吉林",
             "month": "2025-08",
             "proxyPrice": 407.47,
-            "proxyWow": 4.6
+            "proxyWow": 4.6,
+            "proxyYoy": -3.3
         },
         {
             "province": "重庆",
             "month": "2025-08",
             "proxyPrice": 503.305,
-            "proxyWow": 4.3
+            "proxyWow": 4.3,
+            "proxyYoy": -0.2
         },
         {
             "province": "贵州",
             "month": "2025-08",
             "proxyPrice": 398.992,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -3
         },
         {
             "province": "四川",
             "month": "2025-08",
             "proxyPrice": 269.72200000000004,
-            "proxyWow": 45.9
+            "proxyWow": 45.9,
+            "proxyYoy": 3.5
         },
         {
             "province": "上海",
             "month": "2025-08",
             "proxyPrice": 461.71000000000004,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -2.4
         },
         {
             "province": "安徽",
             "month": "2025-08",
             "proxyPrice": 408.90999999999997,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": -6.4
         },
         {
             "province": "黑龙江",
             "month": "2025-08",
             "proxyPrice": 389.04499999999996,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "内蒙古",
             "month": "2025-08",
             "proxyPrice": 288.3,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -2.9
         },
         {
             "province": "江苏",
             "month": "2025-08",
             "proxyPrice": 429.59999999999997,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -6.5
         },
         {
             "province": "河南",
             "month": "2025-08",
             "proxyPrice": 405.339,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.6
         },
         {
             "province": "青海",
             "month": "2025-08",
             "proxyPrice": 275.443,
-            "proxyWow": 15.3
+            "proxyWow": 15.3,
+            "proxyYoy": 27
         },
         {
             "province": "河北",
             "month": "2025-07",
             "proxyPrice": 409.5,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.5
         },
         {
             "province": "辽宁",
             "month": "2025-07",
             "proxyPrice": 412.215,
-            "proxyWow": -1
+            "proxyWow": -1,
+            "proxyYoy": 0.5
         },
         {
             "province": "四川",
             "month": "2025-07",
             "proxyPrice": 184.838,
-            "proxyWow": -27.4
+            "proxyWow": -27.4,
+            "proxyYoy": -26.3
         },
         {
             "province": "天津",
             "month": "2025-07",
             "proxyPrice": 415.1,
-            "proxyWow": 2.1
+            "proxyWow": 2.1,
+            "proxyYoy": -1.2
         },
         {
             "province": "江西",
             "month": "2025-07",
             "proxyPrice": 449.5,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": -4.4
         },
         {
             "province": "河南",
             "month": "2025-07",
             "proxyPrice": 405.266,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.6
         },
         {
             "province": "内蒙古",
             "month": "2025-07",
             "proxyPrice": 287.5,
-            "proxyWow": 1.4
+            "proxyWow": 1.4,
+            "proxyYoy": -2.4
         },
         {
             "province": "云南",
             "month": "2025-07",
             "proxyPrice": 209.777,
-            "proxyWow": -8.8
+            "proxyWow": -8.8,
+            "proxyYoy": 5
         },
         {
             "province": "吉林",
             "month": "2025-07",
             "proxyPrice": 389.72,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -7.5
         },
         {
             "province": "山东",
             "month": "2025-07",
             "proxyPrice": 376.5,
-            "proxyWow": -9.7
+            "proxyWow": -9.7,
+            "proxyYoy": -14.1
         },
         {
             "province": "安徽",
             "month": "2025-07",
             "proxyPrice": 415.95,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -4.8
         },
         {
             "province": "上海",
             "month": "2025-07",
             "proxyPrice": 461.31,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -2.5
         },
         {
             "province": "青海",
             "month": "2025-07",
             "proxyPrice": 238.951,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": 5.7
         },
         {
             "province": "重庆",
             "month": "2025-07",
             "proxyPrice": 482.707,
-            "proxyWow": 8.3
+            "proxyWow": 8.3,
+            "proxyYoy": 1.3
         },
         {
             "province": "贵州",
             "month": "2025-07",
             "proxyPrice": 400.515,
-            "proxyWow": 1.6
+            "proxyWow": 1.6,
+            "proxyYoy": -2.7
         },
         {
             "province": "山西",
             "month": "2025-07",
             "proxyPrice": 334.41700000000003,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -8.8
         },
         {
             "province": "浙江",
             "month": "2025-07",
             "proxyPrice": 424.20000000000005,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -10.5
         },
         {
             "province": "湖南",
             "month": "2025-07",
             "proxyPrice": 470.49,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": -1
         },
         {
             "province": "湖北",
@@ -24766,85 +22058,99 @@ window.WORKBENCH_DATA = {
             "province": "北京",
             "month": "2025-07",
             "proxyPrice": 407.267,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -1
         },
         {
             "province": "陕西",
             "month": "2025-07",
             "proxyPrice": 356.2,
-            "proxyWow": 3.8
+            "proxyWow": 3.8,
+            "proxyYoy": -11.6
         },
         {
             "province": "广西",
             "month": "2025-07",
             "proxyPrice": 376.38,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": 12.6
         },
         {
             "province": "广东",
             "month": "2025-07",
             "proxyPrice": 461.6,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": -2.6
         },
         {
             "province": "海南",
             "month": "2025-07",
             "proxyPrice": 507.66,
-            "proxyWow": 3.4
+            "proxyWow": 3.4,
+            "proxyYoy": 0.5
         },
         {
             "province": "福建",
             "month": "2025-07",
             "proxyPrice": 412.8,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": -5.2
         },
         {
             "province": "新疆",
             "month": "2025-07",
             "proxyPrice": 260.37300000000005,
-            "proxyWow": -2.9
+            "proxyWow": -2.9,
+            "proxyYoy": 2.1
         },
         {
             "province": "江苏",
             "month": "2025-07",
             "proxyPrice": 439,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -3.9
         },
         {
             "province": "黑龙江",
             "month": "2025-07",
             "proxyPrice": 389.064,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "宁夏",
             "month": "2025-07",
             "proxyPrice": 285.8,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -9.1
         },
         {
             "province": "甘肃",
             "month": "2025-07",
             "proxyPrice": 243.675,
-            "proxyWow": 2.3
+            "proxyWow": 2.3,
+            "proxyYoy": -10.9
         },
         {
             "province": "湖南",
             "month": "2025-06",
             "proxyPrice": 464.77000000000004,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -0.2
         },
         {
             "province": "浙江",
             "month": "2025-06",
             "proxyPrice": 422.59999999999997,
-            "proxyWow": -3.3
+            "proxyWow": -3.3,
+            "proxyYoy": -10.8
         },
         {
             "province": "江苏",
             "month": "2025-06",
             "proxyPrice": 436.90000000000003,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -3.6
         },
         {
             "province": "湖北",
@@ -24856,325 +22162,379 @@ window.WORKBENCH_DATA = {
             "province": "福建",
             "month": "2025-06",
             "proxyPrice": 417.3,
-            "proxyWow": -3.3
+            "proxyWow": -3.3,
+            "proxyYoy": -5.9
         },
         {
             "province": "辽宁",
             "month": "2025-06",
             "proxyPrice": 416.54400000000004,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -1.1
         },
         {
             "province": "云南",
             "month": "2025-06",
             "proxyPrice": 229.997,
-            "proxyWow": -22.3
+            "proxyWow": -22.3,
+            "proxyYoy": 4.7
         },
         {
             "province": "吉林",
             "month": "2025-06",
             "proxyPrice": 391.69,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -7.1
         },
         {
             "province": "天津",
             "month": "2025-06",
             "proxyPrice": 406.4,
-            "proxyWow": -6
+            "proxyWow": -6,
+            "proxyYoy": -1.6
         },
         {
             "province": "黑龙江",
             "month": "2025-06",
             "proxyPrice": 389.081,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -3.8
         },
         {
             "province": "河南",
             "month": "2025-06",
             "proxyPrice": 405.094,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.6
         },
         {
             "province": "江西",
             "month": "2025-06",
             "proxyPrice": 442.84000000000003,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": -5
         },
         {
             "province": "重庆",
             "month": "2025-06",
             "proxyPrice": 445.884,
-            "proxyWow": -2.4
+            "proxyWow": -2.4,
+            "proxyYoy": -0.7
         },
         {
             "province": "新疆",
             "month": "2025-06",
             "proxyPrice": 268.16499999999996,
-            "proxyWow": 7.9
+            "proxyWow": 7.9,
+            "proxyYoy": 21.9
         },
         {
             "province": "北京",
             "month": "2025-06",
             "proxyPrice": 399.984,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -0.5
         },
         {
             "province": "四川",
             "month": "2025-06",
             "proxyPrice": 254.53799999999998,
-            "proxyWow": -17.9
+            "proxyWow": -17.9,
+            "proxyYoy": -8.7
         },
         {
             "province": "山东",
             "month": "2025-06",
             "proxyPrice": 416.9,
-            "proxyWow": -7.7
+            "proxyWow": -7.7,
+            "proxyYoy": -9.9
         },
         {
             "province": "安徽",
             "month": "2025-06",
             "proxyPrice": 412.66,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -5.5
         },
         {
             "province": "山西",
             "month": "2025-06",
             "proxyPrice": 336.563,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -7.5
         },
         {
             "province": "河北",
             "month": "2025-06",
             "proxyPrice": 409.7,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "广西",
             "month": "2025-06",
             "proxyPrice": 368.94300000000004,
-            "proxyWow": 3
+            "proxyWow": 3,
+            "proxyYoy": 13
         },
         {
             "province": "陕西",
             "month": "2025-06",
             "proxyPrice": 343.2,
-            "proxyWow": 4.6
+            "proxyWow": 4.6,
+            "proxyYoy": -13.8
         },
         {
             "province": "宁夏",
             "month": "2025-06",
             "proxyPrice": 278.2,
-            "proxyWow": -4.3
+            "proxyWow": -4.3,
+            "proxyYoy": -9
         },
         {
             "province": "上海",
             "month": "2025-06",
             "proxyPrice": 462.36,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -2.3
         },
         {
             "province": "青海",
             "month": "2025-06",
             "proxyPrice": 238.671,
-            "proxyWow": -6.1
+            "proxyWow": -6.1,
+            "proxyYoy": -9.1
         },
         {
             "province": "海南",
             "month": "2025-06",
             "proxyPrice": 490.885,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -2.9
         },
         {
             "province": "广东",
             "month": "2025-06",
             "proxyPrice": 466.5,
-            "proxyWow": -2.7
+            "proxyWow": -2.7,
+            "proxyYoy": 2.3
         },
         {
             "province": "贵州",
             "month": "2025-06",
             "proxyPrice": 394.125,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -4.2
         },
         {
             "province": "甘肃",
             "month": "2025-06",
             "proxyPrice": 238.244,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": -14.7
         },
         {
             "province": "内蒙古",
             "month": "2025-06",
             "proxyPrice": 283.6,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": -5.1
         },
         {
             "province": "河南",
             "month": "2025-05",
             "proxyPrice": 405.231,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.5
         },
         {
             "province": "山东",
             "month": "2025-05",
             "proxyPrice": 451.5,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -3.1
         },
         {
             "province": "新疆",
             "month": "2025-05",
             "proxyPrice": 248.592,
-            "proxyWow": -5.5
+            "proxyWow": -5.5,
+            "proxyYoy": 9.2
         },
         {
             "province": "辽宁",
             "month": "2025-05",
             "proxyPrice": 420.313,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": 0
         },
         {
             "province": "吉林",
             "month": "2025-05",
             "proxyPrice": 392.04,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -7
         },
         {
             "province": "安徽",
             "month": "2025-05",
             "proxyPrice": 413.34,
-            "proxyWow": 3.1
+            "proxyWow": 3.1,
+            "proxyYoy": -5.3
         },
         {
             "province": "内蒙古",
             "month": "2025-05",
             "proxyPrice": 287.3,
-            "proxyWow": -4.2
+            "proxyWow": -4.2,
+            "proxyYoy": -4.1
         },
         {
             "province": "四川",
             "month": "2025-05",
             "proxyPrice": 310.00600000000003,
-            "proxyWow": -28.8
+            "proxyWow": -28.8,
+            "proxyYoy": -21.9
         },
         {
             "province": "江西",
             "month": "2025-05",
             "proxyPrice": 447.82,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -4
         },
         {
             "province": "广东",
             "month": "2025-05",
             "proxyPrice": 479.2,
-            "proxyWow": 3
+            "proxyWow": 3,
+            "proxyYoy": -1.3
         },
         {
             "province": "北京",
             "month": "2025-05",
             "proxyPrice": 399.29900000000004,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": 0.3
         },
         {
             "province": "浙江",
             "month": "2025-05",
             "proxyPrice": 437,
-            "proxyWow": 4
+            "proxyWow": 4,
+            "proxyYoy": -9.7
         },
         {
             "province": "重庆",
             "month": "2025-05",
             "proxyPrice": 456.64300000000003,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": 1.3
         },
         {
             "province": "宁夏",
             "month": "2025-05",
             "proxyPrice": 290.6,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -6.8
         },
         {
             "province": "贵州",
             "month": "2025-05",
             "proxyPrice": 395.44,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.6
         },
         {
             "province": "海南",
             "month": "2025-05",
             "proxyPrice": 487.768,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -3.5
         },
         {
             "province": "陕西",
             "month": "2025-05",
             "proxyPrice": 328,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -16.1
         },
         {
             "province": "福建",
             "month": "2025-05",
             "proxyPrice": 431.7,
-            "proxyWow": 5.5
+            "proxyWow": 5.5,
+            "proxyYoy": -2.7
         },
         {
             "province": "云南",
             "month": "2025-05",
             "proxyPrice": 296.09499999999997,
-            "proxyWow": -0.7
+            "proxyWow": -0.7,
+            "proxyYoy": 6.9
         },
         {
             "province": "河北",
             "month": "2025-05",
             "proxyPrice": 409.3,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "甘肃",
             "month": "2025-05",
             "proxyPrice": 231.69799999999998,
-            "proxyWow": -13.1
+            "proxyWow": -13.1,
+            "proxyYoy": -21.1
         },
         {
             "province": "湖南",
             "month": "2025-05",
             "proxyPrice": 466.96999999999997,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": 0.9
         },
         {
             "province": "江苏",
             "month": "2025-05",
             "proxyPrice": 431.09999999999997,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -2.4
         },
         {
             "province": "上海",
             "month": "2025-05",
             "proxyPrice": 462.31,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -2.2
         },
         {
             "province": "青海",
             "month": "2025-05",
             "proxyPrice": 254.056,
-            "proxyWow": -8.7
+            "proxyWow": -8.7,
+            "proxyYoy": -4.2
         },
         {
             "province": "广西",
             "month": "2025-05",
             "proxyPrice": 358.033,
-            "proxyWow": -1
+            "proxyWow": -1,
+            "proxyYoy": -8.9
         },
         {
             "province": "黑龙江",
             "month": "2025-05",
             "proxyPrice": 387.031,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -4.3
         },
         {
             "province": "天津",
             "month": "2025-05",
             "proxyPrice": 432.5,
-            "proxyWow": 6.3
+            "proxyWow": 6.3,
+            "proxyYoy": 5.2
         },
         {
             "province": "湖北",
@@ -25186,85 +22546,99 @@ window.WORKBENCH_DATA = {
             "province": "山西",
             "month": "2025-05",
             "proxyPrice": 336.234,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -2.7
         },
         {
             "province": "甘肃",
             "month": "2025-04",
             "proxyPrice": 266.675,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -10
         },
         {
             "province": "北京",
             "month": "2025-04",
             "proxyPrice": 399.278,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 0.3
         },
         {
             "province": "青海",
             "month": "2025-04",
             "proxyPrice": 278.129,
-            "proxyWow": -2.9
+            "proxyWow": -2.9,
+            "proxyYoy": -3.6
         },
         {
             "province": "陕西",
             "month": "2025-04",
             "proxyPrice": 327.2,
-            "proxyWow": -7
+            "proxyWow": -7,
+            "proxyYoy": -17.4
         },
         {
             "province": "贵州",
             "month": "2025-04",
             "proxyPrice": 395.358,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -3.6
         },
         {
             "province": "黑龙江",
             "month": "2025-04",
             "proxyPrice": 389.08799999999997,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "吉林",
             "month": "2025-04",
             "proxyPrice": 390.43,
-            "proxyWow": -3.2
+            "proxyWow": -3.2,
+            "proxyYoy": -7.4
         },
         {
             "province": "新疆",
             "month": "2025-04",
             "proxyPrice": 263.053,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": 13.8
         },
         {
             "province": "江苏",
             "month": "2025-04",
             "proxyPrice": 442.8,
-            "proxyWow": 1
+            "proxyWow": 1,
+            "proxyYoy": -0.1
         },
         {
             "province": "宁夏",
             "month": "2025-04",
             "proxyPrice": 288.4,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -7.2
         },
         {
             "province": "云南",
             "month": "2025-04",
             "proxyPrice": 298.32599999999996,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -0.4
         },
         {
             "province": "上海",
             "month": "2025-04",
             "proxyPrice": 462.75,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -2.1
         },
         {
             "province": "福建",
             "month": "2025-04",
             "proxyPrice": 409.2,
-            "proxyWow": 0.9
+            "proxyWow": 0.9,
+            "proxyYoy": -7.9
         },
         {
             "province": "湖北",
@@ -25276,151 +22650,176 @@ window.WORKBENCH_DATA = {
             "province": "广西",
             "month": "2025-04",
             "proxyPrice": 361.659,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.4
         },
         {
             "province": "河南",
             "month": "2025-04",
             "proxyPrice": 405.129,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.6
         },
         {
             "province": "四川",
             "month": "2025-04",
             "proxyPrice": 435.63800000000003,
-            "proxyWow": -1.9
+            "proxyWow": -1.9,
+            "proxyYoy": -10
         },
         {
             "province": "内蒙古",
             "month": "2025-04",
             "proxyPrice": 300,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": 0.1
         },
         {
             "province": "浙江",
             "month": "2025-04",
             "proxyPrice": 420,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": -13.6
         },
         {
             "province": "重庆",
             "month": "2025-04",
             "proxyPrice": 454.776,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -1.1
         },
         {
             "province": "山西",
             "month": "2025-04",
             "proxyPrice": 336.491,
-            "proxyWow": -11.4
+            "proxyWow": -11.4,
+            "proxyYoy": -2
         },
         {
             "province": "天津",
             "month": "2025-04",
             "proxyPrice": 406.8,
-            "proxyWow": 1.7
+            "proxyWow": 1.7,
+            "proxyYoy": -1
         },
         {
             "province": "湖南",
             "month": "2025-04",
             "proxyPrice": 464.77000000000004,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": -0.7
         },
         {
             "province": "河北",
             "month": "2025-04",
             "proxyPrice": 409.6,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -1.5
         },
         {
             "province": "江西",
             "month": "2025-04",
             "proxyPrice": 448.46000000000004,
-            "proxyWow": -0.7
+            "proxyWow": -0.7,
+            "proxyYoy": -3.6
         },
         {
             "province": "山东",
             "month": "2025-04",
             "proxyPrice": 463.5,
-            "proxyWow": -3
+            "proxyWow": -3,
+            "proxyYoy": -1.9
         },
         {
             "province": "海南",
             "month": "2025-04",
             "proxyPrice": 486.222,
-            "proxyWow": 2.2
+            "proxyWow": 2.2,
+            "proxyYoy": -3.8
         },
         {
             "province": "辽宁",
             "month": "2025-04",
             "proxyPrice": 418.01899999999995,
-            "proxyWow": -1
+            "proxyWow": -1,
+            "proxyYoy": -2.3
         },
         {
             "province": "广东",
             "month": "2025-04",
             "proxyPrice": 465.3,
-            "proxyWow": 1.4
+            "proxyWow": 1.4,
+            "proxyYoy": -5.6
         },
         {
             "province": "安徽",
             "month": "2025-04",
             "proxyPrice": 400.98,
-            "proxyWow": -2.2
+            "proxyWow": -2.2,
+            "proxyYoy": -8.6
         },
         {
             "province": "山西",
             "month": "2025-03",
             "proxyPrice": 379.73400000000004,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": 6
         },
         {
             "province": "湖南",
             "month": "2025-03",
             "proxyPrice": 471.74,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 0
         },
         {
             "province": "浙江",
             "month": "2025-03",
             "proxyPrice": 408.7,
-            "proxyWow": -5.3
+            "proxyWow": -5.3,
+            "proxyYoy": -14.9
         },
         {
             "province": "贵州",
             "month": "2025-03",
             "proxyPrice": 400.34999999999997,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -2.5
         },
         {
             "province": "广西",
             "month": "2025-03",
             "proxyPrice": 361.519,
-            "proxyWow": -3.4
+            "proxyWow": -3.4,
+            "proxyYoy": -9.3
         },
         {
             "province": "青海",
             "month": "2025-03",
             "proxyPrice": 286.323,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -8.3
         },
         {
             "province": "云南",
             "month": "2025-03",
             "proxyPrice": 297.545,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": -0.2
         },
         {
             "province": "陕西",
             "month": "2025-03",
             "proxyPrice": 351.9,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": -11.9
         },
         {
             "province": "山东",
             "month": "2025-03",
             "proxyPrice": 477.6,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": 1.2
         },
         {
             "province": "湖北",
@@ -25432,43 +22831,50 @@ window.WORKBENCH_DATA = {
             "province": "安徽",
             "month": "2025-03",
             "proxyPrice": 409.86,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -6.2
         },
         {
             "province": "北京",
             "month": "2025-03",
             "proxyPrice": 401.02,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": 0.9
         },
         {
             "province": "吉林",
             "month": "2025-03",
             "proxyPrice": 403.16999999999996,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -4.3
         },
         {
             "province": "上海",
             "month": "2025-03",
             "proxyPrice": 463.02,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -2.3
         },
         {
             "province": "河南",
             "month": "2025-03",
             "proxyPrice": 405.127,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -0.5
         },
         {
             "province": "黑龙江",
             "month": "2025-03",
             "proxyPrice": 389.034,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "河北",
             "month": "2025-03",
             "proxyPrice": 410.1,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -1.3
         },
         {
             "province": "甘肃",
@@ -25480,85 +22886,99 @@ window.WORKBENCH_DATA = {
             "province": "新疆",
             "month": "2025-03",
             "proxyPrice": 261.875,
-            "proxyWow": 11.7
+            "proxyWow": 11.7,
+            "proxyYoy": 5.3
         },
         {
             "province": "福建",
             "month": "2025-03",
             "proxyPrice": 405.4,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -7.2
         },
         {
             "province": "四川",
             "month": "2025-03",
             "proxyPrice": 444.268,
-            "proxyWow": 5
+            "proxyWow": 5,
+            "proxyYoy": -6.8
         },
         {
             "province": "天津",
             "month": "2025-03",
             "proxyPrice": 400,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -1.7
         },
         {
             "province": "宁夏",
             "month": "2025-03",
             "proxyPrice": 289.5,
-            "proxyWow": -1.6
+            "proxyWow": -1.6,
+            "proxyYoy": -7.8
         },
         {
             "province": "江西",
             "month": "2025-03",
             "proxyPrice": 451.43,
-            "proxyWow": -2.2
+            "proxyWow": -2.2,
+            "proxyYoy": -4.3
         },
         {
             "province": "辽宁",
             "month": "2025-03",
             "proxyPrice": 422.42,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -0.1
         },
         {
             "province": "江苏",
             "month": "2025-03",
             "proxyPrice": 438.59999999999997,
-            "proxyWow": -1.9
+            "proxyWow": -1.9,
+            "proxyYoy": -1.4
         },
         {
             "province": "内蒙古",
             "month": "2025-03",
             "proxyPrice": 294.20000000000005,
-            "proxyWow": -2
+            "proxyWow": -2,
+            "proxyYoy": -2.5
         },
         {
             "province": "重庆",
             "month": "2025-03",
             "proxyPrice": 464.65299999999996,
-            "proxyWow": -4
+            "proxyWow": -4,
+            "proxyYoy": -0.6
         },
         {
             "province": "海南",
             "month": "2025-03",
             "proxyPrice": 475.695,
-            "proxyWow": -2.9
+            "proxyWow": -2.9,
+            "proxyYoy": -5.9
         },
         {
             "province": "广东",
             "month": "2025-03",
             "proxyPrice": 458.8,
-            "proxyWow": -3.5
+            "proxyWow": -3.5,
+            "proxyYoy": -5.9
         },
         {
             "province": "山东",
             "month": "2025-02",
             "proxyPrice": 473.6,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": 1.9
         },
         {
             "province": "四川",
             "month": "2025-02",
             "proxyPrice": 422.967,
-            "proxyWow": 0.7
+            "proxyWow": 0.7,
+            "proxyYoy": -11
         },
         {
             "province": "河南",
@@ -25570,31 +22990,36 @@ window.WORKBENCH_DATA = {
             "province": "江西",
             "month": "2025-02",
             "proxyPrice": 461.55,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -2.9
         },
         {
             "province": "广西",
             "month": "2025-02",
             "proxyPrice": 374.413,
-            "proxyWow": -4.8
+            "proxyWow": -4.8,
+            "proxyYoy": -16.7
         },
         {
             "province": "内蒙古",
             "month": "2025-02",
             "proxyPrice": 300.09999999999997,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": 1.7
         },
         {
             "province": "河北",
             "month": "2025-02",
             "proxyPrice": 411.5,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1
         },
         {
             "province": "浙江",
             "month": "2025-02",
             "proxyPrice": 431.4,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -8.9
         },
         {
             "province": "辽宁",
@@ -25606,19 +23031,22 @@ window.WORKBENCH_DATA = {
             "province": "山西",
             "month": "2025-02",
             "proxyPrice": 385.72,
-            "proxyWow": -2.2
+            "proxyWow": -2.2,
+            "proxyYoy": 9.1
         },
         {
             "province": "天津",
             "month": "2025-02",
             "proxyPrice": 410.8,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": 0.5
         },
         {
             "province": "福建",
             "month": "2025-02",
             "proxyPrice": 404.7,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": -5.6
         },
         {
             "province": "湖北",
@@ -25636,109 +23064,127 @@ window.WORKBENCH_DATA = {
             "province": "湖南",
             "month": "2025-02",
             "proxyPrice": 473.69,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": 204.8
         },
         {
             "province": "黑龙江",
             "month": "2025-02",
             "proxyPrice": 389.094,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.8
         },
         {
             "province": "云南",
             "month": "2025-02",
             "proxyPrice": 301.984,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 1.7
         },
         {
             "province": "吉林",
             "month": "2025-02",
             "proxyPrice": 400.86,
-            "proxyWow": -4.9
+            "proxyWow": -4.9,
+            "proxyYoy": -4.9
         },
         {
             "province": "新疆",
             "month": "2025-02",
             "proxyPrice": 234.368,
-            "proxyWow": -9.8
+            "proxyWow": -9.8,
+            "proxyYoy": -6.9
         },
         {
             "province": "上海",
             "month": "2025-02",
             "proxyPrice": 462.9,
-            "proxyWow": -2.1
+            "proxyWow": -2.1,
+            "proxyYoy": -2.4
         },
         {
             "province": "贵州",
             "month": "2025-02",
             "proxyPrice": 401.291,
-            "proxyWow": -0.7
+            "proxyWow": -0.7,
+            "proxyYoy": -2.4
         },
         {
             "province": "安徽",
             "month": "2025-02",
             "proxyPrice": 411.95,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -5.7
         },
         {
             "province": "陕西",
             "month": "2025-02",
             "proxyPrice": 355.9,
-            "proxyWow": -6.3
+            "proxyWow": -6.3,
+            "proxyYoy": -10.8
         },
         {
             "province": "海南",
             "month": "2025-02",
             "proxyPrice": 489.734,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": -3.7
         },
         {
             "province": "重庆",
             "month": "2025-02",
             "proxyPrice": 483.95300000000003,
-            "proxyWow": 4.2
+            "proxyWow": 4.2,
+            "proxyYoy": -0.2
         },
         {
             "province": "宁夏",
             "month": "2025-02",
             "proxyPrice": 294.09999999999997,
-            "proxyWow": -4.3
+            "proxyWow": -4.3,
+            "proxyYoy": -6.5
         },
         {
             "province": "广东",
             "month": "2025-02",
             "proxyPrice": 475.6,
-            "proxyWow": 0.9
+            "proxyWow": 0.9,
+            "proxyYoy": -2
         },
         {
             "province": "北京",
             "month": "2025-02",
             "proxyPrice": 399.137,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": 1.2
         },
         {
             "province": "青海",
             "month": "2025-02",
             "proxyPrice": 292.51899999999995,
-            "proxyWow": -4.5
+            "proxyWow": -4.5,
+            "proxyYoy": -11.4
         },
         {
             "province": "江苏",
             "month": "2025-02",
             "proxyPrice": 447.29999999999995,
-            "proxyWow": -1.9
+            "proxyWow": -1.9,
+            "proxyYoy": -2.4
         },
         {
             "province": "江苏",
             "month": "2025-01",
             "proxyPrice": 456,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": -3
         },
         {
             "province": "山西",
             "month": "2025-01",
             "proxyPrice": 394.424,
-            "proxyWow": 3
+            "proxyWow": 3,
+            "proxyYoy": 12.3
         },
         {
             "province": "辽宁",
@@ -25750,103 +23196,120 @@ window.WORKBENCH_DATA = {
             "province": "新疆",
             "month": "2025-01",
             "proxyPrice": 259.947,
-            "proxyWow": -9.3
+            "proxyWow": -9.3,
+            "proxyYoy": -0.3
         },
         {
             "province": "陕西",
             "month": "2025-01",
             "proxyPrice": 380,
-            "proxyWow": -5.4
+            "proxyWow": -5.4,
+            "proxyYoy": -5
         },
         {
             "province": "浙江",
             "month": "2025-01",
             "proxyPrice": 430.20000000000005,
-            "proxyWow": -8.2
+            "proxyWow": -8.2,
+            "proxyYoy": -11.1
         },
         {
             "province": "青海",
             "month": "2025-01",
             "proxyPrice": 306.35400000000004,
-            "proxyWow": 10.6
+            "proxyWow": 10.6,
+            "proxyYoy": -5.6
         },
         {
             "province": "云南",
             "month": "2025-01",
             "proxyPrice": 303.178,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": 1
         },
         {
             "province": "天津",
             "month": "2025-01",
             "proxyPrice": 411.7,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -0.6
         },
         {
             "province": "山东",
             "month": "2025-01",
             "proxyPrice": 469.7,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": 1.6
         },
         {
             "province": "内蒙古",
             "month": "2025-01",
             "proxyPrice": 296.5,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": 0.3
         },
         {
             "province": "重庆",
             "month": "2025-01",
             "proxyPrice": 464.559,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": -2.5
         },
         {
             "province": "宁夏",
             "month": "2025-01",
             "proxyPrice": 307.3,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": 1
         },
         {
             "province": "四川",
             "month": "2025-01",
             "proxyPrice": 420,
-            "proxyWow": -9
+            "proxyWow": -9,
+            "proxyYoy": -8.1
         },
         {
             "province": "吉林",
             "month": "2025-01",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": 0
         },
         {
             "province": "江西",
             "month": "2025-01",
             "proxyPrice": 465.13,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -3.3
         },
         {
             "province": "湖南",
             "month": "2025-01",
             "proxyPrice": 479.76000000000005,
-            "proxyWow": 3.3
+            "proxyWow": 3.3,
+            "proxyYoy": 5.4
         },
         {
             "province": "上海",
             "month": "2025-01",
             "proxyPrice": 473,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -0.2
         },
         {
             "province": "海南",
             "month": "2025-01",
             "proxyPrice": 505.3299999999999,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -2
         },
         {
             "province": "河北",
             "month": "2025-01",
             "proxyPrice": 411.5,
-            "proxyWow": -1
+            "proxyWow": -1,
+            "proxyYoy": -1
         },
         {
             "province": "湖北",
@@ -25858,7 +23321,8 @@ window.WORKBENCH_DATA = {
             "province": "广东",
             "month": "2025-01",
             "proxyPrice": 471.4,
-            "proxyWow": -3.1
+            "proxyWow": -3.1,
+            "proxyYoy": 0.1
         },
         {
             "province": "甘肃",
@@ -25870,49 +23334,57 @@ window.WORKBENCH_DATA = {
             "province": "广西",
             "month": "2025-01",
             "proxyPrice": 393.40999999999997,
-            "proxyWow": -2.7
+            "proxyWow": -2.7,
+            "proxyYoy": -4.3
         },
         {
             "province": "黑龙江",
             "month": "2025-01",
             "proxyPrice": 389.093,
-            "proxyWow": -3.8
+            "proxyWow": -3.8,
+            "proxyYoy": -7.5
         },
         {
             "province": "福建",
             "month": "2025-01",
             "proxyPrice": 417.8,
-            "proxyWow": -1.3
+            "proxyWow": -1.3,
+            "proxyYoy": -4.7
         },
         {
             "province": "河南",
             "month": "2025-01",
             "proxyPrice": 405.558,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": -1.6
         },
         {
             "province": "北京",
             "month": "2025-01",
             "proxyPrice": 399.69100000000003,
-            "proxyWow": -2.8
+            "proxyWow": -2.8,
+            "proxyYoy": 0.1
         },
         {
             "province": "贵州",
             "month": "2025-01",
             "proxyPrice": 404.04400000000004,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -3.8
         },
         {
             "province": "安徽",
             "month": "2025-01",
             "proxyPrice": 409.32,
-            "proxyWow": -6.2
+            "proxyWow": -6.2,
+            "proxyYoy": -6.2
         },
         {
             "province": "河南",
             "month": "2024-12",
             "proxyPrice": 411.611,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.3
         },
         {
             "province": "甘肃",
@@ -25924,97 +23396,113 @@ window.WORKBENCH_DATA = {
             "province": "江苏",
             "month": "2024-12",
             "proxyPrice": 461.9,
-            "proxyWow": 3.6
+            "proxyWow": 3.6,
+            "proxyYoy": -0.3
         },
         {
             "province": "四川",
             "month": "2024-12",
             "proxyPrice": 461.7,
-            "proxyWow": 16.1
+            "proxyWow": 16.1,
+            "proxyYoy": -4.7
         },
         {
             "province": "广西",
             "month": "2024-12",
             "proxyPrice": 404.42,
-            "proxyWow": 10.3
+            "proxyWow": 10.3,
+            "proxyYoy": -3.7
         },
         {
             "province": "浙江",
             "month": "2024-12",
             "proxyPrice": 468.4,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": -5.4
         },
         {
             "province": "江西",
             "month": "2024-12",
             "proxyPrice": 473.69,
-            "proxyWow": 1.9
+            "proxyWow": 1.9,
+            "proxyYoy": -4.7
         },
         {
             "province": "广东",
             "month": "2024-12",
             "proxyPrice": 486.59999999999997,
-            "proxyWow": 3.8
+            "proxyWow": 3.8,
+            "proxyYoy": -6
         },
         {
             "province": "新疆",
             "month": "2024-12",
             "proxyPrice": 286.695,
-            "proxyWow": 9.7
+            "proxyWow": 9.7,
+            "proxyYoy": 2.6
         },
         {
             "province": "黑龙江",
             "month": "2024-12",
             "proxyPrice": 404.414,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "云南",
             "month": "2024-12",
             "proxyPrice": 304.093,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": 6.1
         },
         {
             "province": "陕西",
             "month": "2024-12",
             "proxyPrice": 401.8,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -5.5
         },
         {
             "province": "青海",
             "month": "2024-12",
             "proxyPrice": 277.067,
-            "proxyWow": 4.6
+            "proxyWow": 4.6,
+            "proxyYoy": -7.2
         },
         {
             "province": "内蒙古",
             "month": "2024-12",
             "proxyPrice": 295.9,
-            "proxyWow": -0.7
+            "proxyWow": -0.7,
+            "proxyYoy": -0.2
         },
         {
             "province": "吉林",
             "month": "2024-12",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "宁夏",
             "month": "2024-12",
             "proxyPrice": 308.59999999999997,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": 0.7
         },
         {
             "province": "上海",
             "month": "2024-12",
             "proxyPrice": 472.75,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -6.4
         },
         {
             "province": "北京",
             "month": "2024-12",
             "proxyPrice": 411.127,
-            "proxyWow": 2.5
+            "proxyWow": 2.5,
+            "proxyYoy": 0.5
         },
         {
             "province": "辽宁",
@@ -26026,25 +23514,29 @@ window.WORKBENCH_DATA = {
             "province": "山东",
             "month": "2024-12",
             "proxyPrice": 462.8,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": -5.6
         },
         {
             "province": "重庆",
             "month": "2024-12",
             "proxyPrice": 479.588,
-            "proxyWow": 3.2
+            "proxyWow": 3.2,
+            "proxyYoy": 5
         },
         {
             "province": "贵州",
             "month": "2024-12",
             "proxyPrice": 407.101,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -3
         },
         {
             "province": "湖南",
             "month": "2024-12",
             "proxyPrice": 464.61,
-            "proxyWow": 1
+            "proxyWow": 1,
+            "proxyYoy": -12.6
         },
         {
             "province": "湖北",
@@ -26056,31 +23548,36 @@ window.WORKBENCH_DATA = {
             "province": "山西",
             "month": "2024-12",
             "proxyPrice": 382.753,
-            "proxyWow": 4.8
+            "proxyWow": 4.8,
+            "proxyYoy": -1.1
         },
         {
             "province": "安徽",
             "month": "2024-12",
             "proxyPrice": 436.28,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -5.4
         },
         {
             "province": "河北",
             "month": "2024-12",
             "proxyPrice": 415.7,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "天津",
             "month": "2024-12",
             "proxyPrice": 409.3,
-            "proxyWow": 1.1
+            "proxyWow": 1.1,
+            "proxyYoy": -2.1
         },
         {
             "province": "福建",
             "month": "2024-12",
             "proxyPrice": 423.5,
-            "proxyWow": -1.1
+            "proxyWow": -1.1,
+            "proxyYoy": -7.3
         },
         {
             "province": "海南",
@@ -26092,7 +23589,8 @@ window.WORKBENCH_DATA = {
             "province": "江西",
             "month": "2024-11",
             "proxyPrice": 464.88,
-            "proxyWow": 1.3
+            "proxyWow": 1.3,
+            "proxyYoy": -6.5
         },
         {
             "province": "海南",
@@ -26104,73 +23602,85 @@ window.WORKBENCH_DATA = {
             "province": "重庆",
             "month": "2024-11",
             "proxyPrice": 464.694,
-            "proxyWow": 5.2
+            "proxyWow": 5.2,
+            "proxyYoy": 5.2
         },
         {
             "province": "青海",
             "month": "2024-11",
             "proxyPrice": 264.84799999999996,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -14.5
         },
         {
             "province": "广西",
             "month": "2024-11",
             "proxyPrice": 366.765,
-            "proxyWow": 3.6
+            "proxyWow": 3.6,
+            "proxyYoy": -11.8
         },
         {
             "province": "上海",
             "month": "2024-11",
             "proxyPrice": 472.65000000000003,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -4.2
         },
         {
             "province": "宁夏",
             "month": "2024-11",
             "proxyPrice": 313.90000000000003,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": 2.2
         },
         {
             "province": "吉林",
             "month": "2024-11",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "安徽",
             "month": "2024-11",
             "proxyPrice": 437.01,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -5.3
         },
         {
             "province": "福建",
             "month": "2024-11",
             "proxyPrice": 428.3,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": -6.1
         },
         {
             "province": "北京",
             "month": "2024-11",
             "proxyPrice": 401.25300000000004,
-            "proxyWow": 1.6
+            "proxyWow": 1.6,
+            "proxyYoy": 1.3
         },
         {
             "province": "天津",
             "month": "2024-11",
             "proxyPrice": 404.7,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -6.1
         },
         {
             "province": "河北",
             "month": "2024-11",
             "proxyPrice": 415.7,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "山西",
             "month": "2024-11",
             "proxyPrice": 365.38300000000004,
-            "proxyWow": 2.9
+            "proxyWow": 2.9,
+            "proxyYoy": -6.6
         },
         {
             "province": "辽宁",
@@ -26188,79 +23698,92 @@ window.WORKBENCH_DATA = {
             "province": "贵州",
             "month": "2024-11",
             "proxyPrice": 406.32099999999997,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -3.3
         },
         {
             "province": "湖南",
             "month": "2024-11",
             "proxyPrice": 459.82,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -8.4
         },
         {
             "province": "云南",
             "month": "2024-11",
             "proxyPrice": 300.483,
-            "proxyWow": 48.2
+            "proxyWow": 48.2,
+            "proxyYoy": 9.6
         },
         {
             "province": "山东",
             "month": "2024-11",
             "proxyPrice": 469.2,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": -5.7
         },
         {
             "province": "黑龙江",
             "month": "2024-11",
             "proxyPrice": 404.435,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "内蒙古",
             "month": "2024-11",
             "proxyPrice": 298.09999999999997,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": 0.3
         },
         {
             "province": "浙江",
             "month": "2024-11",
             "proxyPrice": 474.9,
-            "proxyWow": -2.7
+            "proxyWow": -2.7,
+            "proxyYoy": -4.3
         },
         {
             "province": "河南",
             "month": "2024-11",
             "proxyPrice": 411.73199999999997,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -9.1
         },
         {
             "province": "陕西",
             "month": "2024-11",
             "proxyPrice": 398.6,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -6
         },
         {
             "province": "广东",
             "month": "2024-11",
             "proxyPrice": 468.8,
-            "proxyWow": 0.2
+            "proxyWow": 0.2,
+            "proxyYoy": -7.1
         },
         {
             "province": "江苏",
             "month": "2024-11",
             "proxyPrice": 445.90000000000003,
-            "proxyWow": 0.7
+            "proxyWow": 0.7,
+            "proxyYoy": -2
         },
         {
             "province": "新疆",
             "month": "2024-11",
             "proxyPrice": 261.453,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -0.1
         },
         {
             "province": "四川",
             "month": "2024-11",
             "proxyPrice": 397.8,
-            "proxyWow": 39.2
+            "proxyWow": 39.2,
+            "proxyYoy": 4.7
         },
         {
             "province": "甘肃",
@@ -26272,73 +23795,85 @@ window.WORKBENCH_DATA = {
             "province": "云南",
             "month": "2024-10",
             "proxyPrice": 202.805,
-            "proxyWow": 1.4
+            "proxyWow": 1.4,
+            "proxyYoy": -7.4
         },
         {
             "province": "重庆",
             "month": "2024-10",
             "proxyPrice": 441.757,
-            "proxyWow": -1.9
+            "proxyWow": -1.9,
+            "proxyYoy": -6.3
         },
         {
             "province": "青海",
             "month": "2024-10",
             "proxyPrice": 268.092,
-            "proxyWow": 19.4
+            "proxyWow": 19.4,
+            "proxyYoy": -11.5
         },
         {
             "province": "贵州",
             "month": "2024-10",
             "proxyPrice": 410.028,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -1.9
         },
         {
             "province": "山西",
             "month": "2024-10",
             "proxyPrice": 355.03200000000004,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -3.2
         },
         {
             "province": "山东",
             "month": "2024-10",
             "proxyPrice": 460,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -7.8
         },
         {
             "province": "北京",
             "month": "2024-10",
             "proxyPrice": 394.767,
-            "proxyWow": -0.9
+            "proxyWow": -0.9,
+            "proxyYoy": -1.8
         },
         {
             "province": "广西",
             "month": "2024-10",
             "proxyPrice": 353.963,
-            "proxyWow": 4.1
+            "proxyWow": 4.1,
+            "proxyYoy": -0.8
         },
         {
             "province": "安徽",
             "month": "2024-10",
             "proxyPrice": 436.39,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -5.4
         },
         {
             "province": "江西",
             "month": "2024-10",
             "proxyPrice": 458.89000000000004,
-            "proxyWow": -1.7
+            "proxyWow": -1.7,
+            "proxyYoy": -7.7
         },
         {
             "province": "黑龙江",
             "month": "2024-10",
             "proxyPrice": 404.422,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "河南",
             "month": "2024-10",
             "proxyPrice": 411.50199999999995,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.2
         },
         {
             "province": "辽宁",
@@ -26350,7 +23885,8 @@ window.WORKBENCH_DATA = {
             "province": "福建",
             "month": "2024-10",
             "proxyPrice": 435.59999999999997,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -4.8
         },
         {
             "province": "海南",
@@ -26362,19 +23898,22 @@ window.WORKBENCH_DATA = {
             "province": "吉林",
             "month": "2024-10",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "上海",
             "month": "2024-10",
             "proxyPrice": 472.98,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": 3.1
         },
         {
             "province": "河北",
             "month": "2024-10",
             "proxyPrice": 415.7,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "甘肃",
@@ -26386,37 +23925,43 @@ window.WORKBENCH_DATA = {
             "province": "广东",
             "month": "2024-10",
             "proxyPrice": 467.7,
-            "proxyWow": -0.8
+            "proxyWow": -0.8,
+            "proxyYoy": -5.8
         },
         {
             "province": "四川",
             "month": "2024-10",
             "proxyPrice": 285.7,
-            "proxyWow": -7.1
+            "proxyWow": -7.1,
+            "proxyYoy": -15.9
         },
         {
             "province": "天津",
             "month": "2024-10",
             "proxyPrice": 397.5,
-            "proxyWow": -3.5
+            "proxyWow": -3.5,
+            "proxyYoy": -6.4
         },
         {
             "province": "浙江",
             "month": "2024-10",
             "proxyPrice": 488,
-            "proxyWow": 1.7
+            "proxyWow": 1.7,
+            "proxyYoy": -5.2
         },
         {
             "province": "新疆",
             "month": "2024-10",
             "proxyPrice": 256.81399999999996,
-            "proxyWow": 9.8
+            "proxyWow": 9.8,
+            "proxyYoy": 1.9
         },
         {
             "province": "湖南",
             "month": "2024-10",
             "proxyPrice": 463.83000000000004,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -6.1
         },
         {
             "province": "湖北",
@@ -26428,37 +23973,43 @@ window.WORKBENCH_DATA = {
             "province": "江苏",
             "month": "2024-10",
             "proxyPrice": 442.90000000000003,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -0.3
         },
         {
             "province": "陕西",
             "month": "2024-10",
             "proxyPrice": 398.9,
-            "proxyWow": 2.7
+            "proxyWow": 2.7,
+            "proxyYoy": -2.3
         },
         {
             "province": "内蒙古",
             "month": "2024-10",
             "proxyPrice": 297.8,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -0.7
         },
         {
             "province": "宁夏",
             "month": "2024-10",
             "proxyPrice": 308.2,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -0.5
         },
         {
             "province": "江苏",
             "month": "2024-09",
             "proxyPrice": 445.1,
-            "proxyWow": -3.2
+            "proxyWow": -3.2,
+            "proxyYoy": 0.5
         },
         {
             "province": "河南",
             "month": "2024-09",
             "proxyPrice": 411.422,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -9.2
         },
         {
             "province": "甘肃",
@@ -26476,55 +24027,64 @@ window.WORKBENCH_DATA = {
             "province": "贵州",
             "month": "2024-09",
             "proxyPrice": 410.985,
-            "proxyWow": -0.1
+            "proxyWow": -0.1,
+            "proxyYoy": -1.6
         },
         {
             "province": "四川",
             "month": "2024-09",
             "proxyPrice": 307.59999999999997,
-            "proxyWow": 18.1
+            "proxyWow": 18.1,
+            "proxyYoy": -8.6
         },
         {
             "province": "湖南",
             "month": "2024-09",
             "proxyPrice": 476.37,
-            "proxyWow": -1.2
+            "proxyWow": -1.2,
+            "proxyYoy": -6.9
         },
         {
             "province": "福建",
             "month": "2024-09",
             "proxyPrice": 435,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -5.2
         },
         {
             "province": "山东",
             "month": "2024-09",
             "proxyPrice": 457.9,
-            "proxyWow": 6.4
+            "proxyWow": 6.4,
+            "proxyYoy": -8.1
         },
         {
             "province": "北京",
             "month": "2024-09",
             "proxyPrice": 398.461,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -2.9
         },
         {
             "province": "山西",
             "month": "2024-09",
             "proxyPrice": 352.305,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": -1.5
         },
         {
             "province": "青海",
             "month": "2024-09",
             "proxyPrice": 224.594,
-            "proxyWow": 3.6
+            "proxyWow": 3.6,
+            "proxyYoy": -19.7
         },
         {
             "province": "河北",
             "month": "2024-09",
             "proxyPrice": 415.8,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "湖北",
@@ -26536,13 +24096,15 @@ window.WORKBENCH_DATA = {
             "province": "上海",
             "month": "2024-09",
             "proxyPrice": 473.16,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": 6.5
         },
         {
             "province": "安徽",
             "month": "2024-09",
             "proxyPrice": 438.14,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -5
         },
         {
             "province": "海南",
@@ -26554,85 +24116,99 @@ window.WORKBENCH_DATA = {
             "province": "江西",
             "month": "2024-09",
             "proxyPrice": 466.83000000000004,
-            "proxyWow": -0.3
+            "proxyWow": -0.3,
+            "proxyYoy": -6.1
         },
         {
             "province": "广西",
             "month": "2024-09",
             "proxyPrice": 340.07599999999996,
-            "proxyWow": 3.2
+            "proxyWow": 3.2,
+            "proxyYoy": -18.2
         },
         {
             "province": "陕西",
             "month": "2024-09",
             "proxyPrice": 388.6,
-            "proxyWow": -4
+            "proxyWow": -4,
+            "proxyYoy": 2.6
         },
         {
             "province": "新疆",
             "month": "2024-09",
             "proxyPrice": 233.927,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -5.7
         },
         {
             "province": "重庆",
             "month": "2024-09",
             "proxyPrice": 450.315,
-            "proxyWow": -10.7
+            "proxyWow": -10.7,
+            "proxyYoy": -10.6
         },
         {
             "province": "吉林",
             "month": "2024-09",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "宁夏",
             "month": "2024-09",
             "proxyPrice": 310.09999999999997,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": 1.1
         },
         {
             "province": "黑龙江",
             "month": "2024-09",
             "proxyPrice": 404.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "内蒙古",
             "month": "2024-09",
             "proxyPrice": 298.20000000000005,
-            "proxyWow": 0.4
+            "proxyWow": 0.4,
+            "proxyYoy": -0.2
         },
         {
             "province": "天津",
             "month": "2024-09",
             "proxyPrice": 411.8,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -4.9
         },
         {
             "province": "广东",
             "month": "2024-09",
             "proxyPrice": 471.6,
-            "proxyWow": -2.4
+            "proxyWow": -2.4,
+            "proxyYoy": -8.1
         },
         {
             "province": "浙江",
             "month": "2024-09",
             "proxyPrice": 479.8,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": -8.7
         },
         {
             "province": "云南",
             "month": "2024-09",
             "proxyPrice": 200.094,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -6.9
         },
         {
             "province": "贵州",
             "month": "2024-08",
             "proxyPrice": 411.447,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.9
         },
         {
             "province": "辽宁",
@@ -26644,25 +24220,29 @@ window.WORKBENCH_DATA = {
             "province": "云南",
             "month": "2024-08",
             "proxyPrice": 200.409,
-            "proxyWow": 0.3
+            "proxyWow": 0.3,
+            "proxyYoy": -6.2
         },
         {
             "province": "宁夏",
             "month": "2024-08",
             "proxyPrice": 309.8,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": 2.9
         },
         {
             "province": "江西",
             "month": "2024-08",
             "proxyPrice": 468.38,
-            "proxyWow": -0.4
+            "proxyWow": -0.4,
+            "proxyYoy": -5.8
         },
         {
             "province": "青海",
             "month": "2024-08",
             "proxyPrice": 216.836,
-            "proxyWow": -4.1
+            "proxyWow": -4.1,
+            "proxyYoy": -14.5
         },
         {
             "province": "海南",
@@ -26674,73 +24254,85 @@ window.WORKBENCH_DATA = {
             "province": "内蒙古",
             "month": "2024-08",
             "proxyPrice": 297,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": 0.8
         },
         {
             "province": "北京",
             "month": "2024-08",
             "proxyPrice": 409.02,
-            "proxyWow": -0.5
+            "proxyWow": -0.5,
+            "proxyYoy": -2.8
         },
         {
             "province": "河南",
             "month": "2024-08",
             "proxyPrice": 411.861,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.1
         },
         {
             "province": "河北",
             "month": "2024-08",
             "proxyPrice": 415.9,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "浙江",
             "month": "2024-08",
             "proxyPrice": 466.7,
-            "proxyWow": -1.5
+            "proxyWow": -1.5,
+            "proxyYoy": -7.3
         },
         {
             "province": "山西",
             "month": "2024-08",
             "proxyPrice": 357.193,
-            "proxyWow": -2.6
+            "proxyWow": -2.6,
+            "proxyYoy": -2
         },
         {
             "province": "新疆",
             "month": "2024-08",
             "proxyPrice": 234.974,
-            "proxyWow": -7.9
+            "proxyWow": -7.9,
+            "proxyYoy": -10.6
         },
         {
             "province": "重庆",
             "month": "2024-08",
             "proxyPrice": 504.06700000000006,
-            "proxyWow": 5.8
+            "proxyWow": 5.8,
+            "proxyYoy": -1.3
         },
         {
             "province": "天津",
             "month": "2024-08",
             "proxyPrice": 419.20000000000005,
-            "proxyWow": -0.2
+            "proxyWow": -0.2,
+            "proxyYoy": -4.5
         },
         {
             "province": "广东",
             "month": "2024-08",
             "proxyPrice": 483,
-            "proxyWow": 1.9
+            "proxyWow": 1.9,
+            "proxyYoy": -9
         },
         {
             "province": "陕西",
             "month": "2024-08",
             "proxyPrice": 404.9,
-            "proxyWow": 0.5
+            "proxyWow": 0.5,
+            "proxyYoy": -3.6
         },
         {
             "province": "四川",
             "month": "2024-08",
             "proxyPrice": 260.5,
-            "proxyWow": 3.9
+            "proxyWow": 3.9,
+            "proxyYoy": -34.2
         },
         {
             "province": "甘肃",
@@ -26752,13 +24344,15 @@ window.WORKBENCH_DATA = {
             "province": "广西",
             "month": "2024-08",
             "proxyPrice": 329.381,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": -24.5
         },
         {
             "province": "江苏",
             "month": "2024-08",
             "proxyPrice": 459.7,
-            "proxyWow": 0.6
+            "proxyWow": 0.6,
+            "proxyYoy": -0.1
         },
         {
             "province": "湖北",
@@ -26770,49 +24364,57 @@ window.WORKBENCH_DATA = {
             "province": "黑龙江",
             "month": "2024-08",
             "proxyPrice": 404.414,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "山东",
             "month": "2024-08",
             "proxyPrice": 430.5,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -11.5
         },
         {
             "province": "湖南",
             "month": "2024-08",
             "proxyPrice": 482.08,
-            "proxyWow": 1.5
+            "proxyWow": 1.5,
+            "proxyYoy": -10.7
         },
         {
             "province": "安徽",
             "month": "2024-08",
             "proxyPrice": 437.01,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.3
         },
         {
             "province": "上海",
             "month": "2024-08",
             "proxyPrice": 473.18,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.2
         },
         {
             "province": "吉林",
             "month": "2024-08",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "福建",
             "month": "2024-08",
             "proxyPrice": 433.2,
-            "proxyWow": -0.6
+            "proxyWow": -0.6,
+            "proxyYoy": -6.1
         },
         {
             "province": "广东",
             "month": "2024-07",
             "proxyPrice": 473.8,
-            "proxyWow": 3.9
+            "proxyWow": 3.9,
+            "proxyYoy": -10.5
         },
         {
             "province": "海南",
@@ -26824,115 +24426,134 @@ window.WORKBENCH_DATA = {
             "province": "广西",
             "month": "2024-07",
             "proxyPrice": 334.14500000000004,
-            "proxyWow": 2.4
+            "proxyWow": 2.4,
+            "proxyYoy": -3.6
         },
         {
             "province": "上海",
             "month": "2024-07",
             "proxyPrice": 472.96,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.7
         },
         {
             "province": "江西",
             "month": "2024-07",
             "proxyPrice": 470.24,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": -5.4
         },
         {
             "province": "云南",
             "month": "2024-07",
             "proxyPrice": 199.867,
-            "proxyWow": -9
+            "proxyWow": -9,
+            "proxyYoy": 0.5
         },
         {
             "province": "宁夏",
             "month": "2024-07",
             "proxyPrice": 314.5,
-            "proxyWow": 2.8
+            "proxyWow": 2.8,
+            "proxyYoy": 4.7
         },
         {
             "province": "天津",
             "month": "2024-07",
             "proxyPrice": 420.20000000000005,
-            "proxyWow": 1.8
+            "proxyWow": 1.8,
+            "proxyYoy": -2.9
         },
         {
             "province": "浙江",
             "month": "2024-07",
             "proxyPrice": 474,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -5.5
         },
         {
             "province": "陕西",
             "month": "2024-07",
             "proxyPrice": 402.9,
-            "proxyWow": 1.2
+            "proxyWow": 1.2,
+            "proxyYoy": -3.8
         },
         {
             "province": "内蒙古",
             "month": "2024-07",
             "proxyPrice": 294.59999999999997,
-            "proxyWow": -1.4
+            "proxyWow": -1.4,
+            "proxyYoy": 0.1
         },
         {
             "province": "吉林",
             "month": "2024-07",
             "proxyPrice": 421.42,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -5.9
         },
         {
             "province": "新疆",
             "month": "2024-07",
             "proxyPrice": 255.05100000000002,
-            "proxyWow": 16
+            "proxyWow": 16,
+            "proxyYoy": -5.3
         },
         {
             "province": "重庆",
             "month": "2024-07",
             "proxyPrice": 476.563,
-            "proxyWow": 6.1
+            "proxyWow": 6.1,
+            "proxyYoy": -7.8
         },
         {
             "province": "安徽",
             "month": "2024-07",
             "proxyPrice": 437,
-            "proxyWow": 0.1
+            "proxyWow": 0.1,
+            "proxyYoy": -5.3
         },
         {
             "province": "山东",
             "month": "2024-07",
             "proxyPrice": 438.2,
-            "proxyWow": -5.3
+            "proxyWow": -5.3,
+            "proxyYoy": -8.1
         },
         {
             "province": "青海",
             "month": "2024-07",
             "proxyPrice": 226.08,
-            "proxyWow": -13.9
+            "proxyWow": -13.9,
+            "proxyYoy": -16.2
         },
         {
             "province": "福建",
             "month": "2024-07",
             "proxyPrice": 435.59999999999997,
-            "proxyWow": -1.8
+            "proxyWow": -1.8,
+            "proxyYoy": -5.5
         },
         {
             "province": "河北",
             "month": "2024-07",
             "proxyPrice": 415.9,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -4.9
         },
         {
             "province": "贵州",
             "month": "2024-07",
             "proxyPrice": 411.57,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -1.8
         },
         {
             "province": "北京",
             "month": "2024-07",
             "proxyPrice": 411.271,
-            "proxyWow": 2.3
+            "proxyWow": 2.3,
+            "proxyYoy": -2.3
         },
         {
             "province": "辽宁",
@@ -26950,4297 +24571,43 @@ window.WORKBENCH_DATA = {
             "province": "四川",
             "month": "2024-07",
             "proxyPrice": 250.7,
-            "proxyWow": -10.1
+            "proxyWow": -10.1,
+            "proxyYoy": -30.3
         },
         {
             "province": "山西",
             "month": "2024-07",
             "proxyPrice": 366.625,
-            "proxyWow": 0.8
+            "proxyWow": 0.8,
+            "proxyYoy": 0.9
         },
         {
             "province": "河南",
             "month": "2024-07",
             "proxyPrice": 411.683,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -9.2
         },
         {
             "province": "湖南",
             "month": "2024-07",
             "proxyPrice": 475.07,
-            "proxyWow": 2
+            "proxyWow": 2,
+            "proxyYoy": -12
         },
         {
             "province": "黑龙江",
             "month": "2024-07",
             "proxyPrice": 404.416,
-            "proxyWow": 0
+            "proxyWow": 0,
+            "proxyYoy": -3.9
         },
         {
             "province": "江苏",
             "month": "2024-07",
             "proxyPrice": 456.9,
-            "proxyWow": 0.9
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-06",
-            "proxyPrice": 298.9,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "河北",
-            "month": "2024-06",
-            "proxyPrice": 415.8,
-            "proxyWow": 0
-        },
-        {
-            "province": "海南",
-            "month": "2024-06",
-            "proxyPrice": 505.3299999999999,
-            "proxyWow": 0
-        },
-        {
-            "province": "辽宁",
-            "month": "2024-06",
-            "proxyPrice": 421.103,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "甘肃",
-            "month": "2024-06",
-            "proxyPrice": 279.27000000000004,
-            "proxyWow": -4.9
-        },
-        {
-            "province": "湖南",
-            "month": "2024-06",
-            "proxyPrice": 465.76,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "福建",
-            "month": "2024-06",
-            "proxyPrice": 443.40000000000003,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "广东",
-            "month": "2024-06",
-            "proxyPrice": 456,
-            "proxyWow": -6
-        },
-        {
-            "province": "浙江",
-            "month": "2024-06",
-            "proxyPrice": 473.7,
-            "proxyWow": -2.1
-        },
-        {
-            "province": "天津",
-            "month": "2024-06",
-            "proxyPrice": 412.9,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "四川",
-            "month": "2024-06",
-            "proxyPrice": 278.9,
-            "proxyWow": -29.7
-        },
-        {
-            "province": "重庆",
-            "month": "2024-06",
-            "proxyPrice": 449.151,
-            "proxyWow": -0.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-06",
-            "proxyPrice": 404.41700000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "山西",
-            "month": "2024-06",
-            "proxyPrice": 363.736,
-            "proxyWow": 5.2
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-06",
-            "proxyPrice": 305.8,
-            "proxyWow": -2
-        },
-        {
-            "province": "山东",
-            "month": "2024-06",
-            "proxyPrice": 462.7,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "云南",
-            "month": "2024-06",
-            "proxyPrice": 219.744,
-            "proxyWow": -20.7
-        },
-        {
-            "province": "广西",
-            "month": "2024-06",
-            "proxyPrice": 326.464,
-            "proxyWow": -17
-        },
-        {
-            "province": "青海",
-            "month": "2024-06",
-            "proxyPrice": 262.538,
-            "proxyWow": -1
-        },
-        {
-            "province": "新疆",
-            "month": "2024-06",
-            "proxyPrice": 219.92999999999998,
-            "proxyWow": -3.4
-        },
-        {
-            "province": "江西",
-            "month": "2024-06",
-            "proxyPrice": 466.34999999999997,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "吉林",
-            "month": "2024-06",
-            "proxyPrice": 421.42,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2024-06",
-            "proxyPrice": 436.49,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2024-06",
-            "proxyPrice": 453,
-            "proxyWow": 2.5
-        },
-        {
-            "province": "上海",
-            "month": "2024-06",
-            "proxyPrice": 473.03000000000003,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "贵州",
-            "month": "2024-06",
-            "proxyPrice": 411.483,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "陕西",
-            "month": "2024-06",
-            "proxyPrice": 398.1,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "河南",
-            "month": "2024-06",
-            "proxyPrice": 411.654,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "北京",
-            "month": "2024-06",
-            "proxyPrice": 401.89599999999996,
-            "proxyWow": 0.9
-        },
-        {
-            "province": "河北",
-            "month": "2024-05",
-            "proxyPrice": 415.7,
-            "proxyWow": 0
-        },
-        {
-            "province": "四川",
-            "month": "2024-05",
-            "proxyPrice": 397,
-            "proxyWow": -18
-        },
-        {
-            "province": "北京",
-            "month": "2024-05",
-            "proxyPrice": 398.289,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2024-05",
-            "proxyPrice": 410.17900000000003,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "山东",
-            "month": "2024-05",
-            "proxyPrice": 466.1,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "青海",
-            "month": "2024-05",
-            "proxyPrice": 265.099,
-            "proxyWow": -8.1
-        },
-        {
-            "province": "广西",
-            "month": "2024-05",
-            "proxyPrice": 393.15,
-            "proxyWow": 5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-05",
-            "proxyPrice": 299.5,
-            "proxyWow": 0
-        },
-        {
-            "province": "广东",
-            "month": "2024-05",
-            "proxyPrice": 485.3,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "陕西",
-            "month": "2024-05",
-            "proxyPrice": 391.1,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "上海",
-            "month": "2024-05",
-            "proxyPrice": 472.75,
-            "proxyWow": 0
-        },
-        {
-            "province": "海南",
-            "month": "2024-05",
-            "proxyPrice": 505.3299999999999,
-            "proxyWow": 0
-        },
-        {
-            "province": "天津",
-            "month": "2024-05",
-            "proxyPrice": 411.3,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "甘肃",
-            "month": "2024-05",
-            "proxyPrice": 293.52299999999997,
-            "proxyWow": -1
-        },
-        {
-            "province": "新疆",
-            "month": "2024-05",
-            "proxyPrice": 227.619,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "山西",
-            "month": "2024-05",
-            "proxyPrice": 345.715,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-05",
-            "proxyPrice": 311.90000000000003,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "福建",
-            "month": "2024-05",
-            "proxyPrice": 443.79999999999995,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "云南",
-            "month": "2024-05",
-            "proxyPrice": 277.112,
-            "proxyWow": -7.5
-        },
-        {
-            "province": "江西",
-            "month": "2024-05",
-            "proxyPrice": 466.63,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "吉林",
-            "month": "2024-05",
-            "proxyPrice": 421.42,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2024-05",
-            "proxyPrice": 450.847,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "辽宁",
-            "month": "2024-05",
-            "proxyPrice": 420.512,
-            "proxyWow": -1.7
-        },
-        {
-            "province": "浙江",
-            "month": "2024-05",
-            "proxyPrice": 483.9,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "安徽",
-            "month": "2024-05",
-            "proxyPrice": 436.49,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "河南",
-            "month": "2024-05",
-            "proxyPrice": 411.324,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "湖南",
-            "month": "2024-05",
-            "proxyPrice": 462.81,
-            "proxyWow": -1.1
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-05",
-            "proxyPrice": 404.413,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2024-05",
-            "proxyPrice": 441.90000000000003,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "河南",
-            "month": "2024-04",
-            "proxyPrice": 411.66999999999996,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "江西",
-            "month": "2024-04",
-            "proxyPrice": 464.96999999999997,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "重庆",
-            "month": "2024-04",
-            "proxyPrice": 459.812,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "青海",
-            "month": "2024-04",
-            "proxyPrice": 288.463,
-            "proxyWow": -7.6
-        },
-        {
-            "province": "陕西",
-            "month": "2024-04",
-            "proxyPrice": 396.1,
-            "proxyWow": -0.9
-        },
-        {
-            "province": "甘肃",
-            "month": "2024-04",
-            "proxyPrice": 296.38,
-            "proxyWow": null
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-04",
-            "proxyPrice": 310.90000000000003,
-            "proxyWow": -1
-        },
-        {
-            "province": "四川",
-            "month": "2024-04",
-            "proxyPrice": 484,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "湖南",
-            "month": "2024-04",
-            "proxyPrice": 468.15000000000003,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "海南",
-            "month": "2024-04",
-            "proxyPrice": 505.3299999999999,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2024-04",
-            "proxyPrice": 443.09999999999997,
-            "proxyWow": -0.4
-        },
-        {
-            "province": "广西",
-            "month": "2024-04",
-            "proxyPrice": 374.267,
-            "proxyWow": -6.2
-        },
-        {
-            "province": "广东",
-            "month": "2024-04",
-            "proxyPrice": 493,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "新疆",
-            "month": "2024-04",
-            "proxyPrice": 231.09199999999998,
-            "proxyWow": -7.1
-        },
-        {
-            "province": "山西",
-            "month": "2024-04",
-            "proxyPrice": 343.215,
-            "proxyWow": -4.2
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-04",
-            "proxyPrice": 404.422,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2024-04",
-            "proxyPrice": 421.42,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2024-04",
-            "proxyPrice": 409.966,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "北京",
-            "month": "2024-04",
-            "proxyPrice": 398.247,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "天津",
-            "month": "2024-04",
-            "proxyPrice": 410.8,
-            "proxyWow": 1
-        },
-        {
-            "province": "上海",
-            "month": "2024-04",
-            "proxyPrice": 472.81,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "山东",
-            "month": "2024-04",
-            "proxyPrice": 472.3,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "安徽",
-            "month": "2024-04",
-            "proxyPrice": 438.47999999999996,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "河北",
-            "month": "2024-04",
-            "proxyPrice": 415.7,
-            "proxyWow": 0
-        },
-        {
-            "province": "浙江",
-            "month": "2024-04",
-            "proxyPrice": 486.3,
-            "proxyWow": 1.2
-        },
-        {
-            "province": "辽宁",
-            "month": "2024-04",
-            "proxyPrice": 427.70599999999996,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "云南",
-            "month": "2024-04",
-            "proxyPrice": 299.58099999999996,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-04",
-            "proxyPrice": 299.59999999999997,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "福建",
-            "month": "2024-04",
-            "proxyPrice": 444.29999999999995,
-            "proxyWow": 1.7
-        },
-        {
-            "province": "新疆",
-            "month": "2024-03",
-            "proxyPrice": 248.751,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "海南",
-            "month": "2024-03",
-            "proxyPrice": 505.55000000000007,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "广东",
-            "month": "2024-03",
-            "proxyPrice": 487.70000000000005,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "四川",
-            "month": "2024-03",
-            "proxyPrice": 476.7,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "江苏",
-            "month": "2024-03",
-            "proxyPrice": 445,
-            "proxyWow": -2.9
-        },
-        {
-            "province": "河北",
-            "month": "2024-03",
-            "proxyPrice": 415.7,
-            "proxyWow": 0
-        },
-        {
-            "province": "青海",
-            "month": "2024-03",
-            "proxyPrice": 312.295,
-            "proxyWow": -5.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-03",
-            "proxyPrice": 404.428,
-            "proxyWow": 0
-        },
-        {
-            "province": "山西",
-            "month": "2024-03",
-            "proxyPrice": 358.214,
-            "proxyWow": 1.3
-        },
-        {
-            "province": "安徽",
-            "month": "2024-03",
-            "proxyPrice": 436.75,
-            "proxyWow": 0
-        },
-        {
-            "province": "福建",
-            "month": "2024-03",
-            "proxyPrice": 437,
-            "proxyWow": 2
-        },
-        {
-            "province": "广西",
-            "month": "2024-03",
-            "proxyPrice": 398.796,
-            "proxyWow": -11.3
-        },
-        {
-            "province": "重庆",
-            "month": "2024-03",
-            "proxyPrice": 467.522,
-            "proxyWow": -3.6
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-03",
-            "proxyPrice": 313.90000000000003,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "贵州",
-            "month": "2024-03",
-            "proxyPrice": 410.429,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "湖南",
-            "month": "2024-03",
-            "proxyPrice": 471.55,
-            "proxyWow": 203.5
-        },
-        {
-            "province": "山东",
-            "month": "2024-03",
-            "proxyPrice": 471.9,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-03",
-            "proxyPrice": 301.70000000000005,
-            "proxyWow": 2.2
-        },
-        {
-            "province": "上海",
-            "month": "2024-03",
-            "proxyPrice": 473.91,
-            "proxyWow": 0
-        },
-        {
-            "province": "河南",
-            "month": "2024-03",
-            "proxyPrice": 407.29900000000004,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "陕西",
-            "month": "2024-03",
-            "proxyPrice": 399.6,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "浙江",
-            "month": "2024-03",
-            "proxyPrice": 480.4,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "江西",
-            "month": "2024-03",
-            "proxyPrice": 471.65000000000003,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "北京",
-            "month": "2024-03",
-            "proxyPrice": 397.48699999999997,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "辽宁",
-            "month": "2024-03",
-            "proxyPrice": 422.956,
-            "proxyWow": 2.9
-        },
-        {
-            "province": "天津",
-            "month": "2024-03",
-            "proxyPrice": 406.8,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "云南",
-            "month": "2024-03",
-            "proxyPrice": 298.238,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "吉林",
-            "month": "2024-03",
-            "proxyPrice": 421.42,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2024-02",
-            "proxyPrice": 436.75,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "江苏",
-            "month": "2024-02",
-            "proxyPrice": 458.5,
-            "proxyWow": -2.4
-        },
-        {
-            "province": "云南",
-            "month": "2024-02",
-            "proxyPrice": 296.973,
-            "proxyWow": -1.1
-        },
-        {
-            "province": "山东",
-            "month": "2024-02",
-            "proxyPrice": 464.8,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "青海",
-            "month": "2024-02",
-            "proxyPrice": 329.986,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "浙江",
-            "month": "2024-02",
-            "proxyPrice": 473.4,
-            "proxyWow": -2.2
-        },
-        {
-            "province": "广东",
-            "month": "2024-02",
-            "proxyPrice": 485.20000000000005,
-            "proxyWow": 3
-        },
-        {
-            "province": "江西",
-            "month": "2024-02",
-            "proxyPrice": 475.35,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-02",
-            "proxyPrice": 314.40000000000003,
-            "proxyWow": 3.3
-        },
-        {
-            "province": "上海",
-            "month": "2024-02",
-            "proxyPrice": 474.04,
-            "proxyWow": 0
-        },
-        {
-            "province": "广西",
-            "month": "2024-02",
-            "proxyPrice": 449.66,
-            "proxyWow": 9.3
-        },
-        {
-            "province": "河北",
-            "month": "2024-02",
-            "proxyPrice": 415.8,
-            "proxyWow": 0
-        },
-        {
-            "province": "海南",
-            "month": "2024-02",
-            "proxyPrice": 508.29999999999995,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-02",
-            "proxyPrice": 404.428,
-            "proxyWow": -3.8
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-02",
-            "proxyPrice": 295.09999999999997,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "重庆",
-            "month": "2024-02",
-            "proxyPrice": 484.965,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "新疆",
-            "month": "2024-02",
-            "proxyPrice": 251.712,
-            "proxyWow": -3.4
-        },
-        {
-            "province": "吉林",
-            "month": "2024-02",
-            "proxyPrice": 421.42,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2024-02",
-            "proxyPrice": 399.1,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "福建",
-            "month": "2024-02",
-            "proxyPrice": 428.59999999999997,
-            "proxyWow": -2.2
-        },
-        {
-            "province": "北京",
-            "month": "2024-02",
-            "proxyPrice": 394.412,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "湖南",
-            "month": "2024-02",
-            "proxyPrice": 155.39,
-            "proxyWow": -65.9
-        },
-        {
-            "province": "贵州",
-            "month": "2024-02",
-            "proxyPrice": 411.129,
-            "proxyWow": -2.1
-        },
-        {
-            "province": "四川",
-            "month": "2024-02",
-            "proxyPrice": 475.4,
-            "proxyWow": 4
-        },
-        {
-            "province": "天津",
-            "month": "2024-02",
-            "proxyPrice": 408.9,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "山西",
-            "month": "2024-02",
-            "proxyPrice": 353.593,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "吉林",
-            "month": "2024-01",
-            "proxyPrice": 421.42,
-            "proxyWow": -5.9
-        },
-        {
-            "province": "江西",
-            "month": "2024-01",
-            "proxyPrice": 481.08,
-            "proxyWow": -3.2
-        },
-        {
-            "province": "河南",
-            "month": "2024-01",
-            "proxyPrice": 412.3,
-            "proxyWow": -9.1
-        },
-        {
-            "province": "山东",
-            "month": "2024-01",
-            "proxyPrice": 462.1,
-            "proxyWow": -5.7
-        },
-        {
-            "province": "福建",
-            "month": "2024-01",
-            "proxyPrice": 438.3,
-            "proxyWow": -4.1
-        },
-        {
-            "province": "河北",
-            "month": "2024-01",
-            "proxyPrice": 415.8,
-            "proxyWow": -4.9
-        },
-        {
-            "province": "湖南",
-            "month": "2024-01",
-            "proxyPrice": 455.39000000000004,
-            "proxyWow": -14.3
-        },
-        {
-            "province": "四川",
-            "month": "2024-01",
-            "proxyPrice": 456.9,
-            "proxyWow": -5.7
-        },
-        {
-            "province": "北京",
-            "month": "2024-01",
-            "proxyPrice": 399.22400000000005,
-            "proxyWow": -2.5
-        },
-        {
-            "province": "陕西",
-            "month": "2024-01",
-            "proxyPrice": 399.9,
-            "proxyWow": -6
-        },
-        {
-            "province": "江苏",
-            "month": "2024-01",
-            "proxyPrice": 470,
-            "proxyWow": 1.4
-        },
-        {
-            "province": "内蒙古",
-            "month": "2024-01",
-            "proxyPrice": 295.5,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "上海",
-            "month": "2024-01",
-            "proxyPrice": 473.99,
-            "proxyWow": -6.1
-        },
-        {
-            "province": "黑龙江",
-            "month": "2024-01",
-            "proxyPrice": 420.42,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "天津",
-            "month": "2024-01",
-            "proxyPrice": 414.3,
-            "proxyWow": -0.9
-        },
-        {
-            "province": "广东",
-            "month": "2024-01",
-            "proxyPrice": 471.1,
-            "proxyWow": -8.9
-        },
-        {
-            "province": "浙江",
-            "month": "2024-01",
-            "proxyPrice": 484,
-            "proxyWow": -2.2
-        },
-        {
-            "province": "青海",
-            "month": "2024-01",
-            "proxyPrice": 324.63399999999996,
-            "proxyWow": 8.7
-        },
-        {
-            "province": "广西",
-            "month": "2024-01",
-            "proxyPrice": 411.3,
-            "proxyWow": -2.1
-        },
-        {
-            "province": "新疆",
-            "month": "2024-01",
-            "proxyPrice": 260.69100000000003,
-            "proxyWow": -6.7
-        },
-        {
-            "province": "宁夏",
-            "month": "2024-01",
-            "proxyPrice": 304.4,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "云南",
-            "month": "2024-01",
-            "proxyPrice": 300.21,
-            "proxyWow": 4.8
-        },
-        {
-            "province": "贵州",
-            "month": "2024-01",
-            "proxyPrice": 419.78900000000004,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2024-01",
-            "proxyPrice": 476.38399999999996,
-            "proxyWow": 4.3
-        },
-        {
-            "province": "安徽",
-            "month": "2024-01",
-            "proxyPrice": 436.38,
-            "proxyWow": -5.4
-        },
-        {
-            "province": "海南",
-            "month": "2024-01",
-            "proxyPrice": 515.76,
-            "proxyWow": 5.8
-        },
-        {
-            "province": "山西",
-            "month": "2024-01",
-            "proxyPrice": 351.21599999999995,
-            "proxyWow": -9.2
-        },
-        {
-            "province": "贵州",
-            "month": "2023-12",
-            "proxyPrice": 419.80400000000003,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "安徽",
-            "month": "2023-12",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "天津",
-            "month": "2023-12",
-            "proxyPrice": 418.2,
-            "proxyWow": -3
-        },
-        {
-            "province": "青海",
-            "month": "2023-12",
-            "proxyPrice": 298.548,
-            "proxyWow": -3.7
-        },
-        {
-            "province": "河南",
-            "month": "2023-12",
-            "proxyPrice": 453.76,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "北京",
-            "month": "2023-12",
-            "proxyPrice": 409.279,
-            "proxyWow": 3.3
-        },
-        {
-            "province": "福建",
-            "month": "2023-12",
-            "proxyPrice": 457,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "江苏",
-            "month": "2023-12",
-            "proxyPrice": 463.3,
-            "proxyWow": 1.9
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-12",
-            "proxyPrice": 306.59999999999997,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "广西",
-            "month": "2023-12",
-            "proxyPrice": 420,
-            "proxyWow": 1
-        },
-        {
-            "province": "湖南",
-            "month": "2023-12",
-            "proxyPrice": 531.4799999999999,
-            "proxyWow": 5.9
-        },
-        {
-            "province": "吉林",
-            "month": "2023-12",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "浙江",
-            "month": "2023-12",
-            "proxyPrice": 494.90000000000003,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "新疆",
-            "month": "2023-12",
-            "proxyPrice": 279.329,
-            "proxyWow": 6.7
-        },
-        {
-            "province": "山西",
-            "month": "2023-12",
-            "proxyPrice": 386.911,
-            "proxyWow": -1.1
-        },
-        {
-            "province": "四川",
-            "month": "2023-12",
-            "proxyPrice": 484.70000000000005,
-            "proxyWow": 27.6
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-12",
-            "proxyPrice": 420.745,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2023-12",
-            "proxyPrice": 456.942,
-            "proxyWow": 3.4
-        },
-        {
-            "province": "陕西",
-            "month": "2023-12",
-            "proxyPrice": 425.4,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "河北",
-            "month": "2023-12",
-            "proxyPrice": 437.2,
-            "proxyWow": 0
-        },
-        {
-            "province": "山东",
-            "month": "2023-12",
-            "proxyPrice": 490.09999999999997,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-12",
-            "proxyPrice": 296.5,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "江西",
-            "month": "2023-12",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "云南",
-            "month": "2023-12",
-            "proxyPrice": 286.551,
-            "proxyWow": 4.5
-        },
-        {
-            "province": "广东",
-            "month": "2023-12",
-            "proxyPrice": 517.4,
-            "proxyWow": 2.5
-        },
-        {
-            "province": "上海",
-            "month": "2023-12",
-            "proxyPrice": 504.90000000000003,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-11",
-            "proxyPrice": 420.744,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2023-11",
-            "proxyPrice": 424,
-            "proxyWow": 3.9
-        },
-        {
-            "province": "吉林",
-            "month": "2023-11",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "新疆",
-            "month": "2023-11",
-            "proxyPrice": 261.84499999999997,
-            "proxyWow": 3.9
-        },
-        {
-            "province": "广东",
-            "month": "2023-11",
-            "proxyPrice": 504.8,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "广西",
-            "month": "2023-11",
-            "proxyPrice": 415.9,
-            "proxyWow": 16.5
-        },
-        {
-            "province": "上海",
-            "month": "2023-11",
-            "proxyPrice": 493.20000000000005,
-            "proxyWow": 7.5
-        },
-        {
-            "province": "江苏",
-            "month": "2023-11",
-            "proxyPrice": 454.79999999999995,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "山东",
-            "month": "2023-11",
-            "proxyPrice": 497.5,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "山西",
-            "month": "2023-11",
-            "proxyPrice": 391.031,
-            "proxyWow": 6.6
-        },
-        {
-            "province": "天津",
-            "month": "2023-11",
-            "proxyPrice": 431.09999999999997,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "河北",
-            "month": "2023-11",
-            "proxyPrice": 437.09999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "北京",
-            "month": "2023-11",
-            "proxyPrice": 396.112,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-11",
-            "proxyPrice": 297.20000000000005,
-            "proxyWow": -0.9
-        },
-        {
-            "province": "安徽",
-            "month": "2023-11",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "河南",
-            "month": "2023-11",
-            "proxyPrice": 453,
-            "proxyWow": 0
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-11",
-            "proxyPrice": 307.2,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "四川",
-            "month": "2023-11",
-            "proxyPrice": 380,
-            "proxyWow": 11.9
-        },
-        {
-            "province": "青海",
-            "month": "2023-11",
-            "proxyPrice": 309.896,
-            "proxyWow": 2.3
-        },
-        {
-            "province": "江西",
-            "month": "2023-11",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2023-11",
-            "proxyPrice": 441.898,
-            "proxyWow": -6.3
-        },
-        {
-            "province": "贵州",
-            "month": "2023-11",
-            "proxyPrice": 420.268,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "云南",
-            "month": "2023-11",
-            "proxyPrice": 274.148,
-            "proxyWow": 25.1
-        },
-        {
-            "province": "福建",
-            "month": "2023-11",
-            "proxyPrice": 456.1,
-            "proxyWow": -0.4
-        },
-        {
-            "province": "湖南",
-            "month": "2023-11",
-            "proxyPrice": 502.05,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "浙江",
-            "month": "2023-11",
-            "proxyPrice": 496.3,
-            "proxyWow": -3.6
-        },
-        {
-            "province": "江西",
-            "month": "2023-10",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "云南",
-            "month": "2023-10",
-            "proxyPrice": 219.079,
-            "proxyWow": 2
-        },
-        {
-            "province": "广东",
-            "month": "2023-10",
-            "proxyPrice": 496.7,
-            "proxyWow": -3.2
-        },
-        {
-            "province": "吉林",
-            "month": "2023-10",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "上海",
-            "month": "2023-10",
-            "proxyPrice": 458.6,
-            "proxyWow": 3.2
-        },
-        {
-            "province": "山东",
-            "month": "2023-10",
-            "proxyPrice": 498.8,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "重庆",
-            "month": "2023-10",
-            "proxyPrice": 471.462,
-            "proxyWow": -6.4
-        },
-        {
-            "province": "湖南",
-            "month": "2023-10",
-            "proxyPrice": 494.21,
-            "proxyWow": -3.4
-        },
-        {
-            "province": "贵州",
-            "month": "2023-10",
-            "proxyPrice": 417.9,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "陕西",
-            "month": "2023-10",
-            "proxyPrice": 408.2,
-            "proxyWow": 7.8
-        },
-        {
-            "province": "四川",
-            "month": "2023-10",
-            "proxyPrice": 339.7,
-            "proxyWow": 1
-        },
-        {
-            "province": "浙江",
-            "month": "2023-10",
-            "proxyPrice": 514.8000000000001,
-            "proxyWow": -2
-        },
-        {
-            "province": "山西",
-            "month": "2023-10",
-            "proxyPrice": 366.904,
-            "proxyWow": 2.5
-        },
-        {
-            "province": "新疆",
-            "month": "2023-10",
-            "proxyPrice": 252.069,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "天津",
-            "month": "2023-10",
-            "proxyPrice": 424.59999999999997,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-10",
-            "proxyPrice": 300,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "广西",
-            "month": "2023-10",
-            "proxyPrice": 356.9,
-            "proxyWow": -14.1
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-10",
-            "proxyPrice": 309.8,
-            "proxyWow": 1
-        },
-        {
-            "province": "河北",
-            "month": "2023-10",
-            "proxyPrice": 437.09999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-10",
-            "proxyPrice": 420.744,
-            "proxyWow": 0
-        },
-        {
-            "province": "青海",
-            "month": "2023-10",
-            "proxyPrice": 302.99399999999997,
-            "proxyWow": 8.3
-        },
-        {
-            "province": "北京",
-            "month": "2023-10",
-            "proxyPrice": 402.05,
-            "proxyWow": -2
-        },
-        {
-            "province": "福建",
-            "month": "2023-10",
-            "proxyPrice": 457.8,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "河南",
-            "month": "2023-10",
-            "proxyPrice": 453,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2023-10",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2023-10",
-            "proxyPrice": 444.29999999999995,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-09",
-            "proxyPrice": 306.59999999999997,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "安徽",
-            "month": "2023-09",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "四川",
-            "month": "2023-09",
-            "proxyPrice": 336.5,
-            "proxyWow": -15
-        },
-        {
-            "province": "河北",
-            "month": "2023-09",
-            "proxyPrice": 437.2,
-            "proxyWow": 0
-        },
-        {
-            "province": "新疆",
-            "month": "2023-09",
-            "proxyPrice": 248.027,
-            "proxyWow": -5.6
-        },
-        {
-            "province": "云南",
-            "month": "2023-09",
-            "proxyPrice": 214.845,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "广西",
-            "month": "2023-09",
-            "proxyPrice": 415.5,
-            "proxyWow": -4.7
-        },
-        {
-            "province": "福建",
-            "month": "2023-09",
-            "proxyPrice": 459,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "北京",
-            "month": "2023-09",
-            "proxyPrice": 410.302,
-            "proxyWow": -2.5
-        },
-        {
-            "province": "陕西",
-            "month": "2023-09",
-            "proxyPrice": 378.7,
-            "proxyWow": -9.9
-        },
-        {
-            "province": "天津",
-            "month": "2023-09",
-            "proxyPrice": 433,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "河南",
-            "month": "2023-09",
-            "proxyPrice": 453,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-09",
-            "proxyPrice": 298.70000000000005,
-            "proxyWow": 1.4
-        },
-        {
-            "province": "吉林",
-            "month": "2023-09",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-09",
-            "proxyPrice": 420.744,
-            "proxyWow": 0
-        },
-        {
-            "province": "广东",
-            "month": "2023-09",
-            "proxyPrice": 512.9,
-            "proxyWow": -3.4
-        },
-        {
-            "province": "山西",
-            "month": "2023-09",
-            "proxyPrice": 357.846,
-            "proxyWow": -1.8
-        },
-        {
-            "province": "青海",
-            "month": "2023-09",
-            "proxyPrice": 279.782,
-            "proxyWow": 10.3
-        },
-        {
-            "province": "湖南",
-            "month": "2023-09",
-            "proxyPrice": 511.44,
-            "proxyWow": -5.3
-        },
-        {
-            "province": "浙江",
-            "month": "2023-09",
-            "proxyPrice": 525.4,
-            "proxyWow": 4.3
-        },
-        {
-            "province": "重庆",
-            "month": "2023-09",
-            "proxyPrice": 503.556,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "江西",
-            "month": "2023-09",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2023-09",
-            "proxyPrice": 417.6,
-            "proxyWow": -0.4
-        },
-        {
-            "province": "江苏",
-            "month": "2023-09",
-            "proxyPrice": 443,
-            "proxyWow": -3.7
-        },
-        {
-            "province": "山东",
-            "month": "2023-09",
-            "proxyPrice": 498.2,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "上海",
-            "month": "2023-09",
-            "proxyPrice": 444.40000000000003,
-            "proxyWow": -9.1
-        },
-        {
-            "province": "云南",
-            "month": "2023-08",
-            "proxyPrice": 213.70700000000002,
-            "proxyWow": 7.5
-        },
-        {
-            "province": "青海",
-            "month": "2023-08",
-            "proxyPrice": 253.666,
-            "proxyWow": -6
-        },
-        {
-            "province": "江苏",
-            "month": "2023-08",
-            "proxyPrice": 460.1,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "广东",
-            "month": "2023-08",
-            "proxyPrice": 530.8000000000001,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "天津",
-            "month": "2023-08",
-            "proxyPrice": 438.90000000000003,
-            "proxyWow": 1.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-08",
-            "proxyPrice": 420.745,
-            "proxyWow": 0
-        },
-        {
-            "province": "浙江",
-            "month": "2023-08",
-            "proxyPrice": 503.6,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "四川",
-            "month": "2023-08",
-            "proxyPrice": 396.1,
-            "proxyWow": 10.1
-        },
-        {
-            "province": "安徽",
-            "month": "2023-08",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2023-08",
-            "proxyPrice": 510.54200000000003,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "山东",
-            "month": "2023-08",
-            "proxyPrice": 486.59999999999997,
-            "proxyWow": 2.1
-        },
-        {
-            "province": "湖南",
-            "month": "2023-08",
-            "proxyPrice": 539.83,
-            "proxyWow": 0
-        },
-        {
-            "province": "山西",
-            "month": "2023-08",
-            "proxyPrice": 364.565,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-08",
-            "proxyPrice": 301.20000000000005,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "河南",
-            "month": "2023-08",
-            "proxyPrice": 453.29999999999995,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2023-08",
-            "proxyPrice": 419.3,
-            "proxyWow": 0
-        },
-        {
-            "province": "新疆",
-            "month": "2023-08",
-            "proxyPrice": 262.87100000000004,
-            "proxyWow": -2.4
-        },
-        {
-            "province": "福建",
-            "month": "2023-08",
-            "proxyPrice": 461.5,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-08",
-            "proxyPrice": 294.59999999999997,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "河北",
-            "month": "2023-08",
-            "proxyPrice": 437.2,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2023-08",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "北京",
-            "month": "2023-08",
-            "proxyPrice": 420.63,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "陕西",
-            "month": "2023-08",
-            "proxyPrice": 420.20000000000005,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "广西",
-            "month": "2023-08",
-            "proxyPrice": 436.2,
-            "proxyWow": 25.9
-        },
-        {
-            "province": "上海",
-            "month": "2023-08",
-            "proxyPrice": 489,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "江西",
-            "month": "2023-08",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "天津",
-            "month": "2023-07",
-            "proxyPrice": 432.90000000000003,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "青海",
-            "month": "2023-07",
-            "proxyPrice": 269.826,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "浙江",
-            "month": "2023-07",
-            "proxyPrice": 501.6,
-            "proxyWow": -4.6
-        },
-        {
-            "province": "山东",
-            "month": "2023-07",
-            "proxyPrice": 476.6,
-            "proxyWow": 4.1
-        },
-        {
-            "province": "吉林",
-            "month": "2023-07",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-07",
-            "proxyPrice": 420.745,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2023-07",
-            "proxyPrice": 418.7,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "贵州",
-            "month": "2023-07",
-            "proxyPrice": 419.3,
-            "proxyWow": 0
-        },
-        {
-            "province": "四川",
-            "month": "2023-07",
-            "proxyPrice": 359.9,
-            "proxyWow": 5.4
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-07",
-            "proxyPrice": 294.4,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "河南",
-            "month": "2023-07",
-            "proxyPrice": 453.29999999999995,
-            "proxyWow": null
-        },
-        {
-            "province": "福建",
-            "month": "2023-07",
-            "proxyPrice": 461,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "广东",
-            "month": "2023-07",
-            "proxyPrice": 529.5,
-            "proxyWow": 3
-        },
-        {
-            "province": "江西",
-            "month": "2023-07",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2023-07",
-            "proxyPrice": 437.2,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2023-07",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-07",
-            "proxyPrice": 300.4,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "云南",
-            "month": "2023-07",
-            "proxyPrice": 198.86100000000002,
-            "proxyWow": -9.4
-        },
-        {
-            "province": "湖南",
-            "month": "2023-07",
-            "proxyPrice": 539.6800000000001,
-            "proxyWow": 7
-        },
-        {
-            "province": "重庆",
-            "month": "2023-07",
-            "proxyPrice": 516.673,
-            "proxyWow": 17.7
-        },
-        {
-            "province": "北京",
-            "month": "2023-07",
-            "proxyPrice": 421.08,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "山西",
-            "month": "2023-07",
-            "proxyPrice": 363.485,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "新疆",
-            "month": "2023-07",
-            "proxyPrice": 269.429,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "上海",
-            "month": "2023-07",
-            "proxyPrice": 481.1,
-            "proxyWow": 2.1
-        },
-        {
-            "province": "江苏",
-            "month": "2023-07",
-            "proxyPrice": 461.5,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "广西",
-            "month": "2023-07",
-            "proxyPrice": 346.5,
-            "proxyWow": 6.8
-        },
-        {
-            "province": "北京",
-            "month": "2023-06",
-            "proxyPrice": 418.53499999999997,
-            "proxyWow": 2.5
-        },
-        {
-            "province": "重庆",
-            "month": "2023-06",
-            "proxyPrice": 438.836,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "贵州",
-            "month": "2023-06",
-            "proxyPrice": 419.20000000000005,
-            "proxyWow": 4.1
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-06",
-            "proxyPrice": 302.70000000000005,
-            "proxyWow": 2.9
-        },
-        {
-            "province": "吉林",
-            "month": "2023-06",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "福建",
-            "month": "2023-06",
-            "proxyPrice": 458.5,
-            "proxyWow": null
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-06",
-            "proxyPrice": 296.4,
-            "proxyWow": -6.8
-        },
-        {
-            "province": "新疆",
-            "month": "2023-06",
-            "proxyPrice": 263.123,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "安徽",
-            "month": "2023-06",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "湖南",
-            "month": "2023-06",
-            "proxyPrice": 504.17,
-            "proxyWow": 4.5
-        },
-        {
-            "province": "广西",
-            "month": "2023-06",
-            "proxyPrice": 324.40000000000003,
-            "proxyWow": -22.5
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-06",
-            "proxyPrice": 420.745,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "青海",
-            "month": "2023-06",
-            "proxyPrice": 267.7,
-            "proxyWow": -4.1
-        },
-        {
-            "province": "江苏",
-            "month": "2023-06",
-            "proxyPrice": 453.29999999999995,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "四川",
-            "month": "2023-06",
-            "proxyPrice": 341.6,
-            "proxyWow": -16.7
-        },
-        {
-            "province": "河北",
-            "month": "2023-06",
-            "proxyPrice": 437.2,
-            "proxyWow": -4.3
-        },
-        {
-            "province": "浙江",
-            "month": "2023-06",
-            "proxyPrice": 525.6999999999999,
-            "proxyWow": null
-        },
-        {
-            "province": "广东",
-            "month": "2023-06",
-            "proxyPrice": 514.3,
-            "proxyWow": -4.9
-        },
-        {
-            "province": "山西",
-            "month": "2023-06",
-            "proxyPrice": 361.964,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "山东",
-            "month": "2023-06",
-            "proxyPrice": 458,
-            "proxyWow": -5.5
-        },
-        {
-            "province": "上海",
-            "month": "2023-06",
-            "proxyPrice": 471.4,
-            "proxyWow": -19.3
-        },
-        {
-            "province": "江西",
-            "month": "2023-06",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "天津",
-            "month": "2023-06",
-            "proxyPrice": 433.3,
-            "proxyWow": null
-        },
-        {
-            "province": "陕西",
-            "month": "2023-06",
-            "proxyPrice": 425.09999999999997,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "云南",
-            "month": "2023-06",
-            "proxyPrice": 219.60399999999998,
-            "proxyWow": -15.7
-        },
-        {
-            "province": "广东",
-            "month": "2023-05",
-            "proxyPrice": 540.6,
-            "proxyWow": 4.4
-        },
-        {
-            "province": "四川",
-            "month": "2023-05",
-            "proxyPrice": 410.1,
-            "proxyWow": -12
-        },
-        {
-            "province": "陕西",
-            "month": "2023-05",
-            "proxyPrice": 427.20000000000005,
-            "proxyWow": -3.3
-        },
-        {
-            "province": "湖南",
-            "month": "2023-05",
-            "proxyPrice": 482.46,
-            "proxyWow": -6
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-05",
-            "proxyPrice": 428.697,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2023-05",
-            "proxyPrice": 445.935,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "上海",
-            "month": "2023-05",
-            "proxyPrice": 583.9,
-            "proxyWow": -0.9
-        },
-        {
-            "province": "广西",
-            "month": "2023-05",
-            "proxyPrice": 418.8,
-            "proxyWow": -4.2
-        },
-        {
-            "province": "安徽",
-            "month": "2023-05",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "江西",
-            "month": "2023-05",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-05",
-            "proxyPrice": 317.90000000000003,
-            "proxyWow": 2.3
-        },
-        {
-            "province": "贵州",
-            "month": "2023-05",
-            "proxyPrice": 402.5,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "云南",
-            "month": "2023-05",
-            "proxyPrice": 260.516,
-            "proxyWow": -10.1
-        },
-        {
-            "province": "山东",
-            "month": "2023-05",
-            "proxyPrice": 484.9,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "江苏",
-            "month": "2023-05",
-            "proxyPrice": 471.7,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "吉林",
-            "month": "2023-05",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "山西",
-            "month": "2023-05",
-            "proxyPrice": 359.772,
-            "proxyWow": -6.4
-        },
-        {
-            "province": "新疆",
-            "month": "2023-05",
-            "proxyPrice": 267.032,
-            "proxyWow": 3.5
-        },
-        {
-            "province": "北京",
-            "month": "2023-05",
-            "proxyPrice": 408.384,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "辽宁",
-            "month": "2023-05",
-            "proxyPrice": 410.917,
-            "proxyWow": -4
-        },
-        {
-            "province": "青海",
-            "month": "2023-05",
-            "proxyPrice": 279.1,
-            "proxyWow": -2
-        },
-        {
-            "province": "河北",
-            "month": "2023-05",
-            "proxyPrice": 457,
-            "proxyWow": 4.9
-        },
-        {
-            "province": "湖南",
-            "month": "2023-04",
-            "proxyPrice": 513.1,
-            "proxyWow": 3.5
-        },
-        {
-            "province": "重庆",
-            "month": "2023-04",
-            "proxyPrice": 453.181,
-            "proxyWow": -12
-        },
-        {
-            "province": "上海",
-            "month": "2023-04",
-            "proxyPrice": 589.1999999999999,
-            "proxyWow": 1.4
-        },
-        {
-            "province": "广东",
-            "month": "2023-04",
-            "proxyPrice": 517.7,
-            "proxyWow": -4
-        },
-        {
-            "province": "广西",
-            "month": "2023-04",
-            "proxyPrice": 437,
-            "proxyWow": 27.3
-        },
-        {
-            "province": "青海",
-            "month": "2023-04",
-            "proxyPrice": 284.8,
-            "proxyWow": -3.1
-        },
-        {
-            "province": "新疆",
-            "month": "2023-04",
-            "proxyPrice": 258.106,
-            "proxyWow": -2.9
-        },
-        {
-            "province": "贵州",
-            "month": "2023-04",
-            "proxyPrice": 419,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "山西",
-            "month": "2023-04",
-            "proxyPrice": 384.308,
-            "proxyWow": -3.3
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-04",
-            "proxyPrice": 310.8,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "山东",
-            "month": "2023-04",
-            "proxyPrice": 483.9,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "辽宁",
-            "month": "2023-04",
-            "proxyPrice": 428.022,
-            "proxyWow": null
-        },
-        {
-            "province": "河北",
-            "month": "2023-04",
-            "proxyPrice": 435.8,
-            "proxyWow": -5.8
-        },
-        {
-            "province": "北京",
-            "month": "2023-04",
-            "proxyPrice": 415.18399999999997,
-            "proxyWow": 1.2
-        },
-        {
-            "province": "吉林",
-            "month": "2023-04",
-            "proxyPrice": 447.72,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "陕西",
-            "month": "2023-04",
-            "proxyPrice": 442,
-            "proxyWow": -2.4
-        },
-        {
-            "province": "四川",
-            "month": "2023-04",
-            "proxyPrice": 465.8,
-            "proxyWow": -7.2
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-04",
-            "proxyPrice": 428.691,
-            "proxyWow": 0
-        },
-        {
-            "province": "江西",
-            "month": "2023-04",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2023-04",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2023-04",
-            "proxyPrice": 468.3,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "云南",
-            "month": "2023-04",
-            "proxyPrice": 289.865,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "江苏",
-            "month": "2023-03",
-            "proxyPrice": 467.4,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "广西",
-            "month": "2023-03",
-            "proxyPrice": 343.3,
-            "proxyWow": -18.5
-        },
-        {
-            "province": "山东",
-            "month": "2023-03",
-            "proxyPrice": 491.3,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "上海",
-            "month": "2023-03",
-            "proxyPrice": 580.9,
-            "proxyWow": -2.9
-        },
-        {
-            "province": "青海",
-            "month": "2023-03",
-            "proxyPrice": 293.8,
-            "proxyWow": 12.1
-        },
-        {
-            "province": "四川",
-            "month": "2023-03",
-            "proxyPrice": 502.2,
-            "proxyWow": 10.9
-        },
-        {
-            "province": "云南",
-            "month": "2023-03",
-            "proxyPrice": 287.906,
-            "proxyWow": null
-        },
-        {
-            "province": "安徽",
-            "month": "2023-03",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2023-03",
-            "proxyPrice": 462.4,
-            "proxyWow": -3.7
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-03",
-            "proxyPrice": 311,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "重庆",
-            "month": "2023-03",
-            "proxyPrice": 515.1719999999999,
-            "proxyWow": -6.4
-        },
-        {
-            "province": "贵州",
-            "month": "2023-03",
-            "proxyPrice": 424.20000000000005,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "湖南",
-            "month": "2023-03",
-            "proxyPrice": 495.90000000000003,
-            "proxyWow": -16.4
-        },
-        {
-            "province": "江西",
-            "month": "2023-03",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-03",
-            "proxyPrice": 294.09999999999997,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-03",
-            "proxyPrice": 428.692,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2023-03",
-            "proxyPrice": 450.29999999999995,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "新疆",
-            "month": "2023-03",
-            "proxyPrice": 265.807,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "陕西",
-            "month": "2023-03",
-            "proxyPrice": 453,
-            "proxyWow": -2.8
-        },
-        {
-            "province": "山西",
-            "month": "2023-03",
-            "proxyPrice": 397.445,
-            "proxyWow": -3.1
-        },
-        {
-            "province": "广东",
-            "month": "2023-03",
-            "proxyPrice": 539.2,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "北京",
-            "month": "2023-03",
-            "proxyPrice": 410.13300000000004,
-            "proxyWow": -4.3
-        },
-        {
-            "province": "青海",
-            "month": "2023-02",
-            "proxyPrice": 262.2,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-02",
-            "proxyPrice": 316,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "四川",
-            "month": "2023-02",
-            "proxyPrice": 453,
-            "proxyWow": 0
-        },
-        {
-            "province": "新疆",
-            "month": "2023-02",
-            "proxyPrice": 264.324,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "安徽",
-            "month": "2023-02",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2023-02",
-            "proxyPrice": 550.687,
-            "proxyWow": -2.7
-        },
-        {
-            "province": "贵州",
-            "month": "2023-02",
-            "proxyPrice": 425.4,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "广东",
-            "month": "2023-02",
-            "proxyPrice": 542.3,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "广西",
-            "month": "2023-02",
-            "proxyPrice": 421.4,
-            "proxyWow": -8.1
-        },
-        {
-            "province": "山西",
-            "month": "2023-02",
-            "proxyPrice": 410.30100000000004,
-            "proxyWow": -1.6
-        },
-        {
-            "province": "北京",
-            "month": "2023-02",
-            "proxyPrice": 428.573,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "陕西",
-            "month": "2023-02",
-            "proxyPrice": 466,
-            "proxyWow": 1.2
-        },
-        {
-            "province": "吉林",
-            "month": "2023-02",
-            "proxyPrice": 447.53,
-            "proxyWow": 0
-        },
-        {
-            "province": "上海",
-            "month": "2023-02",
-            "proxyPrice": 598.4000000000001,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "江苏",
-            "month": "2023-02",
-            "proxyPrice": 467.9,
-            "proxyWow": 3.1
-        },
-        {
-            "province": "江西",
-            "month": "2023-02",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "山东",
-            "month": "2023-02",
-            "proxyPrice": 489.09999999999997,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-02",
-            "proxyPrice": 428.696,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2023-02",
-            "proxyPrice": 480.4,
-            "proxyWow": 5
-        },
-        {
-            "province": "湖南",
-            "month": "2023-02",
-            "proxyPrice": 593.21,
-            "proxyWow": -2.7
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-02",
-            "proxyPrice": 298.20000000000005,
-            "proxyWow": 8
-        },
-        {
-            "province": "吉林",
-            "month": "2023-01",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "宁夏",
-            "month": "2023-01",
-            "proxyPrice": 276,
-            "proxyWow": -8.2
-        },
-        {
-            "province": "湖南",
-            "month": "2023-01",
-            "proxyPrice": 609.81,
-            "proxyWow": 6.2
-        },
-        {
-            "province": "重庆",
-            "month": "2023-01",
-            "proxyPrice": 565.704,
-            "proxyWow": -3.3
-        },
-        {
-            "province": "四川",
-            "month": "2023-01",
-            "proxyPrice": 453,
-            "proxyWow": -1
-        },
-        {
-            "province": "广东",
-            "month": "2023-01",
-            "proxyPrice": 546.3,
-            "proxyWow": 12.3
-        },
-        {
-            "province": "安徽",
-            "month": "2023-01",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "北京",
-            "month": "2023-01",
-            "proxyPrice": 425.185,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "黑龙江",
-            "month": "2023-01",
-            "proxyPrice": 428.696,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2023-01",
-            "proxyPrice": 314.59999999999997,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "山东",
-            "month": "2023-01",
-            "proxyPrice": 487.4,
-            "proxyWow": 3.3
-        },
-        {
-            "province": "江苏",
-            "month": "2023-01",
-            "proxyPrice": 453.7,
-            "proxyWow": -2.6
-        },
-        {
-            "province": "上海",
-            "month": "2023-01",
-            "proxyPrice": 598.7,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "新疆",
-            "month": "2023-01",
-            "proxyPrice": 266.17400000000004,
-            "proxyWow": 1.7
-        },
-        {
-            "province": "河北",
-            "month": "2023-01",
-            "proxyPrice": 457.7,
-            "proxyWow": 3.1
-        },
-        {
-            "province": "山西",
-            "month": "2023-01",
-            "proxyPrice": 417.062,
-            "proxyWow": 3.5
-        },
-        {
-            "province": "江西",
-            "month": "2023-01",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2023-01",
-            "proxyPrice": 460.7,
-            "proxyWow": 10.3
-        },
-        {
-            "province": "贵州",
-            "month": "2023-01",
-            "proxyPrice": 423.9,
-            "proxyWow": 2.3
-        },
-        {
-            "province": "青海",
-            "month": "2023-01",
-            "proxyPrice": 260.1,
-            "proxyWow": -19.7
-        },
-        {
-            "province": "广西",
-            "month": "2023-01",
-            "proxyPrice": 458.7,
-            "proxyWow": 50
-        },
-        {
-            "province": "吉林",
-            "month": "2022-12",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "青海",
-            "month": "2022-12",
-            "proxyPrice": 323.79999999999995,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "江西",
-            "month": "2022-12",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2022-12",
-            "proxyPrice": 417.8,
-            "proxyWow": -6.8
-        },
-        {
-            "province": "四川",
-            "month": "2022-12",
-            "proxyPrice": 457.8,
-            "proxyWow": 7.7
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-12",
-            "proxyPrice": 317,
-            "proxyWow": -2.1
-        },
-        {
-            "province": "安徽",
-            "month": "2022-12",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2022-12",
-            "proxyPrice": 443.90000000000003,
-            "proxyWow": 1.9
-        },
-        {
-            "province": "北京",
-            "month": "2022-12",
-            "proxyPrice": 423.68699999999995,
-            "proxyWow": 3
-        },
-        {
-            "province": "湖南",
-            "month": "2022-12",
-            "proxyPrice": 574.05,
-            "proxyWow": 7.5
-        },
-        {
-            "province": "江苏",
-            "month": "2022-12",
-            "proxyPrice": 465.8,
-            "proxyWow": 2.8
-        },
-        {
-            "province": "广东",
-            "month": "2022-12",
-            "proxyPrice": 486.3,
-            "proxyWow": -3.8
-        },
-        {
-            "province": "重庆",
-            "month": "2022-12",
-            "proxyPrice": 585.1410000000001,
-            "proxyWow": 10
-        },
-        {
-            "province": "贵州",
-            "month": "2022-12",
-            "proxyPrice": 414.3,
-            "proxyWow": 0
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-12",
-            "proxyPrice": 428.255,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-12",
-            "proxyPrice": 300.8,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "山东",
-            "month": "2022-12",
-            "proxyPrice": 472,
-            "proxyWow": -4.4
-        },
-        {
-            "province": "山西",
-            "month": "2022-12",
-            "proxyPrice": 403.014,
-            "proxyWow": 6.4
-        },
-        {
-            "province": "新疆",
-            "month": "2022-12",
-            "proxyPrice": 261.715,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "上海",
-            "month": "2022-12",
-            "proxyPrice": 610.5,
-            "proxyWow": 5.8
-        },
-        {
-            "province": "山东",
-            "month": "2022-11",
-            "proxyPrice": 493.70000000000005,
-            "proxyWow": 3.2
-        },
-        {
-            "province": "吉林",
-            "month": "2022-11",
-            "proxyPrice": 447.72,
-            "proxyWow": 0
-        },
-        {
-            "province": "青海",
-            "month": "2022-11",
-            "proxyPrice": 318.2,
-            "proxyWow": 14.1
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-11",
-            "proxyPrice": 425.791,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2022-11",
-            "proxyPrice": 435.5,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "新疆",
-            "month": "2022-11",
-            "proxyPrice": 260.014,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "江苏",
-            "month": "2022-11",
-            "proxyPrice": 453.29999999999995,
-            "proxyWow": -3.3
-        },
-        {
-            "province": "陕西",
-            "month": "2022-11",
-            "proxyPrice": 448.29999999999995,
-            "proxyWow": -13.6
-        },
-        {
-            "province": "上海",
-            "month": "2022-11",
-            "proxyPrice": 577.2,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "安徽",
-            "month": "2022-11",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "北京",
-            "month": "2022-11",
-            "proxyPrice": 411.509,
-            "proxyWow": 2.3
-        },
-        {
-            "province": "湖南",
-            "month": "2022-11",
-            "proxyPrice": 533.99,
-            "proxyWow": 2.2
-        },
-        {
-            "province": "山西",
-            "month": "2022-11",
-            "proxyPrice": 378.827,
-            "proxyWow": 5.7
-        },
-        {
-            "province": "广东",
-            "month": "2022-11",
-            "proxyPrice": 505.29999999999995,
-            "proxyWow": 5.6
-        },
-        {
-            "province": "江西",
-            "month": "2022-11",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2022-11",
-            "proxyPrice": 531.9399999999999,
-            "proxyWow": -2.2
-        },
-        {
-            "province": "贵州",
-            "month": "2022-11",
-            "proxyPrice": 414.3,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-11",
-            "proxyPrice": 300,
-            "proxyWow": 0.3
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-11",
-            "proxyPrice": 323.79999999999995,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "四川",
-            "month": "2022-11",
-            "proxyPrice": 425,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "重庆",
-            "month": "2022-10",
-            "proxyPrice": 543.89,
-            "proxyWow": 9.5
-        },
-        {
-            "province": "新疆",
-            "month": "2022-10",
-            "proxyPrice": 259.656,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "北京",
-            "month": "2022-10",
-            "proxyPrice": 402.139,
-            "proxyWow": -4.7
-        },
-        {
-            "province": "安徽",
-            "month": "2022-10",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "上海",
-            "month": "2022-10",
-            "proxyPrice": 570.9,
-            "proxyWow": -4.3
-        },
-        {
-            "province": "江苏",
-            "month": "2022-10",
-            "proxyPrice": 468.6,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "山东",
-            "month": "2022-10",
-            "proxyPrice": 478.3,
-            "proxyWow": -4.1
-        },
-        {
-            "province": "湖南",
-            "month": "2022-10",
-            "proxyPrice": 522.49,
-            "proxyWow": 1.9
-        },
-        {
-            "province": "贵州",
-            "month": "2022-10",
-            "proxyPrice": 416.2,
-            "proxyWow": 9
-        },
-        {
-            "province": "青海",
-            "month": "2022-10",
-            "proxyPrice": 279,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-10",
-            "proxyPrice": 425.822,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "陕西",
-            "month": "2022-10",
-            "proxyPrice": 518.9,
-            "proxyWow": 18.6
-        },
-        {
-            "province": "广东",
-            "month": "2022-10",
-            "proxyPrice": 478.6,
-            "proxyWow": -9.1
-        },
-        {
-            "province": "河北",
-            "month": "2022-10",
-            "proxyPrice": 438.8,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-10",
-            "proxyPrice": 321.5,
-            "proxyWow": 1.9
-        },
-        {
-            "province": "吉林",
-            "month": "2022-10",
-            "proxyPrice": 447.72,
-            "proxyWow": 5.9
-        },
-        {
-            "province": "山西",
-            "month": "2022-10",
-            "proxyPrice": 358.379,
-            "proxyWow": -4.9
-        },
-        {
-            "province": "江西",
-            "month": "2022-10",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-10",
-            "proxyPrice": 299.20000000000005,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "四川",
-            "month": "2022-10",
-            "proxyPrice": 415,
-            "proxyWow": 8.9
-        },
-        {
-            "province": "吉林",
-            "month": "2022-09",
-            "proxyPrice": 422.59000000000003,
-            "proxyWow": 5.3
-        },
-        {
-            "province": "新疆",
-            "month": "2022-09",
-            "proxyPrice": 258.301,
-            "proxyWow": 0.9
-        },
-        {
-            "province": "山东",
-            "month": "2022-09",
-            "proxyPrice": 498.59999999999997,
-            "proxyWow": 4.9
-        },
-        {
-            "province": "河北",
-            "month": "2022-09",
-            "proxyPrice": 447.2,
-            "proxyWow": -1.8
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-09",
-            "proxyPrice": 299.59999999999997,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "广东",
-            "month": "2022-09",
-            "proxyPrice": 526.5999999999999,
-            "proxyWow": 4.9
-        },
-        {
-            "province": "山西",
-            "month": "2022-09",
-            "proxyPrice": 376.749,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-09",
-            "proxyPrice": 315.40000000000003,
-            "proxyWow": -2.8
-        },
-        {
-            "province": "陕西",
-            "month": "2022-09",
-            "proxyPrice": 437.59999999999997,
-            "proxyWow": 3.9
-        },
-        {
-            "province": "江西",
-            "month": "2022-09",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "北京",
-            "month": "2022-09",
-            "proxyPrice": 421.79100000000005,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-09",
-            "proxyPrice": 426.241,
-            "proxyWow": 0
-        },
-        {
-            "province": "上海",
-            "month": "2022-09",
-            "proxyPrice": 596.8,
-            "proxyWow": 10.9
-        },
-        {
-            "province": "四川",
-            "month": "2022-09",
-            "proxyPrice": 381.1,
-            "proxyWow": 21.2
-        },
-        {
-            "province": "湖南",
-            "month": "2022-09",
-            "proxyPrice": 512.51,
-            "proxyWow": 5.3
-        },
-        {
-            "province": "青海",
-            "month": "2022-09",
-            "proxyPrice": 277.1,
-            "proxyWow": 17
-        },
-        {
-            "province": "江苏",
-            "month": "2022-09",
-            "proxyPrice": 465,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "贵州",
-            "month": "2022-09",
-            "proxyPrice": 382,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "安徽",
-            "month": "2022-09",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2022-09",
-            "proxyPrice": 496.616,
-            "proxyWow": 16.9
-        },
-        {
-            "province": "江西",
-            "month": "2022-08",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2022-08",
-            "proxyPrice": 380.2,
-            "proxyWow": -0.2
-        },
-        {
-            "province": "新疆",
-            "month": "2022-08",
-            "proxyPrice": 256.122,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "山西",
-            "month": "2022-08",
-            "proxyPrice": 376.459,
-            "proxyWow": -2.9
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-08",
-            "proxyPrice": 426.028,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "江苏",
-            "month": "2022-08",
-            "proxyPrice": 461.7,
-            "proxyWow": 4.7
-        },
-        {
-            "province": "吉林",
-            "month": "2022-08",
-            "proxyPrice": 401.28999999999996,
-            "proxyWow": 1
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-08",
-            "proxyPrice": 299.20000000000005,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "安徽",
-            "month": "2022-08",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "山东",
-            "month": "2022-08",
-            "proxyPrice": 475.3,
-            "proxyWow": -0.7
-        },
-        {
-            "province": "广西",
-            "month": "2022-08",
-            "proxyPrice": 305.70000000000005,
-            "proxyWow": 18.7
-        },
-        {
-            "province": "青海",
-            "month": "2022-08",
-            "proxyPrice": 236.8,
-            "proxyWow": 5
-        },
-        {
-            "province": "四川",
-            "month": "2022-08",
-            "proxyPrice": 314.40000000000003,
-            "proxyWow": 11.4
-        },
-        {
-            "province": "北京",
-            "month": "2022-08",
-            "proxyPrice": 427.216,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "河北",
-            "month": "2022-08",
-            "proxyPrice": 455.40000000000003,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "湖南",
-            "month": "2022-08",
-            "proxyPrice": 486.54999999999995,
-            "proxyWow": 2.1
-        },
-        {
-            "province": "陕西",
-            "month": "2022-08",
-            "proxyPrice": 421.20000000000005,
-            "proxyWow": 9.8
-        },
-        {
-            "province": "广东",
-            "month": "2022-08",
-            "proxyPrice": 501.90000000000003,
-            "proxyWow": 5.1
-        },
-        {
-            "province": "上海",
-            "month": "2022-08",
-            "proxyPrice": 537.9000000000001,
-            "proxyWow": 5
-        },
-        {
-            "province": "重庆",
-            "month": "2022-08",
-            "proxyPrice": 424.65799999999996,
-            "proxyWow": 16.2
-        },
-        {
-            "province": "江西",
-            "month": "2022-07",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2022-07",
-            "proxyPrice": 440.8,
-            "proxyWow": -4
-        },
-        {
-            "province": "山东",
-            "month": "2022-07",
-            "proxyPrice": 478.5,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "北京",
-            "month": "2022-07",
-            "proxyPrice": 422.458,
-            "proxyWow": 4.7
-        },
-        {
-            "province": "新疆",
-            "month": "2022-07",
-            "proxyPrice": 252.197,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "贵州",
-            "month": "2022-07",
-            "proxyPrice": 380.8,
-            "proxyWow": 3.3
-        },
-        {
-            "province": "重庆",
-            "month": "2022-07",
-            "proxyPrice": 365.53200000000004,
-            "proxyWow": -8.4
-        },
-        {
-            "province": "上海",
-            "month": "2022-07",
-            "proxyPrice": 512.4,
-            "proxyWow": -3.2
-        },
-        {
-            "province": "青海",
-            "month": "2022-07",
-            "proxyPrice": 225.6,
-            "proxyWow": 1.7
-        },
-        {
-            "province": "四川",
-            "month": "2022-07",
-            "proxyPrice": 282.2,
-            "proxyWow": 10.3
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-07",
-            "proxyPrice": 301.3,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-07",
-            "proxyPrice": 324.5,
-            "proxyWow": 4.4
-        },
-        {
-            "province": "湖南",
-            "month": "2022-07",
-            "proxyPrice": 476.59000000000003,
-            "proxyWow": 3.1
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-07",
-            "proxyPrice": 425.268,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2022-07",
-            "proxyPrice": 397.36,
-            "proxyWow": -1.3
-        },
-        {
-            "province": "陕西",
-            "month": "2022-07",
-            "proxyPrice": 383.7,
-            "proxyWow": 8.1
-        },
-        {
-            "province": "广西",
-            "month": "2022-07",
-            "proxyPrice": 257.5,
-            "proxyWow": -11.3
-        },
-        {
-            "province": "安徽",
-            "month": "2022-07",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "河北",
-            "month": "2022-07",
-            "proxyPrice": 450.29999999999995,
-            "proxyWow": 10.7
-        },
-        {
-            "province": "山西",
-            "month": "2022-07",
-            "proxyPrice": 387.79200000000003,
-            "proxyWow": 7.7
-        },
-        {
-            "province": "广东",
-            "month": "2022-07",
-            "proxyPrice": 477.6,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "青海",
-            "month": "2022-06",
-            "proxyPrice": 221.8,
-            "proxyWow": 13.5
-        },
-        {
-            "province": "湖南",
-            "month": "2022-06",
-            "proxyPrice": 462.44,
-            "proxyWow": 1.9
-        },
-        {
-            "province": "四川",
-            "month": "2022-06",
-            "proxyPrice": 255.9,
-            "proxyWow": -26.8
-        },
-        {
-            "province": "安徽",
-            "month": "2022-06",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "重庆",
-            "month": "2022-06",
-            "proxyPrice": 398.883,
-            "proxyWow": 2.6
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-06",
-            "proxyPrice": 296.9,
-            "proxyWow": 0
-        },
-        {
-            "province": "上海",
-            "month": "2022-06",
-            "proxyPrice": 529.5999999999999,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "贵州",
-            "month": "2022-06",
-            "proxyPrice": 368.8,
-            "proxyWow": -0.4
-        },
-        {
-            "province": "江苏",
-            "month": "2022-06",
-            "proxyPrice": 459.4,
-            "proxyWow": 4.6
-        },
-        {
-            "province": "广东",
-            "month": "2022-06",
-            "proxyPrice": 480.3,
-            "proxyWow": -9.3
-        },
-        {
-            "province": "陕西",
-            "month": "2022-06",
-            "proxyPrice": 355.1,
-            "proxyWow": -3.5
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-06",
-            "proxyPrice": 425.25,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-06",
-            "proxyPrice": 310.8,
-            "proxyWow": 1
-        },
-        {
-            "province": "北京",
-            "month": "2022-06",
-            "proxyPrice": 403.477,
-            "proxyWow": -1
-        },
-        {
-            "province": "山西",
-            "month": "2022-06",
-            "proxyPrice": 360.17900000000003,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "山东",
-            "month": "2022-06",
-            "proxyPrice": 481.3,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "吉林",
-            "month": "2022-06",
-            "proxyPrice": 402.55999999999995,
-            "proxyWow": -2.4
-        },
-        {
-            "province": "江西",
-            "month": "2022-06",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "新疆",
-            "month": "2022-06",
-            "proxyPrice": 250.26199999999997,
-            "proxyWow": -3.2
-        },
-        {
-            "province": "广西",
-            "month": "2022-06",
-            "proxyPrice": 290.3,
-            "proxyWow": -1.7
-        },
-        {
-            "province": "山西",
-            "month": "2022-05",
-            "proxyPrice": 354.488,
-            "proxyWow": 1.3
-        },
-        {
-            "province": "广东",
-            "month": "2022-05",
-            "proxyPrice": 529.4,
-            "proxyWow": -1.5
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-05",
-            "proxyPrice": 296.9,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "贵州",
-            "month": "2022-05",
-            "proxyPrice": 370.40000000000003,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "安徽",
-            "month": "2022-05",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "江苏",
-            "month": "2022-05",
-            "proxyPrice": 439.3,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "重庆",
-            "month": "2022-05",
-            "proxyPrice": 388.90599999999995,
-            "proxyWow": -3.6
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-05",
-            "proxyPrice": 425.842,
-            "proxyWow": 0.2
-        },
-        {
-            "province": "四川",
-            "month": "2022-05",
-            "proxyPrice": 349.7,
-            "proxyWow": -21.1
-        },
-        {
-            "province": "广西",
-            "month": "2022-05",
-            "proxyPrice": 295.3,
-            "proxyWow": -9.6
-        },
-        {
-            "province": "陕西",
-            "month": "2022-05",
-            "proxyPrice": 368.09999999999997,
-            "proxyWow": -3.4
-        },
-        {
-            "province": "新疆",
-            "month": "2022-05",
-            "proxyPrice": 258.445,
-            "proxyWow": null
-        },
-        {
-            "province": "江西",
-            "month": "2022-05",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2022-05",
-            "proxyPrice": 412.64,
-            "proxyWow": -1.1
-        },
-        {
-            "province": "青海",
-            "month": "2022-05",
-            "proxyPrice": 195.39999999999998,
-            "proxyWow": -17.5
-        },
-        {
-            "province": "上海",
-            "month": "2022-05",
-            "proxyPrice": 534.1,
-            "proxyWow": -1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-05",
-            "proxyPrice": 307.7,
-            "proxyWow": -4.1
-        },
-        {
-            "province": "山东",
-            "month": "2022-05",
-            "proxyPrice": 490.59999999999997,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "北京",
-            "month": "2022-05",
-            "proxyPrice": 407.401,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "河北",
-            "month": "2022-05",
-            "proxyPrice": 406.6,
-            "proxyWow": -6.2
-        },
-        {
-            "province": "湖南",
-            "month": "2022-05",
-            "proxyPrice": 453.96,
-            "proxyWow": 7
-        },
-        {
-            "province": "河北",
-            "month": "2022-04",
-            "proxyPrice": 433.5,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "江西",
-            "month": "2022-04",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2022-04",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-04",
-            "proxyPrice": 321,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "山西",
-            "month": "2022-04",
-            "proxyPrice": 349.903,
-            "proxyWow": -9.5
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-04",
-            "proxyPrice": 424.965,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "重庆",
-            "month": "2022-04",
-            "proxyPrice": 403.618,
-            "proxyWow": -7
-        },
-        {
-            "province": "四川",
-            "month": "2022-04",
-            "proxyPrice": 443.09999999999997,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "广东",
-            "month": "2022-04",
-            "proxyPrice": 537.3,
-            "proxyWow": 6.8
-        },
-        {
-            "province": "陕西",
-            "month": "2022-04",
-            "proxyPrice": 381,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "上海",
-            "month": "2022-04",
-            "proxyPrice": 539.3,
-            "proxyWow": -2.9
-        },
-        {
-            "province": "北京",
-            "month": "2022-04",
-            "proxyPrice": 424.154,
-            "proxyWow": -2
-        },
-        {
-            "province": "湖南",
-            "month": "2022-04",
-            "proxyPrice": 424.35,
-            "proxyWow": -11.2
-        },
-        {
-            "province": "青海",
-            "month": "2022-04",
-            "proxyPrice": 236.8,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-04",
-            "proxyPrice": 298.59999999999997,
-            "proxyWow": 0.1
-        },
-        {
-            "province": "江苏",
-            "month": "2022-04",
-            "proxyPrice": 457.2,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "贵州",
-            "month": "2022-04",
-            "proxyPrice": 370,
-            "proxyWow": -0.5
-        },
-        {
-            "province": "山东",
-            "month": "2022-04",
-            "proxyPrice": 487.4,
-            "proxyWow": 1.1
-        },
-        {
-            "province": "广西",
-            "month": "2022-04",
-            "proxyPrice": 326.5,
-            "proxyWow": -1.1
-        },
-        {
-            "province": "吉林",
-            "month": "2022-04",
-            "proxyPrice": 417.44,
-            "proxyWow": 1.8
-        },
-        {
-            "province": "江苏",
-            "month": "2022-03",
-            "proxyPrice": 455.40000000000003,
-            "proxyWow": 5.1
-        },
-        {
-            "province": "湖南",
-            "month": "2022-03",
-            "proxyPrice": 477.7,
-            "proxyWow": -1.2
-        },
-        {
-            "province": "吉林",
-            "month": "2022-03",
-            "proxyPrice": 409.9,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "江西",
-            "month": "2022-03",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-03",
-            "proxyPrice": 425.23100000000005,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "河北",
-            "month": "2022-03",
-            "proxyPrice": 426.9,
-            "proxyWow": 6.2
-        },
-        {
-            "province": "贵州",
-            "month": "2022-03",
-            "proxyPrice": 372,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "重庆",
-            "month": "2022-03",
-            "proxyPrice": 434.114,
-            "proxyWow": null
-        },
-        {
-            "province": "山西",
-            "month": "2022-03",
-            "proxyPrice": 386.71,
-            "proxyWow": null
-        },
-        {
-            "province": "上海",
-            "month": "2022-03",
-            "proxyPrice": 555.6,
-            "proxyWow": 3.9
-        },
-        {
-            "province": "陕西",
-            "month": "2022-03",
-            "proxyPrice": 396.3,
-            "proxyWow": 4.8
-        },
-        {
-            "province": "广西",
-            "month": "2022-03",
-            "proxyPrice": 330,
-            "proxyWow": -14
-        },
-        {
-            "province": "山东",
-            "month": "2022-03",
-            "proxyPrice": 482.09999999999997,
-            "proxyWow": 1.5
-        },
-        {
-            "province": "广东",
-            "month": "2022-03",
-            "proxyPrice": 503.09999999999997,
-            "proxyWow": 0.6
-        },
-        {
-            "province": "青海",
-            "month": "2022-03",
-            "proxyPrice": 236.5,
-            "proxyWow": -1.8
-        },
-        {
-            "province": "北京",
-            "month": "2022-03",
-            "proxyPrice": 432.663,
-            "proxyWow": 7.1
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-03",
-            "proxyPrice": 323.7,
-            "proxyWow": 0.8
-        },
-        {
-            "province": "四川",
-            "month": "2022-03",
-            "proxyPrice": 449.6,
-            "proxyWow": 1.4
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-03",
-            "proxyPrice": 298.4,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2022-03",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "吉林",
-            "month": "2022-02",
-            "proxyPrice": 413.28,
-            "proxyWow": -0.3
-        },
-        {
-            "province": "湖南",
-            "month": "2022-02",
-            "proxyPrice": 483.71999999999997,
-            "proxyWow": 4.1
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-02",
-            "proxyPrice": 423.054,
-            "proxyWow": 1.2
-        },
-        {
-            "province": "青海",
-            "month": "2022-02",
-            "proxyPrice": 240.9,
-            "proxyWow": 5.9
-        },
-        {
-            "province": "河北",
-            "month": "2022-02",
-            "proxyPrice": 401.8,
-            "proxyWow": -7.6
-        },
-        {
-            "province": "山东",
-            "month": "2022-02",
-            "proxyPrice": 474.9,
-            "proxyWow": -1.9
-        },
-        {
-            "province": "广西",
-            "month": "2022-02",
-            "proxyPrice": 383.90000000000003,
-            "proxyWow": 0.7
-        },
-        {
-            "province": "四川",
-            "month": "2022-02",
-            "proxyPrice": 443.6,
-            "proxyWow": -0.8
-        },
-        {
-            "province": "广东",
-            "month": "2022-02",
-            "proxyPrice": 500.2,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "北京",
-            "month": "2022-02",
-            "proxyPrice": 403.87899999999996,
-            "proxyWow": -3.2
-        },
-        {
-            "province": "江苏",
-            "month": "2022-02",
-            "proxyPrice": 433.3,
-            "proxyWow": 3.5
-        },
-        {
-            "province": "上海",
-            "month": "2022-02",
-            "proxyPrice": 534.9000000000001,
-            "proxyWow": 2.4
-        },
-        {
-            "province": "安徽",
-            "month": "2022-02",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": 0
-        },
-        {
-            "province": "陕西",
-            "month": "2022-02",
-            "proxyPrice": 378,
-            "proxyWow": -4.2
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-02",
-            "proxyPrice": 321.1,
-            "proxyWow": 3.8
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-02",
-            "proxyPrice": 298.4,
-            "proxyWow": 1.6
-        },
-        {
-            "province": "江西",
-            "month": "2022-02",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "贵州",
-            "month": "2022-02",
-            "proxyPrice": 379.09999999999997,
-            "proxyWow": -0.1
-        },
-        {
-            "province": "陕西",
-            "month": "2022-01",
-            "proxyPrice": 394.4,
-            "proxyWow": -3.9
-        },
-        {
-            "province": "湖南",
-            "month": "2022-01",
-            "proxyPrice": 464.89000000000004,
-            "proxyWow": -4.5
-        },
-        {
-            "province": "黑龙江",
-            "month": "2022-01",
-            "proxyPrice": 417.891,
-            "proxyWow": null
-        },
-        {
-            "province": "北京",
-            "month": "2022-01",
-            "proxyPrice": 417.05199999999996,
-            "proxyWow": 0.4
-        },
-        {
-            "province": "广东",
-            "month": "2022-01",
-            "proxyPrice": 503.4,
-            "proxyWow": 6.9
-        },
-        {
-            "province": "上海",
-            "month": "2022-01",
-            "proxyPrice": 522.5999999999999,
-            "proxyWow": 3.6
-        },
-        {
-            "province": "江西",
-            "month": "2022-01",
-            "proxyPrice": 497.15999999999997,
-            "proxyWow": 0
-        },
-        {
-            "province": "安徽",
-            "month": "2022-01",
-            "proxyPrice": 461.28000000000003,
-            "proxyWow": null
-        },
-        {
-            "province": "内蒙古",
-            "month": "2022-01",
-            "proxyPrice": 309.40000000000003,
-            "proxyWow": -2
-        },
-        {
-            "province": "江苏",
-            "month": "2022-01",
-            "proxyPrice": 418.6,
-            "proxyWow": -7.3
-        },
-        {
-            "province": "贵州",
-            "month": "2022-01",
-            "proxyPrice": 379.3,
-            "proxyWow": 0.9
-        },
-        {
-            "province": "宁夏",
-            "month": "2022-01",
-            "proxyPrice": 293.8,
-            "proxyWow": 5.5
-        },
-        {
-            "province": "广西",
-            "month": "2022-01",
-            "proxyPrice": 381.40000000000003,
-            "proxyWow": null
-        },
-        {
-            "province": "山东",
-            "month": "2022-01",
-            "proxyPrice": 484,
-            "proxyWow": -0.6
-        },
-        {
-            "province": "吉林",
-            "month": "2022-01",
-            "proxyPrice": 414.56,
-            "proxyWow": 0.5
-        },
-        {
-            "province": "四川",
-            "month": "2022-01",
-            "proxyPrice": 447.1,
-            "proxyWow": null
-        },
-        {
-            "province": "青海",
-            "month": "2022-01",
-            "proxyPrice": 227.39999999999998,
-            "proxyWow": -9.5
-        },
-        {
-            "province": "河北",
-            "month": "2022-01",
-            "proxyPrice": 435,
-            "proxyWow": -1.4
-        },
-        {
-            "province": "内蒙古",
-            "month": "2021-12",
-            "proxyPrice": 315.8,
-            "proxyWow": null
-        },
-        {
-            "province": "陕西",
-            "month": "2021-12",
-            "proxyPrice": 410.4,
-            "proxyWow": null
-        },
-        {
-            "province": "海南",
-            "month": "2021-12",
-            "proxyPrice": 487.35,
-            "proxyWow": null
-        },
-        {
-            "province": "江西",
-            "month": "2021-12",
-            "proxyPrice": 497.2,
-            "proxyWow": null
-        },
-        {
-            "province": "上海",
-            "month": "2021-12",
-            "proxyPrice": 504.4,
-            "proxyWow": null
-        },
-        {
-            "province": "吉林",
-            "month": "2021-12",
-            "proxyPrice": 412.45,
-            "proxyWow": null
-        },
-        {
-            "province": "宁夏",
-            "month": "2021-12",
-            "proxyPrice": 278.6,
-            "proxyWow": null
-        },
-        {
-            "province": "青海",
-            "month": "2021-12",
-            "proxyPrice": 251.3,
-            "proxyWow": null
-        },
-        {
-            "province": "山东",
-            "month": "2021-12",
-            "proxyPrice": 487,
-            "proxyWow": null
-        },
-        {
-            "province": "广东",
-            "month": "2021-12",
-            "proxyPrice": 470.8,
-            "proxyWow": null
-        },
-        {
-            "province": "河北",
-            "month": "2021-12",
-            "proxyPrice": 441.2,
-            "proxyWow": null
-        },
-        {
-            "province": "贵州",
-            "month": "2021-12",
-            "proxyPrice": 376,
-            "proxyWow": null
-        },
-        {
-            "province": "北京",
-            "month": "2021-12",
-            "proxyPrice": 415.21999999999997,
-            "proxyWow": null
-        },
-        {
-            "province": "湖南",
-            "month": "2021-12",
-            "proxyPrice": 486.54999999999995,
-            "proxyWow": null
-        },
-        {
-            "province": "江苏",
-            "month": "2021-12",
-            "proxyPrice": 451.40000000000003,
-            "proxyWow": null
+            "proxyWow": 0.9,
+            "proxyYoy": -1
         }
     ],
     "systemFeeLatest": [
@@ -31505,7 +24872,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 16.7,
             "coalCapacity": 34.4,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 141.9
         },
         {
             "province": "安徽",
@@ -31514,7 +24882,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 14.7,
             "coalCapacity": 39.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 109.6
         },
         {
             "province": "安徽",
@@ -31523,7 +24892,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 10.6,
             "coalCapacity": 38.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 92.7
         },
         {
             "province": "安徽",
@@ -31532,7 +24902,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 44.8,
             "coalCapacity": 42.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 111
         },
         {
             "province": "安徽",
@@ -31541,7 +24912,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -6.1,
             "coalCapacity": 37.900000000000006,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 36.4
         },
         {
             "province": "安徽",
@@ -31550,7 +24922,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -16.2,
             "coalCapacity": 49.7,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 4487.5
         },
         {
             "province": "安徽",
@@ -31559,7 +24932,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 256.1,
             "coalCapacity": 34,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 234.4
         },
         {
             "province": "安徽",
@@ -31568,7 +24942,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33,
             "coalCapacity": 19.900000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 50
         },
         {
             "province": "安徽",
@@ -31577,7 +24952,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -45.2,
             "coalCapacity": 22.3,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 122.4
         },
         {
             "province": "安徽",
@@ -31586,7 +24962,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -3.6,
             "coalCapacity": 22.700000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 69.2
         },
         {
             "province": "安徽",
@@ -31595,7 +24972,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.5,
             "coalCapacity": 19.099999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 50.4
         },
         {
             "province": "安徽",
@@ -31604,7 +24982,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 39.6,
             "coalCapacity": 18.700000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 104.1
         },
         {
             "province": "安徽",
@@ -31721,7 +25100,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 242.7,
             "coalCapacity": 11.252,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -2.5
         },
         {
             "province": "北京",
@@ -31730,7 +25110,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -120,
             "coalCapacity": 13.571,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -21.6
         },
         {
             "province": "北京",
@@ -31739,7 +25120,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -64.7,
             "coalCapacity": 16.548000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -7.1
         },
         {
             "province": "北京",
@@ -31748,7 +25130,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 179.5,
             "coalCapacity": 23.531,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 40.7
         },
         {
             "province": "北京",
@@ -31757,7 +25140,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -56.5,
             "coalCapacity": 14.037,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -31
         },
         {
             "province": "北京",
@@ -31766,7 +25150,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 118.8,
             "coalCapacity": 24.164,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -5.9
         },
         {
             "province": "北京",
@@ -31775,7 +25160,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -236.1,
             "coalCapacity": 19.455,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -29.7
         },
         {
             "province": "北京",
@@ -31784,7 +25170,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -380.5,
             "coalCapacity": 9.635,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -191.1
         },
         {
             "province": "北京",
@@ -31793,7 +25180,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -82.5,
             "coalCapacity": 14.61,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -54.1
         },
         {
             "province": "北京",
@@ -31802,7 +25190,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.2,
             "coalCapacity": 20.479,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -179.3
         },
         {
             "province": "北京",
@@ -31811,7 +25200,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -639.9,
             "coalCapacity": 18.851,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -25.5
         },
         {
             "province": "北京",
@@ -31820,7 +25210,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -66.1,
             "coalCapacity": 13.159,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 83.8
         },
         {
             "province": "北京",
@@ -31937,7 +25328,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 42.9,
             "coalCapacity": 21.133,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 45
         },
         {
             "province": "福建",
@@ -31946,7 +25338,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -44.7,
             "coalCapacity": 22.651,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -9.7
         },
         {
             "province": "福建",
@@ -31955,7 +25348,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -8,
             "coalCapacity": 27.137,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 142.1
         },
         {
             "province": "福建",
@@ -31964,7 +25358,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 111.9,
             "coalCapacity": 25.997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 48
         },
         {
             "province": "福建",
@@ -31973,7 +25368,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -72.1,
             "coalCapacity": 24.613,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -15
         },
         {
             "province": "福建",
@@ -31982,7 +25378,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 61.8,
             "coalCapacity": 42.077999999999996,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 89.8
         },
         {
             "province": "福建",
@@ -31991,7 +25388,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 204,
             "coalCapacity": 24.636000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 72.5
         },
         {
             "province": "福建",
@@ -32000,7 +25398,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -31.3,
             "coalCapacity": 13.934999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -47.1
         },
         {
             "province": "福建",
@@ -32009,7 +25408,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.4,
             "coalCapacity": 15.405999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 17.2
         },
         {
             "province": "福建",
@@ -32018,7 +25418,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -19.5,
             "coalCapacity": 14.863,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 89.3
         },
         {
             "province": "福建",
@@ -32027,7 +25428,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 12.3,
             "coalCapacity": 14,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 46.3
         },
         {
             "province": "福建",
@@ -32036,7 +25438,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 29,
             "coalCapacity": 12.8,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 108.2
         },
         {
             "province": "福建",
@@ -32369,7 +25772,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7.6,
             "coalCapacity": 34.7,
             "ancillary": 2.6,
-            "pumpedStorage": 5.4
+            "pumpedStorage": 5.4,
+            "totalYoy": 61.9
         },
         {
             "province": "广东",
@@ -32378,7 +25782,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -47.7,
             "coalCapacity": 32.4,
             "ancillary": 1.7,
-            "pumpedStorage": 5.3
+            "pumpedStorage": 5.3,
+            "totalYoy": 32.8
         },
         {
             "province": "广东",
@@ -32387,7 +25792,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -32.4,
             "coalCapacity": 35.1,
             "ancillary": 2.2,
-            "pumpedStorage": 5.8
+            "pumpedStorage": 5.8,
+            "totalYoy": 121.8
         },
         {
             "province": "广东",
@@ -32396,7 +25802,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.2,
             "coalCapacity": 40.4,
             "ancillary": 3.3,
-            "pumpedStorage": 6.8
+            "pumpedStorage": 6.8,
+            "totalYoy": 255
         },
         {
             "province": "广东",
@@ -32405,7 +25812,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.5,
             "coalCapacity": 44.900000000000006,
             "ancillary": 1.7,
-            "pumpedStorage": 6.8999999999999995
+            "pumpedStorage": 6.8999999999999995,
+            "totalYoy": 303.8
         },
         {
             "province": "广东",
@@ -32414,7 +25822,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 86.7,
             "coalCapacity": 68,
             "ancillary": 3.4,
-            "pumpedStorage": 13.4
+            "pumpedStorage": 13.4,
+            "totalYoy": 235.4
         },
         {
             "province": "广东",
@@ -32423,7 +25832,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -4.7,
             "coalCapacity": 42.4,
             "ancillary": 4.2,
-            "pumpedStorage": 7.6
+            "pumpedStorage": 7.6,
+            "totalYoy": 88
         },
         {
             "province": "广东",
@@ -32432,7 +25842,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -11.6,
             "coalCapacity": 34.2,
             "ancillary": 2.3,
-            "pumpedStorage": 6.7
+            "pumpedStorage": 6.7,
+            "totalYoy": 200.4
         },
         {
             "province": "广东",
@@ -32441,7 +25852,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 74.3,
             "coalCapacity": 32.2,
             "ancillary": 1.2,
-            "pumpedStorage": 6.2
+            "pumpedStorage": 6.2,
+            "totalYoy": 237
         },
         {
             "province": "广东",
@@ -32450,7 +25862,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 33.9,
             "coalCapacity": 39.800000000000004,
             "ancillary": 1.2,
-            "pumpedStorage": 6
+            "pumpedStorage": 6,
+            "totalYoy": 97.5
         },
         {
             "province": "广东",
@@ -32459,7 +25872,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 64,
             "coalCapacity": 28.5,
             "ancillary": 0.9,
-            "pumpedStorage": 5.7
+            "pumpedStorage": 5.7,
+            "totalYoy": 67.1
         },
         {
             "province": "广东",
@@ -32468,7 +25882,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 5.9,
             "coalCapacity": 15.299999999999999,
             "ancillary": 0.9,
-            "pumpedStorage": 5.2
+            "pumpedStorage": 5.2,
+            "totalYoy": 2.4
         },
         {
             "province": "广东",
@@ -32585,7 +26000,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 26.2,
             "coalCapacity": 33.687000000000005,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 334.7
         },
         {
             "province": "广西",
@@ -32594,7 +26010,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -22.2,
             "coalCapacity": 21.249,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 213.6
         },
         {
             "province": "广西",
@@ -32603,7 +26020,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -10.2,
             "coalCapacity": 22.689,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 252.3
         },
         {
             "province": "广西",
@@ -32612,7 +26030,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33.4,
             "coalCapacity": 23.168999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 239.6
         },
         {
             "province": "广西",
@@ -32621,7 +26040,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 5.3,
             "coalCapacity": 24.304,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 432.4
         },
         {
             "province": "广西",
@@ -32630,7 +26050,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 95.7,
             "coalCapacity": 34.366,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 339
         },
         {
             "province": "广西",
@@ -32639,7 +26060,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 100.5,
             "coalCapacity": 24.752,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 163.9
         },
         {
             "province": "广西",
@@ -32648,7 +26070,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 56.5,
             "coalCapacity": 29.688,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 41.9
         },
         {
             "province": "广西",
@@ -32657,7 +26080,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 3.3,
             "coalCapacity": 21.003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -29.6
         },
         {
             "province": "广西",
@@ -32666,7 +26090,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 10.2,
             "coalCapacity": 20.344,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -7.8
         },
         {
             "province": "广西",
@@ -32675,7 +26100,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -6,
             "coalCapacity": 18.39,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -14.3
         },
         {
             "province": "广西",
@@ -32684,7 +26110,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7,
             "coalCapacity": 19.639,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -2.8
         },
         {
             "province": "广西",
@@ -32801,7 +26228,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -50.4,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -88.2
         },
         {
             "province": "贵州",
@@ -32810,7 +26238,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -41.6,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -69.9
         },
         {
             "province": "贵州",
@@ -32819,7 +26248,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.5,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -40.5
         },
         {
             "province": "贵州",
@@ -32828,7 +26258,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.7,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -27.4
         },
         {
             "province": "贵州",
@@ -32837,7 +26268,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -20.9,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -43
         },
         {
             "province": "贵州",
@@ -32846,7 +26278,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -24.6
         },
         {
             "province": "贵州",
@@ -32855,7 +26288,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -557.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 25.9
         },
         {
             "province": "贵州",
@@ -32864,7 +26298,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -142.1,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -128.9
         },
         {
             "province": "贵州",
@@ -32873,7 +26308,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 0.8,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -36.6
         },
         {
             "province": "贵州",
@@ -32882,7 +26318,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.1,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -42.1
         },
         {
             "province": "贵州",
@@ -32891,7 +26328,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -50.2,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -28.5
         },
         {
             "province": "贵州",
@@ -32900,7 +26338,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -20,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 191.6
         },
         {
             "province": "贵州",
@@ -33017,7 +26456,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.6,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 281.1
         },
         {
             "province": "海南",
@@ -33026,7 +26466,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -15.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 20.1
         },
         {
             "province": "海南",
@@ -33035,7 +26476,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -21.8,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 35.6
         },
         {
             "province": "海南",
@@ -33044,7 +26486,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -26.6,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 68
         },
         {
             "province": "海南",
@@ -33053,7 +26496,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 15.1,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 120.6
         },
         {
             "province": "海南",
@@ -33062,7 +26506,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -3127.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 150.6
         },
         {
             "province": "海南",
@@ -33071,7 +26516,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -90.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -110.2
         },
         {
             "province": "海南",
@@ -33080,7 +26526,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 268.7,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -192.2
         },
         {
             "province": "海南",
@@ -33089,7 +26536,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -120.8,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -125.3
         },
         {
             "province": "海南",
@@ -33098,7 +26546,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -22.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 67.2
         },
         {
             "province": "海南",
@@ -33107,7 +26556,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 696,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 76.4
         },
         {
             "province": "海南",
@@ -33116,7 +26566,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -50.1,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -77.8
         },
         {
             "province": "海南",
@@ -33233,7 +26684,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -22.1,
             "coalCapacity": 32.813,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 23.3
         },
         {
             "province": "河北",
@@ -33242,7 +26694,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -1.3,
             "coalCapacity": 33.4,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -3.6
         },
         {
             "province": "河北",
@@ -33251,7 +26704,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -7.4,
             "coalCapacity": 37.51199999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 60.6
         },
         {
             "province": "河北",
@@ -33260,7 +26714,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 18.6,
             "coalCapacity": 41.469,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 54.4
         },
         {
             "province": "河北",
@@ -33269,7 +26724,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -46.3,
             "coalCapacity": 34.704,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -13.7
         },
         {
             "province": "河北",
@@ -33278,7 +26734,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 33.8,
             "coalCapacity": 47.489000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 60.8
         },
         {
             "province": "河北",
@@ -33287,7 +26744,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 93.9,
             "coalCapacity": 323.69,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -3.3
         },
         {
             "province": "河北",
@@ -33296,7 +26754,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 102.3,
             "coalCapacity": 18.405,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -21.1
         },
         {
             "province": "河北",
@@ -33305,7 +26764,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -23.7,
             "coalCapacity": 22.591,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -28.6
         },
         {
             "province": "河北",
@@ -33314,7 +26774,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -40.9,
             "coalCapacity": 23.900000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 2156.6
         },
         {
             "province": "河北",
@@ -33323,7 +26784,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 10.2,
             "coalCapacity": 22.700000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -495.6
         },
         {
             "province": "河北",
@@ -33332,7 +26794,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 4.3,
             "coalCapacity": 22.4,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 61.6
         },
         {
             "province": "河北",
@@ -33449,7 +26912,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.9,
             "coalCapacity": 34.763000000000005,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 43.8
         },
         {
             "province": "河南",
@@ -33458,7 +26922,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -17.4,
             "coalCapacity": 38.025000000000006,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 72.1
         },
         {
             "province": "河南",
@@ -33467,7 +26932,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.9,
             "coalCapacity": 40.252,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 97.8
         },
         {
             "province": "河南",
@@ -33476,7 +26942,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 11.4,
             "coalCapacity": 42.552,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 74.6
         },
         {
             "province": "河南",
@@ -33485,7 +26952,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.4,
             "coalCapacity": 41.559,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 21
         },
         {
             "province": "河南",
@@ -33494,7 +26962,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 25.6,
             "coalCapacity": 52.143,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 72.2
         },
         {
             "province": "河南",
@@ -33503,7 +26972,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 25.7,
             "coalCapacity": 38.400999999999996,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 57.2
         },
         {
             "province": "河南",
@@ -33512,7 +26982,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 60.6,
             "coalCapacity": 38.504,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 281.1
         },
         {
             "province": "河南",
@@ -33521,7 +26992,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -8.3,
             "coalCapacity": 43.062000000000005,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 2222.4
         },
         {
             "province": "河南",
@@ -33530,7 +27002,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 12,
             "coalCapacity": 44.329,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -223.7
         },
         {
             "province": "河南",
@@ -33539,7 +27012,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -25.5,
             "coalCapacity": 40.307,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 63.7
         },
         {
             "province": "河南",
@@ -33548,7 +27022,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -1.6,
             "coalCapacity": 36.108000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -17.8
         },
         {
             "province": "河南",
@@ -33665,7 +27140,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -4.5,
             "coalCapacity": 102.188,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 163.1
         },
         {
             "province": "黑龙江",
@@ -33674,7 +27150,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7,
             "coalCapacity": 114.36699999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 245.4
         },
         {
             "province": "黑龙江",
@@ -33683,7 +27160,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 3.6,
             "coalCapacity": 113.29599999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 200.9
         },
         {
             "province": "黑龙江",
@@ -33692,7 +27170,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.1,
             "coalCapacity": 55.244,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 172.1
         },
         {
             "province": "黑龙江",
@@ -33701,7 +27180,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.2,
             "coalCapacity": 88.419,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 173.9
         },
         {
             "province": "黑龙江",
@@ -33710,7 +27190,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.2,
             "coalCapacity": 92.747,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 166.9
         },
         {
             "province": "黑龙江",
@@ -33719,7 +27200,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 292.9,
             "coalCapacity": 78.206,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 132.2
         },
         {
             "province": "黑龙江",
@@ -33728,7 +27210,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -24.7,
             "coalCapacity": 19.518,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -14
         },
         {
             "province": "黑龙江",
@@ -33737,7 +27220,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.8,
             "coalCapacity": 27.389,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 25.2
         },
         {
             "province": "黑龙江",
@@ -33746,7 +27230,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.7,
             "coalCapacity": 29.076999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 54.9
         },
         {
             "province": "黑龙江",
@@ -33755,7 +27240,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.3,
             "coalCapacity": 26.358,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 6.6
         },
         {
             "province": "黑龙江",
@@ -33764,7 +27250,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -12.6,
             "coalCapacity": 25.138,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 24.9
         },
         {
             "province": "黑龙江",
@@ -33881,7 +27368,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -7.7,
             "coalCapacity": 32.129,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 76.1
         },
         {
             "province": "湖北",
@@ -33890,7 +27378,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 21.7,
             "coalCapacity": 36.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 303.7
         },
         {
             "province": "湖北",
@@ -33899,7 +27388,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 16.3,
             "coalCapacity": 38.793,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 216.2
         },
         {
             "province": "湖北",
@@ -33908,7 +27398,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -17.7,
             "coalCapacity": 40.094,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 93
         },
         {
             "province": "湖北",
@@ -33917,7 +27408,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -40.1,
             "coalCapacity": 36.851,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 78.3
         },
         {
             "province": "湖北",
@@ -33926,7 +27418,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 28,
             "coalCapacity": 51.409000000000006,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 32
         },
         {
             "province": "湖北",
@@ -33935,7 +27428,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 40.9,
             "coalCapacity": 36.657000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 34.4
         },
         {
             "province": "湖北",
@@ -33944,7 +27438,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 93.5,
             "coalCapacity": 20.976000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 49.4
         },
         {
             "province": "湖北",
@@ -33953,7 +27448,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -30.7,
             "coalCapacity": 22.351,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 18.4
         },
         {
             "province": "湖北",
@@ -33962,7 +27458,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 31.2,
             "coalCapacity": 22.044999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 412.4
         },
         {
             "province": "湖北",
@@ -33971,7 +27468,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.6,
             "coalCapacity": 19,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -10
         },
         {
             "province": "湖北",
@@ -33980,7 +27478,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 6,
             "coalCapacity": 17.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 141.4
         },
         {
             "province": "湖北",
@@ -34097,7 +27596,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -18.9,
             "coalCapacity": 56.861000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 136.1
         },
         {
             "province": "湖南",
@@ -34106,7 +27606,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 123.7,
             "coalCapacity": 82.14,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 1975.3
         },
         {
             "province": "湖南",
@@ -34115,7 +27616,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -42.2,
             "coalCapacity": 57.163,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 11.3
         },
         {
             "province": "湖南",
@@ -34124,7 +27626,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 151.9,
             "coalCapacity": 48.917,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 26.4
         },
         {
             "province": "湖南",
@@ -34133,7 +27636,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -61.2,
             "coalCapacity": 29.762,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 61.6
         },
         {
             "province": "湖南",
@@ -34142,7 +27646,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 158.5,
             "coalCapacity": 66.66999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 117.6
         },
         {
             "province": "湖南",
@@ -34151,7 +27656,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -36.8,
             "coalCapacity": 48.157,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -5.1
         },
         {
             "province": "湖南",
@@ -34160,7 +27666,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -47.6,
             "coalCapacity": 36.375,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 34.1
         },
         {
             "province": "湖南",
@@ -34169,7 +27676,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -489.5,
             "coalCapacity": 40.095,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -12293.1
         },
         {
             "province": "湖南",
@@ -34178,7 +27686,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -817.9,
             "coalCapacity": 52.477000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 55.4
         },
         {
             "province": "湖南",
@@ -34187,7 +27696,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -93.4,
             "coalCapacity": 37.26,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -117.2
         },
         {
             "province": "湖南",
@@ -34196,7 +27706,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 45.8,
             "coalCapacity": 30.099999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -936.5
         },
         {
             "province": "湖南",
@@ -34313,7 +27824,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 29.5,
             "coalCapacity": 81.614,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 97.3
         },
         {
             "province": "吉林",
@@ -34322,7 +27834,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -26.8,
             "coalCapacity": 90.82300000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 39.1
         },
         {
             "province": "吉林",
@@ -34331,7 +27844,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 43.6,
             "coalCapacity": 115.802,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 90.2
         },
         {
             "province": "吉林",
@@ -34340,7 +27854,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 4.5,
             "coalCapacity": 103.51,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 19.3
         },
         {
             "province": "吉林",
@@ -34349,7 +27864,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.4,
             "coalCapacity": 66.341,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 46.1
         },
         {
             "province": "吉林",
@@ -34358,7 +27874,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 25.8,
             "coalCapacity": 89.897,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 64
         },
         {
             "province": "吉林",
@@ -34367,7 +27884,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 59.1,
             "coalCapacity": 80.683,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 83.3
         },
         {
             "province": "吉林",
@@ -34376,7 +27894,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 70.7,
             "coalCapacity": 25.201,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 3.5
         },
         {
             "province": "吉林",
@@ -34385,7 +27904,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -5.4,
             "coalCapacity": 27.325,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -15.1
         },
         {
             "province": "吉林",
@@ -34394,7 +27914,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33.7,
             "coalCapacity": 24.464,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -6.7
         },
         {
             "province": "吉林",
@@ -34403,7 +27924,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 48.1,
             "coalCapacity": 26.110999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 157.8
         },
         {
             "province": "吉林",
@@ -34412,7 +27934,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -48.9,
             "coalCapacity": 34.347,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -30.4
         },
         {
             "province": "吉林",
@@ -34529,7 +28052,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 8.4,
             "coalCapacity": 23.900000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 37.7
         },
         {
             "province": "江苏",
@@ -34538,7 +28062,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 11.1,
             "coalCapacity": 32.7,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 93.7
         },
         {
             "province": "江苏",
@@ -34547,7 +28072,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 9,
             "coalCapacity": 34,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 144.3
         },
         {
             "province": "江苏",
@@ -34556,7 +28082,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -21.5,
             "coalCapacity": 34.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 154.8
         },
         {
             "province": "江苏",
@@ -34565,7 +28092,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -29.8,
             "coalCapacity": 35,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 166.3
         },
         {
             "province": "江苏",
@@ -34574,7 +28102,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 53.3,
             "coalCapacity": 43,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 158.4
         },
         {
             "province": "江苏",
@@ -34583,7 +28112,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 88,
             "coalCapacity": 26.8,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 16.8
         },
         {
             "province": "江苏",
@@ -34592,7 +28122,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 10.5,
             "coalCapacity": 13.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 15.8
         },
         {
             "province": "江苏",
@@ -34601,7 +28132,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 14,
             "coalCapacity": 14.8,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 12.3
         },
         {
             "province": "江苏",
@@ -34610,7 +28142,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -40.8,
             "coalCapacity": 15.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 20.3
         },
         {
             "province": "江苏",
@@ -34619,7 +28152,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -16.6,
             "coalCapacity": 14.1,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 69.4
         },
         {
             "province": "江苏",
@@ -34628,7 +28162,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 6.2,
             "coalCapacity": 12.3,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 117.1
         },
         {
             "province": "江苏",
@@ -34745,7 +28280,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 5.2,
             "coalCapacity": 31.386999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 183.1
         },
         {
             "province": "江西",
@@ -34754,7 +28290,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.2,
             "coalCapacity": 35.631,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 122.4
         },
         {
             "province": "江西",
@@ -34763,7 +28300,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 15.8,
             "coalCapacity": 36.037,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 85.2
         },
         {
             "province": "江西",
@@ -34772,7 +28310,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -26.2,
             "coalCapacity": 35.97,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 110.8
         },
         {
             "province": "江西",
@@ -34781,7 +28320,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 46.4,
             "coalCapacity": 38.366,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 102.8
         },
         {
             "province": "江西",
@@ -34790,7 +28330,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -26.2,
             "coalCapacity": 59.15,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -18.3
         },
         {
             "province": "江西",
@@ -34799,7 +28340,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -0.8,
             "coalCapacity": 33.547,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -28
         },
         {
             "province": "江西",
@@ -34808,7 +28350,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -20.8,
             "coalCapacity": 18.138,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -348.5
         },
         {
             "province": "江西",
@@ -34817,7 +28360,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 74.3,
             "coalCapacity": 19.997999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -861.5
         },
         {
             "province": "江西",
@@ -34826,7 +28370,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -35.9,
             "coalCapacity": 21.638,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 22.5
         },
         {
             "province": "江西",
@@ -34835,7 +28380,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 151.8,
             "coalCapacity": 17.97,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 157.6
         },
         {
             "province": "江西",
@@ -34844,7 +28390,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 6.1,
             "coalCapacity": 15.02,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -492.1
         },
         {
             "province": "江西",
@@ -34961,7 +28508,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 0.2,
             "coalCapacity": 26.928,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 369.6
         },
         {
             "province": "辽宁",
@@ -34970,7 +28518,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -0.1,
             "coalCapacity": 26.784,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 317.7
         },
         {
             "province": "辽宁",
@@ -34979,7 +28528,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.7,
             "coalCapacity": 29.677,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 289.3
         },
         {
             "province": "辽宁",
@@ -34988,7 +28538,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -8.6,
             "coalCapacity": 27.077,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 171.1
         },
         {
             "province": "辽宁",
@@ -34997,7 +28548,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 58.1,
             "coalCapacity": 21.503999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 186
         },
         {
             "province": "辽宁",
@@ -35006,7 +28558,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 157.9,
             "coalCapacity": 25.696,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 3032.6
         },
         {
             "province": "辽宁",
@@ -35015,7 +28568,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 36.6,
             "coalCapacity": 23.980999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 52.5
         },
         {
             "province": "辽宁",
@@ -35024,7 +28578,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -4.5,
             "coalCapacity": 14.498000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -36.6
         },
         {
             "province": "辽宁",
@@ -35033,7 +28588,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -28.2,
             "coalCapacity": 14.316,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -20
         },
         {
             "province": "辽宁",
@@ -35042,7 +28598,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -25.2,
             "coalCapacity": 14.788,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 100.9
         },
         {
             "province": "辽宁",
@@ -35051,7 +28608,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 48.7,
             "coalCapacity": 16.999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 123.6
         },
         {
             "province": "辽宁",
@@ -35060,7 +28618,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.3,
             "coalCapacity": 16.532999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 6.7
         },
         {
             "province": "辽宁",
@@ -35177,7 +28736,8 @@ window.WORKBENCH_DATA = {
             "totalWow": null,
             "coalCapacity": 20.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -100
         },
         {
             "province": "内蒙古",
@@ -35186,7 +28746,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.1,
             "coalCapacity": 21.7,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 112
         },
         {
             "province": "内蒙古",
@@ -35195,7 +28756,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -32.3,
             "coalCapacity": 19.900000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 61.5
         },
         {
             "province": "内蒙古",
@@ -35204,7 +28766,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 83.6,
             "coalCapacity": 23.099999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 197.7
         },
         {
             "province": "内蒙古",
@@ -35213,7 +28776,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -31.2,
             "coalCapacity": 22.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 95.2
         },
         {
             "province": "内蒙古",
@@ -35222,7 +28786,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 4.2,
             "coalCapacity": 20.299999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 119.5
         },
         {
             "province": "内蒙古",
@@ -35231,7 +28796,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 640.7,
             "coalCapacity": 17.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 545.2
         },
         {
             "province": "内蒙古",
@@ -35240,7 +28806,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -72.7,
             "coalCapacity": 10.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -21.7
         },
         {
             "province": "内蒙古",
@@ -35249,7 +28816,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -10.8,
             "coalCapacity": 12.7,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -2.9
         },
         {
             "province": "内蒙古",
@@ -35258,7 +28826,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 3.7,
             "coalCapacity": 12.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -1.3
         },
         {
             "province": "内蒙古",
@@ -35267,7 +28836,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 170.9,
             "coalCapacity": 13.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 94.5
         },
         {
             "province": "内蒙古",
@@ -35276,7 +28846,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33.6,
             "coalCapacity": 9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -22.5
         },
         {
             "province": "内蒙古",
@@ -35393,7 +28964,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 20,
             "coalCapacity": 14.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 435.4
         },
         {
             "province": "宁夏",
@@ -35402,7 +28974,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 24.6,
             "coalCapacity": 14.3,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 645
         },
         {
             "province": "宁夏",
@@ -35411,7 +28984,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -1.9,
             "coalCapacity": 13.4,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 1055.5
         },
         {
             "province": "宁夏",
@@ -35420,7 +28994,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -21.9,
             "coalCapacity": 15.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 610.2
         },
         {
             "province": "宁夏",
@@ -35429,7 +29004,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.9,
             "coalCapacity": 13.799999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 288.5
         },
         {
             "province": "宁夏",
@@ -35438,7 +29014,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 45.1,
             "coalCapacity": 14.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 92.8
         },
         {
             "province": "宁夏",
@@ -35447,7 +29024,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.3,
             "coalCapacity": 13,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 37.9
         },
         {
             "province": "宁夏",
@@ -35456,7 +29034,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.2,
             "coalCapacity": 14.200000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 464.7
         },
         {
             "province": "宁夏",
@@ -35465,7 +29044,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 127.7,
             "coalCapacity": 15.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 51.8
         },
         {
             "province": "宁夏",
@@ -35474,7 +29054,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -348.5,
             "coalCapacity": 13.4,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -43.1
         },
         {
             "province": "宁夏",
@@ -35483,7 +29064,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -144.3,
             "coalCapacity": 14.200000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -142.3
         },
         {
             "province": "宁夏",
@@ -35492,7 +29074,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -9.1,
             "coalCapacity": 15.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -65
         },
         {
             "province": "宁夏",
@@ -35609,7 +29192,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 8.6,
             "coalCapacity": 7.106000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 881
         },
         {
             "province": "青海",
@@ -35618,7 +29202,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -21.2,
             "coalCapacity": 7.136,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 361.7
         },
         {
             "province": "青海",
@@ -35627,7 +29212,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -22.4,
             "coalCapacity": 7.514,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 659.3
         },
         {
             "province": "青海",
@@ -35636,7 +29222,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.3,
             "coalCapacity": 7.433999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 345
         },
         {
             "province": "青海",
@@ -35645,7 +29232,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.5,
             "coalCapacity": 7.392,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 142.2
         },
         {
             "province": "青海",
@@ -35654,7 +29242,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 47.9,
             "coalCapacity": 8.911999999999999,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 77
         },
         {
             "province": "青海",
@@ -35663,7 +29252,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 1.7,
             "coalCapacity": 4.757,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 97.2
         },
         {
             "province": "青海",
@@ -35672,7 +29262,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 156.4,
             "coalCapacity": 7.239,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 221.4
         },
         {
             "province": "青海",
@@ -35681,7 +29272,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 33.7,
             "coalCapacity": 6.2459999999999996,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 254.6
         },
         {
             "province": "青海",
@@ -35690,7 +29282,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 60.2,
             "coalCapacity": 4.7860000000000005,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 403.8
         },
         {
             "province": "青海",
@@ -35699,7 +29292,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 46.2,
             "coalCapacity": 4.2459999999999996,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -488.6
         },
         {
             "province": "青海",
@@ -35708,7 +29302,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 1.7,
             "coalCapacity": 4.643000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -311
         },
         {
             "province": "青海",
@@ -35825,7 +29420,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 27.6,
             "coalCapacity": 23.3,
             "ancillary": null,
-            "pumpedStorage": 4
+            "pumpedStorage": 4,
+            "totalYoy": 227.8
         },
         {
             "province": "山东",
@@ -35834,7 +29430,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 14,
             "coalCapacity": 19.099999999999998,
             "ancillary": null,
-            "pumpedStorage": 4.2
+            "pumpedStorage": 4.2,
+            "totalYoy": 425.5
         },
         {
             "province": "山东",
@@ -35843,7 +29440,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -36.9,
             "coalCapacity": 17.6,
             "ancillary": null,
-            "pumpedStorage": 5.2
+            "pumpedStorage": 5.2,
+            "totalYoy": 1205.6
         },
         {
             "province": "山东",
@@ -35852,7 +29450,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 26,
             "coalCapacity": 20.9,
             "ancillary": null,
-            "pumpedStorage": 5.8999999999999995
+            "pumpedStorage": 5.8999999999999995,
+            "totalYoy": 473.3
         },
         {
             "province": "山东",
@@ -35861,7 +29460,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.8,
             "coalCapacity": 18.9,
             "ancillary": null,
-            "pumpedStorage": 5.2
+            "pumpedStorage": 5.2,
+            "totalYoy": 252
         },
         {
             "province": "山东",
@@ -35870,7 +29470,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 58.1,
             "coalCapacity": 26.1,
             "ancillary": null,
-            "pumpedStorage": 6.4
+            "pumpedStorage": 6.4,
+            "totalYoy": 287
         },
         {
             "province": "山东",
@@ -35879,7 +29480,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 825.4,
             "coalCapacity": 17.2,
             "ancillary": null,
-            "pumpedStorage": 4.6
+            "pumpedStorage": 4.6,
+            "totalYoy": 111.6
         },
         {
             "province": "山东",
@@ -35888,7 +29490,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -71.8,
             "coalCapacity": 17.4,
             "ancillary": null,
-            "pumpedStorage": 4.8
+            "pumpedStorage": 4.8,
+            "totalYoy": -82.9
         },
         {
             "province": "山东",
@@ -35897,7 +29500,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 945,
             "coalCapacity": 18.8,
             "ancillary": null,
-            "pumpedStorage": 5.3
+            "pumpedStorage": 5.3,
+            "totalYoy": 39.3
         },
         {
             "province": "山东",
@@ -35906,7 +29510,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -85.3,
             "coalCapacity": 18.9,
             "ancillary": null,
-            "pumpedStorage": 4.6
+            "pumpedStorage": 4.6,
+            "totalYoy": -86.3
         },
         {
             "province": "山东",
@@ -35915,7 +29520,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -51.3,
             "coalCapacity": 14.9,
             "ancillary": null,
-            "pumpedStorage": 4.1000000000000005
+            "pumpedStorage": 4.1000000000000005,
+            "totalYoy": -26.9
         },
         {
             "province": "山东",
@@ -35924,7 +29530,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -10.9,
             "coalCapacity": 16.2,
             "ancillary": null,
-            "pumpedStorage": 4.4
+            "pumpedStorage": 4.4,
+            "totalYoy": -47.7
         },
         {
             "province": "山东",
@@ -36041,7 +29648,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -9.2,
             "coalCapacity": 29.357000000000003,
             "ancillary": 3.023,
-            "pumpedStorage": -1.536
+            "pumpedStorage": -1.536,
+            "totalYoy": 275.9
         },
         {
             "province": "山西",
@@ -36050,7 +29658,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 28.5,
             "coalCapacity": 31.99,
             "ancillary": 3.23,
-            "pumpedStorage": -1.309
+            "pumpedStorage": -1.309,
+            "totalYoy": 467.8
         },
         {
             "province": "山西",
@@ -36059,7 +29668,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -25.6,
             "coalCapacity": 30.73,
             "ancillary": 3.521,
-            "pumpedStorage": -1.3699999999999999
+            "pumpedStorage": -1.3699999999999999,
+            "totalYoy": 443.1
         },
         {
             "province": "山西",
@@ -36068,7 +29678,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -7.8,
             "coalCapacity": 37.411,
             "ancillary": 3.4090000000000003,
-            "pumpedStorage": 2.8739999999999997
+            "pumpedStorage": 2.8739999999999997,
+            "totalYoy": 430.3
         },
         {
             "province": "山西",
@@ -36077,7 +29688,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7.6,
             "coalCapacity": 32.734,
             "ancillary": 3.473,
-            "pumpedStorage": 2.369
+            "pumpedStorage": 2.369,
+            "totalYoy": 201.9
         },
         {
             "province": "山西",
@@ -36086,7 +29698,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 9.3,
             "coalCapacity": 30.768,
             "ancillary": 3.9779999999999998,
-            "pumpedStorage": 2.8240000000000003
+            "pumpedStorage": 2.8240000000000003,
+            "totalYoy": 227.3
         },
         {
             "province": "山西",
@@ -36095,7 +29708,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 133.6,
             "coalCapacity": 23.661,
             "ancillary": 3.301,
-            "pumpedStorage": 2.32
+            "pumpedStorage": 2.32,
+            "totalYoy": 106
         },
         {
             "province": "山西",
@@ -36104,7 +29718,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 41.8,
             "coalCapacity": 13.126000000000001,
             "ancillary": 2.627,
-            "pumpedStorage": 2.193
+            "pumpedStorage": 2.193,
+            "totalYoy": -1.2
         },
         {
             "province": "山西",
@@ -36113,7 +29728,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 79.7,
             "coalCapacity": 15.715,
             "ancillary": 2.62,
-            "pumpedStorage": 2.562
+            "pumpedStorage": 2.562,
+            "totalYoy": -5.8
         },
         {
             "province": "山西",
@@ -36122,7 +29738,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -40.1,
             "coalCapacity": 18.824,
             "ancillary": 3.364,
-            "pumpedStorage": 2.783
+            "pumpedStorage": 2.783,
+            "totalYoy": 58.6
         },
         {
             "province": "山西",
@@ -36131,7 +29748,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 109.9,
             "coalCapacity": 18.155,
             "ancillary": 3.238,
-            "pumpedStorage": 2.692
+            "pumpedStorage": 2.692,
+            "totalYoy": 83.3
         },
         {
             "province": "山西",
@@ -36140,7 +29758,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -46.7,
             "coalCapacity": 16.145,
             "ancillary": 2.604,
-            "pumpedStorage": 2.745
+            "pumpedStorage": 2.745,
+            "totalYoy": -54.5
         },
         {
             "province": "山西",
@@ -36257,7 +29876,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 0.1,
             "coalCapacity": 14.200000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 214.8
         },
         {
             "province": "陕西",
@@ -36266,7 +29886,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.9,
             "coalCapacity": 14.200000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 274.8
         },
         {
             "province": "陕西",
@@ -36275,7 +29896,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -9.4,
             "coalCapacity": 17.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 267
         },
         {
             "province": "陕西",
@@ -36284,7 +29906,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 0,
             "coalCapacity": 33.300000000000004,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 179.8
         },
         {
             "province": "陕西",
@@ -36293,7 +29916,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 21.9,
             "coalCapacity": 28.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 185.1
         },
         {
             "province": "陕西",
@@ -36302,7 +29926,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 15.9,
             "coalCapacity": 22.599999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 153.5
         },
         {
             "province": "陕西",
@@ -36311,7 +29936,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 286.2,
             "coalCapacity": 17.3,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 210.2
         },
         {
             "province": "陕西",
@@ -36320,7 +29946,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -61.4,
             "coalCapacity": 26.200000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 148.1
         },
         {
             "province": "陕西",
@@ -36329,7 +29956,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 43.9,
             "coalCapacity": 27.5,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 170.2
         },
         {
             "province": "陕西",
@@ -36338,7 +29966,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -30.8,
             "coalCapacity": 21.7,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 15
         },
         {
             "province": "陕西",
@@ -36347,7 +29976,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 89.6,
             "coalCapacity": 26.599999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 108.2
         },
         {
             "province": "陕西",
@@ -36356,7 +29986,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -15.1,
             "coalCapacity": 25.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 43.9
         },
         {
             "province": "陕西",
@@ -36473,7 +30104,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -7.6,
             "coalCapacity": 17.155,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 4.6
         },
         {
             "province": "上海",
@@ -36482,7 +30114,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -8.1,
             "coalCapacity": 20.216,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 31.5
         },
         {
             "province": "上海",
@@ -36491,7 +30124,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -17.9,
             "coalCapacity": 22.786,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 30.8
         },
         {
             "province": "上海",
@@ -36500,7 +30134,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 108.3,
             "coalCapacity": 26.536,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 47.9
         },
         {
             "province": "上海",
@@ -36509,7 +30144,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -33.7,
             "coalCapacity": 14.705,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -22.4
         },
         {
             "province": "上海",
@@ -36518,7 +30154,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -6,
             "coalCapacity": 27.398,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 56.4
         },
         {
             "province": "上海",
@@ -36527,7 +30164,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 36.4,
             "coalCapacity": 21.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 7.2
         },
         {
             "province": "上海",
@@ -36536,7 +30174,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 50.3,
             "coalCapacity": 11.6,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -5.3
         },
         {
             "province": "上海",
@@ -36545,7 +30184,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 3.4,
             "coalCapacity": 12.8,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 19.4
         },
         {
             "province": "上海",
@@ -36554,7 +30194,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 31.5,
             "coalCapacity": 14.200000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 118.5
         },
         {
             "province": "上海",
@@ -36563,7 +30204,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -46.7,
             "coalCapacity": 12.3,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 19.5
         },
         {
             "province": "上海",
@@ -36572,7 +30214,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -22.2,
             "coalCapacity": 9.9,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -7.6
         },
         {
             "province": "上海",
@@ -36689,7 +30332,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -41,
             "coalCapacity": 8.226,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 701.6
         },
         {
             "province": "四川",
@@ -36698,7 +30342,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -29.5,
             "coalCapacity": 9.011,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -316.3
         },
         {
             "province": "四川",
@@ -36707,7 +30352,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -31.7,
             "coalCapacity": 9.639,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -22.3
         },
         {
             "province": "四川",
@@ -36716,7 +30362,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 32.9,
             "coalCapacity": 13.274,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 8.3
         },
         {
             "province": "四川",
@@ -36725,7 +30372,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -43.7,
             "coalCapacity": 10.491,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -11.1
         },
         {
             "province": "四川",
@@ -36734,7 +30382,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 31.4,
             "coalCapacity": 14.157,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 38.4
         },
         {
             "province": "四川",
@@ -36743,7 +30392,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 51.9,
             "coalCapacity": 7.687,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 18.6
         },
         {
             "province": "四川",
@@ -36752,7 +30402,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 113,
             "coalCapacity": 7.221,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -60
         },
         {
             "province": "四川",
@@ -36761,7 +30412,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 151.8,
             "coalCapacity": 7.016,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 160.1
         },
         {
             "province": "四川",
@@ -36770,7 +30422,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -49,
             "coalCapacity": 6.5729999999999995,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -27.4
         },
         {
             "province": "四川",
@@ -36779,7 +30432,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -313.1,
             "coalCapacity": 6.507,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 83.6
         },
         {
             "province": "四川",
@@ -36788,7 +30442,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -424,
             "coalCapacity": 6.243,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 5.9
         },
         {
             "province": "四川",
@@ -36905,7 +30560,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 29.3,
             "coalCapacity": 37.162,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 31.9
         },
         {
             "province": "天津",
@@ -36914,7 +30570,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 19.9,
             "coalCapacity": 51.377,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 36.4
         },
         {
             "province": "天津",
@@ -36923,7 +30580,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -5.2,
             "coalCapacity": 51.853,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 9.2
         },
         {
             "province": "天津",
@@ -36932,7 +30590,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -16.9,
             "coalCapacity": 41.501999999999995,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 47.2
         },
         {
             "province": "天津",
@@ -36941,7 +30600,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -24.6,
             "coalCapacity": 34.397,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -3.4
         },
         {
             "province": "天津",
@@ -36950,7 +30610,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -21.2,
             "coalCapacity": 36.182,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 28.7
         },
         {
             "province": "天津",
@@ -36959,7 +30620,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 48.4,
             "coalCapacity": 32.915,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 58
         },
         {
             "province": "天津",
@@ -36968,7 +30630,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 68.4,
             "coalCapacity": 10.597000000000001,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 7.3
         },
         {
             "province": "天津",
@@ -36977,7 +30640,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 64.2,
             "coalCapacity": 14.671,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -2.5
         },
         {
             "province": "天津",
@@ -36986,7 +30650,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -30.9,
             "coalCapacity": 17.77,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -40.9
         },
         {
             "province": "天津",
@@ -36995,7 +30660,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -26.3,
             "coalCapacity": 16.299999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -9.7
         },
         {
             "province": "天津",
@@ -37004,7 +30670,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -12.8,
             "coalCapacity": 13.2,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -2.2
         },
         {
             "province": "天津",
@@ -37121,7 +30788,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -2.2,
             "coalCapacity": 29.481,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 250.3
         },
         {
             "province": "新疆",
@@ -37130,7 +30798,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 23.1,
             "coalCapacity": 29.607000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 161.6
         },
         {
             "province": "新疆",
@@ -37139,7 +30808,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -6.4,
             "coalCapacity": 28.216,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 194.7
         },
         {
             "province": "新疆",
@@ -37148,7 +30818,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 30.7,
             "coalCapacity": 33.739,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 120.6
         },
         {
             "province": "新疆",
@@ -37157,7 +30828,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -7.5,
             "coalCapacity": 23.532999999999998,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 43.9
         },
         {
             "province": "新疆",
@@ -37166,7 +30838,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -10.1,
             "coalCapacity": 27.753,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 39.9
         },
         {
             "province": "新疆",
@@ -37175,7 +30848,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 416.9,
             "coalCapacity": 24.174999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 232.4
         },
         {
             "province": "新疆",
@@ -37184,7 +30858,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -23.4,
             "coalCapacity": 13.763,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 14.9
         },
         {
             "province": "新疆",
@@ -37193,7 +30868,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -53.8,
             "coalCapacity": 16.978,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 370.1
         },
         {
             "province": "新疆",
@@ -37202,7 +30878,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.9,
             "coalCapacity": 20.740000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 18.8
         },
         {
             "province": "新疆",
@@ -37211,7 +30888,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 17.4,
             "coalCapacity": 15.367,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 31.9
         },
         {
             "province": "新疆",
@@ -37220,7 +30898,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 56.5,
             "coalCapacity": 18.551000000000002,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 60.8
         },
         {
             "province": "新疆",
@@ -37337,7 +31016,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 91.2,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 407.7
         },
         {
             "province": "云南",
@@ -37346,7 +31026,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -40.8,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 171.6
         },
         {
             "province": "云南",
@@ -37355,7 +31036,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -38.5,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 393.4
         },
         {
             "province": "云南",
@@ -37364,7 +31046,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 27.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 492.4
         },
         {
             "province": "云南",
@@ -37373,7 +31056,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 553.4,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 458.4
         },
         {
             "province": "云南",
@@ -37436,7 +31120,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 2.3,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -12.9
         },
         {
             "province": "云南",
@@ -37445,7 +31130,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7.6,
             "coalCapacity": null,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -19.1
         },
         {
             "province": "云南",
@@ -37502,58 +31188,14 @@ window.WORKBENCH_DATA = {
             "pumpedStorage": null
         },
         {
-            "province": "云南",
-            "month": "2024-06",
-            "total": 6.6049999999999995,
-            "totalWow": null,
-            "coalCapacity": null,
-            "ancillary": null,
-            "pumpedStorage": null
-        },
-        {
-            "province": "云南",
-            "month": "2024-05",
-            "total": 0,
-            "totalWow": null,
-            "coalCapacity": null,
-            "ancillary": null,
-            "pumpedStorage": null
-        },
-        {
-            "province": "云南",
-            "month": "2024-04",
-            "total": 0,
-            "totalWow": null,
-            "coalCapacity": null,
-            "ancillary": null,
-            "pumpedStorage": null
-        },
-        {
-            "province": "云南",
-            "month": "2024-03",
-            "total": 0,
-            "totalWow": null,
-            "coalCapacity": null,
-            "ancillary": null,
-            "pumpedStorage": null
-        },
-        {
-            "province": "云南",
-            "month": "2024-02",
-            "total": 0,
-            "totalWow": null,
-            "coalCapacity": null,
-            "ancillary": null,
-            "pumpedStorage": null
-        },
-        {
             "province": "重庆",
             "month": "2026-07",
             "total": 56.726,
             "totalWow": 50.4,
             "coalCapacity": 22.574,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 2.3
         },
         {
             "province": "重庆",
@@ -37562,7 +31204,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 0.9,
             "coalCapacity": 26.322000000000003,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -1.6
         },
         {
             "province": "重庆",
@@ -37571,7 +31214,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -9.2,
             "coalCapacity": 27.026999999999997,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 25.7
         },
         {
             "province": "重庆",
@@ -37580,7 +31224,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -13.1,
             "coalCapacity": 29.228,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 9.5
         },
         {
             "province": "重庆",
@@ -37589,7 +31234,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -50,
             "coalCapacity": 27.721,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -36.7
         },
         {
             "province": "重庆",
@@ -37598,7 +31244,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 62.8,
             "coalCapacity": 36.812,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 26.2
         },
         {
             "province": "重庆",
@@ -37607,7 +31254,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 752.2,
             "coalCapacity": 26.618,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -7.6
         },
         {
             "province": "重庆",
@@ -37616,7 +31264,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -892.6,
             "coalCapacity": 25.605,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -88.7
         },
         {
             "province": "重庆",
@@ -37625,7 +31274,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -104.2,
             "coalCapacity": 28.256,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -102.3
         },
         {
             "province": "重庆",
@@ -37634,7 +31284,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -14.6,
             "coalCapacity": 28.34,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -65.5
         },
         {
             "province": "重庆",
@@ -37643,7 +31294,8 @@ window.WORKBENCH_DATA = {
             "totalWow": -59.9,
             "coalCapacity": 23.046,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": -28.2
         },
         {
             "province": "重庆",
@@ -37652,7 +31304,8 @@ window.WORKBENCH_DATA = {
             "totalWow": 7.6,
             "coalCapacity": 21.134,
             "ancillary": null,
-            "pumpedStorage": null
+            "pumpedStorage": null,
+            "totalYoy": 42.1
         },
         {
             "province": "重庆",
@@ -38294,66 +31947,6 @@ window.WORKBENCH_DATA = {
             "totalYoy": null,
             "windYoy": null,
             "solarYoy": null
-        },
-        {
-            "month": "2024-06",
-            "hydro": 42715,
-            "thermal": 140512,
-            "nuclear": 5808,
-            "wind": 46671,
-            "solar": 71350,
-            "total": 307061,
-            "totalYoy": null,
-            "windYoy": null,
-            "solarYoy": null
-        },
-        {
-            "month": "2024-05",
-            "hydro": 42604,
-            "thermal": 140113,
-            "nuclear": 5808,
-            "wind": 46104,
-            "solar": 69098,
-            "total": 303733,
-            "totalYoy": null,
-            "windYoy": null,
-            "solarYoy": null
-        },
-        {
-            "month": "2024-04",
-            "hydro": 42515,
-            "thermal": 139802,
-            "nuclear": 5691,
-            "wind": 45803,
-            "solar": 67147,
-            "total": 300963,
-            "totalYoy": null,
-            "windYoy": null,
-            "solarYoy": null
-        },
-        {
-            "month": "2024-03",
-            "hydro": 42340,
-            "thermal": 139666,
-            "nuclear": 5691,
-            "wind": 45664,
-            "solar": 66005,
-            "total": 299371,
-            "totalYoy": null,
-            "windYoy": null,
-            "solarYoy": null
-        },
-        {
-            "month": "2024-02",
-            "hydro": 42246,
-            "thermal": 139420,
-            "nuclear": 5691,
-            "wind": 45035,
-            "solar": 64788,
-            "total": 297185,
-            "totalYoy": null,
-            "windYoy": null,
-            "solarYoy": null
         }
     ],
     "installedCapacityAdditions": [
@@ -38545,42 +32138,6 @@ window.WORKBENCH_DATA = {
             "wind": 382,
             "solar": 2207,
             "total": 3259
-        },
-        {
-            "month": "2024-06",
-            "hydro": 111,
-            "thermal": 399,
-            "nuclear": 0,
-            "wind": 567,
-            "solar": 2252,
-            "total": 3328
-        },
-        {
-            "month": "2024-05",
-            "hydro": 89,
-            "thermal": 311,
-            "nuclear": 117,
-            "wind": 301,
-            "solar": 1951,
-            "total": 2770
-        },
-        {
-            "month": "2024-04",
-            "hydro": 175,
-            "thermal": 136,
-            "nuclear": 0,
-            "wind": 139,
-            "solar": 1142,
-            "total": 1592
-        },
-        {
-            "month": "2024-03",
-            "hydro": 94,
-            "thermal": 246,
-            "nuclear": 0,
-            "wind": 629,
-            "solar": 1217,
-            "total": 2186
         }
     ],
     "datasets": {
@@ -46123,5 +39680,10 @@ window.WORKBENCH_DATA = {
             "nDays": 7,
             "source": "电碳全国日前"
         }
-    ]
+    ],
+    "publicWindow": {
+        "label": "滚动近两年",
+        "cutoff": "2024-07-16",
+        "asOf": "2026-07-16"
+    }
 };

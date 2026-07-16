@@ -18,7 +18,20 @@
   document.getElementById('anomaly-body').innerHTML=anomalous.map(r=>`<tr><td>${r.province}</td><td>${n(r.temperature_mean_c)}C</td><td class="${tempTone(r.temperature_yoy_c)}">${signed(r.temperature_yoy_c,'C')}</td><td>${n(r.cdd26)}</td><td>${signed(r.cdd26_yoy)}</td><td>${r.heat_days_ge_35}</td><td>${implication(r)}</td></tr>`).join('');
   document.getElementById('matrix-body').innerHTML=rows.filter(r=>['广东','江苏','河北','湖北','四川','重庆'].includes(r.province)).map(r=>`<tr><td>${r.province}</td><td>${implication(r)}</td><td>${r.cdd26_yoy>=15?'峰荷上行支持':'天气同比支撑有限'}</td><td>不在本页推断</td><td>负荷中心气象</td></tr>`).join('');
   document.getElementById('all-body').innerHTML=rows.sort((a,b)=>a.province.localeCompare(b.province,'zh-CN')).map(r=>`<tr><td>${r.province}</td><td>${n(r.temperature_mean_c)}C</td><td class="${tempTone(r.temperature_yoy_c)}">${signed(r.temperature_yoy_c,'C')}</td><td>${n(r.precipitation_mm)} mm</td><td>${n(r.cdd26)}</td><td>${signed(r.cdd26_yoy)}</td><td>${n(r.hdd18)}</td><td>${r.heat_days_ge_35}</td></tr>`).join('');
-  const history = window.WEATHER_HISTORY || [];
+  const rangeSelect = document.getElementById('weather-history-range');
+  const rangeOptions = [{value:'3',label:'近 3 个月'},{value:'6',label:'近 6 个月'},{value:'12',label:'近 1 年'},{value:'24',label:'近 2 年'}];
+  const selectedRange = sessionStorage.getItem('workbench-range-weather') || '12';
+  if (rangeSelect) {
+    rangeSelect.innerHTML = rangeOptions.map(item => `<option value="${item.value}">${item.label}</option>`).join('');
+    rangeSelect.value = rangeOptions.some(item => item.value === selectedRange) ? selectedRange : '12';
+    rangeSelect.addEventListener('change', () => { sessionStorage.setItem('workbench-range-weather', rangeSelect.value); location.reload(); });
+  }
+  const rawHistory = window.WEATHER_HISTORY || [];
+  const latestHistoryDate = rawHistory.map(row => row.weekStart).filter(Boolean).sort().at(-1);
+  const cutoffDate = latestHistoryDate ? new Date(`${latestHistoryDate}T00:00:00Z`) : null;
+  if (cutoffDate) cutoffDate.setUTCMonth(cutoffDate.getUTCMonth() - Number(rangeSelect?.value || selectedRange));
+  const cutoffText = cutoffDate ? cutoffDate.toISOString().slice(0,10) : '';
+  const history = rawHistory.filter(row => !cutoffText || row.weekStart >= cutoffText);
   const selector = document.getElementById('weather-province');
   const note = document.getElementById('history-note');
   const provinces = [...new Set(history.map(r => r.province))].sort((a,b) => a.localeCompare(b, 'zh-Hans-CN'));
@@ -32,21 +45,13 @@
   };
   const renderHistory = province => {
     const series = history.filter(r => r.province === province).sort((a,b) => a.weekStart.localeCompare(b.weekStart));
-    if (note) note.textContent = `${province} 共 ${series.length} 个完整自然周，${series[0]?.weekStart || '-'} 至 ${series.at(-1)?.weekEnd || '-'}；默认展示最近两年，可拖动查看十年历史。`;
+    if (note) note.textContent = `${province} 共 ${series.length} 个完整自然周，${series[0]?.weekStart || '-'} 至 ${series.at(-1)?.weekEnd || '-'}；公开版最长展示滚动近两年。`;
     if (!window.echarts || !series.length) return;
     const node = document.getElementById('weather-history-chart');
     chart?.dispose(); chart = window.echarts.init(node);
     const yoyLimit = Math.max(5, Math.ceil(Math.max(...series.map(r => Math.abs(r.temperatureYoy ?? 0))) / 2) * 2);
-    const climate = new Map();
-    series.filter(r => Number(r.weekStart.slice(0,4)) <= 2025).forEach(r => {
-      const week = isoWeek(r.weekStart), bucket = climate.get(week) || [];
-      bucket.push(r.temperature); climate.set(week, bucket);
-    });
-    const climateLine = series.map(r => {
-      const bucket = climate.get(isoWeek(r.weekStart)) || [];
-      return bucket.length ? Number((bucket.reduce((sum,value) => sum + value, 0) / bucket.length).toFixed(2)) : null;
-    });
-    const zoomStart = Math.max(0, 100 - (104 / series.length) * 100);
+    const climateLine = series.map(r => r.climateTemperature ?? null);
+    const zoomStart = 0;
     const compactChart = window.matchMedia('(max-width: 720px)').matches;
     chart.setOption({
       animation:false,

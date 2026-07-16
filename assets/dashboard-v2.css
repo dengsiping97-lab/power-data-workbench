@@ -250,6 +250,26 @@ main {
   font-weight: 700;
 }
 
+.history-range-strip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 9px;
+  margin: -4px 0 14px;
+  color: var(--muted, #61717c);
+  font-size: 12px;
+}
+
+.history-range-strip select {
+  min-width: 118px;
+  padding: 8px 10px;
+  border: 1px solid var(--line, #dbe2e6);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text, #182026);
+  font-size: 13px;
+}
+
 .module-hero-actions {
   display: grid;
   gap: 10px;

@@ -1,0 +1,96 @@
+:root.access-pending body {
+  visibility: hidden;
+}
+
+:root.access-pending body.access-gate-ready {
+  visibility: visible;
+  overflow: hidden;
+}
+
+.access-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(34, 125, 85, .18), transparent 34%),
+    radial-gradient(circle at 82% 10%, rgba(96, 125, 152, .22), transparent 32%),
+    #10212a;
+  color: #182026;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+.access-gate[hidden] { display: none; }
+
+.access-gate-card {
+  width: min(430px, 100%);
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .97);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, .28);
+}
+
+.access-gate-eyebrow {
+  margin-bottom: 9px;
+  color: #167c80;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: .13em;
+}
+
+.access-gate h1 { margin: 0 0 10px; font-size: 25px; }
+.access-gate p { margin: 0 0 20px; color: #61717c; font-size: 14px; line-height: 1.65; }
+.access-gate label { display: block; margin-bottom: 7px; color: #34444d; font-size: 13px; font-weight: 650; }
+.access-gate-row { display: grid; grid-template-columns: 1fr auto; gap: 9px; }
+.access-gate input {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #cfd9de;
+  border-radius: 8px;
+  color: #182026;
+  background: #fff;
+  font: inherit;
+}
+.access-gate input:focus { outline: 2px solid rgba(22, 124, 128, .22); border-color: #167c80; }
+.access-gate button {
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #173b4a;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 650;
+}
+.access-gate-error { min-height: 20px; margin: 9px 0 0; color: #b64d32; font-size: 12px; }
+.access-gate-footnote { margin-top: 16px; color: #839098; font-size: 11px; line-height: 1.55; }
+
+.access-gate-logout {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  z-index: 90000;
+  padding: 7px 10px;
+  border: 1px solid rgba(23, 59, 74, .18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .92);
+  color: #61717c;
+  box-shadow: 0 8px 22px rgba(20, 32, 38, .12);
+  cursor: pointer;
+  font: 12px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+.site-disclaimer {
+  padding: 18px 24px 72px;
+  color: #839098;
+  font: 12px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .access-gate-card { padding: 24px 20px; }
+  .access-gate-row { grid-template-columns: 1fr; }
+}

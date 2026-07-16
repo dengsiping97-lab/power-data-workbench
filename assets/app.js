@@ -131,6 +131,39 @@
   const uniqueSorted = (rows, field) => [...new Set(rows.map((row) => row[field]).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
 
+  const rangeOptions = [
+    { value: "3", label: "近 3 个月" },
+    { value: "6", label: "近 6 个月" },
+    { value: "12", label: "近 1 年" },
+    { value: "24", label: "近 2 年" }
+  ];
+
+  const filterRowsByMonths = (rows, field, months) => {
+    if (!Array.isArray(rows) || !rows.length) return rows || [];
+    const normalized = rows.map((row) => String(row[field] || "").slice(0, 10)).filter(Boolean).sort();
+    const latest = new Date(`${normalized.at(-1)}T00:00:00Z`);
+    if (Number.isNaN(latest.getTime())) return rows;
+    const cutoff = new Date(latest);
+    cutoff.setUTCMonth(cutoff.getUTCMonth() - Number(months));
+    const cutoffText = cutoff.toISOString().slice(0, field === "month" ? 7 : 10);
+    return rows.filter((row) => String(row[field] || "").slice(0, field === "month" ? 7 : 10) >= cutoffText);
+  };
+
+  const setupPageRange = (id, storageKey, mappings, defaultMonths = "12") => {
+    const select = document.getElementById(id);
+    if (!select) return;
+    const selected = sessionStorage.getItem(storageKey) || defaultMonths;
+    select.innerHTML = rangeOptions.map((option) => `<option value="${option.value}">${option.label}</option>`).join("");
+    select.value = rangeOptions.some((option) => option.value === selected) ? selected : defaultMonths;
+    mappings.forEach(({ key, field }) => {
+      if (Array.isArray(data[key])) data[key] = filterRowsByMonths(data[key], field, select.value);
+    });
+    select.addEventListener("change", () => {
+      sessionStorage.setItem(storageKey, select.value);
+      location.reload();
+    });
+  };
+
   const setSelectOptions = (select, options, preferred) => {
     if (!select) return null;
     select.innerHTML = options.map((option) => `<option value="${option}">${option}</option>`).join("");
@@ -391,6 +424,7 @@
         .sort((a, b) => String(a.weekStart).localeCompare(String(b.weekStart)));
       const inflowByWeek = new Map(rows.map((row) => [`${row.isoYear}-${row.isoWeek}`, row.inflow]));
       const inflowYoyRaw = rows.map((row) => {
+        if (row.inflowYoy !== null && row.inflowYoy !== undefined) return Number(row.inflowYoy);
         const priorInflow = inflowByWeek.get(`${row.isoYear - 1}-${row.isoWeek}`);
         if (row.inflow === null || row.inflow === undefined || Number(row.inflow) <= 0 || priorInflow === null || priorInflow === undefined || Number(priorInflow) <= 0) return null;
         return Number((((Number(row.inflow) / Number(priorInflow)) - 1) * 100).toFixed(1));
@@ -427,8 +461,8 @@
           { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [
-          { type: "inside", start: 35, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.16)" }
+          { type: "inside", start: 0, end: 100 },
+          { type: "slider", start: 0, end: 100, height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.16)" }
         ],
         series: [
           { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
@@ -1038,9 +1072,10 @@
       renderDayAheadWeeklyHistory(dayAheadWeeklySelect.value);
     }
 
-    const buildMonthlyYoy = (rows, valueField) => {
+    const buildMonthlyYoy = (rows, valueField, derivedField) => {
       const valueByMonth = new Map(rows.map((row) => [row.month, row[valueField]]));
       const raw = rows.map((row) => {
+        if (derivedField && row[derivedField] !== null && row[derivedField] !== undefined) return Number(row[derivedField]);
         const [year, month] = String(row.month).split("-");
         const currentValue = row[valueField];
         const priorValue = valueByMonth.get(`${Number(year) - 1}-${month}`);
@@ -1066,7 +1101,7 @@
       const rows = data.proxyPurchaseHistory
         .filter((row) => row.province === province)
         .sort((a, b) => String(a.month).localeCompare(String(b.month)));
-      const yoy = buildMonthlyYoy(rows, "proxyPrice");
+      const yoy = buildMonthlyYoy(rows, "proxyPrice", "proxyYoy");
       renderChart("proxy-history-chart", {
         tooltip: {
           ...tooltipStyle,
@@ -1141,7 +1176,7 @@
       const rows = data.systemFeeHistory
         .filter((row) => row.province === province && row.total !== null && row.total !== undefined)
         .sort((a, b) => String(a.month).localeCompare(String(b.month)));
-      const yoy = buildMonthlyYoy(rows, "total");
+      const yoy = buildMonthlyYoy(rows, "total", "totalYoy");
       renderChart("system-fee-history-chart", {
         tooltip: {
           ...tooltipStyle,
@@ -1254,7 +1289,7 @@
     const balanceRows = data.powerConsumptionMonthly
       .map((row) => ({ ...row, capacity: findByMonth(data.installedCapacityMonthly, row.month) }))
       .filter((row) => row.totalYoy !== null && row.totalYoy !== undefined && row.capacity.totalYoy !== null && row.capacity.totalYoy !== undefined)
-      .slice(0, 12)
+      .slice()
       .reverse();
     const latestBalance = balanceRows[balanceRows.length - 1];
     if (latestBalance) {
@@ -1297,7 +1332,7 @@
       ]
     });
 
-    const generationTrendRows = data.powerGenerationMonthly.slice(0, 12).reverse();
+    const generationTrendRows = data.powerGenerationMonthly.slice().reverse();
     renderChart("power-generation-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => value === null || value === undefined ? "-" : `${Number(value).toFixed(1)}%` },
       legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
@@ -1320,7 +1355,7 @@
       }))
     });
 
-    const additionsTrendRows = (data.installedCapacityAdditions || []).slice(0, 12).reverse();
+    const additionsTrendRows = (data.installedCapacityAdditions || []).slice().reverse();
     if (additions.total) {
       const renewableShare = ((Number(additions.wind || 0) + Number(additions.solar || 0)) / Number(additions.total)) * 100;
       setText("power-renewable-addition-share", `${additions.month} 风光占新增 ${renewableShare.toFixed(0)}%`);
@@ -1659,6 +1694,22 @@
   };
 
   document.addEventListener("DOMContentLoaded", () => {
+    setupPageRange("hydro-history-range", "workbench-range-hydro", [
+      { key: "hydroWeeklyHistory", field: "weekStart" }
+    ]);
+    setupPageRange("price-history-range", "workbench-range-price", [
+      { key: "spotWeeklyHistory", field: "weekStart" },
+      { key: "proxyPurchaseHistory", field: "month" },
+      { key: "systemFeeHistory", field: "month" },
+      { key: "dayAheadDailyHistory", field: "date" },
+      { key: "dayAheadWeeklyHistory", field: "weekStart" }
+    ]);
+    setupPageRange("power-history-range", "workbench-range-power", [
+      { key: "powerConsumptionMonthly", field: "month" },
+      { key: "powerGenerationMonthly", field: "month" },
+      { key: "installedCapacityMonthly", field: "month" },
+      { key: "installedCapacityAdditions", field: "month" }
+    ]);
     renderDashboard();
     renderDataCatalog();
     renderHydroPage();

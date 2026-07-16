@@ -28,6 +28,12 @@ const outputPath = path.resolve(root, outputName);
     waitUntil: "domcontentloaded",
     timeout: 15000
   });
+  const gate = page.locator("#access-gate");
+  if (await gate.count() && process.env.WORKBENCH_TEST_PASSWORD) {
+    await page.fill("#access-gate-password", process.env.WORKBENCH_TEST_PASSWORD);
+    await page.click("#access-gate button[type=submit]");
+    await gate.waitFor({ state: "detached" });
+  }
   await page.waitForTimeout(1200);
   await page.screenshot({ path: outputPath, fullPage: false });
   await browser.close();

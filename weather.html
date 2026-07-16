@@ -13,6 +13,7 @@
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}}@media(max-width:720px){main{padding:18px 14px 28px}.topbar{flex-direction:column}.signal-grid{grid-template-columns:1fr}nav{grid-template-columns:1fr 1fr}h1{font-size:24px}}
   </style>
   <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-weather-chart-2">
+  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
   <div class="app"><aside>
@@ -20,6 +21,7 @@
     <nav><a href="index.html">跟踪总览</a><a href="hydro.html">水电跟踪</a><a class="active" href="weather.html">负荷气象</a><a href="price.html">电价与市场</a><a href="power.html">电力供需</a><a href="company-generation.html">公司电量</a><a href="holdings.html">估值与资金</a><a href="tools.html">测算中心</a></nav>
   </aside><main>
     <header class="module-hero module-hero--weather"><div class="module-hero-copy"><div class="eyebrow">LOAD WEATHER</div><h1>负荷气象</h1><p class="subtitle">用 31 个省级负荷中心的气温、制冷度日和高温日，识别天气对居民及第三产业用电的边际扰动。</p><div class="module-hero-tags"><span>周度气温</span><span>CDD26</span><span>高温日</span><span>负荷扰动</span></div></div><div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>数据截至</span><strong id="weather-hero-date">加载中</strong><small>最新完整自然周</small></div></div></header>
+    <div class="history-range-strip"><label for="weather-history-range">历史窗口</label><select id="weather-history-range" aria-label="选择天气历史窗口"></select><span>十年同期均值保留为衍生基准</span></div>
     <div id="quality-note" class="weather-note"></div>
     <div class="freshness-strip"><span class="freshness-chip"><strong>最新完整周</strong><span id="week-end">加载中</span></span><span class="freshness-chip"><strong>覆盖</strong><span id="coverage">加载中</span></span><span class="freshness-chip"><strong>来源</strong><span id="source">加载中</span></span></div>
     <section class="national-takeaway" aria-label="全国天气一句话总结"><span class="takeaway-label">本周全国天气</span><p id="national-takeaway">加载中</p></section>

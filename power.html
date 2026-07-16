@@ -21,6 +21,7 @@
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid,.grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
   <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
+  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
   <div class="app">
@@ -42,6 +43,7 @@
         <div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>本页重点</span><strong>需求增速与供给扩张</strong><small>比较用电增速、装机增速和电源结构</small></div></div>
       </header>
 
+      <div class="history-range-strip"><label for="power-history-range">历史窗口</label><select id="power-history-range" aria-label="选择电力供需历史窗口"></select><span>公开版最长近两年</span></div>
       <div class="summary-grid">
         <div class="summary"><div class="label">最新用电量</div><div class="value" id="power-consumption-total">加载中</div><div class="note" id="power-consumption-note">全社会用电量</div></div>
         <div class="summary"><div class="label">最新发电量</div><div class="value" id="power-generation-total">加载中</div><div class="note" id="power-generation-note">规上工业发电量</div></div>

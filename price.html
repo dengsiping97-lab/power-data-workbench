@@ -22,6 +22,7 @@
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px 28px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
   <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
+  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
   <div class="app">
@@ -49,6 +50,7 @@
         </div>
         <div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>价格信号</span><strong>现货与基准价差</strong><small>观察区域电价强弱和度电收益弹性</small></div></div>
       </header>
+      <div class="history-range-strip"><label for="price-history-range">历史窗口</label><select id="price-history-range" aria-label="选择电价历史窗口"></select><span>统一作用于现货、日前与代理购电</span></div>
       <div class="summary-grid price-summary-grid">
         <div class="summary"><div class="label">最新现货周度</div><div class="value" id="price-page-date">加载中</div><div class="note">来自现货周度数据</div></div>
         <div class="summary"><div class="label">实时均价</div><div class="value" id="price-page-avg">加载中</div><div class="note" id="price-page-note">读取快照中</div></div>
