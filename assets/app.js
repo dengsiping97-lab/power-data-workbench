@@ -1290,6 +1290,15 @@
       if (!previous || !hasValue(current[field]) || !hasValue(previous[field]) || Number(previous[field]) === 0) return null;
       return changePct(Number(current[field]), Number(previous[field]));
     };
+    const metricOptions = [
+      { label: "\u603b\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "generation", valueName: "\u603b\u53d1\u7535\u91cf" },
+      { label: "\u603b\u7528\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "consumption", valueName: "\u603b\u7528\u7535\u91cf" },
+      { label: "\u706b\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "thermalGeneration", valueName: "\u706b\u7535\u53d1\u7535\u91cf" },
+      { label: "\u6c34\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "hydroGeneration", valueName: "\u6c34\u7535\u53d1\u7535\u91cf" },
+      { label: "\u6838\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "nuclearGeneration", valueName: "\u6838\u7535\u53d1\u7535\u91cf" },
+      { label: "\u98ce\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "windGeneration", valueName: "\u98ce\u7535\u53d1\u7535\u91cf" },
+      { label: "\u5149\u4f0f\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "solarGeneration", valueName: "\u5149\u4f0f\u53d1\u7535\u91cf" }
+    ];
 
     const provinceSelect = document.getElementById("province-capacity-province");
     const renderProfile = (province) => {
@@ -1321,6 +1330,34 @@
           { name: "全社会用电量", type: "line", smooth: true, symbolSize: 6, connectNulls: false, data: provinceRows.map((row) => row.consumption) }
         ]
       });
+
+      const metricSelect = document.getElementById("province-power-metric");
+      const renderPowerTrend = (label) => {
+        const option = metricOptions.find((item) => item.label === label) || metricOptions[0];
+        const trendRows = provinceRows.map((row, index) => ({ ...row, yoy: yoyFor(provinceRows, index, option.field) }));
+        setText("province-power-trend-note", `${province}，${option.valueName}当月值及同比增速，单位：亿千瓦时`);
+        renderChart("province-power-trend-chart", {
+          tooltip: { ...tooltipStyle, trigger: "axis" },
+          legend: { top: 8, textStyle: { color: "#74808a" } },
+          grid: { left: 58, right: 58, top: 54, bottom: 42 },
+          xAxis: { type: "category", data: trendRows.map((row) => row.month), ...axisStyle, axisLabel: { color: "#74808a", rotate: 35, interval: 2 } },
+          yAxis: [
+            { type: "value", name: "亿千瓦时", ...axisStyle },
+            { type: "value", name: "同比", ...axisStyle, axisLabel: { color: "#74808a", formatter: (value) => `${value}%` } }
+          ],
+          series: [
+            { name: option.valueName, type: "line", smooth: true, symbolSize: 6, connectNulls: false, data: trendRows.map((row) => hasValue(row[option.field]) ? row[option.field] : null) },
+            { name: "同比增速", type: "bar", yAxisIndex: 1, barMaxWidth: 14, data: trendRows.map((row) => row.yoy) }
+          ]
+        });
+      };
+      if (metricSelect) {
+        const selectedMetric = setSelectOptions(metricSelect, metricOptions.map((item) => item.label), metricOptions[0].label);
+        metricSelect.onchange = () => renderPowerTrend(metricSelect.value);
+        renderPowerTrend(selectedMetric);
+      } else {
+        renderPowerTrend(metricOptions[0].label);
+      }
 
       const missingLabels = fields
         .filter(({ field }) => !hasValue(latestCapacity[field]))
