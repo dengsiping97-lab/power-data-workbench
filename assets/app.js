@@ -1270,6 +1270,135 @@
     onChange(selected);
   };
 
+  const renderProvinceCapacity = () => {
+    const rows = data.provinceInstalledCapacityAnnual || [];
+    if (!rows.length) return;
+    const fields = [
+      { label: "总装机", field: "total" },
+      { label: "水电", field: "hydro" },
+      { label: "火电", field: "thermal" },
+      { label: "风电", field: "wind" },
+      { label: "太阳能", field: "solar" },
+      { label: "核电", field: "nuclear" }
+    ];
+    const sourceFields = fields.slice(1);
+    const hasValue = (value) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
+    const periods = [...new Set(rows.map((row) => row.period))].sort();
+    const latestPeriod = periods.at(-1);
+    const latestRows = rows.filter((row) => row.period === latestPeriod);
+    const provinces = [...new Set(rows.map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+    const completeRows = latestRows.filter((row) => fields.every(({ field }) => hasValue(row[field])));
+    const leader = latestRows.filter((row) => hasValue(row.total)).sort((a, b) => Number(b.total) - Number(a.total))[0];
+
+    setText("province-capacity-period", `${latestPeriod.slice(0, 4)} 年末`);
+    setText("province-capacity-count", `${provinces.length} 省`);
+    setText("province-capacity-complete", `${completeRows.length} 省`);
+    setText("province-capacity-leader", leader?.province || "-");
+    setText("province-capacity-leader-note", leader ? `${fmt(leader.total, 1)} 万千瓦` : "按年末总装机排序");
+
+    const metricSelect = document.getElementById("province-capacity-metric");
+    const renderRanking = (label) => {
+      const metric = fields.find((item) => item.label === label) || fields[0];
+      const ranked = latestRows
+        .filter((row) => hasValue(row[metric.field]))
+        .sort((a, b) => Number(b[metric.field]) - Number(a[metric.field]));
+      setText("province-capacity-rank-note", `${latestPeriod.slice(0, 4)} 年末，可比较 ${ranked.length} 省`);
+      renderChart("province-capacity-rank-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          trigger: "item",
+          formatter: (item) => `${item.name}<br>${metric.label}: ${fmt(item.value, 1)} 万千瓦`
+        },
+        grid: { left: 66, right: 54, top: 16, bottom: 36 },
+        xAxis: { type: "value", name: "万千瓦", ...axisStyle },
+        yAxis: {
+          type: "category",
+          inverse: true,
+          data: ranked.map((row) => row.province),
+          ...axisStyle,
+          axisLabel: { color: "#5f6d77", fontSize: 11, interval: 0 }
+        },
+        series: [{
+          name: metric.label,
+          type: "bar",
+          barMaxWidth: 13,
+          data: ranked.map((row) => row[metric.field]),
+          itemStyle: { color: "#607d98", borderRadius: [0, 5, 5, 0] }
+        }]
+      });
+    };
+    if (metricSelect) {
+      const selectedMetric = setSelectOptions(metricSelect, fields.map((item) => item.label), "总装机");
+      metricSelect.addEventListener("change", () => renderRanking(metricSelect.value));
+      renderRanking(selectedMetric);
+    }
+
+    const provinceSelect = document.getElementById("province-capacity-province");
+    const renderProfile = (province) => {
+      const provinceRows = rows.filter((row) => row.province === province).sort((a, b) => a.period.localeCompare(b.period));
+      const latest = provinceRows.at(-1) || {};
+      const previous = provinceRows.at(-2) || {};
+      const totalYoy = hasValue(latest.total) && hasValue(previous.total)
+        ? changePct(Number(latest.total), Number(previous.total))
+        : null;
+      const renewableReady = hasValue(latest.wind) && hasValue(latest.solar);
+      const renewable = renewableReady ? Number(latest.wind) + Number(latest.solar) : null;
+      const renewableShare = renewableReady && hasValue(latest.total) && Number(latest.total) !== 0
+        ? renewable / Number(latest.total) * 100
+        : null;
+      setText("province-profile-total", hasValue(latest.total) ? `${fmt(latest.total, 1)} 万kW` : "—");
+      setText("province-profile-yoy", totalYoy === null ? "—" : pct(totalYoy));
+      setText("province-profile-renewable", renewable === null ? "—" : `${fmt(renewable, 1)} 万kW`);
+      setText("province-profile-share", renewableShare === null ? "—" : `${renewableShare.toFixed(1)}%`);
+      setText("province-capacity-profile-note", `${province}，${latest.period?.slice(0, 4) || "-"} 年末`);
+      const missingLabels = fields
+        .filter(({ field }) => !hasValue(latest[field]))
+        .map(({ label }) => label);
+      const quality = missingLabels.length ? `缺失字段：${missingLabels.join("、")}。` : "六类字段完整。";
+      const qualityDetail = latest.scopeNotes ? ` ${latest.scopeNotes}` : " 数据源：iFinD EDB；Wind 待交叉验证。";
+      setText("province-capacity-quality-note", `${quality}${qualityDetail}`);
+
+      renderChart("province-capacity-profile-chart", {
+        tooltip: {
+          ...tooltipStyle,
+          valueFormatter: (value) => value === null || value === undefined ? "—" : `${fmt(value, 1)} 万千瓦`
+        },
+        legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
+        grid: { left: 58, right: 24, top: 58, bottom: 42 },
+        xAxis: { type: "category", data: provinceRows.map((row) => row.period.slice(0, 4)), ...axisStyle },
+        yAxis: { type: "value", name: "万千瓦", ...axisStyle },
+        series: sourceFields.map(({ label, field }) => ({
+          name: label,
+          type: "bar",
+          stack: "装机结构",
+          barMaxWidth: 54,
+          emphasis: { focus: "series" },
+          data: provinceRows.map((row) => hasValue(row[field]) ? row[field] : null)
+        }))
+      });
+    };
+    if (provinceSelect) {
+      const selectedProvince = setSelectOptions(provinceSelect, provinces, provinces.includes("山东") ? "山东" : provinces[0]);
+      provinceSelect.addEventListener("change", () => renderProfile(provinceSelect.value));
+      renderProfile(selectedProvince);
+    }
+
+    const body = document.getElementById("province-capacity-body");
+    if (body) {
+      body.innerHTML = latestRows
+        .slice()
+        .sort((a, b) => Number(b.total || -1) - Number(a.total || -1))
+        .map((row) => {
+          const missing = fields.filter(({ field }) => !hasValue(row[field])).map(({ label }) => label);
+          return `<tr>
+            <td>${row.province}</td>
+            ${fields.map(({ field }) => `<td>${hasValue(row[field]) ? fmt(row[field], 1) : "—"}</td>`).join("")}
+            <td>${missing.length ? `缺 ${missing.join("、")}` : "完整"}</td>
+          </tr>`;
+        }).join("");
+    }
+  };
+
   const renderPowerPage = () => {
     if (!data.powerConsumptionMonthly || !data.powerGenerationMonthly || !data.installedCapacityMonthly) return;
     const consumption = data.powerConsumptionMonthly[0];
@@ -1691,6 +1820,7 @@
         `;
       }).join("");
     }
+    renderProvinceCapacity();
   };
 
   document.addEventListener("DOMContentLoaded", () => {

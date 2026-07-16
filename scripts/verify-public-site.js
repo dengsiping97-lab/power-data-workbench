@@ -30,6 +30,7 @@ const verifyDataWindow = () => {
     [workbench.proxyPurchaseHistory, "month"],
     [workbench.systemFeeHistory, "month"],
     [workbench.installedCapacityMonthly, "month"],
+    [workbench.provinceInstalledCapacityAnnual, "period"],
     [weather, "weekStart"],
     [company.facts, "period"]
   ];
@@ -37,6 +38,14 @@ const verifyDataWindow = () => {
     const min = rows.map((row) => String(row[field]).slice(0, 7)).sort()[0];
     assert(min >= cutoff.slice(0, 7), `${field} exceeds public window: ${min}`);
   });
+  const provinceRows = workbench.provinceInstalledCapacityAnnual || [];
+  const provinces = new Set(provinceRows.map((row) => row.province));
+  const periods = new Set(provinceRows.map((row) => row.period));
+  assert(provinceRows.length === 62, `province capacity row count mismatch: ${provinceRows.length}`);
+  assert(provinces.size === 31, `province capacity coverage mismatch: ${provinces.size}`);
+  assert(periods.has("2024-12-31") && periods.has("2025-12-31"), "province capacity periods missing");
+  assert(provinceRows.some((row) => row.solar === null), "province capacity missing values were incorrectly filled");
+  assert(!JSON.stringify(provinceRows).includes("S0030"), "paid database indicator ids leaked into public snapshot");
   assert(weather.every((row) => row.climateTemperature !== null && row.climateTemperature !== undefined), "weather climate baseline missing");
 };
 
@@ -75,6 +84,14 @@ const server = http.createServer((request, response) => {
     assert(await page.locator("#access-gate").count() === 0, `${pageName} unexpectedly locked in same session`);
     await page.waitForSelector(`#${rangeId}`);
     assert(await page.locator(`#${rangeId} option`).count() === 4, `${pageName} range options missing`);
+    if (pageName === "power.html") {
+      await page.waitForSelector("#province-capacity-body tr");
+      assert(await page.locator("#province-capacity-province option").count() === 31, "province profile selector mismatch");
+      assert(await page.locator("#province-capacity-metric option").count() === 6, "province metric selector mismatch");
+      assert(await page.locator("#province-capacity-body tr").count() === 31, "province capacity table mismatch");
+      await page.selectOption("#province-capacity-province", { label: "内蒙古" });
+      assert((await page.locator("#province-capacity-quality-note").innerText()).includes("缺失字段"), "province data-quality warning missing");
+    }
   }
 
   await browser.close();
