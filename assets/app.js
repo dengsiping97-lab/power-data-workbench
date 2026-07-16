@@ -1537,6 +1537,8 @@
       .reverse();
     const latestIndustryCumulative = {
       endMonth: "2026-06",
+      source: "国家能源局",
+      sourceDate: "2026-07-15",
       values: { total: 50999, primary: 711, secondary: 33057, tertiary: 9916, residential: 7315 },
       yoy: { total: 5.3, primary: 4.9, secondary: 5.1, tertiary: 8.0, residential: 3.1 }
     };

@@ -39,6 +39,7 @@ const server = http.createServer((request, response) => {
   assert(await page.locator("#access-gate").count() === 0, "access gate did not honor existing session");
   assert(await page.locator("#province-capacity-province option").count() === 31, "province selector mismatch");
   assert((await page.locator("#power-industry-note").innerText()).includes("33,057"), "industry cumulative benchmark is not 2026 Jan-Jun official value");
+  assert((await page.locator("#power-industry-year-chart").count()) === 1, "industry cumulative chart missing");
   assert(await page.locator("#province-power-metric option").count() === 7, "power metric selector mismatch");
   await page.selectOption("#province-power-metric", { label: "\u6c34\u7535\u53d1\u7535\u91cf" });
   assert((await page.locator("#province-power-trend-note").innerText()).includes("\u6c34\u7535"), "power metric did not switch");
