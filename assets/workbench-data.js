@@ -31418,6 +31418,15 @@ window.WORKBENCH_DATA = {
     ],
     "powerConsumptionMonthly": [
         {
+            "month": "2026-06",
+            "total": 8981,
+            "totalYoy": 3.7,
+            "primary": 136,
+            "secondary": 5734,
+            "tertiary": 1860,
+            "residential": 1251
+        },
+        {
             "month": "2026-05",
             "total": 8671,
             "totalYoy": 6.9,
@@ -31554,6 +31563,16 @@ window.WORKBENCH_DATA = {
         }
     ],
     "powerGenerationMonthly": [
+        {
+            "month": "2026-06",
+            "total": 8276,
+            "totalYoy": 2,
+            "thermalYoy": 0.5,
+            "hydroYoy": 4.8,
+            "nuclearYoy": 8.5,
+            "windYoy": -5.6,
+            "solarYoy": 14.2
+        },
         {
             "month": "2026-05",
             "total": 7843,
