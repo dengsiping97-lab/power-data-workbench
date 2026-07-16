@@ -39,6 +39,14 @@ const server = http.createServer((request, response) => {
   assert(await page.locator("#access-gate").count() === 0, "access gate did not honor existing session");
   assert(await page.locator("#province-capacity-province option").count() === 31, "province selector mismatch");
   assert(await page.locator("#province-capacity-body tr").count() >= 18, "province monthly table too short");
+  const tableScroll = await page.locator(".province-capacity-table").evaluate((node) => ({
+    clientHeight: node.clientHeight,
+    scrollHeight: node.scrollHeight,
+    overflowY: getComputedStyle(node).overflowY
+  }));
+  assert(tableScroll.clientHeight <= 390, `province table viewport too tall: ${tableScroll.clientHeight}px`);
+  assert(tableScroll.scrollHeight > tableScroll.clientHeight, "province table is not vertically scrollable");
+  assert(["auto", "scroll"].includes(tableScroll.overflowY), `province table overflow invalid: ${tableScroll.overflowY}`);
   await page.selectOption("#province-capacity-province", { label: "内蒙古" });
   assert((await page.locator("#province-power-trend-note").innerText()).includes("内蒙古"), "province content did not switch");
   assert((await page.locator("#province-capacity-body").innerText()).includes("—"), "missing values were not rendered explicitly");

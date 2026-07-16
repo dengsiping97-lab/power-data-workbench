@@ -1294,7 +1294,16 @@ tbody tr:hover { background: #eef3f6; }
   font-size: 12px;
   line-height: 1.6;
 }
-.province-capacity-table { margin-top: 4px; }
+.province-capacity-table {
+  margin-top: 4px;
+  max-height: 390px;
+  overflow-y: auto;
+}
+.province-capacity-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 .province-capacity-source {
   margin: 12px 0 0;
   color: var(--ink-500, #74808a);
