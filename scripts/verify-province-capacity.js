@@ -38,11 +38,9 @@ const server = http.createServer((request, response) => {
   await page.waitForSelector("#province-capacity-body tr");
   assert(await page.locator("#access-gate").count() === 0, "access gate did not honor existing session");
   assert(await page.locator("#province-capacity-province option").count() === 31, "province selector mismatch");
-  assert(await page.locator("#province-capacity-metric option").count() === 6, "metric selector mismatch");
-  assert(await page.locator("#province-capacity-body tr").count() === 31, "province table mismatch");
-  await page.selectOption("#province-capacity-metric", { label: "太阳能" });
+  assert(await page.locator("#province-capacity-body tr").count() >= 18, "province monthly table too short");
   await page.selectOption("#province-capacity-province", { label: "内蒙古" });
-  assert((await page.locator("#province-capacity-quality-note").innerText()).includes("缺失字段"), "quality warning missing");
+  assert((await page.locator("#province-power-trend-note").innerText()).includes("内蒙古"), "province content did not switch");
   assert((await page.locator("#province-capacity-body").innerText()).includes("—"), "missing values were not rendered explicitly");
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload({ waitUntil: "domcontentloaded" });
@@ -53,7 +51,7 @@ const server = http.createServer((request, response) => {
   assert(!errors.length, `browser errors: ${errors.join(" | ")}`);
   await browser.close();
   server.close();
-  console.log("Province capacity verification passed.");
+  console.log("Province monthly power verification passed.");
 })().catch((error) => {
   server.close();
   console.error(error);

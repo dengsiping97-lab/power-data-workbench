@@ -40615,5 +40615,5488 @@ window.WORKBENCH_DATA = {
             "missingFields": [],
             "scopeNotes": ""
         }
-    ]
+    ],
+    "provincePowerMonthly": [
+        {
+            "province": "安徽",
+            "month": "2026-05",
+            "generation": 268.3,
+            "consumption": 307.5304,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2026-05",
+            "generation": 23.6,
+            "consumption": 108.1348,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-05",
+            "generation": 85.2,
+            "consumption": 131.4471,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2026-05",
+            "generation": 308.5,
+            "consumption": 313.4797,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-05",
+            "generation": 194.7,
+            "consumption": 156.8008,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2026-05",
+            "generation": 671.1,
+            "consumption": 902.8666,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2026-05",
+            "generation": 233.7,
+            "consumption": 253.145,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-05",
+            "generation": 218.8,
+            "consumption": 168.8484,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2026-05",
+            "generation": 47,
+            "consumption": 55.98,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2026-05",
+            "generation": 329,
+            "consumption": 436.4184,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2026-05",
+            "generation": 240.4,
+            "consumption": 351.8773,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-05",
+            "generation": 98.7,
+            "consumption": 97.1808,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-05",
+            "generation": 308.1,
+            "consumption": 254.84,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-05",
+            "generation": 141.4,
+            "consumption": 192.8225,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-05",
+            "generation": 80.6,
+            "consumption": 82.4301,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-05",
+            "generation": 541.1,
+            "consumption": 728.5924,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2026-05",
+            "generation": 143.7,
+            "consumption": 192.9313,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-05",
+            "generation": 193.8,
+            "consumption": 228.4598,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-05",
+            "generation": 648.1,
+            "consumption": 479.2271,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-05",
+            "generation": 195.1,
+            "consumption": 126.6664,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2026-05",
+            "generation": 92.7,
+            "consumption": 89.8454,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2026-05",
+            "generation": 470,
+            "consumption": 698.9008,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2026-05",
+            "generation": 329.6,
+            "consumption": 256.5,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-05",
+            "generation": 226.2,
+            "consumption": 204.5989,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2026-05",
+            "generation": 73.3,
+            "consumption": 160.7221,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2026-05",
+            "generation": 370,
+            "consumption": 341.6691,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2026-05",
+            "generation": 56.9,
+            "consumption": 90.5677,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-05",
+            "generation": 15.3,
+            "consumption": 16.3589,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-05",
+            "generation": 468.4,
+            "consumption": 368.2169,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2026-05",
+            "generation": 348.5,
+            "consumption": 255.1564,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-05",
+            "generation": 421.1,
+            "consumption": 619.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-04",
+            "generation": 255.6,
+            "consumption": 286.1216,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2026-04",
+            "generation": 22.8,
+            "consumption": 97.0196,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-04",
+            "generation": 82.2,
+            "consumption": 120.6365,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2026-04",
+            "generation": 274.4,
+            "consumption": 286.4859,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-04",
+            "generation": 194.8,
+            "consumption": 149.4997,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2026-04",
+            "generation": 651.5,
+            "consumption": 825.7583,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2026-04",
+            "generation": 228.3,
+            "consumption": 237.9748,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-04",
+            "generation": 191.4,
+            "consumption": 159.5406,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2026-04",
+            "generation": 43.6,
+            "consumption": 50.85,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2026-04",
+            "generation": 326.8,
+            "consumption": 424.8813,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2026-04",
+            "generation": 238.3,
+            "consumption": 328.8884,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-04",
+            "generation": 106.7,
+            "consumption": 99.8204,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-04",
+            "generation": 246.1,
+            "consumption": 234.93,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-04",
+            "generation": 126.9,
+            "consumption": 179.3512,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-04",
+            "generation": 78,
+            "consumption": 80.6277,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-04",
+            "generation": 514.1,
+            "consumption": 688.1081,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2026-04",
+            "generation": 126.4,
+            "consumption": 176.7729,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-04",
+            "generation": 188.5,
+            "consumption": 225.6418,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-04",
+            "generation": 658.6,
+            "consumption": 458.2407,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-04",
+            "generation": 182.5,
+            "consumption": 124.2851,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2026-04",
+            "generation": 80.2,
+            "consumption": 87.2045,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2026-04",
+            "generation": 461.6,
+            "consumption": 686.1147,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2026-04",
+            "generation": 315.6,
+            "consumption": 251,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-04",
+            "generation": 228.9,
+            "consumption": 198.1423,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2026-04",
+            "generation": 73.5,
+            "consumption": 146.8182,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2026-04",
+            "generation": 327.8,
+            "consumption": 312.9336,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2026-04",
+            "generation": 50.4,
+            "consumption": 85.7979,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-04",
+            "generation": 10.6,
+            "consumption": 16.5426,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-04",
+            "generation": 423,
+            "consumption": 358.2978,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2026-04",
+            "generation": 319.5,
+            "consumption": 249.2811,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-04",
+            "generation": 411.3,
+            "consumption": 577.7,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-03",
+            "generation": 291.8,
+            "consumption": 302.8305,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2026-03",
+            "generation": 39.9,
+            "consumption": 117.8317,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-03",
+            "generation": 76.7,
+            "consumption": 124.6023,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2026-03",
+            "generation": 264.4,
+            "consumption": 280.6849,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-03",
+            "generation": 212.4,
+            "consumption": 158.6898,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2026-03",
+            "generation": 615.8,
+            "consumption": 770.2939,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2026-03",
+            "generation": 220.9,
+            "consumption": 230.053,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-03",
+            "generation": 219.1,
+            "consumption": 181.3822,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2026-03",
+            "generation": 38.7,
+            "consumption": 46.02,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2026-03",
+            "generation": 353.8,
+            "consumption": 454.4851,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2026-03",
+            "generation": 273.6,
+            "consumption": 361.7604,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-03",
+            "generation": 120.2,
+            "consumption": 110.2918,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-03",
+            "generation": 243.8,
+            "consumption": 245.67,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-03",
+            "generation": 133.4,
+            "consumption": 197.7858,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-03",
+            "generation": 93.4,
+            "consumption": 92.1247,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-03",
+            "generation": 565.9,
+            "consumption": 735.7705,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2026-03",
+            "generation": 139.1,
+            "consumption": 181.9992,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-03",
+            "generation": 208.9,
+            "consumption": 248.5353,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-03",
+            "generation": 706.4,
+            "consumption": 484.9523,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-03",
+            "generation": 210.4,
+            "consumption": 128.7617,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2026-03",
+            "generation": 83.5,
+            "consumption": 91.8572,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2026-03",
+            "generation": 510.1,
+            "consumption": 730.3928,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2026-03",
+            "generation": 362.6,
+            "consumption": 274,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-03",
+            "generation": 264.1,
+            "consumption": 222.0838,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2026-03",
+            "generation": 83.9,
+            "consumption": 166.2062,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2026-03",
+            "generation": 385.1,
+            "consumption": 320.3023,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2026-03",
+            "generation": 61.7,
+            "consumption": 96.7123,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-03",
+            "generation": 10.2,
+            "consumption": 16.9777,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-03",
+            "generation": 489.7,
+            "consumption": 384.9575,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2026-03",
+            "generation": 333.5,
+            "consumption": 248.1435,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-03",
+            "generation": 412,
+            "consumption": 588.6,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2026-02",
+            "generation": null,
+            "consumption": 38.2,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-02",
+            "generation": null,
+            "consumption": 209.91,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-02",
+            "generation": null,
+            "consumption": 374.4,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-12",
+            "generation": 311.6,
+            "consumption": 313.9032,
+            "capacity": 13937.7,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-12",
+            "generation": 52.7,
+            "consumption": 147.2276,
+            "capacity": 1491,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-12",
+            "generation": 81.8,
+            "consumption": 133.8963,
+            "capacity": 3917.8,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-12",
+            "generation": 295.8,
+            "consumption": 287.008,
+            "capacity": 9665.9,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-12",
+            "generation": 232.9,
+            "consumption": 167.1421,
+            "capacity": 13232.7,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-12",
+            "generation": 626.1,
+            "consumption": 766.7196,
+            "capacity": 25651.7,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-12",
+            "generation": 209,
+            "consumption": 229.2483,
+            "capacity": 11752.4,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-12",
+            "generation": 230,
+            "consumption": 191.8548,
+            "capacity": 10261.6,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-12",
+            "generation": 38,
+            "consumption": 43.75,
+            "capacity": 2365.8,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-12",
+            "generation": 394,
+            "consumption": 511.3748,
+            "capacity": 20533.3,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-12",
+            "generation": 278.9,
+            "consumption": 372.0462,
+            "capacity": 16576.9,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-12",
+            "generation": 134.2,
+            "consumption": 126.1488,
+            "capacity": 5612,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-12",
+            "generation": 241.2,
+            "consumption": 255.19,
+            "capacity": 14164,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-12",
+            "generation": 124.9,
+            "consumption": 198.78,
+            "capacity": 9039.9,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-12",
+            "generation": 103.7,
+            "consumption": 104.3809,
+            "capacity": 5150.1,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-12",
+            "generation": 545.5,
+            "consumption": 755.955,
+            "capacity": 24535.3,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-12",
+            "generation": 154.9,
+            "consumption": 186.7285,
+            "capacity": 7888,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-12",
+            "generation": 212,
+            "consumption": 272.4244,
+            "capacity": 9196.2,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-12",
+            "generation": 811,
+            "consumption": 514.8452,
+            "capacity": 29795.8,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-12",
+            "generation": 220.1,
+            "consumption": 132.0637,
+            "capacity": 9120,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-12",
+            "generation": 95,
+            "consumption": 99.0394,
+            "capacity": 8029.5,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-12",
+            "generation": 536,
+            "consumption": 769.7106,
+            "capacity": 25742.9,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-12",
+            "generation": 422.6,
+            "consumption": 306.9,
+            "capacity": 16734.2,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-12",
+            "generation": 326.3,
+            "consumption": 247.5403,
+            "capacity": 12820.3,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-12",
+            "generation": 80.9,
+            "consumption": 167.9323,
+            "capacity": 3349.1,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-12",
+            "generation": 385.9,
+            "consumption": 341.7671,
+            "capacity": 15662.4,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-12",
+            "generation": 80.4,
+            "consumption": 108.7885,
+            "capacity": 3292.1,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-12",
+            "generation": 11.8,
+            "consumption": 18.8709,
+            "capacity": 1157.9,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-12",
+            "generation": 570,
+            "consumption": 436.3116,
+            "capacity": 27494.1,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-12",
+            "generation": 340.9,
+            "consumption": 259.5267,
+            "capacity": 17120.3,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-12",
+            "generation": 438.1,
+            "consumption": 612.6,
+            "capacity": 17715.5,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-11",
+            "generation": 269.7,
+            "consumption": 284.3661,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-11",
+            "generation": 40.9,
+            "consumption": 119.8594,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-11",
+            "generation": 99.7,
+            "consumption": 123.8204,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-11",
+            "generation": 280.2,
+            "consumption": 276.4356,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-11",
+            "generation": 209.5,
+            "consumption": 159.3553,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-11",
+            "generation": 551.2,
+            "consumption": 746.4741,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-11",
+            "generation": 207.2,
+            "consumption": 223.6819,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-11",
+            "generation": 211.4,
+            "consumption": 172.9507,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-11",
+            "generation": 35.6,
+            "consumption": 41.7,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-11",
+            "generation": 337.7,
+            "consumption": 441.2407,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-11",
+            "generation": 244.3,
+            "consumption": 331.2042,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-11",
+            "generation": 120.3,
+            "consumption": 109.8651,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-11",
+            "generation": 249.1,
+            "consumption": 234.46,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-11",
+            "generation": 118.9,
+            "consumption": 183.1383,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-11",
+            "generation": 98,
+            "consumption": 91.2146,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-11",
+            "generation": 516.9,
+            "consumption": 686.4483,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-11",
+            "generation": 144.8,
+            "consumption": 175.1911,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-11",
+            "generation": 197.6,
+            "consumption": 242.1783,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-11",
+            "generation": 732.5,
+            "consumption": 478.2276,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-11",
+            "generation": 207.5,
+            "consumption": 125.1468,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-11",
+            "generation": 83.9,
+            "consumption": 94.6704,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-11",
+            "generation": 492.2,
+            "consumption": 703.5054,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-11",
+            "generation": 360.9,
+            "consumption": 277.5,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-11",
+            "generation": 270.7,
+            "consumption": 219.578,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-11",
+            "generation": 72.2,
+            "consumption": 149.8114,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-11",
+            "generation": 338.9,
+            "consumption": 325.5084,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-11",
+            "generation": 56.6,
+            "consumption": 93.6467,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-11",
+            "generation": 13.9,
+            "consumption": 17.2307,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-11",
+            "generation": 491.1,
+            "consumption": 407.9363,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-11",
+            "generation": 343.4,
+            "consumption": 253.355,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-11",
+            "generation": 395.3,
+            "consumption": 565.9,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-10",
+            "generation": 294.9,
+            "consumption": 293.3738,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-10",
+            "generation": 23.7,
+            "consumption": 103.36,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-10",
+            "generation": 95.6,
+            "consumption": 131.3481,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-10",
+            "generation": 312.4,
+            "consumption": 324.454,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-10",
+            "generation": 189.2,
+            "consumption": 152.4938,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-10",
+            "generation": 596.3,
+            "consumption": 869.5028,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-10",
+            "generation": 219.5,
+            "consumption": 241.1878,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-10",
+            "generation": 205,
+            "consumption": 167.1403,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-10",
+            "generation": 40.1,
+            "consumption": 45.96,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-10",
+            "generation": 301.3,
+            "consumption": 409.7573,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-10",
+            "generation": 237.1,
+            "consumption": 325.3068,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-10",
+            "generation": 111,
+            "consumption": 105.9248,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-10",
+            "generation": 317,
+            "consumption": 244.89,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-10",
+            "generation": 129.2,
+            "consumption": 195.2532,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-10",
+            "generation": 87.1,
+            "consumption": 84.3041,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-10",
+            "generation": 540.7,
+            "consumption": 715.858,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-10",
+            "generation": 154.4,
+            "consumption": 199.902,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-10",
+            "generation": 190.3,
+            "consumption": 234.2438,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-10",
+            "generation": 678.5,
+            "consumption": 467.5665,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-10",
+            "generation": 163.4,
+            "consumption": 124.3268,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-10",
+            "generation": 85.2,
+            "consumption": 95.5555,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-10",
+            "generation": 512.8,
+            "consumption": 676.9474,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-10",
+            "generation": 341.9,
+            "consumption": 260.2,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-10",
+            "generation": 263.1,
+            "consumption": 209.7139,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-10",
+            "generation": 75.2,
+            "consumption": 169.1575,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-10",
+            "generation": 436.8,
+            "consumption": 339.7631,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-10",
+            "generation": 55.5,
+            "consumption": 88.814,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-10",
+            "generation": 16.3,
+            "consumption": 15.2788,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-10",
+            "generation": 445,
+            "consumption": 384.2078,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-10",
+            "generation": 437.7,
+            "consumption": 264.1475,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-10",
+            "generation": 446,
+            "consumption": 631.7,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-09",
+            "generation": 303.6,
+            "consumption": 316.8893,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-09",
+            "generation": 21,
+            "consumption": 110.3326,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-09",
+            "generation": 79.3,
+            "consumption": 144.8934,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-09",
+            "generation": 322.8,
+            "consumption": 345.4151,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-09",
+            "generation": 188,
+            "consumption": 142.0698,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-09",
+            "generation": 641.3,
+            "consumption": 935.3117,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-09",
+            "generation": 203.9,
+            "consumption": 250.8727,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-09",
+            "generation": 202,
+            "consumption": 162.9403,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-09",
+            "generation": 40.9,
+            "consumption": 47.79,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-09",
+            "generation": 300,
+            "consumption": 418.9276,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-09",
+            "generation": 252.3,
+            "consumption": 335.2791,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-09",
+            "generation": 93.3,
+            "consumption": 91.4914,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-09",
+            "generation": 333.9,
+            "consumption": 267.017,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-09",
+            "generation": 142.4,
+            "consumption": 215.677,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-09",
+            "generation": 79.3,
+            "consumption": 75.4744,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-09",
+            "generation": 571.6,
+            "consumption": 806.9045,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-09",
+            "generation": 150.4,
+            "consumption": 214.5025,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-09",
+            "generation": 178.2,
+            "consumption": 225.0422,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-09",
+            "generation": 663.8,
+            "consumption": 440.83,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-09",
+            "generation": 187.5,
+            "consumption": 118.0595,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-09",
+            "generation": 72.6,
+            "consumption": 84.9623,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-09",
+            "generation": 503.5,
+            "consumption": 698.1031,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-09",
+            "generation": 325.7,
+            "consumption": 242.9,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-09",
+            "generation": 247.7,
+            "consumption": 200.981,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-09",
+            "generation": 82.7,
+            "consumption": 208.9468,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-09",
+            "generation": 571.4,
+            "consumption": 347.8631,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-09",
+            "generation": 57.1,
+            "consumption": 94.2333,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-09",
+            "generation": 16.8,
+            "consumption": 13.3246,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-09",
+            "generation": 475.1,
+            "consumption": 355.1125,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-09",
+            "generation": 506.3,
+            "consumption": 261.311,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-09",
+            "generation": 447.4,
+            "consumption": 712.8,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-08",
+            "generation": 362.9,
+            "consumption": 398,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-08",
+            "generation": 39.6,
+            "consumption": 136,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-08",
+            "generation": 113.6,
+            "consumption": 188,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-08",
+            "generation": 328.8,
+            "consumption": 350,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-08",
+            "generation": 206.5,
+            "consumption": 151,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-08",
+            "generation": 660,
+            "consumption": 957,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-08",
+            "generation": 214.7,
+            "consumption": 258,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-08",
+            "generation": 232.3,
+            "consumption": 178,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-08",
+            "generation": 43.9,
+            "consumption": 52.33,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-08",
+            "generation": 341.1,
+            "consumption": 488,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-08",
+            "generation": 379.3,
+            "consumption": 494,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-08",
+            "generation": 108.1,
+            "consumption": 98,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-08",
+            "generation": 354.6,
+            "consumption": 346.6025,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-08",
+            "generation": 162.4,
+            "consumption": 261,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-08",
+            "generation": 93.9,
+            "consumption": 82,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-08",
+            "generation": 675.5,
+            "consumption": 944,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-08",
+            "generation": 181.4,
+            "consumption": 238,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-08",
+            "generation": 200.3,
+            "consumption": 251,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-08",
+            "generation": 757.8,
+            "consumption": 461,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-08",
+            "generation": 230.8,
+            "consumption": 126,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-08",
+            "generation": 89.4,
+            "consumption": 90,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-08",
+            "generation": 579.7,
+            "consumption": 849,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-08",
+            "generation": 400,
+            "consumption": 274.3,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-08",
+            "generation": 336.3,
+            "consumption": 259,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-08",
+            "generation": 119.5,
+            "consumption": 239,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-08",
+            "generation": 550.4,
+            "consumption": 438,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-08",
+            "generation": 72.1,
+            "consumption": 109,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-08",
+            "generation": 14.6,
+            "consumption": 13,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-08",
+            "generation": 518.8,
+            "consumption": 378,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-08",
+            "generation": 481.6,
+            "consumption": 266,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-08",
+            "generation": 512.7,
+            "consumption": 782.7,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-07",
+            "generation": 361.9,
+            "consumption": 412,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-07",
+            "generation": 43.5,
+            "consumption": 146,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-07",
+            "generation": 112.1,
+            "consumption": 185,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-07",
+            "generation": 310,
+            "consumption": 339,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-07",
+            "generation": 202.5,
+            "consumption": 151,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-07",
+            "generation": 692,
+            "consumption": 993,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-07",
+            "generation": 226.2,
+            "consumption": 260,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-07",
+            "generation": 227.2,
+            "consumption": 171,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-07",
+            "generation": 42.6,
+            "consumption": 52.34,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-07",
+            "generation": 355.8,
+            "consumption": 519,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-07",
+            "generation": 397.8,
+            "consumption": 532,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-07",
+            "generation": 116.1,
+            "consumption": 106,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-07",
+            "generation": 379.7,
+            "consumption": 355.7254,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-07",
+            "generation": 170,
+            "consumption": 267,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-07",
+            "generation": 97,
+            "consumption": 86,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-07",
+            "generation": 638.9,
+            "consumption": 933,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-07",
+            "generation": 175.2,
+            "consumption": 236,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-07",
+            "generation": 206.7,
+            "consumption": 258,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-07",
+            "generation": 748.3,
+            "consumption": 464,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-07",
+            "generation": 218,
+            "consumption": 126,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-07",
+            "generation": 109.2,
+            "consumption": 85,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-07",
+            "generation": 569.3,
+            "consumption": 856,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-07",
+            "generation": 400.1,
+            "consumption": 282.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-07",
+            "generation": 324.5,
+            "consumption": 266,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-07",
+            "generation": 99,
+            "consumption": 222,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-07",
+            "generation": 528.8,
+            "consumption": 435,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-07",
+            "generation": 81.2,
+            "consumption": 116,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-07",
+            "generation": 14,
+            "consumption": 13,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-07",
+            "generation": 507.8,
+            "consumption": 383,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-07",
+            "generation": 449.1,
+            "consumption": 249,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-07",
+            "generation": 462.8,
+            "consumption": 727.9,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-06",
+            "generation": 281.8,
+            "consumption": 305,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-06",
+            "generation": 34.5,
+            "consumption": 121,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-06",
+            "generation": 85.7,
+            "consumption": 143,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-06",
+            "generation": 300.4,
+            "consumption": 318,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-06",
+            "generation": 182.9,
+            "consumption": 144,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-06",
+            "generation": 591.4,
+            "consumption": 904,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-06",
+            "generation": 203.8,
+            "consumption": 237,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-06",
+            "generation": 205.4,
+            "consumption": 159,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-06",
+            "generation": 43.7,
+            "consumption": 50.58,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-06",
+            "generation": 330,
+            "consumption": 449,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-06",
+            "generation": 289.9,
+            "consumption": 403,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-06",
+            "generation": 96.4,
+            "consumption": 93,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-06",
+            "generation": 272.9,
+            "consumption": 255.5762,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-06",
+            "generation": 141.1,
+            "consumption": 199,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-06",
+            "generation": 81,
+            "consumption": 74,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-06",
+            "generation": 505.5,
+            "consumption": 737,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-06",
+            "generation": 143.3,
+            "consumption": 192,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-06",
+            "generation": 176.9,
+            "consumption": 225,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-06",
+            "generation": 681.3,
+            "consumption": 433,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-06",
+            "generation": 195.5,
+            "consumption": 118,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-06",
+            "generation": 101.9,
+            "consumption": 82,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-06",
+            "generation": 479,
+            "consumption": 715,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-06",
+            "generation": 349,
+            "consumption": 253.9,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-06",
+            "generation": 268.3,
+            "consumption": 220,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-06",
+            "generation": 70.3,
+            "consumption": 172,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-06",
+            "generation": 504.7,
+            "consumption": 360,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-06",
+            "generation": 66.2,
+            "consumption": 97,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-06",
+            "generation": 14.3,
+            "consumption": 13,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-06",
+            "generation": 448.2,
+            "consumption": 355,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-06",
+            "generation": 438.9,
+            "consumption": 229,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-06",
+            "generation": 378.7,
+            "consumption": 613.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-05",
+            "generation": 246.5,
+            "consumption": 288,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-05",
+            "generation": 24.7,
+            "consumption": 101,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-05",
+            "generation": 89.6,
+            "consumption": 130,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-05",
+            "generation": 281.9,
+            "consumption": 290,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-05",
+            "generation": 176,
+            "consumption": 145,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-05",
+            "generation": 604.1,
+            "consumption": 821,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-05",
+            "generation": 201.6,
+            "consumption": 218,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-05",
+            "generation": 198.6,
+            "consumption": 160,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-05",
+            "generation": 42.9,
+            "consumption": 50.76,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-05",
+            "generation": 308.8,
+            "consumption": 403,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-05",
+            "generation": 263.8,
+            "consumption": 349,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-05",
+            "generation": 94.4,
+            "consumption": 96,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-05",
+            "generation": 243.8,
+            "consumption": 242.7451,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-05",
+            "generation": 134.3,
+            "consumption": 181,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-05",
+            "generation": 85.5,
+            "consumption": 74,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-05",
+            "generation": 489.8,
+            "consumption": 675,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-05",
+            "generation": 134.6,
+            "consumption": 178,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-05",
+            "generation": 180.7,
+            "consumption": 218,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-05",
+            "generation": 643.9,
+            "consumption": 445,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-05",
+            "generation": 186.4,
+            "consumption": 116,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-05",
+            "generation": 87.2,
+            "consumption": 87,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-05",
+            "generation": 462.8,
+            "consumption": 674,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-05",
+            "generation": 329.5,
+            "consumption": 248.6,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-05",
+            "generation": 232.3,
+            "consumption": 206,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-05",
+            "generation": 66.9,
+            "consumption": 149,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-05",
+            "generation": 371.2,
+            "consumption": 328,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-05",
+            "generation": 55.9,
+            "consumption": 84,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-05",
+            "generation": 12.1,
+            "consumption": 14,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-05",
+            "generation": 409.4,
+            "consumption": 331,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-05",
+            "generation": 347.1,
+            "consumption": 236,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-05",
+            "generation": 371.4,
+            "consumption": 556.3,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-04",
+            "generation": 246.9,
+            "consumption": 272,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-04",
+            "generation": 22.8,
+            "consumption": 92,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-04",
+            "generation": 91.1,
+            "consumption": 118,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-04",
+            "generation": 264.2,
+            "consumption": 272,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-04",
+            "generation": 168.2,
+            "consumption": 141,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-04",
+            "generation": 578.9,
+            "consumption": 737,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-04",
+            "generation": 195,
+            "consumption": 207,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-04",
+            "generation": 190,
+            "consumption": 156,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-04",
+            "generation": 38.5,
+            "consumption": 43.31,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-04",
+            "generation": 316.2,
+            "consumption": 400,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-04",
+            "generation": 236.5,
+            "consumption": 324,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-04",
+            "generation": 103.3,
+            "consumption": 99,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-04",
+            "generation": 239.8,
+            "consumption": 225.1906,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-04",
+            "generation": 130.7,
+            "consumption": 173,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-04",
+            "generation": 80.7,
+            "consumption": 74,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-04",
+            "generation": 456.3,
+            "consumption": 648,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-04",
+            "generation": 133.2,
+            "consumption": 170,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-04",
+            "generation": 185.1,
+            "consumption": 217,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-04",
+            "generation": 631.9,
+            "consumption": 431,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-04",
+            "generation": 183.3,
+            "consumption": 115,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-04",
+            "generation": 82.5,
+            "consumption": 86,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-04",
+            "generation": 458,
+            "consumption": 660,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-04",
+            "generation": 319.4,
+            "consumption": 241.2,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-04",
+            "generation": 204.1,
+            "consumption": 195,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-04",
+            "generation": 70.8,
+            "consumption": 139,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-04",
+            "generation": 332.9,
+            "consumption": 300,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-04",
+            "generation": 47.1,
+            "consumption": 80,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-04",
+            "generation": 7.5,
+            "consumption": 14,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-04",
+            "generation": 400.8,
+            "consumption": 322,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-04",
+            "generation": 320.5,
+            "consumption": 231,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-04",
+            "generation": 374.7,
+            "consumption": 536.3,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-03",
+            "generation": 279.9,
+            "consumption": 292,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2025-03",
+            "generation": 36.8,
+            "consumption": 111,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-03",
+            "generation": 93.2,
+            "consumption": 124,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2025-03",
+            "generation": 269.2,
+            "consumption": 279,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-03",
+            "generation": 190.3,
+            "consumption": 155,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2025-03",
+            "generation": 594.8,
+            "consumption": 737,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2025-03",
+            "generation": 209.3,
+            "consumption": 212,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-03",
+            "generation": 215.6,
+            "consumption": 177,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-03",
+            "generation": 37.2,
+            "consumption": 41.91,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2025-03",
+            "generation": 340.2,
+            "consumption": 439,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2025-03",
+            "generation": 258.5,
+            "consumption": 343,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-03",
+            "generation": 114.3,
+            "consumption": 108,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-03",
+            "generation": 238.8,
+            "consumption": 238.544,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-03",
+            "generation": 141.7,
+            "consumption": 199,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-03",
+            "generation": 95.1,
+            "consumption": 86,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-03",
+            "generation": 507.8,
+            "consumption": 704,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2025-03",
+            "generation": 143.6,
+            "consumption": 184,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-03",
+            "generation": 205.2,
+            "consumption": 242,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-03",
+            "generation": 688.2,
+            "consumption": 455,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-03",
+            "generation": 204,
+            "consumption": 123,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2025-03",
+            "generation": 78.9,
+            "consumption": 91,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2025-03",
+            "generation": 497.1,
+            "consumption": 706,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2025-03",
+            "generation": 374.1,
+            "consumption": 268.5,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-03",
+            "generation": 264.8,
+            "consumption": 221,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2025-03",
+            "generation": 84.6,
+            "consumption": 156,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2025-03",
+            "generation": 369.3,
+            "consumption": 315,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2025-03",
+            "generation": 54,
+            "consumption": 90,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-03",
+            "generation": 8.3,
+            "consumption": 15,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-03",
+            "generation": 455.4,
+            "consumption": 357,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2025-03",
+            "generation": 324.2,
+            "consumption": 231,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-03",
+            "generation": 405.9,
+            "consumption": 580.8,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2025-02",
+            "generation": null,
+            "consumption": 35.91,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-02",
+            "generation": null,
+            "consumption": 212.8823,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-02",
+            "generation": null,
+            "consumption": 460.4,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-12",
+            "generation": 314.8,
+            "consumption": 320,
+            "capacity": 12143,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-12",
+            "generation": 50.2,
+            "consumption": 140,
+            "capacity": 1408,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-12",
+            "generation": 99.4,
+            "consumption": 137,
+            "capacity": 3262,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-12",
+            "generation": 298.7,
+            "consumption": 279,
+            "capacity": 8864,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-12",
+            "generation": 189.6,
+            "consumption": 162,
+            "capacity": 10434.6,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-12",
+            "generation": 597.7,
+            "consumption": 719,
+            "capacity": 22183,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-12",
+            "generation": 213.4,
+            "consumption": 218,
+            "capacity": 9246,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-12",
+            "generation": 225.3,
+            "consumption": 190,
+            "capacity": 9032,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-12",
+            "generation": 37,
+            "consumption": 40.3,
+            "capacity": 1919,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-12",
+            "generation": 363.4,
+            "consumption": 490,
+            "capacity": 17681.4,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-12",
+            "generation": 305.9,
+            "consumption": 380,
+            "capacity": 14830.5,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-12",
+            "generation": 130.7,
+            "consumption": 122,
+            "capacity": 5036,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-12",
+            "generation": 268.5,
+            "consumption": 252.7271,
+            "capacity": 12571.8,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-12",
+            "generation": 162.2,
+            "consumption": 208,
+            "capacity": 7648,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-12",
+            "generation": 102.9,
+            "consumption": 98,
+            "capacity": 4696,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-12",
+            "generation": 547.1,
+            "consumption": 748,
+            "capacity": 20409,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-12",
+            "generation": 164.6,
+            "consumption": 191,
+            "capacity": 7062,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-12",
+            "generation": 210.9,
+            "consumption": 266,
+            "capacity": 8122.3,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-12",
+            "generation": 780.9,
+            "consumption": 480,
+            "capacity": 25772,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-12",
+            "generation": 214.9,
+            "consumption": 127,
+            "capacity": 7511,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-12",
+            "generation": 86.3,
+            "consumption": 93,
+            "capacity": 6982,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-12",
+            "generation": 526.8,
+            "consumption": 754,
+            "capacity": 23229,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-12",
+            "generation": 430.7,
+            "consumption": 297.7,
+            "capacity": 14710.4,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-12",
+            "generation": 317.7,
+            "consumption": 246,
+            "capacity": 11697.4,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-12",
+            "generation": 94.7,
+            "consumption": 173,
+            "capacity": 3060,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-12",
+            "generation": 393.3,
+            "consumption": 336,
+            "capacity": 13906,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-12",
+            "generation": 79.1,
+            "consumption": 104,
+            "capacity": 2838,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-12",
+            "generation": 9.5,
+            "consumption": 16,
+            "capacity": 919.6,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-12",
+            "generation": 490.8,
+            "consumption": 396,
+            "capacity": 19237.1,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-12",
+            "generation": 326,
+            "consumption": 247,
+            "capacity": 15188,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-12",
+            "generation": 429.4,
+            "consumption": 604.9,
+            "capacity": 14956,
+            "capacityScope": "全口径年末装机",
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-11",
+            "generation": 277.7,
+            "consumption": 272,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-11",
+            "generation": 40,
+            "consumption": 112,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-11",
+            "generation": 86.9,
+            "consumption": 118,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-11",
+            "generation": 264.7,
+            "consumption": 262,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-11",
+            "generation": 163.8,
+            "consumption": 150,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-11",
+            "generation": 575.4,
+            "consumption": 717,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-11",
+            "generation": 196.1,
+            "consumption": 206,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-11",
+            "generation": 195.9,
+            "consumption": 156,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-11",
+            "generation": 36.1,
+            "consumption": 39.58,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-11",
+            "generation": 315.4,
+            "consumption": 407,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-11",
+            "generation": 244,
+            "consumption": 316,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-11",
+            "generation": 116.2,
+            "consumption": 106,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-11",
+            "generation": 235.6,
+            "consumption": 217.6825,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-11",
+            "generation": 143.4,
+            "consumption": 174,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-11",
+            "generation": 99.2,
+            "consumption": 83,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-11",
+            "generation": 487.3,
+            "consumption": 644,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-11",
+            "generation": 142.7,
+            "consumption": 167,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-11",
+            "generation": 181.9,
+            "consumption": 226,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-11",
+            "generation": 700.1,
+            "consumption": 440,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-11",
+            "generation": 205.1,
+            "consumption": 121,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-11",
+            "generation": 86.5,
+            "consumption": 87,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-11",
+            "generation": 475.8,
+            "consumption": 672,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-11",
+            "generation": 374.2,
+            "consumption": 257.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-11",
+            "generation": 257.9,
+            "consumption": 214,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-11",
+            "generation": 72.1,
+            "consumption": 141,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-11",
+            "generation": 327.8,
+            "consumption": 305,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-11",
+            "generation": 62.3,
+            "consumption": 89,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-11",
+            "generation": 13,
+            "consumption": 15,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-11",
+            "generation": 430.1,
+            "consumption": 365,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-11",
+            "generation": 311.8,
+            "consumption": 241,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-11",
+            "generation": 376,
+            "consumption": 527.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-10",
+            "generation": 248.8,
+            "consumption": 270,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-10",
+            "generation": 23.8,
+            "consumption": 93,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-10",
+            "generation": 84.7,
+            "consumption": 118,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-10",
+            "generation": 273.8,
+            "consumption": 276,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-10",
+            "generation": 164.1,
+            "consumption": 142,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-10",
+            "generation": 567.5,
+            "consumption": 780,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-10",
+            "generation": 190.5,
+            "consumption": 213,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-10",
+            "generation": 188.2,
+            "consumption": 149,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-10",
+            "generation": 39.4,
+            "consumption": 43.49,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-10",
+            "generation": 292.3,
+            "consumption": 372,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-10",
+            "generation": 241.6,
+            "consumption": 311,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-10",
+            "generation": 105.5,
+            "consumption": 100,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-10",
+            "generation": 229.8,
+            "consumption": 221.1488,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-10",
+            "generation": 129.2,
+            "consumption": 170,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-10",
+            "generation": 88.1,
+            "consumption": 75,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-10",
+            "generation": 472.5,
+            "consumption": 637,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-10",
+            "generation": 133,
+            "consumption": 169,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-10",
+            "generation": 165.8,
+            "consumption": 219,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-10",
+            "generation": 665.8,
+            "consumption": 434,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-10",
+            "generation": 164.6,
+            "consumption": 114,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-10",
+            "generation": 82.2,
+            "consumption": 87,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-10",
+            "generation": 447.1,
+            "consumption": 644,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-10",
+            "generation": 326,
+            "consumption": 236.8,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-10",
+            "generation": 230.3,
+            "consumption": 199,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-10",
+            "generation": 68,
+            "consumption": 143,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-10",
+            "generation": 424,
+            "consumption": 312,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-10",
+            "generation": 55.1,
+            "consumption": 80,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-10",
+            "generation": 16.8,
+            "consumption": 13,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-10",
+            "generation": 406.6,
+            "consumption": 337,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-10",
+            "generation": 404.6,
+            "consumption": 250,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-10",
+            "generation": 380.3,
+            "consumption": 532.9,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-09",
+            "generation": 299.3,
+            "consumption": 318,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-09",
+            "generation": 24.7,
+            "consumption": 100,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-09",
+            "generation": 121.3,
+            "consumption": 176,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-09",
+            "generation": 291.7,
+            "consumption": 310,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-09",
+            "generation": 163.7,
+            "consumption": 132,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-09",
+            "generation": 642.9,
+            "consumption": 875,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-09",
+            "generation": 203.1,
+            "consumption": 226,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-09",
+            "generation": 208.6,
+            "consumption": 156,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-09",
+            "generation": 36.5,
+            "consumption": 40.29,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-09",
+            "generation": 291.5,
+            "consumption": 375,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-09",
+            "generation": 286.5,
+            "consumption": 353,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-09",
+            "generation": 89.7,
+            "consumption": 88,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-09",
+            "generation": 296.8,
+            "consumption": 271.9342,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-09",
+            "generation": 162.4,
+            "consumption": 214,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-09",
+            "generation": 75.4,
+            "consumption": 66,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-09",
+            "generation": 556.6,
+            "consumption": 765,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-09",
+            "generation": 158,
+            "consumption": 206,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-09",
+            "generation": 163.6,
+            "consumption": 207,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-09",
+            "generation": 629.1,
+            "consumption": 402,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-09",
+            "generation": 177.9,
+            "consumption": 106,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-09",
+            "generation": 76.4,
+            "consumption": 82,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-09",
+            "generation": 497.1,
+            "consumption": 683,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-09",
+            "generation": 328,
+            "consumption": 226.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-09",
+            "generation": 264.4,
+            "consumption": 215,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-09",
+            "generation": 100.7,
+            "consumption": 190,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-09",
+            "generation": 536.9,
+            "consumption": 395,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-09",
+            "generation": 63.6,
+            "consumption": 84,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-09",
+            "generation": 15.2,
+            "consumption": 12,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-09",
+            "generation": 405.7,
+            "consumption": 315,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-09",
+            "generation": 426.8,
+            "consumption": 248,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-09",
+            "generation": 429.5,
+            "consumption": 637.4,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-08",
+            "generation": 363,
+            "consumption": 385,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-08",
+            "generation": 37.7,
+            "consumption": 134,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-08",
+            "generation": 119.2,
+            "consumption": 185,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-08",
+            "generation": 313.7,
+            "consumption": 334,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-08",
+            "generation": 190.3,
+            "consumption": 148,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-08",
+            "generation": 642.1,
+            "consumption": 935,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-08",
+            "generation": 199.6,
+            "consumption": 235,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-08",
+            "generation": 227,
+            "consumption": 167,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-08",
+            "generation": 44.4,
+            "consumption": 51.78,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-08",
+            "generation": 324.5,
+            "consumption": 452,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-08",
+            "generation": 348.5,
+            "consumption": 457,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-08",
+            "generation": 99.9,
+            "consumption": 95,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-08",
+            "generation": 363.5,
+            "consumption": 326.8052,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-08",
+            "generation": 169.4,
+            "consumption": 249,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-08",
+            "generation": 98.8,
+            "consumption": 77,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-08",
+            "generation": 633.6,
+            "consumption": 911,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-08",
+            "generation": 159.7,
+            "consumption": 222,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-08",
+            "generation": 201.9,
+            "consumption": 239,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-08",
+            "generation": 702.2,
+            "consumption": 427,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-08",
+            "generation": 199.2,
+            "consumption": 113,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-08",
+            "generation": 92.9,
+            "consumption": 83,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-08",
+            "generation": 583.6,
+            "consumption": 808,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-08",
+            "generation": 381.6,
+            "consumption": 246.1,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-08",
+            "generation": 294.6,
+            "consumption": 245,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-08",
+            "generation": 118.1,
+            "consumption": 232,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-08",
+            "generation": 631,
+            "consumption": 431,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-08",
+            "generation": 81.9,
+            "consumption": 103,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-08",
+            "generation": 17.4,
+            "consumption": 12,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-08",
+            "generation": 457.1,
+            "consumption": 353,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-08",
+            "generation": 510.2,
+            "consumption": 254,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-08",
+            "generation": 467.6,
+            "consumption": 739.5,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-07",
+            "generation": 340.7,
+            "consumption": 360,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "北京",
+            "month": "2024-07",
+            "generation": 43.1,
+            "consumption": 138,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-07",
+            "generation": 107.3,
+            "consumption": 165,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "福建",
+            "month": "2024-07",
+            "generation": 316.7,
+            "consumption": 342,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-07",
+            "generation": 190.9,
+            "consumption": 151,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广东",
+            "month": "2024-07",
+            "generation": 664.9,
+            "consumption": 961,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "广西",
+            "month": "2024-07",
+            "generation": 210.9,
+            "consumption": 239,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-07",
+            "generation": 219.1,
+            "consumption": 163,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "海南",
+            "month": "2024-07",
+            "generation": 42.5,
+            "consumption": 48.58,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河北",
+            "month": "2024-07",
+            "generation": 322.7,
+            "consumption": 451,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "河南",
+            "month": "2024-07",
+            "generation": 308.8,
+            "consumption": 416,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-07",
+            "generation": 103.8,
+            "consumption": 98,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-07",
+            "generation": 361.4,
+            "consumption": 304.669,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-07",
+            "generation": 171.7,
+            "consumption": 255,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-07",
+            "generation": 96.9,
+            "consumption": 76,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-07",
+            "generation": 600.4,
+            "consumption": 860,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "江西",
+            "month": "2024-07",
+            "generation": 161.2,
+            "consumption": 226,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-07",
+            "generation": 197.3,
+            "consumption": 231,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-07",
+            "generation": 716.1,
+            "consumption": 448,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-07",
+            "generation": 200,
+            "consumption": 120,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "青海",
+            "month": "2024-07",
+            "generation": 95.4,
+            "consumption": 84,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山东",
+            "month": "2024-07",
+            "generation": 528.3,
+            "consumption": 748,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "山西",
+            "month": "2024-07",
+            "generation": 390,
+            "consumption": 254.4,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-07",
+            "generation": 281.3,
+            "consumption": 230,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "上海",
+            "month": "2024-07",
+            "generation": 104.1,
+            "consumption": 219,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "四川",
+            "month": "2024-07",
+            "generation": 547.8,
+            "consumption": 371,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "天津",
+            "month": "2024-07",
+            "generation": 81.5,
+            "consumption": 103,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-07",
+            "generation": 14.2,
+            "consumption": 11,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-07",
+            "generation": 457.7,
+            "consumption": 362,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "云南",
+            "month": "2024-07",
+            "generation": 489.9,
+            "consumption": 243,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-07",
+            "generation": 464.7,
+            "consumption": 718.6,
+            "capacity": null,
+            "capacityScope": null,
+            "dataSource": "iFinD EDB"
+        }
+    ],
+    "provincePowerMonthlyMeta": {
+        "北京": {
+            "available": true,
+            "error": null
+        },
+        "天津": {
+            "available": true,
+            "error": null
+        },
+        "河北": {
+            "available": true,
+            "error": null
+        },
+        "山西": {
+            "available": true,
+            "error": null
+        },
+        "内蒙古": {
+            "available": true,
+            "error": null
+        },
+        "辽宁": {
+            "available": true,
+            "error": null
+        },
+        "吉林": {
+            "available": true,
+            "error": null
+        },
+        "黑龙江": {
+            "available": true,
+            "error": null
+        },
+        "上海": {
+            "available": true,
+            "error": null
+        },
+        "江苏": {
+            "available": true,
+            "error": null
+        },
+        "浙江": {
+            "available": true,
+            "error": null
+        },
+        "安徽": {
+            "available": true,
+            "error": null
+        },
+        "福建": {
+            "available": true,
+            "error": null
+        },
+        "江西": {
+            "available": true,
+            "error": null
+        },
+        "山东": {
+            "available": true,
+            "error": null
+        },
+        "河南": {
+            "available": true,
+            "error": null
+        },
+        "湖北": {
+            "available": true,
+            "error": null
+        },
+        "湖南": {
+            "available": true,
+            "error": null
+        },
+        "广东": {
+            "available": true,
+            "error": null
+        },
+        "广西": {
+            "available": true,
+            "error": null
+        },
+        "海南": {
+            "available": true,
+            "error": null
+        },
+        "重庆": {
+            "available": true,
+            "error": null
+        },
+        "四川": {
+            "available": true,
+            "error": null
+        },
+        "贵州": {
+            "available": true,
+            "error": null
+        },
+        "云南": {
+            "available": true,
+            "error": null
+        },
+        "西藏": {
+            "available": true,
+            "error": null
+        },
+        "陕西": {
+            "available": true,
+            "error": null
+        },
+        "甘肃": {
+            "available": true,
+            "error": null
+        },
+        "青海": {
+            "available": true,
+            "error": null
+        },
+        "宁夏": {
+            "available": true,
+            "error": null
+        },
+        "新疆": {
+            "available": true,
+            "error": null
+        }
+    }
 };

@@ -82,6 +82,7 @@ recordFilter("powerGenerationMonthly", "month", true);
 recordFilter("installedCapacityMonthly", "month", true);
 recordFilter("installedCapacityAdditions", "month", true);
 recordFilter("provinceInstalledCapacityAnnual", "period");
+recordFilter("provincePowerMonthly", "month", true);
 recordFilter("dayAheadDailyHistory", "date");
 recordFilter("dayAheadWeeklyHistory", "weekStart");
 workbench.publicWindow = { label: "滚动近两年", cutoff, asOf };

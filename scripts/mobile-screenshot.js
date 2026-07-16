@@ -10,6 +10,9 @@ const outputName = process.argv[5] || `mobile-${pageName.replace(/\.html$/i, "")
 const root = path.resolve(__dirname, "..");
 const pagePath = path.resolve(root, pageName);
 const outputPath = path.resolve(root, outputName);
+const gateSource = require("node:fs").readFileSync(path.resolve(root, "assets", "access-gate.js"), "utf8");
+const sessionKey = gateSource.match(/SESSION_KEY\s*=\s*"([^"]+)"/)?.[1];
+const passwordHash = gateSource.match(/PASSWORD_HASH\s*=\s*"([^"]+)"/)?.[1];
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
@@ -24,6 +27,10 @@ const outputPath = path.resolve(root, outputName);
     console.error(`PAGEERROR ${error.message}`);
   });
 
+  if (process.env.WORKBENCH_TEST_SESSION === "1" && sessionKey && passwordHash) {
+    await page.addInitScript(([key, value]) => sessionStorage.setItem(key, value), [sessionKey, passwordHash]);
+  }
+
   await page.goto(pathToFileURL(pagePath).href, {
     waitUntil: "domcontentloaded",
     timeout: 15000
@@ -35,7 +42,11 @@ const outputPath = path.resolve(root, outputName);
     await gate.waitFor({ state: "detached" });
   }
   await page.waitForTimeout(1200);
-  await page.screenshot({ path: outputPath, fullPage: false });
+  if (process.env.WORKBENCH_SCREENSHOT_SELECTOR) {
+    await page.locator(process.env.WORKBENCH_SCREENSHOT_SELECTOR).screenshot({ path: outputPath });
+  } else {
+    await page.screenshot({ path: outputPath, fullPage: false });
+  }
   await browser.close();
   console.log(outputPath);
 })().catch((error) => {

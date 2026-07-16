@@ -151,46 +151,34 @@
       <section class="province-capacity-section" id="province-capacity-section">
         <div class="section-head">
           <div>
-            <h2>各省装机情况</h2>
-            <p class="section-subtitle">统一比较 31 个省级行政区的年末装机，并保留缺失字段与统计口径提示</p>
+            <h2>省级月度电力情况</h2>
+            <p class="section-subtitle">选择一个省份，集中查看月度发电量、用电量与装机观测值</p>
           </div>
-          <span class="pill" id="province-capacity-period">2025 年末</span>
+          <div class="province-master-select">
+            <label for="province-capacity-province">省份</label>
+            <select id="province-capacity-province"></select>
+            <span class="pill" id="province-capacity-period">滚动近两年</span>
+          </div>
         </div>
         <div class="section-body">
           <div class="summary-grid province-capacity-summary">
-            <div class="summary"><div class="label">覆盖地区</div><div class="value" id="province-capacity-count">加载中</div><div class="note">大陆省级行政区</div></div>
-            <div class="summary"><div class="label">数据完整</div><div class="value" id="province-capacity-complete">加载中</div><div class="note">六类字段均有可靠值</div></div>
-            <div class="summary"><div class="label">最大总装机</div><div class="value" id="province-capacity-leader">加载中</div><div class="note" id="province-capacity-leader-note">按年末总装机排序</div></div>
-            <div class="summary"><div class="label">数据置信度</div><div class="value">中</div><div class="note">iFinD 主源，Wind 待交叉验证</div></div>
+            <div class="summary"><div class="label">最新发电量</div><div class="value" id="province-generation-latest">加载中</div><div class="note" id="province-generation-note">当月值</div></div>
+            <div class="summary"><div class="label">最新用电量</div><div class="value" id="province-consumption-latest">加载中</div><div class="note" id="province-consumption-note">当月值</div></div>
+            <div class="summary"><div class="label">总装机快照</div><div class="value" id="province-capacity-latest">加载中</div><div class="note" id="province-capacity-note">数据库实际观测值</div></div>
+            <div class="summary"><div class="label">有效月份</div><div class="value" id="province-month-count">加载中</div><div class="note">缺失月份不插值</div></div>
           </div>
 
           <div class="province-capacity-grid">
             <article class="chart-card province-capacity-card">
               <div class="chart-head">
-                <div><h2>31 省横向比较</h2><p>缺失值不参与排序，也不会补成 0</p></div>
-                <div class="toolbar">
-                  <label for="province-capacity-metric">指标</label>
-                  <select id="province-capacity-metric"></select>
-                  <span class="filter-note" id="province-capacity-rank-note">选择指标查看排名</span>
-                </div>
+                <div><h2>月度发用电走势</h2><p id="province-power-trend-note">当月值，单位：亿千瓦时</p></div>
               </div>
-              <div id="province-capacity-rank-chart" class="echart province-rank-chart" role="img" aria-label="各省装机容量排名图"></div>
+              <div id="province-power-trend-chart" class="echart province-monthly-chart" role="img" aria-label="单省月度发电量与用电量走势图"></div>
             </article>
 
             <article class="chart-card province-capacity-card">
               <div class="chart-head">
-                <div><h2>单省电源画像</h2><p>比较 2024 与 2025 年末装机结构</p></div>
-                <div class="toolbar">
-                  <label for="province-capacity-province">省份</label>
-                  <select id="province-capacity-province"></select>
-                  <span class="filter-note" id="province-capacity-profile-note">选择省份查看结构</span>
-                </div>
-              </div>
-              <div class="province-profile-metrics">
-                <div><span>总装机</span><strong id="province-profile-total">-</strong></div>
-                <div><span>总装机同比</span><strong id="province-profile-yoy">-</strong></div>
-                <div><span>风光装机</span><strong id="province-profile-renewable">-</strong></div>
-                <div><span>风光占比</span><strong id="province-profile-share">-</strong></div>
+                <div><h2>装机结构与观测值</h2><p id="province-capacity-profile-note">全口径数据按实际披露日期展示</p></div>
               </div>
               <div id="province-capacity-profile-chart" class="echart compact" role="img" aria-label="单省分电源装机结构图"></div>
               <div class="province-quality-note" id="province-capacity-quality-note">加载数据口径...</div>
@@ -199,11 +187,11 @@
 
           <div class="table-scroll province-capacity-table">
             <table>
-              <thead><tr><th>省份</th><th>总装机</th><th>水电</th><th>火电</th><th>风电</th><th>太阳能</th><th>核电</th><th>数据状态</th></tr></thead>
-              <tbody id="province-capacity-body"><tr><td colspan="8">加载省级装机数据...</td></tr></tbody>
+              <thead><tr><th>月份</th><th>发电量</th><th>同比</th><th>用电量</th><th>同比</th><th>总装机</th><th>装机口径</th></tr></thead>
+              <tbody id="province-capacity-body"><tr><td colspan="7">加载省级月度数据...</td></tr></tbody>
             </table>
           </div>
-          <p class="province-capacity-source">单位：万千瓦。来源：iFinD EDB（2026-07-16 提取）；“—”表示暂无可靠省级值，不等于 0。</p>
+          <p class="province-capacity-source" id="province-capacity-source">发电量、用电量单位：亿千瓦时；装机单位：万千瓦。“—”表示数据库没有该月可靠观测值，不等于 0。</p>
         </div>
       </section>
 

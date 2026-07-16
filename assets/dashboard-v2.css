@@ -1238,14 +1238,33 @@ tbody tr:hover { background: #eef3f6; }
   line-height: 1.55;
 }
 .province-capacity-summary { margin-bottom: 16px; }
+.province-master-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.province-master-select label {
+  color: var(--ink-500, #74808a);
+  font-size: 13px;
+}
+.province-master-select select {
+  min-width: 150px;
+  padding: 9px 34px 9px 12px;
+  border: 1px solid var(--line, #d8e2e7);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink-800, #2f3b43);
+}
 .province-capacity-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(360px, .75fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(360px, .85fr);
   gap: 16px;
   margin-bottom: 16px;
 }
 .province-capacity-card { margin-bottom: 0; overflow: hidden; }
 .province-rank-chart { height: 650px; }
+.province-monthly-chart { height: 390px; }
 .province-profile-metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1289,7 +1308,10 @@ tbody tr:hover { background: #eef3f6; }
 }
 
 @media (max-width: 720px) {
+  .province-master-select { width: 100%; justify-content: flex-start; }
+  .province-master-select select { flex: 1; min-width: 120px; }
   .province-profile-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 12px 12px 0; }
   .province-rank-chart { height: 560px !important; }
+  .province-monthly-chart { height: 340px !important; }
   .province-quality-note { margin: 0 12px 12px; }
 }

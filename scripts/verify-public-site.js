@@ -31,6 +31,7 @@ const verifyDataWindow = () => {
     [workbench.systemFeeHistory, "month"],
     [workbench.installedCapacityMonthly, "month"],
     [workbench.provinceInstalledCapacityAnnual, "period"],
+    [workbench.provincePowerMonthly, "month"],
     [weather, "weekStart"],
     [company.facts, "period"]
   ];
@@ -46,6 +47,9 @@ const verifyDataWindow = () => {
   assert(periods.has("2024-12-31") && periods.has("2025-12-31"), "province capacity periods missing");
   assert(provinceRows.some((row) => row.solar === null), "province capacity missing values were incorrectly filled");
   assert(!JSON.stringify(provinceRows).includes("S0030"), "paid database indicator ids leaked into public snapshot");
+  const provinceMonthlyRows = workbench.provincePowerMonthly || [];
+  assert(new Set(provinceMonthlyRows.map((row) => row.province)).size === 31, "province monthly coverage mismatch");
+  assert(provinceMonthlyRows.length >= 580, `province monthly row count too small: ${provinceMonthlyRows.length}`);
   assert(weather.every((row) => row.climateTemperature !== null && row.climateTemperature !== undefined), "weather climate baseline missing");
 };
 
@@ -87,10 +91,9 @@ const server = http.createServer((request, response) => {
     if (pageName === "power.html") {
       await page.waitForSelector("#province-capacity-body tr");
       assert(await page.locator("#province-capacity-province option").count() === 31, "province profile selector mismatch");
-      assert(await page.locator("#province-capacity-metric option").count() === 6, "province metric selector mismatch");
-      assert(await page.locator("#province-capacity-body tr").count() === 31, "province capacity table mismatch");
+      assert(await page.locator("#province-capacity-body tr").count() >= 18, "province monthly table mismatch");
       await page.selectOption("#province-capacity-province", { label: "内蒙古" });
-      assert((await page.locator("#province-capacity-quality-note").innerText()).includes("缺失字段"), "province data-quality warning missing");
+      assert((await page.locator("#province-power-trend-note").innerText()).includes("内蒙古"), "province selector did not update content");
     }
   }
 
