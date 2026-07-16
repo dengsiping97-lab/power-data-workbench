@@ -1291,13 +1291,13 @@
       return changePct(Number(current[field]), Number(previous[field]));
     };
     const metricOptions = [
-      { label: "\u603b\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "generation", valueName: "\u603b\u53d1\u7535\u91cf" },
-      { label: "\u603b\u7528\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "consumption", valueName: "\u603b\u7528\u7535\u91cf" },
-      { label: "\u706b\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "thermalGeneration", valueName: "\u706b\u7535\u53d1\u7535\u91cf" },
-      { label: "\u6c34\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "hydroGeneration", valueName: "\u6c34\u7535\u53d1\u7535\u91cf" },
-      { label: "\u6838\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "nuclearGeneration", valueName: "\u6838\u7535\u53d1\u7535\u91cf" },
-      { label: "\u98ce\u7535\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "windGeneration", valueName: "\u98ce\u7535\u53d1\u7535\u91cf" },
-      { label: "\u5149\u4f0f\u53d1\u7535\u91cf\u53ca\u540c\u6bd4\u589e\u901f", field: "solarGeneration", valueName: "\u5149\u4f0f\u53d1\u7535\u91cf" }
+      { label: "\u603b\u53d1\u7535\u91cf", field: "generation", valueName: "\u603b\u53d1\u7535\u91cf" },
+      { label: "\u603b\u7528\u7535\u91cf", field: "consumption", valueName: "\u603b\u7528\u7535\u91cf" },
+      { label: "\u706b\u7535\u53d1\u7535\u91cf", field: "thermalGeneration", valueName: "\u706b\u7535\u53d1\u7535\u91cf" },
+      { label: "\u6c34\u7535\u53d1\u7535\u91cf", field: "hydroGeneration", valueName: "\u6c34\u7535\u53d1\u7535\u91cf" },
+      { label: "\u6838\u7535\u53d1\u7535\u91cf", field: "nuclearGeneration", valueName: "\u6838\u7535\u53d1\u7535\u91cf" },
+      { label: "\u98ce\u7535\u53d1\u7535\u91cf", field: "windGeneration", valueName: "\u98ce\u7535\u53d1\u7535\u91cf" },
+      { label: "\u5149\u4f0f\u53d1\u7535\u91cf", field: "solarGeneration", valueName: "\u5149\u4f0f\u53d1\u7535\u91cf" }
     ];
 
     const provinceSelect = document.getElementById("province-capacity-province");
