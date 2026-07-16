@@ -10,7 +10,6 @@ const loadWindowValue = (file, key) => {
 };
 const fail = (message) => { throw new Error(message); };
 const workbench = loadWindowValue("assets/workbench-data.js", "WORKBENCH_DATA");
-const app = fs.readFileSync(path.join(root, "assets", "app.js"), "utf8");
 const latestMonth = (rows) => rows.map((row) => String(row.month || "").slice(0, 7)).filter(Boolean).sort().at(-1);
 const assertDescending = (rows, key) => {
   for (let i = 1; i < rows.length; i += 1) if (String(rows[i - 1][key]) < String(rows[i][key])) fail(`${key} not descending at row ${i}`);
@@ -26,11 +25,6 @@ assertDescending(generation, "month");
 assertDescending(capacity, "month");
 if (latestMonth(consumption) !== latestMonth(generation)) fail("national generation and consumption periods differ");
 
-const cumulativeEnd = app.match(/const latestIndustryCumulative = \{\s*endMonth:\s*"([^"]+)"/)?.[1];
-if (!cumulativeEnd) fail("cumulative industry benchmark metadata missing");
-if (cumulativeEnd !== latestMonth(consumption)) fail(`cumulative period ${cumulativeEnd} != latest consumption ${latestMonth(consumption)}`);
-if (app.includes("27324") || app.includes("42018")) fail("stale 2026-05 cumulative benchmark remains in app");
-
 const provinces = new Set(provinceMonthly.map((row) => row.province));
 if (provinces.size !== 31) fail(`province coverage mismatch: ${provinces.size}`);
 const provinceLatest = [...new Set([...provinces].map((province) => latestMonth(provinceMonthly.filter((row) => row.province === province))))];
@@ -39,7 +33,7 @@ if (provinceLatest.length !== 1) fail(`province monthly periods are inconsistent
 const result = {
   asOf: workbench.updatedAt,
   nationalLatest: { consumption: latestMonth(consumption), generation: latestMonth(generation), capacity: latestMonth(capacity) },
-  cumulativeEnd,
+  industryMonthlyLatest: latestMonth(consumption),
   provinceMonthlyLatest: provinceLatest[0],
   provinceCoverage: provinces.size,
   notes: ["全国装机数据最新期落后用电/发电一个月，按披露节奏保留，不插值。", "全国发电数据含 2025-01~02 合并期，按源数据口径保留。"]

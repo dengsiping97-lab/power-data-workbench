@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>电力供需 · 电力数据研究工作台</title>
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
   <style>
     :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--blue:#256f9f;--amber:#9a681c;--shadow:0 10px 28px rgba(20,32,38,.08)}
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
@@ -20,8 +22,8 @@
     .pill{display:inline-flex;border-radius:999px;padding:4px 8px;font-size:12px;background:#e8f3ee;color:var(--green)}.bars{display:grid;gap:10px}.bar-row{display:grid;grid-template-columns:72px 1fr 86px;align-items:center;gap:10px;font-size:13px}.track{height:10px;background:#edf1f3;border-radius:999px;overflow:hidden}.fill{height:100%;background:var(--blue);border-radius:999px}.fill.green{background:var(--green)}.fill.amber{background:var(--amber)}.toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}.toolbar label,.filter-note{font-size:13px;color:var(--muted)}select{min-width:150px;border:1px solid var(--line);background:#fff;color:var(--text);border-radius:8px;padding:8px 10px;font-size:14px}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid,.grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
-  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260717-grid-height-2">
+  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-2"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
   <div class="app">
@@ -55,7 +57,7 @@
         <article class="chart-card wide">
           <div class="chart-head">
             <div>
-              <h2>用电与装机增速差</h2>
+              <h2>月度用电与装机增速差</h2>
               <p>用电增速减装机增速：正值提示需求快于装机，负值提示装机释放快于需求</p>
             </div>
             <span class="pill" id="power-balance-signal">计算中</span>
@@ -66,7 +68,7 @@
         <article class="chart-card">
           <div class="chart-head">
             <div>
-              <h2>分电源发电增速</h2>
+              <h2>单月分电源发电增速</h2>
               <p>观察水火替代与新能源出力，辅助判断火电利用小时和水电业绩弹性</p>
             </div>
           </div>
@@ -76,7 +78,7 @@
         <article class="chart-card">
           <div class="chart-head">
             <div>
-              <h2>新增装机结构</h2>
+              <h2>单月新增装机结构</h2>
               <p>跟踪风光供给释放与传统电源补位，判断消纳压力、电价弹性和设备订单景气</p>
             </div>
             <span class="pill" id="power-renewable-addition-share">计算中</span>
@@ -85,65 +87,50 @@
         </article>
       </div>
 
-      <section class="chart-card wide power-year-consumption-card">
+      <div class="power-year-consumption-grid">
+      <section class="chart-card power-year-consumption-card">
         <div class="chart-head">
           <div>
-              <h2>2026年分产业累计用电量及增速</h2>
-              <p>按产业选择，观察年内累计用电量和累计同比变化</p>
+              <h2>分产业单月用电量及同比</h2>
           </div>
           <div class="toolbar">
             <label for="power-industry-select">产业</label>
             <select id="power-industry-select"></select>
-            <span class="filter-note" id="power-industry-note">选择产业查看走势</span>
           </div>
         </div>
-        <div id="power-industry-year-chart" class="echart compact" role="img" aria-label="2026年分产业累计用电量及累计同比图"></div>
+        <div id="power-industry-year-chart" class="echart compact" role="img" aria-label="分产业单月用电量及同比图"></div>
+        <p class="power-industry-note" id="power-industry-note">选择产业查看走势</p>
       </section>
 
-      <section>
-        <div class="section-head"><h2>用电量结构</h2><span class="pill">分产业</span></div>
+      <section class="chart-card power-consumption-structure-card">
+        <div class="section-head"><h2>全时间段单月用电量结构</h2><span class="pill">分产业</span></div>
         <div class="section-body">
-          <div class="toolbar">
-            <label for="power-consumption-month">月份</label>
-            <select id="power-consumption-month"></select>
-            <span class="filter-note" id="power-consumption-month-note">选择月份查看结构</span>
-          </div>
-          <div class="bars" id="power-consumption-bars"></div>
+          <div id="power-consumption-structure-chart" class="echart compact" role="img" aria-label="全时间段分产业用电量结构图"></div>
         </div>
       </section>
+      </div>
 
       <div class="grid">
         <section>
-          <div class="section-head"><h2>2026年分电源发电量及同比</h2><span class="pill">分电源</span></div>
+          <div class="section-head"><h2>分电源单月发电量及同比</h2><span class="pill">分电源</span></div>
           <div class="section-body">
             <div class="toolbar">
               <label for="power-generation-source">电源</label>
               <select id="power-generation-source"></select>
               <span class="filter-note" id="power-generation-source-note">选择电源查看走势</span>
             </div>
-            <div id="power-generation-source-chart" class="echart compact" role="img" aria-label="2026年分电源发电量及同比图"></div>
+            <div id="power-generation-source-chart" class="echart compact" role="img" aria-label="分电源发电量及同比图"></div>
           </div>
         </section>
         <section>
-          <div class="section-head"><h2>2026年分电源装机及同比</h2><span class="pill">累计装机</span></div>
+          <div class="section-head"><h2>分电源月末装机及同比</h2><span class="pill">月末装机</span></div>
           <div class="section-body">
             <div class="toolbar">
               <label for="power-capacity-source">电源</label>
               <select id="power-capacity-source"></select>
               <span class="filter-note" id="power-capacity-source-note">选择电源查看走势</span>
             </div>
-            <div id="power-capacity-source-chart" class="echart compact" role="img" aria-label="2026年分电源装机及同比图"></div>
-          </div>
-        </section>
-        <section>
-          <div class="section-head"><h2>每月净增装机结构</h2><span class="pill">单月新增</span></div>
-          <div class="section-body">
-            <div class="toolbar">
-              <label for="power-additions-month">月份</label>
-              <select id="power-additions-month"></select>
-              <span class="filter-note" id="power-additions-month-note">选择月份查看净增结构</span>
-            </div>
-            <div class="bars" id="power-additions-bars"></div>
+            <div id="power-capacity-source-chart" class="echart compact" role="img" aria-label="分电源装机及同比图"></div>
           </div>
         </section>
       </div>
@@ -182,10 +169,9 @@
 
             <article class="chart-card province-capacity-card">
               <div class="chart-head">
-                <div><h2>装机结构与观测值</h2><p id="province-capacity-profile-note">全口径数据按实际披露日期展示</p></div>
+                <div><h2>月度装机结构与观测值</h2><p id="province-capacity-profile-note">按月末展示分电源装机</p></div>
               </div>
               <div id="province-capacity-profile-chart" class="echart compact" role="img" aria-label="单省分电源装机结构图"></div>
-              <div class="province-quality-note" id="province-capacity-quality-note">加载数据口径...</div>
             </article>
           </div>
 
@@ -196,6 +182,13 @@
             </table>
           </div>
           <p class="province-capacity-source" id="province-capacity-source">发电量、用电量单位：亿千瓦时；装机单位：万千瓦。“—”表示数据库没有该月可靠观测值，不等于 0。</p>
+          <h3 class="province-capacity-detail-title">月度分电源装机明细</h3>
+          <div class="table-scroll province-capacity-table">
+            <table>
+              <thead><tr><th>月份</th><th>总装机</th><th>火电</th><th>水电</th><th>核电</th><th>风电</th><th>太阳能（含分布式）</th><th>太阳能（不含分布式）</th></tr></thead>
+              <tbody id="province-capacity-detail-body"><tr><td colspan="8">加载省级装机数据...</td></tr></tbody>
+            </table>
+          </div>
         </div>
       </section>
 
@@ -219,6 +212,6 @@
   </div>
   <script src="assets/workbench-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js?v=20260716-province-capacity-1"></script>
+  <script src="assets/app.js?v=20260717-consumption-axis-tooltip-5"></script>
 </body>
 </html>

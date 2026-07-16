@@ -7,6 +7,20 @@
     return Number(value).toLocaleString("zh-CN", { maximumFractionDigits: digits });
   };
 
+  const formatTimeLabel = (value) => {
+    const text = String(value ?? "");
+    const range = text.match(/^(\d{4})-(\d{2})~(\d{2})$/);
+    if (range) return `${range[1]}${range[2]}~${range[1]}${range[3]}`;
+    if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10).replace(/-/g, "");
+    if (/^\d{4}-\d{2}$/.test(text)) return text.replace("-", "");
+    return text;
+  };
+
+  const normalizeTimeText = (value) => String(value ?? "")
+    .replace(/\b(\d{4})-(\d{2})~(\d{2})\b/g, "$1$2~$1$3")
+    .replace(/\b(\d{4})-(\d{2})-(\d{2})\b/g, "$1$2$3")
+    .replace(/\b(\d{4})-(\d{2})\b/g, "$1$2");
+
   const pct = (value) => {
     if (value === null || value === undefined || value === "") return "-";
     const number = Number(value);
@@ -44,9 +58,54 @@
     return Number.isFinite(number) ? number : null;
   };
 
+  const colorizePercentMarkup = (text) => {
+    const escaped = String(text ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
+    return escaped.replace(/([+-]?\d+(?:\.\d+)?)%/g, (match, raw) => {
+      const value = Number(raw);
+      const className = value > 0 ? "pct-positive" : value < 0 ? "pct-negative" : "pct-neutral";
+      return `<span class="${className}">${match}</span>`;
+    });
+  };
+
   const setText = (id, text) => {
     const node = document.getElementById(id);
-    if (node) node.textContent = text;
+    if (node) node.innerHTML = colorizePercentMarkup(normalizeTimeText(text));
+  };
+
+  const installPercentColorizer = () => {
+    const colorize = (node) => {
+      if (!node) return;
+      if (node.nodeType === 3) {
+        const parent = node.parentElement;
+        if (!parent || parent.closest(".pct-positive, .pct-negative")) return;
+        const text = node.nodeValue || "";
+        const pattern = /([+-]?\d+(?:\.\d+)?)%/g;
+        if (!pattern.test(text)) return;
+        pattern.lastIndex = 0;
+        const fragment = document.createDocumentFragment();
+        let lastIndex = 0;
+        let match;
+        while ((match = pattern.exec(text))) {
+          if (match.index > lastIndex) fragment.append(document.createTextNode(text.slice(lastIndex, match.index)));
+          const span = document.createElement("span");
+          const value = Number(match[1]);
+          span.className = value > 0 ? "pct-positive" : value < 0 ? "pct-negative" : "pct-neutral";
+          span.textContent = match[0];
+          fragment.append(span);
+          lastIndex = match.index + match[0].length;
+        }
+        if (lastIndex < text.length) fragment.append(document.createTextNode(text.slice(lastIndex)));
+        parent.replaceChild(fragment, node);
+        return;
+      }
+      if (node.nodeType !== 1 || node.matches("script, style, .pct-positive, .pct-negative")) return;
+      [...node.childNodes].forEach(colorize);
+    };
+    colorize(document.body);
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => mutation.addedNodes.forEach(colorize));
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
   };
 
   const enhanceWideTables = () => {
@@ -72,7 +131,7 @@
 
   const chartInstances = new Map();
   const pendingCharts = new Map();
-  const chartColors = ["#607d98", "#c5a66f", "#89939b", "#7f8ea0", "#9d8064"];
+  const chartColors = ["#334e68", "#c85c54", "#2f7e86", "#d49a3a", "#7c78a7"];
 
   const renderChart = (id, option) => {
     const node = document.getElementById(id);
@@ -90,6 +149,7 @@
       color: chartColors,
       animationDuration: 500,
       textStyle: { fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif' },
+      tooltip: { ...tooltipStyle, trigger: "axis", axisPointer: { type: "line" } },
       ...option
     }, true);
     return chart;
@@ -116,7 +176,7 @@
   const axisStyle = {
     axisLine: { lineStyle: { color: "#d9e2e7" } },
     axisTick: { show: false },
-    axisLabel: { color: "#74808a", fontSize: 11 },
+    axisLabel: { color: "#74808a", fontSize: 11, formatter: formatTimeLabel },
     splitLine: { lineStyle: { color: "#e8eef1" } }
   };
 
@@ -127,6 +187,24 @@
     textStyle: { color: "#fff", fontSize: 12 },
     padding: [10, 12]
   };
+
+  const singleStackItemTooltip = (unit, digits = 1) => ({
+    ...tooltipStyle,
+    trigger: "item",
+    triggerOn: "mousemove",
+    axisPointer: { type: "none" },
+    formatter: (item) => {
+      const rawValue = item.value;
+      const value = rawValue === null || rawValue === undefined
+        ? "-"
+        : Number(rawValue).toLocaleString("zh-CN", { maximumFractionDigits: digits });
+      const suffix = rawValue === null || rawValue === undefined ? "" : ` ${unit}`;
+      return [
+        `<strong style="display:block;margin-bottom:8px;font-size:14px">${item.seriesName}</strong>`,
+        `<span style="display:flex;align-items:center;gap:8px">${item.marker}<span>${item.name}</span><strong style="margin-left:8px;font-size:14px">${value}${suffix}</strong></span>`
+      ].join("");
+    }
+  });
 
   const uniqueSorted = (rows, field) => [...new Set(rows.map((row) => row[field]).filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
@@ -458,7 +536,7 @@
         xAxis: { type: "category", boundaryGap: false, data: rows.map((row) => row.weekStart), ...axisStyle },
         yAxis: [
           { type: "value", name: "m3/s", nameTextStyle: { color: "#74808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#c85c54" }, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [
           { type: "inside", start: 0, end: 100 },
@@ -467,7 +545,7 @@
         series: [
           { name: "入库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.inflow), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
           { name: "出库", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.outflow), lineStyle: { width: 1.5, type: "dashed" }, tooltip: { valueFormatter: (value) => `${fmt(value)} m3/s` } },
-          { name: "入库同比", type: "line", yAxisIndex: 1, smooth: true, showSymbol: true, symbol: "circle", symbolSize: (value, params) => params.data?.clipped ? 8 : 0, connectNulls: false, data: inflowYoy, itemStyle: { color: "#a88752" }, lineStyle: { color: "#a88752", width: 1.8 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "入库同比", type: "line", yAxisIndex: 1, smooth: true, showSymbol: true, symbol: "circle", symbolSize: (value, params) => params.data?.clipped ? 8 : 0, connectNulls: false, data: inflowYoy, itemStyle: { color: "#c85c54" }, lineStyle: { color: "#c85c54", width: 1.8 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
     };
@@ -614,8 +692,8 @@
         return {
           value,
           itemStyle: isEstimate
-            ? { color: "#c5a66f", borderColor: "#9d8064", borderWidth: 2, borderType: "dashed", borderRadius: [5, 5, 0, 0] }
-            : { color: "#607d98", borderRadius: [5, 5, 0, 0] }
+            ? { color: "#d49a3a", borderColor: "#334e68", borderWidth: 2, borderType: "dashed", borderRadius: [5, 5, 0, 0] }
+            : { color: "#334e68", borderRadius: [5, 5, 0, 0] }
         };
       });
       renderChart("hydro-company-generation-chart", {
@@ -636,11 +714,11 @@
         xAxis: { type: "category", data: company.periods, ...axisStyle },
         yAxis: [
           { type: "value", name: company.unit, splitNumber: 4, nameTextStyle: { color: "#74808a" }, ...axisStyle },
-          { type: "value", position: "right", splitNumber: 4, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", position: "right", splitNumber: 4, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         series: [
           { name: "季度电量", type: "bar", barMaxWidth: 28, data: barData },
-          { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbol: "circle", symbolSize: 7, data: yoy, itemStyle: { color: "#c5a66f" }, lineStyle: { color: "#c5a66f", width: 2 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
+          { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbol: "circle", symbolSize: 7, data: yoy, itemStyle: { color: "#d49a3a" }, lineStyle: { color: "#d49a3a", width: 2 }, markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "rgba(197,166,111,.35)", type: "dashed" }, data: [{ yAxis: 0 }] } }
         ]
       });
       if (companyNote) companyNote.textContent = `${company.insight} 最新季度口径：${company.lastValueType || "测算值"}；区间/真值：${company.range} ${company.unit}；状态：${company.confidence}；误差备注：${company.mae}。`;
@@ -673,8 +751,8 @@
         barMaxWidth: 18,
         data: rankRows.map((row) => ({
           value: row.yoy,
-          itemStyle: { color: row.yoy >= 0 ? "#c5a66f" : "#607d98", borderRadius: row.yoy >= 0 ? [0, 5, 5, 0] : [5, 0, 0, 5] },
-          label: { show: true, position: row.yoy >= 0 ? "right" : "left", formatter: `${row.yoy > 0 ? "+" : ""}${row.yoy}%`, color: "#4f5f69", fontSize: 11 }
+          itemStyle: { color: row.yoy >= 0 ? "#d49a3a" : "#334e68", borderRadius: row.yoy >= 0 ? [0, 5, 5, 0] : [5, 0, 0, 5] },
+          label: { show: true, position: row.yoy >= 0 ? "right" : "left", formatter: `${row.yoy > 0 ? "+" : ""}${row.yoy}%`, color: "#334e68", fontSize: 11 }
         })),
         markLine: { silent: true, symbol: "none", label: { show: false }, lineStyle: { color: "#cfd9df" }, data: [{ xAxis: 0 }] }
       }]
@@ -815,7 +893,6 @@
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
           <td>${pct(row.spotWow)}</td>
-          <td>${row.source || "-"}</td>
         </tr>
       `).join("");
       if (spotLatestToggle) spotLatestToggle.textContent = spotLatestExpanded ? "收起" : `展开全部 ${data.spotWeeklyLatest.length}`;
@@ -893,11 +970,11 @@
         xAxis: { type: "category", boundaryGap: true, data: rows.map((row) => row.weekStart), ...axisStyle },
         yAxis: [
           { type: "value", name: "元/MWh", nameTextStyle: { color: "#74808a" }, scale: true, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#c85c54" }, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [
           { type: "inside", start: 0, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.14)" }
+          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(60,64,91,.14)" }
         ],
         series: [
           { name: "现货均价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.spotAvg), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
@@ -943,11 +1020,11 @@
         yAxis: { type: "value", name: "元/MWh", nameTextStyle: { color: "#74808a" }, scale: true, ...axisStyle },
         dataZoom: [
           { type: "inside", start: 0, end: 100 },
-          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(96,125,152,.14)" }
+          { type: "slider", height: 18, bottom: 18, borderColor: "#d9e2e7", fillerColor: "rgba(60,64,91,.14)" }
         ],
         series: [
           { name: "日前日均价", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.dayAheadAvg), lineStyle: { width: 2.5 }, areaStyle: { opacity: .08 } },
-          { name: "7日均线", type: "line", smooth: true, showSymbol: false, data: rolling7d, lineStyle: { width: 1.8, color: "#c5a66f" }, itemStyle: { color: "#c5a66f" } },
+          { name: "7日均线", type: "line", smooth: true, showSymbol: false, data: rolling7d, lineStyle: { width: 1.8, color: "#d49a3a" }, itemStyle: { color: "#d49a3a" } },
           { name: "煤电基准", type: "line", smooth: false, showSymbol: false, data: rows.map(() => benchmark), lineStyle: { width: 1.4, type: "dashed", color: "#74808a" }, itemStyle: { color: "#74808a" } }
         ]
       });
@@ -978,7 +1055,6 @@
           <td>${fmt(row.spotAvg, 1)}</td>
           <td>${row.spotYoy || "-"}</td>
           <td>${pct(row.spotWow)}</td>
-          <td>${row.source || "-"}</td>
         </tr>
       `).join("");
       if (spotHistoryToggle) spotHistoryToggle.textContent = spotHistoryExpanded ? "收起" : `展开全部 ${rows.length}`;
@@ -1053,7 +1129,6 @@
           <td>${fmt(row.dayAheadAvg, 1)}</td>
           <td>${row.nDays}${Number(row.nDays) < 7 ? "（未满周）" : ""}</td>
           <td>${pct(row.dayAheadWow)}</td>
-          <td>${row.source || "电碳全国日前"}</td>
         </tr>
       `).join("");
       if (dayAheadWeeklyToggle) dayAheadWeeklyToggle.textContent = dayAheadWeeklyExpanded ? "收起" : `展开全部 ${rows.length}`;
@@ -1121,7 +1196,7 @@
         xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
         yAxis: [
           { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#74808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#c85c54" }, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         dataZoom: [{ type: "inside", start: Math.max(0, 100 - (24 / Math.max(rows.length, 24)) * 100), end: 100 }],
         series: [
@@ -1196,7 +1271,7 @@
         xAxis: { type: "category", data: rows.map((row) => row.month), ...axisStyle },
         yAxis: [
           { type: "value", name: "元/MWh", scale: true, nameTextStyle: { color: "#74808a" }, ...axisStyle },
-          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#a88752" }, ...axisStyle, axisLabel: { color: "#a88752", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
+          { type: "value", name: "同比", position: "right", min: -yoy.axisMax, max: yoy.axisMax, nameTextStyle: { color: "#c85c54" }, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
         ],
         series: [
           { name: "总值", type: "line", smooth: true, showSymbol: false, data: rows.map((row) => row.total), lineStyle: { width: 2.6 }, areaStyle: { opacity: .08 } },
@@ -1272,16 +1347,24 @@
 
   const renderProvinceCapacity = () => {
     const monthlyRows = data.provincePowerMonthly || [];
-    const capacityRows = data.provinceInstalledCapacityAnnual || [];
+    const capacityRows = data.provinceInstalledCapacityMonthly || data.provinceInstalledCapacityAnnual || [];
     if (!monthlyRows.length) return;
     const fields = [
       { label: "总装机", field: "total" },
       { label: "水电", field: "hydro" },
       { label: "火电", field: "thermal" },
       { label: "风电", field: "wind" },
-      { label: "太阳能", field: "solar" },
+      { label: "太阳能（不含分布式）", field: "solar6000" },
       { label: "核电", field: "nuclear" }
     ];
+    const capacitySeriesColors = {
+      hydro: "#334e68",
+      thermal: "#d49a3a",
+      wind: "#2f7e86",
+      solar6000: "#c85c54",
+      nuclear: "#7c78a7",
+      solar: "#c85c54"
+    };
     const hasValue = (value) => value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
     const provinces = [...new Set(monthlyRows.map((row) => row.province))].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
     const yoyFor = (rows, index, field) => {
@@ -1303,27 +1386,29 @@
     const provinceSelect = document.getElementById("province-capacity-province");
     const renderProfile = (province) => {
       const provinceRows = monthlyRows.filter((row) => row.province === province).sort((a, b) => a.month.localeCompare(b.month));
-      const provinceCapacity = capacityRows.filter((row) => row.province === province).sort((a, b) => a.period.localeCompare(b.period));
+      const provinceCapacity = capacityRows
+        .filter((row) => row.province === province && !String(row.period || "").endsWith("-01"))
+        .sort((a, b) => a.period.localeCompare(b.period));
       const latestGeneration = provinceRows.filter((row) => hasValue(row.generation)).at(-1) || {};
       const latestConsumption = provinceRows.filter((row) => hasValue(row.consumption)).at(-1) || {};
       const latestCapacity = provinceCapacity.filter((row) => hasValue(row.total)).at(-1) || {};
 
       setText("province-capacity-period", `${province} · 滚动近两年`);
       setText("province-generation-latest", hasValue(latestGeneration.generation) ? `${fmt(latestGeneration.generation, 1)} 亿kWh` : "—");
-      setText("province-generation-note", latestGeneration.month ? `${latestGeneration.month} 当月值` : "暂无可靠值");
+      setText("province-generation-note", latestGeneration.month ? `${formatTimeLabel(latestGeneration.month)} 当月值` : "暂无可靠值");
       setText("province-consumption-latest", hasValue(latestConsumption.consumption) ? `${fmt(latestConsumption.consumption, 1)} 亿kWh` : "—");
-      setText("province-consumption-note", latestConsumption.month ? `${latestConsumption.month} 当月值` : "暂无可靠值");
+      setText("province-consumption-note", latestConsumption.month ? `${formatTimeLabel(latestConsumption.month)} 当月值` : "暂无可靠值");
       setText("province-capacity-latest", hasValue(latestCapacity.total) ? `${fmt(latestCapacity.total, 1)} 万kW` : "—");
-      setText("province-capacity-note", latestCapacity.period ? `${latestCapacity.period.slice(0, 7)} 全口径快照` : "暂无可靠值");
+      setText("province-capacity-note", latestCapacity.period ? `${formatTimeLabel(latestCapacity.period.slice(0, 7))} 月末值` : "暂无可靠值");
       setText("province-month-count", `${provinceRows.length} 期`);
       setText("province-power-trend-note", `${province}，当月值，单位：亿千瓦时`);
-      setText("province-capacity-profile-note", `${province}，按数据库实际披露日期展示`);
+        setText("province-capacity-profile-note", `${province}，月末装机结构，单位：万千瓦`);
 
       renderChart("province-power-trend-chart", {
         tooltip: { ...tooltipStyle, trigger: "axis", valueFormatter: (value) => value === null || value === undefined ? "—" : `${fmt(value, 1)} 亿千瓦时` },
         legend: { top: 8, textStyle: { color: "#74808a" } },
         grid: { left: 58, right: 24, top: 54, bottom: 42 },
-        xAxis: { type: "category", data: provinceRows.map((row) => row.month), ...axisStyle, axisLabel: { color: "#74808a", rotate: 35, interval: 2 } },
+        xAxis: { type: "category", data: provinceRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: 35, interval: 2 } },
         yAxis: { type: "value", name: "亿千瓦时", ...axisStyle },
         series: [
           { name: "发电量", type: "line", smooth: true, symbolSize: 6, connectNulls: false, data: provinceRows.map((row) => row.generation) },
@@ -1339,8 +1424,12 @@
         renderChart("province-power-trend-chart", {
           tooltip: { ...tooltipStyle, trigger: "axis" },
           legend: { top: 8, textStyle: { color: "#74808a" } },
-          grid: { left: 58, right: 58, top: 54, bottom: 42 },
-          xAxis: { type: "category", data: trendRows.map((row) => row.month), ...axisStyle, axisLabel: { color: "#74808a", rotate: 35, interval: 2 } },
+          grid: { left: 58, right: 58, top: 54, bottom: 76 },
+        xAxis: { type: "category", data: trendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, rotate: 35, interval: 2 } },
+          dataZoom: [
+            { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+            { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+          ],
           yAxis: [
             { type: "value", name: "亿千瓦时", ...axisStyle },
             { type: "value", name: "同比", ...axisStyle, axisLabel: { color: "#74808a", formatter: (value) => `${value}%` } }
@@ -1364,25 +1453,38 @@
         .map(({ label }) => label);
       const quality = missingLabels.length ? `缺失字段：${missingLabels.join("、")}。` : "六类字段完整。";
       const qualityDetail = latestCapacity.scopeNotes ? ` ${latestCapacity.scopeNotes}` : "";
-      setText("province-capacity-quality-note", `${quality}${qualityDetail} 全口径总装机目前主要为年末观测，未披露月份不插值。`);
+      setText("province-capacity-quality-note", `${quality}${qualityDetail} 装机按月末观测展示；太阳能含分布式全口径另列于明细表。`);
 
       renderChart("province-capacity-profile-chart", {
-        tooltip: {
-          ...tooltipStyle,
-          valueFormatter: (value) => value === null || value === undefined ? "—" : `${fmt(value, 1)} 万千瓦`
-        },
-        legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 58, right: 24, top: 58, bottom: 42 },
+        tooltip: singleStackItemTooltip("万千瓦"),
+        legend: { top: 8, left: "center", width: "92%", itemWidth: 13, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 10 } },
+        grid: { left: 58, right: 24, top: 72, bottom: 76 },
         xAxis: { type: "category", data: provinceCapacity.map((row) => row.period.slice(0, 7)), ...axisStyle },
+        dataZoom: [
+          { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+          { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+        ],
         yAxis: { type: "value", name: "万千瓦", ...axisStyle },
-        series: fields.slice(1).map(({ label, field }) => ({
+        series: [
+          ...fields.slice(1).map(({ label, field }) => ({
           name: label,
           type: "bar",
           stack: "装机结构",
           barMaxWidth: 54,
           emphasis: { focus: "series" },
+          itemStyle: { color: capacitySeriesColors[field] },
           data: provinceCapacity.map((row) => hasValue(row[field]) ? row[field] : null)
-        }))
+          })),
+          {
+            name: "太阳能（含分布式）",
+            type: "line",
+            smooth: true,
+            symbolSize: 5,
+            lineStyle: { width: 2.5, color: capacitySeriesColors.solar },
+            itemStyle: { color: capacitySeriesColors.solar },
+            data: provinceCapacity.map((row) => hasValue(row.solar) ? row.solar : null)
+          }
+        ]
       });
 
       const body = document.getElementById("province-capacity-body");
@@ -1392,7 +1494,7 @@
           const generationYoy = yoyFor(provinceRows, index, "generation");
           const consumptionYoy = yoyFor(provinceRows, index, "consumption");
           return `<tr>
-            <td>${row.month}</td>
+            <td>${formatTimeLabel(row.month)}</td>
             <td>${hasValue(row.generation) ? fmt(row.generation, 1) : "—"}</td>
             <td>${generationYoy === null ? "—" : pct(generationYoy)}</td>
             <td>${hasValue(row.consumption) ? fmt(row.consumption, 1) : "—"}</td>
@@ -1403,13 +1505,38 @@
         }).join("");
       }
 
-      setText("province-capacity-source", "发电量、用电量单位：亿千瓦时；装机单位：万千瓦。来源：iFinD EDB（2026-07-16 提取）；福建发电量已用 Wind EDB 交叉验证。“—”表示没有该月可靠观测值，不等于 0。");
+      const capacityBody = document.getElementById("province-capacity-detail-body");
+      if (capacityBody) {
+        capacityBody.innerHTML = provinceCapacity.slice().reverse().map((row) => `<tr>
+          <td>${formatTimeLabel(row.month || row.period)}</td>
+          <td>${hasValue(row.total) ? fmt(row.total, 1) : "—"}</td>
+          <td>${hasValue(row.thermal) ? fmt(row.thermal, 1) : "—"}</td>
+          <td>${hasValue(row.hydro) ? fmt(row.hydro, 1) : "—"}</td>
+          <td>${hasValue(row.nuclear) ? fmt(row.nuclear, 1) : "—"}</td>
+          <td>${hasValue(row.wind) ? fmt(row.wind, 1) : "—"}</td>
+          <td>${hasValue(row.solar) ? fmt(row.solar, 1) : "—"}</td>
+          <td>${hasValue(row.solar6000) ? fmt(row.solar6000, 1) : "—"}</td>
+        </tr>`).join("");
+      }
+
+      setText("province-capacity-source", "发电量、用电量单位：亿千瓦时；装机单位：万千瓦。装机来源：Wind EDB（2026-07-16 提取）；太阳能第二口径为全口径减分布式光伏累计并网容量。“—”表示没有该月可靠观测值，不等于 0。");
     };
     if (provinceSelect) {
       const selectedProvince = setSelectOptions(provinceSelect, provinces, provinces.includes("福建") ? "福建" : provinces[0]);
       provinceSelect.addEventListener("change", () => renderProfile(provinceSelect.value));
       renderProfile(selectedProvince);
     }
+  };
+
+  const normalizeVisibleTimeText = () => {
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach((node) => {
+      if (node.parentElement?.closest("script,style")) return;
+      const next = normalizeTimeText(node.nodeValue);
+      if (next !== node.nodeValue) node.nodeValue = next;
+    });
   };
 
   const renderPowerPage = () => {
@@ -1450,8 +1577,8 @@
           type: "bar",
           barMaxWidth: 18,
           data: balanceRows.map((row) => +(Number(row.totalYoy) - Number(row.capacity.totalYoy)).toFixed(1)),
-          itemStyle: { color: "#89939b", borderRadius: [4, 4, 0, 0] },
-          markLine: { silent: true, symbol: "none", lineStyle: { color: "#d6c7bc", type: "dashed" }, data: [{ yAxis: 0 }] }
+          itemStyle: { color: "#2f7e86", borderRadius: [4, 4, 0, 0] },
+          markLine: { silent: true, symbol: "none", lineStyle: { color: "#f4f1de", type: "dashed" }, data: [{ yAxis: 0 }] }
         },
         {
           name: "用电同比",
@@ -1459,8 +1586,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.totalYoy),
-          lineStyle: { width: 3, color: "#607d98" },
-          itemStyle: { color: "#607d98" }
+          lineStyle: { width: 3, color: "#334e68" },
+          itemStyle: { color: "#334e68" }
         },
         {
           name: "装机同比",
@@ -1468,8 +1595,8 @@
           smooth: true,
           symbolSize: 6,
           data: balanceRows.map((row) => row.capacity.totalYoy),
-          lineStyle: { width: 2, color: "#c5a66f" },
-          itemStyle: { color: "#c5a66f" }
+          lineStyle: { width: 2, color: "#d49a3a" },
+          itemStyle: { color: "#d49a3a" }
         }
       ]
     });
@@ -1478,8 +1605,12 @@
     renderChart("power-generation-trend-chart", {
       tooltip: { ...tooltipStyle, valueFormatter: (value) => value === null || value === undefined ? "-" : `${Number(value).toFixed(1)}%` },
       legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-      grid: { left: 48, right: 24, top: 58, bottom: 42 },
+      grid: { left: 48, right: 24, top: 58, bottom: 72 },
       xAxis: { type: "category", data: generationTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
+      dataZoom: [
+        { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+        { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+      ],
       yAxis: { type: "value", name: "%", ...axisStyle },
       series: [
         ["火电", "thermalYoy"],
@@ -1503,10 +1634,14 @@
       setText("power-renewable-addition-share", `${additions.month} 风光占新增 ${renewableShare.toFixed(0)}%`);
     }
     renderChart("power-additions-trend-chart", {
-      tooltip: { ...tooltipStyle, valueFormatter: (value) => `${Number(value).toFixed(1)} GW` },
+      tooltip: singleStackItemTooltip("GW"),
       legend: { top: 8, itemWidth: 14, itemHeight: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-      grid: { left: 48, right: 24, top: 58, bottom: 42 },
+      grid: { left: 48, right: 24, top: 58, bottom: 72 },
       xAxis: { type: "category", data: additionsTrendRows.map((row) => row.month), ...axisStyle, axisLabel: { ...axisStyle.axisLabel, interval: 1 } },
+      dataZoom: [
+        { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+        { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+      ],
       yAxis: { type: "value", name: "GW", ...axisStyle },
       series: [
         ["水电", "hydro"],
@@ -1531,52 +1666,30 @@
       { label: "三产", field: "tertiary" },
       { label: "居民", field: "residential" }
     ];
-    const industryRows = data.powerConsumptionMonthly
-      .filter((row) => String(row.month || "").startsWith("2026-"))
-      .slice()
-      .reverse();
-    const latestIndustryCumulative = {
-      endMonth: "2026-06",
-      source: "国家能源局",
-      sourceDate: "2026-07-15",
-      values: { total: 50999, primary: 711, secondary: 33057, tertiary: 9916, residential: 7315 },
-      yoy: { total: 5.3, primary: 4.9, secondary: 5.1, tertiary: 8.0, residential: 3.1 }
-    };
-    const latestIndustryMonth = latestIndustryCumulative.endMonth;
-    const cumulativeEndMonths = [
-      `2026-${String(Math.max(1, Number(industryRows[0]?.month?.slice(5) || "03") - 1)).padStart(2, "0")}`,
-      ...industryRows.map((row) => row.month)
-    ];
-    const cumulativeIndustryRows = cumulativeEndMonths.map((endMonth) => {
-      const rowsAfterPeriod = industryRows.filter((row) => row.month > endMonth && row.month <= latestIndustryMonth);
-      return {
-        month: endMonth,
-        label: endMonth.endsWith("-02") ? "2026-01~02" : `2026-01~${endMonth.slice(5)}`,
-        values: Object.fromEntries(industryOptions.map((option) => [
-          option.field,
-          latestIndustryCumulative.values[option.field] - rowsAfterPeriod.reduce((sum, item) => sum + Number(item[option.field] || 0), 0)
-        ]))
-      };
-    });
+    const industryCumulativeRows = (data.powerConsumptionMonthly || [])
+      .filter((row) => row.total !== null && row.total !== undefined)
+      .sort((a, b) => a.month.localeCompare(b.month));
+    const industryCumulativeLookup = new Map((data.powerConsumptionMonthly || []).map((row) => [row.month, row]));
+    const cumulativeIndustryRows = industryCumulativeRows.map((row) => ({
+      month: row.month,
+      label: row.month,
+      values: Object.fromEntries(industryOptions.map((option) => [option.field, row[option.field]]))
+    }));
     const industrySelect = document.getElementById("power-industry-select");
     const renderIndustryChart = (label) => {
       const option = industryOptions.find((item) => item.label === label) || industryOptions[0];
       const values = cumulativeIndustryRows.map((row) => row.values[option.field]);
       const yoyValues = cumulativeIndustryRows.map((row) => {
-        if (row.month === latestIndustryMonth && latestIndustryCumulative.yoy[option.field] !== undefined) {
-          return latestIndustryCumulative.yoy[option.field];
-        }
-        const samePeriodLastYear = data.powerConsumptionMonthly
-          .filter((item) => item.month >= "2025-01" && item.month <= `2025-${row.month.slice(5)}`)
-          .reduce((sum, item) => sum + Number(item[option.field] || 0), 0);
-        if (!samePeriodLastYear) return null;
-        return +(((row.values[option.field] / samePeriodLastYear) - 1) * 100).toFixed(1);
+        const prior = industryCumulativeLookup.get(`${Number(row.month.slice(0, 4)) - 1}-${row.month.slice(5)}`);
+        const samePeriodLastYear = prior?.[option.field];
+        if (samePeriodLastYear === null || samePeriodLastYear === undefined || !Number(samePeriodLastYear)) return null;
+        return +(((Number(row.values[option.field]) / Number(samePeriodLastYear)) - 1) * 100).toFixed(1);
       });
       const latestIndex = cumulativeIndustryRows.length - 1;
       const latestRow = cumulativeIndustryRows[latestIndex] || {};
       const latestYoy = yoyValues[latestIndex];
       const latestValue = values[latestIndex];
-      setText("power-industry-note", latestRow.month ? `${latestRow.label} ${option.label}累计 ${fmt(latestValue)} 亿kWh，累计同比 ${pct(latestYoy)}` : "选择产业查看走势");
+      setText("power-industry-note", latestRow.month ? `${latestRow.month} ${option.label}当月 ${fmt(latestValue)} 亿kWh，同比 ${pct(latestYoy)}` : "选择产业查看走势");
       renderChart("power-industry-year-chart", {
         tooltip: {
           ...tooltipStyle,
@@ -1591,34 +1704,38 @@
           }
         },
         legend: { top: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 58, right: 58, top: 58, bottom: 42 },
-        xAxis: { type: "category", data: cumulativeIndustryRows.map((row) => row.label), ...axisStyle },
+        grid: { left: 58, right: 58, top: 58, bottom: 72 },
+        xAxis: { type: "category", data: cumulativeIndustryRows.map((row) => row.month), ...axisStyle },
+        dataZoom: [
+          { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+          { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+        ],
         yAxis: [
           { type: "value", name: "亿kWh", ...axisStyle },
-          { type: "value", name: "%", ...axisStyle, splitLine: { show: false } }
+          { type: "value", name: "%", min: 0, max: (value) => Math.ceil(Math.max(1, value.max) * 1.2), ...axisStyle, splitLine: { show: false } }
         ],
         series: [
           {
-            name: `${option.label}累计用电量`,
+            name: option.label,
             type: "bar",
             barMaxWidth: 28,
             data: values,
-            itemStyle: { color: "#607d98", borderRadius: [5, 5, 0, 0] }
+            itemStyle: { color: "#334e68", borderRadius: [5, 5, 0, 0] }
           },
           {
-            name: `${option.label}累计同比`,
+            name: "同比",
             type: "line",
             yAxisIndex: 1,
             smooth: true,
             symbolSize: 7,
             data: yoyValues,
-            lineStyle: { width: 3, color: "#c5a66f" },
-            itemStyle: { color: "#c5a66f" }
+            lineStyle: { width: 3, color: "#d49a3a" },
+            itemStyle: { color: "#d49a3a" }
           }
         ]
       });
     };
-    if (industrySelect && industryRows.length) {
+    if (industrySelect && industryCumulativeRows.length) {
       const selectedIndustry = setSelectOptions(industrySelect, industryOptions.map((item) => item.label), "二产");
       industrySelect.addEventListener("change", () => renderIndustryChart(industrySelect.value));
       renderIndustryChart(selectedIndustry);
@@ -1636,6 +1753,49 @@
       renderBars("power-consumption-bars", bars, Math.max(...bars.map((item) => item.value || 0)), "green");
     });
 
+    const consumptionStructureRows = (data.powerConsumptionMonthly || [])
+      .filter((row) => row.month)
+      .slice()
+      .sort((a, b) => a.month.localeCompare(b.month));
+    const consumptionStructureSeries = [
+      { name: "一产", field: "primary" },
+      { name: "二产", field: "secondary" },
+      { name: "三产", field: "tertiary" },
+      { name: "居民", field: "residential" }
+    ];
+    renderChart("power-consumption-structure-chart", {
+      tooltip: {
+        ...tooltipStyle,
+        trigger: "axis",
+        axisPointer: { type: "shadow" },
+        formatter: (params) => {
+          const items = Array.isArray(params) ? params : [params];
+          const month = items[0]?.axisValueLabel || items[0]?.axisValue || items[0]?.name || "";
+          return [month, ...items.map((item) => {
+            const value = item.value === null || item.value === undefined
+              ? "-"
+              : Number(item.value).toLocaleString("zh-CN", { maximumFractionDigits: 1 });
+            return `${item.marker}${item.seriesName}：<strong>${value} 亿kWh</strong>`;
+          })].join("<br>");
+        }
+      },
+      legend: { top: 8, textStyle: { color: "#74808a", fontSize: 11 } },
+      grid: { left: 58, right: 24, top: 58, bottom: 72 },
+      xAxis: { type: "category", data: consumptionStructureRows.map((row) => row.month), ...axisStyle },
+      dataZoom: [
+        { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+        { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+      ],
+      yAxis: { type: "value", name: "亿kWh", ...axisStyle },
+      series: consumptionStructureSeries.map((item) => ({
+        name: item.name,
+        type: "bar",
+        stack: "industry",
+        barMaxWidth: 28,
+        data: consumptionStructureRows.map((row) => row[item.field])
+      }))
+    });
+
     const powerSourceOptions = [
       { label: "火电", field: "thermal", yoyField: "thermalYoy" },
       { label: "水电", field: "hydro", yoyField: "hydroYoy" },
@@ -1644,11 +1804,9 @@
       { label: "太阳能", field: "solar", yoyField: "solarYoy" }
     ];
     const generationSourceRows = data.powerGenerationMonthly
-      .filter((row) => String(row.month || "").startsWith("2026-"))
       .slice()
       .reverse();
     const capacitySourceRows = data.installedCapacityMonthly
-      .filter((row) => String(row.month || "").startsWith("2026-"))
       .slice()
       .reverse();
 
@@ -1670,8 +1828,12 @@
           }
         },
         legend: { top: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 58, right: 54, top: 58, bottom: 40 },
+        grid: { left: 58, right: 54, top: 58, bottom: 72 },
         xAxis: { type: "category", data: generationSourceRows.map((row) => row.month), ...axisStyle },
+        dataZoom: [
+          { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+          { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+        ],
         yAxis: [
           { type: "value", name: "亿kWh", ...axisStyle },
           { type: "value", name: "%", ...axisStyle, splitLine: { show: false } }
@@ -1682,7 +1844,7 @@
             type: "bar",
             barMaxWidth: 24,
             data: generationSourceRows.map((row) => row.total),
-            itemStyle: { color: "#607d98", borderRadius: [5, 5, 0, 0] }
+            itemStyle: { color: "#334e68", borderRadius: [5, 5, 0, 0] }
           },
           {
             name: `${source.label}同比`,
@@ -1691,8 +1853,8 @@
             smooth: true,
             symbolSize: 7,
             data: generationSourceRows.map((row) => row[source.yoyField]),
-            lineStyle: { width: 3, color: "#c5a66f" },
-            itemStyle: { color: "#c5a66f" }
+            lineStyle: { width: 3, color: "#d49a3a" },
+            itemStyle: { color: "#d49a3a" }
           }
         ]
       });
@@ -1727,8 +1889,12 @@
           }
         },
         legend: { top: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 58, right: 54, top: 58, bottom: 40 },
+        grid: { left: 58, right: 54, top: 58, bottom: 72 },
         xAxis: { type: "category", data: capacitySourceRows.map((row) => row.month), ...axisStyle },
+        dataZoom: [
+          { type: "inside", xAxisIndex: 0, start: 0, end: 100 },
+          { type: "slider", xAxisIndex: 0, bottom: 12, height: 18, brushSelect: false }
+        ],
         yAxis: [
           { type: "value", name: "亿kW", ...axisStyle },
           { type: "value", name: "%", ...axisStyle, splitLine: { show: false } }
@@ -1739,7 +1905,7 @@
             type: "bar",
             barMaxWidth: 24,
             data: values,
-            itemStyle: { color: "#607d98", borderRadius: [5, 5, 0, 0] }
+            itemStyle: { color: "#334e68", borderRadius: [5, 5, 0, 0] }
           },
           {
             name: `${source.label}同比`,
@@ -1748,8 +1914,8 @@
             smooth: true,
             symbolSize: 7,
             data: yoyValues,
-            lineStyle: { width: 3, color: "#c5a66f" },
-            itemStyle: { color: "#c5a66f" }
+            lineStyle: { width: 3, color: "#d49a3a" },
+            itemStyle: { color: "#d49a3a" }
           }
         ]
       });
@@ -1839,6 +2005,7 @@
   };
 
   document.addEventListener("DOMContentLoaded", () => {
+    installPercentColorizer();
     setupPageRange("hydro-history-range", "workbench-range-hydro", [
       { key: "hydroWeeklyHistory", field: "weekStart" }
     ]);
@@ -1860,7 +2027,13 @@
     renderHydroPage();
     renderPricePage();
     renderPowerPage();
+    const nationalMonthlyPanel = document.getElementById("power-monthly-panel");
+    const provinceCapacitySection = document.getElementById("province-capacity-section");
+    if (nationalMonthlyPanel && provinceCapacitySection) {
+      provinceCapacitySection.parentNode.insertBefore(nationalMonthlyPanel, provinceCapacitySection);
+    }
     enhanceWideTables();
+    normalizeVisibleTimeText();
     waitForEcharts();
     let resizeTimer = null;
     window.addEventListener("resize", () => {

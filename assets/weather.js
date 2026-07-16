@@ -1,6 +1,15 @@
 (() => {
   const d = window.WEATHER_DATA; if (!d) return;
   const n = (v, digits=1) => v === null || v === undefined ? '-' : Number(v).toFixed(digits);
+  const date8 = value => String(value || '-').replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$1$2$3');
+  const normalizeDates = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => { const next = node.nodeValue.replace(/\b(\d{4})-(\d{2})-(\d{2})\b/g, '$1$2$3').replace(/\b(\d{4})-(\d{2})\b/g, '$1$2'); if (next !== node.nodeValue) node.nodeValue = next; });
+  };
+  const dateObserver = new MutationObserver(() => normalizeDates(document.body));
+  dateObserver.observe(document.body, { childList: true, subtree: true, characterData: true });
   const signed = (v, unit='') => v === null || v === undefined ? '-' : `${v > 0 ? '+' : ''}${n(v)}${unit}`;
   const tempTone = (v) => v > 1 ? 'up' : v < -1 ? 'down' : 'muted';
   document.getElementById('weather-hero-date').textContent = d.weekEnd || '-';
@@ -55,15 +64,15 @@
     const compactChart = window.matchMedia('(max-width: 720px)').matches;
     chart.setOption({
       animation:false,
-      color:['#526f89','#9aa8b1','#c5a66f'],
+      color:['#334e68','#2f7e86','#d49a3a'],
       tooltip:{trigger:'axis',backgroundColor:'rgba(42,52,60,.94)',borderWidth:0,textStyle:{color:'#fff'},formatter:items => `${items[0].axisValue}<br>${items.map(i => `${i.marker}${i.seriesName}：${i.value === null ? '-' : `${Number(i.value).toFixed(1)}°C`}`).join('<br>')}`},
       legend:{top:compactChart ? 2 : 8,right:compactChart ? 2 : 16,itemWidth:22,itemHeight:8,textStyle:{color:'#74808a',fontSize:11}},grid:{left:compactChart ? 40 : 58,right:compactChart ? 40 : 66,top:compactChart ? 42 : 54,bottom:compactChart ? 50 : 72},
-      xAxis:{type:'category',boundaryGap:true,data:series.map(r=>r.weekStart),axisTick:{show:false},axisLine:{lineStyle:{color:'#d9e2e7'}},axisLabel:{color:'#74808a',fontSize:11,hideOverlap:true}},
-      yAxis:[{type:'value',name:'气温 °C',scale:true,nameTextStyle:{color:'#74808a'},axisLabel:{color:'#74808a',fontSize:11,formatter:'{value}°'},axisLine:{show:false},axisTick:{show:false},splitLine:{lineStyle:{color:'#edf1f3'}}},{type:'value',name:'同比 °C',position:'right',min:-yoyLimit,max:yoyLimit,nameTextStyle:{color:'#a88752'},axisLabel:{color:'#a88752',fontSize:11,formatter:'{value}°'},axisLine:{show:false},axisTick:{show:false},splitLine:{show:false}}],
-      dataZoom:[{type:'inside',start:zoomStart,end:100},{type:'slider',start:zoomStart,end:100,height:compactChart ? 14 : 18,bottom:compactChart ? 8 : 18,borderColor:'#d9e2e7',backgroundColor:'#f6f8f9',fillerColor:'rgba(96,125,152,.14)',handleStyle:{color:'#607d98'}}],
+      xAxis:{type:'category',boundaryGap:true,data:series.map(r=>r.weekStart),axisTick:{show:false},axisLine:{lineStyle:{color:'#d9e2e7'}},axisLabel:{color:'#74808a',fontSize:11,hideOverlap:true,formatter:date8}},
+      yAxis:[{type:'value',name:'气温 °C',scale:true,nameTextStyle:{color:'#74808a'},axisLabel:{color:'#74808a',fontSize:11,formatter:'{value}°'},axisLine:{show:false},axisTick:{show:false},splitLine:{lineStyle:{color:'#edf1f3'}}},{type:'value',name:'同比 °C',position:'right',min:-yoyLimit,max:yoyLimit,nameTextStyle:{color:'#c85c54'},axisLabel:{color:'#c85c54',fontSize:11,formatter:'{value}°'},axisLine:{show:false},axisTick:{show:false},splitLine:{show:false}}],
+      dataZoom:[{type:'inside',start:zoomStart,end:100},{type:'slider',start:zoomStart,end:100,height:compactChart ? 14 : 18,bottom:compactChart ? 8 : 18,borderColor:'#d9e2e7',backgroundColor:'#f6f8f9',fillerColor:'rgba(60,64,91,.14)',handleStyle:{color:'#334e68'}}],
       series:[
-        {name:'周均温',type:'line',smooth:.28,showSymbol:false,data:series.map(r=>r.temperature),lineStyle:{width:2.8,color:'#526f89'},areaStyle:{color:'rgba(96,125,152,.10)'},z:3},
-        {name:'十年同期均值',type:'line',smooth:.28,showSymbol:false,data:climateLine,lineStyle:{width:1.6,type:'dashed',color:'#9aa8b1'},z:2},
+        {name:'周均温',type:'line',smooth:.28,showSymbol:false,data:series.map(r=>r.temperature),lineStyle:{width:2.8,color:'#334e68'},areaStyle:{color:'rgba(60,64,91,.10)'},z:3},
+        {name:'十年同期均值',type:'line',smooth:.28,showSymbol:false,data:climateLine,lineStyle:{width:1.6,type:'dashed',color:'#2f7e86'},z:2},
         {name:'温度同比',type:'bar',yAxisIndex:1,barMaxWidth:7,data:series.map(r=>r.temperatureYoy === null ? null : ({value:r.temperatureYoy,itemStyle:{color:r.temperatureYoy >= 0 ? 'rgba(197,166,111,.48)' : 'rgba(96,125,152,.24)',borderRadius:r.temperatureYoy >= 0 ? [2,2,0,0] : [0,0,2,2]}})),markLine:{silent:true,symbol:'none',label:{show:false},lineStyle:{color:'rgba(197,166,111,.32)',type:'dashed'},data:[{yAxis:0}]},z:1}
       ]
     });

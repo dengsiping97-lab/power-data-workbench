@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>电价与市场 · 电力数据研究工作台</title>
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
   <style>
     :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--shadow:0 10px 28px rgba(20,32,38,.08)}
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
@@ -21,7 +23,7 @@
     .toolbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}.toolbar label{font-size:13px;color:var(--muted)}select{border:1px solid var(--line);background:#fff;color:var(--text);padding:8px 10px;border-radius:8px;font-size:14px;min-width:160px}.history-note{font-size:12px;color:var(--muted);margin-left:auto}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid{grid-template-columns:1fr}}@media(max-width:720px){main{padding:18px 14px 28px}nav{grid-template-columns:1fr 1fr}.topbar{flex-direction:column}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260717-grid-height-1">
   <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
@@ -86,25 +88,6 @@
         <div id="dayahead-history-chart" class="echart" role="img" aria-label="分省日前电价走势、七日均线与煤电基准图"></div>
       </section>
       <section>
-        <div class="section-head"><h2>分省现货周度价格</h2><button class="compact" id="spot-latest-toggle" type="button">展开全部</button></div>
-        <div class="section-body">
-          <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th><th>来源</th></tr></thead>
-            <tbody id="price-province-body"><tr><td colspan="8">加载电价与市场...</td></tr></tbody>
-          </table>
-        </div>
-      </section>
-      <section>
-        <div class="section-head"><h2>全国日前日度最新</h2><button class="compact" id="dayahead-latest-toggle" type="button">展开全部</button></div>
-        <div class="section-body">
-          <p class="chart-context-note">日前与实时为不同市场口径，单独展示，不并入实时周度均价。</p>
-          <table>
-            <thead><tr><th>省份</th><th>数据日期</th><th>日前均价</th><th>来源</th></tr></thead>
-            <tbody id="dayahead-latest-body"><tr><td colspan="4">加载全国日前数据...</td></tr></tbody>
-          </table>
-        </div>
-      </section>
-      <section>
         <div class="section-head"><h2>周度现货电价历史</h2><span class="pill">按省份查看</span></div>
         <div class="section-body">
           <div class="toolbar">
@@ -114,8 +97,8 @@
             <button class="compact" id="spot-history-toggle" type="button">展开全部</button>
           </div>
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th><th>来源</th></tr></thead>
-            <tbody id="price-weekly-history-body"><tr><td colspan="8">加载周度历史...</td></tr></tbody>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>现货均价</th><th>同比</th><th>环比</th></tr></thead>
+            <tbody id="price-weekly-history-body"><tr><td colspan="7">加载周度历史...</td></tr></tbody>
           </table>
         </div>
       </section>
@@ -129,8 +112,8 @@
             <button class="compact" id="dayahead-history-toggle" type="button">展开全部</button>
           </div>
           <table>
-            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>日前均价</th><th>有效天数</th><th>环比</th><th>来源</th></tr></thead>
-            <tbody id="dayahead-weekly-history-body"><tr><td colspan="8">加载日前周度历史...</td></tr></tbody>
+            <thead><tr><th>省份</th><th>燃煤标杆电价</th><th>截至日期</th><th>周期</th><th>日前均价</th><th>有效天数</th><th>环比</th></tr></thead>
+            <tbody id="dayahead-weekly-history-body"><tr><td colspan="7">加载日前周度历史...</td></tr></tbody>
           </table>
         </div>
       </section>
@@ -176,6 +159,6 @@
   </div>
   <script src="assets/workbench-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js?v=20260714-9"></script>
+  <script src="assets/app.js?v=20260717-tooltip-grid-height-1"></script>
 </body>
 </html>

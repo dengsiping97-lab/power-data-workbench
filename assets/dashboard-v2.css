@@ -77,6 +77,28 @@ a:focus-visible {
 
 .app { grid-template-columns: 232px minmax(0, 1fr); }
 
+@media (min-width: 1181px) {
+  .app {
+    display: grid;
+    grid-template-columns: 232px minmax(0, 1fr);
+  }
+
+  aside {
+    position: sticky !important;
+    top: 0;
+    width: auto;
+    height: 100vh !important;
+    overflow-y: auto;
+    box-shadow: 8px 0 24px rgba(38, 59, 72, .06);
+  }
+
+  main {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+}
+
 aside {
   color: var(--ink-800);
   background: linear-gradient(180deg, #e5edf2 0%, #dbe6ec 58%, #e2ebf0 100%);
@@ -527,9 +549,26 @@ main {
 }
 
 .grid {
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.power-chart-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.power-chart-grid > article:not(.wide),
+.power-year-consumption-grid > section,
+.grid > section {
+  height: auto;
+  overflow: visible;
 }
 .grid > *, .dashboard-charts > *, .hydro-chart-grid > *, .power-chart-grid > * { min-width: 0; }
+.dashboard-charts,
+.hydro-chart-grid,
+.power-chart-grid,
+.power-year-consumption-grid,
+.grid { align-items: stretch; }
+.dashboard-charts > *,
+.hydro-chart-grid > *,
+.power-chart-grid > *,
+.power-year-consumption-grid > *,
+.grid > * { height: auto; align-self: stretch; }
 
 .hydro-generation-grid {
   display: grid;
@@ -695,11 +734,38 @@ main {
 .signal-status.neutral { color: #8a7147; background: var(--amber-soft); }
 .echart.compact { height: 290px; }
 .power-year-consumption-card { margin-bottom: 18px; }
+.power-year-consumption-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+  margin-bottom: 18px;
+}
+.power-year-consumption-grid > * {
+  min-width: 0;
+  height: 100%;
+  margin-bottom: 0;
+  align-self: stretch;
+}
+.power-year-consumption-grid .chart-card {
+  display: flex;
+  flex-direction: column;
+}
+.power-year-consumption-grid .chart-card > .echart,
+.power-year-consumption-grid .chart-card > .section-body {
+  flex: 1 0 auto;
+}
 .power-year-consumption-card .toolbar {
   flex-wrap: nowrap;
   justify-content: flex-end;
 }
 .power-year-consumption-card select { min-width: 128px; }
+.power-industry-note {
+  margin: 0 20px 14px;
+  color: var(--ink-500, #74808a);
+  font-size: 12px;
+  line-height: 1.5;
+}
 .chart-fallback {
   display: grid;
   height: 100%;
@@ -893,7 +959,11 @@ tbody tr:hover { background: #eef3f6; }
   .dashboard-charts,
   .hydro-chart-grid,
   .hydro-generation-grid,
-  .power-chart-grid { grid-template-columns: 1fr; }
+  .power-chart-grid,
+  .power-year-consumption-grid { grid-template-columns: 1fr; }
+  .power-chart-grid > article:not(.wide),
+  .power-year-consumption-grid > section,
+  .grid > section { height: auto; }
   .signal-metrics,
   .event-list { grid-template-columns: 1fr; }
   .chart-card.wide { grid-column: auto; }
@@ -1258,13 +1328,14 @@ tbody tr:hover { background: #eef3f6; }
 }
 .province-capacity-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(360px, .85fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   margin-bottom: 16px;
 }
 .province-capacity-card { margin-bottom: 0; overflow: hidden; }
+.province-capacity-card .echart { height: 330px; }
 .province-rank-chart { height: 650px; }
-.province-monthly-chart { height: 390px; }
+.province-monthly-chart { height: 330px; }
 .province-profile-metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1321,6 +1392,68 @@ tbody tr:hover { background: #eef3f6; }
   .province-master-select select { flex: 1; min-width: 120px; }
   .province-profile-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 12px 12px 0; }
   .province-rank-chart { height: 560px !important; }
-  .province-monthly-chart { height: 340px !important; }
+  .province-monthly-chart { height: 300px !important; }
+  .province-capacity-card .echart { height: 300px !important; }
   .province-quality-note { margin: 0 12px 12px; }
 }
+
+@media (min-width: 721px) and (max-width: 1180px) {
+  .app {
+    display: grid !important;
+    grid-template-columns: 232px minmax(0, 1fr) !important;
+  }
+
+  aside {
+    position: sticky !important;
+    top: 0 !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+    overflow-y: auto;
+    align-self: start;
+    z-index: 5;
+  }
+
+  main {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+}
+
+/* Persistent desktop/tablet navigation: reserve real page space for the fixed sidebar. */
+@media (min-width: 721px) {
+  body {
+    padding-left: 232px !important;
+  }
+
+  .app {
+    display: block !important;
+    width: 100% !important;
+    min-height: 100vh;
+  }
+
+  aside {
+    display: block !important;
+    position: fixed !important;
+    inset: 0 auto 0 0 !important;
+    width: 232px !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+    overflow-y: auto !important;
+    z-index: 100 !important;
+  }
+
+  main {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+}
+
+/* Percentage text follows the market convention: gains red, declines green. */
+.pct-positive,
+.positive,
+.up { color: #c23b30 !important; }
+.pct-negative,
+.negative,
+.down { color: #267a52 !important; }

@@ -39702,918 +39702,1105 @@ window.WORKBENCH_DATA = {
     ],
     "publicWindow": {
         "label": "滚动近两年",
-        "cutoff": "2024-07-16",
+        "cutoff": "2024-02-01",
         "asOf": "2026-07-16"
     },
     "provinceInstalledCapacityAnnual": [
         {
             "province": "安徽",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 13937.7,
-            "hydro": 619,
-            "thermal": 6634.8,
-            "wind": 1058.5,
-            "solar": 5625.5,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 13937.7315,
+            "thermal": 6634.798,
+            "hydro": 619.0254,
+            "nuclear": null,
+            "wind": 1058.451,
+            "solar": 4303.5237,
+            "solar6000": 4303.5237,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "北京",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 1491,
-            "hydro": 101.1,
-            "thermal": 1156.1,
-            "wind": 23.7,
-            "solar": 210.2,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 124.2524,
+            "thermal": 1156.1071,
+            "hydro": 101.0965,
+            "nuclear": null,
+            "wind": 23.65,
+            "solar": 142.8087,
+            "solar6000": 142.8087,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "重庆",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 3917.8,
-            "hydro": 925.7,
-            "thermal": 2106,
-            "wind": 301,
-            "solar": 574.8,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 326.4792,
+            "thermal": 2106.0324,
+            "hydro": 925.6709,
+            "nuclear": null,
+            "wind": 301.005,
+            "solar": 441.6757,
+            "solar6000": 441.6757,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "福建",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 9665.9,
-            "hydro": 1713.7,
-            "thermal": 4151.3,
-            "wind": 844,
-            "solar": 1734.4,
-            "nuclear": 1287.4,
-            "dataSource": "iFinD EDB",
+            "total": 9665.8861,
+            "thermal": 4151.3301,
+            "hydro": 1713.7267,
+            "nuclear": 101.8667,
+            "wind": 844.035,
+            "solar": 1201.9943,
+            "solar6000": 1201.9943,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "甘肃",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 13232.7,
-            "hydro": 972,
-            "thermal": 3461.4,
-            "wind": 4093.8,
-            "solar": 3915,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 1036.8425,
+            "thermal": 3461.3585,
+            "hydro": 971.9906,
+            "nuclear": null,
+            "wind": 4093.76,
+            "solar": 3820.234,
+            "solar6000": 3820.234,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "广东",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 25651.7,
+            "total": 25651.6752,
+            "thermal": 13911.1542,
             "hydro": 2021.8,
-            "thermal": 13911.2,
-            "wind": 1847.4,
-            "solar": 6248,
-            "nuclear": 1617.8,
-            "dataSource": "iFinD EDB",
+            "nuclear": 134.8167,
+            "wind": 1852.9401,
+            "solar": 4701.6142,
+            "solar6000": 4701.6142,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": "2024 年风电未在本次精确查询中返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*），2025 年太阳能为光伏累计全口径，不能直接算同比。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "广西",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 11752.4,
-            "hydro": 2026.8,
-            "thermal": 3536.7,
-            "wind": 2462,
-            "solar": null,
-            "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "total": 979.3659,
+            "thermal": 3536.6662,
+            "hydro": 2026.7881,
+            "nuclear": 37.7667,
+            "wind": 2461.962,
+            "solar": 2646.2408,
+            "solar6000": 2646.2408,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [
-                "solar",
-                "nuclear"
-            ],
-            "scopeNotes": "2025 年太阳能无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*）。核电查询误匹配全国值，已剔除。"
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "贵州",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 10261.6,
-            "hydro": 2298,
-            "thermal": 4136.2,
-            "wind": 955.4,
-            "solar": 2845.6,
+            "total": 10162.2831,
+            "thermal": 4136.2351,
+            "hydro": 2298.017,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 955.448,
+            "solar": 2772.583,
+            "solar6000": 2772.583,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能为精确补查的累计值；2024 年太阳能来自“6000 千瓦及以上电厂”口径（*），不直接计算同比。核电误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "海南",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 2365.8,
-            "hydro": 153,
-            "thermal": 905.3,
-            "wind": 217.5,
-            "solar": null,
+            "total": 2115.211,
+            "thermal": 905.2634,
+            "hydro": 153.0023,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 217.45,
+            "solar": 839.4953,
+            "solar6000": 839.4953,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
-                "solar",
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*）。核电查询误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "河北",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 20533.3,
-            "hydro": 545,
-            "thermal": 5725.6,
-            "wind": 4839.9,
-            "solar": 8462.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 19573.3124,
+            "thermal": 5725.5764,
+            "hydro": 544.9501,
+            "nuclear": null,
+            "wind": 4839.853,
+            "solar": 7266.3662,
+            "solar6000": 7266.3662,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "河南",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 16576.9,
-            "hydro": 707.9,
-            "thermal": 7377.3,
-            "wind": 2618.2,
-            "solar": 5565.8,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 14639.6902,
+            "thermal": 7377.262,
+            "hydro": 707.8804,
+            "nuclear": null,
+            "wind": 2618.185,
+            "solar": 3936.3628,
+            "solar6000": 3936.3628,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "黑龙江",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 5612,
-            "hydro": 235.4,
-            "thermal": 2584.3,
-            "wind": 1875.1,
-            "solar": 917.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 5485.5253,
+            "thermal": 2584.3269,
+            "hydro": 235.3705,
+            "nuclear": null,
+            "wind": 1875.138,
+            "solar": 790.6899,
+            "solar6000": 790.6899,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "湖北",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 14164,
-            "hydro": 3814.6,
-            "thermal": 4543.4,
-            "wind": 1059,
-            "solar": 4484.5,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 13149.3498,
+            "thermal": 4543.3696,
+            "hydro": 3814.5686,
+            "nuclear": null,
+            "wind": 1058.99,
+            "solar": 3732.4216,
+            "solar6000": 3732.4216,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "湖南",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 9039.9,
-            "hydro": 1654.7,
-            "thermal": 3324.6,
-            "wind": 1316.8,
-            "solar": 2743.9,
+            "total": 9039.8948,
+            "thermal": 3324.5762,
+            "hydro": 1654.7082,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 1316.755,
+            "solar": 2067.0554,
+            "solar6000": 2067.0554,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "核电省级指标未返回，未采用误匹配的全国核电序列。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "吉林",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 5150.1,
-            "hydro": 649,
-            "thermal": 1894.1,
-            "wind": 1882.5,
-            "solar": 724.5,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 5054.6853,
+            "thermal": 1894.0689,
+            "hydro": 649.0167,
+            "nuclear": null,
+            "wind": 1882.486,
+            "solar": 629.1137,
+            "solar6000": 629.1137,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "江苏",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 24535.3,
-            "hydro": 400.1,
-            "thermal": 12002.8,
-            "wind": 2503.3,
-            "solar": 8968.4,
-            "nuclear": 660.8,
-            "dataSource": "iFinD EDB",
+            "total": 2044.6095,
+            "thermal": 12002.7724,
+            "hydro": 400.0998,
+            "nuclear": 55.0667,
+            "wind": 2503.2616,
+            "solar": 6834.6138,
+            "solar6000": 6834.6138,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "江西",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 7888,
-            "hydro": 680.5,
-            "thermal": 3628.4,
-            "wind": 706.7,
-            "solar": 2872.3,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 7397.2518,
+            "thermal": 3628.4296,
+            "hydro": 680.5233,
+            "nuclear": null,
+            "wind": 706.734,
+            "solar": 2381.5649,
+            "solar6000": 2381.5649,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "辽宁",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 9196.2,
-            "hydro": 485.7,
-            "thermal": 4224.6,
-            "wind": null,
-            "solar": 1554.6,
-            "nuclear": 671.3,
-            "dataSource": "iFinD EDB",
+            "total": 9139.3977,
+            "thermal": 4224.6429,
+            "hydro": 485.677,
+            "nuclear": 55.9395,
+            "wind": 2203.176,
+            "solar": 1239.4278,
+            "solar6000": 1239.4278,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [
-                "wind"
-            ],
-            "scopeNotes": "iFinD 同时返回两个总装机序列，本文采用与同批省份一致的“装机容量:总装机”序列；风电列未返回。"
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "内蒙古",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 29795.8,
-            "hydro": 244.7,
-            "thermal": 12607.8,
-            "wind": 10877.8,
-            "solar": null,
+            "total": null,
+            "thermal": null,
+            "hydro": 244.685,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 10877.845,
+            "solar": 5901.6065,
+            "solar6000": 5901.6065,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
-                "solar",
+                "total",
+                "thermal",
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能指标无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*），不与全口径直接比较。核电查询误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "宁夏",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 9120,
-            "hydro": 46.3,
-            "thermal": 3341.4,
-            "wind": 1551.4,
-            "solar": 4180.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 760.0033,
+            "thermal": 3341.43,
+            "hydro": 46.33,
+            "nuclear": null,
+            "wind": 1551.373,
+            "solar": 4092.7394,
+            "solar6000": 4092.7394,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": "iFinD 同时返回另一“总装机”序列；本文采用与五类分项加总一致的“发电装机容量:宁夏”序列。"
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "青海",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 8029.5,
-            "hydro": 1641,
-            "thermal": 580.4,
-            "wind": 1499.5,
-            "solar": 4308.6,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 8013.3849,
+            "thermal": 580.39,
+            "hydro": 1641.0175,
+            "nuclear": null,
+            "wind": 1499.515,
+            "solar": 4292.4624,
+            "solar6000": 4292.4624,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "山东",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 25742.9,
-            "hydro": 406.8,
-            "thermal": 12266.3,
-            "wind": 3013,
-            "solar": 9484.9,
-            "nuclear": 571.8,
-            "dataSource": "iFinD EDB",
+            "total": 25742.8698,
+            "thermal": 12266.3268,
+            "hydro": 406.8475,
+            "nuclear": null,
+            "wind": 3013.0365,
+            "solar": 7461.8924,
+            "solar6000": 7461.8924,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "山西",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 16734.2,
-            "hydro": 225.9,
-            "thermal": 8404.8,
-            "wind": 2833.1,
-            "solar": 4950.5,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 15909.6427,
+            "thermal": 8404.8287,
+            "hydro": 225.933,
+            "nuclear": null,
+            "wind": 2833.049,
+            "solar": 4445.832,
+            "solar6000": 4445.832,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "陕西",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 12820.3,
-            "hydro": 507.3,
-            "thermal": 6377.7,
-            "wind": 1732.5,
-            "solar": 4193,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 12351.8978,
+            "thermal": 6377.745,
+            "hydro": 507.2519,
+            "nuclear": null,
+            "wind": 1732.461,
+            "solar": 3734.4398,
+            "solar6000": 3734.4398,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "上海",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 3349.1,
+            "total": 3349.0857,
+            "thermal": 2586.7204,
             "hydro": null,
-            "thermal": 2586.7,
-            "wind": 137.2,
-            "solar": 625.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 437.397,
+            "solar6000": 437.397,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
-                "hydro"
+                "hydro",
+                "nuclear"
             ],
-            "scopeNotes": "水电指标未返回，未主观补零。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "四川",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 15662.4,
-            "hydro": 10111.7,
-            "thermal": 2643.4,
-            "wind": 927.3,
-            "solar": 1980.1,
+            "total": 1305.2001,
+            "thermal": 2643.3734,
+            "hydro": 10111.655,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 927.286,
+            "solar": 1760.6864,
+            "solar6000": 1760.6864,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "核电省级指标未返回，未采用误匹配的全国核电序列。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "天津",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 3292.1,
-            "hydro": 0.6,
-            "thermal": 1888.7,
-            "wind": 375,
-            "solar": 1027.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "西藏",
-            "period": "2025-12-31",
-            "total": 1157.9,
-            "hydro": 455.9,
-            "thermal": 49.2,
-            "wind": 83.2,
-            "solar": 578.5,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "新疆",
-            "period": "2025-12-31",
-            "total": 27494.1,
-            "hydro": 1119.4,
-            "thermal": 8327,
-            "wind": 7724.5,
-            "solar": 8410.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "云南",
-            "period": "2025-12-31",
-            "total": 17120.3,
-            "hydro": 8319,
-            "thermal": 1551.8,
-            "wind": 1763.3,
-            "solar": 5486.1,
+            "total": 3292.12,
+            "thermal": 1888.7086,
+            "hydro": 0.58,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 374.956,
+            "solar": 843.2744,
+            "solar6000": 843.2744,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能为精确补查的累计值；2024 年太阳能来自“6000 千瓦及以上电厂”口径（*），不直接计算同比。核电误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-12",
+            "period": "2025-12-31",
+            "total": 97.5834,
+            "thermal": 49.205,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 83.15,
+            "solar": 576.5107,
+            "solar6000": 576.5107,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-12",
+            "period": "2025-12-31",
+            "total": 26316.0884,
+            "thermal": 8327.0299,
+            "hydro": 1119.4264,
+            "nuclear": null,
+            "wind": 7724.4843,
+            "solar": 9131.7812,
+            "solar6000": 9131.7812,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-12",
+            "period": "2025-12-31",
+            "total": 17120.3347,
+            "thermal": 1551.8325,
+            "hydro": 8318.9729,
+            "nuclear": null,
+            "wind": 1763.266,
+            "solar": 5312.2633,
+            "solar6000": 5312.2633,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "浙江",
+            "month": "2025-12",
             "period": "2025-12-31",
-            "total": 17715.5,
-            "hydro": 1719.6,
-            "thermal": 7974.9,
-            "wind": 670.3,
-            "solar": 6429.4,
-            "nuclear": 920.4,
-            "dataSource": "iFinD EDB",
+            "total": 1476.2942,
+            "thermal": 7974.9457,
+            "hydro": 1719.631,
+            "nuclear": 76.7,
+            "wind": 670.3395,
+            "solar": 4668.0172,
+            "solar6000": 4668.0172,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "安徽",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 12143,
-            "hydro": 619,
-            "thermal": 6313,
-            "wind": 899,
-            "solar": 4311.3,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 12142.8145,
+            "thermal": 6313.4083,
+            "hydro": 619.0124,
+            "nuclear": null,
+            "wind": 899.12,
+            "solar": 3354.8404,
+            "solar6000": 3354.8404,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "北京",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 1408,
-            "hydro": 101,
-            "thermal": 1153,
-            "wind": 24,
-            "solar": 130.3,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 117.3205,
+            "thermal": 1152.7721,
+            "hydro": 101.0965,
+            "nuclear": null,
+            "wind": 23.65,
+            "solar": 89.594,
+            "solar6000": 89.594,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "重庆",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 3262,
-            "hydro": 918,
-            "thermal": 1794,
-            "wind": 241,
-            "solar": 305,
+            "total": 271.8231,
+            "thermal": 1793.8544,
+            "hydro": 917.5654,
             "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "wind": 240.706,
+            "solar": 242.2178,
+            "solar6000": 242.2178,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "福建",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 8864,
-            "hydro": 1720,
-            "thermal": 3861,
-            "wind": 803,
-            "solar": 1258.3,
-            "nuclear": 1287.4,
-            "dataSource": "iFinD EDB",
+            "total": 8864.4107,
+            "thermal": 3860.6248,
+            "hydro": 1720.0317,
+            "nuclear": 101.8667,
+            "wind": 803.035,
+            "solar": 864.3859,
+            "solar6000": 864.3859,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "甘肃",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 10434.6,
-            "hydro": 971,
-            "thermal": 2616,
-            "wind": 3215,
-            "solar": 3190.8,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 832.7557,
+            "thermal": 2616.0687,
+            "hydro": 971.4106,
+            "nuclear": null,
+            "wind": 3214.76,
+            "solar": 3129.5289,
+            "solar6000": 3129.5289,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "广东",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 22183,
-            "hydro": 1905,
-            "thermal": 12740,
-            "wind": null,
-            "solar": 1740,
-            "nuclear": 1614,
-            "dataSource": "iFinD EDB",
+            "total": 22182.5751,
+            "thermal": 12740.3218,
+            "hydro": 1904.7,
+            "nuclear": 134.4667,
+            "wind": 1808.41,
+            "solar": 3201.4433,
+            "solar6000": 3201.4433,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [
-                "wind"
-            ],
-            "scopeNotes": "2024 年风电未在本次精确查询中返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*），2025 年太阳能为光伏累计全口径，不能直接算同比。"
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "广西",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 9246,
-            "hydro": 1904,
-            "thermal": 3029,
-            "wind": 1808,
-            "solar": 1203,
-            "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "total": 770.4913,
+            "thermal": 3028.7812,
+            "hydro": 1903.8711,
+            "nuclear": 37.7667,
+            "wind": 1807.696,
+            "solar": 1731.1134,
+            "solar6000": 1731.1134,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [
-                "nuclear"
-            ],
-            "scopeNotes": "2025 年太阳能无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*）。核电查询误匹配全国值，已剔除。"
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "贵州",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 9032,
-            "hydro": 2298,
-            "thermal": 4000,
-            "wind": 748,
-            "solar": 1986,
+            "total": 8995.3876,
+            "thermal": 4000.292,
+            "hydro": 2298.452,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 747.566,
+            "solar": 1949.0776,
+            "solar6000": 1949.0776,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能为精确补查的累计值；2024 年太阳能来自“6000 千瓦及以上电厂”口径（*），不直接计算同比。核电误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "海南",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 1919,
-            "hydro": 151,
-            "thermal": 854,
-            "wind": 42,
-            "solar": 474,
+            "total": 1699.6524,
+            "thermal": 854.4234,
+            "hydro": 151.4173,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 42.45,
+            "solar": 651.3617,
+            "solar6000": 651.3617,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*）。核电查询误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "河北",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 17681.4,
-            "hydro": 544,
-            "thermal": 5585,
-            "wind": 3809,
-            "solar": 7250.4,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 17140.7558,
+            "thermal": 5584.9823,
+            "hydro": 543.8861,
+            "nuclear": null,
+            "wind": 3809.475,
+            "solar": 6232.9791,
+            "solar6000": 6232.9791,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "河南",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 14830.5,
-            "hydro": 563,
-            "thermal": 7421,
-            "wind": 2334,
-            "solar": 4349.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 13426.7528,
+            "thermal": 7420.562,
+            "hydro": 563.0694,
+            "nuclear": null,
+            "wind": 2333.745,
+            "solar": 3109.3764,
+            "solar6000": 3109.3764,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "黑龙江",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 5036,
-            "hydro": 235,
-            "thermal": 2577,
-            "wind": 1506,
-            "solar": 717.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 4953.6053,
+            "thermal": 2576.9269,
+            "hydro": 235.3705,
+            "nuclear": null,
+            "wind": 1506.223,
+            "solar": 635.0849,
+            "solar6000": 635.0849,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "湖北",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 12571.8,
-            "hydro": 3812,
-            "thermal": 4087,
-            "wind": 952,
-            "solar": 3510,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 11906.8171,
+            "thermal": 4086.7441,
+            "hydro": 3812.0462,
+            "nuclear": null,
+            "wind": 952.1,
+            "solar": 3055.9268,
+            "solar6000": 3055.9268,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "湖南",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 7648,
-            "hydro": 1637,
-            "thermal": 3017,
-            "wind": 1121,
-            "solar": 1873.4,
+            "total": 7648.4878,
+            "thermal": 3016.5241,
+            "hydro": 1637.246,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 1121.345,
+            "solar": 1410.9395,
+            "solar6000": 1410.9395,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "核电省级指标未返回，未采用误匹配的全国核电序列。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "吉林",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 4696,
-            "hydro": 649,
-            "thermal": 1891,
-            "wind": 1573,
-            "solar": 583,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 4628.7507,
+            "thermal": 1891.0689,
+            "hydro": 649.0167,
+            "nuclear": null,
+            "wind": 1572.646,
+            "solar": 516.0191,
+            "solar6000": 516.0191,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "江苏",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 20409,
-            "hydro": 310,
-            "thermal": 10952,
-            "wind": 2321,
-            "solar": 6164.7,
-            "nuclear": 661,
-            "dataSource": "iFinD EDB",
+            "total": 1700.772,
+            "thermal": 10952.1924,
+            "hydro": 310.0998,
+            "nuclear": 55.0667,
+            "wind": 2321.4566,
+            "solar": 4641.4813,
+            "solar6000": 4641.4813,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "江西",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 7062,
-            "hydro": 680,
-            "thermal": 3161,
-            "wind": 657,
-            "solar": 2563.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 6665.1386,
+            "thermal": 3160.9656,
+            "hydro": 680.0078,
+            "nuclear": null,
+            "wind": 656.734,
+            "solar": 2167.4312,
+            "solar6000": 2167.4312,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "辽宁",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 8122.3,
-            "hydro": 456,
-            "thermal": 4011,
-            "wind": null,
-            "solar": 1213.9,
-            "nuclear": 667.5,
-            "dataSource": "iFinD EDB",
+            "total": 8102.5001,
+            "thermal": 4010.7449,
+            "hydro": 455.51,
+            "nuclear": 55.6263,
+            "wind": 1754.789,
+            "solar": 990.0069,
+            "solar6000": 990.0069,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [
-                "wind"
-            ],
-            "scopeNotes": "iFinD 同时返回两个总装机序列，本文采用与同批省份一致的“装机容量:总装机”序列；风电列未返回。"
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "内蒙古",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 25772,
-            "hydro": 245,
-            "thermal": 12107,
-            "wind": 8599,
-            "solar": 4517,
+            "total": null,
+            "thermal": null,
+            "hydro": 244.685,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 8598.927,
+            "solar": 4718.1718,
+            "solar6000": 4718.1718,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
+                "total",
+                "thermal",
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能指标无返回；2024 年太阳能为“6000 千瓦及以上电厂”口径（*），不与全口径直接比较。核电查询误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "宁夏",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 7511,
-            "hydro": 43,
-            "thermal": 3335,
-            "wind": 1509,
-            "solar": 2624,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 625.888,
+            "thermal": 3334.83,
+            "hydro": 42.63,
+            "nuclear": null,
+            "wind": 1509.178,
+            "solar": 2565.7849,
+            "solar6000": 2565.7849,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": "iFinD 同时返回另一“总装机”序列；本文采用与五类分项加总一致的“发电装机容量:宁夏”序列。"
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "青海",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 6982,
-            "hydro": 1640,
-            "thermal": 412,
-            "wind": 1267,
-            "solar": 3663.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 6969.5764,
+            "thermal": 412.44,
+            "hydro": 1639.5865,
+            "nuclear": null,
+            "wind": 1267.1,
+            "solar": 3650.4499,
+            "solar6000": 3650.4499,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "山东",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 23229,
-            "hydro": 407,
-            "thermal": 12122,
-            "wind": 2669,
-            "solar": 7613.4,
-            "nuclear": 418.4,
-            "dataSource": "iFinD EDB",
+            "total": 23229.4286,
+            "thermal": 12121.9514,
+            "hydro": 406.8575,
+            "nuclear": null,
+            "wind": 2668.7815,
+            "solar": 5939.9049,
+            "solar6000": 5939.9049,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "山西",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 14710.4,
-            "hydro": 226,
-            "thermal": 8198,
-            "wind": 2616.5,
-            "solar": 3476.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 14191.3498,
+            "thermal": 8197.7417,
+            "hydro": 225.577,
+            "nuclear": null,
+            "wind": 2616.483,
+            "solar": 3151.5481,
+            "solar6000": 3151.5481,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "陕西",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 11697.4,
-            "hydro": 507,
-            "thermal": 6262,
-            "wind": 1495,
-            "solar": 3433,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "total": 11394.3703,
+            "thermal": 6262.025,
+            "hydro": 507.3351,
+            "nuclear": null,
+            "wind": 1495.073,
+            "solar": 3129.9372,
+            "solar6000": 3129.9372,
+            "dataSource": "Wind EDB",
             "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "上海",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 3060,
+            "total": 3060.1601,
+            "thermal": 2542.0898,
             "hydro": null,
-            "thermal": 2542,
-            "wind": 107,
-            "solar": 411.4,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 287.5686,
+            "solar6000": 287.5686,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
-                "hydro"
+                "hydro",
+                "nuclear"
             ],
-            "scopeNotes": "水电指标未返回，未主观补零。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "四川",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 13906,
-            "hydro": 9770,
-            "thermal": 2164,
-            "wind": 890,
-            "solar": 1082.3,
+            "total": 1158.8196,
+            "thermal": 2163.8708,
+            "hydro": 9770.0305,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 889.621,
+            "solar": 1017.9791,
+            "solar6000": 1017.9791,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "核电省级指标未返回，未采用误匹配的全国核电序列。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "天津",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 2838,
-            "hydro": 1,
-            "thermal": 1894,
-            "wind": 219,
-            "solar": 724.1,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "西藏",
-            "period": "2024-12-31",
-            "total": 919.6,
-            "hydro": 313,
-            "thermal": 43,
-            "wind": 53.2,
-            "solar": 413.9,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "新疆",
-            "period": "2024-12-31",
-            "total": 19237.1,
-            "hydro": 1112,
-            "thermal": 7708,
-            "wind": 4708,
-            "solar": 5350.6,
-            "nuclear": 0,
-            "dataSource": "iFinD EDB",
-            "confidence": "中",
-            "missingFields": [],
-            "scopeNotes": ""
-        },
-        {
-            "province": "云南",
-            "period": "2024-12-31",
-            "total": 15188,
-            "hydro": 8360,
-            "thermal": 1433,
-            "wind": 1671,
-            "solar": 3432,
+            "total": 2837.9069,
+            "thermal": 1893.7086,
+            "hydro": 0.58,
             "nuclear": null,
-            "dataSource": "iFinD EDB",
+            "wind": 219.484,
+            "solar": 599.8333,
+            "solar6000": 599.8333,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [
                 "nuclear"
             ],
-            "scopeNotes": "2025 年太阳能为精确补查的累计值；2024 年太阳能来自“6000 千瓦及以上电厂”口径（*），不直接计算同比。核电误匹配全国值，已剔除。"
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-12",
+            "period": "2024-12-31",
+            "total": 68.9527,
+            "thermal": 42.755,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 412.0477,
+            "solar6000": 412.0477,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-12",
+            "period": "2024-12-31",
+            "total": 19206.8261,
+            "thermal": 7707.5799,
+            "hydro": 1111.9219,
+            "nuclear": null,
+            "wind": 4707.5403,
+            "solar": 5670.8508,
+            "solar6000": 5670.8508,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-12",
+            "period": "2024-12-31",
+            "total": 15188.0856,
+            "thermal": 1433.0522,
+            "hydro": 8360.3584,
+            "nuclear": null,
+            "wind": 1671.451,
+            "solar": 3626.3907,
+            "solar6000": 3626.3907,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         },
         {
             "province": "浙江",
+            "month": "2024-12",
             "period": "2024-12-31",
-            "total": 14956,
-            "hydro": 1498,
-            "thermal": 7165,
-            "wind": 649,
-            "solar": 4727.5,
-            "nuclear": 917,
-            "dataSource": "iFinD EDB",
+            "total": 1246.3745,
+            "thermal": 7164.6273,
+            "hydro": 1497.8996,
+            "nuclear": 76.3833,
+            "wind": 649.0535,
+            "solar": 3429.6169,
+            "solar6000": 3429.6169,
+            "dataSource": "Wind EDB",
             "confidence": "中",
             "missingFields": [],
-            "scopeNotes": ""
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
         }
     ],
     "provincePowerMonthly": [
@@ -51932,5 +52119,15699 @@ window.WORKBENCH_DATA = {
             "solarGeneration"
         ],
         "sourceNote": "Wind EDB 分电源月度发电量；iFinD EDB 总发电量与用电量"
-    }
+    },
+    "provinceInstalledCapacityMonthly": [
+        {
+            "province": "安徽",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 11077.5785,
+            "thermal": 7097.286,
+            "hydro": 548.56,
+            "nuclear": null,
+            "wind": 1061.376,
+            "solar": 5875.4346,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 1150.145,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 233.8882,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 0,
+            "thermal": 2158.9,
+            "hydro": 800.706,
+            "nuclear": null,
+            "wind": 318.455,
+            "solar": 671.5966,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 7972.5047,
+            "thermal": 4149.3112,
+            "hydro": 1350.1995,
+            "nuclear": null,
+            "wind": 848.035,
+            "solar": 1858.052,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 3493.0987,
+            "hydro": 888.819,
+            "nuclear": null,
+            "wind": 4166.6,
+            "solar": 3993.2477,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 22154.1287,
+            "thermal": 14716.031,
+            "hydro": 1558.151,
+            "nuclear": null,
+            "wind": 1902.982,
+            "solar": 6723.3113,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 0,
+            "thermal": 3528.0632,
+            "hydro": 1873.6345,
+            "nuclear": null,
+            "wind": 2616.443,
+            "solar": 3345.9327,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 4028.3011,
+            "hydro": 2014.36,
+            "nuclear": null,
+            "wind": 1050.214,
+            "solar": 3005.3128,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 891.55,
+            "hydro": 126.6885,
+            "nuclear": null,
+            "wind": 222.45,
+            "solar": 987.197,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 16466.0589,
+            "thermal": 5796.8441,
+            "hydro": 587.085,
+            "nuclear": null,
+            "wind": 4919.354,
+            "solar": 8641.6063,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 7367.268,
+            "hydro": 721.813,
+            "nuclear": null,
+            "wind": 2639.685,
+            "solar": 6177.6408,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 2585.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1937.973,
+            "solar": 930.3056,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 4584.1555,
+            "hydro": 3694.726,
+            "nuclear": null,
+            "wind": 1072.133,
+            "solar": 4694.3399,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 6878.9399,
+            "thermal": 3341.8991,
+            "hydro": 1326.643,
+            "nuclear": null,
+            "wind": 1386.385,
+            "solar": 2900.8451,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 1894,
+            "hydro": 620.526,
+            "nuclear": null,
+            "wind": 1933.236,
+            "solar": 764.1045,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 0,
+            "thermal": 12174.2104,
+            "hydro": 395,
+            "nuclear": null,
+            "wind": 2500.463,
+            "solar": 9652.1282,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 3733.4,
+            "hydro": 466.859,
+            "nuclear": null,
+            "wind": 728.034,
+            "solar": 2956.7211,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 8481.7935,
+            "thermal": 4139.4393,
+            "hydro": 469.156,
+            "nuclear": null,
+            "wind": 2509.773,
+            "solar": 1601.6998,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 11333.877,
+            "solar": 6172.9608,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 0,
+            "thermal": 3474.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1565.978,
+            "solar": 4397.9363,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1535.08,
+            "solar": 4355.5564,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 19729.5797,
+            "thermal": 11918.0614,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 3255.17,
+            "solar": 9636.6632,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 8329.7128,
+            "hydro": 218.555,
+            "nuclear": null,
+            "wind": 2876.044,
+            "solar": 5110.6934,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 6346.48,
+            "hydro": 464.6724,
+            "nuclear": null,
+            "wind": 1774.12,
+            "solar": 4276.6549,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 2849.9127,
+            "thermal": 2644.4709,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 670.4604,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 2864.1208,
+            "hydro": 9992.22,
+            "nuclear": null,
+            "wind": 953.961,
+            "solar": 2522.3497,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 3002.7361,
+            "thermal": 1915.1806,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 399.586,
+            "solar": 1065.3156,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 47.805,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 85.15,
+            "solar": 593.2932,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "hydro",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 26927.0593,
+            "thermal": 8403.1088,
+            "hydro": 1093.6045,
+            "nuclear": null,
+            "wind": 8100.353,
+            "solar": 9413.8918,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": 15777.4042,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1823.741,
+            "solar": 6197.096,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-05",
+            "period": "2026-05",
+            "total": null,
+            "thermal": 8148.6192,
+            "hydro": 1623.713,
+            "nuclear": null,
+            "wind": 673.367,
+            "solar": 6746.0055,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 10889.9503,
+            "thermal": 6921.286,
+            "hydro": 548.56,
+            "nuclear": null,
+            "wind": 1061.376,
+            "solar": 5827.1543,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 1150.145,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 229.3164,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 0,
+            "thermal": 2158.9,
+            "hydro": 800.706,
+            "nuclear": null,
+            "wind": 318.455,
+            "solar": 647.7176,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 7965.0048,
+            "thermal": 4141.8112,
+            "hydro": 1350.1995,
+            "nuclear": null,
+            "wind": 848.035,
+            "solar": 1832.6365,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 3493.0987,
+            "hydro": 888.819,
+            "nuclear": null,
+            "wind": 4166.6,
+            "solar": 3952.3225,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 21485.6065,
+            "thermal": 14291.4458,
+            "hydro": 1530.278,
+            "nuclear": null,
+            "wind": 1895.467,
+            "solar": 6639.5201,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 0,
+            "thermal": 3523.4132,
+            "hydro": 1873.6345,
+            "nuclear": null,
+            "wind": 2602.003,
+            "solar": 3315.5149,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 4028.3011,
+            "hydro": 2014.36,
+            "nuclear": null,
+            "wind": 1046.839,
+            "solar": 2969.4952,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 891.55,
+            "hydro": 126.6885,
+            "nuclear": null,
+            "wind": 222.45,
+            "solar": 982.977,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 16415.6628,
+            "thermal": 5795.7441,
+            "hydro": 587.085,
+            "nuclear": null,
+            "wind": 4872.778,
+            "solar": 8603.9902,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 7365.768,
+            "hydro": 686.813,
+            "nuclear": null,
+            "wind": 2639.685,
+            "solar": 6021.1361,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 2585.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1939.673,
+            "solar": 926.7972,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 4592.8555,
+            "hydro": 3695.316,
+            "nuclear": null,
+            "wind": 1070.883,
+            "solar": 4665.0208,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 6854.2669,
+            "thermal": 3342.6491,
+            "hydro": 1326.643,
+            "nuclear": null,
+            "wind": 1361.16,
+            "solar": 2853.656,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 1894,
+            "hydro": 620.526,
+            "nuclear": null,
+            "wind": 1903.006,
+            "solar": 747.9177,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 0,
+            "thermal": 12163.7104,
+            "hydro": 395,
+            "nuclear": null,
+            "wind": 2500.463,
+            "solar": 9538.2953,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 3729.8,
+            "hydro": 466.739,
+            "nuclear": null,
+            "wind": 728.034,
+            "solar": 2955.4328,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 8431.1075,
+            "thermal": 4112.4393,
+            "hydro": 469.156,
+            "nuclear": null,
+            "wind": 2486.683,
+            "solar": 1593.3451,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 11271.677,
+            "solar": 6168.5632,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 0,
+            "thermal": 3474.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1565.078,
+            "solar": 4397.6163,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1533.68,
+            "solar": 4355.3564,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 19647.1297,
+            "thermal": 11904.0614,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 3194.92,
+            "solar": 9608.8899,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 8329.6128,
+            "hydro": 218.555,
+            "nuclear": null,
+            "wind": 2869.794,
+            "solar": 5083.1741,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 6346.48,
+            "hydro": 464.6724,
+            "nuclear": null,
+            "wind": 1759.894,
+            "solar": 4252.7409,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 2849.9127,
+            "thermal": 2644.4709,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 662.3722,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 2809.3708,
+            "hydro": 9902.534,
+            "nuclear": null,
+            "wind": 953.961,
+            "solar": 2499.0444,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 2992.5135,
+            "thermal": 1915.1806,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 390.791,
+            "solar": 1059.4731,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 46.995,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 85.15,
+            "solar": 593.2032,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "hydro",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 26817.0573,
+            "thermal": 8403.1088,
+            "hydro": 1091.9045,
+            "nuclear": null,
+            "wind": 8043.353,
+            "solar": 9361.9418,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": 15766.066,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1822.041,
+            "solar": 6176.202,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-04",
+            "period": "2026-04",
+            "total": null,
+            "thermal": 8147.2192,
+            "hydro": 1581.213,
+            "nuclear": null,
+            "wind": 667.396,
+            "solar": 6704.0847,
+            "solar6000": null,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "nuclear",
+                "solar6000"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 10855.7341,
+            "thermal": 6920.286,
+            "hydro": 548.56,
+            "nuclear": null,
+            "wind": 1058.876,
+            "solar": 5770.1199,
+            "solar6000": 4401.9199,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 1427.9569,
+            "thermal": 1151.4151,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 224.6085,
+            "solar6000": 152.4418,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 0,
+            "thermal": 2158.9,
+            "hydro": 800.706,
+            "nuclear": null,
+            "wind": 317.455,
+            "solar": 629.5038,
+            "solar6000": 474.3038,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 7965.0048,
+            "thermal": 4141.8112,
+            "hydro": 1350.1995,
+            "nuclear": null,
+            "wind": 848.035,
+            "solar": 1816.6971,
+            "solar6000": 1260.6971,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 12393.4736,
+            "thermal": 3493.0987,
+            "hydro": 888.819,
+            "nuclear": null,
+            "wind": 4156.6,
+            "solar": 3950.3226,
+            "solar6000": 3854.9559,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 21341.0987,
+            "thermal": 14291.4458,
+            "hydro": 1530.278,
+            "nuclear": null,
+            "wind": 1891.092,
+            "solar": 6543.7216,
+            "solar6000": 4909.2216,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 0,
+            "thermal": 3530.4632,
+            "hydro": 1873.6345,
+            "nuclear": null,
+            "wind": 2549.278,
+            "solar": 3314.7565,
+            "solar6000": 2684.8898,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 9926.0609,
+            "thermal": 4041.4651,
+            "hydro": 2014.36,
+            "nuclear": null,
+            "wind": 1036.254,
+            "solar": 2945.5151,
+            "solar6000": 2833.9818,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 2093.4755,
+            "thermal": 891.55,
+            "hydro": 126.6885,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 980.387,
+            "solar6000": 857.787,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 16333.4386,
+            "thermal": 5782.3441,
+            "hydro": 556.974,
+            "nuclear": null,
+            "wind": 4836.163,
+            "solar": 8567.3283,
+            "solar6000": 7332.6617,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 14834.8561,
+            "thermal": 7366.168,
+            "hydro": 686.813,
+            "nuclear": null,
+            "wind": 2639.685,
+            "solar": 5874.5235,
+            "solar6000": 4142.1901,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 5498.1868,
+            "thermal": 2585.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1890.298,
+            "solar": 924.5068,
+            "solar6000": 795.6068,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 13165.7061,
+            "thermal": 4592.8555,
+            "hydro": 3694.516,
+            "nuclear": null,
+            "wind": 1067.508,
+            "solar": 4615.1266,
+            "solar6000": 3810.8266,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 6816.8054,
+            "thermal": 3306.3491,
+            "hydro": 1329.143,
+            "nuclear": null,
+            "wind": 1361.515,
+            "solar": 2831.6782,
+            "solar6000": 2135.5782,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 5065.5868,
+            "thermal": 1894,
+            "hydro": 620.526,
+            "nuclear": null,
+            "wind": 1903.006,
+            "solar": 747.9881,
+            "solar6000": 648.0548,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 0,
+            "thermal": 12170.7808,
+            "hydro": 395,
+            "nuclear": null,
+            "wind": 2500.463,
+            "solar": 9458.0934,
+            "solar6000": 7248.2934,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 7329.6566,
+            "thermal": 3729.8,
+            "hydro": 466.739,
+            "nuclear": null,
+            "wind": 711.784,
+            "solar": 2933.3669,
+            "solar6000": 2421.3336,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 8308.1179,
+            "thermal": 4112.4393,
+            "hydro": 469.156,
+            "nuclear": null,
+            "wind": 2364.183,
+            "solar": 1589.9112,
+            "solar6000": 1262.9445,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 11175.677,
+            "solar": 6159.0501,
+            "solar6000": 5991.6501,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 0,
+            "thermal": 3408.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1565.078,
+            "solar": 4396.6031,
+            "solar6000": 4307.6698,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 8074.0531,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1533.68,
+            "solar": 4355.1564,
+            "solar6000": 4338.8231,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 19634.9063,
+            "thermal": 11978.8614,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 3127.645,
+            "solar": 9573.2403,
+            "solar6000": 7535.607,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 15944.8054,
+            "thermal": 8345.0128,
+            "hydro": 219.391,
+            "nuclear": null,
+            "wind": 2855.794,
+            "solar": 5048.2076,
+            "solar6000": 4524.6076,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 12326.0295,
+            "thermal": 6346.48,
+            "hydro": 464.6724,
+            "nuclear": null,
+            "wind": 1748.484,
+            "solar": 4239.0931,
+            "solar6000": 3766.3931,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 2849.9127,
+            "thermal": 2644.4709,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 653.8549,
+            "solar6000": 456.8882,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 15775.1889,
+            "thermal": 2801.9764,
+            "hydro": 9866.764,
+            "nuclear": null,
+            "wind": 953.961,
+            "solar": 2422.6542,
+            "solar6000": 2152.4875,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 2979.0341,
+            "thermal": 1915.1806,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 380.166,
+            "solar": 1052.834,
+            "solar6000": 862.5674,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": null,
+            "thermal": 46.995,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 85.15,
+            "solar": 588.2032,
+            "solar6000": 586.2032,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 26772.0373,
+            "thermal": 8403.1088,
+            "hydro": 1090.0235,
+            "nuclear": null,
+            "wind": 8028.514,
+            "solar": 9333.5994,
+            "solar6000": 9319.0994,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 15660.491,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1815.916,
+            "solar": 6068.9801,
+            "solar6000": 5883.9134,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-03",
+            "period": "2026-03",
+            "total": 15130.1229,
+            "thermal": 8044.5192,
+            "hydro": 1581.213,
+            "nuclear": null,
+            "wind": 667.396,
+            "solar": 6662.6947,
+            "solar6000": 4836.9947,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 10782.5319,
+            "thermal": 6853.229,
+            "hydro": 548.56,
+            "nuclear": null,
+            "wind": 1058.876,
+            "solar": 5710.5559,
+            "solar6000": 4342.3559,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 1427.758,
+            "thermal": 1153.3463,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 222.4783,
+            "solar6000": 150.3117,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 0,
+            "thermal": 2103.888,
+            "hydro": 800.706,
+            "nuclear": null,
+            "wind": 317.455,
+            "solar": 617.6663,
+            "solar6000": 462.4663,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 7964.7048,
+            "thermal": 4141.8112,
+            "hydro": 1350.1995,
+            "nuclear": null,
+            "wind": 848.035,
+            "solar": 1793.1913,
+            "solar6000": 1237.1913,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 12377.4736,
+            "thermal": 3493.0987,
+            "hydro": 888.819,
+            "nuclear": null,
+            "wind": 4141.6,
+            "solar": 3949.3225,
+            "solar6000": 3853.9559,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 21312.8257,
+            "thermal": 14292.2458,
+            "hydro": 1530.278,
+            "nuclear": null,
+            "wind": 1882.892,
+            "solar": 6473.0511,
+            "solar6000": 4838.5511,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 0,
+            "thermal": 3520.2632,
+            "hydro": 1873.6345,
+            "nuclear": null,
+            "wind": 2530.858,
+            "solar": 3308.9069,
+            "solar6000": 2679.0402,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 9908.8113,
+            "thermal": 4041.4651,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 1031.504,
+            "solar": 2932.7755,
+            "solar6000": 2821.2422,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 2102.3795,
+            "thermal": 897.95,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 980.651,
+            "solar6000": 858.051,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 16328.9744,
+            "thermal": 5789.8441,
+            "hydro": 556.974,
+            "nuclear": null,
+            "wind": 4819.728,
+            "solar": 8546.4786,
+            "solar6000": 7311.812,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 14753.4005,
+            "thermal": 7370.168,
+            "hydro": 686.813,
+            "nuclear": null,
+            "wind": 2639.685,
+            "solar": 5789.0678,
+            "solar6000": 4056.7345,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 5477.0661,
+            "thermal": 2586.39,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1870.298,
+            "solar": 922.7861,
+            "solar6000": 793.8861,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 13133.3009,
+            "thermal": 4595.5705,
+            "hydro": 3694.516,
+            "nuclear": null,
+            "wind": 1062.74,
+            "solar": 4584.7744,
+            "solar6000": 3780.4744,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 6875.1384,
+            "thermal": 3374.6491,
+            "hydro": 1329.143,
+            "nuclear": null,
+            "wind": 1352.855,
+            "solar": 2814.7148,
+            "solar6000": 2118.6148,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 5062.9262,
+            "thermal": 1894,
+            "hydro": 620.526,
+            "nuclear": null,
+            "wind": 1903.006,
+            "solar": 745.3275,
+            "solar6000": 645.3942,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 0,
+            "thermal": 12157.2808,
+            "hydro": 395,
+            "nuclear": null,
+            "wind": 2500.463,
+            "solar": 9369.6726,
+            "solar6000": 7159.8726,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 7207.93,
+            "thermal": 3620.5,
+            "hydro": 467.615,
+            "nuclear": null,
+            "wind": 711.784,
+            "solar": 2920.0643,
+            "solar6000": 2408.031,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 8256.7809,
+            "thermal": 4112.4393,
+            "hydro": 469.156,
+            "nuclear": null,
+            "wind": 2312.808,
+            "solar": 1581.1398,
+            "solar6000": 1254.1731,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 11056.677,
+            "solar": 6126.8041,
+            "solar6000": 5959.4041,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 0,
+            "thermal": 3405.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1565.078,
+            "solar": 4382.9631,
+            "solar6000": 4294.0298,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 8074.0531,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1533.68,
+            "solar": 4355.1564,
+            "solar6000": 4338.8231,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 19585.1921,
+            "thermal": 11977.6614,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 3081.52,
+            "solar": 9560.4267,
+            "solar6000": 7522.7934,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 15956.2104,
+            "thermal": 8370.0928,
+            "hydro": 219.391,
+            "nuclear": null,
+            "wind": 2851.419,
+            "solar": 5038.9076,
+            "solar6000": 4515.3076,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 12308.298,
+            "thermal": 6346.48,
+            "hydro": 464.6724,
+            "nuclear": null,
+            "wind": 1739.734,
+            "solar": 4230.1116,
+            "solar6000": 3757.4116,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 2849.9127,
+            "thermal": 2644.4709,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 648.7574,
+            "solar6000": 451.7908,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 15547.7912,
+            "thermal": 2748.8164,
+            "hydro": 9821.8025,
+            "nuclear": null,
+            "wind": 948.961,
+            "solar": 2298.3779,
+            "solar6000": 2028.2113,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 2971.305,
+            "thermal": 1915.1806,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 373.666,
+            "solar": 1050.13,
+            "solar6000": 859.8633,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": null,
+            "thermal": 46.995,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 85.15,
+            "solar": 588.2032,
+            "solar6000": 586.2032,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 26658.9623,
+            "thermal": 8387.1088,
+            "hydro": 1090.0235,
+            "nuclear": null,
+            "wind": 7931.439,
+            "solar": 9333.5291,
+            "solar6000": 9319.0291,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 15477.8239,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1793.561,
+            "solar": 5894.8976,
+            "solar6000": 5709.8309,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-02",
+            "period": "2026-02",
+            "total": 15081.0138,
+            "thermal": 8046.0192,
+            "hydro": 1581.853,
+            "nuclear": null,
+            "wind": 667.396,
+            "solar": 6611.4456,
+            "solar6000": 4785.7456,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1368.2,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -72.1667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -72.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -155.2,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -556,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -95.3667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -95.3667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1634.5,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -629.8667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -111.5333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -111.5333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -122.6,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -122.6,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1234.6667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -1732.3333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1732.3333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -128.9,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -128.9,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -804.3,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -804.3,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -696.1,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -99.9333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -99.9333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -2209.8,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -512.0333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -512.0333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -326.9667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": null,
+            "thermal": null,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -167.4,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -88.9333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -16.3333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -16.3333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -2037.6333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -523.6,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -523.6,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -472.7,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -472.7,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -196.9667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -270.1667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -270.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -190.2667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": null,
+            "thermal": 0,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -2,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -14.5,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -185.0667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2026-01",
+            "period": "2026-01",
+            "total": -1825.7,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1825.7,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 13937.7315,
+            "thermal": 6634.798,
+            "hydro": 619.0254,
+            "nuclear": null,
+            "wind": 1058.451,
+            "solar": 5625.4571,
+            "solar6000": 4303.5237,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 124.2524,
+            "thermal": 1156.1071,
+            "hydro": 101.0965,
+            "nuclear": null,
+            "wind": 23.65,
+            "solar": 210.1754,
+            "solar6000": 142.8087,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 326.4792,
+            "thermal": 2106.0324,
+            "hydro": 925.6709,
+            "nuclear": null,
+            "wind": 301.005,
+            "solar": 585.0424,
+            "solar6000": 441.6757,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 9665.8861,
+            "thermal": 4151.3301,
+            "hydro": 1713.7267,
+            "nuclear": 101.8667,
+            "wind": 844.035,
+            "solar": 1734.3943,
+            "solar6000": 1201.9943,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 1036.8425,
+            "thermal": 3461.3585,
+            "hydro": 971.9906,
+            "nuclear": null,
+            "wind": 4093.76,
+            "solar": 3915.0007,
+            "solar6000": 3820.234,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 25651.6752,
+            "thermal": 13911.1542,
+            "hydro": 2021.8,
+            "nuclear": 134.8167,
+            "wind": 1852.9401,
+            "solar": 6247.9808,
+            "solar6000": 4701.6142,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 979.3659,
+            "thermal": 3536.6662,
+            "hydro": 2026.7881,
+            "nuclear": 37.7667,
+            "wind": 2461.962,
+            "solar": 3273.7741,
+            "solar6000": 2646.2408,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 10162.2831,
+            "thermal": 4136.2351,
+            "hydro": 2298.017,
+            "nuclear": null,
+            "wind": 955.448,
+            "solar": 2871.9163,
+            "solar6000": 2772.583,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 2115.211,
+            "thermal": 905.2634,
+            "hydro": 153.0023,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 960.062,
+            "solar6000": 839.4953,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 19573.3124,
+            "thermal": 5725.5764,
+            "hydro": 544.9501,
+            "nuclear": null,
+            "wind": 4839.853,
+            "solar": 8462.9329,
+            "solar6000": 7266.3662,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 14639.6902,
+            "thermal": 7377.262,
+            "hydro": 707.8804,
+            "nuclear": null,
+            "wind": 2618.185,
+            "solar": 5565.7962,
+            "solar6000": 3936.3628,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 5485.5253,
+            "thermal": 2584.3269,
+            "hydro": 235.3705,
+            "nuclear": null,
+            "wind": 1875.138,
+            "solar": 917.1232,
+            "solar6000": 790.6899,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 13149.3498,
+            "thermal": 4543.3696,
+            "hydro": 3814.5686,
+            "nuclear": null,
+            "wind": 1058.99,
+            "solar": 4484.5216,
+            "solar6000": 3732.4216,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 9039.8948,
+            "thermal": 3324.5762,
+            "hydro": 1654.7082,
+            "nuclear": null,
+            "wind": 1316.755,
+            "solar": 2743.8554,
+            "solar6000": 2067.0554,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 5054.6853,
+            "thermal": 1894.0689,
+            "hydro": 649.0167,
+            "nuclear": null,
+            "wind": 1882.486,
+            "solar": 724.5137,
+            "solar6000": 629.1137,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 2044.6095,
+            "thermal": 12002.7724,
+            "hydro": 400.0998,
+            "nuclear": 55.0667,
+            "wind": 2503.2616,
+            "solar": 8968.3805,
+            "solar6000": 6834.6138,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 7397.2518,
+            "thermal": 3628.4296,
+            "hydro": 680.5233,
+            "nuclear": null,
+            "wind": 706.734,
+            "solar": 2872.2649,
+            "solar6000": 2381.5649,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 9139.3977,
+            "thermal": 4224.6429,
+            "hydro": 485.677,
+            "nuclear": 55.9395,
+            "wind": 2203.176,
+            "solar": 1554.6278,
+            "solar6000": 1239.4278,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": null,
+            "thermal": null,
+            "hydro": 244.685,
+            "nuclear": null,
+            "wind": 10877.845,
+            "solar": 6065.4732,
+            "solar6000": 5901.6065,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 760.0033,
+            "thermal": 3341.43,
+            "hydro": 46.33,
+            "nuclear": null,
+            "wind": 1551.373,
+            "solar": 4180.9061,
+            "solar6000": 4092.7394,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 8013.3849,
+            "thermal": 580.39,
+            "hydro": 1641.0175,
+            "nuclear": null,
+            "wind": 1499.515,
+            "solar": 4308.5957,
+            "solar6000": 4292.4624,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 25742.8698,
+            "thermal": 12266.3268,
+            "hydro": 406.8475,
+            "nuclear": null,
+            "wind": 3013.0365,
+            "solar": 9484.859,
+            "solar6000": 7461.8924,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 15909.6427,
+            "thermal": 8404.8287,
+            "hydro": 225.933,
+            "nuclear": null,
+            "wind": 2833.049,
+            "solar": 4950.532,
+            "solar6000": 4445.832,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 12351.8978,
+            "thermal": 6377.745,
+            "hydro": 507.2519,
+            "nuclear": null,
+            "wind": 1732.461,
+            "solar": 4193.0398,
+            "solar6000": 3734.4398,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 3349.0857,
+            "thermal": 2586.7204,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 625.1303,
+            "solar6000": 437.397,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 1305.2001,
+            "thermal": 2643.3734,
+            "hydro": 10111.655,
+            "nuclear": null,
+            "wind": 927.286,
+            "solar": 1980.0864,
+            "solar6000": 1760.6864,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 3292.12,
+            "thermal": 1888.7086,
+            "hydro": 0.58,
+            "nuclear": null,
+            "wind": 374.956,
+            "solar": 1027.8744,
+            "solar6000": 843.2744,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 97.5834,
+            "thermal": 49.205,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 83.15,
+            "solar": 578.5107,
+            "solar6000": 576.5107,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 26316.0884,
+            "thermal": 8327.0299,
+            "hydro": 1119.4264,
+            "nuclear": null,
+            "wind": 7724.4843,
+            "solar": 9145.1479,
+            "solar6000": 9131.7812,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 17120.3347,
+            "thermal": 1551.8325,
+            "hydro": 8318.9729,
+            "nuclear": null,
+            "wind": 1763.266,
+            "solar": 5486.0633,
+            "solar6000": 5312.2633,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-12",
+            "period": "2025-12",
+            "total": 1476.2942,
+            "thermal": 7974.9457,
+            "hydro": 1719.631,
+            "nuclear": 76.7,
+            "wind": 670.3395,
+            "solar": 6429.3839,
+            "solar6000": 4668.0172,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 10490.7911,
+            "thermal": 6654.419,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1051.591,
+            "solar": 5509.82,
+            "solar6000": 4187.8866,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 199.0554,
+            "solar6000": 131.6887,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 326.4792,
+            "thermal": 2088.588,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 291.375,
+            "solar": 561.5876,
+            "solar6000": 418.2209,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 7781.5944,
+            "thermal": 4141.7062,
+            "hydro": 1350.3195,
+            "nuclear": 101.8667,
+            "wind": 824.035,
+            "solar": 1674.2642,
+            "solar6000": 1141.8642,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 1036.8425,
+            "thermal": 3422.3487,
+            "hydro": 884.794,
+            "nuclear": null,
+            "wind": 3928.76,
+            "solar": 3834.0005,
+            "solar6000": 3739.2338,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 20542.2502,
+            "thermal": 13594.4458,
+            "hydro": 1530.278,
+            "nuclear": 134.8167,
+            "wind": 1844.8121,
+            "solar": 6099.3709,
+            "solar6000": 4553.0042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 979.3659,
+            "thermal": 3412.6132,
+            "hydro": 1752.4635,
+            "nuclear": 37.7667,
+            "wind": 2406.362,
+            "solar": 3234.8891,
+            "solar6000": 2607.3558,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 9739.3752,
+            "thermal": 4039.8651,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 938.617,
+            "solar": 2845.6264,
+            "solar6000": 2746.2931,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 2134.4927,
+            "thermal": 953.81,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 954.8709,
+            "solar6000": 834.3042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 15500.8213,
+            "thermal": 5674.9581,
+            "hydro": 556.974,
+            "nuclear": null,
+            "wind": 4438.957,
+            "solar": 8288.1971,
+            "solar6000": 7091.6305,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 14601.1651,
+            "thermal": 7520.668,
+            "hydro": 652.413,
+            "nuclear": null,
+            "wind": 2610.095,
+            "solar": 5447.4224,
+            "solar6000": 3817.9891,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 5312.4787,
+            "thermal": 2554.19,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1768.618,
+            "solar": 889.6121,
+            "solar6000": 763.1787,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 12755.754,
+            "thermal": 4323.4273,
+            "hydro": 3697.624,
+            "nuclear": null,
+            "wind": 1055.99,
+            "solar": 4430.8127,
+            "solar6000": 3678.7127,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 6494.4948,
+            "thermal": 3155.8991,
+            "hydro": 1329.143,
+            "nuclear": null,
+            "wind": 1261.792,
+            "solar": 2674.3413,
+            "solar6000": 1997.5413,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 4923.5609,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1793.746,
+            "solar": 714.2889,
+            "solar6000": 618.8889,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 2044.6095,
+            "thermal": 11653.0708,
+            "hydro": 395,
+            "nuclear": 55.0667,
+            "wind": 2403.563,
+            "solar": 8787.0621,
+            "solar6000": 6653.2954,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 6940.6786,
+            "thermal": 3422,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 700.734,
+            "solar": 2841.6296,
+            "solar6000": 2350.9296,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 8165.9413,
+            "thermal": 4176.4393,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2159.566,
+            "solar": 1536.9176,
+            "solar6000": 1221.7176,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 10018.965,
+            "solar": 5263.2372,
+            "solar6000": 5099.3706,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1529.748,
+            "solar": 4133.3132,
+            "solar6000": 4045.1465,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 7582.7989,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1432.68,
+            "solar": 3964.7022,
+            "solar6000": 3948.5689,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 19194.4955,
+            "thermal": 12106.7014,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2781.195,
+            "solar": 9272.2849,
+            "solar6000": 7249.3183,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 15786.5763,
+            "thermal": 8374.4928,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2805.049,
+            "solar": 4892.5835,
+            "solar6000": 4387.8835,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 12135.9766,
+            "thermal": 6362.48,
+            "hydro": 464.1474,
+            "nuclear": null,
+            "wind": 1668.946,
+            "solar": 4099.0031,
+            "solar6000": 3640.4031,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 2777.8132,
+            "thermal": 2581.0209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 600.0861,
+            "solar6000": 412.3528,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 1305.2001,
+            "thermal": 2517.4664,
+            "hydro": 9672.8928,
+            "nuclear": null,
+            "wind": 909.521,
+            "solar": 1694.4667,
+            "solar6000": 1475.0667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 2855.2132,
+            "thermal": 1887.2186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 319.649,
+            "solar": 1000.7367,
+            "solar6000": 816.1367,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 73.15,
+            "solar": 577.9182,
+            "solar6000": 575.9182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 24303.8246,
+            "thermal": 8375.4088,
+            "hydro": 1087.6125,
+            "nuclear": null,
+            "wind": 6382.53,
+            "solar": 8537.9067,
+            "solar6000": 8524.54,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 14860.1088,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1742.066,
+            "solar": 5288.7784,
+            "solar6000": 5114.9784,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-11",
+            "period": "2025-11",
+            "total": 1476.2942,
+            "thermal": 7779.2662,
+            "hydro": 1495.633,
+            "nuclear": 76.7,
+            "wind": 654.181,
+            "solar": 6270.9937,
+            "solar6000": 4509.627,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 10478.0809,
+            "thermal": 6658.319,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1044.626,
+            "solar": 5467.5391,
+            "solar6000": 4145.6058,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 195.2528,
+            "solar6000": 127.8861,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 326.4792,
+            "thermal": 2033.908,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 289.875,
+            "solar": 550.5192,
+            "solar6000": 407.1525,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 7700.5944,
+            "thermal": 4075.7062,
+            "hydro": 1350.3195,
+            "nuclear": 101.8667,
+            "wind": 814.035,
+            "solar": 1653.0401,
+            "solar6000": 1120.6401,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 1036.8425,
+            "thermal": 3281.9487,
+            "hydro": 884.414,
+            "nuclear": null,
+            "wind": 3830.8,
+            "solar": 3745.3002,
+            "solar6000": 3650.5335,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 20388.7972,
+            "thermal": 13494.4458,
+            "hydro": 1470.278,
+            "nuclear": 134.8167,
+            "wind": 1848.7221,
+            "solar": 5983.7159,
+            "solar6000": 4437.3492,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 979.3659,
+            "thermal": 3312.0911,
+            "hydro": 1751.7035,
+            "nuclear": 37.7667,
+            "wind": 2364.947,
+            "solar": 3005.1358,
+            "solar6000": 2377.6025,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 9680.844,
+            "thermal": 4039.7651,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 928.8215,
+            "solar": 2796.9907,
+            "solar6000": 2697.6574,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 2131.1127,
+            "thermal": 953.81,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 951.4909,
+            "solar6000": 830.9242,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 15344.5554,
+            "thermal": 5665.5581,
+            "hydro": 526.974,
+            "nuclear": null,
+            "wind": 4376.197,
+            "solar": 8200.7735,
+            "solar6000": 7004.2068,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 14463.7022,
+            "thermal": 7508.668,
+            "hydro": 652.413,
+            "nuclear": null,
+            "wind": 2599.095,
+            "solar": 5332.9595,
+            "solar6000": 3703.5262,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 5275.1611,
+            "thermal": 2554.19,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1752.993,
+            "solar": 867.9194,
+            "solar6000": 741.4861,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 12721.7571,
+            "thermal": 4319.4273,
+            "hydro": 3697.624,
+            "nuclear": null,
+            "wind": 1055.99,
+            "solar": 4400.8158,
+            "solar6000": 3648.7158,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 6458.0638,
+            "thermal": 3155.8991,
+            "hydro": 1323.143,
+            "nuclear": null,
+            "wind": 1233.206,
+            "solar": 2639.3858,
+            "solar6000": 1962.5858,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 4869.5534,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1749.856,
+            "solar": 704.1714,
+            "solar6000": 608.7714,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 2044.6095,
+            "thermal": 11636.3358,
+            "hydro": 395,
+            "nuclear": 55.0667,
+            "wind": 2353.103,
+            "solar": 8688.2514,
+            "solar6000": 6554.4847,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 6930.2397,
+            "thermal": 3422,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 700.734,
+            "solar": 2831.1907,
+            "solar6000": 2340.4907,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 8165.1513,
+            "thermal": 4177.7893,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2157.441,
+            "solar": 1526.2209,
+            "solar6000": 1211.0209,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9726.727,
+            "solar": 5212.303,
+            "solar6000": 5048.4363,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1527.798,
+            "solar": 3747.2632,
+            "solar6000": 3659.0965,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 7477.7989,
+            "thermal": 578.29,
+            "hydro": 1623.26,
+            "nuclear": null,
+            "wind": 1382.68,
+            "solar": 3909.7022,
+            "solar6000": 3893.5689,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 19138.9955,
+            "thermal": 12100.4014,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2764.195,
+            "solar": 9219.0849,
+            "solar6000": 7196.1182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 15705.7663,
+            "thermal": 8372.1928,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2773.963,
+            "solar": 4845.1595,
+            "solar6000": 4340.4595,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 12094.0769,
+            "thermal": 6359.98,
+            "hydro": 464.1474,
+            "nuclear": null,
+            "wind": 1661.216,
+            "solar": 4067.3335,
+            "solar6000": 3608.7335,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 2777.8132,
+            "thermal": 2581.0209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 584.5339,
+            "solar6000": 396.8006,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 1305.2001,
+            "thermal": 2517.4664,
+            "hydro": 9703.9045,
+            "nuclear": null,
+            "wind": 909.521,
+            "solar": 1677.2871,
+            "solar6000": 1457.8871,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 2844.0211,
+            "thermal": 1887.2186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 310.914,
+            "solar": 994.4513,
+            "solar6000": 809.8513,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 67.15,
+            "solar": 562.9182,
+            "solar6000": 560.9182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 23614.1246,
+            "thermal": 8335.4088,
+            "hydro": 1086.3325,
+            "nuclear": null,
+            "wind": 5976.82,
+            "solar": 8245.0727,
+            "solar6000": 8231.706,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 14786.3039,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1715.701,
+            "solar": 5229.8589,
+            "solar6000": 5056.0589,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-10",
+            "period": "2025-10",
+            "total": 1476.2942,
+            "thermal": 7595.5672,
+            "hydro": 1494.253,
+            "nuclear": 76.7,
+            "wind": 654.181,
+            "solar": 6182.531,
+            "solar6000": 4421.1643,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 10408.1134,
+            "thermal": 6595.299,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1040.876,
+            "solar": 5438.1414,
+            "solar6000": 4155.8747,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 192.5378,
+            "solar6000": 131.0712,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 326.4792,
+            "thermal": 2032.108,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 289.875,
+            "solar": 538.3693,
+            "solar6000": 407.3026,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 7691.4391,
+            "thermal": 4075.7062,
+            "hydro": 1350.3195,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1633.5905,
+            "solar6000": 1124.7572,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 1036.8425,
+            "thermal": 3146.9487,
+            "hydro": 882.084,
+            "nuclear": null,
+            "wind": 3780.8,
+            "solar": 3710.1287,
+            "solar6000": 3617.462,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 20285.7573,
+            "thermal": 13394.4458,
+            "hydro": 1470.278,
+            "nuclear": 134.8167,
+            "wind": 1858.7421,
+            "solar": 5889.0249,
+            "solar6000": 4451.9583,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 979.3659,
+            "thermal": 3244.0911,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 2349.3,
+            "solar": 2958.2994,
+            "solar6000": 2416.1994,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 9655.2795,
+            "thermal": 4039.7651,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 921.9055,
+            "solar": 2768.3423,
+            "solar6000": 2679.0089,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 2130.4536,
+            "thermal": 953.81,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 947.7984,
+            "solar6000": 830.2651,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 15221.2617,
+            "thermal": 5597.2581,
+            "hydro": 526.974,
+            "nuclear": null,
+            "wind": 4324.447,
+            "solar": 8152.1316,
+            "solar6000": 7002.4316,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 14422.6477,
+            "thermal": 7500.218,
+            "hydro": 592.413,
+            "nuclear": null,
+            "wind": 2599.095,
+            "solar": 5257.6217,
+            "solar6000": 3730.9217,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 5278.7088,
+            "thermal": 2574.19,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1735.493,
+            "solar": 863.5338,
+            "solar6000": 742.5338,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 12607.2016,
+            "thermal": 4215.8273,
+            "hydro": 3697.624,
+            "nuclear": null,
+            "wind": 1044.438,
+            "solar": 4362.5123,
+            "solar6000": 3649.3123,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 6440.2578,
+            "thermal": 3155.8991,
+            "hydro": 1323.143,
+            "nuclear": null,
+            "wind": 1217.17,
+            "solar": 2617.0768,
+            "solar6000": 1961.1102,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 4853.9318,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1731.746,
+            "solar": 701.2265,
+            "solar6000": 611.2598,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 2044.6095,
+            "thermal": 11634.0358,
+            "hydro": 372.5,
+            "nuclear": 55.0667,
+            "wind": 2353.103,
+            "solar": 8611.5123,
+            "solar6000": 6558.1123,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 6830.6216,
+            "thermal": 3322,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 700.734,
+            "solar": 2810.8393,
+            "solar6000": 2340.8726,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 8151.4513,
+            "thermal": 4177.7893,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2143.741,
+            "solar": 1511.6328,
+            "solar6000": 1210.7995,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9587.027,
+            "solar": 5100.6743,
+            "solar6000": 4948.1743,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1523.648,
+            "solar": 3530.3832,
+            "solar6000": 3444.6832,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 7380.4156,
+            "thermal": 512.29,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1352.68,
+            "solar": 3909.6522,
+            "solar6000": 3893.9856,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 19152.3647,
+            "thermal": 12143.1014,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2748.795,
+            "solar": 9172.7741,
+            "solar6000": 7180.1075,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 15677.6688,
+            "thermal": 8367.6428,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2752.688,
+            "solar": 4834.5537,
+            "solar6000": 4338.187,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 12072.3251,
+            "thermal": 6345.98,
+            "hydro": 464.1474,
+            "nuclear": null,
+            "wind": 1650.545,
+            "solar": 4050.7527,
+            "solar6000": 3611.6527,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 2777.8132,
+            "thermal": 2581.0209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 137.235,
+            "solar": 571.359,
+            "solar6000": 398.9923,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 1305.2001,
+            "thermal": 2372.4664,
+            "hydro": 9680.0275,
+            "nuclear": null,
+            "wind": 909.521,
+            "solar": 1638.7105,
+            "solar6000": 1448.2772,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 2843.5514,
+            "thermal": 1895.0186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 306.114,
+            "solar": 987.5582,
+            "solar6000": 810.0915,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 67.15,
+            "solar": 542.9182,
+            "solar6000": 541.1182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 22963.5846,
+            "thermal": 8323.4088,
+            "hydro": 1086.3325,
+            "nuclear": null,
+            "wind": 5542.28,
+            "solar": 8041.0412,
+            "solar6000": 8028.0412,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 14758.736,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1706.501,
+            "solar": 5200.6203,
+            "solar6000": 5040.887,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-09",
+            "period": "2025-09",
+            "total": 1476.2942,
+            "thermal": 7493.0672,
+            "hydro": 1494.253,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 6105.5938,
+            "solar6000": 4412.2605,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 10335.5246,
+            "thermal": 6527.299,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1039.626,
+            "solar": 5410.9591,
+            "solar6000": 4128.6924,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 188.9121,
+            "solar6000": 127.4455,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 326.4792,
+            "thermal": 1977.428,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 287.875,
+            "solar": 525.8581,
+            "solar6000": 394.7914,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 7632.0019,
+            "thermal": 4016.3062,
+            "hydro": 1350.3195,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1612.0871,
+            "solar6000": 1103.2537,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 1036.8425,
+            "thermal": 3046.9487,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3769.3,
+            "solar": 3661.1284,
+            "solar6000": 3568.4617,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 20253.1343,
+            "thermal": 13379.4978,
+            "hydro": 1440.278,
+            "nuclear": 134.8167,
+            "wind": 1871.0671,
+            "solar": 5813.263,
+            "solar6000": 4376.1963,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 979.3659,
+            "thermal": 3244.0911,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 2332.484,
+            "solar": 2937.1942,
+            "solar6000": 2395.0942,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 9581.2996,
+            "thermal": 3990.3371,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 913.0755,
+            "solar": 2752.6204,
+            "solar6000": 2663.287,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 2132.2036,
+            "thermal": 952.21,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 951.1484,
+            "solar6000": 833.6151,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 15212.1914,
+            "thermal": 5597.2581,
+            "hydro": 526.974,
+            "nuclear": null,
+            "wind": 4313.822,
+            "solar": 8118.5085,
+            "solar6000": 6968.8085,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 14297.8392,
+            "thermal": 7500.218,
+            "hydro": 592.413,
+            "nuclear": null,
+            "wind": 2569.095,
+            "solar": 5162.8132,
+            "solar6000": 3636.1132,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 5275.5294,
+            "thermal": 2574.19,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1735.493,
+            "solar": 860.3544,
+            "solar6000": 739.3544,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 12474.8742,
+            "thermal": 4116.1273,
+            "hydro": 3697.499,
+            "nuclear": null,
+            "wind": 1041.938,
+            "solar": 4332.5099,
+            "solar6000": 3619.3099,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 6434.7178,
+            "thermal": 3154.8991,
+            "hydro": 1320.843,
+            "nuclear": null,
+            "wind": 1214.93,
+            "solar": 2597.6139,
+            "solar6000": 1941.6472,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 4805.9515,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1688.576,
+            "solar": 696.4162,
+            "solar6000": 606.4495,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 2044.6095,
+            "thermal": 11395.1758,
+            "hydro": 372.5,
+            "nuclear": 55.0667,
+            "wind": 2353.103,
+            "solar": 8505.7261,
+            "solar6000": 6452.3261,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 6707.7508,
+            "thermal": 3222.04,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 700.734,
+            "solar": 2787.9285,
+            "solar6000": 2317.9618,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 8129.7563,
+            "thermal": 4177.7893,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2122.116,
+            "solar": 1503.9159,
+            "solar6000": 1203.0826,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9538.577,
+            "solar": 5046.636,
+            "solar6000": 4894.136,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1521.648,
+            "solar": 3528.8772,
+            "solar6000": 3443.1772,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 7380.3156,
+            "thermal": 512.29,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1352.68,
+            "solar": 3909.5522,
+            "solar6000": 3893.8856,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 18957.4607,
+            "thermal": 12108.1014,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2748.795,
+            "solar": 9144.6201,
+            "solar6000": 7151.9534,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 15645.7231,
+            "thermal": 8363.9928,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2740.038,
+            "solar": 4818.908,
+            "solar6000": 4322.5413,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 12055.422,
+            "thermal": 6345.98,
+            "hydro": 464.1474,
+            "nuclear": null,
+            "wind": 1650.045,
+            "solar": 4034.3496,
+            "solar6000": 3595.2496,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 2747.2132,
+            "thermal": 2581.0209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 561.0066,
+            "solar6000": 388.6399,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 1305.2001,
+            "thermal": 2369.5066,
+            "hydro": 9680.0275,
+            "nuclear": null,
+            "wind": 909.521,
+            "solar": 1608.6746,
+            "solar6000": 1418.2413,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 2818.3212,
+            "thermal": 1894.4186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 306.114,
+            "solar": 957.8687,
+            "solar6000": 780.402,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 63.15,
+            "solar": 537.9182,
+            "solar6000": 536.1182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 22836.7496,
+            "thermal": 8282.4088,
+            "hydro": 1085.1225,
+            "nuclear": null,
+            "wind": 5536.655,
+            "solar": 7961.994,
+            "solar6000": 7948.994,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 14717.778,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1691.136,
+            "solar": 5164.2858,
+            "solar6000": 5004.5525,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-08",
+            "period": "2025-08",
+            "total": 1476.2942,
+            "thermal": 7474.0172,
+            "hydro": 1464.253,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 6029.2585,
+            "solar6000": 4335.9251,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 10274.4022,
+            "thermal": 6468.599,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1037.82,
+            "solar": 5396.5724,
+            "solar6000": 4114.3057,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 186.4874,
+            "solar6000": 125.0207,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 326.4792,
+            "thermal": 1903.16,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 286,
+            "solar": 514.5839,
+            "solar6000": 383.5172,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 7631.2519,
+            "thermal": 4016.3062,
+            "hydro": 1349.5695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1596.9737,
+            "solar6000": 1088.1403,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 1036.8425,
+            "thermal": 2948.4487,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3585.47,
+            "solar": 3612.485,
+            "solar6000": 3519.8183,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 20247.1673,
+            "thermal": 13379.4978,
+            "hydro": 1440.278,
+            "nuclear": 134.8167,
+            "wind": 1871.1171,
+            "solar": 5756.969,
+            "solar6000": 4319.9023,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 979.3659,
+            "thermal": 3234.6111,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 2294.246,
+            "solar": 2913.254,
+            "solar6000": 2371.154,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 9389.2612,
+            "thermal": 3858.3371,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 905.8595,
+            "solar": 2699.7979,
+            "solar6000": 2610.4646,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 2142.0161,
+            "thermal": 960.21,
+            "hydro": 128.9285,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 952.9609,
+            "solar6000": 835.4276,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 15215.1726,
+            "thermal": 5635.7581,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 4279.012,
+            "solar": 8101.0476,
+            "solar6000": 6951.3476,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 14206.1298,
+            "thermal": 7465.218,
+            "hydro": 592.413,
+            "nuclear": null,
+            "wind": 2569.095,
+            "solar": 5106.1038,
+            "solar6000": 3579.4038,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 5275.4233,
+            "thermal": 2575.39,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1735.563,
+            "solar": 858.9783,
+            "solar6000": 737.9783,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 12447.5407,
+            "thermal": 4108.6273,
+            "hydro": 3697.499,
+            "nuclear": null,
+            "wind": 1041.938,
+            "solar": 4312.6764,
+            "solar6000": 3599.4764,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 6433.2705,
+            "thermal": 3154.8991,
+            "hydro": 1319.9755,
+            "nuclear": null,
+            "wind": 1214.93,
+            "solar": 2573.6006,
+            "solar6000": 1917.6339,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 4803.8167,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1688.576,
+            "solar": 694.2813,
+            "solar6000": 604.3147,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 2044.6095,
+            "thermal": 11428.3958,
+            "hydro": 372.5,
+            "nuclear": 55.0667,
+            "wind": 2345.453,
+            "solar": 8427.6446,
+            "solar6000": 6374.2446,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 6604.31,
+            "thermal": 3127.955,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 700.734,
+            "solar": 2778.5726,
+            "solar6000": 2308.606,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 8126.5063,
+            "thermal": 4176.2893,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2120.366,
+            "solar": 1497.7212,
+            "solar6000": 1196.8879,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9467.577,
+            "solar": 5021.1221,
+            "solar6000": 4868.6221,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 45.93,
+            "nuclear": null,
+            "wind": 1521.648,
+            "solar": 3427.0399,
+            "solar6000": 3341.3399,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 7313.0005,
+            "thermal": 446.29,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1352.68,
+            "solar": 3908.2372,
+            "solar6000": 3892.5705,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 18956.6957,
+            "thermal": 12108.1014,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2748.795,
+            "solar": 9129.9801,
+            "solar6000": 7137.3134,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 15622.1881,
+            "thermal": 8363.8328,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2736.288,
+            "solar": 4799.283,
+            "solar6000": 4302.9163,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 12038.3883,
+            "thermal": 6345.98,
+            "hydro": 464.1474,
+            "nuclear": null,
+            "wind": 1650.045,
+            "solar": 4017.3159,
+            "solar6000": 3578.2159,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 2745.7132,
+            "thermal": 2579.5209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 551.7649,
+            "solar6000": 379.3982,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 1305.2001,
+            "thermal": 2295.6266,
+            "hydro": 9722.6275,
+            "nuclear": null,
+            "wind": 909.521,
+            "solar": 1593.304,
+            "solar6000": 1402.8706,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 2817.3183,
+            "thermal": 1893.8186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 306.264,
+            "solar": 952.2556,
+            "solar6000": 774.7889,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 63.15,
+            "solar": 528.9182,
+            "solar6000": 527.1182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 22557.8596,
+            "thermal": 8078.4088,
+            "hydro": 1083.9825,
+            "nuclear": null,
+            "wind": 5477.905,
+            "solar": 7946.9735,
+            "solar6000": 7933.9735,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 14673.086,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1687.116,
+            "solar": 5120.6397,
+            "solar6000": 4960.9064,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-07",
+            "period": "2025-07",
+            "total": 1476.2942,
+            "thermal": 7474.8232,
+            "hydro": 1464.253,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 5982.8132,
+            "solar6000": 4289.4798,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 10203.2477,
+            "thermal": 6402.599,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1037.195,
+            "solar": 5375.0857,
+            "solar6000": 4102.1857,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 181.3088,
+            "solar6000": 123.5755,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 326.4792,
+            "thermal": 1901.16,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 286,
+            "solar": 501.8174,
+            "solar6000": 381.3507,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 7631.2519,
+            "thermal": 4016.3062,
+            "hydro": 1349.5695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1589.7683,
+            "solar6000": 1095.5349,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 1036.8425,
+            "thermal": 2829.0187,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3575.47,
+            "solar": 3597.1205,
+            "solar6000": 3513.9538,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 19937.661,
+            "thermal": 13109.2028,
+            "hydro": 1410.278,
+            "nuclear": 134.8167,
+            "wind": 1870.4871,
+            "solar": 5742.2041,
+            "solar6000": 4349.2041,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 979.3659,
+            "thermal": 3233.7111,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 2272.021,
+            "solar": 2791.9844,
+            "solar6000": 2286.4177,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 9345.0267,
+            "thermal": 3858.3371,
+            "hydro": 2014.6,
+            "nuclear": null,
+            "wind": 898.6915,
+            "solar": 2649.4648,
+            "solar6000": 2573.3981,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 2138.664,
+            "thermal": 953.81,
+            "hydro": 127.3435,
+            "nuclear": null,
+            "wind": 217.45,
+            "solar": 956.3605,
+            "solar6000": 840.0605,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 15145.0476,
+            "thermal": 5578.7581,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 4265.887,
+            "solar": 8072.8565,
+            "solar6000": 6949.5898,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 14205.0708,
+            "thermal": 7464.618,
+            "hydro": 567.413,
+            "nuclear": null,
+            "wind": 2569.095,
+            "solar": 5067.1781,
+            "solar6000": 3603.9448,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 5276.6043,
+            "thermal": 2575.39,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1735.563,
+            "solar": 858.4926,
+            "solar6000": 739.1593,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 12430.5983,
+            "thermal": 4104.4273,
+            "hydro": 3697.499,
+            "nuclear": null,
+            "wind": 1038.714,
+            "solar": 4282.8246,
+            "solar6000": 3589.958,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 6354.2672,
+            "thermal": 3106.1698,
+            "hydro": 1319.9755,
+            "nuclear": null,
+            "wind": 1210.24,
+            "solar": 2540.5135,
+            "solar6000": 1901.9469,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 4758.3308,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1646.476,
+            "solar": 687.4955,
+            "solar6000": 600.9288,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 2044.6095,
+            "thermal": 11065.0154,
+            "hydro": 350,
+            "nuclear": 55.0667,
+            "wind": 2341.253,
+            "solar": 8372.0752,
+            "solar6000": 6390.1752,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 6604.3697,
+            "thermal": 3135.805,
+            "hydro": 467.015,
+            "nuclear": null,
+            "wind": 690.734,
+            "solar": 2769.449,
+            "solar6000": 2310.8157,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 8107.4733,
+            "thermal": 4175.3893,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2105.991,
+            "solar": 1495.3201,
+            "solar6000": 1199.9201,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9425.207,
+            "solar": 5006.1445,
+            "solar6000": 4862.7778,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 42.23,
+            "nuclear": null,
+            "wind": 1519.678,
+            "solar": 3416.1925,
+            "solar6000": 3331.8925,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 7308.8907,
+            "thermal": 444.99,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1351.28,
+            "solar": 3905.394,
+            "solar6000": 3891.1607,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 18976.7975,
+            "thermal": 12137.061,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2740.58,
+            "solar": 9118.3553,
+            "solar6000": 7141.9886,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 15568.7252,
+            "thermal": 8354.1328,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2718.288,
+            "solar": 4749.4201,
+            "solar6000": 4277.1534,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 12029.3165,
+            "thermal": 6345.98,
+            "hydro": 463.2044,
+            "nuclear": null,
+            "wind": 1646.321,
+            "solar": 3996.4111,
+            "solar6000": 3573.8111,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 2699.9212,
+            "thermal": 2533.1209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 545.5189,
+            "solar6000": 381.9855,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 1305.2001,
+            "thermal": 2247.5266,
+            "hydro": 9675.0275,
+            "nuclear": null,
+            "wind": 899.521,
+            "solar": 1570.3303,
+            "solar6000": 1395.9636,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 2655.9832,
+            "thermal": 1893.8186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 306.264,
+            "solar": 948.2734,
+            "solar6000": 776.34,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 97.5834,
+            "thermal": 46.995,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 63.15,
+            "solar": 515.9182,
+            "solar6000": 514.1182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 22272.8536,
+            "thermal": 8078.4088,
+            "hydro": 1084.0045,
+            "nuclear": null,
+            "wind": 5467.945,
+            "solar": 7668.5126,
+            "solar6000": 7656.646,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 14637.2582,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1687.116,
+            "solar": 5084.3752,
+            "solar6000": 4929.3752,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-06",
+            "period": "2025-06",
+            "total": 1476.2942,
+            "thermal": 7275.5751,
+            "hydro": 1434.253,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 5947.1934,
+            "solar6000": 4299.36,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 10139.0009,
+            "thermal": 6334.3767,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1037.195,
+            "solar": 5359.5684,
+            "solar6000": 4086.6684,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 170.0884,
+            "solar6000": 112.3551,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 326.4792,
+            "thermal": 1865.01,
+            "hydro": 799.665,
+            "nuclear": null,
+            "wind": 282.672,
+            "solar": 495.1749,
+            "solar6000": 374.7082,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 7554.4519,
+            "thermal": 3941.1062,
+            "hydro": 1349.5695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1559.0601,
+            "solar6000": 1064.8268,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 1036.8425,
+            "thermal": 2725.5187,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3494.57,
+            "solar": 3536.9183,
+            "solar6000": 3453.7516,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 19525.161,
+            "thermal": 12704.2186,
+            "hydro": 1410.278,
+            "nuclear": 134.8167,
+            "wind": 1870.5371,
+            "solar": 5674.3933,
+            "solar6000": 4281.3933,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 979.3659,
+            "thermal": 3076.1132,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 2229.521,
+            "solar": 2720.8264,
+            "solar6000": 2215.2597,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 9233.6258,
+            "thermal": 3861.0971,
+            "hydro": 2014.5,
+            "nuclear": null,
+            "wind": 893.9425,
+            "solar": 2540.1529,
+            "solar6000": 2464.0862,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 2072.729,
+            "thermal": 903.81,
+            "hydro": 127.3435,
+            "nuclear": null,
+            "wind": 209.325,
+            "solar": 948.5505,
+            "solar6000": 832.2505,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 15119.8976,
+            "thermal": 5577.8581,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 4249.706,
+            "solar": 8059.8411,
+            "solar6000": 6936.5745,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 14154.7934,
+            "thermal": 7428.118,
+            "hydro": 567.413,
+            "nuclear": null,
+            "wind": 2569.095,
+            "solar": 5053.4007,
+            "solar6000": 3590.1674,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 5220.7996,
+            "thermal": 2574.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1679.563,
+            "solar": 859.2879,
+            "solar6000": 739.9546,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 12365.565,
+            "thermal": 4094.4273,
+            "hydro": 3696.849,
+            "nuclear": null,
+            "wind": 1029.28,
+            "solar": 4237.8753,
+            "solar6000": 3545.0087,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 6305.6442,
+            "thermal": 3106.1698,
+            "hydro": 1319.9755,
+            "nuclear": null,
+            "wind": 1192.515,
+            "solar": 2430.9123,
+            "solar6000": 1792.3456,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 4756.0968,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1643.116,
+            "solar": 688.6215,
+            "solar6000": 602.0548,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 2044.6095,
+            "thermal": 11064.2654,
+            "hydro": 350,
+            "nuclear": 55.0667,
+            "wind": 2333.603,
+            "solar": 8225.6885,
+            "solar6000": 6243.7885,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 6604.5404,
+            "thermal": 3135.805,
+            "hydro": 468.646,
+            "nuclear": null,
+            "wind": 690.734,
+            "solar": 2767.9887,
+            "solar6000": 2309.3554,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 7919.2003,
+            "thermal": 4013.1913,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 2079.916,
+            "solar": 1494.1553,
+            "solar6000": 1198.7553,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 9286.707,
+            "solar": 4962.5601,
+            "solar6000": 4819.1934,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 760.0033,
+            "thermal": 3339.98,
+            "hydro": 42.23,
+            "nuclear": null,
+            "wind": 1519.678,
+            "solar": 3037.4248,
+            "solar6000": 2953.1248,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 7296.9359,
+            "thermal": 444.99,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1351.28,
+            "solar": 3893.4393,
+            "solar6000": 3879.2059,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 18886.8015,
+            "thermal": 12112.561,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2725.58,
+            "solar": 9057.746,
+            "solar6000": 7081.3793,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 15273.8678,
+            "thermal": 8174.3953,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2710.188,
+            "solar": 4642.4002,
+            "solar6000": 4170.1335,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 11942.6879,
+            "thermal": 6310.98,
+            "hydro": 463.2044,
+            "nuclear": null,
+            "wind": 1610.433,
+            "solar": 3980.6704,
+            "solar6000": 3558.0704,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 2699.9212,
+            "thermal": 2533.1209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 540.2085,
+            "solar6000": 376.6751,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 1305.2001,
+            "thermal": 2242.4766,
+            "hydro": 9568.5205,
+            "nuclear": null,
+            "wind": 899.521,
+            "solar": 1559.8277,
+            "solar6000": 1385.4611,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 2655.9832,
+            "thermal": 1893.8186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 323.256,
+            "solar": 917.0744,
+            "solar6000": 745.1411,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 97.5834,
+            "thermal": 44.445,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 63.15,
+            "solar": 508.4182,
+            "solar6000": 506.6182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 22040.1036,
+            "thermal": 7870.7588,
+            "hydro": 1083.4045,
+            "nuclear": null,
+            "wind": 5442.945,
+            "solar": 7668.0493,
+            "solar6000": 7656.1826,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 14535.1485,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1687.116,
+            "solar": 4922.5698,
+            "solar6000": 4767.5698,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-05",
+            "period": "2025-05",
+            "total": 1476.2942,
+            "thermal": 7168.8751,
+            "hydro": 1404.253,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 5930.8892,
+            "solar6000": 4283.0559,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 9965.1068,
+            "thermal": 6334.3767,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1017.42,
+            "solar": 4822.4042,
+            "solar6000": 3549.5042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 156.5938,
+            "solar6000": 98.8605,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 326.4792,
+            "thermal": 1864.11,
+            "hydro": 798.865,
+            "nuclear": null,
+            "wind": 260.412,
+            "solar": 416.1015,
+            "solar6000": 295.6348,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 7531.8359,
+            "thermal": 3941.7062,
+            "hydro": 1349.8695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1419.0148,
+            "solar6000": 924.7815,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 1036.8425,
+            "thermal": 2725.5187,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3334.76,
+            "solar": 3353.8906,
+            "solar6000": 3270.724,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 19282.8326,
+            "thermal": 12740.9806,
+            "hydro": 1413.178,
+            "nuclear": 134.8167,
+            "wind": 1863.3711,
+            "solar": 4992.4534,
+            "solar6000": 3599.4534,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 979.3659,
+            "thermal": 3076.1132,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 1977.754,
+            "solar": 2405.9352,
+            "solar6000": 1900.3685,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 8751.0764,
+            "thermal": 3857.2171,
+            "hydro": 2014.9,
+            "nuclear": null,
+            "wind": 814.3749,
+            "solar": 2140.6511,
+            "solar6000": 2064.5845,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 1942.4615,
+            "thermal": 903.81,
+            "hydro": 127.3435,
+            "nuclear": null,
+            "wind": 209.325,
+            "solar": 818.283,
+            "solar6000": 701.983,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 14627.0926,
+            "thermal": 5570.274,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 4010.15,
+            "solar": 7622.9954,
+            "solar6000": 6499.7288,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 13772.6656,
+            "thermal": 7428.218,
+            "hydro": 567.413,
+            "nuclear": null,
+            "wind": 2432.545,
+            "solar": 4807.723,
+            "solar6000": 3344.4896,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 5031.4918,
+            "thermal": 2584.29,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1535.703,
+            "solar": 804.3401,
+            "solar6000": 685.0068,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 12164.4705,
+            "thermal": 4094.4273,
+            "hydro": 3696.849,
+            "nuclear": null,
+            "wind": 1025.773,
+            "solar": 4040.2879,
+            "solar6000": 3347.4212,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 6074.6817,
+            "thermal": 3006.1698,
+            "hydro": 1318.9755,
+            "nuclear": null,
+            "wind": 1142.08,
+            "solar": 2201.9231,
+            "solar6000": 1563.3564,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 4671.6215,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1606.041,
+            "solar": 641.2212,
+            "solar6000": 554.6545,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 2044.6095,
+            "thermal": 11128.2654,
+            "hydro": 327.5,
+            "nuclear": 55.0667,
+            "wind": 2326.668,
+            "solar": 7441.0163,
+            "solar6000": 5459.1163,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 6483.9385,
+            "thermal": 3131.555,
+            "hydro": 468.646,
+            "nuclear": null,
+            "wind": 659.234,
+            "solar": 2683.1368,
+            "solar6000": 2224.5035,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 7654.0671,
+            "thermal": 4011.6913,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 1871.239,
+            "solar": 1382.6856,
+            "solar6000": 1087.2856,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 8865.907,
+            "solar": 4875.5018,
+            "solar6000": 4732.1351,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 760.0033,
+            "thermal": 3336.38,
+            "hydro": 42.23,
+            "nuclear": null,
+            "wind": 1509.178,
+            "solar": 2949.837,
+            "solar6000": 2865.537,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 7041.7359,
+            "thermal": 444.99,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1301.28,
+            "solar": 3688.2393,
+            "solar6000": 3674.0059,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 18468.8292,
+            "thermal": 12104.061,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2668.515,
+            "solar": 8513.5371,
+            "solar6000": 6537.1704,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 14601.0465,
+            "thermal": 8178.0953,
+            "hydro": 219.151,
+            "nuclear": null,
+            "wind": 2654.363,
+            "solar": 4021.7039,
+            "solar6000": 3549.4372,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 11571.2867,
+            "thermal": 6275.98,
+            "hydro": 463.2044,
+            "nuclear": null,
+            "wind": 1526.757,
+            "solar": 3727.9453,
+            "solar6000": 3305.3453,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 2689.6512,
+            "thermal": 2533.1209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 490.9985,
+            "solar6000": 327.4651,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 1305.2001,
+            "thermal": 2237.0266,
+            "hydro": 9532.8205,
+            "nuclear": null,
+            "wind": 899.521,
+            "solar": 1346.977,
+            "solar6000": 1172.6103,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 2610.3932,
+            "thermal": 1894.1186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 275.014,
+            "solar": 871.2125,
+            "solar6000": 699.2791,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 97.5834,
+            "thermal": 44.445,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 508.4182,
+            "solar6000": 506.6182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 20105.2576,
+            "thermal": 7770.7588,
+            "hydro": 1082.0545,
+            "nuclear": null,
+            "wind": 4949.745,
+            "solar": 6324.6544,
+            "solar6000": 6312.7877,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 14003.5457,
+            "thermal": 1203.5,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1687.116,
+            "solar": 4314.3866,
+            "solar6000": 4159.3866,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-04",
+            "period": "2025-04",
+            "total": 1476.2942,
+            "thermal": 7155.8751,
+            "hydro": 1368.653,
+            "nuclear": 76.7,
+            "wind": 649.181,
+            "solar": 5420.0216,
+            "solar6000": 3772.1882,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 9919.8933,
+            "thermal": 6333.4767,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 1000.295,
+            "solar": 4685.949,
+            "solar6000": 3622.149,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 124.2524,
+            "thermal": 1152.6513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 148.7897,
+            "solar6000": 101.8897,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 326.4792,
+            "thermal": 1864.11,
+            "hydro": 797.265,
+            "nuclear": null,
+            "wind": 256.008,
+            "solar": 352.6686,
+            "solar6000": 273.6019,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 7538.482,
+            "thermal": 3962.8062,
+            "hydro": 1349.8695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1348.8939,
+            "solar6000": 928.1606,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 1036.8425,
+            "thermal": 2715.4187,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3299.76,
+            "solar": 3266.3982,
+            "solar6000": 3198.2315,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 19262.2556,
+            "thermal": 12737.9806,
+            "hydro": 1413.178,
+            "nuclear": 134.8167,
+            "wind": 1856.5161,
+            "solar": 4679.2712,
+            "solar6000": 3600.1046,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 979.3659,
+            "thermal": 3011.5382,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 1946.289,
+            "solar": 2316.1295,
+            "solar6000": 1922.4962,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 8718.7319,
+            "thermal": 3856.4639,
+            "hydro": 2014.9,
+            "nuclear": null,
+            "wind": 786.7158,
+            "solar": 2106.1522,
+            "solar6000": 2060.6522,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 1851.6287,
+            "thermal": 903.81,
+            "hydro": 127.3435,
+            "nuclear": null,
+            "wind": 138.025,
+            "solar": 775.9835,
+            "solar6000": 682.4502,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 14593.9096,
+            "thermal": 5565.274,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 3983.15,
+            "solar": 7435.039,
+            "solar6000": 6431.8724,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 13656.5659,
+            "thermal": 7416.218,
+            "hydro": 542.413,
+            "nuclear": null,
+            "wind": 2429.945,
+            "solar": 4573.6232,
+            "solar6000": 3267.9899,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 4983.9928,
+            "thermal": 2574.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1523.828,
+            "solar": 747.7494,
+            "solar6000": 658.8828,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 12025.6951,
+            "thermal": 4093.0773,
+            "hydro": 3695.383,
+            "nuclear": null,
+            "wind": 1000.913,
+            "solar": 3779.3218,
+            "solar6000": 3236.3218,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 6040.0782,
+            "thermal": 3005.8698,
+            "hydro": 1319.5355,
+            "nuclear": null,
+            "wind": 1128.38,
+            "solar": 2083.0374,
+            "solar6000": 1556.5041,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 4651.2604,
+            "thermal": 1891.5,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1598.421,
+            "solar": 616.4801,
+            "solar6000": 541.9134,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 2044.6095,
+            "thermal": 11021.8944,
+            "hydro": 327.5,
+            "nuclear": 55.0667,
+            "wind": 2327.445,
+            "solar": 6831.4418,
+            "solar6000": 5151.9751,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 6465.1138,
+            "thermal": 3131.555,
+            "hydro": 468.646,
+            "nuclear": null,
+            "wind": 656.734,
+            "solar": 2624.5455,
+            "solar6000": 2208.1788,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 7580.6211,
+            "thermal": 4006.1913,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 1825.599,
+            "solar": 1264.5619,
+            "solar6000": 1026.3952,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 8754.507,
+            "solar": 4863.6155,
+            "solar6000": 4756.3822,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 760.0033,
+            "thermal": 3336.38,
+            "hydro": 42.23,
+            "nuclear": null,
+            "wind": 1509.178,
+            "solar": 2769.7238,
+            "solar6000": 2706.2571,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 7010.3059,
+            "thermal": 438.49,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1271.4,
+            "solar": 3692.4893,
+            "solar6000": 3678.9559,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 18417.9292,
+            "thermal": 12075.361,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2668.515,
+            "solar": 8064.3261,
+            "solar6000": 6298.9595,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 14449.5562,
+            "thermal": 8177.1453,
+            "hydro": 217.4485,
+            "nuclear": null,
+            "wind": 2644.363,
+            "solar": 3769.4327,
+            "solar6000": 3410.5994,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 11466.3612,
+            "thermal": 6273.98,
+            "hydro": 462.9544,
+            "nuclear": null,
+            "wind": 1500.853,
+            "solar": 3561.0738,
+            "solar6000": 3228.5738,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 2687.4012,
+            "thermal": 2533.1209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 444.1286,
+            "solar6000": 310.1952,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 1305.2001,
+            "thermal": 2163.4266,
+            "hydro": 9533.5775,
+            "nuclear": null,
+            "wind": 896.521,
+            "solar": 1234.9659,
+            "solar6000": 1138.7993,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 2544.3256,
+            "thermal": 1891.9186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 265.164,
+            "solar": 790.409,
+            "solar6000": 653.809,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 97.5834,
+            "thermal": 41.945,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 497.4422,
+            "solar6000": 495.6422,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 19718.1526,
+            "thermal": 7770.7588,
+            "hydro": 1082.0545,
+            "nuclear": null,
+            "wind": 4887.995,
+            "solar": 6036.1891,
+            "solar6000": 6026.6891,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 13864.8331,
+            "thermal": 1135.9,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1685.866,
+            "solar": 4239.8529,
+            "solar6000": 4131.8196,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-03",
+            "period": "2025-03",
+            "total": 1476.2942,
+            "thermal": 7156.8251,
+            "hydro": 1338.653,
+            "nuclear": 76.7,
+            "wind": 649.141,
+            "solar": 5071.2538,
+            "solar6000": 3663.0538,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 9779.1021,
+            "thermal": 6296.5767,
+            "hydro": 547.66,
+            "nuclear": null,
+            "wind": 930.922,
+            "solar": 4577.1323,
+            "solar6000": 3513.3323,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 124.2524,
+            "thermal": 1150.8513,
+            "hydro": 100.7,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 144.7815,
+            "solar6000": 97.8815,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 326.4792,
+            "thermal": 1787.81,
+            "hydro": 791.965,
+            "nuclear": null,
+            "wind": 251.836,
+            "solar": 343.3943,
+            "solar6000": 264.3276,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 7522.2636,
+            "thermal": 3954.0062,
+            "hydro": 1349.8695,
+            "nuclear": 101.8667,
+            "wind": 804.035,
+            "solar": 1324.2701,
+            "solar6000": 903.5368,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 1036.8425,
+            "thermal": 2618.4187,
+            "hydro": 880.594,
+            "nuclear": null,
+            "wind": 3294.76,
+            "solar": 3240.5508,
+            "solar6000": 3172.3841,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 19190.5668,
+            "thermal": 12700.3806,
+            "hydro": 1413.178,
+            "nuclear": 134.8167,
+            "wind": 1826.661,
+            "solar": 4415.6032,
+            "solar6000": 3336.4365,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 979.3659,
+            "thermal": 3009.7382,
+            "hydro": 1751.9335,
+            "nuclear": 37.7667,
+            "wind": 1928.083,
+            "solar": 2236.5502,
+            "solar6000": 1842.9169,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 8648.0118,
+            "thermal": 3855.7839,
+            "hydro": 2014.9,
+            "nuclear": null,
+            "wind": 757.201,
+            "solar": 2065.6269,
+            "solar6000": 2020.1269,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 1750.3537,
+            "thermal": 853.81,
+            "hydro": 127.3435,
+            "nuclear": null,
+            "wind": 94.025,
+            "solar": 768.7085,
+            "solar6000": 675.1752,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 14481.8448,
+            "thermal": 5561.274,
+            "hydro": 525.934,
+            "nuclear": null,
+            "wind": 3940.45,
+            "solar": 7328.1572,
+            "solar6000": 6324.9905,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 13586.5008,
+            "thermal": 7415.618,
+            "hydro": 542.413,
+            "nuclear": null,
+            "wind": 2419.945,
+            "solar": 4514.1581,
+            "solar6000": 3208.5248,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 4980.0494,
+            "thermal": 2574.79,
+            "hydro": 226.492,
+            "nuclear": null,
+            "wind": 1523.828,
+            "solar": 743.8061,
+            "solar6000": 654.9394,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 11906.4003,
+            "thermal": 4089.3773,
+            "hydro": 3695.383,
+            "nuclear": null,
+            "wind": 972.798,
+            "solar": 3691.842,
+            "solar6000": 3148.842,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 6039.5324,
+            "thermal": 3007.0698,
+            "hydro": 1319.5355,
+            "nuclear": null,
+            "wind": 1127.28,
+            "solar": 2051.6066,
+            "solar6000": 1525.0733,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 4620.373,
+            "thermal": 1890.3,
+            "hydro": 619.426,
+            "nuclear": null,
+            "wind": 1575.596,
+            "solar": 609.6176,
+            "solar6000": 535.051,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 2044.6095,
+            "thermal": 10980.2744,
+            "hydro": 305,
+            "nuclear": 55.0667,
+            "wind": 2324.445,
+            "solar": 6645.7564,
+            "solar6000": 4966.2898,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 6461.8258,
+            "thermal": 3143.727,
+            "hydro": 468.646,
+            "nuclear": null,
+            "wind": 656.734,
+            "solar": 2609.0855,
+            "solar6000": 2192.7188,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 7561.7861,
+            "thermal": 4006.1913,
+            "hydro": 469.156,
+            "nuclear": 55.9395,
+            "wind": 1807.724,
+            "solar": 1252.4408,
+            "solar6000": 1014.2741,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": null,
+            "thermal": null,
+            "hydro": 241.745,
+            "nuclear": null,
+            "wind": 8628.507,
+            "solar": 4853.5788,
+            "solar6000": 4746.3455,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 760.0033,
+            "thermal": 3336.38,
+            "hydro": 42.23,
+            "nuclear": null,
+            "wind": 1509.178,
+            "solar": 2634.4866,
+            "solar6000": 2571.0199,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 6986.8759,
+            "thermal": 421.94,
+            "hydro": 1621.46,
+            "nuclear": null,
+            "wind": 1266.5,
+            "solar": 3690.5093,
+            "solar6000": 3676.9759,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 18522.8092,
+            "thermal": 12236.531,
+            "hydro": 401.597,
+            "nuclear": null,
+            "wind": 2668.515,
+            "solar": 7945.3569,
+            "solar6000": 6179.9903,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 14415.0872,
+            "thermal": 8178.9253,
+            "hydro": 217.4485,
+            "nuclear": null,
+            "wind": 2635.368,
+            "solar": 3742.1788,
+            "solar6000": 3383.3454,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 11432.293,
+            "thermal": 6267.96,
+            "hydro": 462.9544,
+            "nuclear": null,
+            "wind": 1497.129,
+            "solar": 3536.7496,
+            "solar6000": 3204.2496,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 2684.8412,
+            "thermal": 2533.1209,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 434.7442,
+            "solar6000": 300.8109,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 1305.2001,
+            "thermal": 2129.8438,
+            "hydro": 9533.5375,
+            "nuclear": null,
+            "wind": 889.621,
+            "solar": 1158.3596,
+            "solar6000": 1062.1929,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 2521.6206,
+            "thermal": 1891.9186,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 260.269,
+            "solar": 762.8701,
+            "solar6000": 626.2701,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 97.5834,
+            "thermal": 41.945,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 452.4422,
+            "solar6000": 450.6422,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 19383.1526,
+            "thermal": 7770.7588,
+            "hydro": 1082.0545,
+            "nuclear": null,
+            "wind": 4822.995,
+            "solar": 5765.306,
+            "solar6000": 5755.806,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 13777.4493,
+            "thermal": 1135.9,
+            "hydro": 7127.27,
+            "nuclear": null,
+            "wind": 1680.241,
+            "solar": 4136.5378,
+            "solar6000": 4028.5045,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-02",
+            "period": "2025-02",
+            "total": 1476.2942,
+            "thermal": 7153.3791,
+            "hydro": 1338.653,
+            "nuclear": 76.7,
+            "wind": 649.141,
+            "solar": 4982.8582,
+            "solar6000": 3574.6582,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1063.8,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 124.2524,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -46.9,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 326.4792,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -79.0667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 101.8667,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -420.7333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 1036.8425,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -68.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 134.8167,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1079.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 979.3659,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 37.7667,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -393.6333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -45.5,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -45.5,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -93.5333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -93.5333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1003.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -1305.6333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1305.6333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -88.8667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -88.8667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -543,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -543,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -526.5333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -74.5667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -74.5667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 2044.6095,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 55.0667,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1679.4667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -416.3667,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -416.3667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 55.9395,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -238.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": null,
+            "thermal": null,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -107.2333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 760.0033,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -63.4667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -13.5333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -13.5333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1765.3667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -358.8333,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -358.8333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": -332.5,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -332.5,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -133.9333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 1305.2001,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -96.1667,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -136.6,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 97.5834,
+            "thermal": 0,
+            "hydro": 37.9931,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1.8,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -9.5,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 0,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": null,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -108.0333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2025-01",
+            "period": "2025-01",
+            "total": 1476.2942,
+            "thermal": 0,
+            "hydro": 0,
+            "nuclear": 76.7,
+            "wind": 0,
+            "solar": 0,
+            "solar6000": -1408.2,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 12142.8145,
+            "thermal": 6313.4083,
+            "hydro": 619.0124,
+            "nuclear": null,
+            "wind": 899.12,
+            "solar": 4311.2738,
+            "solar6000": 3354.8404,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 117.3205,
+            "thermal": 1152.7721,
+            "hydro": 101.0965,
+            "nuclear": null,
+            "wind": 23.65,
+            "solar": 130.3273,
+            "solar6000": 89.594,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 271.8231,
+            "thermal": 1793.8544,
+            "hydro": 917.5654,
+            "nuclear": 0,
+            "wind": 240.706,
+            "solar": 309.7511,
+            "solar6000": 242.2178,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 8864.4107,
+            "thermal": 3860.6248,
+            "hydro": 1720.0317,
+            "nuclear": 101.8667,
+            "wind": 803.035,
+            "solar": 1258.3192,
+            "solar6000": 864.3859,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 832.7557,
+            "thermal": 2616.0687,
+            "hydro": 971.4106,
+            "nuclear": null,
+            "wind": 3214.76,
+            "solar": 3190.8289,
+            "solar6000": 3129.5289,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 22182.5751,
+            "thermal": 12740.3218,
+            "hydro": 1904.7,
+            "nuclear": 134.4667,
+            "wind": 1808.41,
+            "solar": 4115.5433,
+            "solar6000": 3201.4433,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 770.4913,
+            "thermal": 3028.7812,
+            "hydro": 1903.8711,
+            "nuclear": 37.7667,
+            "wind": 1807.696,
+            "solar": 2052.3467,
+            "solar6000": 1731.1134,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 8995.3876,
+            "thermal": 4000.292,
+            "hydro": 2298.452,
+            "nuclear": null,
+            "wind": 747.566,
+            "solar": 1985.6109,
+            "solar6000": 1949.0776,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 1699.6524,
+            "thermal": 854.4234,
+            "hydro": 151.4173,
+            "nuclear": null,
+            "wind": 42.45,
+            "solar": 740.8284,
+            "solar6000": 651.3617,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 17140.7558,
+            "thermal": 5584.9823,
+            "hydro": 543.8861,
+            "nuclear": null,
+            "wind": 3809.475,
+            "solar": 7202.4124,
+            "solar6000": 6232.9791,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 13426.7528,
+            "thermal": 7420.562,
+            "hydro": 563.0694,
+            "nuclear": null,
+            "wind": 2333.745,
+            "solar": 4349.0764,
+            "solar6000": 3109.3764,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 4953.6053,
+            "thermal": 2576.9269,
+            "hydro": 235.3705,
+            "nuclear": null,
+            "wind": 1506.223,
+            "solar": 717.0515,
+            "solar6000": 635.0849,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 11906.8171,
+            "thermal": 4086.7441,
+            "hydro": 3812.0462,
+            "nuclear": null,
+            "wind": 952.1,
+            "solar": 3509.9601,
+            "solar6000": 3055.9268,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 7648.4878,
+            "thermal": 3016.5241,
+            "hydro": 1637.246,
+            "nuclear": null,
+            "wind": 1121.345,
+            "solar": 1873.3728,
+            "solar6000": 1410.9395,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 4628.7507,
+            "thermal": 1891.0689,
+            "hydro": 649.0167,
+            "nuclear": null,
+            "wind": 1572.646,
+            "solar": 583.0191,
+            "solar6000": 516.0191,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 1700.772,
+            "thermal": 10952.1924,
+            "hydro": 310.0998,
+            "nuclear": 55.0667,
+            "wind": 2321.4566,
+            "solar": 6164.7147,
+            "solar6000": 4641.4813,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 6665.1386,
+            "thermal": 3160.9656,
+            "hydro": 680.0078,
+            "nuclear": null,
+            "wind": 656.734,
+            "solar": 2563.8979,
+            "solar6000": 2167.4312,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 8102.5001,
+            "thermal": 4010.7449,
+            "hydro": 455.51,
+            "nuclear": 55.6263,
+            "wind": 1754.789,
+            "solar": 1213.9402,
+            "solar6000": 990.0069,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": null,
+            "thermal": null,
+            "hydro": 244.685,
+            "nuclear": null,
+            "wind": 8598.927,
+            "solar": 4820.8718,
+            "solar6000": 4718.1718,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 625.888,
+            "thermal": 3334.83,
+            "hydro": 42.63,
+            "nuclear": null,
+            "wind": 1509.178,
+            "solar": 2624.0182,
+            "solar6000": 2565.7849,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 6969.5764,
+            "thermal": 412.44,
+            "hydro": 1639.5865,
+            "nuclear": null,
+            "wind": 1267.1,
+            "solar": 3663.0499,
+            "solar6000": 3650.4499,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 23229.4286,
+            "thermal": 12121.9514,
+            "hydro": 406.8575,
+            "nuclear": null,
+            "wind": 2668.7815,
+            "solar": 7613.4382,
+            "solar6000": 5939.9049,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 14191.3498,
+            "thermal": 8197.7417,
+            "hydro": 225.577,
+            "nuclear": null,
+            "wind": 2616.483,
+            "solar": 3476.8481,
+            "solar6000": 3151.5481,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 11394.3703,
+            "thermal": 6262.025,
+            "hydro": 507.3351,
+            "nuclear": null,
+            "wind": 1495.073,
+            "solar": 3432.9705,
+            "solar6000": 3129.9372,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 3060.1601,
+            "thermal": 2542.0898,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 411.4353,
+            "solar6000": 287.5686,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 1158.8196,
+            "thermal": 2163.8708,
+            "hydro": 9770.0305,
+            "nuclear": null,
+            "wind": 889.621,
+            "solar": 1082.3124,
+            "solar6000": 1017.9791,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 2837.9069,
+            "thermal": 1893.7086,
+            "hydro": 0.58,
+            "nuclear": null,
+            "wind": 219.484,
+            "solar": 724.1333,
+            "solar6000": 599.8333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 68.9527,
+            "thermal": 42.755,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 413.881,
+            "solar6000": 412.0477,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 19206.8261,
+            "thermal": 7707.5799,
+            "hydro": 1111.9219,
+            "nuclear": null,
+            "wind": 4707.5403,
+            "solar": 5679.7841,
+            "solar6000": 5670.8508,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 15188.0856,
+            "thermal": 1433.0522,
+            "hydro": 8360.3584,
+            "nuclear": null,
+            "wind": 1671.451,
+            "solar": 3723.024,
+            "solar6000": 3626.3907,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-12",
+            "period": "2024-12",
+            "total": 1246.3745,
+            "thermal": 7164.6273,
+            "hydro": 1497.8996,
+            "nuclear": 76.3833,
+            "wind": 649.0535,
+            "solar": 4727.4835,
+            "solar6000": 3429.6169,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 9616,
+            "thermal": 6301,
+            "hydro": 546,
+            "nuclear": null,
+            "wind": 867.67,
+            "solar": 4211.2738,
+            "solar6000": 3254.8404,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 117.3205,
+            "thermal": 1151,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 126.8995,
+            "solar6000": 86.1662,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 271.8231,
+            "thermal": 1786,
+            "hydro": 791,
+            "nuclear": 0,
+            "wind": 232.553,
+            "solar": 285.2768,
+            "solar6000": 217.7435,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 7259,
+            "thermal": 3840,
+            "hydro": 1349,
+            "nuclear": 101.8667,
+            "wind": 793.035,
+            "solar": 1192.6984,
+            "solar6000": 798.765,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 832.7557,
+            "thermal": 2508,
+            "hydro": 881,
+            "nuclear": null,
+            "wind": 3079.76,
+            "solar": 3003.6688,
+            "solar6000": 2942.3688,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 18903,
+            "thermal": 12660,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1678.269,
+            "solar": 3918.2811,
+            "solar6000": 3004.1811,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 770.4913,
+            "thermal": 3013,
+            "hydro": 1754,
+            "nuclear": 37.7667,
+            "wind": 1687.114,
+            "solar": 1918.3052,
+            "solar6000": 1597.0719,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 8578.1478,
+            "thermal": 3913,
+            "hydro": 2016,
+            "nuclear": null,
+            "wind": 736.666,
+            "solar": 1949.0152,
+            "solar6000": 1912.4818,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 1644.6119,
+            "thermal": 854,
+            "hydro": 127,
+            "nuclear": null,
+            "wind": 26.95,
+            "solar": 726.1286,
+            "solar6000": 636.6619,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 13381,
+            "thermal": 5633,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3385.281,
+            "solar": 6662.8416,
+            "solar6000": 5693.4083,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 13284.1492,
+            "thermal": 7412,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2272.745,
+            "solar": 4322.1042,
+            "solar6000": 3082.4042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 4760.3673,
+            "thermal": 2570,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1367.203,
+            "solar": 679.1309,
+            "solar6000": 597.1643,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 11649.8586,
+            "thermal": 4063,
+            "hydro": 3695,
+            "nuclear": null,
+            "wind": 942.85,
+            "solar": 3403.0419,
+            "solar6000": 2949.0086,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 5775,
+            "thermal": 2882,
+            "hydro": 1313,
+            "nuclear": null,
+            "wind": 1041.915,
+            "solar": 1792.8602,
+            "solar6000": 1330.4269,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 4562.3538,
+            "thermal": 1889,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1560.021,
+            "solar": 561.3328,
+            "solar6000": 494.3328,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 1700.772,
+            "thermal": 10806,
+            "hydro": 283,
+            "nuclear": 55.0667,
+            "wind": 2315.635,
+            "solar": 5864.7923,
+            "solar6000": 4341.5589,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 6358.9514,
+            "thermal": 3153,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 615.17,
+            "solar": 2518.2481,
+            "solar6000": 2121.7814,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 7305,
+            "thermal": 3955,
+            "hydro": 439,
+            "nuclear": 55.6263,
+            "wind": 1647.552,
+            "solar": 1182.9876,
+            "solar6000": 959.0543,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7912.382,
+            "solar": 3378.0231,
+            "solar6000": 3275.3231,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 625.888,
+            "thermal": 3328,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1502.758,
+            "solar": 2538.6985,
+            "solar6000": 2480.4652,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 6191.553,
+            "thermal": 412,
+            "hydro": 1477,
+            "nuclear": null,
+            "wind": 1210,
+            "solar": 3105.153,
+            "solar6000": 3092.553,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 17523,
+            "thermal": 12083,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2668.515,
+            "solar": 6997.8667,
+            "solar6000": 5324.3333,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 13832.4671,
+            "thermal": 8069,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2600.983,
+            "solar": 3270.7841,
+            "solar6000": 2945.4841,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 10700.4235,
+            "thermal": 6120,
+            "hydro": 429,
+            "nuclear": null,
+            "wind": 1377.309,
+            "solar": 3077.1478,
+            "solar6000": 2774.1145,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 2685,
+            "thermal": 2533,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 398.7103,
+            "solar6000": 274.8436,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 1158.8196,
+            "thermal": 2126,
+            "hydro": 9455,
+            "nuclear": null,
+            "wind": 889.621,
+            "solar": 966.453,
+            "solar6000": 902.1197,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 2424,
+            "thermal": 1892,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 199.244,
+            "solar": 679.4438,
+            "solar6000": 555.1438,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 53.15,
+            "solar": 378.295,
+            "solar6000": 376.4616,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 17449,
+            "thermal": 7412,
+            "hydro": 1078,
+            "nuclear": null,
+            "wind": 4087.895,
+            "solar": 4890.4102,
+            "solar6000": 4881.4769,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 12906,
+            "thermal": 1136,
+            "hydro": 7092,
+            "nuclear": null,
+            "wind": 1629.781,
+            "solar": 3312.3763,
+            "solar6000": 3215.743,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-11",
+            "period": "2024-11",
+            "total": 1246.3745,
+            "thermal": 7130,
+            "hydro": 1209,
+            "nuclear": 76.3833,
+            "wind": 644.766,
+            "solar": 4520.746,
+            "solar6000": 3222.8794,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 9549,
+            "thermal": 6301,
+            "hydro": 546,
+            "nuclear": null,
+            "wind": 835.705,
+            "solar": 4118.0035,
+            "solar6000": 3161.5702,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 117.3205,
+            "thermal": 1151,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 121.2787,
+            "solar6000": 80.5454,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 271.8231,
+            "thermal": 1786,
+            "hydro": 791,
+            "nuclear": 0,
+            "wind": 226.353,
+            "solar": 262.7266,
+            "solar6000": 195.1933,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 7147,
+            "thermal": 3740,
+            "hydro": 1349,
+            "nuclear": 101.8667,
+            "wind": 793.035,
+            "solar": 1156.6107,
+            "solar6000": 762.6774,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 832.7557,
+            "thermal": 2508,
+            "hydro": 880,
+            "nuclear": null,
+            "wind": 3056.76,
+            "solar": 2978.5869,
+            "solar6000": 2917.2869,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 18836,
+            "thermal": 12606,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1673.834,
+            "solar": 3778.787,
+            "solar6000": 2864.687,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 770.4913,
+            "thermal": 3002,
+            "hydro": 1754,
+            "nuclear": 37.7667,
+            "wind": 1617.095,
+            "solar": 1806.5451,
+            "solar6000": 1485.3118,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 8501.0723,
+            "thermal": 3913,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 727.2025,
+            "solar": 1893.4031,
+            "solar6000": 1856.8698,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 1617.4934,
+            "thermal": 854,
+            "hydro": 127,
+            "nuclear": null,
+            "wind": 26.55,
+            "solar": 699.4101,
+            "solar6000": 609.9434,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 13109,
+            "thermal": 5550,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3319.081,
+            "solar": 6503.9914,
+            "solar6000": 5534.5581,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 13232.4515,
+            "thermal": 7406,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2262.745,
+            "solar": 4286.4065,
+            "solar6000": 3046.7065,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 4710.5371,
+            "thermal": 2570,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1334.703,
+            "solar": 661.8008,
+            "solar6000": 579.8341,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 11526.2578,
+            "thermal": 4044,
+            "hydro": 3695,
+            "nuclear": null,
+            "wind": 932.35,
+            "solar": 3308.9411,
+            "solar6000": 2854.9078,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 5739,
+            "thermal": 2882,
+            "hydro": 1313,
+            "nuclear": null,
+            "wind": 1010.18,
+            "solar": 1752.6988,
+            "solar6000": 1290.2655,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 4531.1333,
+            "thermal": 1889,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1537.021,
+            "solar": 553.1123,
+            "solar6000": 486.1123,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 1700.772,
+            "thermal": 10798,
+            "hydro": 283,
+            "nuclear": 55.0667,
+            "wind": 2312.635,
+            "solar": 5621.1807,
+            "solar6000": 4097.9474,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 6336.4293,
+            "thermal": 3153,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 608.35,
+            "solar": 2502.546,
+            "solar6000": 2106.0793,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 7266,
+            "thermal": 3955,
+            "hydro": 409,
+            "nuclear": 55.6263,
+            "wind": 1639.152,
+            "solar": 1174.1073,
+            "solar6000": 950.174,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7883.657,
+            "solar": 3136.9754,
+            "solar6000": 3034.2754,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1500.498,
+            "solar": 2519.4856,
+            "solar6000": 2461.2523,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 6139.992,
+            "thermal": 412,
+            "hydro": 1437,
+            "nuclear": null,
+            "wind": 1210,
+            "solar": 3093.592,
+            "solar6000": 3080.992,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 17282,
+            "thermal": 11914,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2668.515,
+            "solar": 6867.5003,
+            "solar6000": 5193.967,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 13757.8651,
+            "thermal": 8071,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2588.483,
+            "solar": 3206.6821,
+            "solar6000": 2881.3821,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 10341.7761,
+            "thermal": 5923,
+            "hydro": 394,
+            "nuclear": null,
+            "wind": 1356.684,
+            "solar": 2971.1254,
+            "solar6000": 2668.0921,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 2685,
+            "thermal": 2533,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 381.0527,
+            "solar6000": 257.186,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 1158.8196,
+            "thermal": 2126,
+            "hydro": 9456,
+            "nuclear": null,
+            "wind": 886.621,
+            "solar": 842.4375,
+            "solar6000": 778.1042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 2422,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 191.644,
+            "solar": 666.4838,
+            "solar6000": 542.1838,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 33.15,
+            "solar": 345.3013,
+            "solar6000": 343.468,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 16881,
+            "thermal": 7346,
+            "hydro": 1078,
+            "nuclear": null,
+            "wind": 3935.395,
+            "solar": 4540.3117,
+            "solar6000": 4531.3784,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 12799,
+            "thermal": 1136,
+            "hydro": 7092,
+            "nuclear": null,
+            "wind": 1616.876,
+            "solar": 3202.7078,
+            "solar6000": 3106.0745,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-10",
+            "period": "2024-10",
+            "total": 1246.3745,
+            "thermal": 7030,
+            "hydro": 1204,
+            "nuclear": 76.3833,
+            "wind": 642.266,
+            "solar": 4357.0571,
+            "solar6000": 3059.1904,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 9443,
+            "thermal": 6235,
+            "hydro": 548,
+            "nuclear": null,
+            "wind": 807.155,
+            "solar": 4026.6723,
+            "solar6000": 3153.7056,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 117.3205,
+            "thermal": 1151,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 118.6682,
+            "solar6000": 80.8015,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 271.8231,
+            "thermal": 1786,
+            "hydro": 789,
+            "nuclear": 0,
+            "wind": 223.51,
+            "solar": 254.4829,
+            "solar6000": 202.6829,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 7138,
+            "thermal": 3740,
+            "hydro": 1343,
+            "nuclear": 101.8667,
+            "wind": 793.035,
+            "solar": 1128.9909,
+            "solar6000": 771.0576,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 832.7557,
+            "thermal": 2506,
+            "hydro": 881,
+            "nuclear": null,
+            "wind": 3016.135,
+            "solar": 2951.2473,
+            "solar6000": 2896.9807,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 18569,
+            "thermal": 12351,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1668.734,
+            "solar": 3666.5175,
+            "solar6000": 2885.4175,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 770.4913,
+            "thermal": 3001,
+            "hydro": 1754,
+            "nuclear": 37.7667,
+            "wind": 1583,
+            "solar": 1733.5996,
+            "solar6000": 1475.0329,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 8395.4998,
+            "thermal": 3811,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 713.23,
+            "solar": 1893.2698,
+            "solar6000": 1867.2698,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 1607.4517,
+            "thermal": 854,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 26.05,
+            "solar": 680.935,
+            "solar6000": 599.4017,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 12719,
+            "thermal": 5547,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3217.05,
+            "solar": 6187.8286,
+            "solar6000": 5261.762,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 13232.5418,
+            "thermal": 7406,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2262.745,
+            "solar": 4255.2301,
+            "solar6000": 3046.7968,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 4684.6233,
+            "thermal": 2568,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1330.328,
+            "solar": 632.3953,
+            "solar6000": 560.2953,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 11462.8619,
+            "thermal": 4043,
+            "hydro": 3695,
+            "nuclear": null,
+            "wind": 919.1,
+            "solar": 3206.1286,
+            "solar6000": 2805.7619,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 5735,
+            "thermal": 2880,
+            "hydro": 1313,
+            "nuclear": null,
+            "wind": 1005.68,
+            "solar": 1714.6196,
+            "solar6000": 1295.5863,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 4425.1293,
+            "thermal": 1889,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1432.021,
+            "solar": 542.6083,
+            "solar6000": 485.1083,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 1700.772,
+            "thermal": 10793,
+            "hydro": 283,
+            "nuclear": 55.0667,
+            "wind": 2301.235,
+            "solar": 5483.0088,
+            "solar6000": 4100.7421,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 6235.3725,
+            "thermal": 3054,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 608.35,
+            "solar": 2482.5559,
+            "solar6000": 2104.0225,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 7183,
+            "thermal": 3907,
+            "hydro": 409,
+            "nuclear": 55.6263,
+            "wind": 1604.092,
+            "solar": 1162.1422,
+            "solar6000": 953.3089,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7801.544,
+            "solar": 2917.3553,
+            "solar6000": 2822.9553,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1500.498,
+            "solar": 2468.2852,
+            "solar6000": 2416.4518,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 6087.1865,
+            "thermal": 398,
+            "hydro": 1437,
+            "nuclear": null,
+            "wind": 1205,
+            "solar": 3058.3865,
+            "solar6000": 3047.1865,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 17152,
+            "thermal": 11882,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2633.415,
+            "solar": 6739.9779,
+            "solar6000": 5135.7779,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 13641.9915,
+            "thermal": 8058,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2563.983,
+            "solar": 3097.7418,
+            "solar6000": 2803.0085,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 10269.7334,
+            "thermal": 5916,
+            "hydro": 394,
+            "nuclear": null,
+            "wind": 1330.756,
+            "solar": 2889.5441,
+            "solar6000": 2628.9774,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 2685,
+            "thermal": 2533,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 365.8604,
+            "solar6000": 257.1604,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 1158.8196,
+            "thermal": 2126,
+            "hydro": 9458,
+            "nuclear": null,
+            "wind": 878.971,
+            "solar": 819.7799,
+            "solar6000": 784.6133,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 2422,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 191.644,
+            "solar": 654.9594,
+            "solar6000": 545.2928,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 339.2458,
+            "solar6000": 337.3124,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 16734,
+            "thermal": 7345,
+            "hydro": 1078,
+            "nuclear": null,
+            "wind": 3884.395,
+            "solar": 4444.7051,
+            "solar6000": 4436.5717,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 12754,
+            "thermal": 1136,
+            "hydro": 7092,
+            "nuclear": null,
+            "wind": 1609.691,
+            "solar": 3146.8738,
+            "solar6000": 3070.0738,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-09",
+            "period": "2024-09",
+            "total": 1246.3745,
+            "thermal": 6963,
+            "hydro": 1169,
+            "nuclear": 76.3833,
+            "wind": 635.391,
+            "solar": 4228.6513,
+            "solar6000": 3064.218,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 9394,
+            "thermal": 6235,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 787.005,
+            "solar": 3934.2031,
+            "solar6000": 3061.2365,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 117.3205,
+            "thermal": 1150,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 117.9475,
+            "solar6000": 80.0808,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 271.8231,
+            "thermal": 1786,
+            "hydro": 789,
+            "nuclear": 0,
+            "wind": 221.31,
+            "solar": 235.5739,
+            "solar6000": 183.7739,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 7133,
+            "thermal": 3738,
+            "hydro": 1343,
+            "nuclear": 101.8667,
+            "wind": 793.035,
+            "solar": 1106.303,
+            "solar6000": 748.3697,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 832.7557,
+            "thermal": 2506,
+            "hydro": 881,
+            "nuclear": null,
+            "wind": 3003.76,
+            "solar": 2918.0608,
+            "solar6000": 2863.7941,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 18415,
+            "thermal": 12215,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1663.934,
+            "solar": 3542.1254,
+            "solar6000": 2761.0254,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 770.4913,
+            "thermal": 2999,
+            "hydro": 1754,
+            "nuclear": 37.7667,
+            "wind": 1526.014,
+            "solar": 1641.1204,
+            "solar6000": 1382.5537,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 8311.5594,
+            "thermal": 3807,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 701.321,
+            "solar": 1825.2384,
+            "solar6000": 1799.2384,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 1599.8947,
+            "thermal": 854,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 26.05,
+            "solar": 673.378,
+            "solar6000": 591.8447,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 12630,
+            "thermal": 5547,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3173.05,
+            "solar": 6099.3313,
+            "solar6000": 5173.2646,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 13171.7171,
+            "thermal": 7397,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2262.745,
+            "solar": 4203.4055,
+            "solar6000": 2994.9721,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 4637.8482,
+            "thermal": 2564,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1294.503,
+            "solar": 625.4452,
+            "solar6000": 553.3452,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 11355.8258,
+            "thermal": 4036,
+            "hydro": 3694,
+            "nuclear": null,
+            "wind": 908.85,
+            "solar": 3117.3425,
+            "solar6000": 2716.9758,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 5723,
+            "thermal": 2881,
+            "hydro": 1313,
+            "nuclear": null,
+            "wind": 1005.68,
+            "solar": 1649.3157,
+            "solar6000": 1230.2823,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 4397.2613,
+            "thermal": 1889,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1408.021,
+            "solar": 538.7403,
+            "solar6000": 481.2403,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 1700.772,
+            "thermal": 10739,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2296.315,
+            "solar": 5353.5797,
+            "solar6000": 3971.3131,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 5994.8569,
+            "thermal": 2976,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 588.35,
+            "solar": 2340.0402,
+            "solar6000": 1961.5069,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 7138,
+            "thermal": 3907,
+            "hydro": 409,
+            "nuclear": 55.6263,
+            "wind": 1559.762,
+            "solar": 1145.1702,
+            "solar6000": 936.3369,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7719.949,
+            "solar": 2858.532,
+            "solar6000": 2764.132,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1500.498,
+            "solar": 2464.9438,
+            "solar6000": 2413.1105,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 5820.5596,
+            "thermal": 398,
+            "hydro": 1385,
+            "nuclear": null,
+            "wind": 1205,
+            "solar": 2843.7596,
+            "solar6000": 2832.5596,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 17093,
+            "thermal": 11882,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2616.285,
+            "solar": 6623.1899,
+            "solar6000": 5018.9899,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 13537.2264,
+            "thermal": 8061,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2559.983,
+            "solar": 2993.9767,
+            "solar6000": 2699.2434,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 10045.3895,
+            "thermal": 5916,
+            "hydro": 324,
+            "nuclear": null,
+            "wind": 1298.681,
+            "solar": 2767.2752,
+            "solar6000": 2506.7085,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 355.0193,
+            "solar6000": 246.3193,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 1158.8196,
+            "thermal": 1983,
+            "hydro": 9454,
+            "nuclear": null,
+            "wind": 852.821,
+            "solar": 792.7281,
+            "solar6000": 757.5614,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 2402,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 177.403,
+            "solar": 638.5978,
+            "solar6000": 528.9312,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 303.5458,
+            "solar6000": 301.6124,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 16479,
+            "thermal": 7275,
+            "hydro": 1078,
+            "nuclear": null,
+            "wind": 3821.995,
+            "solar": 4322.0411,
+            "solar6000": 4313.9077,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 12668,
+            "thermal": 1136,
+            "hydro": 7057,
+            "nuclear": null,
+            "wind": 1599.496,
+            "solar": 3094.524,
+            "solar6000": 3017.724,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-08",
+            "period": "2024-08",
+            "total": 1246.3745,
+            "thermal": 7038,
+            "hydro": 1169,
+            "nuclear": 76.3833,
+            "wind": 634.766,
+            "solar": 4110.4293,
+            "solar6000": 2945.996,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 9280,
+            "thermal": 6172,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 774.255,
+            "solar": 3830.4041,
+            "solar6000": 2957.4374,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 117.3205,
+            "thermal": 1150,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 115.9791,
+            "solar6000": 78.1125,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 271.8231,
+            "thermal": 1786,
+            "hydro": 789,
+            "nuclear": 0,
+            "wind": 220.135,
+            "solar": 218.7237,
+            "solar6000": 166.9237,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 7136,
+            "thermal": 3745,
+            "hydro": 1343,
+            "nuclear": 101.8667,
+            "wind": 793.035,
+            "solar": 1082.9931,
+            "solar6000": 725.0598,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 832.7557,
+            "thermal": 2509,
+            "hydro": 881,
+            "nuclear": null,
+            "wind": 2943.76,
+            "solar": 2829.8831,
+            "solar6000": 2775.6164,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 18383,
+            "thermal": 12205,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1661.714,
+            "solar": 3413.6254,
+            "solar6000": 2632.5254,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 770.4913,
+            "thermal": 2997,
+            "hydro": 1750,
+            "nuclear": 37.7667,
+            "wind": 1470.593,
+            "solar": 1539.9281,
+            "solar6000": 1281.3614,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 8276.2695,
+            "thermal": 3807,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 687.956,
+            "solar": 1803.3135,
+            "solar6000": 1777.3135,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 1596.0187,
+            "thermal": 853,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 665.352,
+            "solar6000": 583.8187,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 12568,
+            "thermal": 5547,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3153.05,
+            "solar": 6018.3555,
+            "solar6000": 5092.2888,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 13069.507,
+            "thermal": 7397,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2249.745,
+            "solar": 4114.1954,
+            "solar6000": 2905.762,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 4605.2052,
+            "thermal": 2564,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1266.995,
+            "solar": 620.3102,
+            "solar6000": 548.2102,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 11222.8501,
+            "thermal": 4031,
+            "hydro": 3691,
+            "nuclear": null,
+            "wind": 899.35,
+            "solar": 3001.8667,
+            "solar6000": 2601.5001,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 5721,
+            "thermal": 2881,
+            "hydro": 1313,
+            "nuclear": null,
+            "wind": 1005.68,
+            "solar": 1582.5781,
+            "solar6000": 1163.5448,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 4378.3278,
+            "thermal": 1888,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1399.541,
+            "solar": 529.2868,
+            "solar6000": 471.7868,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 1700.772,
+            "thermal": 10737,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2296.315,
+            "solar": 5199.724,
+            "solar6000": 3817.4574,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 5979.5926,
+            "thermal": 2978,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 588.35,
+            "solar": 2322.7759,
+            "solar6000": 1944.2426,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 7063,
+            "thermal": 3889,
+            "hydro": 378,
+            "nuclear": 55.6263,
+            "wind": 1537.45,
+            "solar": 1127.3237,
+            "solar6000": 918.4904,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7681.649,
+            "solar": 2843.4626,
+            "solar6000": 2749.0626,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1500.498,
+            "solar": 2417.4057,
+            "solar6000": 2365.5723,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 5806.0318,
+            "thermal": 396,
+            "hydro": 1390,
+            "nuclear": null,
+            "wind": 1205,
+            "solar": 2826.2318,
+            "solar6000": 2815.0318,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 17059,
+            "thermal": 11893,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2616.285,
+            "solar": 6503.1683,
+            "solar6000": 4898.9683,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 13484.8453,
+            "thermal": 8057,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2549.663,
+            "solar": 2955.9156,
+            "solar6000": 2661.1823,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 9912.1557,
+            "thermal": 5916,
+            "hydro": 324,
+            "nuclear": null,
+            "wind": 1289.981,
+            "solar": 2642.7414,
+            "solar6000": 2382.1747,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 347.779,
+            "solar6000": 239.079,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 1158.8196,
+            "thermal": 1986,
+            "hydro": 9454,
+            "nuclear": null,
+            "wind": 852.821,
+            "solar": 773.8007,
+            "solar6000": 738.6341,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 2402,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 177.403,
+            "solar": 625.9438,
+            "solar6000": 516.2771,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 286.6458,
+            "solar6000": 284.7124,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 16319,
+            "thermal": 7213,
+            "hydro": 1078,
+            "nuclear": null,
+            "wind": 3774.645,
+            "solar": 4281.6978,
+            "solar6000": 4273.5645,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 12624,
+            "thermal": 1136,
+            "hydro": 7057,
+            "nuclear": null,
+            "wind": 1597.191,
+            "solar": 3038.9422,
+            "solar6000": 2962.1422,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-07",
+            "period": "2024-07",
+            "total": 1246.3745,
+            "thermal": 6923,
+            "hydro": 1169,
+            "nuclear": 76.3833,
+            "wind": 632.891,
+            "solar": 3997.3446,
+            "solar6000": 2832.9112,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 9239,
+            "thermal": 6169,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 767.155,
+            "solar": 3727.6161,
+            "solar6000": 2941.4494,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 117.3205,
+            "thermal": 1146,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 114.0279,
+            "solar6000": 77.7279,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 271.8231,
+            "thermal": 1783,
+            "hydro": 789,
+            "nuclear": 0,
+            "wind": 217.255,
+            "solar": 204.4645,
+            "solar6000": 168.9312,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 7125,
+            "thermal": 3741,
+            "hydro": 1343,
+            "nuclear": 101.8667,
+            "wind": 789.875,
+            "solar": 1055.5238,
+            "solar6000": 722.0905,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 832.7557,
+            "thermal": 2509,
+            "hydro": 881,
+            "nuclear": null,
+            "wind": 2902.656,
+            "solar": 2772.4143,
+            "solar6000": 2726.881,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 18221,
+            "thermal": 12056,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1660.044,
+            "solar": 3273.9674,
+            "solar6000": 2597.1674,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 770.4913,
+            "thermal": 2992,
+            "hydro": 1748,
+            "nuclear": 37.7667,
+            "wind": 1400.988,
+            "solar": 1459.0328,
+            "solar6000": 1267.0661,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 8251.5797,
+            "thermal": 3807,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 674.242,
+            "solar": 1781.5377,
+            "solar6000": 1766.3377,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 1571.954,
+            "thermal": 853,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 632.254,
+            "solar6000": 559.754,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 12569,
+            "thermal": 5546,
+            "hydro": 496,
+            "nuclear": null,
+            "wind": 3158,
+            "solar": 5984.5936,
+            "solar6000": 5098.4603,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 13071.5257,
+            "thermal": 7405,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2244.865,
+            "solar": 4041.994,
+            "solar6000": 2904.6607,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 4600.6259,
+            "thermal": 2564,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1262.595,
+            "solar": 613.9976,
+            "solar6000": 548.0309,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 11205.3571,
+            "thermal": 4028,
+            "hydro": 3684,
+            "nuclear": null,
+            "wind": 893.35,
+            "solar": 2926.5071,
+            "solar6000": 2600.0071,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 5718,
+            "thermal": 2881,
+            "hydro": 1312,
+            "nuclear": null,
+            "wind": 1005.68,
+            "solar": 1518.5291,
+            "solar6000": 1159.9624,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 4367.6967,
+            "thermal": 1888,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1399.541,
+            "solar": 511.6891,
+            "solar6000": 461.1557,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 1700.772,
+            "thermal": 10733,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2296.315,
+            "solar": 5003.2581,
+            "solar6000": 3763.2581,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 5987.5898,
+            "thermal": 2989,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 588.35,
+            "solar": 2306.9398,
+            "solar6000": 1941.2398,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 6998,
+            "thermal": 3847,
+            "hydro": 378,
+            "nuclear": 55.6263,
+            "wind": 1514.85,
+            "solar": 1106.7916,
+            "solar6000": 916.2249,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7613.587,
+            "solar": 2832.0928,
+            "solar6000": 2750.4595,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1501.518,
+            "solar": 2327.5181,
+            "solar6000": 2279.3515,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 5689.6802,
+            "thermal": 396,
+            "hydro": 1390,
+            "nuclear": null,
+            "wind": 1205,
+            "solar": 2706.0468,
+            "solar6000": 2698.6802,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 16982,
+            "thermal": 11898,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2600.135,
+            "solar": 6353.6708,
+            "solar6000": 4828.1708,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 13359.1088,
+            "thermal": 8031,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2537.368,
+            "solar": 2843.4742,
+            "solar6000": 2573.7408,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 9688.8284,
+            "thermal": 5816,
+            "hydro": 313,
+            "nuclear": null,
+            "wind": 1280.837,
+            "solar": 2501.4914,
+            "solar6000": 2278.9914,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 335.9692,
+            "solar6000": 237.2359,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 1158.8196,
+            "thermal": 1986,
+            "hydro": 9452,
+            "nuclear": null,
+            "wind": 838.491,
+            "solar": 745.081,
+            "solar6000": 722.8476,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 2400,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 177.403,
+            "solar": 608.6893,
+            "solar6000": 512.3893,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 281.6458,
+            "solar6000": 279.9458,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 16090,
+            "thermal": 7213,
+            "hydro": 1046,
+            "nuclear": null,
+            "wind": 3694.785,
+            "solar": 4153.7509,
+            "solar6000": 4147.5176,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 12265,
+            "thermal": 1136,
+            "hydro": 6987,
+            "nuclear": null,
+            "wind": 1595.316,
+            "solar": 2748.0914,
+            "solar6000": 2680.7581,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-06",
+            "period": "2024-06",
+            "total": 1246.3745,
+            "thermal": 6782,
+            "hydro": 1164,
+            "nuclear": 76.3833,
+            "wind": 626.641,
+            "solar": 3878.0138,
+            "solar6000": 2823.3138,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 9181,
+            "thermal": 6168,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 759.28,
+            "solar": 3598.602,
+            "solar6000": 2812.4353,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 117.3205,
+            "thermal": 1146,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 111.7,
+            "solar6000": 75.4,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 271.8231,
+            "thermal": 1783,
+            "hydro": 788,
+            "nuclear": 0,
+            "wind": 217.255,
+            "solar": 197.6742,
+            "solar6000": 162.1409,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 7119,
+            "thermal": 3739,
+            "hydro": 1343,
+            "nuclear": 101.8667,
+            "wind": 789.475,
+            "solar": 1033.4005,
+            "solar6000": 699.9671,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 832.7557,
+            "thermal": 2509,
+            "hydro": 880,
+            "nuclear": null,
+            "wind": 2870.156,
+            "solar": 2744.0235,
+            "solar6000": 2698.4902,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 18014,
+            "thermal": 11874,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1655.554,
+            "solar": 3145.2763,
+            "solar6000": 2468.4763,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 770.4913,
+            "thermal": 2990,
+            "hydro": 1748,
+            "nuclear": 37.7667,
+            "wind": 1375.943,
+            "solar": 1422.1552,
+            "solar6000": 1230.1885,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 8169.1159,
+            "thermal": 3741,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 669.678,
+            "solar": 1769.6379,
+            "solar6000": 1754.4379,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 1558.747,
+            "thermal": 853,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 619.047,
+            "solar6000": 546.547,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 12445,
+            "thermal": 5550,
+            "hydro": 466,
+            "nuclear": null,
+            "wind": 3157.375,
+            "solar": 5832.371,
+            "solar6000": 4946.2377,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 12991.4698,
+            "thermal": 7396,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2232.365,
+            "solar": 3983.4382,
+            "solar6000": 2846.1048,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 4585.2952,
+            "thermal": 2564,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1262.595,
+            "solar": 598.6669,
+            "solar6000": 532.7002,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 11091.3157,
+            "thermal": 4016,
+            "hydro": 3684,
+            "nuclear": null,
+            "wind": 881.85,
+            "solar": 2835.9657,
+            "solar6000": 2509.4657,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 5705,
+            "thermal": 2878,
+            "hydro": 1311,
+            "nuclear": null,
+            "wind": 1005.68,
+            "solar": 1454.9059,
+            "solar6000": 1096.3392,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 4316.1376,
+            "thermal": 1885,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1359.041,
+            "solar": 503.6299,
+            "solar6000": 453.0966,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 1700.772,
+            "thermal": 10730,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2289.995,
+            "solar": 4767.5305,
+            "solar6000": 3527.5305,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 5940.1515,
+            "thermal": 2989,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 578.25,
+            "solar": 2269.6015,
+            "solar6000": 1903.9015,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 6933,
+            "thermal": 3845,
+            "hydro": 348,
+            "nuclear": 55.6263,
+            "wind": 1486.55,
+            "solar": 1073.8912,
+            "solar6000": 883.3245,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": null,
+            "thermal": null,
+            "hydro": 242,
+            "nuclear": null,
+            "wind": 7380.182,
+            "solar": 2711.8682,
+            "solar6000": 2630.2349,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1501.518,
+            "solar": 2279.8816,
+            "solar6000": 2231.715,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 5635.4277,
+            "thermal": 396,
+            "hydro": 1335,
+            "nuclear": null,
+            "wind": 1206.1,
+            "solar": 2705.6944,
+            "solar6000": 2698.3277,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 16996,
+            "thermal": 11943,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2600.135,
+            "solar": 6241.999,
+            "solar6000": 4716.499,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 13238.6925,
+            "thermal": 8017,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2530.384,
+            "solar": 2744.0418,
+            "solar6000": 2474.3085,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 9573.2362,
+            "thermal": 5817,
+            "hydro": 313,
+            "nuclear": null,
+            "wind": 1279.825,
+            "solar": 2385.9112,
+            "solar6000": 2163.4112,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 325.301,
+            "solar6000": 226.5677,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 1158.8196,
+            "thermal": 1841,
+            "hydro": 9457,
+            "nuclear": null,
+            "wind": 810.051,
+            "solar": 709.9124,
+            "solar6000": 687.679,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 2388,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 168.955,
+            "solar": 584.6593,
+            "solar6000": 488.3593,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 271.4457,
+            "solar6000": 269.7458,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 15870,
+            "thermal": 7213,
+            "hydro": 1046,
+            "nuclear": null,
+            "wind": 3624.785,
+            "solar": 4003.2859,
+            "solar6000": 3997.0526,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 11915,
+            "thermal": 1136,
+            "hydro": 6987,
+            "nuclear": null,
+            "wind": 1557.501,
+            "solar": 2426.1777,
+            "solar6000": 2358.8444,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-05",
+            "period": "2024-05",
+            "total": 1246.3745,
+            "thermal": 6781,
+            "hydro": 1164,
+            "nuclear": 76.3833,
+            "wind": 616.641,
+            "solar": 3746.3848,
+            "solar6000": 2691.6848,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 9108,
+            "thermal": 6125,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 751.655,
+            "solar": 3506.0815,
+            "solar6000": 2719.9148,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 117.3205,
+            "thermal": 1146,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 111.1386,
+            "solar6000": 74.8386,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 271.8231,
+            "thermal": 1754,
+            "hydro": 758,
+            "nuclear": 0,
+            "wind": 216.935,
+            "solar": 191.7632,
+            "solar6000": 156.2299,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 7076,
+            "thermal": 3733,
+            "hydro": 1308,
+            "nuclear": 101.8667,
+            "wind": 789.475,
+            "solar": 1009.3416,
+            "solar6000": 675.9082,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 832.7557,
+            "thermal": 2523,
+            "hydro": 880,
+            "nuclear": null,
+            "wind": 2825.156,
+            "solar": 2733.1375,
+            "solar6000": 2687.6042,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 17680,
+            "thermal": 11688,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1655.504,
+            "solar": 3016.9838,
+            "solar6000": 2340.1838,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 770.4913,
+            "thermal": 2990,
+            "hydro": 1751,
+            "nuclear": 37.7667,
+            "wind": 1365.172,
+            "solar": 1348.3654,
+            "solar6000": 1156.3987,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 8138.0991,
+            "thermal": 3741,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 664.688,
+            "solar": 1743.6111,
+            "solar6000": 1728.4111,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 1543.23,
+            "thermal": 853,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 603.53,
+            "solar6000": 531.03,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 12418,
+            "thermal": 5539,
+            "hydro": 466,
+            "nuclear": null,
+            "wind": 3157.375,
+            "solar": 5773.456,
+            "solar6000": 4887.3227,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 12980.9405,
+            "thermal": 7427,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2232.365,
+            "solar": 3941.9089,
+            "solar6000": 2804.5755,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 4572.2526,
+            "thermal": 2560,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1258.52,
+            "solar": 593.6993,
+            "solar6000": 527.7326,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 10999.5848,
+            "thermal": 4016,
+            "hydro": 3685,
+            "nuclear": null,
+            "wind": 871.225,
+            "solar": 2753.8598,
+            "solar6000": 2427.3598,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 5696,
+            "thermal": 2875,
+            "hydro": 1311,
+            "nuclear": null,
+            "wind": 1000.08,
+            "solar": 1408.2959,
+            "solar6000": 1049.7292,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 4297.325,
+            "thermal": 1885,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1353.771,
+            "solar": 490.0874,
+            "solar6000": 439.554,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 1700.772,
+            "thermal": 10730,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2294.915,
+            "solar": 4590.1423,
+            "solar6000": 3350.1423,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 5889.8309,
+            "thermal": 2990,
+            "hydro": 469,
+            "nuclear": null,
+            "wind": 578.25,
+            "solar": 2218.2809,
+            "solar6000": 1852.5809,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 6911,
+            "thermal": 3845,
+            "hydro": 348,
+            "nuclear": 55.6263,
+            "wind": 1464.6,
+            "solar": 1056.5903,
+            "solar6000": 866.0236,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": null,
+            "thermal": null,
+            "hydro": 238,
+            "nuclear": null,
+            "wind": 7299.04,
+            "solar": 2682.2125,
+            "solar6000": 2600.5792,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 625.888,
+            "thermal": 3313,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1468.433,
+            "solar": 2253.0036,
+            "solar6000": 2204.8369,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 5608.9076,
+            "thermal": 396,
+            "hydro": 1335,
+            "nuclear": null,
+            "wind": 1206.1,
+            "solar": 2679.1742,
+            "solar6000": 2671.8076,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 16866,
+            "thermal": 11873,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2600.135,
+            "solar": 6111.4543,
+            "solar6000": 4585.9543,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 13176.772,
+            "thermal": 8017,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2530.384,
+            "solar": 2682.1213,
+            "solar6000": 2412.388,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 9562.5825,
+            "thermal": 5816,
+            "hydro": 313,
+            "nuclear": null,
+            "wind": 1279.325,
+            "solar": 2376.7575,
+            "solar6000": 2154.2575,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 317.8698,
+            "solar6000": 219.1365,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 1158.8196,
+            "thermal": 1840,
+            "hydro": 9457,
+            "nuclear": null,
+            "wind": 798.176,
+            "solar": 701.4761,
+            "solar6000": 679.2428,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 2381,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 168.955,
+            "solar": 563.1065,
+            "solar6000": 466.8065,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 68.9527,
+            "thermal": 42,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 271.4457,
+            "solar6000": 269.7458,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 15217,
+            "thermal": 7211,
+            "hydro": 1017,
+            "nuclear": null,
+            "wind": 3567.645,
+            "solar": 3437.993,
+            "solar6000": 3431.7597,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 11807,
+            "thermal": 1136,
+            "hydro": 6987,
+            "nuclear": null,
+            "wind": 1551.446,
+            "solar": 2320.3507,
+            "solar6000": 2253.0174,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-04",
+            "period": "2024-04",
+            "total": 1246.3745,
+            "thermal": 6780,
+            "hydro": 1164,
+            "nuclear": 76.3833,
+            "wind": 616.641,
+            "solar": 3659.4315,
+            "solar6000": 2604.7315,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 9043,
+            "thermal": 6080,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 737.875,
+            "solar": 3432.5055,
+            "solar6000": 2727.2055,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 117.3205,
+            "thermal": 1146,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 111.1386,
+            "solar6000": 75.8052,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 271.8231,
+            "thermal": 1754,
+            "hydro": 731,
+            "nuclear": 0,
+            "wind": 216.935,
+            "solar": 188.4204,
+            "solar6000": 157.8537,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 7042,
+            "thermal": 3716,
+            "hydro": 1308,
+            "nuclear": 101.8667,
+            "wind": 783.205,
+            "solar": 974.2935,
+            "solar6000": 664.4268,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 832.7557,
+            "thermal": 2523,
+            "hydro": 880,
+            "nuclear": null,
+            "wind": 2825.156,
+            "solar": 2702.6811,
+            "solar6000": 2663.2144,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 17719,
+            "thermal": 11741,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1655.504,
+            "solar": 2926.3666,
+            "solar6000": 2359.0666,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 770.4913,
+            "thermal": 2924,
+            "hydro": 1748,
+            "nuclear": 37.7667,
+            "wind": 1359.755,
+            "solar": 1318.9732,
+            "solar6000": 1164.1399,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 8116.5092,
+            "thermal": 3740,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 653.803,
+            "solar": 1729.8395,
+            "solar6000": 1718.7062,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 1601.4233,
+            "thermal": 853,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 649.39,
+            "solar6000": 589.2233,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 12424,
+            "thermal": 5560,
+            "hydro": 466,
+            "nuclear": null,
+            "wind": 3157.375,
+            "solar": 5711.9731,
+            "solar6000": 4878.1064,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 12967.4683,
+            "thermal": 7422,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2232.365,
+            "solar": 3879.2033,
+            "solar6000": 2796.1033,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 4526.9525,
+            "thermal": 2555,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1228.52,
+            "solar": 578.0992,
+            "solar6000": 517.4325,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 10967.4213,
+            "thermal": 4016,
+            "hydro": 3686,
+            "nuclear": null,
+            "wind": 851.975,
+            "solar": 2700.0796,
+            "solar6000": 2413.4463,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 5671,
+            "thermal": 2875,
+            "hydro": 1307,
+            "nuclear": null,
+            "wind": 1000.08,
+            "solar": 1341.4034,
+            "solar6000": 1032.1367,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 4294.1541,
+            "thermal": 1884,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1353.771,
+            "solar": 482.5164,
+            "solar6000": 437.3831,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 1700.772,
+            "thermal": 10752,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2284.438,
+            "solar": 4420.7751,
+            "solar6000": 3348.4085,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 5797.3945,
+            "thermal": 2987,
+            "hydro": 468,
+            "nuclear": null,
+            "wind": 578.25,
+            "solar": 2119.9112,
+            "solar6000": 1764.1445,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 6902,
+            "thermal": 3845,
+            "hydro": 348,
+            "nuclear": 55.6263,
+            "wind": 1455.24,
+            "solar": 1037.5718,
+            "solar6000": 869.0385,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": null,
+            "thermal": null,
+            "hydro": 238,
+            "nuclear": null,
+            "wind": 7304.465,
+            "solar": 2691.7608,
+            "solar6000": 2621.6941,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 625.888,
+            "thermal": 3312,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1463.433,
+            "solar": 2242.1459,
+            "solar6000": 2198.0459,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 5540.2524,
+            "thermal": 396,
+            "hydro": 1280,
+            "nuclear": null,
+            "wind": 1191.88,
+            "solar": 2679.0724,
+            "solar6000": 2672.3724,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 16799,
+            "thermal": 11822,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2600.135,
+            "solar": 6015.497,
+            "solar6000": 4566.697,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 13155.8472,
+            "thermal": 8013,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2521.829,
+            "solar": 2642.2515,
+            "solar6000": 2404.0182,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 9573.1582,
+            "thermal": 5817,
+            "hydro": 309,
+            "nuclear": null,
+            "wind": 1272.325,
+            "solar": 2348.7999,
+            "solar6000": 2174.8332,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 308.3072,
+            "solar6000": 218.8072,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 1158.8196,
+            "thermal": 1838,
+            "hydro": 9464,
+            "nuclear": null,
+            "wind": 798.876,
+            "solar": 659.7547,
+            "solar6000": 640.9547,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 2380,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 167.955,
+            "solar": 547.112,
+            "solar6000": 467.7787,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 68.9527,
+            "thermal": 41,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 271.2452,
+            "solar6000": 269.6785,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 15205,
+            "thermal": 7211,
+            "hydro": 1017,
+            "nuclear": null,
+            "wind": 3567.645,
+            "solar": 3426.233,
+            "solar6000": 3420.0997,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 11774,
+            "thermal": 1136,
+            "hydro": 6987,
+            "nuclear": null,
+            "wind": 1549.436,
+            "solar": 2270.4642,
+            "solar6000": 2214.0975,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-03",
+            "period": "2024-03",
+            "total": 1246.3745,
+            "thermal": 6775,
+            "hydro": 1164,
+            "nuclear": 76.3833,
+            "wind": 616.016,
+            "solar": 3596.9579,
+            "solar6000": 2626.6912,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "安徽",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 9017,
+            "thermal": 6069,
+            "hydro": 545,
+            "nuclear": null,
+            "wind": 736.375,
+            "solar": 3382.2246,
+            "solar6000": 2676.9246,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "北京",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 117.3205,
+            "thermal": 1146,
+            "hydro": 101,
+            "nuclear": null,
+            "wind": 23.4,
+            "solar": 111.1386,
+            "solar6000": 75.8052,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "重庆",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 271.8231,
+            "thermal": 1754,
+            "hydro": 732,
+            "nuclear": 0,
+            "wind": 216.515,
+            "solar": 185.174,
+            "solar6000": 154.6073,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "福建",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 7015,
+            "thermal": 3716,
+            "hydro": 1271,
+            "nuclear": 101.8667,
+            "wind": 781.775,
+            "solar": 949.1702,
+            "solar6000": 639.3036,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "甘肃",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 832.7557,
+            "thermal": 2522,
+            "hydro": 879,
+            "nuclear": null,
+            "wind": 2788.76,
+            "solar": 2691.2498,
+            "solar6000": 2651.7831,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广东",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 17612,
+            "thermal": 11673,
+            "hydro": 1413,
+            "nuclear": 134.4667,
+            "wind": 1655.504,
+            "solar": 2831.7666,
+            "solar6000": 2264.4666,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "广西",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 770.4913,
+            "thermal": 2857,
+            "hydro": 1746,
+            "nuclear": 37.7667,
+            "wind": 1342.605,
+            "solar": 1262.8488,
+            "solar6000": 1108.0155,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "贵州",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 8079.4538,
+            "thermal": 3740,
+            "hydro": 2004,
+            "nuclear": null,
+            "wind": 644.342,
+            "solar": 1702.2452,
+            "solar6000": 1691.1118,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "海南",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 1491.8833,
+            "thermal": 851,
+            "hydro": 128,
+            "nuclear": null,
+            "wind": 31.2,
+            "solar": 541.85,
+            "solar6000": 481.6833,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河北",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 12245,
+            "thermal": 5523,
+            "hydro": 468,
+            "nuclear": null,
+            "wind": 3140.875,
+            "solar": 5541.2412,
+            "solar6000": 4707.3745,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "河南",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 12923.1287,
+            "thermal": 7420,
+            "hydro": 517,
+            "nuclear": null,
+            "wind": 2223.515,
+            "solar": 3845.7137,
+            "solar6000": 2762.6137,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "黑龙江",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 4483.939,
+            "thermal": 2555,
+            "hydro": 226,
+            "nuclear": null,
+            "wind": 1189.161,
+            "solar": 574.4446,
+            "solar6000": 513.778,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖北",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 10900.0499,
+            "thermal": 4016,
+            "hydro": 3685,
+            "nuclear": null,
+            "wind": 848.85,
+            "solar": 2636.8333,
+            "solar6000": 2350.1999,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "湖南",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 5665,
+            "thermal": 2873,
+            "hydro": 1306,
+            "nuclear": null,
+            "wind": 996.59,
+            "solar": 1310.9398,
+            "solar6000": 1001.6731,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "吉林",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 4234.7742,
+            "thermal": 1884,
+            "hydro": 619,
+            "nuclear": null,
+            "wind": 1305.951,
+            "solar": 470.9565,
+            "solar6000": 425.8232,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江苏",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 1700.772,
+            "thermal": 10752,
+            "hydro": 260,
+            "nuclear": 55.0667,
+            "wind": 2284.438,
+            "solar": 4329.7304,
+            "solar6000": 3257.3638,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "江西",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 5790.5826,
+            "thermal": 2986,
+            "hydro": 468,
+            "nuclear": null,
+            "wind": 578.25,
+            "solar": 2114.0993,
+            "solar6000": 1758.3326,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "辽宁",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 6846,
+            "thermal": 3845,
+            "hydro": 318,
+            "nuclear": 55.6263,
+            "wind": 1439.34,
+            "solar": 1014.6987,
+            "solar6000": 846.1654,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "内蒙古",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": null,
+            "thermal": null,
+            "hydro": 238,
+            "nuclear": null,
+            "wind": 7052.644,
+            "solar": 2644.6106,
+            "solar6000": 2574.5439,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "total",
+                "thermal",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "宁夏",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 625.888,
+            "thermal": 3312,
+            "hydro": 42,
+            "nuclear": null,
+            "wind": 1463.433,
+            "solar": 2166.0428,
+            "solar6000": 2121.9428,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "青海",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 5538.7685,
+            "thermal": 396,
+            "hydro": 1283,
+            "nuclear": null,
+            "wind": 1187.456,
+            "solar": 2679.0125,
+            "solar6000": 2672.3125,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山东",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 16774,
+            "thermal": 11804,
+            "hydro": 402,
+            "nuclear": null,
+            "wind": 2600.21,
+            "solar": 5934.6331,
+            "solar6000": 4485.8331,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "山西",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 13093.4603,
+            "thermal": 8009,
+            "hydro": 217,
+            "nuclear": null,
+            "wind": 2503.404,
+            "solar": 2602.2896,
+            "solar6000": 2364.0563,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "陕西",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 9545.1663,
+            "thermal": 5811,
+            "hydro": 309,
+            "nuclear": null,
+            "wind": 1260.325,
+            "solar": 2338.808,
+            "solar6000": 2164.8413,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "上海",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 2700,
+            "thermal": 2548,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 106.635,
+            "solar": 305.9006,
+            "solar6000": 216.4006,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "四川",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 1158.8196,
+            "thermal": 1823,
+            "hydro": 9506,
+            "nuclear": null,
+            "wind": 798.876,
+            "solar": 635.2605,
+            "solar6000": 616.4605,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "天津",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 2378,
+            "thermal": 1897,
+            "hydro": null,
+            "nuclear": null,
+            "wind": 166.595,
+            "solar": 536.1082,
+            "solar6000": 456.7748,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "hydro",
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "西藏",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 68.9527,
+            "thermal": 41,
+            "hydro": 26.1107,
+            "nuclear": null,
+            "wind": 17.95,
+            "solar": 271.2952,
+            "solar6000": 269.7285,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "新疆",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 15036,
+            "thermal": 7205,
+            "hydro": 1006,
+            "nuclear": null,
+            "wind": 3462.645,
+            "solar": 3426.217,
+            "solar6000": 3420.0837,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "云南",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 11747,
+            "thermal": 1136,
+            "hydro": 6987,
+            "nuclear": null,
+            "wind": 1544.926,
+            "solar": 2235.8392,
+            "solar6000": 2179.4725,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [
+                "nuclear"
+            ],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        },
+        {
+            "province": "浙江",
+            "month": "2024-02",
+            "period": "2024-02",
+            "total": 1246.3745,
+            "thermal": 6775,
+            "hydro": 1164,
+            "nuclear": 76.3833,
+            "wind": 585.416,
+            "solar": 3562.4608,
+            "solar6000": 2592.1941,
+            "dataSource": "Wind EDB",
+            "confidence": "中",
+            "missingFields": [],
+            "scopeNotes": "太阳能（含分布式）为 Wind 全口径；太阳能（6000+电厂）按 Wind 全口径减分布式光伏累计并网容量计算。"
+        }
+    ],
+    "powerConsumptionCumulativeWind": [
+        {
+            "month": "2025-02",
+            "total": 15564,
+            "primary": 208,
+            "secondary": 9636,
+            "tertiary": 2980,
+            "residential": 2740,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-03",
+            "total": 23846,
+            "primary": 314,
+            "secondary": 15214,
+            "tertiary": 4465,
+            "residential": 3853,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-04",
+            "total": 31566,
+            "primary": 424,
+            "secondary": 20497,
+            "tertiary": 5856,
+            "residential": 4789,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-05",
+            "total": 39665,
+            "primary": 543,
+            "secondary": 25914,
+            "tertiary": 7406,
+            "residential": 5802,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-06",
+            "total": 48418,
+            "primary": 676,
+            "secondary": 31485,
+            "tertiary": 9164,
+            "residential": 7093,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-07",
+            "total": 58633,
+            "primary": 847,
+            "secondary": 37403,
+            "tertiary": 11251,
+            "residential": 9132,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-08",
+            "total": 68788,
+            "primary": 1012,
+            "secondary": 43386,
+            "tertiary": 13297,
+            "residential": 11094,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-09",
+            "total": 77675,
+            "primary": 1142,
+            "secondary": 49093,
+            "tertiary": 15062,
+            "residential": 12378,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-10",
+            "total": 86246,
+            "primary": 1262,
+            "secondary": 54781,
+            "tertiary": 16671,
+            "residential": 13532,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-11",
+            "total": 94602,
+            "primary": 1374,
+            "secondary": 60436,
+            "tertiary": 18204,
+            "residential": 14588,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2025-12",
+            "total": 103682,
+            "primary": 1494,
+            "secondary": 66366,
+            "tertiary": 19942,
+            "residential": 15880,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-01",
+            "total": null,
+            "primary": null,
+            "secondary": null,
+            "tertiary": null,
+            "residential": null,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-02",
+            "total": 16546,
+            "primary": 223,
+            "secondary": 10279,
+            "tertiary": 3231,
+            "residential": 2813,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-03",
+            "total": 25141,
+            "primary": 336,
+            "secondary": 15987,
+            "tertiary": 4833,
+            "residential": 3985,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-04",
+            "total": 33345,
+            "primary": 449,
+            "secondary": 21569,
+            "tertiary": 6351,
+            "residential": 4976,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-05",
+            "total": 42018,
+            "primary": 574,
+            "secondary": 27324,
+            "tertiary": 8055,
+            "residential": 6065,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        },
+        {
+            "month": "2026-06",
+            "total": 50999,
+            "primary": 711,
+            "secondary": 33057,
+            "tertiary": 9916,
+            "residential": 7315,
+            "dataSource": "Wind EDB / 国家能源局",
+            "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        }
+    ]
 };

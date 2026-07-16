@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>电力数据研究工作台</title>
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
   <style>
     :root {
       --bg: #f6f7f8;
@@ -489,7 +491,7 @@
       h1 { font-size: 24px; }
     }
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260714-7">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260717-grid-height-1">
   <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
@@ -507,11 +509,6 @@
         <a href="holdings.html">估值与资金</a>
         <a href="tools.html">测算中心</a>
       </nav>
-      <div class="nav-section">研究归档</div>
-      <nav>
-        <a href="research.html">观点与复盘</a>
-        <a href="companies.html">公司弹性</a>
-      </nav>
     </aside>
 
     <main>
@@ -524,7 +521,6 @@
         <div class="actions">
           <button onclick="location.href='subscribe.html'">订阅周度跟踪</button>
           <button onclick="location.href='data-request.html'">申请完整数据</button>
-          <button class="primary" onclick="location.href='research.html'">观点与复盘</button>
         </div>
       </div>
 
@@ -567,7 +563,7 @@
       <div class="metric-grid signal-metrics">
         <a class="metric" href="hydro.html">
           <div class="label">来水</div>
-          <div class="value up" id="metric-hydro-signal">偏丰</div>
+          <div class="value" id="metric-hydro-signal">偏丰</div>
           <div class="note" id="metric-hydro-note">近 14 日水位/入库综合信号</div>
         </a>
         <a class="metric" href="price.html">
@@ -606,7 +602,6 @@
             <h2>未来 30 天事件日历</h2>
             <p>只放最需要跟踪的 5 件事，公告和资讯优先通过 iFinD/Wind 更新。</p>
           </div>
-          <a class="tab active topic-link" href="research.html">查看记录</a>
         </div>
         <div class="section-body event-list" id="home-event-list">
           <div class="event-item"><span>加载中</span><strong>正在生成事件日历...</strong></div>
@@ -617,6 +612,6 @@
   <script src="assets/workbench-data.js"></script>
   <script src="assets/weather-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js?v=20260716-weather-date-1"></script>
+  <script src="assets/app.js?v=20260717-tooltip-grid-height-1"></script>
 </body>
 </html>

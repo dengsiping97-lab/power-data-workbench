@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>负荷气象 · 电力数据研究工作台</title>
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
   <style>
     :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--shadow:0 10px 28px rgba(20,32,38,.08)}
     *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
@@ -12,7 +14,7 @@
     .freshness-strip{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.freshness-chip{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;color:var(--muted);font-size:12px}.freshness-chip strong{color:var(--text)}.national-takeaway{display:flex;gap:12px;align-items:flex-start;border-left:4px solid #587493;background:#f2f6f9;padding:13px 15px;margin:0 0 18px;border-radius:6px;box-shadow:none}.national-takeaway .takeaway-label{flex:0 0 auto;color:#36536b;font-weight:700;font-size:13px}.national-takeaway p{margin:0;color:#263e50;line-height:1.6;font-size:14px}.weather-note{border-left:4px solid #c98219;background:#fff8ec;padding:12px 14px;color:#614611;margin:0 0 18px;border-radius:6px}.signal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 18px}.signal-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:var(--shadow)}.signal-card .kicker{font-size:12px;color:var(--muted)}.signal-card strong{display:block;font-size:24px;margin:7px 0}.toolbar{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px}.toolbar select{min-width:150px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--text);font-size:14px}.weather-chart{height:400px;width:100%}.matrix td:first-child{font-weight:600}.up{color:#b64d32}.down{color:#277a57}.muted{color:var(--muted)}
     @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}}@media(max-width:720px){main{padding:18px 14px 28px}.topbar{flex-direction:column}.signal-grid{grid-template-columns:1fr}nav{grid-template-columns:1fr 1fr}h1{font-size:24px}}
   </style>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-weather-chart-2">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260716-fixed-sidebar-3">
   <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
 </head>
 <body>
@@ -30,5 +32,5 @@
     <section class="chart-card"><div class="weekly-chart-head"><div><h2>异常清单</h2><p>温度同比绝对值超过 1C 或 CDD26 同比绝对值超过 20 的地区。</p></div></div><div class="table-wrap"><table><thead><tr><th>地区</th><th>周均温</th><th>温度同比</th><th>CDD26</th><th>CDD同比</th><th>高温日</th><th>负荷含义</th></tr></thead><tbody id="anomaly-body"></tbody></table></div></section>
     <section class="chart-card"><div class="weekly-chart-head"><div><h2>天气—电力影响矩阵</h2><p>仅为负荷侧天气方向；流域来水、风速和辐照不在本页推断。</p></div></div><div class="table-wrap"><table class="matrix"><thead><tr><th>省份</th><th>需求天气</th><th>火电边际</th><th>水电/新能源</th><th>口径</th></tr></thead><tbody id="matrix-body"></tbody></table></div></section>
     <section class="chart-card"><div class="weekly-chart-head"><div><h2>31 省周度快照</h2><p>可按温度同比、CDD 和降水查看；降水不能替代流域来水。</p></div></div><div class="table-wrap"><table><thead><tr><th>省份</th><th>周均温</th><th>温度同比</th><th>降水</th><th>CDD26</th><th>CDD同比</th><th>HDD18</th><th>高温日</th></tr></thead><tbody id="all-body"></tbody></table></div></section>
-  </main></div><script src="assets/weather-data.js"></script><script src="assets/weather-history-data.js"></script><script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script><script src="assets/weather.js?v=20260716-weather-date-1"></script>
+  </main></div><script src="assets/weather-data.js"></script><script src="assets/weather-history-data.js"></script><script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script><script src="assets/weather.js?v=20260716-palette-b-1"></script>
 </body></html>

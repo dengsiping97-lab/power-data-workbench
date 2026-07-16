@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>公司弹性 · 电力数据研究工作台</title>
-  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260715-module-hero-1">
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260716-fixed-sidebar-3">
   <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
   <style>
     .company-page { max-width: 1180px; margin: 0 auto; padding: 34px 28px 56px; }
@@ -70,7 +72,6 @@
         <div class="signal-list">
           <div class="signal-row"><span>2026Q2 电量</span><strong>709.19 亿kWh</strong></div>
           <div class="signal-row"><span>同比</span><strong>+2.82%</strong></div>
-          <div class="signal-row"><span>当前重点</span><strong>来水边际与电价结构</strong></div>
         </div>
       </article>
 
@@ -81,7 +82,6 @@
         <div class="signal-list">
           <div class="signal-row"><span>2026Q2 测算</span><strong>约 145.9 亿kWh</strong></div>
           <div class="signal-row"><span>同比</span><strong>-26.2%</strong></div>
-          <div class="signal-row"><span>当前重点</span><strong>等待公告校准</strong></div>
         </div>
       </article>
 
@@ -92,7 +92,6 @@
         <div class="signal-list">
           <div class="signal-row"><span>2026Q2 测算</span><strong>约 110 亿kWh</strong></div>
           <div class="signal-row"><span>同比</span><strong>-12.3%</strong></div>
-          <div class="signal-row"><span>当前重点</span><strong>公告后复盘误差</strong></div>
         </div>
       </article>
 
@@ -103,7 +102,6 @@
         <div class="signal-list">
           <div class="signal-row"><span>2026Q2 水电量</span><strong>113.75 亿kWh</strong></div>
           <div class="signal-row"><span>同比</span><strong>约 +57.8%</strong></div>
-          <div class="signal-row"><span>当前重点</span><strong>红水河持续性</strong></div>
         </div>
       </article>
 
@@ -114,7 +112,6 @@
         <div class="signal-list">
           <div class="signal-row"><span>2026Q2 推算</span><strong>约 24.27 亿kWh</strong></div>
           <div class="signal-row"><span>同比</span><strong>约 +59.8%</strong></div>
-          <div class="signal-row"><span>当前重点</span><strong>公告优先，水情补强</strong></div>
         </div>
       </article>
 
@@ -125,15 +122,9 @@
         <div class="signal-list">
           <div class="signal-row"><span>当前状态</span><strong>补库中</strong></div>
           <div class="signal-row"><span>展示原则</span><strong>公告值优先</strong></div>
-          <div class="signal-row"><span>下一步</span><strong>接入周度电量表</strong></div>
         </div>
       </article>
     </div>
-
-    <section class="section-card" id="weekly-power-forecast">
-      <h2>周度电量测算</h2>
-      <p class="note weekly-intro">用一个大图承载 2026 年以来的周度数据，通过下拉框切换公司。柱状为周度电量，折线为同比；已公告公司以公告季度总量校准，未公告公司保留测算/公告部分口径。</p>
-    </section>
 
     <section class="weekly-main-card">
       <div class="weekly-main-head">
@@ -176,21 +167,6 @@
       </article>
     </div>
 
-    <section class="section-card">
-      <h2>页面定位</h2>
-      <p class="note">它不是数据目录，也不是原始数据页；它是投资视角的“公司归因页”。先用公告真值锁定事实，再用来水和电价判断边际弹性。后续可以继续补每家公司单页：电量、价格、利润敏感性和估值影响。</p>
-      <table>
-        <thead>
-          <tr><th>模块</th><th>看什么</th><th>投资用途</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>公告真值</td><td>季度/半年度发电量、售电量</td><td>避免用旧预测替代事实</td></tr>
-          <tr><td>来水边际</td><td>近7日、近14日、本季以来水情</td><td>判断下一期电量方向</td></tr>
-          <tr><td>电价结构</td><td>现货、电价基准、代理购电价</td><td>判断收入弹性和区域差异</td></tr>
-          <tr><td>利润映射</td><td>电量 × 电价 × 成本/投资收益</td><td>形成公司层面业绩弹性</td></tr>
-        </tbody>
-      </table>
-    </section>
   </main>
   <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script>
@@ -264,7 +240,7 @@
       if (!node || !window.echarts) return;
       const chart = echarts.init(node, null, { renderer: "canvas" });
       chart.setOption({
-        color: ["#607d98", "#c5a66f"],
+        color: ["#334e68", "#d49a3a"],
         tooltip: {
           trigger: "axis",
           backgroundColor: "rgba(45, 29, 27, .96)",
@@ -273,7 +249,8 @@
           formatter: (params) => {
             const bar = params.find((p) => p.seriesName === "周度电量");
             const line = params.find((p) => p.seriesName === "同比");
-            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：${line.value > 0 ? "+" : ""}${line.value}%`;
+            const yoyClass = line.value > 0 ? "pct-positive" : line.value < 0 ? "pct-negative" : "";
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${line.value > 0 ? "+" : ""}${line.value}%</span>`;
           }
         },
         legend: { top: 4, right: 8, textStyle: { color: "#74808a", fontSize: 11 } },
@@ -370,7 +347,7 @@
       const item = companyYtdWeeklyCharts.find((row) => row.key === key) || companyYtdWeeklyCharts[0];
       if (!companyYtdWeeklyChart) companyYtdWeeklyChart = echarts.init(node, null, { renderer: "canvas" });
       companyYtdWeeklyChart.setOption({
-        color: ["#607d98", "#c5a66f"],
+        color: ["#334e68", "#d49a3a"],
         title: {
           text: `${item.name}｜2026年以来周度电量`,
           subtext: `${item.status}；柱状为周度电量，折线为同比`,
@@ -387,7 +364,8 @@
           formatter: (params) => {
             const bar = params.find((p) => p.seriesName === "周度电量");
             const line = params.find((p) => p.seriesName === "同比");
-            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：${line.value > 0 ? "+" : ""}${line.value}%`;
+            const yoyClass = line.value > 0 ? "pct-positive" : line.value < 0 ? "pct-negative" : "";
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${line.value > 0 ? "+" : ""}${line.value}%</span>`;
           }
         },
         legend: { top: 44, right: 26, textStyle: { color: "#74808a", fontSize: 12 } },

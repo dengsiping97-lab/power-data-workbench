@@ -66,7 +66,7 @@
   font-weight: 650;
 }
 .access-gate-error { min-height: 20px; margin: 9px 0 0; color: #b64d32; font-size: 12px; }
-.access-gate-footnote { margin-top: 16px; color: #839098; font-size: 11px; line-height: 1.55; }
+.access-gate-footnote { display: none; }
 
 .access-gate-logout {
   position: fixed;
