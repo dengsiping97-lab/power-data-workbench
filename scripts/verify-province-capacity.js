@@ -44,7 +44,7 @@ const server = http.createServer((request, response) => {
     scrollHeight: node.scrollHeight,
     overflowY: getComputedStyle(node).overflowY
   }));
-  assert(tableScroll.clientHeight <= 390, `province table viewport too tall: ${tableScroll.clientHeight}px`);
+  assert(tableScroll.clientHeight <= 244, `province table viewport too tall: ${tableScroll.clientHeight}px`);
   assert(tableScroll.scrollHeight > tableScroll.clientHeight, "province table is not vertically scrollable");
   assert(["auto", "scroll"].includes(tableScroll.overflowY), `province table overflow invalid: ${tableScroll.overflowY}`);
   await page.selectOption("#province-capacity-province", { label: "内蒙古" });
