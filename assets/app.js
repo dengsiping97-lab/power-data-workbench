@@ -1536,9 +1536,9 @@
       .slice()
       .reverse();
     const latestIndustryCumulative = {
-      endMonth: "2026-05",
-      values: { total: 42018, primary: 574, secondary: 27324, tertiary: 8055, residential: 6065 },
-      yoy: { total: 5.9, primary: 5.6, secondary: 5.1, tertiary: 8.6, residential: 4.5 }
+      endMonth: "2026-06",
+      values: { total: 50999, primary: 711, secondary: 33057, tertiary: 9916, residential: 7315 },
+      yoy: { total: 5.3, primary: 4.9, secondary: 5.1, tertiary: 8.0, residential: 3.1 }
     };
     const latestIndustryMonth = latestIndustryCumulative.endMonth;
     const cumulativeEndMonths = [
