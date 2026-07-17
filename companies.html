@@ -77,21 +77,21 @@
 
       <article class="company-card">
         <span class="tag">测算值</span>
-        <h2>雅砻江水电</h2>
-        <p class="meta">对应国投电力、川投能源，核心看锦屏一级、二滩、官地等流域来水。</p>
+        <h2>国投电力</h2>
+        <p class="meta">上市公司全部水电资产口径；雅砻江仅作为高频测算驱动。</p>
         <div class="signal-list">
-          <div class="signal-row"><span>2026Q2 测算</span><strong>约 145.9 亿kWh</strong></div>
-          <div class="signal-row"><span>同比</span><strong>-26.2%</strong></div>
+          <div class="signal-row"><span>周度口径</span><strong>上市公司完整水电</strong></div>
+          <div class="signal-row"><span>方法</span><strong>季度总量锚 + 雅砻江驱动</strong></div>
         </div>
       </article>
 
       <article class="company-card">
         <span class="tag">测算值</span>
-        <h2>国能大渡河</h2>
-        <p class="meta">对应国电电力和川投能源投资收益，核心看瀑布沟、大岗山、龚嘴、铜街子。</p>
+        <h2>国电电力</h2>
+        <p class="meta">上市公司全部水电资产口径；大渡河仅作为高频测算驱动。</p>
         <div class="signal-list">
-          <div class="signal-row"><span>2026Q2 测算</span><strong>约 110 亿kWh</strong></div>
-          <div class="signal-row"><span>同比</span><strong>-12.3%</strong></div>
+          <div class="signal-row"><span>周度口径</span><strong>上市公司完整水电</strong></div>
+          <div class="signal-row"><span>方法</span><strong>大渡河驱动 + 其他资产补全</strong></div>
         </div>
       </article>
 
@@ -130,7 +130,7 @@
       <div class="weekly-main-head">
         <div>
           <h2>2026年以来周度电量测算</h2>
-          <p>柱状为周度电量，折线为同比。用于观察公司电量边际方向：已公告公司优先用公告季度总量校准，未公告公司保留测算或公告部分口径。</p>
+          <p>所有柱状均为上市公司完整水电口径的周度估算，折线为同比。电站、流域及子公司数据只作为模型驱动；无法补齐公司完整口径时不展示局部电量。</p>
         </div>
         <label class="weekly-toolbar">公司
           <select id="company-weekly-select"></select>
@@ -140,42 +140,12 @@
       <p id="company-weekly-note" class="weekly-chart-note"></p>
     </section>
 
-    <div class="weekly-chart-grid" id="company-weekly-chart-grid">
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>长江电力</h2><p>公司六库周度电量，Q2 已用公告总量校准。</p></div><span class="weekly-status">公告实际</span></div>
-        <div id="chart-company-changjiang" class="weekly-chart"></div>
-      </article>
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>雅砻江水电</h2><p>对应国投电力、川投能源，按雅砻江流域测算。</p></div><span class="weekly-status">测算值</span></div>
-        <div id="chart-company-yalong" class="weekly-chart"></div>
-      </article>
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>国能大渡河</h2><p>对应国电电力、川投能源投资收益弹性。</p></div><span class="weekly-status">测算值</span></div>
-        <div id="chart-company-dadu" class="weekly-chart"></div>
-      </article>
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>桂冠电力</h2><p>红水河为主，Q2 水电量已公告，周度按节奏拆分。</p></div><span class="weekly-status">公告实际</span></div>
-        <div id="chart-company-guiguan" class="weekly-chart"></div>
-      </article>
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>黔源电力</h2><p>H1-Q1 推算 Q2，周度用于观察强水情持续性。</p></div><span class="weekly-status">公告推算</span></div>
-        <div id="chart-company-qianyuan" class="weekly-chart"></div>
-      </article>
-      <article class="weekly-chart-card">
-        <div class="weekly-chart-head"><div><h2>五凌电力 / 中国电力水电</h2><p>已有 4-5 月公告部分数据，后续等待 6 月补齐。</p></div><span class="weekly-status">公告部分</span></div>
-        <div id="chart-company-wuling" class="weekly-chart"></div>
-      </article>
-    </div>
-
   </main>
   <script src="assets/workbench-data.js"></script>
   <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script>
     const renderCompanyChartsWhenReady = (render) => {
-      if (window.echarts) {
-        render();
-        return;
-      }
+      if (window.echarts) return render();
       const retry = window.setInterval(() => {
         if (!window.echarts) return;
         window.clearInterval(retry);
@@ -183,108 +153,18 @@
       }, 160);
       window.setTimeout(() => window.clearInterval(retry), 6000);
     };
-
-    const companyWeekEndDates = ["2026-05-31", "2026-06-07", "2026-06-14", "2026-06-21", "2026-06-28", "2026-07-05"];
-    const companyWeeklyCharts = [
-      {
-        id: "chart-company-changjiang",
-        name: "长江电力",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [51.8, 53.6, 54.9, 56.2, 58.4, 61.0],
-        yoy: [1.2, 1.9, 2.6, 3.1, 4.2, 5.4]
-      },
-      {
-        id: "chart-company-yalong",
-        name: "雅砻江水电",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [10.5, 10.9, 11.1, 11.3, 11.6, 11.8],
-        yoy: [-31.5, -29.8, -28.1, -27.3, -26.2, -24.9]
-      },
-      {
-        id: "chart-company-dadu",
-        name: "国能大渡河",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [7.8, 8.1, 8.3, 8.5, 8.7, 9.0],
-        yoy: [-18.4, -16.8, -14.5, -12.3, -10.6, -8.8]
-      },
-      {
-        id: "chart-company-guiguan",
-        name: "桂冠电力",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [7.4, 8.0, 8.6, 9.0, 9.5, 9.8],
-        yoy: [42.0, 47.5, 52.2, 57.8, 60.1, 62.0]
-      },
-      {
-        id: "chart-company-qianyuan",
-        name: "黔源电力",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [1.55, 1.72, 1.86, 1.94, 2.02, 2.12],
-        yoy: [41.5, 48.2, 55.6, 59.8, 63.0, 67.9]
-      },
-      {
-        id: "chart-company-wuling",
-        name: "五凌电力",
-        unit: "亿kWh",
-        weeks: companyWeekEndDates,
-        power: [6.2, 6.8, 7.1, 7.5, 7.9, 8.2],
-        yoy: [88.0, 101.5, 118.0, 130.3, 126.0, 121.4]
-      }
-    ];
-
-    function renderCompanyWeeklyChart(item) {
-      const node = document.getElementById(item.id);
-      if (!node || !window.echarts) return;
-      const chart = echarts.init(node, null, { renderer: "canvas" });
-      chart.setOption({
-        color: ["#334e68", "#d49a3a"],
-        tooltip: {
-          trigger: "axis",
-          backgroundColor: "rgba(45, 29, 27, .96)",
-          borderWidth: 0,
-          textStyle: { color: "#fff", fontSize: 12 },
-          formatter: (params) => {
-            const bar = params.find((p) => p.seriesName === "周度电量");
-            const line = params.find((p) => p.seriesName === "同比");
-            const yoyClass = line.value > 0 ? "pct-positive" : line.value < 0 ? "pct-negative" : "";
-            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${line.value > 0 ? "+" : ""}${line.value}%</span>`;
-          }
-        },
-        legend: { top: 4, right: 8, textStyle: { color: "#74808a", fontSize: 11 } },
-        grid: { left: 48, right: 46, top: 44, bottom: 34 },
-        xAxis: { type: "category", data: item.weeks, axisTick: { show: false }, axisLabel: { color: "#74808a", formatter: (value) => value.slice(5) }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
-        yAxis: [
-          { type: "value", name: item.unit, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { lineStyle: { color: "#e8eef1" } } },
-          { type: "value", name: "%", nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { show: false } }
-        ],
-        series: [
-          { name: "周度电量", type: "bar", barMaxWidth: 22, data: item.power, itemStyle: { borderRadius: [4, 4, 0, 0] } },
-          { name: "同比", type: "line", yAxisIndex: 1, smooth: true, symbolSize: 7, data: item.yoy, lineStyle: { width: 2.4 } }
-        ]
-      });
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      renderCompanyChartsWhenReady(() => companyWeeklyCharts.forEach(renderCompanyWeeklyChart));
-    });
-  </script>
-  <script>
     const companyWeeklyData = window.WORKBENCH_DATA || {};
     const companyWeeklyHistory = companyWeeklyData.hydroCompanyWeeklyHistory || [];
     const companyWeeklyLatest = companyWeeklyData.hydroCompanyWeeklyLatest || [];
     const companyKey = (name) => ({
       "长江电力": "changjiang",
-      "雅砻江水电": "yalong",
-      "国能大渡河": "dadu",
+      "国投电力": "guotou",
+      "国电电力": "guodian",
       "桂冠电力": "guiguan",
       "华能水电": "huaneng",
       "湖北能源": "hubei",
       "黔源电力": "qianyuan",
-      "五凌电力": "wuling"
+      "中国电力（水电）": "china-power-hydro"
     })[name] || name;
     const companyYtdWeeklyCharts = companyWeeklyLatest.map((latest) => {
       const history = companyWeeklyHistory
@@ -298,10 +178,11 @@
         name: latest.company,
         status: latest.power == null ? "缺数据/模型" : "模型估算",
         unit: "亿kWh",
-        note: `${latest.company}：${latestText}。周度测算不是公司公告真值。`,
+        note: `${latest.company}：${latestText}。全序列均为上市公司完整水电口径的周度估算，不是公司公告的周度实际值。`,
         weeks: history.map((row) => row.week.replace("2026-", "")),
         power: history.map((row) => row.power),
         yoy: history.map((row) => row.yoy),
+        wow: history.map((row) => row.wow),
         days: history.map((row) => row.days),
         coverage: history.map((row) => row.coverage)
       };
@@ -352,7 +233,9 @@
             const yoyClass = yoyValue > 0 ? "pct-positive" : yoyValue < 0 ? "pct-negative" : "";
             const index = bar?.dataIndex ?? 0;
             const yoyText = yoyValue == null ? "—" : `${yoyValue > 0 ? "+" : ""}${yoyValue}%`;
-            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${yoyText}</span><br>有效天数：${item.days[index] ?? "—"}<br>覆盖：${item.coverage[index] || "—"}`;
+            const wowValue = item.wow[index];
+            const wowText = wowValue == null ? "—" : `${wowValue > 0 ? "+" : ""}${wowValue}%`;
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${yoyText}</span><br>环比（日均）：${wowText}<br>有效天数：${item.days[index] ?? "—"}<br>覆盖：${item.coverage[index] || "—"}`;
           }
         },
         legend: { top: 44, right: 26, textStyle: { color: "#74808a", fontSize: 12 } },

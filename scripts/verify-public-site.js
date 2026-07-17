@@ -52,9 +52,11 @@ const verifyDataWindow = () => {
   assert(provinceMonthlyRows.length >= 580, `province monthly row count too small: ${provinceMonthlyRows.length}`);
   assert(weather.every((row) => row.climateTemperature !== null && row.climateTemperature !== undefined), "weather climate baseline missing");
   assert((workbench.hydroCompanyWeeklyLatest || []).length >= 8, "hydro company weekly coverage mismatch");
-  assert((workbench.hydroCompanyWeeklyLatest || []).some((row) => row.company === "国能大渡河" && row.power !== null), "Dadu weekly power estimate missing");
+  assert((workbench.hydroCompanyWeeklyLatest || []).some((row) => row.company === "国电电力" && row.power !== null), "Guodian full-company weekly power estimate missing");
   assert((workbench.hydroCompanyWeeklyHistory || []).some((row) => row.company === "长江电力" && row.week === "2026-W29" && row.power !== null), "Changjiang W29 weekly power missing");
-  assert((workbench.hydroCompanyWeeklyHistory || []).some((row) => row.company === "国能大渡河" && row.week === "2026-W29" && row.power !== null), "Dadu W29 weekly power history missing");
+  assert((workbench.hydroCompanyWeeklyHistory || []).some((row) => row.company === "国电电力" && row.week === "2026-W29" && row.power !== null), "Guodian W29 full-company weekly power history missing");
+  assert((workbench.hydroCompanyWeeklyHistory || []).every((row) => row.scope === "上市公司完整水电口径"), "non-company weekly scope leaked into public data");
+  assert(!(workbench.hydroCompanyWeeklyHistory || []).some((row) => ["雅砻江水电", "国能大渡河", "五凌电力"].includes(row.company)), "asset platform published as listed company");
   assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "二滩"), "Yalong weekly hydrology missing");
   assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "瀑布沟"), "Dadu weekly hydrology missing");
 };

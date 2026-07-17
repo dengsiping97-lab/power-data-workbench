@@ -6,8 +6,7 @@ const siteRoot = path.resolve(__dirname, "..");
 const vaultRoot = path.resolve(siteRoot, "..", "..");
 const workbenchPath = path.join(siteRoot, "assets", "workbench-data.js");
 const prototypePath = path.join(vaultRoot, "outputs", "power-data-workbench-prototype", "assets", "workbench-data.js");
-const changjiangPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "长江电力电量测算", "data", "长电周度电量测算.csv");
-const daduPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "大渡河电量测算", "data", "大渡河周度电量测算.csv");
+const companyWeeklyPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "data", "上市公司水电周度测算.csv");
 const weeklyHydroPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "data", "来水_周度.csv");
 const hourlyHydroPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "data", "雅砻江大渡河_sczwfw_小时.csv");
 const latestSnapshotPath = path.join(vaultRoot, "wiki", "行业", "公用事业", "数据库", "水电数据", "scripts", "latest_snapshot_全库.md");
@@ -66,19 +65,19 @@ function isoWeek(dateText) {
   return { isoYear, isoWeek: isoWeekNumber, weekStart: source.toISOString().slice(0, 10) };
 }
 
-function readCompanyRows(file, company, valueField, scopeField) {
+function readCompanyRows(file) {
   return parseCsv(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, "")).map((row) => ({
-    company,
+    company: row["公司"],
     week: row["周"],
     period: row["区间"],
     days: numberOrNull(row["有效天数"]),
-    power: numberOrNull(row[valueField]),
-    yoy: numberOrNull(row["同比"] || row["同比%"]),
-    scope: row[scopeField] || "",
-    coverage: row["数据天数(三/溪/向)"] || row["数据天数(瀑/大/猴)"] ||
-      ([row["三峡天数"], row["溪洛渡天数"], row["向家坝天数"]].every((value) => value !== undefined)
-        ? [row["三峡天数"], row["溪洛渡天数"], row["向家坝天数"]].join("/") : ""),
-    confidence: company === "长江电力" ? "低" : "中",
+    power: numberOrNull(row["上市公司水电估算亿kWh"]),
+    yoy: numberOrNull(row["同比%"]),
+    wow: numberOrNull(row["环比(日均)%"]),
+    scope: row["口径"],
+    coverage: row["覆盖完整性"],
+    confidence: row["置信度"],
+    method: row["方法"],
   }));
 }
 
@@ -182,25 +181,26 @@ const latestWeek = workbench.hydroWeeklyLatest?.reduce((best, row) => {
 workbench.updatedAt = latestHour.slice(0, 10) || new Date().toISOString().slice(0, 10);
 workbench.freshness = { ...(workbench.freshness || {}), hydroWeekly: latestWeek, hydroHourly: latestHour };
 
-const companyHistory = [
-  ...readCompanyRows(changjiangPath, "长江电力", "公司估算", "口径完整性"),
-  ...readCompanyRows(daduPath, "国能大渡河", "估算售电量亿kWh", "季度"),
-];
+const companyHistory = readCompanyRows(companyWeeklyPath);
 workbench.hydroCompanyWeeklyHistory = companyHistory;
 const latestByCompany = new Map();
 for (const row of companyHistory) {
   if (!latestByCompany.has(row.company) || row.week > latestByCompany.get(row.company).week) latestByCompany.set(row.company, row);
 }
-workbench.hydroCompanyWeeklyLatest = [
-  latestByCompany.get("长江电力"),
-  { company: "雅砻江水电", week: latestWeek, period: "周度模型未建", days: 5, power: null, yoy: null, scope: "来水仅作方向判断", coverage: "缺周度电量模型", confidence: "低" },
-  latestByCompany.get("国能大渡河"),
-  { company: "桂冠电力", week: latestWeek, period: "周度模型未建", days: 5, power: null, yoy: null, scope: "红水河来水代理", coverage: "缺周度电量模型", confidence: "低" },
-  { company: "华能水电", week: latestWeek, period: "缺高频水情", days: 0, power: null, yoy: null, scope: "澜沧江", coverage: "缺数据与模型", confidence: "低" },
-  { company: "湖北能源", week: latestWeek, period: "周度模型未建", days: 5, power: null, yoy: null, scope: "清江", coverage: "缺周度电量模型", confidence: "低" },
-  { company: "黔源电力", week: latestWeek, period: "缺主力站水情", days: 0, power: null, yoy: null, scope: "北盘江", coverage: "缺数据与模型", confidence: "低" },
-  { company: "五凌电力", week: latestWeek, period: "数据停在W27", days: 0, power: null, yoy: null, scope: "沅水", coverage: "不可作为本周数", confidence: "低" },
-].filter(Boolean);
+const listedCompanies = ["长江电力", "国投电力", "国电电力", "桂冠电力", "华能水电", "湖北能源", "黔源电力", "中国电力（水电）"];
+workbench.hydroCompanyWeeklyLatest = listedCompanies.map((company) => latestByCompany.get(company) || {
+  company,
+  week: latestWeek,
+  period: "暂无完整公司口径周度模型",
+  days: 0,
+  power: null,
+  yoy: null,
+  wow: null,
+  scope: "上市公司完整水电口径",
+  coverage: "不以局部电站数据替代公司数据",
+  confidence: "低",
+  method: "待完整口径数据链建立",
+});
 
 fs.writeFileSync(workbenchPath, `window.WORKBENCH_DATA = ${JSON.stringify(workbench, null, 4)};\n`, "utf8");
 console.log(JSON.stringify({ updatedAt: workbench.updatedAt, hydroWeekly: latestWeek, hydroHourly: latestHour, companyRows: workbench.hydroCompanyWeeklyLatest.length }));
