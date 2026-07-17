@@ -168,6 +168,7 @@
     </div>
 
   </main>
+  <script src="assets/workbench-data.js"></script>
   <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   <script>
     const renderCompanyChartsWhenReady = (render) => {
@@ -272,72 +273,39 @@
     });
   </script>
   <script>
-    const companyYtdWeeks = Array.from({ length: 27 }, (_, i) => `W${String(i + 1).padStart(2, "0")}`);
-
-    function buildCompanyYtdSeries(start, end, wave = 0.8) {
-      return companyYtdWeeks.map((_, i) => {
-        const t = i / (companyYtdWeeks.length - 1);
-        const value = start + (end - start) * t + Math.sin(i / 2.7) * wave + Math.cos(i / 4.1) * wave * 0.45;
-        return Number(value.toFixed(1));
-      });
-    }
-
-    const companyYtdWeeklyCharts = [
-      {
-        key: "changjiang",
-        name: "长江电力",
-        status: "公告实际",
+    const companyWeeklyData = window.WORKBENCH_DATA || {};
+    const companyWeeklyHistory = companyWeeklyData.hydroCompanyWeeklyHistory || [];
+    const companyWeeklyLatest = companyWeeklyData.hydroCompanyWeeklyLatest || [];
+    const companyKey = (name) => ({
+      "长江电力": "changjiang",
+      "雅砻江水电": "yalong",
+      "国能大渡河": "dadu",
+      "桂冠电力": "guiguan",
+      "华能水电": "huaneng",
+      "湖北能源": "hubei",
+      "黔源电力": "qianyuan",
+      "五凌电力": "wuling"
+    })[name] || name;
+    const companyYtdWeeklyCharts = companyWeeklyLatest.map((latest) => {
+      const history = companyWeeklyHistory
+        .filter((row) => row.company === latest.company && String(row.week || "").startsWith("2026-W"))
+        .sort((a, b) => String(a.week).localeCompare(String(b.week)));
+      const latestText = latest.power == null
+        ? `${latest.period || "周度模型未建"}；${latest.coverage || "暂无可靠周度序列"}`
+        : `最新${latest.week}：${latest.power.toFixed(1)}亿kWh，${latest.days}个有效日；${latest.scope || "模型估算"}；覆盖${latest.coverage || "-"}`;
+      return {
+        key: companyKey(latest.company),
+        name: latest.company,
+        status: latest.power == null ? "缺数据/模型" : "模型估算",
         unit: "亿kWh",
-        note: "长江电力：Q2 已用公告电量校准，周度序列用于观察三峡、溪洛渡、向家坝、乌白等电站边际变化。",
-        power: buildCompanyYtdSeries(38.5, 61.0, 2.2),
-        yoy: buildCompanyYtdSeries(-4.5, 5.4, 1.1)
-      },
-      {
-        key: "yalong",
-        name: "雅砻江水电",
-        status: "测算值",
-        unit: "亿kWh",
-        note: "雅砻江水电：对应国投电力、川投能源，当前仍按流域来水测算；后续公告后应优先校准。",
-        power: buildCompanyYtdSeries(8.2, 11.8, 0.45),
-        yoy: buildCompanyYtdSeries(-34.0, -24.9, 1.2)
-      },
-      {
-        key: "dadu",
-        name: "国能大渡河",
-        status: "测算值",
-        unit: "亿kWh",
-        note: "国能大渡河：对应国电电力、川投能源投资收益弹性，周度数据主要看瀑布沟、大岗山、龚嘴等水情方向。",
-        power: buildCompanyYtdSeries(5.8, 9.0, 0.5),
-        yoy: buildCompanyYtdSeries(-24.0, -8.8, 1.4)
-      },
-      {
-        key: "guiguan",
-        name: "桂冠电力",
-        status: "公告实际",
-        unit: "亿kWh",
-        note: "桂冠电力：Q2 水电量已公告，周度按红水河来水节奏拆分，用于观察高增速能否延续。",
-        power: buildCompanyYtdSeries(4.8, 9.8, 0.55),
-        yoy: buildCompanyYtdSeries(18.0, 62.0, 3.2)
-      },
-      {
-        key: "qianyuan",
-        name: "黔源电力",
-        status: "公告推算",
-        unit: "亿kWh",
-        note: "黔源电力：H1-Q1 可推算 Q2，图中周度用于观察强水情持续性，公告数据优先。",
-        power: buildCompanyYtdSeries(0.9, 2.12, 0.18),
-        yoy: buildCompanyYtdSeries(24.0, 67.9, 3.4)
-      },
-      {
-        key: "wuling",
-        name: "五凌电力 / 中国电力水电",
-        status: "公告部分",
-        unit: "亿kWh",
-        note: "五凌电力：中国电力已有部分月度公告，周度序列用于先看边际趋势，后续等完整公告补齐。",
-        power: buildCompanyYtdSeries(3.5, 8.2, 0.62),
-        yoy: buildCompanyYtdSeries(40.0, 121.4, 7.0)
-      }
-    ];
+        note: `${latest.company}：${latestText}。周度测算不是公司公告真值。`,
+        weeks: history.map((row) => row.week.replace("2026-", "")),
+        power: history.map((row) => row.power),
+        yoy: history.map((row) => row.yoy),
+        days: history.map((row) => row.days),
+        coverage: history.map((row) => row.coverage)
+      };
+    });
 
     let companyYtdWeeklyChart;
 
@@ -346,6 +314,22 @@
       if (!node || !window.echarts) return;
       const item = companyYtdWeeklyCharts.find((row) => row.key === key) || companyYtdWeeklyCharts[0];
       if (!companyYtdWeeklyChart) companyYtdWeeklyChart = echarts.init(node, null, { renderer: "canvas" });
+      if (!item || !item.weeks.length) {
+        companyYtdWeeklyChart.clear();
+        companyYtdWeeklyChart.setOption({
+          title: {
+            text: `${item?.name || "公司"}｜暂无可靠周度电量序列`,
+            subtext: item?.note || "周度模型尚未建立",
+            left: "center",
+            top: "middle",
+            textStyle: { color: "#22313b", fontSize: 18, fontWeight: 800 },
+            subtextStyle: { color: "#71808c", fontSize: 12, lineHeight: 20 }
+          }
+        }, true);
+        const emptyNote = document.getElementById("company-weekly-note");
+        if (emptyNote) emptyNote.textContent = item?.note || "周度模型尚未建立。";
+        return;
+      }
       companyYtdWeeklyChart.setOption({
         color: ["#334e68", "#d49a3a"],
         title: {
@@ -364,8 +348,11 @@
           formatter: (params) => {
             const bar = params.find((p) => p.seriesName === "周度电量");
             const line = params.find((p) => p.seriesName === "同比");
-            const yoyClass = line.value > 0 ? "pct-positive" : line.value < 0 ? "pct-negative" : "";
-            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${line.value > 0 ? "+" : ""}${line.value}%</span>`;
+            const yoyValue = line?.value;
+            const yoyClass = yoyValue > 0 ? "pct-positive" : yoyValue < 0 ? "pct-negative" : "";
+            const index = bar?.dataIndex ?? 0;
+            const yoyText = yoyValue == null ? "—" : `${yoyValue > 0 ? "+" : ""}${yoyValue}%`;
+            return `${item.name} ${bar.axisValue}<br>周度电量：${bar.value} ${item.unit}<br>同比：<span class="${yoyClass}">${yoyText}</span><br>有效天数：${item.days[index] ?? "—"}<br>覆盖：${item.coverage[index] || "—"}`;
           }
         },
         legend: { top: 44, right: 26, textStyle: { color: "#74808a", fontSize: 12 } },
@@ -374,7 +361,7 @@
           { type: "inside", start: 0, end: 100 },
           { type: "slider", height: 22, bottom: 28, start: 0, end: 100, borderColor: "#d5e0e7", fillerColor: "rgba(96, 125, 152, .16)" }
         ],
-        xAxis: { type: "category", data: companyYtdWeeks, axisTick: { show: false }, axisLabel: { color: "#74808a" }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
+        xAxis: { type: "category", data: item.weeks, axisTick: { show: false }, axisLabel: { color: "#74808a" }, axisLine: { lineStyle: { color: "#d9e2e7" } } },
         yAxis: [
           { type: "value", name: item.unit, nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a" }, splitLine: { lineStyle: { color: "#e8eef1" } } },
           { type: "value", name: "%", nameTextStyle: { color: "#74808a" }, axisLabel: { color: "#74808a", formatter: "{value}%" }, splitLine: { show: false } }

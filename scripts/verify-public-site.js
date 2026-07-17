@@ -53,6 +53,8 @@ const verifyDataWindow = () => {
   assert(weather.every((row) => row.climateTemperature !== null && row.climateTemperature !== undefined), "weather climate baseline missing");
   assert((workbench.hydroCompanyWeeklyLatest || []).length >= 8, "hydro company weekly coverage mismatch");
   assert((workbench.hydroCompanyWeeklyLatest || []).some((row) => row.company === "国能大渡河" && row.power !== null), "Dadu weekly power estimate missing");
+  assert((workbench.hydroCompanyWeeklyHistory || []).some((row) => row.company === "长江电力" && row.week === "2026-W29" && row.power !== null), "Changjiang W29 weekly power missing");
+  assert((workbench.hydroCompanyWeeklyHistory || []).some((row) => row.company === "国能大渡河" && row.week === "2026-W29" && row.power !== null), "Dadu W29 weekly power history missing");
   assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "二滩"), "Yalong weekly hydrology missing");
   assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "瀑布沟"), "Dadu weekly hydrology missing");
 };
