@@ -511,6 +511,35 @@
 
       <section>
         <div class="section-head">
+          <h2>主要水电公司周度电量</h2>
+          <span class="pill">模型估算 / 缺口显式保留</span>
+        </div>
+        <div class="section-body">
+          <div class="table-scroll mobile-data-table weekly-water-table">
+          <table>
+            <thead>
+              <tr>
+                <th>公司/资产</th>
+                <th>周次</th>
+                <th>有效天数</th>
+                <th>周内电量 亿kWh</th>
+                <th>同比</th>
+                <th>模型口径</th>
+                <th>覆盖完整性</th>
+                <th>置信度</th>
+              </tr>
+            </thead>
+            <tbody id="hydro-company-weekly-body">
+              <tr><td colspan="8">加载公司周度电量...</td></tr>
+            </tbody>
+          </table>
+          </div>
+          <p class="qtd-note">周度电量均为模型估算，不是公司公告真值；部分周优先比较日均，未建模型的公司不使用来水同比替代电量同比。</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
           <h2>流域 QTD 摘要</h2>
           <span class="pill">按当前小时水情样本聚合</span>
         </div>

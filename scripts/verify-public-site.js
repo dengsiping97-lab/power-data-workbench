@@ -51,6 +51,10 @@ const verifyDataWindow = () => {
   assert(new Set(provinceMonthlyRows.map((row) => row.province)).size === 31, "province monthly coverage mismatch");
   assert(provinceMonthlyRows.length >= 580, `province monthly row count too small: ${provinceMonthlyRows.length}`);
   assert(weather.every((row) => row.climateTemperature !== null && row.climateTemperature !== undefined), "weather climate baseline missing");
+  assert((workbench.hydroCompanyWeeklyLatest || []).length >= 8, "hydro company weekly coverage mismatch");
+  assert((workbench.hydroCompanyWeeklyLatest || []).some((row) => row.company === "国能大渡河" && row.power !== null), "Dadu weekly power estimate missing");
+  assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "二滩"), "Yalong weekly hydrology missing");
+  assert((workbench.hydroWeeklyLatest || []).some((row) => row.station === "瀑布沟"), "Dadu weekly hydrology missing");
 };
 
 const server = http.createServer((request, response) => {
@@ -88,6 +92,10 @@ const server = http.createServer((request, response) => {
     assert(await page.locator("#access-gate").count() === 0, `${pageName} unexpectedly locked in same session`);
     await page.waitForSelector(`#${rangeId}`);
     assert(await page.locator(`#${rangeId} option`).count() === 4, `${pageName} range options missing`);
+    if (pageName === "hydro.html") {
+      await page.waitForSelector("#hydro-company-weekly-body tr");
+      assert(await page.locator("#hydro-company-weekly-body tr").count() >= 8, "hydro company weekly table mismatch");
+    }
     if (pageName === "power.html") {
       await page.waitForSelector("#province-capacity-body tr");
       assert(await page.locator("#province-capacity-province option").count() === 31, "province profile selector mismatch");

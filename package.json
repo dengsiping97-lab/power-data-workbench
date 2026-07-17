@@ -3,6 +3,7 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
+    "update:hydro": "powershell -NoProfile -ExecutionPolicy Bypass -File ../../outputs/power-data-workbench-prototype/build-data.ps1 && node scripts/update-hydro-data.js",
     "prepare:public": "node scripts/prepare-public-snapshot.js",
     "update:province-capacity": "node scripts/update-province-capacity-data.js",
     "update:province-monthly": "node scripts/update-province-monthly-data.js",

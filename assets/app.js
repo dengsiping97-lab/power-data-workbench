@@ -758,6 +758,23 @@
       }]
     });
 
+    const companyWeeklyBody = document.getElementById("hydro-company-weekly-body");
+    if (companyWeeklyBody) {
+      const rows = data.hydroCompanyWeeklyLatest || [];
+      companyWeeklyBody.innerHTML = rows.map((row) => `
+        <tr>
+          <td>${row.company}</td>
+          <td>${row.week || "-"}</td>
+          <td>${row.days ?? "-"}</td>
+          <td>${row.power == null ? "-" : fmt(row.power, 1)}</td>
+          <td>${row.yoy == null ? "-" : pct(row.yoy)}</td>
+          <td>${row.scope || row.period || "-"}</td>
+          <td>${row.coverage || "-"}</td>
+          <td>${row.confidence || "-"}</td>
+        </tr>
+      `).join("");
+    }
+
     const weeklyBody = document.getElementById("hydro-page-weekly-body");
     const weeklySelect = document.getElementById("hydro-weekly-basin");
     const weeklyNote = document.getElementById("hydro-weekly-basin-note");

@@ -1,9 +1,9 @@
 window.WORKBENCH_DATA = {
-    "updatedAt": "2026-07-16",
+    "updatedAt": "2026-07-17",
     "sourceNote": "本地研究工作台快照；现货实时、全国日前、代理购电与水电数据按各自口径维护。",
     "freshness": {
-        "hydroWeekly": "2026-W27",
-        "hydroHourly": "2026-07-11 21:00",
+        "hydroWeekly": "2026-W29",
+        "hydroHourly": "2026-07-17 10:00",
         "spotWeekly": "2026-07-12",
         "proxyMonthly": "2026-07",
         "systemFeeMonthly": "2026-07",
@@ -49,182 +49,306 @@ window.WORKBENCH_DATA = {
     ],
     "hydroWeeklyLatest": [
         {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "inflow": 4600,
-            "priorYearInflow": 5842.857142857143,
-            "inflowYoy": -21.3,
-            "outflow": 6020,
-            "waterLevel": null
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "inflow": 24250,
-            "priorYearInflow": 23014.28571428572,
-            "inflowYoy": 5.4,
-            "outflow": 25000,
-            "waterLevel": 148.135
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "inflow": 4641.5,
-            "priorYearInflow": null,
-            "inflowYoy": null,
-            "outflow": 4551.5,
-            "waterLevel": 219.555
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "inflow": 5937.5,
-            "priorYearInflow": null,
-            "inflowYoy": null,
-            "outflow": 3190,
-            "waterLevel": 361.78499999999997
-        },
-        {
             "station": "白鹤滩",
             "basin": "金沙江下游",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": 5800,
-            "priorYearInflow": 200,
-            "inflowYoy": 2800,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 8300,
+            "priorYearInflow": 1750,
+            "inflowYoy": 374,
             "outflow": null,
-            "waterLevel": 783.9300000000001
+            "waterLevel": 786.52
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "大岗山",
+            "basin": "大渡河",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": -750,
-            "priorYearInflow": 100,
-            "inflowYoy": null,
-            "outflow": null,
-            "waterLevel": 952.355
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1847,
+            "priorYearInflow": null,
+            "inflowYoy": 11,
+            "outflow": 1822.3593073593074,
+            "waterLevel": 1127.08
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "二滩",
+            "basin": "雅砻江",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": -435,
-            "priorYearInflow": 3440,
-            "inflowYoy": null,
-            "outflow": null,
-            "waterLevel": 282.915
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": 601,
-            "priorYearInflow": 883,
-            "inflowYoy": -31.9,
-            "outflow": null,
-            "waterLevel": 383.47
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2105,
+            "priorYearInflow": null,
+            "inflowYoy": 14,
+            "outflow": 1788.2316017316018,
+            "waterLevel": 1183.62
         },
         {
             "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": -274,
-            "priorYearInflow": 132.5,
-            "inflowYoy": null,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 29,
+            "priorYearInflow": 23.15,
+            "inflowYoy": 26,
             "outflow": null,
-            "waterLevel": 190.76
+            "waterLevel": 186.66
+        },
+        {
+            "station": "龚嘴",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2266,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2306.183163791832,
+            "waterLevel": 525.67
         },
         {
             "station": "构皮滩",
             "basin": "乌江",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": 345,
-            "priorYearInflow": 795,
-            "inflowYoy": -56.6,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -1340,
+            "priorYearInflow": -1415,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 617.53
+            "waterLevel": 623.77
+        },
+        {
+            "station": "官地",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1840,
+            "priorYearInflow": null,
+            "inflowYoy": 6,
+            "outflow": 1875.217748917749,
+            "waterLevel": 1327.65
+        },
+        {
+            "station": "猴子岩",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1260,
+            "priorYearInflow": null,
+            "inflowYoy": 21,
+            "outflow": 1276.813852813853,
+            "waterLevel": 1836.06
+        },
+        {
+            "station": "黄金坪水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1506,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1507.9075415812258,
+            "waterLevel": 1474.92
+        },
+        {
+            "station": "锦屏一级",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2041,
+            "priorYearInflow": null,
+            "inflowYoy": 45,
+            "outflow": 1508.9917748917749,
+            "waterLevel": 1844.98
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2968.8,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3408.4,
+            "waterLevel": 367.59
+        },
+        {
+            "station": "龙头石",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1762,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1788.0909090909088,
+            "waterLevel": 953.79
+        },
+        {
+            "station": "泸定",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1530,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1531.7017316017316,
+            "waterLevel": 1377.55
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1770,
+            "priorYearInflow": -150,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 286.39
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2210,
+            "priorYearInflow": 55,
+            "inflowYoy": 19,
+            "outflow": 1915.6497835497835,
+            "waterLevel": 840.29
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 16820,
+            "priorYearInflow": 16533.333333333332,
+            "inflowYoy": 2,
+            "outflow": 13920,
+            "waterLevel": 147.66
+        },
+        {
+            "station": "沙湾",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2081,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2084.683574879227,
+            "waterLevel": 430.62
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -206,
+            "priorYearInflow": -7.75,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 384.89
+        },
+        {
+            "station": "铜街子",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2200,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2226.008658008658,
+            "waterLevel": 470.67
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -5400,
+            "priorYearInflow": 0,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 952
         },
         {
             "station": "溪洛渡",
             "basin": "金沙江下游",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": 5350,
-            "priorYearInflow": 5700,
-            "inflowYoy": -6.1,
-            "outflow": null,
-            "waterLevel": 558.9000000000001
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 6572,
+            "priorYearInflow": 4300,
+            "inflowYoy": null,
+            "outflow": 5864.454545454546,
+            "waterLevel": 564.76
         },
         {
-            "station": "瀑布沟",
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 5912,
+            "priorYearInflow": 4057.142857142857,
+            "inflowYoy": null,
+            "outflow": 5997.363636363636,
+            "waterLevel": 373.98
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 3979.8,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3392.8,
+            "waterLevel": 219.61
+        },
+        {
+            "station": "长河坝水电站",
             "basin": "大渡河",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "inflow": 590,
-            "priorYearInflow": 260,
-            "inflowYoy": 126.9,
-            "outflow": null,
-            "waterLevel": 834.97
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1397,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1397.226406926407,
+            "waterLevel": 1688.92
         }
     ],
     "hydroWeeklyHistory": [
         {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 30,
-            "weekStart": "2024-07-22",
-            "inflow": -172.33333333333334,
-            "outflow": null,
-            "waterLevel": 390.0666666666666,
-            "inflowYoy": -273
-        },
-        {
-            "station": "乌东德",
+            "station": "白鹤滩",
             "basin": "金沙江下游",
             "isoYear": 2024,
             "isoWeek": 30,
             "weekStart": "2024-07-22",
-            "inflow": 9233.333333333334,
+            "inflow": 8533.333333333334,
+            "priorYearInflow": -2200,
+            "inflowYoy": 55.2,
             "outflow": null,
-            "waterLevel": 959.6233333333332,
-            "inflowYoy": -330.8
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 30,
-            "weekStart": "2024-07-22",
-            "inflow": 563.3333333333334,
-            "outflow": null,
-            "waterLevel": 286.91333333333336,
-            "inflowYoy": -62.4
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 30,
-            "weekStart": "2024-07-22",
-            "inflow": 1803.3333333333333,
-            "outflow": null,
-            "waterLevel": 840.4866666666667,
-            "inflowYoy": 23.5
+            "waterLevel": 798.1966666666667
         },
         {
             "station": "隔河岩",
@@ -233,31 +357,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2024-07-22",
             "inflow": -95,
+            "priorYearInflow": 4.96,
+            "inflowYoy": -172.5,
             "outflow": null,
-            "waterLevel": 194.45,
-            "inflowYoy": -172.5
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 30,
-            "weekStart": "2024-07-22",
-            "inflow": 8533.333333333334,
-            "outflow": null,
-            "waterLevel": 798.1966666666667,
-            "inflowYoy": 55.2
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 30,
-            "weekStart": "2024-07-22",
-            "inflow": -1700,
-            "outflow": null,
-            "waterLevel": 572.8033333333334,
-            "inflowYoy": -140.5
+            "waterLevel": 194.45
         },
         {
             "station": "构皮滩",
@@ -266,20 +369,94 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2024-07-22",
             "inflow": 697,
+            "priorYearInflow": 193,
+            "inflowYoy": 261.1,
             "outflow": null,
-            "waterLevel": 623.6766666666666,
-            "inflowYoy": -204.2
+            "waterLevel": 623.6766666666666
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": 563.3333333333334,
+            "priorYearInflow": 322,
+            "inflowYoy": 74.9,
+            "outflow": null,
+            "waterLevel": 286.91333333333336
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": 1803.3333333333333,
+            "priorYearInflow": 1690,
+            "inflowYoy": 6.7,
+            "outflow": null,
+            "waterLevel": 840.4866666666667
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": 33428.57142857143,
+            "priorYearInflow": 19300,
+            "inflowYoy": 73.2,
+            "outflow": 34214.28571428572,
+            "waterLevel": 160.89
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2024,
-            "isoWeek": 31,
-            "weekStart": "2024-07-29",
-            "inflow": -146.33333333333334,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": -172.33333333333334,
+            "priorYearInflow": 37.5,
+            "inflowYoy": -273,
             "outflow": null,
-            "waterLevel": 386.46,
-            "inflowYoy": -906.2
+            "waterLevel": 390.0666666666666
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": 9233.333333333334,
+            "priorYearInflow": -4300,
+            "inflowYoy": -330.8,
+            "outflow": null,
+            "waterLevel": 959.6233333333332
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": -1700,
+            "priorYearInflow": -1600,
+            "inflowYoy": -140.5,
+            "outflow": null,
+            "waterLevel": 572.8033333333334
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 30,
+            "weekStart": "2024-07-22",
+            "inflow": 3533.333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -1.1,
+            "outflow": 5244.285714285715,
+            "waterLevel": 375.4266666666667
         },
         {
             "station": "白鹤滩",
@@ -288,31 +465,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2024-07-29",
             "inflow": 11266.666666666666,
+            "priorYearInflow": -1600,
+            "inflowYoy": 22433.3,
             "outflow": null,
-            "waterLevel": 805.9333333333334,
-            "inflowYoy": 22433.3
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 31,
-            "weekStart": "2024-07-29",
-            "inflow": 1728.6666666666667,
-            "outflow": null,
-            "waterLevel": 287.04,
-            "inflowYoy": 52.6
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 31,
-            "weekStart": "2024-07-29",
-            "inflow": -643.3333333333334,
-            "outflow": null,
-            "waterLevel": 623.6066666666667,
-            "inflowYoy": -32
+            "waterLevel": 805.9333333333334
         },
         {
             "station": "隔河岩",
@@ -321,9 +477,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2024-07-29",
             "inflow": 737,
+            "priorYearInflow": 67.7,
+            "inflowYoy": 988.6,
             "outflow": null,
-            "waterLevel": 194.68666666666664,
-            "inflowYoy": 2184.6
+            "waterLevel": 194.68666666666664
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 31,
+            "weekStart": "2024-07-29",
+            "inflow": -643.3333333333334,
+            "priorYearInflow": 69,
+            "inflowYoy": -32,
+            "outflow": null,
+            "waterLevel": 623.6066666666667
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 31,
+            "weekStart": "2024-07-29",
+            "inflow": 1728.6666666666667,
+            "priorYearInflow": -1310,
+            "inflowYoy": 52.6,
+            "outflow": null,
+            "waterLevel": 287.04
         },
         {
             "station": "瀑布沟",
@@ -332,20 +513,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2024-07-29",
             "inflow": 5023.333333333333,
+            "priorYearInflow": -1860,
+            "inflowYoy": 1632.2,
             "outflow": null,
-            "waterLevel": 842.0733333333334,
-            "inflowYoy": 1632.2
+            "waterLevel": 842.0733333333334
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2024,
             "isoWeek": 31,
             "weekStart": "2024-07-29",
-            "inflow": 7200,
+            "inflow": 25728.571428571428,
+            "priorYearInflow": 16700,
+            "inflowYoy": 54.1,
+            "outflow": 28585.714285714286,
+            "waterLevel": 160.33571428571426
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 31,
+            "weekStart": "2024-07-29",
+            "inflow": -146.33333333333334,
+            "priorYearInflow": 387,
+            "inflowYoy": -906.2,
             "outflow": null,
-            "waterLevel": 575.04,
-            "inflowYoy": -4900
+            "waterLevel": 386.46
         },
         {
             "station": "乌东德",
@@ -354,20 +549,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2024-07-29",
             "inflow": 12766.666666666666,
+            "priorYearInflow": 3700,
+            "inflowYoy": 245,
             "outflow": null,
-            "waterLevel": 965.3833333333332,
-            "inflowYoy": 211.4
+            "waterLevel": 965.3833333333332
         },
         {
-            "station": "隔河岩",
-            "basin": "清江",
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 32,
-            "weekStart": "2024-08-05",
-            "inflow": -28.45,
+            "isoWeek": 31,
+            "weekStart": "2024-07-29",
+            "inflow": 7200,
+            "priorYearInflow": 1800,
+            "inflowYoy": 300,
             "outflow": null,
-            "waterLevel": 194.215,
-            "inflowYoy": -45.8
+            "waterLevel": 575.04
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 31,
+            "weekStart": "2024-07-29",
+            "inflow": 5100,
+            "priorYearInflow": null,
+            "inflowYoy": 81.2,
+            "outflow": 4232.857142857143,
+            "waterLevel": 374.6766666666667
         },
         {
             "station": "白鹤滩",
@@ -376,42 +585,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2024-08-05",
             "inflow": 150,
+            "priorYearInflow": -2000,
+            "inflowYoy": -97.1,
             "outflow": null,
-            "waterLevel": 810,
-            "inflowYoy": -97.1
+            "waterLevel": 810
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 32,
-            "weekStart": "2024-08-05",
-            "inflow": 1050,
-            "outflow": null,
-            "waterLevel": 974.05,
-            "inflowYoy": -76.4
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 32,
-            "weekStart": "2024-08-05",
-            "inflow": 7100,
-            "outflow": null,
-            "waterLevel": 582.36,
-            "inflowYoy": 108.8
-        },
-        {
-            "station": "水布垭",
+            "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2024,
             "isoWeek": 32,
             "weekStart": "2024-08-05",
-            "inflow": 67.2,
+            "inflow": -28.45,
+            "priorYearInflow": -228,
+            "inflowYoy": -45.8,
             "outflow": null,
-            "waterLevel": 384.445,
-            "inflowYoy": 155
+            "waterLevel": 194.215
         },
         {
             "station": "构皮滩",
@@ -420,9 +609,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2024-08-05",
             "inflow": -669.5,
+            "priorYearInflow": 1160,
+            "inflowYoy": 16.2,
             "outflow": null,
-            "waterLevel": 623.505,
-            "inflowYoy": 16.2
+            "waterLevel": 623.505
         },
         {
             "station": "彭水",
@@ -431,9 +621,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2024-08-05",
             "inflow": -617,
+            "priorYearInflow": 1600,
+            "inflowYoy": -157.6,
             "outflow": null,
-            "waterLevel": 286.85,
-            "inflowYoy": -157.6
+            "waterLevel": 286.85
         },
         {
             "station": "瀑布沟",
@@ -442,29 +633,94 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2024-08-05",
             "inflow": -150,
+            "priorYearInflow": 2640,
+            "inflowYoy": -91.6,
             "outflow": null,
-            "waterLevel": 842.95,
-            "inflowYoy": -91.6
+            "waterLevel": 842.95
         },
         {
-            "station": "瀑布沟",
-            "basin": "大渡河",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2024,
-            "isoWeek": 33,
-            "weekStart": "2024-08-12",
-            "inflow": 315,
-            "outflow": null,
-            "waterLevel": 842.7049999999999
+            "isoWeek": 32,
+            "weekStart": "2024-08-05",
+            "inflow": 20014.28571428572,
+            "priorYearInflow": 16885.714285714286,
+            "inflowYoy": 18.5,
+            "outflow": 20628.571428571428,
+            "waterLevel": 157.27714285714288
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2024,
+            "isoWeek": 32,
+            "weekStart": "2024-08-05",
+            "inflow": 67.2,
+            "priorYearInflow": -357,
+            "inflowYoy": 155,
+            "outflow": null,
+            "waterLevel": 384.445
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 32,
+            "weekStart": "2024-08-05",
+            "inflow": 1050,
+            "priorYearInflow": 5800,
+            "inflowYoy": -81.9,
+            "outflow": null,
+            "waterLevel": 974.05
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 32,
+            "weekStart": "2024-08-05",
+            "inflow": 7100,
+            "priorYearInflow": -1700,
+            "inflowYoy": 108.8,
+            "outflow": null,
+            "waterLevel": 582.36
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 32,
+            "weekStart": "2024-08-05",
+            "inflow": 5942.857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": 71.2,
+            "outflow": 6047.142857142857,
+            "waterLevel": 373.19
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
             "isoWeek": 33,
             "weekStart": "2024-08-12",
-            "inflow": -37.3,
+            "inflow": 7050,
+            "priorYearInflow": 1050,
+            "inflowYoy": 571.4,
             "outflow": null,
-            "waterLevel": 384.16
+            "waterLevel": 811.405
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 33,
+            "weekStart": "2024-08-12",
+            "inflow": -42.25,
+            "priorYearInflow": -45,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 192.445
         },
         {
             "station": "构皮滩",
@@ -473,6 +729,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 33,
             "weekStart": "2024-08-12",
             "inflow": 115.5,
+            "priorYearInflow": -342.5,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 623.375
         },
@@ -483,28 +741,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 33,
             "weekStart": "2024-08-12",
             "inflow": 79.5,
+            "priorYearInflow": 425.5,
+            "inflowYoy": -81.3,
             "outflow": null,
             "waterLevel": 286.285
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "瀑布沟",
+            "basin": "大渡河",
             "isoYear": 2024,
             "isoWeek": 33,
             "weekStart": "2024-08-12",
-            "inflow": 4950,
+            "inflow": 315,
+            "priorYearInflow": -1745,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 586.81
+            "waterLevel": 842.7049999999999
         },
         {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2024,
             "isoWeek": 33,
             "weekStart": "2024-08-12",
-            "inflow": 7050,
+            "inflow": 17571.428571428572,
+            "priorYearInflow": 18014.285714285714,
+            "inflowYoy": -2.5,
+            "outflow": 15400,
+            "waterLevel": 156.15285714285713
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 33,
+            "weekStart": "2024-08-12",
+            "inflow": -37.3,
+            "priorYearInflow": 42,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 811.405
+            "waterLevel": 384.16
         },
         {
             "station": "乌东德",
@@ -513,88 +789,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 33,
             "weekStart": "2024-08-12",
             "inflow": -6250,
+            "priorYearInflow": -250,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 971.565
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 33,
-            "weekStart": "2024-08-12",
-            "inflow": -42.25,
-            "outflow": null,
-            "waterLevel": 192.445
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": 26,
-            "outflow": null,
-            "waterLevel": 287.765
         },
         {
             "station": "溪洛渡",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": 0,
+            "isoWeek": 33,
+            "weekStart": "2024-08-12",
+            "inflow": 4950,
+            "priorYearInflow": 3700,
+            "inflowYoy": 33.8,
             "outflow": null,
-            "waterLevel": 588.94
+            "waterLevel": 586.81
         },
         {
-            "station": "乌东德",
+            "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": 5950,
-            "outflow": null,
-            "waterLevel": 970.5
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": 534,
-            "outflow": null,
-            "waterLevel": 623.73
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": -1540,
-            "outflow": null,
-            "waterLevel": 841.25
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": -30.955,
-            "outflow": null,
-            "waterLevel": 190.9
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 34,
-            "weekStart": "2024-08-19",
-            "inflow": 33.135000000000005,
-            "outflow": null,
-            "waterLevel": 384.03
+            "isoWeek": 33,
+            "weekStart": "2024-08-12",
+            "inflow": 5671.428571428572,
+            "priorYearInflow": null,
+            "inflowYoy": 51,
+            "outflow": 3750,
+            "waterLevel": 372.695
         },
         {
             "station": "白鹤滩",
@@ -603,6 +825,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 34,
             "weekStart": "2024-08-19",
             "inflow": -6200,
+            "priorYearInflow": 7550,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 810.8499999999999
         },
@@ -610,56 +834,109 @@ window.WORKBENCH_DATA = {
             "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2024,
-            "isoWeek": 35,
-            "weekStart": "2024-08-26",
-            "inflow": 804.4,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": -30.955,
+            "priorYearInflow": 395,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 189.01,
-            "inflowYoy": -218.8
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 35,
-            "weekStart": "2024-08-26",
-            "inflow": 980,
-            "outflow": null,
-            "waterLevel": 837.5450000000001,
-            "inflowYoy": 327
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 35,
-            "weekStart": "2024-08-26",
-            "inflow": -5100,
-            "outflow": null,
-            "waterLevel": 958.45,
-            "inflowYoy": -169.9
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 35,
-            "weekStart": "2024-08-26",
-            "inflow": 4750,
-            "outflow": null,
-            "waterLevel": 576.41,
-            "inflowYoy": -4
+            "waterLevel": 190.9
         },
         {
             "station": "构皮滩",
             "basin": "乌江",
             "isoYear": 2024,
-            "isoWeek": 35,
-            "weekStart": "2024-08-26",
-            "inflow": -286.5,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 534,
+            "priorYearInflow": -69.5,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 624.375,
-            "inflowYoy": -247.7
+            "waterLevel": 623.73
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 26,
+            "priorYearInflow": 116,
+            "inflowYoy": -77.6,
+            "outflow": null,
+            "waterLevel": 287.765
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": -1540,
+            "priorYearInflow": 2635,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 841.25
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 13571.42857142857,
+            "priorYearInflow": 19714.28571428572,
+            "inflowYoy": -31.2,
+            "outflow": 14014.285714285714,
+            "waterLevel": 154.47571428571428
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 33.135000000000005,
+            "priorYearInflow": 727,
+            "inflowYoy": -95.4,
+            "outflow": null,
+            "waterLevel": 384.03
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 5950,
+            "priorYearInflow": -500,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 970.5
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 0,
+            "priorYearInflow": 4900,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 588.94
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 34,
+            "weekStart": "2024-08-19",
+            "inflow": 4525,
+            "priorYearInflow": null,
+            "inflowYoy": -2.8,
+            "outflow": 2608.5714285714284,
+            "waterLevel": 374.5750000000001
         },
         {
             "station": "白鹤滩",
@@ -668,9 +945,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2024-08-26",
             "inflow": 6150,
+            "priorYearInflow": null,
+            "inflowYoy": -19.1,
             "outflow": null,
-            "waterLevel": 799.08,
-            "inflowYoy": -19.1
+            "waterLevel": 799.08
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": 804.4,
+            "priorYearInflow": null,
+            "inflowYoy": -218.8,
+            "outflow": null,
+            "waterLevel": 189.01
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": -286.5,
+            "priorYearInflow": null,
+            "inflowYoy": -247.7,
+            "outflow": null,
+            "waterLevel": 624.375
         },
         {
             "station": "彭水",
@@ -679,9 +981,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2024-08-26",
             "inflow": 563,
+            "priorYearInflow": null,
+            "inflowYoy": -1226,
             "outflow": null,
-            "waterLevel": 288.595,
-            "inflowYoy": -1226
+            "waterLevel": 288.595
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2024,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": 980,
+            "priorYearInflow": null,
+            "inflowYoy": 327,
+            "outflow": null,
+            "waterLevel": 837.5450000000001
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": 12542.857142857143,
+            "priorYearInflow": 17342.85714285714,
+            "inflowYoy": -27.7,
+            "outflow": 11914.285714285714,
+            "waterLevel": 153.0157142857143
         },
         {
             "station": "水布垭",
@@ -690,64 +1017,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2024-08-26",
             "inflow": 2377.15,
+            "priorYearInflow": null,
+            "inflowYoy": -2054.1,
             "outflow": null,
-            "waterLevel": 388.67,
-            "inflowYoy": -2054.1
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 36,
-            "weekStart": "2024-09-02",
-            "inflow": -392,
-            "outflow": null,
-            "waterLevel": 621.76,
-            "inflowYoy": -131.9
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 36,
-            "weekStart": "2024-09-02",
-            "inflow": -18.9,
-            "outflow": null,
-            "waterLevel": 188.325,
-            "inflowYoy": -95.1
+            "waterLevel": 388.67
         },
         {
             "station": "乌东德",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 36,
-            "weekStart": "2024-09-02",
-            "inflow": 150,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": -5100,
+            "priorYearInflow": null,
+            "inflowYoy": -169.9,
             "outflow": null,
-            "waterLevel": 967.005,
-            "inflowYoy": -62.5
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 36,
-            "weekStart": "2024-09-02",
-            "inflow": -53.045,
-            "outflow": null,
-            "waterLevel": 382.84,
-            "inflowYoy": -19
+            "waterLevel": 958.45
         },
         {
             "station": "溪洛渡",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 36,
-            "weekStart": "2024-09-02",
-            "inflow": 4600,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": 4750,
+            "priorYearInflow": null,
+            "inflowYoy": -4,
             "outflow": null,
-            "waterLevel": 589.19,
-            "inflowYoy": -27.6
+            "waterLevel": 576.41
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 35,
+            "weekStart": "2024-08-26",
+            "inflow": 2550,
+            "priorYearInflow": null,
+            "inflowYoy": -53.8,
+            "outflow": 2990,
+            "waterLevel": 374.885
         },
         {
             "station": "白鹤滩",
@@ -756,9 +1065,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2024-09-02",
             "inflow": -4800,
+            "priorYearInflow": 7600,
+            "inflowYoy": -158.2,
             "outflow": null,
-            "waterLevel": 810.14,
-            "inflowYoy": -158.2
+            "waterLevel": 810.14
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": -18.9,
+            "priorYearInflow": -185,
+            "inflowYoy": -95.1,
+            "outflow": null,
+            "waterLevel": 188.325
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": -392,
+            "priorYearInflow": null,
+            "inflowYoy": -131.9,
+            "outflow": null,
+            "waterLevel": 621.76
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 553,
+            "priorYearInflow": null,
+            "inflowYoy": -64.5,
+            "outflow": 395.3333333333333,
+            "waterLevel": 365.09
         },
         {
             "station": "彭水",
@@ -767,9 +1113,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2024-09-02",
             "inflow": 743.05,
+            "priorYearInflow": 378,
+            "inflowYoy": 96.6,
             "outflow": null,
-            "waterLevel": 288.11,
-            "inflowYoy": -549
+            "waterLevel": 288.11
         },
         {
             "station": "瀑布沟",
@@ -778,42 +1125,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2024-09-02",
             "inflow": -1370,
+            "priorYearInflow": -2170,
+            "inflowYoy": -150.1,
             "outflow": null,
-            "waterLevel": 833.855,
-            "inflowYoy": -150.1
+            "waterLevel": 833.855
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2024,
-            "isoWeek": 37,
-            "weekStart": "2024-09-09",
-            "inflow": -551.5,
-            "outflow": null,
-            "waterLevel": 620.915,
-            "inflowYoy": -1437
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 12528.57142857143,
+            "priorYearInflow": 13328.57142857143,
+            "inflowYoy": -6,
+            "outflow": 9508.57142857143,
+            "waterLevel": 152.82857142857142
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2024,
-            "isoWeek": 37,
-            "weekStart": "2024-09-09",
-            "inflow": -54,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": -53.045,
+            "priorYearInflow": -321,
+            "inflowYoy": -19,
             "outflow": null,
-            "waterLevel": 381.63,
-            "inflowYoy": -174.1
+            "waterLevel": 382.84
         },
         {
             "station": "乌东德",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 37,
-            "weekStart": "2024-09-09",
-            "inflow": 100,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 150,
+            "priorYearInflow": 9400,
+            "inflowYoy": -98.4,
             "outflow": null,
-            "waterLevel": 970.985,
-            "inflowYoy": -122.2
+            "waterLevel": 967.005
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 4600,
+            "priorYearInflow": -4700,
+            "inflowYoy": -27.6,
+            "outflow": null,
+            "waterLevel": 589.19
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 3583.333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -43.8,
+            "outflow": 5517.142857142857,
+            "waterLevel": 376.555
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 36,
+            "weekStart": "2024-09-02",
+            "inflow": 371.6666666666667,
+            "priorYearInflow": null,
+            "inflowYoy": -86,
+            "outflow": 1243.3333333333333,
+            "waterLevel": 219.35
         },
         {
             "station": "白鹤滩",
@@ -822,31 +1209,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2024-09-09",
             "inflow": 900,
+            "priorYearInflow": 8400,
+            "inflowYoy": -89.3,
             "outflow": null,
-            "waterLevel": 807.405,
-            "inflowYoy": -25
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2024,
-            "isoWeek": 37,
-            "weekStart": "2024-09-09",
-            "inflow": -176.5,
-            "outflow": null,
-            "waterLevel": 288.265,
-            "inflowYoy": -143.9
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 37,
-            "weekStart": "2024-09-09",
-            "inflow": -3450,
-            "outflow": null,
-            "waterLevel": 590.04,
-            "inflowYoy": -156.1
+            "waterLevel": 807.405
         },
         {
             "station": "隔河岩",
@@ -855,9 +1221,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2024-09-09",
             "inflow": -207.385,
+            "priorYearInflow": 19.7,
+            "inflowYoy": 885.2,
             "outflow": null,
-            "waterLevel": 188.345,
-            "inflowYoy": 885.2
+            "waterLevel": 188.345
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": -551.5,
+            "priorYearInflow": 463,
+            "inflowYoy": -1437,
+            "outflow": null,
+            "waterLevel": 620.915
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": 702.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -52.7,
+            "outflow": 439.57142857142856,
+            "waterLevel": 365.5128571428572
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": -176.5,
+            "priorYearInflow": 418,
+            "inflowYoy": -143.9,
+            "outflow": null,
+            "waterLevel": 288.265
         },
         {
             "station": "瀑布沟",
@@ -866,42 +1269,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2024-09-09",
             "inflow": -998.5,
+            "priorYearInflow": 2570,
+            "inflowYoy": -898.8,
             "outflow": null,
-            "waterLevel": 831.595,
-            "inflowYoy": -898.8
+            "waterLevel": 831.595
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2024,
-            "isoWeek": 38,
-            "weekStart": "2024-09-16",
-            "inflow": -4300,
-            "outflow": null,
-            "waterLevel": 971.17,
-            "inflowYoy": -8700
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": 12628.57142857143,
+            "priorYearInflow": 16600,
+            "inflowYoy": -23.9,
+            "outflow": 7604.285714285715,
+            "waterLevel": 155.14142857142858
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2024,
-            "isoWeek": 38,
-            "weekStart": "2024-09-16",
-            "inflow": -41.3,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": -54,
+            "priorYearInflow": -45,
+            "inflowYoy": -174.1,
             "outflow": null,
-            "waterLevel": 380.73,
-            "inflowYoy": -109.1
+            "waterLevel": 381.63
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "乌东德",
+            "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 38,
-            "weekStart": "2024-09-16",
-            "inflow": -172,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": 100,
+            "priorYearInflow": -5300,
+            "inflowYoy": -122.2,
             "outflow": null,
-            "waterLevel": 287.9,
-            "inflowYoy": -119.1
+            "waterLevel": 970.985
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": -3450,
+            "priorYearInflow": 6900,
+            "inflowYoy": -156.1,
+            "outflow": null,
+            "waterLevel": 590.04
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": 2800,
+            "priorYearInflow": null,
+            "inflowYoy": -54.3,
+            "outflow": 3661.428571428572,
+            "waterLevel": 374.365
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 37,
+            "weekStart": "2024-09-09",
+            "inflow": 687.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -74,
+            "outflow": 284.42857142857144,
+            "waterLevel": 219.1985714285714
         },
         {
             "station": "白鹤滩",
@@ -910,9 +1353,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2024-09-16",
             "inflow": 3800,
+            "priorYearInflow": 500,
+            "inflowYoy": 660,
             "outflow": null,
-            "waterLevel": 811.24,
-            "inflowYoy": 300
+            "waterLevel": 811.24
         },
         {
             "station": "隔河岩",
@@ -921,31 +1365,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2024-09-16",
             "inflow": -18.8,
+            "priorYearInflow": 419.43,
+            "inflowYoy": 235.7,
             "outflow": null,
-            "waterLevel": 188.48,
-            "inflowYoy": 235.7
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 38,
-            "weekStart": "2024-09-16",
-            "inflow": -3500,
-            "outflow": null,
-            "waterLevel": 586.19,
-            "inflowYoy": -142.4
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 38,
-            "weekStart": "2024-09-16",
-            "inflow": -1380,
-            "outflow": null,
-            "waterLevel": 833.25,
-            "inflowYoy": -172.1
+            "waterLevel": 188.48
         },
         {
             "station": "构皮滩",
@@ -954,75 +1377,118 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2024-09-16",
             "inflow": -394,
+            "priorYearInflow": -432.95,
+            "inflowYoy": -153.9,
             "outflow": null,
-            "waterLevel": 619.92,
-            "inflowYoy": -153.9
+            "waterLevel": 619.92
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "龙滩",
+            "basin": "红水河",
             "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": -4450,
-            "outflow": null,
-            "waterLevel": 967.03,
-            "inflowYoy": -4550
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": 13.13,
-            "outflow": null,
-            "waterLevel": 187.905,
-            "inflowYoy": -97.8
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": -3400,
-            "outflow": null,
-            "waterLevel": 585.1949999999999,
-            "inflowYoy": -166
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": 1303.5,
-            "outflow": null,
-            "waterLevel": 837.3499999999999,
-            "inflowYoy": -41.3
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": 590.2857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -58.6,
+            "outflow": 417.4285714285714,
+            "waterLevel": 366.1157142857143
         },
         {
             "station": "彭水",
             "basin": "乌江",
             "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": -60,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": -172,
+            "priorYearInflow": -67,
+            "inflowYoy": -119.1,
             "outflow": null,
-            "waterLevel": 288.47,
-            "inflowYoy": -138.7
+            "waterLevel": 287.9
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "瀑布沟",
+            "basin": "大渡河",
             "isoYear": 2024,
-            "isoWeek": 39,
-            "weekStart": "2024-09-23",
-            "inflow": -225.5,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": -1380,
+            "priorYearInflow": -1870,
+            "inflowYoy": -172.1,
             "outflow": null,
-            "waterLevel": 619.425,
-            "inflowYoy": -52.4
+            "waterLevel": 833.25
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": 14557.142857142857,
+            "priorYearInflow": 22371.42857142857,
+            "inflowYoy": -34.9,
+            "outflow": 7671.428571428572,
+            "waterLevel": 158.96857142857144
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": -41.3,
+            "priorYearInflow": 764.1,
+            "inflowYoy": -109.1,
+            "outflow": null,
+            "waterLevel": 380.73
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": -4300,
+            "priorYearInflow": -5400,
+            "inflowYoy": -8700,
+            "outflow": null,
+            "waterLevel": 971.17
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": -3500,
+            "priorYearInflow": 750,
+            "inflowYoy": -142.4,
+            "outflow": null,
+            "waterLevel": 586.19
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": 3425,
+            "priorYearInflow": null,
+            "inflowYoy": -48.7,
+            "outflow": 2870,
+            "waterLevel": 376.36
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 38,
+            "weekStart": "2024-09-16",
+            "inflow": 609.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -79.1,
+            "outflow": 390,
+            "waterLevel": 219.9742857142857
         },
         {
             "station": "白鹤滩",
@@ -1031,9 +1497,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2024-09-23",
             "inflow": 6500,
+            "priorYearInflow": 1466.6666666666667,
+            "inflowYoy": 343.2,
             "outflow": null,
-            "waterLevel": 813.9,
-            "inflowYoy": 664.7
+            "waterLevel": 813.9
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 13.13,
+            "priorYearInflow": 1183.3333333333333,
+            "inflowYoy": -98.9,
+            "outflow": null,
+            "waterLevel": 187.905
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": -225.5,
+            "priorYearInflow": -707.5,
+            "inflowYoy": -52.4,
+            "outflow": null,
+            "waterLevel": 619.425
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 331.42857142857144,
+            "priorYearInflow": null,
+            "inflowYoy": -82.7,
+            "outflow": 389,
+            "waterLevel": 366.3185714285714
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": -60,
+            "priorYearInflow": -157.66666666666666,
+            "inflowYoy": -138.7,
+            "outflow": null,
+            "waterLevel": 288.47
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 1303.5,
+            "priorYearInflow": 893.3333333333334,
+            "inflowYoy": 45.9,
+            "outflow": null,
+            "waterLevel": 837.3499999999999
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 10557.142857142857,
+            "priorYearInflow": 19142.85714285714,
+            "inflowYoy": -44.9,
+            "outflow": 7584.285714285715,
+            "waterLevel": 161.6
         },
         {
             "station": "水布垭",
@@ -1042,53 +1581,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2024-09-23",
             "inflow": -2.88,
+            "priorYearInflow": -33.666666666666664,
+            "inflowYoy": -99.2,
             "outflow": null,
-            "waterLevel": 380.36,
-            "inflowYoy": -99.2
+            "waterLevel": 380.36
         },
         {
             "station": "乌东德",
             "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": -4500,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": -4450,
+            "priorYearInflow": -1733.3333333333333,
+            "inflowYoy": -4550,
             "outflow": null,
-            "waterLevel": 963.21,
-            "inflowYoy": -18.2
+            "waterLevel": 967.03
         },
         {
-            "station": "水布垭",
-            "basin": "清江",
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": -1,
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": -3400,
+            "priorYearInflow": 4366.666666666667,
+            "inflowYoy": -166,
             "outflow": null,
-            "waterLevel": 380.07,
-            "inflowYoy": -99.7
+            "waterLevel": 585.1949999999999
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": -152,
-            "outflow": null,
-            "waterLevel": 618.94,
-            "inflowYoy": -45.7
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 2142.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": -60.2,
+            "outflow": 3500,
+            "waterLevel": 374.415
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": -172,
-            "outflow": null,
-            "waterLevel": 287.4,
-            "inflowYoy": -67.5
+            "isoWeek": 39,
+            "weekStart": "2024-09-23",
+            "inflow": 675.7142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -75,
+            "outflow": 461,
+            "waterLevel": 220.10857142857145
         },
         {
             "station": "白鹤滩",
@@ -1097,31 +1641,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 40,
             "weekStart": "2024-09-30",
             "inflow": 5300,
+            "priorYearInflow": -1000,
+            "inflowYoy": -23.2,
             "outflow": null,
-            "waterLevel": 816.81,
-            "inflowYoy": -23.2
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": 2900,
-            "outflow": null,
-            "waterLevel": 586.8,
-            "inflowYoy": -154.7
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2024,
-            "isoWeek": 40,
-            "weekStart": "2024-09-30",
-            "inflow": 1550,
-            "outflow": null,
-            "waterLevel": 840.12,
-            "inflowYoy": -29.2
+            "waterLevel": 816.81
         },
         {
             "station": "隔河岩",
@@ -1130,9 +1653,466 @@ window.WORKBENCH_DATA = {
             "isoWeek": 40,
             "weekStart": "2024-09-30",
             "inflow": -11.8,
+            "priorYearInflow": -695,
+            "inflowYoy": -101.9,
             "outflow": null,
-            "waterLevel": 187.12,
-            "inflowYoy": -101.9
+            "waterLevel": 187.12
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": -152,
+            "priorYearInflow": -535,
+            "inflowYoy": -45.7,
+            "outflow": null,
+            "waterLevel": 618.94
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 700.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -88.8,
+            "outflow": 390.4285714285714,
+            "waterLevel": 366.4557142857143
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": -172,
+            "priorYearInflow": 844,
+            "inflowYoy": -67.5,
+            "outflow": null,
+            "waterLevel": 287.4
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 1550,
+            "priorYearInflow": -2200,
+            "inflowYoy": -29.2,
+            "outflow": null,
+            "waterLevel": 840.12
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 8300,
+            "priorYearInflow": 20128.571428571428,
+            "inflowYoy": -58.8,
+            "outflow": 7281.428571428572,
+            "waterLevel": 162.80714285714288
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": -1,
+            "priorYearInflow": 623,
+            "inflowYoy": -99.7,
+            "outflow": null,
+            "waterLevel": 380.07
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": -4500,
+            "priorYearInflow": 4000,
+            "inflowYoy": -18.2,
+            "outflow": null,
+            "waterLevel": 963.21
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 2900,
+            "priorYearInflow": 2100,
+            "inflowYoy": 38.1,
+            "outflow": null,
+            "waterLevel": 586.8
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 1237.5,
+            "priorYearInflow": null,
+            "inflowYoy": -77.4,
+            "outflow": 1140,
+            "waterLevel": 371.84
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 40,
+            "weekStart": "2024-09-30",
+            "inflow": 877.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -78.6,
+            "outflow": 495.1428571428572,
+            "waterLevel": 219.56571428571428
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 41,
+            "weekStart": "2024-10-07",
+            "inflow": 1265.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -73.6,
+            "outflow": 461,
+            "waterLevel": 366.55
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 41,
+            "weekStart": "2024-10-07",
+            "inflow": 7557.142857142857,
+            "priorYearInflow": 16185.714285714286,
+            "inflowYoy": -53.3,
+            "outflow": 7234.285714285715,
+            "waterLevel": 162.58714285714288
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 41,
+            "weekStart": "2024-10-07",
+            "inflow": 2683.333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -51,
+            "outflow": 3461.428571428572,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 41,
+            "weekStart": "2024-10-07",
+            "inflow": 814,
+            "priorYearInflow": null,
+            "inflowYoy": -83.1,
+            "outflow": 255.7142857142857,
+            "waterLevel": 220.77428571428567
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 42,
+            "weekStart": "2024-10-14",
+            "inflow": 1977.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -28.8,
+            "outflow": 529.7142857142857,
+            "waterLevel": 366.7728571428571
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 42,
+            "weekStart": "2024-10-14",
+            "inflow": 10700,
+            "priorYearInflow": 14057.142857142857,
+            "inflowYoy": -23.9,
+            "outflow": 7174.285714285715,
+            "waterLevel": 164.36
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 42,
+            "weekStart": "2024-10-14",
+            "inflow": 2985.714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": 6.6,
+            "outflow": 4358.333333333333,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 42,
+            "weekStart": "2024-10-14",
+            "inflow": 868.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -70.1,
+            "outflow": 897.4285714285714,
+            "waterLevel": 222.1971428571429
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 43,
+            "weekStart": "2024-10-21",
+            "inflow": 1648.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -39.1,
+            "outflow": 678.8571428571429,
+            "waterLevel": 367.5142857142857
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 43,
+            "weekStart": "2024-10-21",
+            "inflow": 9285.714285714286,
+            "priorYearInflow": 13242.857142857143,
+            "inflowYoy": -29.9,
+            "outflow": 6980,
+            "waterLevel": 167.00142857142856
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 43,
+            "weekStart": "2024-10-21",
+            "inflow": 1300,
+            "priorYearInflow": null,
+            "inflowYoy": -44.8,
+            "outflow": 930,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 43,
+            "weekStart": "2024-10-21",
+            "inflow": 978.7142857142856,
+            "priorYearInflow": null,
+            "inflowYoy": -67.4,
+            "outflow": 622.7142857142857,
+            "waterLevel": 221.80857142857144
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 44,
+            "weekStart": "2024-10-28",
+            "inflow": 838.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -68.5,
+            "outflow": 913.7142857142856,
+            "waterLevel": 367.91
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 44,
+            "weekStart": "2024-10-28",
+            "inflow": 7500,
+            "priorYearInflow": 11100,
+            "inflowYoy": -32.4,
+            "outflow": 6985.714285714285,
+            "waterLevel": 167.8957142857143
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 44,
+            "weekStart": "2024-10-28",
+            "inflow": 1810,
+            "priorYearInflow": null,
+            "inflowYoy": -40.5,
+            "outflow": 1822.857142857143,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 44,
+            "weekStart": "2024-10-28",
+            "inflow": 977.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -72.8,
+            "outflow": 873.5714285714286,
+            "waterLevel": 221.7242857142857
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 45,
+            "weekStart": "2024-11-04",
+            "inflow": 753.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -71.6,
+            "outflow": 1248.2857142857142,
+            "waterLevel": 367.24142857142857
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 45,
+            "weekStart": "2024-11-04",
+            "inflow": 6171.428571428572,
+            "priorYearInflow": 9385.714285714286,
+            "inflowYoy": -34.2,
+            "outflow": 6967.142857142857,
+            "waterLevel": 167.67142857142858
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 45,
+            "weekStart": "2024-11-04",
+            "inflow": 1800,
+            "priorYearInflow": null,
+            "inflowYoy": -20.8,
+            "outflow": 2122,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 45,
+            "weekStart": "2024-11-04",
+            "inflow": 1129.428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -38,
+            "outflow": 1011.4285714285714,
+            "waterLevel": 221.8242857142857
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 46,
+            "weekStart": "2024-11-11",
+            "inflow": 1192.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -54.4,
+            "outflow": 1786.2857142857142,
+            "waterLevel": 365.9528571428572
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 46,
+            "weekStart": "2024-11-11",
+            "inflow": 6285.714285714285,
+            "priorYearInflow": 8157.142857142857,
+            "inflowYoy": -22.9,
+            "outflow": 6962.857142857143,
+            "waterLevel": 167.21714285714285
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 46,
+            "weekStart": "2024-11-11",
+            "inflow": 1750,
+            "priorYearInflow": null,
+            "inflowYoy": -46.3,
+            "outflow": 2745.714285714286,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 46,
+            "weekStart": "2024-11-11",
+            "inflow": 1527.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -34.5,
+            "outflow": 2064.285714285714,
+            "waterLevel": 221.75142857142856
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 47,
+            "weekStart": "2024-11-18",
+            "inflow": 1153.857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -52.1,
+            "outflow": 1284.571428571429,
+            "waterLevel": 365.1028571428571
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 47,
+            "weekStart": "2024-11-18",
+            "inflow": 7228.571428571428,
+            "priorYearInflow": 7585.714285714285,
+            "inflowYoy": -4.7,
+            "outflow": 6955.714285714285,
+            "waterLevel": 167.49428571428572
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 47,
+            "weekStart": "2024-11-18",
+            "inflow": 2444,
+            "priorYearInflow": null,
+            "inflowYoy": -19.3,
+            "outflow": 1673.3333333333333,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 47,
+            "weekStart": "2024-11-18",
+            "inflow": 1253.7142857142858,
+            "priorYearInflow": null,
+            "inflowYoy": -37.7,
+            "outflow": 1487.857142857143,
+            "waterLevel": 222.09714285714287
         },
         {
             "station": "龙滩",
@@ -1141,9 +2121,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 48,
             "weekStart": "2024-11-25",
             "inflow": 864.2857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -38.7,
             "outflow": 1022.1428571428572,
-            "waterLevel": 364.1028571428571,
-            "inflowYoy": -38.7
+            "waterLevel": 364.1028571428571
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 48,
+            "weekStart": "2024-11-25",
+            "inflow": 7500,
+            "priorYearInflow": 7000,
+            "inflowYoy": 7.1,
+            "outflow": 6970,
+            "waterLevel": 167.96714285714285
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 48,
+            "weekStart": "2024-11-25",
+            "inflow": 1900,
+            "priorYearInflow": null,
+            "inflowYoy": -35.4,
+            "outflow": 1883.3333333333333,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
@@ -1152,20 +2157,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 48,
             "weekStart": "2024-11-25",
             "inflow": 1111.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -19.8,
             "outflow": 2087.1428571428573,
-            "waterLevel": 221.71,
-            "inflowYoy": -19.8
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2024,
-            "isoWeek": 49,
-            "weekStart": "2024-12-02",
-            "inflow": 1311.857142857143,
-            "outflow": 1265.428571428571,
-            "waterLevel": 221.69285714285712,
-            "inflowYoy": 6.1
+            "waterLevel": 221.71
         },
         {
             "station": "龙滩",
@@ -1174,20 +2169,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 49,
             "weekStart": "2024-12-02",
             "inflow": 562.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -60,
             "outflow": 879.5714285714286,
-            "waterLevel": 362.4385714285714,
-            "inflowYoy": -60
+            "waterLevel": 362.4385714285714
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 49,
+            "weekStart": "2024-12-02",
+            "inflow": 6500,
+            "priorYearInflow": 6485.714285714285,
+            "inflowYoy": 0.2,
+            "outflow": 6955.714285714285,
+            "waterLevel": 167.8657142857143
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 49,
+            "weekStart": "2024-12-02",
+            "inflow": 966.6666666666666,
+            "priorYearInflow": null,
+            "inflowYoy": -54.9,
+            "outflow": 2575.714285714286,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2024,
-            "isoWeek": 50,
-            "weekStart": "2024-12-09",
-            "inflow": 868.1428571428571,
-            "outflow": 1377.7142857142858,
-            "waterLevel": 222.42428571428573,
-            "inflowYoy": -28.9
+            "isoWeek": 49,
+            "weekStart": "2024-12-02",
+            "inflow": 1311.857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": 6.1,
+            "outflow": 1265.428571428571,
+            "waterLevel": 221.69285714285712
         },
         {
             "station": "龙滩",
@@ -1196,20 +2217,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 50,
             "weekStart": "2024-12-09",
             "inflow": 708.7142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -41.2,
             "outflow": 1185.428571428571,
-            "waterLevel": 360.68285714285713,
-            "inflowYoy": -41.2
+            "waterLevel": 360.68285714285713
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 50,
+            "weekStart": "2024-12-09",
+            "inflow": 6557.142857142857,
+            "priorYearInflow": 6714.285714285715,
+            "inflowYoy": -2.3,
+            "outflow": 7004.285714285715,
+            "waterLevel": 167.56285714285715
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 50,
+            "weekStart": "2024-12-09",
+            "inflow": 2083.333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": 4.9,
+            "outflow": 3250,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2024,
-            "isoWeek": 51,
-            "weekStart": "2024-12-16",
-            "inflow": 1393.857142857143,
-            "outflow": 1777.142857142857,
-            "waterLevel": 222.14,
-            "inflowYoy": 6.2
+            "isoWeek": 50,
+            "weekStart": "2024-12-09",
+            "inflow": 868.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -28.9,
+            "outflow": 1377.7142857142858,
+            "waterLevel": 222.42428571428573
         },
         {
             "station": "龙滩",
@@ -1218,9 +2265,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 51,
             "weekStart": "2024-12-16",
             "inflow": 1016.8571428571428,
+            "priorYearInflow": null,
+            "inflowYoy": -21,
             "outflow": 1752.142857142857,
-            "waterLevel": 358.84000000000003,
-            "inflowYoy": -21
+            "waterLevel": 358.84000000000003
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2024,
+            "isoWeek": 51,
+            "weekStart": "2024-12-16",
+            "inflow": 7000,
+            "priorYearInflow": 7100,
+            "inflowYoy": -1.4,
+            "outflow": 7002.857142857143,
+            "waterLevel": 167.52857142857144
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2024,
+            "isoWeek": 51,
+            "weekStart": "2024-12-16",
+            "inflow": 2400,
+            "priorYearInflow": null,
+            "inflowYoy": 14.3,
+            "outflow": 2776.6666666666665,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2024,
+            "isoWeek": 51,
+            "weekStart": "2024-12-16",
+            "inflow": 1393.857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": 6.2,
+            "outflow": 1777.142857142857,
+            "waterLevel": 222.14
         },
         {
             "station": "龙滩",
@@ -1229,9 +2313,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 52,
             "weekStart": "2024-12-23",
             "inflow": 672.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -39.7,
             "outflow": 909.5714285714286,
-            "waterLevel": 357.06714285714287,
-            "inflowYoy": -39.7
+            "waterLevel": 357.06714285714287
         },
         {
             "station": "三峡",
@@ -1240,20 +2325,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 52,
             "weekStart": "2024-12-23",
             "inflow": 7671.428571428572,
+            "priorYearInflow": 6657.142857142857,
+            "inflowYoy": 15.2,
             "outflow": 6987.142857142857,
-            "waterLevel": 167.74,
-            "inflowYoy": 18.8
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2024,
-            "isoWeek": 52,
-            "weekStart": "2024-12-23",
-            "inflow": 1010.8571428571428,
-            "outflow": 1163.857142857143,
-            "waterLevel": 222.12714285714287,
-            "inflowYoy": -20.9
+            "waterLevel": 167.74
         },
         {
             "station": "向家坝",
@@ -1262,42 +2337,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 52,
             "weekStart": "2024-12-23",
             "inflow": 1357.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -38.7,
             "outflow": 4025,
-            "waterLevel": null,
-            "inflowYoy": -38.7
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 1,
-            "weekStart": "2024-12-30",
-            "inflow": 1229.8333333333333,
-            "outflow": 1222.1666666666667,
-            "waterLevel": 221.69000000000003,
-            "inflowYoy": 25
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 1,
-            "weekStart": "2024-12-30",
-            "inflow": 3183.333333333333,
-            "outflow": 3690,
-            "waterLevel": null,
-            "inflowYoy": 12.5
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 1,
-            "weekStart": "2024-12-30",
-            "inflow": 7557.142857142857,
-            "outflow": 6957.142857142857,
-            "waterLevel": 168.11714285714285,
-            "inflowYoy": 12.9
+            "isoYear": 2024,
+            "isoWeek": 52,
+            "weekStart": "2024-12-23",
+            "inflow": 1010.8571428571428,
+            "priorYearInflow": null,
+            "inflowYoy": -20.9,
+            "outflow": 1163.857142857143,
+            "waterLevel": 222.12714285714287
         },
         {
             "station": "龙滩",
@@ -1306,31 +2361,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 1,
             "weekStart": "2024-12-30",
             "inflow": 890.8571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -28,
             "outflow": 1037.142857142857,
-            "waterLevel": 355.7685714285714,
-            "inflowYoy": -28
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 2,
-            "weekStart": "2025-01-06",
-            "inflow": 1108.2857142857142,
-            "outflow": 1727.142857142857,
-            "waterLevel": 222.19,
-            "inflowYoy": -44.5
+            "waterLevel": 355.7685714285714
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 2,
-            "weekStart": "2025-01-06",
-            "inflow": 7971.428571428572,
-            "outflow": 6928.571428571428,
-            "waterLevel": 168.52428571428572,
-            "inflowYoy": 2.4
+            "isoWeek": 1,
+            "weekStart": "2024-12-30",
+            "inflow": 7557.142857142857,
+            "priorYearInflow": 6157.142857142857,
+            "inflowYoy": 22.7,
+            "outflow": 6957.142857142857,
+            "waterLevel": 168.11714285714285
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 1,
+            "weekStart": "2024-12-30",
+            "inflow": 3183.333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": 12.5,
+            "outflow": 3690,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 1,
+            "weekStart": "2024-12-30",
+            "inflow": 1229.8333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": 25,
+            "outflow": 1222.1666666666667,
+            "waterLevel": 221.69000000000003
         },
         {
             "station": "龙滩",
@@ -1339,9 +2409,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 2,
             "weekStart": "2025-01-06",
             "inflow": 952,
+            "priorYearInflow": null,
+            "inflowYoy": -31.5,
             "outflow": 1257.2857142857142,
-            "waterLevel": 353.6014285714286,
-            "inflowYoy": -31.5
+            "waterLevel": 353.6014285714286
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 2,
+            "weekStart": "2025-01-06",
+            "inflow": 7971.428571428572,
+            "priorYearInflow": 7042.857142857143,
+            "inflowYoy": 13.2,
+            "outflow": 6928.571428571428,
+            "waterLevel": 168.52428571428572
         },
         {
             "station": "向家坝",
@@ -1350,31 +2433,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 2,
             "weekStart": "2025-01-06",
             "inflow": 4285.714285714285,
+            "priorYearInflow": null,
+            "inflowYoy": 10.3,
             "outflow": 2853.333333333333,
-            "waterLevel": null,
-            "inflowYoy": 10.3
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 3,
-            "weekStart": "2025-01-13",
-            "inflow": 7271.428571428572,
-            "outflow": 7971.428571428572,
-            "waterLevel": 168.69,
-            "inflowYoy": -4.4
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 3,
-            "weekStart": "2025-01-13",
-            "inflow": 1582.571428571429,
-            "outflow": 2017.2857142857144,
-            "waterLevel": 222.1728571428572,
-            "inflowYoy": -34
+            "isoWeek": 2,
+            "weekStart": "2025-01-06",
+            "inflow": 1108.2857142857142,
+            "priorYearInflow": null,
+            "inflowYoy": -44.5,
+            "outflow": 1727.142857142857,
+            "waterLevel": 222.19
         },
         {
             "station": "龙滩",
@@ -1383,9 +2457,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 3,
             "weekStart": "2025-01-13",
             "inflow": 452.6,
+            "priorYearInflow": null,
+            "inflowYoy": -69.8,
             "outflow": 1454.8,
-            "waterLevel": 351.67600000000004,
-            "inflowYoy": -69.8
+            "waterLevel": 351.67600000000004
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 3,
+            "weekStart": "2025-01-13",
+            "inflow": 7271.428571428572,
+            "priorYearInflow": 7585.714285714285,
+            "inflowYoy": -4.1,
+            "outflow": 7971.428571428572,
+            "waterLevel": 168.69
         },
         {
             "station": "向家坝",
@@ -1394,9 +2481,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 3,
             "weekStart": "2025-01-13",
             "inflow": 3585.714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -8.1,
             "outflow": 3694.285714285714,
-            "waterLevel": null,
-            "inflowYoy": -8.1
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 3,
+            "weekStart": "2025-01-13",
+            "inflow": 1582.571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -34,
+            "outflow": 2017.2857142857144,
+            "waterLevel": 222.1728571428572
         },
         {
             "station": "龙滩",
@@ -1405,9 +2505,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2025-01-20",
             "inflow": 618.2857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -53.6,
             "outflow": 936,
-            "waterLevel": 349.46571428571434,
-            "inflowYoy": -53.6
+            "waterLevel": 349.46571428571434
         },
         {
             "station": "三峡",
@@ -1416,20 +2517,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2025-01-20",
             "inflow": 6485.714285714285,
+            "priorYearInflow": 8142.857142857143,
+            "inflowYoy": -20.4,
             "outflow": 8085.714285714285,
-            "waterLevel": 168.21571428571428,
-            "inflowYoy": -16.6
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 4,
-            "weekStart": "2025-01-20",
-            "inflow": 825.7142857142857,
-            "outflow": 1527.428571428571,
-            "waterLevel": 221.6371428571429,
-            "inflowYoy": -37.8
+            "waterLevel": 168.21571428571428
         },
         {
             "station": "向家坝",
@@ -1438,20 +2529,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2025-01-20",
             "inflow": 783.3333333333334,
+            "priorYearInflow": null,
+            "inflowYoy": -81.5,
             "outflow": 2265,
-            "waterLevel": null,
-            "inflowYoy": -81.5
+            "waterLevel": null
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 5,
-            "weekStart": "2025-01-27",
-            "inflow": 4757.142857142857,
-            "outflow": 8262.857142857143,
-            "waterLevel": 166.74285714285716,
-            "inflowYoy": -38.4
+            "isoWeek": 4,
+            "weekStart": "2025-01-20",
+            "inflow": 825.7142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -37.8,
+            "outflow": 1527.428571428571,
+            "waterLevel": 221.6371428571429
         },
         {
             "station": "龙滩",
@@ -1460,9 +2553,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 5,
             "weekStart": "2025-01-27",
             "inflow": 1060.571428571429,
+            "priorYearInflow": 731,
+            "inflowYoy": 45.1,
             "outflow": 244,
-            "waterLevel": 348.7257142857143,
-            "inflowYoy": -31.2
+            "waterLevel": 348.7257142857143
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 5,
+            "weekStart": "2025-01-27",
+            "inflow": 4757.142857142857,
+            "priorYearInflow": 6757.142857142857,
+            "inflowYoy": -29.6,
+            "outflow": 8262.857142857143,
+            "waterLevel": 166.74285714285716
         },
         {
             "station": "向家坝",
@@ -1471,9 +2577,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 5,
             "weekStart": "2025-01-27",
             "inflow": 920,
+            "priorYearInflow": null,
+            "inflowYoy": -76.9,
             "outflow": 1735,
-            "waterLevel": null,
-            "inflowYoy": -76.9
+            "waterLevel": null
         },
         {
             "station": "岩滩",
@@ -1482,31 +2589,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 5,
             "weekStart": "2025-01-27",
             "inflow": 741.7142857142857,
+            "priorYearInflow": 924,
+            "inflowYoy": -19.7,
             "outflow": 1096.857142857143,
-            "waterLevel": 220.22857142857143,
-            "inflowYoy": -62
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 6,
-            "weekStart": "2025-02-03",
-            "inflow": 5600,
-            "outflow": 8307.142857142857,
-            "waterLevel": 164.49857142857144,
-            "inflowYoy": -28.7
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 6,
-            "weekStart": "2025-02-03",
-            "inflow": 771.8333333333334,
-            "outflow": 1000.1666666666666,
-            "waterLevel": 220.3557142857143,
-            "inflowYoy": -59.7
+            "waterLevel": 220.22857142857143
         },
         {
             "station": "龙滩",
@@ -1515,9 +2601,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 6,
             "weekStart": "2025-02-03",
             "inflow": 575.5,
+            "priorYearInflow": null,
+            "inflowYoy": -54,
             "outflow": 520.3333333333334,
-            "waterLevel": 347.7471428571429,
-            "inflowYoy": -54
+            "waterLevel": 347.7471428571429
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 6,
+            "weekStart": "2025-02-03",
+            "inflow": 5600,
+            "priorYearInflow": 5728.571428571428,
+            "inflowYoy": -2.2,
+            "outflow": 8307.142857142857,
+            "waterLevel": 164.49857142857144
         },
         {
             "station": "向家坝",
@@ -1526,42 +2625,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 6,
             "weekStart": "2025-02-03",
             "inflow": 1416.6666666666667,
+            "priorYearInflow": null,
+            "inflowYoy": -66.8,
             "outflow": 3011.428571428572,
-            "waterLevel": null,
-            "inflowYoy": -66.8
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 7,
-            "weekStart": "2025-02-10",
-            "inflow": 7114.285714285715,
-            "outflow": 8318.57142857143,
-            "waterLevel": 163.92000000000002,
-            "inflowYoy": -3.3
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 7,
-            "weekStart": "2025-02-10",
-            "inflow": 2571.428571428572,
-            "outflow": 2675,
-            "waterLevel": null,
-            "inflowYoy": -26.5
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 7,
-            "weekStart": "2025-02-10",
-            "inflow": 807.8333333333334,
-            "outflow": 818.2,
-            "waterLevel": 220.67428571428573,
-            "inflowYoy": -58.6
+            "isoWeek": 6,
+            "weekStart": "2025-02-03",
+            "inflow": 771.8333333333334,
+            "priorYearInflow": null,
+            "inflowYoy": -59.7,
+            "outflow": 1000.1666666666666,
+            "waterLevel": 220.3557142857143
         },
         {
             "station": "龙滩",
@@ -1570,31 +2649,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 7,
             "weekStart": "2025-02-10",
             "inflow": 561.25,
+            "priorYearInflow": null,
+            "inflowYoy": -44.2,
             "outflow": 277.5,
-            "waterLevel": 346.88428571428574,
-            "inflowYoy": -44.2
+            "waterLevel": 346.88428571428574
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 7,
+            "weekStart": "2025-02-10",
+            "inflow": 7114.285714285715,
+            "priorYearInflow": 4742.857142857143,
+            "inflowYoy": 50,
+            "outflow": 8318.57142857143,
+            "waterLevel": 163.92000000000002
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 8,
-            "weekStart": "2025-02-17",
-            "inflow": 2566.6666666666665,
-            "outflow": 2061.6666666666665,
-            "waterLevel": null,
-            "inflowYoy": 28.3
+            "isoWeek": 7,
+            "weekStart": "2025-02-10",
+            "inflow": 2571.428571428572,
+            "priorYearInflow": null,
+            "inflowYoy": -26.5,
+            "outflow": 2675,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 8,
-            "weekStart": "2025-02-17",
-            "inflow": 685.1666666666666,
-            "outflow": 606.5714285714286,
-            "waterLevel": 221.2628571428572,
-            "inflowYoy": -47.2
+            "isoWeek": 7,
+            "weekStart": "2025-02-10",
+            "inflow": 807.8333333333334,
+            "priorYearInflow": null,
+            "inflowYoy": -58.6,
+            "outflow": 818.2,
+            "waterLevel": 220.67428571428573
         },
         {
             "station": "龙滩",
@@ -1603,9 +2697,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 8,
             "weekStart": "2025-02-17",
             "inflow": 865.8333333333334,
+            "priorYearInflow": null,
+            "inflowYoy": 86.2,
             "outflow": 369.5,
-            "waterLevel": 346.11428571428576,
-            "inflowYoy": 86.2
+            "waterLevel": 346.11428571428576
         },
         {
             "station": "三峡",
@@ -1614,31 +2709,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 8,
             "weekStart": "2025-02-17",
             "inflow": 6485.714285714285,
+            "priorYearInflow": 5528.571428571428,
+            "inflowYoy": 17.3,
             "outflow": 8412.857142857143,
-            "waterLevel": 163.11285714285714,
-            "inflowYoy": 18.5
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 9,
-            "weekStart": "2025-02-24",
-            "inflow": 7266.666666666667,
-            "outflow": 8268.333333333334,
-            "waterLevel": 162.66666666666666,
-            "inflowYoy": 26.2
+            "waterLevel": 163.11285714285714
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 9,
-            "weekStart": "2025-02-24",
-            "inflow": 1520,
-            "outflow": 1531.6666666666667,
-            "waterLevel": null,
-            "inflowYoy": -46.8
+            "isoWeek": 8,
+            "weekStart": "2025-02-17",
+            "inflow": 2566.6666666666665,
+            "priorYearInflow": null,
+            "inflowYoy": 28.3,
+            "outflow": 2061.6666666666665,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 8,
+            "weekStart": "2025-02-17",
+            "inflow": 685.1666666666666,
+            "priorYearInflow": null,
+            "inflowYoy": -47.2,
+            "outflow": 606.5714285714286,
+            "waterLevel": 221.2628571428572
         },
         {
             "station": "龙滩",
@@ -1647,9 +2745,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 9,
             "weekStart": "2025-02-24",
             "inflow": 758.7142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -19.8,
             "outflow": 688.5714285714286,
-            "waterLevel": 345.96714285714285,
-            "inflowYoy": -19.8
+            "waterLevel": 345.96714285714285
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 9,
+            "weekStart": "2025-02-24",
+            "inflow": 7266.666666666667,
+            "priorYearInflow": 6757.142857142857,
+            "inflowYoy": 7.5,
+            "outflow": 8268.333333333334,
+            "waterLevel": 162.66666666666666
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 9,
+            "weekStart": "2025-02-24",
+            "inflow": 1520,
+            "priorYearInflow": null,
+            "inflowYoy": -46.8,
+            "outflow": 1531.6666666666667,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
@@ -1658,9 +2781,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 9,
             "weekStart": "2025-02-24",
             "inflow": 785.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -63.2,
             "outflow": 531.7142857142857,
-            "waterLevel": 221.27142857142857,
-            "inflowYoy": -63.2
+            "waterLevel": 221.27142857142857
         },
         {
             "station": "龙滩",
@@ -1669,20 +2793,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2025-03-03",
             "inflow": 338.57142857142856,
+            "priorYearInflow": null,
+            "inflowYoy": -69.9,
             "outflow": 634,
-            "waterLevel": 345.1557142857143,
-            "inflowYoy": -69.9
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 10,
-            "weekStart": "2025-03-03",
-            "inflow": 865.1428571428571,
-            "outflow": 811.5714285714286,
-            "waterLevel": 221.31571428571428,
-            "inflowYoy": -61
+            "waterLevel": 345.1557142857143
         },
         {
             "station": "三峡",
@@ -1691,9 +2805,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2025-03-03",
             "inflow": 8000,
+            "priorYearInflow": 7142.857142857143,
+            "inflowYoy": 12,
             "outflow": 7858.571428571428,
-            "waterLevel": 162.79714285714286,
-            "inflowYoy": 11.8
+            "waterLevel": 162.79714285714286
         },
         {
             "station": "向家坝",
@@ -1702,42 +2817,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2025-03-03",
             "inflow": 1328.571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -68.4,
             "outflow": 3310,
-            "waterLevel": null,
-            "inflowYoy": -68.4
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 11,
-            "weekStart": "2025-03-10",
-            "inflow": 3257.1428571428573,
-            "outflow": 3978.3333333333335,
-            "waterLevel": null,
-            "inflowYoy": -14
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 11,
-            "weekStart": "2025-03-10",
-            "inflow": 8514.285714285714,
-            "outflow": 7708.571428571428,
-            "waterLevel": 163.87857142857143,
-            "inflowYoy": 7
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 11,
-            "weekStart": "2025-03-10",
-            "inflow": 831.8571428571429,
-            "outflow": 936.7142857142856,
-            "waterLevel": 221.7028571428572,
-            "inflowYoy": -41.9
+            "isoWeek": 10,
+            "weekStart": "2025-03-03",
+            "inflow": 865.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -61,
+            "outflow": 811.5714285714286,
+            "waterLevel": 221.31571428571428
         },
         {
             "station": "龙滩",
@@ -1746,42 +2841,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 11,
             "weekStart": "2025-03-10",
             "inflow": 437.57142857142856,
+            "priorYearInflow": null,
+            "inflowYoy": -53.9,
             "outflow": 518.2857142857143,
-            "waterLevel": 343.92285714285714,
-            "inflowYoy": -53.9
+            "waterLevel": 343.92285714285714
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 12,
-            "weekStart": "2025-03-17",
-            "inflow": 8885.714285714286,
-            "outflow": 8491.42857142857,
-            "waterLevel": 164.74,
-            "inflowYoy": -3.4
+            "isoWeek": 11,
+            "weekStart": "2025-03-10",
+            "inflow": 8514.285714285714,
+            "priorYearInflow": 5557.142857142857,
+            "inflowYoy": 53.2,
+            "outflow": 7708.571428571428,
+            "waterLevel": 163.87857142857143
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 12,
-            "weekStart": "2025-03-17",
-            "inflow": 1283.3333333333333,
-            "outflow": 970,
-            "waterLevel": null,
-            "inflowYoy": -56
+            "isoWeek": 11,
+            "weekStart": "2025-03-10",
+            "inflow": 3257.1428571428573,
+            "priorYearInflow": null,
+            "inflowYoy": -14,
+            "outflow": 3978.3333333333335,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 12,
-            "weekStart": "2025-03-17",
-            "inflow": 937.5714285714286,
-            "outflow": 679.5714285714286,
-            "waterLevel": 221.54142857142853,
-            "inflowYoy": -9.9
+            "isoWeek": 11,
+            "weekStart": "2025-03-10",
+            "inflow": 831.8571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -41.9,
+            "outflow": 936.7142857142856,
+            "waterLevel": 221.7028571428572
         },
         {
             "station": "龙滩",
@@ -1790,20 +2889,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 12,
             "weekStart": "2025-03-17",
             "inflow": 458.4,
+            "priorYearInflow": null,
+            "inflowYoy": -47.5,
             "outflow": 822.2,
-            "waterLevel": 343.16,
-            "inflowYoy": -47.5
+            "waterLevel": 343.16
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 12,
+            "weekStart": "2025-03-17",
+            "inflow": 8885.714285714286,
+            "priorYearInflow": 5285.714285714285,
+            "inflowYoy": 68.1,
+            "outflow": 8491.42857142857,
+            "waterLevel": 164.74
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 12,
+            "weekStart": "2025-03-17",
+            "inflow": 1283.3333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -56,
+            "outflow": 970,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 13,
-            "weekStart": "2025-03-24",
-            "inflow": 1060.142857142857,
-            "outflow": 1430.2857142857142,
-            "waterLevel": 221.7,
-            "inflowYoy": -19.7
+            "isoWeek": 12,
+            "weekStart": "2025-03-17",
+            "inflow": 937.5714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": -9.9,
+            "outflow": 679.5714285714286,
+            "waterLevel": 221.54142857142853
         },
         {
             "station": "龙滩",
@@ -1812,9 +2937,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2025-03-24",
             "inflow": 462.1666666666667,
+            "priorYearInflow": null,
+            "inflowYoy": -55.5,
             "outflow": 767,
-            "waterLevel": 342.01500000000004,
-            "inflowYoy": -55.5
+            "waterLevel": 342.01500000000004
         },
         {
             "station": "三峡",
@@ -1823,9 +2949,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2025-03-24",
             "inflow": 6842.857142857143,
+            "priorYearInflow": 5500,
+            "inflowYoy": 24.4,
             "outflow": 10001.42857142857,
-            "waterLevel": 164.03714285714287,
-            "inflowYoy": -1.8
+            "waterLevel": 164.03714285714287
         },
         {
             "station": "向家坝",
@@ -1834,42 +2961,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2025-03-24",
             "inflow": 710,
+            "priorYearInflow": null,
+            "inflowYoy": -64,
             "outflow": 1330,
-            "waterLevel": null,
-            "inflowYoy": -64
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 14,
-            "weekStart": "2025-03-31",
-            "inflow": 872.2857142857143,
-            "outflow": 825.2857142857143,
-            "waterLevel": 221.97,
-            "inflowYoy": -18.8
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 14,
-            "weekStart": "2025-03-31",
-            "inflow": 1490,
-            "outflow": 1838.3333333333333,
-            "waterLevel": null,
-            "inflowYoy": -7.7
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 14,
-            "weekStart": "2025-03-31",
-            "inflow": 6025,
-            "outflow": 9942.5,
-            "waterLevel": 162.25,
-            "inflowYoy": -24.7
+            "isoWeek": 13,
+            "weekStart": "2025-03-24",
+            "inflow": 1060.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -19.7,
+            "outflow": 1430.2857142857142,
+            "waterLevel": 221.7
         },
         {
             "station": "龙滩",
@@ -1878,20 +2985,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 14,
             "weekStart": "2025-03-31",
             "inflow": 430.3333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -66.4,
             "outflow": 793.5,
-            "waterLevel": 340.20166666666665,
-            "inflowYoy": -66.4
+            "waterLevel": 340.20166666666665
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 14,
+            "weekStart": "2025-03-31",
+            "inflow": 6025,
+            "priorYearInflow": 6585.714285714285,
+            "inflowYoy": -8.5,
+            "outflow": 9942.5,
+            "waterLevel": 162.25
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 14,
+            "weekStart": "2025-03-31",
+            "inflow": 1490,
+            "priorYearInflow": null,
+            "inflowYoy": -7.7,
+            "outflow": 1838.3333333333333,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 15,
-            "weekStart": "2025-04-07",
-            "inflow": 665.7142857142857,
-            "outflow": 919.1428571428572,
-            "waterLevel": 220.6071428571429,
-            "inflowYoy": -42.6
+            "isoWeek": 14,
+            "weekStart": "2025-03-31",
+            "inflow": 872.2857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -18.8,
+            "outflow": 825.2857142857143,
+            "waterLevel": 221.97
         },
         {
             "station": "龙滩",
@@ -1900,9 +3033,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2025-04-07",
             "inflow": 650.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -24.5,
             "outflow": 418.1428571428572,
-            "waterLevel": 339.05285714285714,
-            "inflowYoy": -24.5
+            "waterLevel": 339.05285714285714
         },
         {
             "station": "三峡",
@@ -1911,9 +3045,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2025-04-07",
             "inflow": 6542.857142857143,
+            "priorYearInflow": 8857.142857142857,
+            "inflowYoy": -26.1,
             "outflow": 10871.42857142857,
-            "waterLevel": 159.68285714285713,
-            "inflowYoy": -26.6
+            "waterLevel": 159.68285714285713
         },
         {
             "station": "向家坝",
@@ -1922,42 +3057,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2025-04-07",
             "inflow": 2957.1428571428573,
+            "priorYearInflow": null,
+            "inflowYoy": 4,
             "outflow": 1818.3333333333333,
-            "waterLevel": null,
-            "inflowYoy": 4
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 16,
-            "weekStart": "2025-04-14",
-            "inflow": 656,
-            "outflow": 817.4285714285714,
-            "waterLevel": 220.3557142857143,
-            "inflowYoy": -59.6
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 16,
-            "weekStart": "2025-04-14",
-            "inflow": 1983.3333333333333,
-            "outflow": 2964.285714285714,
-            "waterLevel": null,
-            "inflowYoy": -31.3
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 16,
-            "weekStart": "2025-04-14",
-            "inflow": 7171.428571428572,
-            "outflow": 8591.42857142857,
-            "waterLevel": 157.56571428571428,
-            "inflowYoy": -37.1
+            "isoWeek": 15,
+            "weekStart": "2025-04-07",
+            "inflow": 665.7142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -42.6,
+            "outflow": 919.1428571428572,
+            "waterLevel": 220.6071428571429
         },
         {
             "station": "龙滩",
@@ -1966,42 +3081,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 16,
             "weekStart": "2025-04-14",
             "inflow": 526,
+            "priorYearInflow": null,
+            "inflowYoy": -47.5,
             "outflow": 445.2857142857143,
-            "waterLevel": 337.80571428571426,
-            "inflowYoy": -47.5
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 17,
-            "weekStart": "2025-04-21",
-            "inflow": 681.2857142857143,
-            "outflow": 441,
-            "waterLevel": 219.88285714285715,
-            "inflowYoy": -57.5
+            "waterLevel": 337.80571428571426
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 17,
-            "weekStart": "2025-04-21",
-            "inflow": 7800,
-            "outflow": 8128.571428571428,
-            "waterLevel": 157.46714285714285,
-            "inflowYoy": -37.3
+            "isoWeek": 16,
+            "weekStart": "2025-04-14",
+            "inflow": 7171.428571428572,
+            "priorYearInflow": 9400,
+            "inflowYoy": -23.7,
+            "outflow": 8591.42857142857,
+            "waterLevel": 157.56571428571428
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 17,
-            "weekStart": "2025-04-21",
-            "inflow": 3600,
-            "outflow": 3765,
-            "waterLevel": null,
-            "inflowYoy": 28.6
+            "isoWeek": 16,
+            "weekStart": "2025-04-14",
+            "inflow": 1983.3333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -31.3,
+            "outflow": 2964.285714285714,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 16,
+            "weekStart": "2025-04-14",
+            "inflow": 656,
+            "priorYearInflow": null,
+            "inflowYoy": -59.6,
+            "outflow": 817.4285714285714,
+            "waterLevel": 220.3557142857143
         },
         {
             "station": "龙滩",
@@ -2010,9 +3129,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 17,
             "weekStart": "2025-04-21",
             "inflow": 862.8571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -23.4,
             "outflow": 606.5714285714286,
-            "waterLevel": 337.6385714285715,
-            "inflowYoy": -23.4
+            "waterLevel": 337.6385714285715
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 17,
+            "weekStart": "2025-04-21",
+            "inflow": 7800,
+            "priorYearInflow": 10285.714285714286,
+            "inflowYoy": -24.2,
+            "outflow": 8128.571428571428,
+            "waterLevel": 157.46714285714285
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 17,
+            "weekStart": "2025-04-21",
+            "inflow": 3600,
+            "priorYearInflow": null,
+            "inflowYoy": 28.6,
+            "outflow": 3765,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 17,
+            "weekStart": "2025-04-21",
+            "inflow": 681.2857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -57.5,
+            "outflow": 441,
+            "waterLevel": 219.88285714285715
         },
         {
             "station": "龙滩",
@@ -2021,31 +3177,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 18,
             "weekStart": "2025-04-28",
             "inflow": 827.1428571428571,
+            "priorYearInflow": null,
+            "inflowYoy": -26.5,
             "outflow": 315.2857142857143,
-            "waterLevel": 337.2757142857143,
-            "inflowYoy": -26.5
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 18,
-            "weekStart": "2025-04-28",
-            "inflow": 1828.571428571429,
-            "outflow": 1703.3333333333333,
-            "waterLevel": null,
-            "inflowYoy": -22
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 18,
-            "weekStart": "2025-04-28",
-            "inflow": 426.4285714285714,
-            "outflow": 533.2857142857143,
-            "waterLevel": 219.5514285714285,
-            "inflowYoy": -79.5
+            "waterLevel": 337.2757142857143
         },
         {
             "station": "三峡",
@@ -2054,9 +3189,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 18,
             "weekStart": "2025-04-28",
             "inflow": 8071.428571428572,
+            "priorYearInflow": 11757.142857142857,
+            "inflowYoy": -31.3,
             "outflow": 8675.714285714286,
-            "waterLevel": 157.92857142857142,
-            "inflowYoy": -43.3
+            "waterLevel": 157.92857142857142
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 18,
+            "weekStart": "2025-04-28",
+            "inflow": 1828.571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -22,
+            "outflow": 1703.3333333333333,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 18,
+            "weekStart": "2025-04-28",
+            "inflow": 426.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -79.5,
+            "outflow": 533.2857142857143,
+            "waterLevel": 219.5514285714285
         },
         {
             "station": "龙滩",
@@ -2065,20 +3225,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2025-05-05",
             "inflow": 654.8571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -55.5,
             "outflow": 457.4285714285714,
-            "waterLevel": 336.8385714285714,
-            "inflowYoy": -55.5
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 19,
-            "weekStart": "2025-05-05",
-            "inflow": 1500,
-            "outflow": 2921.428571428572,
-            "waterLevel": null,
-            "inflowYoy": -39
+            "waterLevel": 336.8385714285714
         },
         {
             "station": "三峡",
@@ -2087,9 +3237,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2025-05-05",
             "inflow": 8328.57142857143,
+            "priorYearInflow": 11128.57142857143,
+            "inflowYoy": -25.2,
             "outflow": 8954.285714285714,
-            "waterLevel": 157.65571428571428,
-            "inflowYoy": -20.7
+            "waterLevel": 157.65571428571428
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 19,
+            "weekStart": "2025-05-05",
+            "inflow": 1500,
+            "priorYearInflow": null,
+            "inflowYoy": -39,
+            "outflow": 2921.428571428572,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
@@ -2098,41 +3261,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2025-05-05",
             "inflow": 511.4285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": -77.1,
             "outflow": 744.4285714285714,
-            "waterLevel": 219.1942857142857,
-            "inflowYoy": -77.1
+            "waterLevel": 219.1942857142857
         },
         {
-            "station": "向家坝",
+            "station": "白鹤滩",
             "basin": "金沙江下游",
             "isoYear": 2025,
             "isoWeek": 20,
             "weekStart": "2025-05-12",
-            "inflow": 3321.6666666666665,
-            "outflow": 1162.857142857143,
-            "waterLevel": 375.56,
-            "inflowYoy": 4.3
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": -3000,
+            "inflow": -2300,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 570.66
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": 603,
-            "outflow": 266.5,
-            "waterLevel": 219.325,
-            "inflowYoy": -77.9
+            "waterLevel": 792.62
         },
         {
             "station": "隔河岩",
@@ -2141,6 +3285,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2025-05-12",
             "inflow": -52.9,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 186.42
         },
@@ -2151,39 +3297,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2025-05-12",
             "inflow": 335,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 601.23
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": 8671.42857142857,
-            "outflow": 11572.857142857143,
-            "waterLevel": 157.41,
-            "inflowYoy": -14.8
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": 215,
-            "outflow": null,
-            "waterLevel": 382.42
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": -2300,
-            "outflow": null,
-            "waterLevel": 792.62
         },
         {
             "station": "龙滩",
@@ -2192,9 +3309,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2025-05-12",
             "inflow": 1272.5,
+            "priorYearInflow": null,
+            "inflowYoy": -38.2,
             "outflow": 629,
-            "waterLevel": 337.29,
-            "inflowYoy": -38.2
+            "waterLevel": 337.29
         },
         {
             "station": "彭水",
@@ -2203,18 +3321,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2025-05-12",
             "inflow": -62.4,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 285.89
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 20,
-            "weekStart": "2025-05-12",
-            "inflow": -1300,
-            "outflow": null,
-            "waterLevel": 960.87
         },
         {
             "station": "瀑布沟",
@@ -2223,85 +3333,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2025-05-12",
             "inflow": 1410,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 821.2
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": -1800,
-            "outflow": null,
-            "waterLevel": 958.27,
-            "inflowYoy": 620
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": 49.8,
-            "outflow": null,
-            "waterLevel": 602.15,
-            "inflowYoy": -94.5
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": 4000,
-            "outflow": null,
-            "waterLevel": 569.29,
-            "inflowYoy": -8100
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": 1340,
-            "outflow": null,
-            "waterLevel": 824.43,
-            "inflowYoy": 0.8
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": -3530,
-            "outflow": null,
-            "waterLevel": 284.3,
-            "inflowYoy": -245.3
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": 8671.42857142857,
+            "priorYearInflow": 11328.57142857143,
+            "inflowYoy": -23.5,
+            "outflow": 11572.857142857143,
+            "waterLevel": 157.41
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": -18.1,
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": 215,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 381.79,
-            "inflowYoy": -101.6
+            "waterLevel": 382.42
         },
         {
-            "station": "隔河岩",
-            "basin": "清江",
+            "station": "乌东德",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 21,
-            "weekStart": "2025-05-19",
-            "inflow": -31,
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": -1300,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 186.15,
-            "inflowYoy": -263.2
+            "waterLevel": 960.87
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": -3000,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 570.66
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": 3321.6666666666665,
+            "priorYearInflow": null,
+            "inflowYoy": 4.3,
+            "outflow": 1162.857142857143,
+            "waterLevel": 375.56
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 20,
+            "weekStart": "2025-05-12",
+            "inflow": 603,
+            "priorYearInflow": null,
+            "inflowYoy": -77.9,
+            "outflow": 266.5,
+            "waterLevel": 219.325
         },
         {
             "station": "白鹤滩",
@@ -2310,20 +3417,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 21,
             "weekStart": "2025-05-19",
             "inflow": -2200,
+            "priorYearInflow": null,
+            "inflowYoy": -358.8,
             "outflow": null,
-            "waterLevel": 790.21,
-            "inflowYoy": -358.8
+            "waterLevel": 790.21
         },
         {
-            "station": "向家坝",
-            "basin": "金沙江下游",
+            "station": "隔河岩",
+            "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 21,
             "weekStart": "2025-05-19",
-            "inflow": 2216.6666666666665,
-            "outflow": 4178.571428571428,
-            "waterLevel": 375.1,
-            "inflowYoy": -18.8
+            "inflow": -31,
+            "priorYearInflow": null,
+            "inflowYoy": -263.2,
+            "outflow": null,
+            "waterLevel": 186.15
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": 49.8,
+            "priorYearInflow": null,
+            "inflowYoy": -94.5,
+            "outflow": null,
+            "waterLevel": 602.15
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": -3530,
+            "priorYearInflow": null,
+            "inflowYoy": -245.3,
+            "outflow": null,
+            "waterLevel": 284.3
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": 1340,
+            "priorYearInflow": null,
+            "inflowYoy": 0.8,
+            "outflow": null,
+            "waterLevel": 824.43
         },
         {
             "station": "三峡",
@@ -2332,74 +3477,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 21,
             "weekStart": "2025-05-19",
             "inflow": 8742.857142857143,
+            "priorYearInflow": 10942.857142857143,
+            "inflowYoy": -20.1,
             "outflow": 11828.57142857143,
-            "waterLevel": 154.8457142857143,
-            "inflowYoy": -55.4
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 400,
-            "outflow": null,
-            "waterLevel": 958.1,
-            "inflowYoy": -27.3
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": -168,
-            "outflow": null,
-            "waterLevel": 184.925,
-            "inflowYoy": -109.7
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 0,
-            "outflow": null,
-            "waterLevel": 566.905
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": -827.5,
-            "outflow": null,
-            "waterLevel": 284.685,
-            "inflowYoy": -263.9
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 10342.857142857143,
-            "outflow": 11885.714285714286,
-            "waterLevel": 154.65,
-            "inflowYoy": -51.7
+            "waterLevel": 154.8457142857143
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 126.05,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": -18.1,
+            "priorYearInflow": null,
+            "inflowYoy": -101.6,
             "outflow": null,
-            "waterLevel": 380.805,
-            "inflowYoy": -90.3
+            "waterLevel": 381.79
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": -1800,
+            "priorYearInflow": null,
+            "inflowYoy": 620,
+            "outflow": null,
+            "waterLevel": 958.27
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": 4000,
+            "priorYearInflow": null,
+            "inflowYoy": -8100,
+            "outflow": null,
+            "waterLevel": 569.29
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 21,
+            "weekStart": "2025-05-19",
+            "inflow": 2216.6666666666665,
+            "priorYearInflow": null,
+            "inflowYoy": -18.8,
+            "outflow": 4178.571428571428,
+            "waterLevel": 375.1
         },
         {
             "station": "白鹤滩",
@@ -2408,20 +3537,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2025-05-26",
             "inflow": 250,
+            "priorYearInflow": null,
+            "inflowYoy": -83.3,
             "outflow": null,
-            "waterLevel": 786.775,
-            "inflowYoy": -83.3
+            "waterLevel": 786.775
         },
         {
-            "station": "岩滩",
-            "basin": "红水河",
+            "station": "隔河岩",
+            "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 22,
             "weekStart": "2025-05-26",
-            "inflow": 1232.8333333333333,
-            "outflow": 1148,
-            "waterLevel": 220.255,
-            "inflowYoy": -65.2
+            "inflow": -168,
+            "priorYearInflow": null,
+            "inflowYoy": -109.7,
+            "outflow": null,
+            "waterLevel": 184.925
         },
         {
             "station": "构皮滩",
@@ -2430,31 +3561,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2025-05-26",
             "inflow": 1087,
+            "priorYearInflow": null,
+            "inflowYoy": 34.4,
             "outflow": null,
-            "waterLevel": 610.015,
-            "inflowYoy": 34.4
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 2082.8571428571427,
-            "outflow": 3688.571428571429,
-            "waterLevel": 375.01,
-            "inflowYoy": -31.2
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 22,
-            "weekStart": "2025-05-26",
-            "inflow": 1350,
-            "outflow": null,
-            "waterLevel": 828.97,
-            "inflowYoy": 1.9
+            "waterLevel": 610.015
         },
         {
             "station": "龙滩",
@@ -2463,42 +3573,106 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2025-05-26",
             "inflow": 1607.3333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -43.7,
             "outflow": 386.6666666666667,
-            "waterLevel": 339.72,
-            "inflowYoy": -43.7
+            "waterLevel": 339.72
         },
         {
-            "station": "岩滩",
-            "basin": "红水河",
+            "station": "彭水",
+            "basin": "乌江",
             "isoYear": 2025,
-            "isoWeek": 23,
-            "weekStart": "2025-06-02",
-            "inflow": 1535.2857142857142,
-            "outflow": 1249.142857142857,
-            "waterLevel": 220.4642857142857,
-            "inflowYoy": -53.3
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": -827.5,
+            "priorYearInflow": null,
+            "inflowYoy": -263.9,
+            "outflow": null,
+            "waterLevel": 284.685
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 1350,
+            "priorYearInflow": null,
+            "inflowYoy": 1.9,
+            "outflow": null,
+            "waterLevel": 828.97
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 23,
-            "weekStart": "2025-06-02",
-            "inflow": 11014.285714285714,
-            "outflow": 14842.857142857143,
-            "waterLevel": 154.42714285714283,
-            "inflowYoy": -26.6
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 10342.857142857143,
+            "priorYearInflow": 12914.285714285714,
+            "inflowYoy": -19.9,
+            "outflow": 11885.714285714286,
+            "waterLevel": 154.65
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 126.05,
+            "priorYearInflow": null,
+            "inflowYoy": -90.3,
+            "outflow": null,
+            "waterLevel": 380.805
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 400,
+            "priorYearInflow": null,
+            "inflowYoy": -27.3,
+            "outflow": null,
+            "waterLevel": 958.1
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 0,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 566.905
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 23,
-            "weekStart": "2025-06-02",
-            "inflow": 3271.428571428572,
-            "outflow": 4408.571428571428,
-            "waterLevel": null,
-            "inflowYoy": 2.2
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 2082.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": -31.2,
+            "outflow": 3688.571428571429,
+            "waterLevel": 375.01
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 22,
+            "weekStart": "2025-05-26",
+            "inflow": 1232.8333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": -65.2,
+            "outflow": 1148,
+            "waterLevel": 220.255
         },
         {
             "station": "龙滩",
@@ -2507,42 +3681,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2025-06-02",
             "inflow": 1648.142857142857,
+            "priorYearInflow": null,
+            "inflowYoy": -49.9,
             "outflow": 1019.7142857142856,
-            "waterLevel": 342.46714285714285,
-            "inflowYoy": -49.9
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 369.95,
-            "outflow": null,
-            "waterLevel": 184.045,
-            "inflowYoy": -170.3
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 1080.5,
-            "outflow": null,
-            "waterLevel": 614.74,
-            "inflowYoy": -51.4
+            "waterLevel": 342.46714285714285
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 11957.142857142857,
-            "outflow": 15471.42857142857,
-            "waterLevel": 151.26142857142855,
-            "inflowYoy": -33.4
+            "isoWeek": 23,
+            "weekStart": "2025-06-02",
+            "inflow": 11014.285714285714,
+            "priorYearInflow": 13657.142857142857,
+            "inflowYoy": -19.4,
+            "outflow": 14842.857142857143,
+            "waterLevel": 154.42714285714283
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 23,
+            "weekStart": "2025-06-02",
+            "inflow": 3271.428571428572,
+            "priorYearInflow": null,
+            "inflowYoy": 2.2,
+            "outflow": 4408.571428571428,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 23,
+            "weekStart": "2025-06-02",
+            "inflow": 1535.2857142857142,
+            "priorYearInflow": null,
+            "inflowYoy": -53.3,
+            "outflow": 1249.142857142857,
+            "waterLevel": 220.4642857142857
         },
         {
             "station": "白鹤滩",
@@ -2551,86 +3729,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2025-06-09",
             "inflow": 1700,
+            "priorYearInflow": 4300,
+            "inflowYoy": -60.5,
             "outflow": null,
-            "waterLevel": 788.55,
-            "inflowYoy": -1233.3
+            "waterLevel": 788.55
         },
         {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 1467,
-            "outflow": 1493.428571428571,
-            "waterLevel": 220.25571428571428,
-            "inflowYoy": -49.6
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": -2150,
-            "outflow": null,
-            "waterLevel": 839.7349999999999,
-            "inflowYoy": 527.7
-        },
-        {
-            "station": "水布垭",
+            "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 24,
             "weekStart": "2025-06-09",
-            "inflow": -179.7,
+            "inflow": 369.95,
+            "priorYearInflow": -33.75,
+            "inflowYoy": -170.3,
             "outflow": null,
-            "waterLevel": 377.63,
-            "inflowYoy": 509.2
+            "waterLevel": 184.045
         },
         {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 4080,
-            "outflow": 4943.333333333333,
-            "waterLevel": 375.09,
-            "inflowYoy": 5.8
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": 200,
-            "outflow": null,
-            "waterLevel": 962.62,
-            "inflowYoy": -108.2
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 24,
-            "weekStart": "2025-06-09",
-            "inflow": -4750,
-            "outflow": null,
-            "waterLevel": 560.77,
-            "inflowYoy": 63.8
-        },
-        {
-            "station": "彭水",
+            "station": "构皮滩",
             "basin": "乌江",
             "isoYear": 2025,
             "isoWeek": 24,
             "weekStart": "2025-06-09",
-            "inflow": 256,
+            "inflow": 1080.5,
+            "priorYearInflow": 983.5,
+            "inflowYoy": 9.9,
             "outflow": null,
-            "waterLevel": 281.575,
-            "inflowYoy": -44.9
+            "waterLevel": 614.74
         },
         {
             "station": "龙滩",
@@ -2639,108 +3765,106 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2025-06-09",
             "inflow": 1112.571428571429,
+            "priorYearInflow": null,
+            "inflowYoy": -74.7,
             "outflow": 821.2857142857143,
-            "waterLevel": 343.5014285714286,
-            "inflowYoy": -74.7
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 2053.8571428571427,
-            "outflow": 1898,
-            "waterLevel": 220.09857142857143,
-            "inflowYoy": -40.3
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 718,
-            "outflow": null,
-            "waterLevel": 377.43,
-            "inflowYoy": -266.6
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 645.2,
-            "outflow": null,
-            "waterLevel": 184.4,
-            "inflowYoy": -181.4
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 4533.333333333333,
-            "outflow": 5512.857142857143,
-            "waterLevel": 373.92,
-            "inflowYoy": 58.7
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 2776.8571428571427,
-            "outflow": 897.2857142857143,
-            "waterLevel": 345.32428571428574,
-            "inflowYoy": -42.6
+            "waterLevel": 343.5014285714286
         },
         {
             "station": "彭水",
             "basin": "乌江",
             "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": -733.5,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": 256,
+            "priorYearInflow": -480,
+            "inflowYoy": -44.9,
             "outflow": null,
-            "waterLevel": 281.76,
-            "inflowYoy": -332.9
+            "waterLevel": 281.575
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "瀑布沟",
+            "basin": "大渡河",
             "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 6400,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": -2150,
+            "priorYearInflow": 2640,
+            "inflowYoy": 527.7,
             "outflow": null,
-            "waterLevel": 559.785,
-            "inflowYoy": 509.5
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": -4350,
-            "outflow": null,
-            "waterLevel": 959.62,
-            "inflowYoy": -231.8
+            "waterLevel": 839.7349999999999
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 25,
-            "weekStart": "2025-06-16",
-            "inflow": 15000,
-            "outflow": 16614.285714285714,
-            "waterLevel": 149.19714285714286,
-            "inflowYoy": 8.8
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": 11957.142857142857,
+            "priorYearInflow": 13857.142857142857,
+            "inflowYoy": -13.7,
+            "outflow": 15471.42857142857,
+            "waterLevel": 151.26142857142855
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": -179.7,
+            "priorYearInflow": -42.88,
+            "inflowYoy": 509.2,
+            "outflow": null,
+            "waterLevel": 377.63
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": 200,
+            "priorYearInflow": -3650,
+            "inflowYoy": -108.2,
+            "outflow": null,
+            "waterLevel": 962.62
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": -4750,
+            "priorYearInflow": -3200,
+            "inflowYoy": 63.8,
+            "outflow": null,
+            "waterLevel": 560.77
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": 4080,
+            "priorYearInflow": 900,
+            "inflowYoy": 353.3,
+            "outflow": 4943.333333333333,
+            "waterLevel": 375.09
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 24,
+            "weekStart": "2025-06-09",
+            "inflow": 1467,
+            "priorYearInflow": null,
+            "inflowYoy": -49.6,
+            "outflow": 1493.428571428571,
+            "waterLevel": 220.25571428571428
         },
         {
             "station": "白鹤滩",
@@ -2749,9 +3873,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2025-06-16",
             "inflow": -7200,
+            "priorYearInflow": 4700,
+            "inflowYoy": 278.9,
             "outflow": null,
-            "waterLevel": 788.325,
-            "inflowYoy": 278.9
+            "waterLevel": 788.325
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 645.2,
+            "priorYearInflow": 104.93333333333334,
+            "inflowYoy": 514.9,
+            "outflow": null,
+            "waterLevel": 184.4
         },
         {
             "station": "构皮滩",
@@ -2760,9 +3897,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2025-06-16",
             "inflow": 548,
+            "priorYearInflow": 1072.6666666666667,
+            "inflowYoy": -48.9,
             "outflow": null,
-            "waterLevel": 615.7349999999999,
-            "inflowYoy": -3753.3
+            "waterLevel": 615.7349999999999
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 2776.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": -42.6,
+            "outflow": 897.2857142857143,
+            "waterLevel": 345.32428571428574
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": -733.5,
+            "priorYearInflow": -53.66666666666666,
+            "inflowYoy": -332.9,
+            "outflow": null,
+            "waterLevel": 281.76
         },
         {
             "station": "瀑布沟",
@@ -2771,20 +3933,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2025-06-16",
             "inflow": -2005,
+            "priorYearInflow": 3046.6666666666665,
+            "inflowYoy": -173.3,
             "outflow": null,
-            "waterLevel": 837.71,
-            "inflowYoy": -173.3
+            "waterLevel": 837.71
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 19371.42857142857,
-            "outflow": 17571.428571428572,
-            "waterLevel": 149.70714285714286,
-            "inflowYoy": -7.8
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 15000,
+            "priorYearInflow": 17057.14285714286,
+            "inflowYoy": -12.1,
+            "outflow": 16614.285714285714,
+            "waterLevel": 149.19714285714286
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 718,
+            "priorYearInflow": -86.36666666666667,
+            "inflowYoy": -266.6,
+            "outflow": null,
+            "waterLevel": 377.43
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": -4350,
+            "priorYearInflow": 1333.3333333333333,
+            "inflowYoy": -231.8,
+            "outflow": null,
+            "waterLevel": 959.62
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 6400,
+            "priorYearInflow": 4066.6666666666665,
+            "inflowYoy": 57.4,
+            "outflow": null,
+            "waterLevel": 559.785
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 4533.333333333333,
+            "priorYearInflow": 3383.333333333333,
+            "inflowYoy": 34,
+            "outflow": 5512.857142857143,
+            "waterLevel": 373.92
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 25,
+            "weekStart": "2025-06-16",
+            "inflow": 2053.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": -40.3,
+            "outflow": 1898,
+            "waterLevel": 220.09857142857143
         },
         {
             "station": "白鹤滩",
@@ -2793,64 +4017,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 26,
             "weekStart": "2025-06-23",
             "inflow": 200,
+            "priorYearInflow": -4500,
+            "inflowYoy": -96.4,
             "outflow": null,
-            "waterLevel": 786.69,
-            "inflowYoy": -96.6
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 883,
-            "outflow": null,
-            "waterLevel": 382.53,
-            "inflowYoy": 46.9
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 5105.857142857143,
-            "outflow": 987.8571428571428,
-            "waterLevel": 354.74285714285713,
-            "inflowYoy": -13.2
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 5700,
-            "outflow": null,
-            "waterLevel": 563.465,
-            "inflowYoy": 6.5
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 2854,
-            "outflow": 2682.714285714286,
-            "waterLevel": 220.79857142857145,
-            "inflowYoy": -31
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 26,
-            "weekStart": "2025-06-23",
-            "inflow": 795,
-            "outflow": null,
-            "waterLevel": 617.0250000000001,
-            "inflowYoy": 130.4
+            "waterLevel": 786.69
         },
         {
             "station": "隔河岩",
@@ -2859,20 +4029,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 26,
             "weekStart": "2025-06-23",
             "inflow": 132.5,
+            "priorYearInflow": 593.3333333333334,
+            "inflowYoy": -77.7,
             "outflow": null,
-            "waterLevel": 189.185,
-            "inflowYoy": -148.4
+            "waterLevel": 189.185
         },
         {
-            "station": "瀑布沟",
-            "basin": "大渡河",
+            "station": "构皮滩",
+            "basin": "乌江",
             "isoYear": 2025,
             "isoWeek": 26,
             "weekStart": "2025-06-23",
-            "inflow": 260,
+            "inflow": 795,
+            "priorYearInflow": 1636.6666666666667,
+            "inflowYoy": -51.4,
             "outflow": null,
-            "waterLevel": 835.935,
-            "inflowYoy": -55.9
+            "waterLevel": 617.0250000000001
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 5105.857142857143,
+            "priorYearInflow": null,
+            "inflowYoy": -19,
+            "outflow": 987.8571428571428,
+            "waterLevel": 354.74285714285713
         },
         {
             "station": "彭水",
@@ -2881,20 +4065,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 26,
             "weekStart": "2025-06-23",
             "inflow": 3440,
+            "priorYearInflow": 4253.333333333333,
+            "inflowYoy": -19.1,
             "outflow": null,
-            "waterLevel": 286.685,
-            "inflowYoy": -890.8
+            "waterLevel": 286.685
         },
         {
-            "station": "向家坝",
-            "basin": "金沙江下游",
+            "station": "瀑布沟",
+            "basin": "大渡河",
             "isoYear": 2025,
             "isoWeek": 26,
             "weekStart": "2025-06-23",
-            "inflow": 5171.428571428572,
-            "outflow": 5751.428571428572,
-            "waterLevel": 375.745,
-            "inflowYoy": 1.1
+            "inflow": 260,
+            "priorYearInflow": 966.6666666666666,
+            "inflowYoy": -73.1,
+            "outflow": null,
+            "waterLevel": 835.935
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 19371.42857142857,
+            "priorYearInflow": 22285.714285714286,
+            "inflowYoy": -13.1,
+            "outflow": 17571.428571428572,
+            "waterLevel": 149.70714285714286
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 883,
+            "priorYearInflow": 1119.3333333333333,
+            "inflowYoy": -21.1,
+            "outflow": null,
+            "waterLevel": 382.53
         },
         {
             "station": "乌东德",
@@ -2903,50 +4113,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 26,
             "weekStart": "2025-06-23",
             "inflow": 100,
+            "priorYearInflow": -1266.6666666666667,
+            "inflowYoy": -101.8,
             "outflow": null,
-            "waterLevel": 957.35,
-            "inflowYoy": -113.3
+            "waterLevel": 957.35
         },
         {
-            "station": "乌东德",
+            "station": "溪洛渡",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": 300,
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 5700,
+            "priorYearInflow": 5933.333333333333,
+            "inflowYoy": -3.9,
             "outflow": null,
-            "waterLevel": 956.765
+            "waterLevel": 563.465
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": 1855,
-            "outflow": null,
-            "waterLevel": 625.41
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 5171.428571428572,
+            "priorYearInflow": 4271.428571428572,
+            "inflowYoy": 21.1,
+            "outflow": 5751.428571428572,
+            "waterLevel": 375.745
         },
         {
-            "station": "隔河岩",
-            "basin": "清江",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": 199.65,
-            "outflow": null,
-            "waterLevel": 189.83
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": 23014.28571428572,
-            "outflow": 21085.714285714286,
-            "waterLevel": 152.44428571428574,
-            "inflowYoy": -5.1
+            "isoWeek": 26,
+            "weekStart": "2025-06-23",
+            "inflow": 2854,
+            "priorYearInflow": null,
+            "inflowYoy": -43.6,
+            "outflow": 2682.714285714286,
+            "waterLevel": 220.79857142857145
         },
         {
             "station": "白鹤滩",
@@ -2955,8 +4161,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 27,
             "weekStart": "2025-06-30",
             "inflow": -100,
+            "priorYearInflow": -4200,
+            "inflowYoy": -84.6,
             "outflow": null,
             "waterLevel": 787.275
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": 199.65,
+            "priorYearInflow": 544.6666666666666,
+            "inflowYoy": -63.3,
+            "outflow": null,
+            "waterLevel": 189.83
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": 1855,
+            "priorYearInflow": -363.3333333333333,
+            "inflowYoy": 1.9,
+            "outflow": null,
+            "waterLevel": 625.41
         },
         {
             "station": "彭水",
@@ -2965,29 +4197,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 27,
             "weekStart": "2025-06-30",
             "inflow": -2715,
+            "priorYearInflow": 3243.333333333333,
+            "inflowYoy": 10760,
             "outflow": null,
             "waterLevel": 288.095
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": 5842.857142857143,
-            "outflow": 5864.285714285715,
-            "waterLevel": 373.0700000000001,
-            "inflowYoy": 27
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 27,
-            "weekStart": "2025-06-30",
-            "inflow": -2199.5,
-            "outflow": null,
-            "waterLevel": 564.535
         },
         {
             "station": "瀑布沟",
@@ -2996,8 +4209,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 27,
             "weekStart": "2025-06-30",
             "inflow": -2655,
+            "priorYearInflow": 810,
+            "inflowYoy": -206.5,
             "outflow": null,
             "waterLevel": 836.395
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": 23014.28571428572,
+            "priorYearInflow": 22857.14285714286,
+            "inflowYoy": 0.7,
+            "outflow": 21085.714285714286,
+            "waterLevel": 152.44428571428574
         },
         {
             "station": "水布垭",
@@ -3006,38 +4233,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 27,
             "weekStart": "2025-06-30",
             "inflow": 321,
+            "priorYearInflow": 1014.6666666666666,
+            "inflowYoy": -68.4,
             "outflow": null,
             "waterLevel": 385.47
         },
         {
-            "station": "隔河岩",
-            "basin": "清江",
+            "station": "乌东德",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 28,
-            "weekStart": "2025-07-07",
-            "inflow": 4.75,
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": 300,
+            "priorYearInflow": 5166.666666666667,
+            "inflowYoy": -94.2,
             "outflow": null,
-            "waterLevel": 189.455
+            "waterLevel": 956.765
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 28,
-            "weekStart": "2025-07-07",
-            "inflow": 28500,
-            "outflow": 24200,
-            "waterLevel": 156.0257142857143
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": -2199.5,
+            "priorYearInflow": 2000,
+            "inflowYoy": -137.6,
+            "outflow": null,
+            "waterLevel": 564.535
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 28,
-            "weekStart": "2025-07-07",
-            "inflow": -1625,
-            "outflow": null,
-            "waterLevel": 624.6949999999999
+            "isoWeek": 27,
+            "weekStart": "2025-06-30",
+            "inflow": 5842.857142857143,
+            "priorYearInflow": 3914.285714285714,
+            "inflowYoy": 49.3,
+            "outflow": 5864.285714285715,
+            "waterLevel": 373.0700000000001
         },
         {
             "station": "白鹤滩",
@@ -3046,28 +4281,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 28,
             "weekStart": "2025-07-07",
             "inflow": 5650,
+            "priorYearInflow": 5850,
+            "inflowYoy": -3.4,
             "outflow": null,
             "waterLevel": 789.005
         },
         {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 28,
-            "weekStart": "2025-07-07",
-            "inflow": 4757.142857142857,
-            "outflow": 4538.571428571428,
-            "waterLevel": 372.33
-        },
-        {
-            "station": "水布垭",
+            "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 28,
             "weekStart": "2025-07-07",
-            "inflow": 151.5,
+            "inflow": 4.75,
+            "priorYearInflow": 141.5,
+            "inflowYoy": -96.6,
             "outflow": null,
-            "waterLevel": 387.425
+            "waterLevel": 189.455
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 28,
+            "weekStart": "2025-07-07",
+            "inflow": -1625,
+            "priorYearInflow": -956,
+            "inflowYoy": -375.9,
+            "outflow": null,
+            "waterLevel": 624.6949999999999
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 28,
+            "weekStart": "2025-07-07",
+            "inflow": -375,
+            "priorYearInflow": -55,
+            "inflowYoy": 581.8,
+            "outflow": null,
+            "waterLevel": 285.59
         },
         {
             "station": "瀑布沟",
@@ -3076,8 +4329,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 28,
             "weekStart": "2025-07-07",
             "inflow": 700,
+            "priorYearInflow": 1375,
+            "inflowYoy": -49.1,
             "outflow": null,
             "waterLevel": 839.79
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 28,
+            "weekStart": "2025-07-07",
+            "inflow": 28500,
+            "priorYearInflow": 37971.42857142857,
+            "inflowYoy": -24.9,
+            "outflow": 24200,
+            "waterLevel": 156.0257142857143
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 28,
+            "weekStart": "2025-07-07",
+            "inflow": 151.5,
+            "priorYearInflow": -747,
+            "inflowYoy": 120.4,
+            "outflow": null,
+            "waterLevel": 387.425
         },
         {
             "station": "乌东德",
@@ -3086,6 +4365,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 28,
             "weekStart": "2025-07-07",
             "inflow": 5050,
+            "priorYearInflow": -4900,
+            "inflowYoy": -2.9,
             "outflow": null,
             "waterLevel": 957.695
         },
@@ -3096,28 +4377,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 28,
             "weekStart": "2025-07-07",
             "inflow": -4500,
+            "priorYearInflow": 900,
+            "inflowYoy": -180.4,
             "outflow": null,
             "waterLevel": 560.235
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2025,
             "isoWeek": 28,
             "weekStart": "2025-07-07",
-            "inflow": -375,
-            "outflow": null,
-            "waterLevel": 285.59
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 29,
-            "weekStart": "2025-07-14",
-            "inflow": 0,
-            "outflow": null,
-            "waterLevel": 954.88
+            "inflow": 4757.142857142857,
+            "priorYearInflow": 1871.428571428572,
+            "inflowYoy": 154.2,
+            "outflow": 4538.571428571428,
+            "waterLevel": 372.33
         },
         {
             "station": "白鹤滩",
@@ -3126,8 +4401,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2025-07-14",
             "inflow": 1750,
+            "priorYearInflow": 8133.333333333333,
+            "inflowYoy": -78.5,
             "outflow": null,
             "waterLevel": 793.0550000000001
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 29,
+            "weekStart": "2025-07-14",
+            "inflow": 23.15,
+            "priorYearInflow": 1263.3333333333333,
+            "inflowYoy": -98.2,
+            "outflow": null,
+            "waterLevel": 189.635
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 29,
+            "weekStart": "2025-07-14",
+            "inflow": -1415,
+            "priorYearInflow": -1006.6666666666666,
+            "inflowYoy": 5.6,
+            "outflow": null,
+            "waterLevel": 624.62
         },
         {
             "station": "彭水",
@@ -3136,6 +4437,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2025-07-14",
             "inflow": -150,
+            "priorYearInflow": -558.6666666666666,
+            "inflowYoy": -108.5,
             "outflow": null,
             "waterLevel": 287.055
         },
@@ -3146,6 +4449,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2025-07-14",
             "inflow": 55,
+            "priorYearInflow": 4623.333333333333,
+            "inflowYoy": -98.8,
             "outflow": null,
             "waterLevel": 838.11
         },
@@ -3156,48 +4461,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2025-07-14",
             "inflow": 16533.333333333332,
+            "priorYearInflow": 35285.71428571428,
+            "inflowYoy": -53.1,
             "outflow": 19050,
             "waterLevel": 158.97
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 29,
-            "weekStart": "2025-07-14",
-            "inflow": 23.15,
-            "outflow": null,
-            "waterLevel": 189.635
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 29,
-            "weekStart": "2025-07-14",
-            "inflow": 4057.142857142857,
-            "outflow": 3804.285714285714,
-            "waterLevel": 372.45
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 29,
-            "weekStart": "2025-07-14",
-            "inflow": -1415,
-            "outflow": null,
-            "waterLevel": 624.62
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 29,
-            "weekStart": "2025-07-14",
-            "inflow": 4300,
-            "outflow": null,
-            "waterLevel": 559.595
         },
         {
             "station": "水布垭",
@@ -3206,18 +4473,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2025-07-14",
             "inflow": -7.75,
+            "priorYearInflow": 557.6666666666666,
+            "inflowYoy": -96.2,
             "outflow": null,
             "waterLevel": 387.625
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "乌东德",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 19071.42857142857,
-            "outflow": 15614.285714285714,
-            "waterLevel": 158.57285714285717
+            "isoWeek": 29,
+            "weekStart": "2025-07-14",
+            "inflow": 0,
+            "priorYearInflow": 3233.333333333333,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 954.88
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 29,
+            "weekStart": "2025-07-14",
+            "inflow": 4300,
+            "priorYearInflow": 5133.333333333333,
+            "inflowYoy": -16.2,
+            "outflow": null,
+            "waterLevel": 559.595
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 29,
+            "weekStart": "2025-07-14",
+            "inflow": 4057.142857142857,
+            "priorYearInflow": 3071.428571428572,
+            "inflowYoy": 32.1,
+            "outflow": 3804.285714285714,
+            "waterLevel": 372.45
         },
         {
             "station": "白鹤滩",
@@ -3226,6 +4521,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": 5500,
+            "priorYearInflow": 8533.333333333334,
+            "inflowYoy": -35.5,
             "outflow": null,
             "waterLevel": 794.7
         },
@@ -3236,58 +4533,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": 131,
+            "priorYearInflow": -95,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 190.29
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 3571.428571428572,
-            "outflow": 3604.285714285714,
-            "waterLevel": 372.78
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 1460,
-            "outflow": null,
-            "waterLevel": 838.43
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 99.6,
-            "outflow": null,
-            "waterLevel": 387.65
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 2880,
-            "outflow": 2093,
-            "waterLevel": 220.18
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 30,
-            "weekStart": "2025-07-21",
-            "inflow": 1500,
-            "outflow": null,
-            "waterLevel": 285.39
         },
         {
             "station": "构皮滩",
@@ -3296,6 +4545,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": -669,
+            "priorYearInflow": 697,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 622.63
         },
@@ -3306,8 +4557,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": 1458,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 1985,
             "waterLevel": 363.35
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 1500,
+            "priorYearInflow": 563.3333333333334,
+            "inflowYoy": 166.3,
+            "outflow": null,
+            "waterLevel": 285.39
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 1460,
+            "priorYearInflow": 1803.3333333333333,
+            "inflowYoy": -19,
+            "outflow": null,
+            "waterLevel": 838.43
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 19071.42857142857,
+            "priorYearInflow": 33428.57142857143,
+            "inflowYoy": -42.9,
+            "outflow": 15614.285714285714,
+            "waterLevel": 158.57285714285717
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 99.6,
+            "priorYearInflow": -172.33333333333334,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 387.65
         },
         {
             "station": "乌东德",
@@ -3316,6 +4617,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": -4000,
+            "priorYearInflow": 9233.333333333334,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 954.1
         },
@@ -3326,8 +4629,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 30,
             "weekStart": "2025-07-21",
             "inflow": 4200,
+            "priorYearInflow": -1700,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 560.79
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 3571.428571428572,
+            "priorYearInflow": 3533.333333333333,
+            "inflowYoy": 1.1,
+            "outflow": 3604.285714285714,
+            "waterLevel": 372.78
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 30,
+            "weekStart": "2025-07-21",
+            "inflow": 2880,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2093,
+            "waterLevel": 220.18
         },
         {
             "station": "白鹤滩",
@@ -3336,6 +4665,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": 50,
+            "priorYearInflow": 11266.666666666666,
+            "inflowYoy": -99.6,
             "outflow": null,
             "waterLevel": 797.125
         },
@@ -3346,8 +4677,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": 32.26,
+            "priorYearInflow": 737,
+            "inflowYoy": -95.6,
             "outflow": null,
             "waterLevel": 194.165
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": -946.5,
+            "priorYearInflow": -643.3333333333334,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 620.915
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": 2434.75,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2205.5,
+            "waterLevel": 363.8975
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": 1133,
+            "priorYearInflow": 1728.6666666666667,
+            "inflowYoy": -34.5,
+            "outflow": null,
+            "waterLevel": 286.935
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": 290,
+            "priorYearInflow": 5023.333333333333,
+            "inflowYoy": -94.2,
+            "outflow": null,
+            "waterLevel": 839.48
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": 15528.57142857143,
+            "priorYearInflow": 25728.571428571428,
+            "inflowYoy": -39.6,
+            "outflow": 16200,
+            "waterLevel": 160.6185714285714
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 31,
+            "weekStart": "2025-07-28",
+            "inflow": 18.15,
+            "priorYearInflow": -146.33333333333334,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 388.43
         },
         {
             "station": "乌东德",
@@ -3356,6 +4761,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": 4100,
+            "priorYearInflow": 12766.666666666666,
+            "inflowYoy": -67.9,
             "outflow": null,
             "waterLevel": 955.76
         },
@@ -3366,38 +4773,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": -150,
+            "priorYearInflow": 7200,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 559.75
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": 18.15,
-            "outflow": null,
-            "waterLevel": 388.43
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": 290,
-            "outflow": null,
-            "waterLevel": 839.48
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": -946.5,
-            "outflow": null,
-            "waterLevel": 620.915
         },
         {
             "station": "向家坝",
@@ -3406,38 +4785,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": 2814.285714285714,
+            "priorYearInflow": 5100,
+            "inflowYoy": -44.8,
             "outflow": 3251.428571428572,
             "waterLevel": 374.23
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": 15528.57142857143,
-            "outflow": 16200,
-            "waterLevel": 160.6185714285714
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": 1133,
-            "outflow": null,
-            "waterLevel": 286.935
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 31,
-            "weekStart": "2025-07-28",
-            "inflow": 2434.75,
-            "outflow": 2205.5,
-            "waterLevel": 363.8975
         },
         {
             "station": "岩滩",
@@ -3446,38 +4797,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 31,
             "weekStart": "2025-07-28",
             "inflow": 3202,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 2721,
             "waterLevel": 220.275
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": -52.45,
-            "outflow": null,
-            "waterLevel": 194.275
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": 13142.857142857143,
-            "outflow": 13971.42857142857,
-            "waterLevel": 158.18714285714285
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": -576,
-            "outflow": null,
-            "waterLevel": 618.4200000000001
         },
         {
             "station": "白鹤滩",
@@ -3486,8 +4809,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2025-08-04",
             "inflow": 5250,
+            "priorYearInflow": 150,
+            "inflowYoy": 3400,
             "outflow": null,
             "waterLevel": 798.8199999999999
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": -52.45,
+            "priorYearInflow": -28.45,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 194.275
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": -576,
+            "priorYearInflow": -669.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 618.4200000000001
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": 2167,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2832.8571428571427,
+            "waterLevel": 363.8385714285714
         },
         {
             "station": "彭水",
@@ -3496,6 +4857,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2025-08-04",
             "inflow": 1072,
+            "priorYearInflow": -617,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 287.14
         },
@@ -3506,58 +4869,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2025-08-04",
             "inflow": -1785,
+            "priorYearInflow": -150,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 837.525
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2025,
             "isoWeek": 32,
             "weekStart": "2025-08-04",
-            "inflow": 3400,
-            "outflow": null,
-            "waterLevel": 564.51
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": 2167,
-            "outflow": 2832.8571428571427,
-            "waterLevel": 363.8385714285714
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": 3095.8571428571427,
-            "outflow": 2498,
-            "waterLevel": 220.29142857142853
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": 4450,
-            "outflow": null,
-            "waterLevel": 957.975
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 32,
-            "weekStart": "2025-08-04",
-            "inflow": 3471.428571428572,
-            "outflow": 3505.714285714286,
-            "waterLevel": 372.805
+            "inflow": 13142.857142857143,
+            "priorYearInflow": 20014.28571428572,
+            "inflowYoy": -34.3,
+            "outflow": 13971.42857142857,
+            "waterLevel": 158.18714285714285
         },
         {
             "station": "水布垭",
@@ -3566,38 +4893,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 32,
             "weekStart": "2025-08-04",
             "inflow": 26.35,
+            "priorYearInflow": 67.2,
+            "inflowYoy": -60.8,
             "outflow": null,
             "waterLevel": 388.555
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": 4450,
+            "priorYearInflow": 1050,
+            "inflowYoy": 323.8,
+            "outflow": null,
+            "waterLevel": 957.975
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": 3400,
+            "priorYearInflow": 7100,
+            "inflowYoy": -52.1,
+            "outflow": null,
+            "waterLevel": 564.51
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 33,
-            "weekStart": "2025-08-11",
-            "inflow": 3757.142857142857,
-            "outflow": 4120,
-            "waterLevel": null
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 33,
-            "weekStart": "2025-08-11",
-            "inflow": 17785.714285714286,
-            "outflow": 13985.714285714286,
-            "waterLevel": 159.39285714285714
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": 3471.428571428572,
+            "priorYearInflow": 5942.857142857143,
+            "inflowYoy": -41.6,
+            "outflow": 3505.714285714286,
+            "waterLevel": 372.805
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 33,
-            "weekStart": "2025-08-11",
-            "inflow": 2741.285714285714,
-            "outflow": 2251.285714285714,
-            "waterLevel": 220.1042857142857
+            "isoWeek": 32,
+            "weekStart": "2025-08-04",
+            "inflow": 3095.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2498,
+            "waterLevel": 220.29142857142853
         },
         {
             "station": "龙滩",
@@ -3606,38 +4953,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 33,
             "weekStart": "2025-08-11",
             "inflow": 2183.8571428571427,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 2330.714285714286,
             "waterLevel": 364.1114285714286
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 34,
-            "weekStart": "2025-08-18",
-            "inflow": 4657.142857142857,
-            "outflow": 4277.142857142857,
-            "waterLevel": null
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 34,
-            "weekStart": "2025-08-18",
-            "inflow": 13814.285714285714,
-            "outflow": 11428.57142857143,
-            "waterLevel": 159.58714285714288
+            "isoWeek": 33,
+            "weekStart": "2025-08-11",
+            "inflow": 17785.714285714286,
+            "priorYearInflow": 17571.428571428572,
+            "inflowYoy": 1.2,
+            "outflow": 13985.714285714286,
+            "waterLevel": 159.39285714285714
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 33,
+            "weekStart": "2025-08-11",
+            "inflow": 3757.142857142857,
+            "priorYearInflow": 5671.428571428572,
+            "inflowYoy": -33.8,
+            "outflow": 4120,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 34,
-            "weekStart": "2025-08-18",
-            "inflow": 2994.5714285714284,
-            "outflow": 2415,
-            "waterLevel": 220.31714285714287
+            "isoWeek": 33,
+            "weekStart": "2025-08-11",
+            "inflow": 2741.285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2251.285714285714,
+            "waterLevel": 220.1042857142857
         },
         {
             "station": "龙滩",
@@ -3646,18 +5001,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 34,
             "weekStart": "2025-08-18",
             "inflow": 3436.285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 1701.2857142857142,
             "waterLevel": 365.6614285714286
         },
         {
-            "station": "水布垭",
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 34,
+            "weekStart": "2025-08-18",
+            "inflow": 13814.285714285714,
+            "priorYearInflow": 13571.42857142857,
+            "inflowYoy": 1.8,
+            "outflow": 11428.57142857143,
+            "waterLevel": 159.58714285714288
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 34,
+            "weekStart": "2025-08-18",
+            "inflow": 4657.142857142857,
+            "priorYearInflow": 4525,
+            "inflowYoy": 2.9,
+            "outflow": 4277.142857142857,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 34,
+            "weekStart": "2025-08-18",
+            "inflow": 2994.5714285714284,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2415,
+            "waterLevel": 220.31714285714287
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 35,
+            "weekStart": "2025-08-25",
+            "inflow": 7600,
+            "priorYearInflow": 6150,
+            "inflowYoy": 23.6,
+            "outflow": null,
+            "waterLevel": 809.695
+        },
+        {
+            "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 35,
             "weekStart": "2025-08-25",
-            "inflow": -121.65,
+            "inflow": -677,
+            "priorYearInflow": 804.4,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 392.69
+            "waterLevel": 196.395
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 35,
+            "weekStart": "2025-08-25",
+            "inflow": 194,
+            "priorYearInflow": -286.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 617.325
         },
         {
             "station": "龙滩",
@@ -3666,6 +5085,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2025-08-25",
             "inflow": 3582.1428571428573,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 2457,
             "waterLevel": 368.0685714285714
         },
@@ -3676,38 +5097,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2025-08-25",
             "inflow": -50,
+            "priorYearInflow": 563,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 287.22
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 35,
-            "weekStart": "2025-08-25",
-            "inflow": 3382.428571428572,
-            "outflow": 2830.8571428571427,
-            "waterLevel": 220.08571428571423
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 35,
-            "weekStart": "2025-08-25",
-            "inflow": 7600,
-            "outflow": null,
-            "waterLevel": 809.695
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 35,
-            "weekStart": "2025-08-25",
-            "inflow": 4950,
-            "outflow": null,
-            "waterLevel": 572.94
         },
         {
             "station": "瀑布沟",
@@ -3716,28 +5109,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2025-08-25",
             "inflow": 229.5,
+            "priorYearInflow": 980,
+            "inflowYoy": -76.6,
             "outflow": null,
             "waterLevel": 833.5799999999999
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 35,
-            "weekStart": "2025-08-25",
-            "inflow": 5514.285714285715,
-            "outflow": 5298.571428571428,
-            "waterLevel": 373.875
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 35,
-            "weekStart": "2025-08-25",
-            "inflow": 194,
-            "outflow": null,
-            "waterLevel": 617.325
         },
         {
             "station": "三峡",
@@ -3746,8 +5121,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2025-08-25",
             "inflow": 19757.14285714286,
+            "priorYearInflow": 12542.857142857143,
+            "inflowYoy": 57.5,
             "outflow": 15300,
             "waterLevel": 161.83285714285714
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 35,
+            "weekStart": "2025-08-25",
+            "inflow": -121.65,
+            "priorYearInflow": 2377.15,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 392.69
         },
         {
             "station": "乌东德",
@@ -3756,18 +5145,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 35,
             "weekStart": "2025-08-25",
             "inflow": 7300,
+            "priorYearInflow": -5100,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 965.73
         },
         {
-            "station": "隔河岩",
-            "basin": "清江",
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
             "isoYear": 2025,
             "isoWeek": 35,
             "weekStart": "2025-08-25",
-            "inflow": -677,
+            "inflow": 4950,
+            "priorYearInflow": 4750,
+            "inflowYoy": 4.2,
             "outflow": null,
-            "waterLevel": 196.395
+            "waterLevel": 572.94
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 35,
+            "weekStart": "2025-08-25",
+            "inflow": 5514.285714285715,
+            "priorYearInflow": 2550,
+            "inflowYoy": 116.2,
+            "outflow": 5298.571428571428,
+            "waterLevel": 373.875
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 35,
+            "weekStart": "2025-08-25",
+            "inflow": 3382.428571428572,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2830.8571428571427,
+            "waterLevel": 220.08571428571423
         },
         {
             "station": "白鹤滩",
@@ -3776,88 +5193,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2025-09-01",
             "inflow": 8250,
+            "priorYearInflow": -4800,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 813.175
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 1556.142857142857,
-            "outflow": 1432.571428571429,
-            "waterLevel": 369.1
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 6371.428571428572,
-            "outflow": 5848.571428571428,
-            "waterLevel": 374.18
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": -65.5,
-            "outflow": null,
-            "waterLevel": 389.63
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 1230,
-            "outflow": null,
-            "waterLevel": 618.6800000000001
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 18585.714285714286,
-            "outflow": 18314.28571428572,
-            "waterLevel": 164.1057142857143
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 2653.5714285714284,
-            "outflow": 1757.428571428571,
-            "waterLevel": 220.9042857142857
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 400,
-            "outflow": null,
-            "waterLevel": 969.645
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 36,
-            "weekStart": "2025-09-01",
-            "inflow": 2735,
-            "outflow": null,
-            "waterLevel": 840.775
         },
         {
             "station": "隔河岩",
@@ -3866,18 +5205,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2025-09-01",
             "inflow": -385.8,
+            "priorYearInflow": -18.9,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 194.535
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "构皮滩",
+            "basin": "乌江",
             "isoYear": 2025,
             "isoWeek": 36,
             "weekStart": "2025-09-01",
-            "inflow": 6350,
+            "inflow": 1230,
+            "priorYearInflow": -392,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 578.3399999999999
+            "waterLevel": 618.6800000000001
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 1556.142857142857,
+            "priorYearInflow": 553,
+            "inflowYoy": 181.4,
+            "outflow": 1432.571428571429,
+            "waterLevel": 369.1
         },
         {
             "station": "彭水",
@@ -3886,78 +5241,94 @@ window.WORKBENCH_DATA = {
             "isoWeek": 36,
             "weekStart": "2025-09-01",
             "inflow": -165.5,
+            "priorYearInflow": 743.05,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 286.915
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "瀑布沟",
+            "basin": "大渡河",
             "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": -450,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 2735,
+            "priorYearInflow": -1370,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 966.6
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 402.5,
-            "outflow": null,
-            "waterLevel": 287.045
+            "waterLevel": 840.775
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 21685.714285714286,
-            "outflow": 23828.571428571428,
-            "waterLevel": 163.62285714285713
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 6128.571428571428,
-            "outflow": 5710,
-            "waterLevel": 372.965
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 18585.714285714286,
+            "priorYearInflow": 12528.57142857143,
+            "inflowYoy": 48.3,
+            "outflow": 18314.28571428572,
+            "waterLevel": 164.1057142857143
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 72.85,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": -65.5,
+            "priorYearInflow": -53.045,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 389.21
+            "waterLevel": 389.63
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "乌东德",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 41.25,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 400,
+            "priorYearInflow": 150,
+            "inflowYoy": 166.7,
             "outflow": null,
-            "waterLevel": 619.39
+            "waterLevel": 969.645
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 6350,
+            "priorYearInflow": 4600,
+            "inflowYoy": 38,
+            "outflow": null,
+            "waterLevel": 578.3399999999999
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 6371.428571428572,
+            "priorYearInflow": 3583.333333333333,
+            "inflowYoy": 77.8,
+            "outflow": 5848.571428571428,
+            "waterLevel": 374.18
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 2638.8571428571427,
-            "outflow": 2123.714285714286,
-            "waterLevel": 220.7942857142857
+            "isoWeek": 36,
+            "weekStart": "2025-09-01",
+            "inflow": 2653.5714285714284,
+            "priorYearInflow": 371.6666666666667,
+            "inflowYoy": 614,
+            "outflow": 1757.428571428571,
+            "waterLevel": 220.9042857142857
         },
         {
             "station": "白鹤滩",
@@ -3966,18 +5337,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2025-09-08",
             "inflow": 1200,
+            "priorYearInflow": 900,
+            "inflowYoy": 33.3,
             "outflow": null,
             "waterLevel": 815.845
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 37,
-            "weekStart": "2025-09-08",
-            "inflow": 6150,
-            "outflow": null,
-            "waterLevel": 582.4300000000001
         },
         {
             "station": "隔河岩",
@@ -3986,8 +5349,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2025-09-08",
             "inflow": -21.05,
+            "priorYearInflow": -207.385,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 192.54
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 41.25,
+            "priorYearInflow": -551.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 619.39
         },
         {
             "station": "龙滩",
@@ -3996,8 +5373,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2025-09-08",
             "inflow": 1484,
+            "priorYearInflow": 702.5714285714286,
+            "inflowYoy": 111.2,
             "outflow": 859.1428571428571,
             "waterLevel": 369.63571428571424
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 402.5,
+            "priorYearInflow": -176.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 287.045
         },
         {
             "station": "瀑布沟",
@@ -4006,8 +5397,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 37,
             "weekStart": "2025-09-08",
             "inflow": 125,
+            "priorYearInflow": -998.5,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 841.09
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 21685.714285714286,
+            "priorYearInflow": 12628.57142857143,
+            "inflowYoy": 71.7,
+            "outflow": 23828.571428571428,
+            "waterLevel": 163.62285714285713
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 72.85,
+            "priorYearInflow": -54,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 389.21
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": -450,
+            "priorYearInflow": 100,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 966.6
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 6150,
+            "priorYearInflow": -3450,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 582.4300000000001
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 6128.571428571428,
+            "priorYearInflow": 2800,
+            "inflowYoy": 118.9,
+            "outflow": 5710,
+            "waterLevel": 372.965
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 37,
+            "weekStart": "2025-09-08",
+            "inflow": 2638.8571428571427,
+            "priorYearInflow": 687.1428571428571,
+            "inflowYoy": 284,
+            "outflow": 2123.714285714286,
+            "waterLevel": 220.7942857142857
         },
         {
             "station": "白鹤滩",
@@ -4016,18 +5481,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2025-09-15",
             "inflow": 950,
+            "priorYearInflow": 3800,
+            "inflowYoy": -75,
             "outflow": null,
             "waterLevel": 817.925
         },
         {
-            "station": "水布垭",
+            "station": "隔河岩",
             "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 38,
             "weekStart": "2025-09-15",
-            "inflow": 455,
+            "inflow": -5.599999999999994,
+            "priorYearInflow": -18.8,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 392.12
+            "waterLevel": 191.78
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 731,
+            "priorYearInflow": -394,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 621.155
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 1426.571428571429,
+            "priorYearInflow": 590.2857142857143,
+            "inflowYoy": 141.7,
+            "outflow": 1897.428571428572,
+            "waterLevel": 370.1
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 902,
+            "priorYearInflow": -172,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 289.845
         },
         {
             "station": "瀑布沟",
@@ -4036,8 +5541,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2025-09-15",
             "inflow": 1915,
+            "priorYearInflow": -1380,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 844.02
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 28900,
+            "priorYearInflow": 14557.142857142857,
+            "inflowYoy": 98.5,
+            "outflow": 25157.14285714286,
+            "waterLevel": 163.7642857142857
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 455,
+            "priorYearInflow": -41.3,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 392.12
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 38,
+            "weekStart": "2025-09-15",
+            "inflow": 50,
+            "priorYearInflow": -4300,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 965.565
         },
         {
             "station": "溪洛渡",
@@ -4046,6 +5589,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2025-09-15",
             "inflow": 8250,
+            "priorYearInflow": -3500,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 586.94
         },
@@ -4056,58 +5601,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2025-09-15",
             "inflow": 6671.428571428572,
+            "priorYearInflow": 3425,
+            "inflowYoy": 94.8,
             "outflow": 6055.714285714285,
             "waterLevel": 375.605
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": -5.599999999999994,
-            "outflow": null,
-            "waterLevel": 191.78
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": 902,
-            "outflow": null,
-            "waterLevel": 289.845
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": 731,
-            "outflow": null,
-            "waterLevel": 621.155
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": 28900,
-            "outflow": 25157.14285714286,
-            "waterLevel": 163.7642857142857
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": 1426.571428571429,
-            "outflow": 1897.428571428572,
-            "waterLevel": 370.1
         },
         {
             "station": "岩滩",
@@ -4116,98 +5613,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 38,
             "weekStart": "2025-09-15",
             "inflow": 2915.5714285714284,
+            "priorYearInflow": 609.5714285714286,
+            "inflowYoy": 378.3,
             "outflow": 2490.285714285714,
             "waterLevel": 220.71857142857144
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 38,
-            "weekStart": "2025-09-15",
-            "inflow": 50,
-            "outflow": null,
-            "waterLevel": 965.565
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": -473.25,
-            "outflow": null,
-            "waterLevel": 622.135
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 5150,
-            "outflow": null,
-            "waterLevel": 596.545
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 100,
-            "outflow": null,
-            "waterLevel": 964.98
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 2704.4,
-            "outflow": 2660.8,
-            "waterLevel": 220.192
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 155,
-            "outflow": null,
-            "waterLevel": 284.545
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 1910.4,
-            "outflow": 2416.8,
-            "waterLevel": 370.092
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 27071.42857142857,
-            "outflow": 25728.571428571428,
-            "waterLevel": 167.8542857142857
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 39,
-            "weekStart": "2025-09-22",
-            "inflow": 595,
-            "outflow": null,
-            "waterLevel": 192.31
         },
         {
             "station": "白鹤滩",
@@ -4216,8 +5625,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2025-09-22",
             "inflow": 850,
+            "priorYearInflow": 6500,
+            "inflowYoy": -86.9,
             "outflow": null,
             "waterLevel": 818.7950000000001
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 595,
+            "priorYearInflow": 13.13,
+            "inflowYoy": 4431.6,
+            "outflow": null,
+            "waterLevel": 192.31
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": -473.25,
+            "priorYearInflow": -225.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 622.135
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 1910.4,
+            "priorYearInflow": 331.42857142857144,
+            "inflowYoy": 476.4,
+            "outflow": 2416.8,
+            "waterLevel": 370.092
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 155,
+            "priorYearInflow": -60,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 284.545
         },
         {
             "station": "瀑布沟",
@@ -4226,8 +5685,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2025-09-22",
             "inflow": 2220,
+            "priorYearInflow": 1303.5,
+            "inflowYoy": 70.3,
             "outflow": null,
             "waterLevel": 846.665
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 27071.42857142857,
+            "priorYearInflow": 10557.142857142857,
+            "inflowYoy": 156.4,
+            "outflow": 25728.571428571428,
+            "waterLevel": 167.8542857142857
         },
         {
             "station": "水布垭",
@@ -4236,8 +5709,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2025-09-22",
             "inflow": -359.5,
+            "priorYearInflow": -2.88,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 393.39
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 100,
+            "priorYearInflow": -4450,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 964.98
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 5150,
+            "priorYearInflow": -3400,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 596.545
         },
         {
             "station": "向家坝",
@@ -4246,58 +5745,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 39,
             "weekStart": "2025-09-22",
             "inflow": 5385.714285714285,
+            "priorYearInflow": 2142.8571428571427,
+            "inflowYoy": 151.3,
             "outflow": 6054.285714285715,
             "waterLevel": 375.35
         },
         {
-            "station": "水布垭",
-            "basin": "清江",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": -383,
-            "outflow": null,
-            "waterLevel": 392.82
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": -5300,
-            "outflow": null,
-            "waterLevel": 596.63
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": -280,
-            "outflow": null,
-            "waterLevel": 621.93
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": 2190,
-            "outflow": null,
-            "waterLevel": 846.63
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": 5471.428571428572,
-            "outflow": 4358.571428571428,
-            "waterLevel": 374.13
+            "isoWeek": 39,
+            "weekStart": "2025-09-22",
+            "inflow": 2704.4,
+            "priorYearInflow": 675.7142857142857,
+            "inflowYoy": 300.2,
+            "outflow": 2660.8,
+            "waterLevel": 220.192
         },
         {
             "station": "白鹤滩",
@@ -4306,48 +5769,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 40,
             "weekStart": "2025-09-29",
             "inflow": 6900,
+            "priorYearInflow": 5300,
+            "inflowYoy": 30.2,
             "outflow": null,
             "waterLevel": 821.04
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": 28328.571428571428,
-            "outflow": 24742.85714285714,
-            "waterLevel": 169.4257142857143
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": 6247.666666666667,
-            "outflow": 3991.3333333333335,
-            "waterLevel": 373.54333333333335
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": 4108.666666666667,
-            "outflow": 3517.333333333333,
-            "waterLevel": 221.32333333333327
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 40,
-            "weekStart": "2025-09-29",
-            "inflow": -530,
-            "outflow": null,
-            "waterLevel": 282.13
         },
         {
             "station": "隔河岩",
@@ -4356,8 +5781,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 40,
             "weekStart": "2025-09-29",
             "inflow": 627,
+            "priorYearInflow": -11.8,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 193
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": -280,
+            "priorYearInflow": -152,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 621.93
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": 6247.666666666667,
+            "priorYearInflow": 700.4285714285714,
+            "inflowYoy": 792,
+            "outflow": 3991.3333333333335,
+            "waterLevel": 373.54333333333335
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": -530,
+            "priorYearInflow": -172,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 282.13
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": 2190,
+            "priorYearInflow": 1550,
+            "inflowYoy": 41.3,
+            "outflow": null,
+            "waterLevel": 846.63
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": 28328.571428571428,
+            "priorYearInflow": 8300,
+            "inflowYoy": 241.3,
+            "outflow": 24742.85714285714,
+            "waterLevel": 169.4257142857143
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": -383,
+            "priorYearInflow": -1,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 392.82
         },
         {
             "station": "乌东德",
@@ -4366,58 +5865,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 40,
             "weekStart": "2025-09-29",
             "inflow": -5500,
+            "priorYearInflow": -4500,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 962.1
-        },
-        {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": -4700,
-            "outflow": null,
-            "waterLevel": 961.42
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 5471.428571428572,
-            "outflow": 4250,
-            "waterLevel": 374.755
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": -1045,
-            "outflow": null,
-            "waterLevel": 845.685
         },
         {
             "station": "溪洛渡",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 50,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": -5300,
+            "priorYearInflow": 2900,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 596.28
+            "waterLevel": 596.63
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 1356,
-            "outflow": null,
-            "waterLevel": 285.87
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": 5471.428571428572,
+            "priorYearInflow": 1237.5,
+            "inflowYoy": 342.1,
+            "outflow": 4358.571428571428,
+            "waterLevel": 374.13
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 40,
+            "weekStart": "2025-09-29",
+            "inflow": 4108.666666666667,
+            "priorYearInflow": 877.4285714285714,
+            "inflowYoy": 368.3,
+            "outflow": 3517.333333333333,
+            "waterLevel": 221.32333333333327
         },
         {
             "station": "白鹤滩",
@@ -4426,48 +5913,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 41,
             "weekStart": "2025-10-06",
             "inflow": 5800,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 823.385
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 4803.571428571428,
-            "outflow": 4736.428571428572,
-            "waterLevel": 222.23142857142847
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 1165,
-            "outflow": null,
-            "waterLevel": 622.905
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": -271,
-            "outflow": null,
-            "waterLevel": 392.52
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 41,
-            "weekStart": "2025-10-06",
-            "inflow": 4790.285714285715,
-            "outflow": 4652.285714285715,
-            "waterLevel": 374.6628571428572
         },
         {
             "station": "隔河岩",
@@ -4476,8 +5925,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 41,
             "weekStart": "2025-10-06",
             "inflow": 214,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 193.61
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 1165,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 622.905
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 4790.285714285715,
+            "priorYearInflow": 1265.142857142857,
+            "inflowYoy": 278.6,
+            "outflow": 4652.285714285715,
+            "waterLevel": 374.6628571428572
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 1356,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 285.87
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": -1045,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 845.685
         },
         {
             "station": "三峡",
@@ -4486,78 +5985,70 @@ window.WORKBENCH_DATA = {
             "isoWeek": 41,
             "weekStart": "2025-10-06",
             "inflow": 20357.14285714286,
+            "priorYearInflow": 7557.142857142857,
+            "inflowYoy": 169.4,
             "outflow": 23271.42857142857,
             "waterLevel": 170.51571428571427
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 943.5,
-            "outflow": null,
-            "waterLevel": 286.5
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 2906,
-            "outflow": 3086.6,
-            "waterLevel": 222.556
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 2777.6,
-            "outflow": 2844,
-            "waterLevel": 374.798
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 759.5,
-            "outflow": null,
-            "waterLevel": 624.2950000000001
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 471.1,
-            "outflow": null,
-            "waterLevel": 193.245
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 2800,
-            "outflow": 2754.285714285714,
-            "waterLevel": 376.865
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2025,
-            "isoWeek": 42,
-            "weekStart": "2025-10-13",
-            "inflow": 877.5,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": -271,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 394.7000000000001
+            "waterLevel": 392.52
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": -4700,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 961.42
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 50,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 596.28
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 5471.428571428572,
+            "priorYearInflow": 2683.333333333333,
+            "inflowYoy": 103.9,
+            "outflow": 4250,
+            "waterLevel": 374.755
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 41,
+            "weekStart": "2025-10-06",
+            "inflow": 4803.571428571428,
+            "priorYearInflow": 814,
+            "inflowYoy": 490.1,
+            "outflow": 4736.428571428572,
+            "waterLevel": 222.23142857142847
         },
         {
             "station": "白鹤滩",
@@ -4566,18 +6057,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 42,
             "weekStart": "2025-10-13",
             "inflow": -100,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 823.015
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "隔河岩",
+            "basin": "清江",
             "isoYear": 2025,
             "isoWeek": 42,
             "weekStart": "2025-10-13",
-            "inflow": 23285.714285714286,
-            "outflow": 18038.571428571428,
-            "waterLevel": 170.8942857142857
+            "inflow": 471.1,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 193.245
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 759.5,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 624.2950000000001
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 2777.6,
+            "priorYearInflow": 1977.142857142857,
+            "inflowYoy": 40.5,
+            "outflow": 2844,
+            "waterLevel": 374.798
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 943.5,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 286.5
         },
         {
             "station": "瀑布沟",
@@ -4586,18 +6117,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 42,
             "weekStart": "2025-10-13",
             "inflow": -959,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 841.99
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2025,
             "isoWeek": 42,
             "weekStart": "2025-10-13",
-            "inflow": -150,
+            "inflow": 23285.714285714286,
+            "priorYearInflow": 10700,
+            "inflowYoy": 117.6,
+            "outflow": 18038.571428571428,
+            "waterLevel": 170.8942857142857
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 877.5,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 595.94
+            "waterLevel": 394.7000000000001
         },
         {
             "station": "乌东德",
@@ -4606,38 +6153,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 42,
             "weekStart": "2025-10-13",
             "inflow": 3550,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 960.745
         },
         {
-            "station": "岩滩",
-            "basin": "红水河",
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": 3002.8,
-            "outflow": 2855.2,
-            "waterLevel": 222.592
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": -150,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 595.94
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": 2357.1428571428573,
-            "outflow": 2730,
-            "waterLevel": 378.7266666666667
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 2800,
+            "priorYearInflow": 2985.714285714286,
+            "inflowYoy": -6.2,
+            "outflow": 2754.285714285714,
+            "waterLevel": 376.865
         },
         {
-            "station": "构皮滩",
-            "basin": "乌江",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": -189.3333333333333,
-            "outflow": null,
-            "waterLevel": 625.9933333333333
+            "isoWeek": 42,
+            "weekStart": "2025-10-13",
+            "inflow": 2906,
+            "priorYearInflow": 868.5714285714286,
+            "inflowYoy": 234.6,
+            "outflow": 3086.6,
+            "waterLevel": 222.556
         },
         {
             "station": "白鹤滩",
@@ -4646,38 +6201,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": 2366.6666666666665,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 823.9466666666667
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": -755.3333333333334,
-            "outflow": null,
-            "waterLevel": 399.84
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": -23.33333333333333,
-            "outflow": null,
-            "waterLevel": 290.65333333333336
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2025,
-            "isoWeek": 43,
-            "weekStart": "2025-10-20",
-            "inflow": 16385.714285714286,
-            "outflow": 14414.285714285714,
-            "waterLevel": 174.44571428571427
         },
         {
             "station": "隔河岩",
@@ -4686,8 +6213,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": 517.6666666666666,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 199.33666666666667
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": -189.3333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 625.9933333333333
         },
         {
             "station": "龙滩",
@@ -4696,8 +6237,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": 2706.8,
+            "priorYearInflow": 1648.142857142857,
+            "inflowYoy": 64.2,
             "outflow": 2641,
             "waterLevel": 374.638
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2025,
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": -23.33333333333333,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 290.65333333333336
         },
         {
             "station": "瀑布沟",
@@ -4706,8 +6261,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": 307.6666666666667,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 840.2866666666667
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": 16385.714285714286,
+            "priorYearInflow": 9285.714285714286,
+            "inflowYoy": 76.5,
+            "outflow": 14414.285714285714,
+            "waterLevel": 174.44571428571427
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2025,
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": -755.3333333333334,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 399.84
         },
         {
             "station": "乌东德",
@@ -4716,6 +6297,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": 2966.6666666666665,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 965.2666666666668
         },
@@ -4726,18 +6309,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 43,
             "weekStart": "2025-10-20",
             "inflow": -1900,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 596.38
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "向家坝",
+            "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 44,
-            "weekStart": "2025-10-27",
-            "inflow": 13485.714285714286,
-            "outflow": 14942.857142857143,
-            "waterLevel": 174.18714285714285
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": 2357.1428571428573,
+            "priorYearInflow": 1300,
+            "inflowYoy": 81.3,
+            "outflow": 2730,
+            "waterLevel": 378.7266666666667
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 43,
+            "weekStart": "2025-10-20",
+            "inflow": 3002.8,
+            "priorYearInflow": 978.7142857142856,
+            "inflowYoy": 206.8,
+            "outflow": 2855.2,
+            "waterLevel": 222.592
         },
         {
             "station": "龙滩",
@@ -4746,18 +6345,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 44,
             "weekStart": "2025-10-27",
             "inflow": 2660.75,
+            "priorYearInflow": 838.4285714285714,
+            "inflowYoy": 217.3,
             "outflow": 3292.25,
             "waterLevel": 373.7225
         },
         {
-            "station": "岩滩",
-            "basin": "红水河",
+            "station": "三峡",
+            "basin": "长江干流",
             "isoYear": 2025,
             "isoWeek": 44,
             "weekStart": "2025-10-27",
-            "inflow": 3589,
-            "outflow": 2669,
-            "waterLevel": 222.6575
+            "inflow": 13485.714285714286,
+            "priorYearInflow": 7500,
+            "inflowYoy": 79.8,
+            "outflow": 14942.857142857143,
+            "waterLevel": 174.18714285714285
         },
         {
             "station": "向家坝",
@@ -4766,8 +6369,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 44,
             "weekStart": "2025-10-27",
             "inflow": 3042.8571428571427,
+            "priorYearInflow": 1810,
+            "inflowYoy": 68.1,
             "outflow": 3344.285714285714,
             "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 44,
+            "weekStart": "2025-10-27",
+            "inflow": 3589,
+            "priorYearInflow": 977.5714285714286,
+            "inflowYoy": 267.1,
+            "outflow": 2669,
+            "waterLevel": 222.6575
         },
         {
             "station": "龙滩",
@@ -4776,18 +6393,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 45,
             "weekStart": "2025-11-03",
             "inflow": 2648.5,
+            "priorYearInflow": 753.4285714285714,
+            "inflowYoy": 251.5,
             "outflow": 2348.5,
             "waterLevel": 373.5866666666666
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 45,
-            "weekStart": "2025-11-03",
-            "inflow": 2271.428571428572,
-            "outflow": 1995.7142857142856,
-            "waterLevel": null
         },
         {
             "station": "三峡",
@@ -4796,8 +6405,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 45,
             "weekStart": "2025-11-03",
             "inflow": 10285.714285714286,
+            "priorYearInflow": 6171.428571428572,
+            "inflowYoy": 66.7,
             "outflow": 10942.857142857143,
             "waterLevel": 173.40142857142857
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 45,
+            "weekStart": "2025-11-03",
+            "inflow": 2271.428571428572,
+            "priorYearInflow": 1800,
+            "inflowYoy": 26.2,
+            "outflow": 1995.7142857142856,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
@@ -4806,6 +6429,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 45,
             "weekStart": "2025-11-03",
             "inflow": 1820.3333333333333,
+            "priorYearInflow": 1129.428571428571,
+            "inflowYoy": 61.2,
             "outflow": 2088.333333333333,
             "waterLevel": 222.66333333333333
         },
@@ -4816,28 +6441,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 46,
             "weekStart": "2025-11-10",
             "inflow": 2614.285714285714,
+            "priorYearInflow": 1192.142857142857,
+            "inflowYoy": 119.3,
             "outflow": 2843.1428571428573,
             "waterLevel": 374.3071428571429
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 46,
-            "weekStart": "2025-11-10",
-            "inflow": 2333,
-            "outflow": 2400.5714285714284,
-            "waterLevel": 222.4028571428572
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 46,
-            "weekStart": "2025-11-10",
-            "inflow": 3257.1428571428573,
-            "outflow": 2737.1428571428573,
-            "waterLevel": null
         },
         {
             "station": "三峡",
@@ -4846,6 +6453,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 46,
             "weekStart": "2025-11-10",
             "inflow": 11000,
+            "priorYearInflow": 6285.714285714285,
+            "inflowYoy": 75,
             "outflow": 10365.714285714286,
             "waterLevel": 174.21
         },
@@ -4853,21 +6462,25 @@ window.WORKBENCH_DATA = {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 47,
-            "weekStart": "2025-11-17",
-            "inflow": 3028.5714285714284,
-            "outflow": 2652.8571428571427,
+            "isoWeek": 46,
+            "weekStart": "2025-11-10",
+            "inflow": 3257.1428571428573,
+            "priorYearInflow": 1750,
+            "inflowYoy": 86.1,
+            "outflow": 2737.1428571428573,
             "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 47,
-            "weekStart": "2025-11-17",
-            "inflow": 2013,
-            "outflow": 2395.5714285714284,
-            "waterLevel": 222.53714285714287
+            "isoWeek": 46,
+            "weekStart": "2025-11-10",
+            "inflow": 2333,
+            "priorYearInflow": 1527.142857142857,
+            "inflowYoy": 52.8,
+            "outflow": 2400.5714285714284,
+            "waterLevel": 222.4028571428572
         },
         {
             "station": "龙滩",
@@ -4876,6 +6489,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 47,
             "weekStart": "2025-11-17",
             "inflow": 2409.1428571428573,
+            "priorYearInflow": 1153.857142857143,
+            "inflowYoy": 108.8,
             "outflow": 2732.5714285714284,
             "waterLevel": 374.0157142857143
         },
@@ -4886,18 +6501,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 47,
             "weekStart": "2025-11-17",
             "inflow": 10171.42857142857,
+            "priorYearInflow": 7228.571428571428,
+            "inflowYoy": 40.7,
             "outflow": 11071.42857142857,
             "waterLevel": 174.33571428571432
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 47,
+            "weekStart": "2025-11-17",
+            "inflow": 3028.5714285714284,
+            "priorYearInflow": 2444,
+            "inflowYoy": 23.9,
+            "outflow": 2652.8571428571427,
+            "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 48,
-            "weekStart": "2025-11-24",
-            "inflow": 1385.142857142857,
-            "outflow": 1833.428571428572,
-            "waterLevel": 222.26857142857145
+            "isoWeek": 47,
+            "weekStart": "2025-11-17",
+            "inflow": 2013,
+            "priorYearInflow": 1253.7142857142858,
+            "inflowYoy": 60.6,
+            "outflow": 2395.5714285714284,
+            "waterLevel": 222.53714285714287
         },
         {
             "station": "龙滩",
@@ -4906,6 +6537,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 48,
             "weekStart": "2025-11-24",
             "inflow": 1409.2857142857142,
+            "priorYearInflow": 864.2857142857143,
+            "inflowYoy": 63.1,
             "outflow": 1810.857142857143,
             "waterLevel": 373.38571428571424
         },
@@ -4916,6 +6549,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 48,
             "weekStart": "2025-11-24",
             "inflow": 8100,
+            "priorYearInflow": 7500,
+            "inflowYoy": 8,
             "outflow": 9852.857142857143,
             "waterLevel": 173.6614285714286
         },
@@ -4926,28 +6561,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 48,
             "weekStart": "2025-11-24",
             "inflow": 2942.8571428571427,
+            "priorYearInflow": 1900,
+            "inflowYoy": 54.9,
             "outflow": 2592.8571428571427,
-            "waterLevel": null
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 49,
-            "weekStart": "2025-12-01",
-            "inflow": 2142.8571428571427,
-            "outflow": 2385.714285714286,
             "waterLevel": null
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 49,
-            "weekStart": "2025-12-01",
-            "inflow": 1236.428571428571,
-            "outflow": 1436.7142857142858,
-            "waterLevel": 222.22285714285712
+            "isoWeek": 48,
+            "weekStart": "2025-11-24",
+            "inflow": 1385.142857142857,
+            "priorYearInflow": 1111.142857142857,
+            "inflowYoy": 24.7,
+            "outflow": 1833.428571428572,
+            "waterLevel": 222.26857142857145
         },
         {
             "station": "龙滩",
@@ -4956,6 +6585,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 49,
             "weekStart": "2025-12-01",
             "inflow": 1405.142857142857,
+            "priorYearInflow": 562.5714285714286,
+            "inflowYoy": 149.8,
             "outflow": 1440.857142857143,
             "waterLevel": 373.05428571428575
         },
@@ -4966,8 +6597,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 49,
             "weekStart": "2025-12-01",
             "inflow": 6657.142857142857,
+            "priorYearInflow": 6500,
+            "inflowYoy": 2.4,
             "outflow": 7911.428571428572,
             "waterLevel": 172.93714285714285
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 49,
+            "weekStart": "2025-12-01",
+            "inflow": 2142.8571428571427,
+            "priorYearInflow": 966.6666666666666,
+            "inflowYoy": 121.7,
+            "outflow": 2385.714285714286,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2025,
+            "isoWeek": 49,
+            "weekStart": "2025-12-01",
+            "inflow": 1236.428571428571,
+            "priorYearInflow": 1311.857142857143,
+            "inflowYoy": -5.7,
+            "outflow": 1436.7142857142858,
+            "waterLevel": 222.22285714285712
         },
         {
             "station": "龙滩",
@@ -4976,6 +6633,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 50,
             "weekStart": "2025-12-08",
             "inflow": 1205.571428571429,
+            "priorYearInflow": 708.7142857142857,
+            "inflowYoy": 70.1,
             "outflow": 1310.142857142857,
             "waterLevel": 372.7771428571429
         },
@@ -4986,6 +6645,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 50,
             "weekStart": "2025-12-08",
             "inflow": 6214.285714285715,
+            "priorYearInflow": 6557.142857142857,
+            "inflowYoy": -5.2,
             "outflow": 6735.714285714285,
             "waterLevel": 172.1257142857143
         },
@@ -4996,6 +6657,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 50,
             "weekStart": "2025-12-08",
             "inflow": 1985.7142857142856,
+            "priorYearInflow": 2083.333333333333,
+            "inflowYoy": -4.7,
             "outflow": 2322.8571428571427,
             "waterLevel": null
         },
@@ -5006,18 +6669,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 50,
             "weekStart": "2025-12-08",
             "inflow": 1221.142857142857,
+            "priorYearInflow": 868.1428571428571,
+            "inflowYoy": 40.7,
             "outflow": 1560.857142857143,
             "waterLevel": 221.68571428571428
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 51,
-            "weekStart": "2025-12-15",
-            "inflow": 1312,
-            "outflow": 1576.571428571429,
-            "waterLevel": 220.73
         },
         {
             "station": "龙滩",
@@ -5026,18 +6681,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 51,
             "weekStart": "2025-12-15",
             "inflow": 1287.857142857143,
+            "priorYearInflow": 1016.8571428571428,
+            "inflowYoy": 26.7,
             "outflow": 1420.142857142857,
             "waterLevel": 372.3957142857143
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2025,
-            "isoWeek": 51,
-            "weekStart": "2025-12-15",
-            "inflow": 2100,
-            "outflow": 2348.5714285714284,
-            "waterLevel": null
         },
         {
             "station": "三峡",
@@ -5046,38 +6693,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 51,
             "weekStart": "2025-12-15",
             "inflow": 6050,
+            "priorYearInflow": 7000,
+            "inflowYoy": -13.6,
             "outflow": 6521.428571428572,
             "waterLevel": 171.46571428571428
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2025,
-            "isoWeek": 52,
-            "weekStart": "2025-12-22",
-            "inflow": 1278.428571428571,
-            "outflow": 1549.571428571429,
-            "waterLevel": 220.8757142857143
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2025,
-            "isoWeek": 52,
-            "weekStart": "2025-12-22",
-            "inflow": 2214.285714285714,
-            "outflow": 2491.428571428572,
+            "isoWeek": 51,
+            "weekStart": "2025-12-15",
+            "inflow": 2100,
+            "priorYearInflow": 2400,
+            "inflowYoy": -12.5,
+            "outflow": 2348.5714285714284,
             "waterLevel": null
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2025,
-            "isoWeek": 52,
-            "weekStart": "2025-12-22",
-            "inflow": 6460,
-            "outflow": 6545.714285714285,
-            "waterLevel": 170.99142857142857
+            "isoWeek": 51,
+            "weekStart": "2025-12-15",
+            "inflow": 1312,
+            "priorYearInflow": 1393.857142857143,
+            "inflowYoy": -5.9,
+            "outflow": 1576.571428571429,
+            "waterLevel": 220.73
         },
         {
             "station": "龙滩",
@@ -5086,18 +6729,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 52,
             "weekStart": "2025-12-22",
             "inflow": 1115.428571428571,
+            "priorYearInflow": 672.1428571428571,
+            "inflowYoy": 66,
             "outflow": 1447.428571428571,
             "waterLevel": 371.8942857142857
         },
         {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2025,
+            "isoWeek": 52,
+            "weekStart": "2025-12-22",
+            "inflow": 6460,
+            "priorYearInflow": 7671.428571428572,
+            "inflowYoy": -15.8,
+            "outflow": 6545.714285714285,
+            "waterLevel": 170.99142857142857
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2025,
+            "isoWeek": 52,
+            "weekStart": "2025-12-22",
+            "inflow": 2214.285714285714,
+            "priorYearInflow": 1357.142857142857,
+            "inflowYoy": 63.2,
+            "outflow": 2491.428571428572,
+            "waterLevel": null
+        },
+        {
             "station": "岩滩",
             "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 1,
-            "weekStart": "2025-12-29",
-            "inflow": 984,
-            "outflow": 1404.857142857143,
-            "waterLevel": 220.8928571428572
+            "isoYear": 2025,
+            "isoWeek": 52,
+            "weekStart": "2025-12-22",
+            "inflow": 1278.428571428571,
+            "priorYearInflow": 1010.8571428571428,
+            "inflowYoy": 26.5,
+            "outflow": 1549.571428571429,
+            "waterLevel": 220.8757142857143
         },
         {
             "station": "龙滩",
@@ -5106,18 +6777,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 1,
             "weekStart": "2025-12-29",
             "inflow": 1236.571428571429,
+            "priorYearInflow": 890.8571428571429,
+            "inflowYoy": 38.8,
             "outflow": 1112.7142857142858,
             "waterLevel": 371.1785714285714
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 1,
-            "weekStart": "2025-12-29",
-            "inflow": 2828.5714285714284,
-            "outflow": 2794.285714285714,
-            "waterLevel": null
         },
         {
             "station": "三峡",
@@ -5126,8 +6789,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 1,
             "weekStart": "2025-12-29",
             "inflow": 6691.428571428572,
+            "priorYearInflow": 7557.142857142857,
+            "inflowYoy": -11.5,
             "outflow": 7090,
             "waterLevel": 170.6342857142857
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 1,
+            "weekStart": "2025-12-29",
+            "inflow": 2828.5714285714284,
+            "priorYearInflow": 3183.333333333333,
+            "inflowYoy": -11.1,
+            "outflow": 2794.285714285714,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 1,
+            "weekStart": "2025-12-29",
+            "inflow": 984,
+            "priorYearInflow": 1229.8333333333333,
+            "inflowYoy": -20,
+            "outflow": 1404.857142857143,
+            "waterLevel": 220.8928571428572
         },
         {
             "station": "龙滩",
@@ -5136,6 +6825,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 2,
             "weekStart": "2026-01-05",
             "inflow": 1389.428571428571,
+            "priorYearInflow": 952,
+            "inflowYoy": 45.9,
             "outflow": 2325.428571428572,
             "waterLevel": 370.42
         },
@@ -5146,18 +6837,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 2,
             "weekStart": "2026-01-05",
             "inflow": 7785.714285714285,
+            "priorYearInflow": 7971.428571428572,
+            "inflowYoy": -2.3,
             "outflow": 7450,
             "waterLevel": 170.7657142857143
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 2,
-            "weekStart": "2026-01-05",
-            "inflow": 1995.2857142857144,
-            "outflow": 2137.285714285714,
-            "waterLevel": 220.74571428571429
         },
         {
             "station": "向家坝",
@@ -5166,8 +6849,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 2,
             "weekStart": "2026-01-05",
             "inflow": 3885.714285714286,
+            "priorYearInflow": 4285.714285714285,
+            "inflowYoy": -9.3,
             "outflow": 3552.8571428571427,
             "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 2,
+            "weekStart": "2026-01-05",
+            "inflow": 1995.2857142857144,
+            "priorYearInflow": 1108.2857142857142,
+            "inflowYoy": 80,
+            "outflow": 2137.285714285714,
+            "waterLevel": 220.74571428571429
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 3,
+            "weekStart": "2026-01-12",
+            "inflow": 1498.857142857143,
+            "priorYearInflow": 452.6,
+            "inflowYoy": 231.2,
+            "outflow": 2855.285714285714,
+            "waterLevel": 368.3071428571429
         },
         {
             "station": "三峡",
@@ -5176,6 +6885,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 3,
             "weekStart": "2026-01-12",
             "inflow": 7607.142857142857,
+            "priorYearInflow": 7271.428571428572,
+            "inflowYoy": 4.6,
             "outflow": 8682.857142857143,
             "waterLevel": 170.50428571428571
         },
@@ -5186,6 +6897,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 3,
             "weekStart": "2026-01-12",
             "inflow": 3900,
+            "priorYearInflow": 3585.714285714286,
+            "inflowYoy": 8.8,
             "outflow": 3568.5714285714284,
             "waterLevel": null
         },
@@ -5196,18 +6909,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 3,
             "weekStart": "2026-01-12",
             "inflow": 2399.428571428572,
+            "priorYearInflow": 1582.571428571429,
+            "inflowYoy": 51.6,
             "outflow": 2454.285714285714,
             "waterLevel": 221.5042857142857
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 3,
-            "weekStart": "2026-01-12",
-            "inflow": 1498.857142857143,
-            "outflow": 2855.285714285714,
-            "waterLevel": 368.3071428571429
         },
         {
             "station": "龙滩",
@@ -5216,6 +6921,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2026-01-19",
             "inflow": 1333.571428571429,
+            "priorYearInflow": 618.2857142857143,
+            "inflowYoy": 115.7,
             "outflow": 2078.285714285714,
             "waterLevel": 366.1885714285714
         },
@@ -5226,18 +6933,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2026-01-19",
             "inflow": 7775.714285714285,
+            "priorYearInflow": 6485.714285714285,
+            "inflowYoy": 19.9,
             "outflow": 9144.285714285714,
             "waterLevel": 169.90285714285713
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 4,
-            "weekStart": "2026-01-19",
-            "inflow": 1327.571428571429,
-            "outflow": 2194.5714285714284,
-            "waterLevel": 221.80857142857144
         },
         {
             "station": "向家坝",
@@ -5246,7 +6945,57 @@ window.WORKBENCH_DATA = {
             "isoWeek": 4,
             "weekStart": "2026-01-19",
             "inflow": 4228.571428571428,
+            "priorYearInflow": 783.3333333333334,
+            "inflowYoy": 439.8,
             "outflow": 3542.8571428571427,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 4,
+            "weekStart": "2026-01-19",
+            "inflow": 1327.571428571429,
+            "priorYearInflow": 825.7142857142857,
+            "inflowYoy": 60.8,
+            "outflow": 2194.5714285714284,
+            "waterLevel": 221.80857142857144
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 5,
+            "weekStart": "2026-01-26",
+            "inflow": 1542,
+            "priorYearInflow": 1060.571428571429,
+            "inflowYoy": 45.4,
+            "outflow": 2297.833333333333,
+            "waterLevel": 364.09
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 5,
+            "weekStart": "2026-01-26",
+            "inflow": 7718.571428571428,
+            "priorYearInflow": 4757.142857142857,
+            "inflowYoy": 62.3,
+            "outflow": 8801.42857142857,
+            "waterLevel": 169.5142857142857
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 5,
+            "weekStart": "2026-01-26",
+            "inflow": 3985.714285714286,
+            "priorYearInflow": 920,
+            "inflowYoy": 333.2,
+            "outflow": 3518.5714285714284,
             "waterLevel": null
         },
         {
@@ -5256,38 +7005,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 5,
             "weekStart": "2026-01-26",
             "inflow": 1949.5,
+            "priorYearInflow": 741.7142857142857,
+            "inflowYoy": 162.8,
             "outflow": 2294.333333333333,
             "waterLevel": 221.9233333333333
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 5,
-            "weekStart": "2026-01-26",
-            "inflow": 3985.714285714286,
-            "outflow": 3518.5714285714284,
-            "waterLevel": null
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 5,
-            "weekStart": "2026-01-26",
-            "inflow": 7718.571428571428,
-            "outflow": 8801.42857142857,
-            "waterLevel": 169.5142857142857
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 5,
-            "weekStart": "2026-01-26",
-            "inflow": 1542,
-            "outflow": 2297.833333333333,
-            "waterLevel": 364.09
         },
         {
             "station": "龙滩",
@@ -5296,8 +7017,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 6,
             "weekStart": "2026-02-02",
             "inflow": 1251.142857142857,
+            "priorYearInflow": 575.5,
+            "inflowYoy": 117.4,
             "outflow": 2149.285714285714,
             "waterLevel": 362.35857142857145
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 6,
+            "weekStart": "2026-02-02",
+            "inflow": 7857.142857142857,
+            "priorYearInflow": 5600,
+            "inflowYoy": 40.3,
+            "outflow": 7987.142857142857,
+            "waterLevel": 169.15285714285713
         },
         {
             "station": "向家坝",
@@ -5306,6 +7041,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 6,
             "weekStart": "2026-02-02",
             "inflow": 4271.428571428572,
+            "priorYearInflow": 1416.6666666666667,
+            "inflowYoy": 201.5,
             "outflow": 3385.714285714286,
             "waterLevel": null
         },
@@ -5316,28 +7053,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 6,
             "weekStart": "2026-02-02",
             "inflow": 1915.428571428572,
+            "priorYearInflow": 771.8333333333334,
+            "inflowYoy": 148.2,
             "outflow": 2246.428571428572,
             "waterLevel": 221.65857142857143
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 6,
-            "weekStart": "2026-02-02",
-            "inflow": 7857.142857142857,
-            "outflow": 7987.142857142857,
-            "waterLevel": 169.15285714285713
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 7,
-            "weekStart": "2026-02-09",
-            "inflow": 1953.2857142857144,
-            "outflow": 2240.5714285714284,
-            "waterLevel": 221.77
         },
         {
             "station": "龙滩",
@@ -5346,6 +7065,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 7,
             "weekStart": "2026-02-09",
             "inflow": 1006.2857142857144,
+            "priorYearInflow": 561.25,
+            "inflowYoy": 79.3,
             "outflow": 2108.1428571428573,
             "waterLevel": 360.0842857142857
         },
@@ -5356,6 +7077,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 7,
             "weekStart": "2026-02-09",
             "inflow": 7354.285714285715,
+            "priorYearInflow": 7114.285714285715,
+            "inflowYoy": 3.4,
             "outflow": 7881.428571428572,
             "waterLevel": 168.74714285714285
         },
@@ -5366,6 +7089,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 7,
             "weekStart": "2026-02-09",
             "inflow": 3500,
+            "priorYearInflow": 2571.428571428572,
+            "inflowYoy": 36.1,
             "outflow": 2811.428571428572,
             "waterLevel": null
         },
@@ -5373,21 +7098,13 @@ window.WORKBENCH_DATA = {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 8,
-            "weekStart": "2026-02-16",
-            "inflow": 1297.857142857143,
-            "outflow": 1474,
-            "waterLevel": 220.4828571428572
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 8,
-            "weekStart": "2026-02-16",
-            "inflow": 2000,
-            "outflow": 1831.428571428572,
-            "waterLevel": null
+            "isoWeek": 7,
+            "weekStart": "2026-02-09",
+            "inflow": 1953.2857142857144,
+            "priorYearInflow": 807.8333333333334,
+            "inflowYoy": 141.8,
+            "outflow": 2240.5714285714284,
+            "waterLevel": 221.77
         },
         {
             "station": "龙滩",
@@ -5396,6 +7113,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 8,
             "weekStart": "2026-02-16",
             "inflow": 465,
+            "priorYearInflow": 865.8333333333334,
+            "inflowYoy": -46.3,
             "outflow": 1169,
             "waterLevel": 358.2942857142857
         },
@@ -5406,6 +7125,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 8,
             "weekStart": "2026-02-16",
             "inflow": 5473.333333333333,
+            "priorYearInflow": 6485.714285714285,
+            "inflowYoy": -15.6,
             "outflow": 7068.333333333333,
             "waterLevel": 167.88666666666668
         },
@@ -5413,31 +7134,25 @@ window.WORKBENCH_DATA = {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2026,
-            "isoWeek": 9,
-            "weekStart": "2026-02-23",
-            "inflow": 2857.1428571428573,
-            "outflow": 3154.285714285714,
+            "isoWeek": 8,
+            "weekStart": "2026-02-16",
+            "inflow": 2000,
+            "priorYearInflow": 2566.6666666666665,
+            "inflowYoy": -22.1,
+            "outflow": 1831.428571428572,
             "waterLevel": null
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 9,
-            "weekStart": "2026-02-23",
-            "inflow": 5757.142857142857,
-            "outflow": 7261.428571428572,
-            "waterLevel": 166.27857142857144
         },
         {
             "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 9,
-            "weekStart": "2026-02-23",
-            "inflow": 2136.1428571428573,
-            "outflow": 1884,
-            "waterLevel": 220.73142857142847
+            "isoWeek": 8,
+            "weekStart": "2026-02-16",
+            "inflow": 1297.857142857143,
+            "priorYearInflow": 685.1666666666666,
+            "inflowYoy": 89.4,
+            "outflow": 1474,
+            "waterLevel": 220.4828571428572
         },
         {
             "station": "龙滩",
@@ -5446,8 +7161,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 9,
             "weekStart": "2026-02-23",
             "inflow": 946.1428571428572,
+            "priorYearInflow": 758.7142857142857,
+            "inflowYoy": 24.7,
             "outflow": 2132.714285714286,
             "waterLevel": 355.5942857142857
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 9,
+            "weekStart": "2026-02-23",
+            "inflow": 5757.142857142857,
+            "priorYearInflow": 7266.666666666667,
+            "inflowYoy": -20.8,
+            "outflow": 7261.428571428572,
+            "waterLevel": 166.27857142857144
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 9,
+            "weekStart": "2026-02-23",
+            "inflow": 2857.1428571428573,
+            "priorYearInflow": 1520,
+            "inflowYoy": 88,
+            "outflow": 3154.285714285714,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 9,
+            "weekStart": "2026-02-23",
+            "inflow": 2136.1428571428573,
+            "priorYearInflow": 785.1428571428571,
+            "inflowYoy": 172.1,
+            "outflow": 1884,
+            "waterLevel": 220.73142857142847
         },
         {
             "station": "龙滩",
@@ -5456,8 +7209,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2026-03-02",
             "inflow": 1123.571428571429,
+            "priorYearInflow": 338.57142857142856,
+            "inflowYoy": 231.9,
             "outflow": 2301.8571428571427,
             "waterLevel": 352.9585714285714
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 10,
+            "weekStart": "2026-03-02",
+            "inflow": 7157.142857142857,
+            "priorYearInflow": 8000,
+            "inflowYoy": -10.5,
+            "outflow": 8612.857142857143,
+            "waterLevel": 165.26571428571427
         },
         {
             "station": "向家坝",
@@ -5466,6 +7233,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2026-03-02",
             "inflow": 4200,
+            "priorYearInflow": 1328.571428571429,
+            "inflowYoy": 216.1,
             "outflow": 3364,
             "waterLevel": null
         },
@@ -5476,18 +7245,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 10,
             "weekStart": "2026-03-02",
             "inflow": 2219.5714285714284,
+            "priorYearInflow": 865.1428571428571,
+            "inflowYoy": 156.6,
             "outflow": 1587,
             "waterLevel": 221.31714285714287
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "龙滩",
+            "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 10,
-            "weekStart": "2026-03-02",
-            "inflow": 7157.142857142857,
-            "outflow": 8612.857142857143,
-            "waterLevel": 165.26571428571427
+            "isoWeek": 11,
+            "weekStart": "2026-03-09",
+            "inflow": 949.2857142857144,
+            "priorYearInflow": 437.57142857142856,
+            "inflowYoy": 116.9,
+            "outflow": 2122.1428571428573,
+            "waterLevel": 351.0028571428571
         },
         {
             "station": "三峡",
@@ -5496,6 +7269,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 11,
             "weekStart": "2026-03-09",
             "inflow": 7957.142857142857,
+            "priorYearInflow": 8514.285714285714,
+            "inflowYoy": -6.5,
             "outflow": 8764.285714285714,
             "waterLevel": 164.57999999999998
         },
@@ -5506,6 +7281,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 11,
             "weekStart": "2026-03-09",
             "inflow": 3785.714285714286,
+            "priorYearInflow": 3257.1428571428573,
+            "inflowYoy": 16.2,
             "outflow": 3841.428571428572,
             "waterLevel": null
         },
@@ -5516,18 +7293,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 11,
             "weekStart": "2026-03-09",
             "inflow": 1433,
+            "priorYearInflow": 831.8571428571429,
+            "inflowYoy": 72.3,
             "outflow": 1685.7142857142858,
             "waterLevel": 222.1114285714285
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 11,
-            "weekStart": "2026-03-09",
-            "inflow": 949.2857142857144,
-            "outflow": 2122.1428571428573,
-            "waterLevel": 351.0028571428571
         },
         {
             "station": "龙滩",
@@ -5536,8 +7305,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 12,
             "weekStart": "2026-03-16",
             "inflow": 873.3333333333334,
+            "priorYearInflow": 458.4,
+            "inflowYoy": 90.5,
             "outflow": 1720,
             "waterLevel": 349.24499999999995
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 12,
+            "weekStart": "2026-03-16",
+            "inflow": 9200,
+            "priorYearInflow": 8885.714285714286,
+            "inflowYoy": 3.5,
+            "outflow": 8758.57142857143,
+            "waterLevel": 165.05714285714288
         },
         {
             "station": "向家坝",
@@ -5546,6 +7329,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 12,
             "weekStart": "2026-03-16",
             "inflow": 2915.714285714286,
+            "priorYearInflow": 1283.3333333333333,
+            "inflowYoy": 127.2,
             "outflow": 3085.714285714286,
             "waterLevel": null
         },
@@ -5556,18 +7341,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 12,
             "weekStart": "2026-03-16",
             "inflow": 1040.5,
+            "priorYearInflow": 937.5714285714286,
+            "inflowYoy": 11,
             "outflow": 1934.5,
             "waterLevel": 221.66
         },
         {
-            "station": "三峡",
-            "basin": "长江干流",
+            "station": "龙滩",
+            "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 12,
-            "weekStart": "2026-03-16",
-            "inflow": 9200,
-            "outflow": 8758.57142857143,
-            "waterLevel": 165.05714285714288
+            "isoWeek": 13,
+            "weekStart": "2026-03-23",
+            "inflow": 1038,
+            "priorYearInflow": 462.1666666666667,
+            "inflowYoy": 124.6,
+            "outflow": 1912.428571428572,
+            "waterLevel": 347.64142857142855
         },
         {
             "station": "三峡",
@@ -5576,6 +7365,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2026-03-23",
             "inflow": 6968.571428571428,
+            "priorYearInflow": 6842.857142857143,
+            "inflowYoy": 1.8,
             "outflow": 8064.285714285715,
             "waterLevel": 165.31571428571428
         },
@@ -5586,6 +7377,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2026-03-23",
             "inflow": 1971.428571428572,
+            "priorYearInflow": 710,
+            "inflowYoy": 177.7,
             "outflow": 1982.857142857143,
             "waterLevel": null
         },
@@ -5596,38 +7389,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 13,
             "weekStart": "2026-03-23",
             "inflow": 1320,
+            "priorYearInflow": 1060.142857142857,
+            "inflowYoy": 24.5,
             "outflow": 1734.428571428571,
             "waterLevel": 221.45
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 13,
-            "weekStart": "2026-03-23",
-            "inflow": 1038,
-            "outflow": 1912.428571428572,
-            "waterLevel": 347.64142857142855
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 14,
-            "weekStart": "2026-03-30",
-            "inflow": 1074.7142857142858,
-            "outflow": 1504.857142857143,
-            "waterLevel": 221.1457142857143
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 14,
-            "weekStart": "2026-03-30",
-            "inflow": 1614.2857142857142,
-            "outflow": 1945.7142857142856,
-            "waterLevel": null
         },
         {
             "station": "龙滩",
@@ -5636,6 +7401,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 14,
             "weekStart": "2026-03-30",
             "inflow": 1281.428571428571,
+            "priorYearInflow": 430.3333333333333,
+            "inflowYoy": 197.8,
             "outflow": 1406,
             "waterLevel": 346.8042857142857
         },
@@ -5646,8 +7413,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 14,
             "weekStart": "2026-03-30",
             "inflow": 8000,
+            "priorYearInflow": 6025,
+            "inflowYoy": 32.8,
             "outflow": 8562.857142857143,
             "waterLevel": 165.06428571428572
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 14,
+            "weekStart": "2026-03-30",
+            "inflow": 1614.2857142857142,
+            "priorYearInflow": 1490,
+            "inflowYoy": 8.3,
+            "outflow": 1945.7142857142856,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 14,
+            "weekStart": "2026-03-30",
+            "inflow": 1074.7142857142858,
+            "priorYearInflow": 872.2857142857143,
+            "inflowYoy": 23.2,
+            "outflow": 1504.857142857143,
+            "waterLevel": 221.1457142857143
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 15,
+            "weekStart": "2026-04-06",
+            "inflow": 861.6666666666666,
+            "priorYearInflow": 650.4285714285714,
+            "inflowYoy": 32.5,
+            "outflow": 1165.5,
+            "waterLevel": 345.8833333333334
         },
         {
             "station": "三峡",
@@ -5656,6 +7461,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2026-04-06",
             "inflow": 8914.285714285714,
+            "priorYearInflow": 6542.857142857143,
+            "inflowYoy": 36.2,
             "outflow": 9907.142857142857,
             "waterLevel": 164.82285714285717
         },
@@ -5666,18 +7473,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2026-04-06",
             "inflow": 2842.8571428571427,
+            "priorYearInflow": 2957.1428571428573,
+            "inflowYoy": -3.9,
             "outflow": 3134.285714285714,
             "waterLevel": null
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 15,
-            "weekStart": "2026-04-06",
-            "inflow": 861.6666666666666,
-            "outflow": 1165.5,
-            "waterLevel": 345.8833333333334
         },
         {
             "station": "岩滩",
@@ -5686,28 +7485,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 15,
             "weekStart": "2026-04-06",
             "inflow": 1159.6666666666667,
+            "priorYearInflow": 665.7142857142857,
+            "inflowYoy": 74.2,
             "outflow": 915.5,
             "waterLevel": 221.62833333333333
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 16,
-            "weekStart": "2026-04-13",
-            "inflow": 1622.7142857142858,
-            "outflow": 2014,
-            "waterLevel": 221.9557142857143
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 16,
-            "weekStart": "2026-04-13",
-            "inflow": 2885.714285714286,
-            "outflow": 2602.8571428571427,
-            "waterLevel": null
         },
         {
             "station": "龙滩",
@@ -5716,6 +7497,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 16,
             "weekStart": "2026-04-13",
             "inflow": 1002,
+            "priorYearInflow": 526,
+            "inflowYoy": 90.5,
             "outflow": 1203.2857142857142,
             "waterLevel": 343.92571428571426
         },
@@ -5726,8 +7509,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 16,
             "weekStart": "2026-04-13",
             "inflow": 11395.714285714286,
+            "priorYearInflow": 7171.428571428572,
+            "inflowYoy": 58.9,
             "outflow": 11771.42857142857,
             "waterLevel": 165.09428571428572
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 16,
+            "weekStart": "2026-04-13",
+            "inflow": 2885.714285714286,
+            "priorYearInflow": 1983.3333333333333,
+            "inflowYoy": 45.5,
+            "outflow": 2602.8571428571427,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 16,
+            "weekStart": "2026-04-13",
+            "inflow": 1622.7142857142858,
+            "priorYearInflow": 656,
+            "inflowYoy": 147.4,
+            "outflow": 2014,
+            "waterLevel": 221.9557142857143
         },
         {
             "station": "龙滩",
@@ -5736,8 +7545,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 17,
             "weekStart": "2026-04-20",
             "inflow": 1127,
+            "priorYearInflow": 862.8571428571429,
+            "inflowYoy": 30.6,
             "outflow": 1053,
             "waterLevel": 342.90714285714284
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 17,
+            "weekStart": "2026-04-20",
+            "inflow": 12442.857142857143,
+            "priorYearInflow": 7800,
+            "inflowYoy": 59.5,
+            "outflow": 13085.714285714286,
+            "waterLevel": 165.0442857142857
         },
         {
             "station": "向家坝",
@@ -5746,6 +7569,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 17,
             "weekStart": "2026-04-20",
             "inflow": 2800,
+            "priorYearInflow": 3600,
+            "inflowYoy": -22.2,
             "outflow": 2495.714285714286,
             "waterLevel": null
         },
@@ -5756,28 +7581,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 17,
             "weekStart": "2026-04-20",
             "inflow": 1601.2857142857142,
+            "priorYearInflow": 681.2857142857143,
+            "inflowYoy": 135,
             "outflow": 1942.7142857142856,
             "waterLevel": 220.5557142857143
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 17,
-            "weekStart": "2026-04-20",
-            "inflow": 12442.857142857143,
-            "outflow": 13085.714285714286,
-            "waterLevel": 165.0442857142857
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 18,
-            "weekStart": "2026-04-27",
-            "inflow": 2342.8571428571427,
-            "outflow": 2195.714285714286,
-            "waterLevel": null
         },
         {
             "station": "龙滩",
@@ -5786,18 +7593,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 18,
             "weekStart": "2026-04-27",
             "inflow": 1125.428571428571,
+            "priorYearInflow": 827.1428571428571,
+            "inflowYoy": 36.1,
             "outflow": 1073.7142857142858,
             "waterLevel": 341.09714285714284
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 18,
-            "weekStart": "2026-04-27",
-            "inflow": 2076.5714285714284,
-            "outflow": 2345.1428571428573,
-            "waterLevel": 220.6657142857143
         },
         {
             "station": "三峡",
@@ -5806,8 +7605,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 18,
             "weekStart": "2026-04-27",
             "inflow": 14242.857142857143,
+            "priorYearInflow": 8071.428571428572,
+            "inflowYoy": 76.5,
             "outflow": 14085.714285714286,
             "waterLevel": 164.75
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 18,
+            "weekStart": "2026-04-27",
+            "inflow": 2342.8571428571427,
+            "priorYearInflow": 1828.571428571429,
+            "inflowYoy": 28.1,
+            "outflow": 2195.714285714286,
+            "waterLevel": null
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 18,
+            "weekStart": "2026-04-27",
+            "inflow": 2076.5714285714284,
+            "priorYearInflow": 426.4285714285714,
+            "inflowYoy": 387,
+            "outflow": 2345.1428571428573,
+            "waterLevel": 220.6657142857143
         },
         {
             "station": "龙滩",
@@ -5816,6 +7641,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2026-05-04",
             "inflow": 1470.7142857142858,
+            "priorYearInflow": 654.8571428571429,
+            "inflowYoy": 124.6,
             "outflow": 1563,
             "waterLevel": 339.37142857142857
         },
@@ -5826,6 +7653,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2026-05-04",
             "inflow": 10500,
+            "priorYearInflow": 8328.57142857143,
+            "inflowYoy": 26.1,
             "outflow": 12885.714285714286,
             "waterLevel": 164.95285714285714
         },
@@ -5836,6 +7665,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2026-05-04",
             "inflow": 2457.1428571428573,
+            "priorYearInflow": 1500,
+            "inflowYoy": 63.8,
             "outflow": 2674.285714285714,
             "waterLevel": null
         },
@@ -5846,6 +7677,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 19,
             "weekStart": "2026-05-04",
             "inflow": 2238,
+            "priorYearInflow": 511.4285714285714,
+            "inflowYoy": 337.6,
             "outflow": 2649.428571428572,
             "waterLevel": 220.1428571428572
         },
@@ -5856,6 +7689,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2026-05-11",
             "inflow": 2058.5714285714284,
+            "priorYearInflow": 1272.5,
+            "inflowYoy": 61.8,
             "outflow": 1806.2857142857144,
             "waterLevel": 338.07428571428574
         },
@@ -5866,18 +7701,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2026-05-11",
             "inflow": 10181.42857142857,
+            "priorYearInflow": 8671.42857142857,
+            "inflowYoy": 17.4,
             "outflow": 15914.285714285714,
             "waterLevel": 162.1057142857143
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 20,
-            "weekStart": "2026-05-11",
-            "inflow": 2730.8571428571427,
-            "outflow": 2761.714285714286,
-            "waterLevel": 219.90714285714284
         },
         {
             "station": "向家坝",
@@ -5886,28 +7713,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 20,
             "weekStart": "2026-05-11",
             "inflow": 3185.714285714286,
+            "priorYearInflow": 3321.6666666666665,
+            "inflowYoy": -4.1,
             "outflow": 2920,
             "waterLevel": null
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "岩滩",
+            "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": -50,
-            "outflow": null,
-            "waterLevel": 571.515
+            "isoWeek": 20,
+            "weekStart": "2026-05-11",
+            "inflow": 2730.8571428571427,
+            "priorYearInflow": 603,
+            "inflowYoy": 352.9,
+            "outflow": 2761.714285714286,
+            "waterLevel": 219.90714285714284
         },
         {
-            "station": "乌东德",
+            "station": "白鹤滩",
             "basin": "金沙江下游",
             "isoYear": 2026,
             "isoWeek": 21,
             "weekStart": "2026-05-18",
-            "inflow": -250,
+            "inflow": 850,
+            "priorYearInflow": -2200,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 954.555
+            "waterLevel": 786.355
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 19,
+            "priorYearInflow": -31,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 189.375
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 913.5,
+            "priorYearInflow": 49.8,
+            "inflowYoy": 1734.3,
+            "outflow": null,
+            "waterLevel": 605.135
         },
         {
             "station": "龙滩",
@@ -5916,6 +7773,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 21,
             "weekStart": "2026-05-18",
             "inflow": 3350.285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": 1940.142857142857,
             "waterLevel": 339.67857142857144
         },
@@ -5926,68 +7785,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 21,
             "weekStart": "2026-05-18",
             "inflow": 2430,
+            "priorYearInflow": -3530,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 286.79999999999995
-        },
-        {
-            "station": "隔河岩",
-            "basin": "清江",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 19,
-            "outflow": null,
-            "waterLevel": 189.375
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 1100,
-            "outflow": null,
-            "waterLevel": 375.085
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 913.5,
-            "outflow": null,
-            "waterLevel": 605.135
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 19585.714285714286,
-            "outflow": 21557.14285714286,
-            "waterLevel": 160.61714285714285
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 2890.714285714286,
-            "outflow": 2610.5714285714284,
-            "waterLevel": 220.41571428571427
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 2728.5714285714284,
-            "outflow": 2481.428571428572,
-            "waterLevel": 376.485
         },
         {
             "station": "瀑布沟",
@@ -5996,98 +7797,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 21,
             "weekStart": "2026-05-18",
             "inflow": 1330,
+            "priorYearInflow": 1340,
+            "inflowYoy": -0.7,
             "outflow": null,
             "waterLevel": 814.94
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 21,
-            "weekStart": "2026-05-18",
-            "inflow": 850,
-            "outflow": null,
-            "waterLevel": 786.355
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 3540.8571428571427,
-            "outflow": 2869.5714285714284,
-            "waterLevel": 220.38285714285715
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 808.5,
-            "outflow": null,
-            "waterLevel": 606.315
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 505,
-            "outflow": null,
-            "waterLevel": 283.955
-        },
-        {
-            "station": "龙滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 2856.714285714286,
-            "outflow": 1978.428571428572,
-            "waterLevel": 341.10714285714283
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 3028.5714285714284,
-            "outflow": 2702.8571428571427,
-            "waterLevel": 375.485
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 1325,
-            "outflow": null,
-            "waterLevel": 818.9300000000001
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 21400,
-            "outflow": 27285.714285714286,
-            "waterLevel": 156.56285714285715
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 19585.714285714286,
+            "priorYearInflow": 8742.857142857143,
+            "inflowYoy": 124,
+            "outflow": 21557.14285714286,
+            "waterLevel": 160.61714285714285
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 1100,
+            "priorYearInflow": -18.1,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 375.085
         },
         {
             "station": "乌东德",
             "basin": "金沙江下游",
             "isoYear": 2026,
-            "isoWeek": 22,
-            "weekStart": "2026-05-25",
-            "inflow": 550,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": -250,
+            "priorYearInflow": -1800,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 951.71
+            "waterLevel": 954.555
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": -50,
+            "priorYearInflow": 4000,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 571.515
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 2728.5714285714284,
+            "priorYearInflow": 2216.6666666666665,
+            "inflowYoy": 23.1,
+            "outflow": 2481.428571428572,
+            "waterLevel": 376.485
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 21,
+            "weekStart": "2026-05-18",
+            "inflow": 2890.714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2610.5714285714284,
+            "waterLevel": 220.41571428571427
         },
         {
             "station": "白鹤滩",
@@ -6096,6 +7881,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2026-05-25",
             "inflow": 1500,
+            "priorYearInflow": 250,
+            "inflowYoy": 500,
             "outflow": null,
             "waterLevel": 787.01
         },
@@ -6106,18 +7893,70 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2026-05-25",
             "inflow": 1725,
+            "priorYearInflow": -168,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 191.195
         },
         {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
+            "station": "构皮滩",
+            "basin": "乌江",
             "isoYear": 2026,
             "isoWeek": 22,
             "weekStart": "2026-05-25",
-            "inflow": -2550,
+            "inflow": 808.5,
+            "priorYearInflow": 1087,
+            "inflowYoy": -25.6,
             "outflow": null,
-            "waterLevel": 571.065
+            "waterLevel": 606.315
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 2856.714285714286,
+            "priorYearInflow": 1607.3333333333333,
+            "inflowYoy": 77.7,
+            "outflow": 1978.428571428572,
+            "waterLevel": 341.10714285714283
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 505,
+            "priorYearInflow": -827.5,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 283.955
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 1325,
+            "priorYearInflow": 1350,
+            "inflowYoy": -1.9,
+            "outflow": null,
+            "waterLevel": 818.9300000000001
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 21400,
+            "priorYearInflow": 10342.857142857143,
+            "inflowYoy": 106.9,
+            "outflow": 27285.714285714286,
+            "waterLevel": 156.56285714285715
         },
         {
             "station": "水布垭",
@@ -6126,8 +7965,58 @@ window.WORKBENCH_DATA = {
             "isoWeek": 22,
             "weekStart": "2026-05-25",
             "inflow": 1305,
+            "priorYearInflow": 126.05,
+            "inflowYoy": 935.3,
             "outflow": null,
             "waterLevel": 380.095
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 550,
+            "priorYearInflow": 400,
+            "inflowYoy": 37.5,
+            "outflow": null,
+            "waterLevel": 951.71
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": -2550,
+            "priorYearInflow": 0,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 571.065
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 3028.5714285714284,
+            "priorYearInflow": 2082.8571428571427,
+            "inflowYoy": 45.4,
+            "outflow": 2702.8571428571427,
+            "waterLevel": 375.485
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 22,
+            "weekStart": "2026-05-25",
+            "inflow": 3540.8571428571427,
+            "priorYearInflow": 1232.8333333333333,
+            "inflowYoy": 187.2,
+            "outflow": 2869.5714285714284,
+            "waterLevel": 220.38285714285715
         },
         {
             "station": "白鹤滩",
@@ -6136,6 +8025,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": -1700,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 786.8
         },
@@ -6146,18 +8037,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": 1410,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 193.48
         },
         {
-            "station": "彭水",
+            "station": "构皮滩",
             "basin": "乌江",
             "isoYear": 2026,
             "isoWeek": 23,
             "weekStart": "2026-06-01",
-            "inflow": -1550,
+            "inflow": 1770,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 286.61
+            "waterLevel": 607.68
         },
         {
             "station": "龙滩",
@@ -6166,8 +8061,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": 3291,
+            "priorYearInflow": 1648.142857142857,
+            "inflowYoy": 99.7,
             "outflow": 1986,
             "waterLevel": 342.73
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 23,
+            "weekStart": "2026-06-01",
+            "inflow": -1550,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 286.61
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 23,
+            "weekStart": "2026-06-01",
+            "inflow": 2000,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 823.65
         },
         {
             "station": "三峡",
@@ -6176,6 +8097,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": 15000,
+            "priorYearInflow": 11014.285714285714,
+            "inflowYoy": 36.2,
             "outflow": 20200,
             "waterLevel": 148.44
         },
@@ -6186,48 +8109,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": -624,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 383.74
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 23,
-            "weekStart": "2026-06-01",
-            "inflow": 1770,
-            "outflow": null,
-            "waterLevel": 607.68
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 23,
-            "weekStart": "2026-06-01",
-            "inflow": 3200,
-            "outflow": 4400,
-            "waterLevel": 374.24
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2026,
-            "isoWeek": 23,
-            "weekStart": "2026-06-01",
-            "inflow": 2000,
-            "outflow": null,
-            "waterLevel": 823.65
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 23,
-            "weekStart": "2026-06-01",
-            "inflow": 3288,
-            "outflow": 3033,
-            "waterLevel": 219.1
         },
         {
             "station": "乌东德",
@@ -6236,6 +8121,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": 2500,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 954.56
         },
@@ -6246,18 +8133,46 @@ window.WORKBENCH_DATA = {
             "isoWeek": 23,
             "weekStart": "2026-06-01",
             "inflow": -2600,
+            "priorYearInflow": null,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 569.42
         },
         {
-            "station": "龙滩",
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 23,
+            "weekStart": "2026-06-01",
+            "inflow": 3200,
+            "priorYearInflow": 3271.428571428572,
+            "inflowYoy": -2.2,
+            "outflow": 4400,
+            "waterLevel": 374.24
+        },
+        {
+            "station": "岩滩",
             "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 23,
+            "weekStart": "2026-06-01",
+            "inflow": 3288,
+            "priorYearInflow": 1535.2857142857142,
+            "inflowYoy": 114.2,
+            "outflow": 3033,
+            "waterLevel": 219.1
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
             "isoYear": 2026,
             "isoWeek": 24,
             "weekStart": "2026-06-08",
-            "inflow": 4403.142857142857,
-            "outflow": 1815.7142857142858,
-            "waterLevel": 345.94571428571425
+            "inflow": -150,
+            "priorYearInflow": 1700,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 786.69
         },
         {
             "station": "隔河岩",
@@ -6266,18 +8181,70 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2026-06-08",
             "inflow": -525.95,
+            "priorYearInflow": 369.95,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 192.685
         },
         {
-            "station": "岩滩",
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": 2225,
+            "priorYearInflow": 1080.5,
+            "inflowYoy": 105.9,
+            "outflow": null,
+            "waterLevel": 614.125
+        },
+        {
+            "station": "龙滩",
             "basin": "红水河",
             "isoYear": 2026,
             "isoWeek": 24,
             "weekStart": "2026-06-08",
-            "inflow": 2911.285714285714,
-            "outflow": 2867.714285714286,
-            "waterLevel": 219.6542857142857
+            "inflow": 4403.142857142857,
+            "priorYearInflow": 1112.571428571429,
+            "inflowYoy": 295.8,
+            "outflow": 1815.7142857142856,
+            "waterLevel": 345.94571428571425
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": 465,
+            "priorYearInflow": 256,
+            "inflowYoy": 81.6,
+            "outflow": null,
+            "waterLevel": 286.17499999999995
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": -342.5,
+            "priorYearInflow": -2150,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 822.36
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": 17957.14285714286,
+            "priorYearInflow": 11957.142857142857,
+            "inflowYoy": 50.2,
+            "outflow": 15600,
+            "waterLevel": 150.3857142857143
         },
         {
             "station": "水布垭",
@@ -6286,6 +8253,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2026-06-08",
             "inflow": -29.5,
+            "priorYearInflow": -179.7,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 382.235
         },
@@ -6296,58 +8265,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2026-06-08",
             "inflow": -2450,
+            "priorYearInflow": 200,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 952.24
-        },
-        {
-            "station": "彭水",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": 465,
-            "outflow": null,
-            "waterLevel": 286.17499999999995
-        },
-        {
-            "station": "白鹤滩",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": -150,
-            "outflow": null,
-            "waterLevel": 786.69
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": -342.5,
-            "outflow": null,
-            "waterLevel": 822.36
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": 3857.1428571428573,
-            "outflow": 4970,
-            "waterLevel": 372.905
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": 17957.14285714286,
-            "outflow": 15600,
-            "waterLevel": 150.3857142857143
         },
         {
             "station": "溪洛渡",
@@ -6356,68 +8277,34 @@ window.WORKBENCH_DATA = {
             "isoWeek": 24,
             "weekStart": "2026-06-08",
             "inflow": -2900,
+            "priorYearInflow": -4750,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 562.7
-        },
-        {
-            "station": "构皮滩",
-            "basin": "乌江",
-            "isoYear": 2026,
-            "isoWeek": 24,
-            "weekStart": "2026-06-08",
-            "inflow": 2225,
-            "outflow": null,
-            "waterLevel": 614.125
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 3441.1428571428573,
-            "outflow": 2729.5714285714284,
-            "waterLevel": 219.94428571428574
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 2857.1428571428573,
-            "outflow": 2924.285714285714,
-            "waterLevel": 371.99
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": 3857.142857142857,
+            "priorYearInflow": 4080,
+            "inflowYoy": -5.5,
+            "outflow": 4970,
+            "waterLevel": 372.905
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 3300,
-            "outflow": null,
-            "waterLevel": 949.245
-        },
-        {
-            "station": "龙滩",
+            "station": "岩滩",
             "basin": "红水河",
             "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 4834.857142857143,
-            "outflow": 1618.4285714285713,
-            "waterLevel": 349.25857142857143
-        },
-        {
-            "station": "三峡",
-            "basin": "长江干流",
-            "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 13785.714285714286,
-            "outflow": 18228.571428571428,
-            "waterLevel": 149.24
+            "isoWeek": 24,
+            "weekStart": "2026-06-08",
+            "inflow": 2911.285714285714,
+            "priorYearInflow": 1467,
+            "inflowYoy": 98.5,
+            "outflow": 2867.714285714286,
+            "waterLevel": 219.6542857142857
         },
         {
             "station": "白鹤滩",
@@ -6426,6 +8313,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2026-06-15",
             "inflow": -1900,
+            "priorYearInflow": -7200,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 784.19
         },
@@ -6436,28 +8325,10 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2026-06-15",
             "inflow": -793,
+            "priorYearInflow": 645.2,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 191.135
-        },
-        {
-            "station": "水布垭",
-            "basin": "清江",
-            "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": -431,
-            "outflow": null,
-            "waterLevel": 379.66999999999996
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 25,
-            "weekStart": "2026-06-15",
-            "inflow": 1050,
-            "outflow": null,
-            "waterLevel": 558.77
         },
         {
             "station": "构皮滩",
@@ -6466,8 +8337,22 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2026-06-15",
             "inflow": -15,
+            "priorYearInflow": 548,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 617.7049999999999
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 4834.857142857143,
+            "priorYearInflow": 2776.8571428571427,
+            "inflowYoy": 74.1,
+            "outflow": 1618.428571428571,
+            "waterLevel": 349.25857142857143
         },
         {
             "station": "彭水",
@@ -6476,6 +8361,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2026-06-15",
             "inflow": 315,
+            "priorYearInflow": -733.5,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 282.42499999999995
         },
@@ -6486,68 +8373,82 @@ window.WORKBENCH_DATA = {
             "isoWeek": 25,
             "weekStart": "2026-06-15",
             "inflow": 2735,
+            "priorYearInflow": -2005,
+            "inflowYoy": null,
             "outflow": null,
             "waterLevel": 829.68
-        },
-        {
-            "station": "向家坝",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 5114.285714285715,
-            "outflow": 5781.428571428572,
-            "waterLevel": 373.075
-        },
-        {
-            "station": "岩滩",
-            "basin": "红水河",
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 4134.142857142857,
-            "outflow": 3965.285714285714,
-            "waterLevel": 219.97857142857143
-        },
-        {
-            "station": "溪洛渡",
-            "basin": "金沙江下游",
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 5350,
-            "outflow": null,
-            "waterLevel": 558.9000000000001
-        },
-        {
-            "station": "瀑布沟",
-            "basin": "大渡河",
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 590,
-            "outflow": null,
-            "waterLevel": 834.97
         },
         {
             "station": "三峡",
             "basin": "长江干流",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 21000,
-            "outflow": 21728.571428571428,
-            "waterLevel": 147.22571428571428
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 13785.714285714286,
+            "priorYearInflow": 15000,
+            "inflowYoy": -8.1,
+            "outflow": 18228.571428571428,
+            "waterLevel": 149.24
         },
         {
             "station": "水布垭",
             "basin": "清江",
             "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "inflow": 601,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": -431,
+            "priorYearInflow": 718,
+            "inflowYoy": null,
             "outflow": null,
-            "waterLevel": 383.47
+            "waterLevel": 379.67
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 3300,
+            "priorYearInflow": -4350,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 949.245
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 1050,
+            "priorYearInflow": 6400,
+            "inflowYoy": -83.6,
+            "outflow": null,
+            "waterLevel": 558.77
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 2857.1428571428573,
+            "priorYearInflow": 4533.333333333333,
+            "inflowYoy": -37,
+            "outflow": 2924.285714285714,
+            "waterLevel": 371.99
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 25,
+            "weekStart": "2026-06-15",
+            "inflow": 3441.1428571428573,
+            "priorYearInflow": 2053.8571428571427,
+            "inflowYoy": 67.5,
+            "outflow": 2729.5714285714284,
+            "waterLevel": 219.9442857142857
         },
         {
             "station": "白鹤滩",
@@ -6555,29 +8456,35 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": 5800,
+            "inflow": 5600,
+            "priorYearInflow": 200,
+            "inflowYoy": 2700,
             "outflow": null,
-            "waterLevel": 783.9300000000001
+            "waterLevel": 784
         },
         {
-            "station": "彭水",
-            "basin": "乌江",
+            "station": "大岗山",
+            "basin": "大渡河",
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": -435,
-            "outflow": null,
-            "waterLevel": 282.915
+            "inflow": 3742.625,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3721.9259259259256,
+            "waterLevel": 1122.5310833333333
         },
         {
-            "station": "乌东德",
-            "basin": "金沙江下游",
+            "station": "二滩",
+            "basin": "雅砻江",
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": -750,
-            "outflow": null,
-            "waterLevel": 952.355
+            "inflow": 1756.8541666666667,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1501.2666666666667,
+            "waterLevel": 1174.4823749999998
         },
         {
             "station": "隔河岩",
@@ -6585,9 +8492,23 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": -274,
+            "inflow": 444,
+            "priorYearInflow": 132.5,
+            "inflowYoy": 235.1,
             "outflow": null,
-            "waterLevel": 190.76
+            "waterLevel": 190.88
+        },
+        {
+            "station": "龚嘴",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 4342.75,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 4352.444444444444,
+            "waterLevel": 524.1025416666668
         },
         {
             "station": "构皮滩",
@@ -6595,9 +8516,59 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": 345,
+            "inflow": 2050,
+            "priorYearInflow": 795,
+            "inflowYoy": 157.9,
             "outflow": null,
-            "waterLevel": 617.53
+            "waterLevel": 617.99
+        },
+        {
+            "station": "官地",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 1626.0999999999997,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1575.8374999999999,
+            "waterLevel": 1326.9759166666668
+        },
+        {
+            "station": "猴子岩",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3040.2916666666665,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3121,
+            "waterLevel": 1833.984416666667
+        },
+        {
+            "station": "黄金坪水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3706.1175925925927,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3688.323611111111,
+            "waterLevel": 1474.605509259259
+        },
+        {
+            "station": "锦屏一级",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 1752.3708333333334,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1314.7625,
+            "waterLevel": 1829.181125
         },
         {
             "station": "龙滩",
@@ -6605,19 +8576,287 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 26,
             "weekStart": "2026-06-22",
-            "inflow": 5879.571428571428,
-            "outflow": 2190.5714285714284,
-            "waterLevel": 358.63142857142856
+            "inflow": 6306.6,
+            "priorYearInflow": 5105.857142857143,
+            "inflowYoy": 23.5,
+            "outflow": 2903,
+            "waterLevel": 359.848
+        },
+        {
+            "station": "龙头石",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3568.3689839572194,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3558.9090909090905,
+            "waterLevel": 952.2559572192513
+        },
+        {
+            "station": "泸定",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3720.096256684492,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3682.356506238859,
+            "waterLevel": 1377.5644919786098
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 1190,
+            "priorYearInflow": 3440,
+            "inflowYoy": -65.4,
+            "outflow": null,
+            "waterLevel": 283.73
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 4045.6666666666665,
+            "priorYearInflow": 260,
+            "inflowYoy": 1456,
+            "outflow": 3479.3333333333335,
+            "waterLevel": 835.3896249999999
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 22240,
+            "priorYearInflow": 19371.42857142857,
+            "inflowYoy": 14.8,
+            "outflow": 22280,
+            "waterLevel": 147.456
+        },
+        {
+            "station": "沙湾",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3724.0509259259256,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3691.0648148148143,
+            "waterLevel": 430.25474537037036
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 503,
+            "priorYearInflow": 883,
+            "inflowYoy": -43,
+            "outflow": null,
+            "waterLevel": 384.07
+        },
+        {
+            "station": "铜街子",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 4404.291666666667,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 4314.125,
+            "waterLevel": 471.28883333333334
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": -5500,
+            "priorYearInflow": 100,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 951.36
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 5800,
+            "priorYearInflow": 5700,
+            "inflowYoy": 1.8,
+            "outflow": null,
+            "waterLevel": 559.35
         },
         {
             "station": "向家坝",
             "basin": "金沙江下游",
             "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 5040,
+            "priorYearInflow": 5171.428571428572,
+            "inflowYoy": -2.5,
+            "outflow": 5920,
+            "waterLevel": 373.5
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 5059.2,
+            "priorYearInflow": 2854,
+            "inflowYoy": 77.3,
+            "outflow": 4167,
+            "waterLevel": 219.86599999999999
+        },
+        {
+            "station": "长河坝水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 26,
+            "weekStart": "2026-06-22",
+            "inflow": 3387.559259259259,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3204.674074074074,
+            "waterLevel": 1686.4809682539683
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
             "isoWeek": 27,
             "weekStart": "2026-06-29",
-            "inflow": 4600,
-            "outflow": 6020,
-            "waterLevel": null
+            "inflow": -650,
+            "priorYearInflow": -100,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 785.405
+        },
+        {
+            "station": "大岗山",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2352.1932053453793,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2255.9076792772444,
+            "waterLevel": 1124.407572228496
+        },
+        {
+            "station": "二滩",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2025.171150278293,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1493.0379870129868,
+            "waterLevel": 1180.0172306740878
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": -365.95,
+            "priorYearInflow": 199.65,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 189.07
+        },
+        {
+            "station": "龚嘴",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2881.0853096179185,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2794.559858850967,
+            "waterLevel": 525.5552428006777
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 1820,
+            "priorYearInflow": 1855,
+            "inflowYoy": -1.9,
+            "outflow": null,
+            "waterLevel": 618.685
+        },
+        {
+            "station": "官地",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 1827.8278602350033,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1896.896397649969,
+            "waterLevel": 1326.5464098639454
+        },
+        {
+            "station": "猴子岩",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 1902.0358083945043,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1813.6631846414457,
+            "waterLevel": 1835.877132505176
+        },
+        {
+            "station": "黄金坪水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2157.6338899196044,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2148.3562770562776,
+            "waterLevel": 1474.395910636982
+        },
+        {
+            "station": "锦屏一级",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 1938.9673469387756,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1362.7727891156462,
+            "waterLevel": 1836.2217481447126
         },
         {
             "station": "龙滩",
@@ -6625,9 +8864,59 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 27,
             "weekStart": "2026-06-29",
-            "inflow": 5937.5,
-            "outflow": 3190,
-            "waterLevel": 361.78499999999997
+            "inflow": 5276,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2769.714285714286,
+            "waterLevel": 363.66285714285715
+        },
+        {
+            "station": "龙头石",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2139.887069452287,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2133.537078863166,
+            "waterLevel": 953.898097826087
+        },
+        {
+            "station": "泸定",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2097.2675512892906,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2106.4182194616974,
+            "waterLevel": 1377.4759740259742
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": -25,
+            "priorYearInflow": -2715,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 285.79499999999996
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2492.034632034632,
+            "priorYearInflow": -2655,
+            "inflowYoy": null,
+            "outflow": 2377.915221424538,
+            "waterLevel": 838.8733777997365
         },
         {
             "station": "三峡",
@@ -6635,9 +8924,83 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 27,
             "weekStart": "2026-06-29",
-            "inflow": 24250,
-            "outflow": 25000,
-            "waterLevel": 148.135
+            "inflow": 24700,
+            "priorYearInflow": 23014.28571428572,
+            "inflowYoy": 7.3,
+            "outflow": 27128.571428571428,
+            "waterLevel": 148.02142857142857
+        },
+        {
+            "station": "沙湾",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2437.451863354037,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2424.0147515527956,
+            "waterLevel": 429.9813843167702
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": -95.5,
+            "priorYearInflow": 321,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 383.80999999999995
+        },
+        {
+            "station": "铜街子",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2734.1829004329006,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2687.7907289397976,
+            "waterLevel": 471.136948522492
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 300,
+            "priorYearInflow": 300,
+            "inflowYoy": 0,
+            "outflow": null,
+            "waterLevel": 948.435
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 5851.428571428572,
+            "priorYearInflow": -2199.5,
+            "inflowYoy": null,
+            "outflow": 5912.678336156597,
+            "waterLevel": 564.5761864765669
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 5948.571428571428,
+            "priorYearInflow": 5842.857142857143,
+            "inflowYoy": 1.8,
+            "outflow": 5814.291360813099,
+            "waterLevel": 371.7917955957086
         },
         {
             "station": "岩滩",
@@ -6645,283 +9008,873 @@ window.WORKBENCH_DATA = {
             "isoYear": 2026,
             "isoWeek": 27,
             "weekStart": "2026-06-29",
-            "inflow": 4641.5,
-            "outflow": 4551.5,
-            "waterLevel": 219.555
+            "inflow": 4295.571428571428,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 4393.857142857143,
+            "waterLevel": 219.24571428571429
+        },
+        {
+            "station": "长河坝水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 27,
+            "weekStart": "2026-06-29",
+            "inflow": 2019.477520098949,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1992.0374458874455,
+            "waterLevel": 1688.170045145331
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": -5900,
+            "priorYearInflow": 5650,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 784.87
+        },
+        {
+            "station": "大岗山",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1703.3116883116886,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1676.1719233147803,
+            "waterLevel": 1126.7085064935065
+        },
+        {
+            "station": "二滩",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1856.6790352504638,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1725.8580705009276,
+            "waterLevel": 1182.333284168213
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": -0.40000000000000036,
+            "priorYearInflow": 4.75,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 185.73000000000002
+        },
+        {
+            "station": "龚嘴",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 2280.5194805194806,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2279.84772856511,
+            "waterLevel": 526.6668831168831
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 589,
+            "priorYearInflow": -1625,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 624.425
+        },
+        {
+            "station": "官地",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1801.6481137909711,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1741.6639455782313,
+            "waterLevel": 1326.6891270871986
+        },
+        {
+            "station": "猴子岩",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1238.1818181818182,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1249.3506493506495,
+            "waterLevel": 1837.5342857142857
+        },
+        {
+            "station": "黄金坪水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1467.2427070110339,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1467.9748193535786,
+            "waterLevel": 1474.831969229079
+        },
+        {
+            "station": "锦屏一级",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1957.8095856524428,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1508.3959183673471,
+            "waterLevel": 1840.676403834261
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 2906.714285714286,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1339.142857142857,
+            "waterLevel": 367.3228571428572
+        },
+        {
+            "station": "龙头石",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1642.3531230674087,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1638.2900432900435,
+            "waterLevel": 953.5032529375387
+        },
+        {
+            "station": "泸定",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1460.974025974026,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1463.3116883116886,
+            "waterLevel": 1377.3427272727272
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": -55,
+            "priorYearInflow": -375,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 288.695
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1911.1298701298704,
+            "priorYearInflow": 700,
+            "inflowYoy": 173,
+            "outflow": 1925.6493506493503,
+            "waterLevel": 839.5944805194804
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 16400,
+            "priorYearInflow": 28500,
+            "inflowYoy": -42.5,
+            "outflow": 17357.14285714286,
+            "waterLevel": 147.09428571428572
+        },
+        {
+            "station": "沙湾",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1968.8035714285713,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1927.705357142857,
+            "waterLevel": 430.2990178571429
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 68.75,
+            "priorYearInflow": 151.5,
+            "inflowYoy": -54.6,
+            "outflow": null,
+            "waterLevel": 384.72
+        },
+        {
+            "station": "铜街子",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 2235.374149659864,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2211.6985157699446,
+            "waterLevel": 472.2498299319729
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 5200,
+            "priorYearInflow": 5050,
+            "inflowYoy": 3,
+            "outflow": null,
+            "waterLevel": 951.355
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 5594.285714285715,
+            "priorYearInflow": -4500,
+            "inflowYoy": null,
+            "outflow": 5554.415584415584,
+            "waterLevel": 563.2002597402598
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 5841.428571428572,
+            "priorYearInflow": 4757.142857142857,
+            "inflowYoy": 22.8,
+            "outflow": 5285.584415584417,
+            "waterLevel": 373.23136363636365
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 2429.285714285714,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2216.714285714286,
+            "waterLevel": 219.88857142857142
+        },
+        {
+            "station": "长河坝水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 28,
+            "weekStart": "2026-07-06",
+            "inflow": 1377.170850158245,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1350.1961443668376,
+            "waterLevel": 1688.9727095610974
+        },
+        {
+            "station": "白鹤滩",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 8300,
+            "priorYearInflow": 1750,
+            "inflowYoy": 374,
+            "outflow": null,
+            "waterLevel": 786.52
+        },
+        {
+            "station": "大岗山",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1847,
+            "priorYearInflow": null,
+            "inflowYoy": 11,
+            "outflow": 1822.3593073593074,
+            "waterLevel": 1127.08
+        },
+        {
+            "station": "二滩",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2105,
+            "priorYearInflow": null,
+            "inflowYoy": 14,
+            "outflow": 1788.2316017316018,
+            "waterLevel": 1183.62
+        },
+        {
+            "station": "隔河岩",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 29,
+            "priorYearInflow": 23.15,
+            "inflowYoy": 26,
+            "outflow": null,
+            "waterLevel": 186.66
+        },
+        {
+            "station": "龚嘴",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2266,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2306.183163791832,
+            "waterLevel": 525.67
+        },
+        {
+            "station": "构皮滩",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -1340,
+            "priorYearInflow": -1415,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 623.77
+        },
+        {
+            "station": "官地",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1840,
+            "priorYearInflow": null,
+            "inflowYoy": 6,
+            "outflow": 1875.217748917749,
+            "waterLevel": 1327.65
+        },
+        {
+            "station": "猴子岩",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1260,
+            "priorYearInflow": null,
+            "inflowYoy": 21,
+            "outflow": 1276.813852813853,
+            "waterLevel": 1836.06
+        },
+        {
+            "station": "黄金坪水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1506,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1507.9075415812258,
+            "waterLevel": 1474.92
+        },
+        {
+            "station": "锦屏一级",
+            "basin": "雅砻江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2041,
+            "priorYearInflow": null,
+            "inflowYoy": 45,
+            "outflow": 1508.9917748917749,
+            "waterLevel": 1844.98
+        },
+        {
+            "station": "龙滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2968.8,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3408.4,
+            "waterLevel": 367.59
+        },
+        {
+            "station": "龙头石",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1762,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1788.0909090909088,
+            "waterLevel": 953.79
+        },
+        {
+            "station": "泸定",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1530,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1531.7017316017316,
+            "waterLevel": 1377.55
+        },
+        {
+            "station": "彭水",
+            "basin": "乌江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1770,
+            "priorYearInflow": -150,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 286.39
+        },
+        {
+            "station": "瀑布沟",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2210,
+            "priorYearInflow": 55,
+            "inflowYoy": 19,
+            "outflow": 1915.6497835497835,
+            "waterLevel": 840.29
+        },
+        {
+            "station": "三峡",
+            "basin": "长江干流",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 16820,
+            "priorYearInflow": 16533.333333333332,
+            "inflowYoy": 2,
+            "outflow": 13920,
+            "waterLevel": 147.66
+        },
+        {
+            "station": "沙湾",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2081,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2084.683574879227,
+            "waterLevel": 430.62
+        },
+        {
+            "station": "水布垭",
+            "basin": "清江",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -206,
+            "priorYearInflow": -7.75,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 384.89
+        },
+        {
+            "station": "铜街子",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 2200,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 2226.008658008658,
+            "waterLevel": 470.67
+        },
+        {
+            "station": "乌东德",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": -5400,
+            "priorYearInflow": 0,
+            "inflowYoy": null,
+            "outflow": null,
+            "waterLevel": 952
+        },
+        {
+            "station": "溪洛渡",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 6572,
+            "priorYearInflow": 4300,
+            "inflowYoy": null,
+            "outflow": 5864.454545454546,
+            "waterLevel": 564.76
+        },
+        {
+            "station": "向家坝",
+            "basin": "金沙江下游",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 5912,
+            "priorYearInflow": 4057.142857142857,
+            "inflowYoy": null,
+            "outflow": 5997.363636363636,
+            "waterLevel": 373.98
+        },
+        {
+            "station": "岩滩",
+            "basin": "红水河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 3979.8,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 3392.8,
+            "waterLevel": 219.61
+        },
+        {
+            "station": "长河坝水电站",
+            "basin": "大渡河",
+            "isoYear": 2026,
+            "isoWeek": 29,
+            "weekStart": "2026-07-13",
+            "inflow": 1397,
+            "priorYearInflow": null,
+            "inflowYoy": null,
+            "outflow": 1397.226406926407,
+            "waterLevel": 1688.92
         }
     ],
     "hydroHourlyLatest": [
         {
-            "station": "铜街子",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 3730,
-            "outflow": 4390,
-            "waterLevel": 471.93
-        },
-        {
-            "station": "龚嘴",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 2430,
-            "outflow": 4020,
-            "waterLevel": 526.04
-        },
-        {
-            "station": "溪洛渡水库",
-            "river": "金沙江",
-            "time": "2026-07-11 21:00",
-            "inflow": null,
-            "outflow": 5320,
-            "waterLevel": 563.18
-        },
-        {
-            "station": "瀑布沟",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 2560,
-            "outflow": 1920,
-            "waterLevel": 839.41
-        },
-        {
-            "station": "龙头石",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 2340,
-            "outflow": 2400,
-            "waterLevel": 953.98
-        },
-        {
-            "station": "猴子岩",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 1100,
-            "outflow": 1050,
-            "waterLevel": 1837.38
-        },
-        {
-            "station": "大岗山",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 1770,
-            "outflow": 2560,
-            "waterLevel": 1125.43
-        },
-        {
             "station": "官地",
             "river": "雅砻江",
-            "time": "2026-07-11 21:00",
-            "inflow": 1956,
-            "outflow": 2039,
-            "waterLevel": 1326.68
-        },
-        {
-            "station": "锦屏一级",
-            "river": "雅砻江",
-            "time": "2026-07-11 21:00",
-            "inflow": 2017,
-            "outflow": 1660,
-            "waterLevel": 1842.08
-        },
-        {
-            "station": "泸定",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 1200,
-            "outflow": 1340,
-            "waterLevel": 1377.6
-        },
-        {
-            "station": "二滩",
-            "river": "雅砻江",
-            "time": "2026-07-11 21:00",
-            "inflow": 1862,
-            "outflow": 2112,
-            "waterLevel": 1182.68
-        },
-        {
-            "station": "向家坝水库",
-            "river": "金沙江",
-            "time": "2026-07-11 21:00",
-            "inflow": null,
-            "outflow": 3830,
-            "waterLevel": 374.02
-        },
-        {
-            "station": "长河坝水电站",
-            "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 1032,
-            "outflow": 1247,
-            "waterLevel": 1688.2
+            "time": "2026-07-17 10:00",
+            "inflow": 1764,
+            "outflow": 1820,
+            "waterLevel": 1327.05
         },
         {
             "station": "黄金坪水电站",
             "river": "大渡河",
-            "time": "2026-07-11 21:00",
-            "inflow": 1259,
-            "outflow": 1152,
-            "waterLevel": 1474.96
+            "time": "2026-07-17 10:00",
+            "inflow": 1718,
+            "outflow": 1635,
+            "waterLevel": 1475.05
+        },
+        {
+            "station": "龙头石",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 1520,
+            "outflow": 1350,
+            "waterLevel": 954.18
+        },
+        {
+            "station": "铜街子",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 2890,
+            "outflow": 2850,
+            "waterLevel": 471.4
+        },
+        {
+            "station": "龚嘴",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 2630,
+            "outflow": null,
+            "waterLevel": 525.13
+        },
+        {
+            "station": "大岗山",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 1880,
+            "outflow": 1520,
+            "waterLevel": 1127.23
+        },
+        {
+            "station": "锦屏一级",
+            "river": "雅砻江",
+            "time": "2026-07-17 10:00",
+            "inflow": 1676,
+            "outflow": 1446,
+            "waterLevel": 1846.19
+        },
+        {
+            "station": "溪洛渡水库",
+            "river": "金沙江",
+            "time": "2026-07-17 10:00",
+            "inflow": null,
+            "outflow": 5380,
+            "waterLevel": 565.9
+        },
+        {
+            "station": "猴子岩",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 1300,
+            "outflow": 1170,
+            "waterLevel": 1835.75
+        },
+        {
+            "station": "向家坝水库",
+            "river": "金沙江",
+            "time": "2026-07-17 10:00",
+            "inflow": null,
+            "outflow": 6210,
+            "waterLevel": 373.52
+        },
+        {
+            "station": "长河坝水电站",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 1391,
+            "outflow": 1570,
+            "waterLevel": 1689.03
+        },
+        {
+            "station": "瀑布沟",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 2120,
+            "outflow": 1790,
+            "waterLevel": 840.72
+        },
+        {
+            "station": "二滩",
+            "river": "雅砻江",
+            "time": "2026-07-17 10:00",
+            "inflow": 2179,
+            "outflow": 1485,
+            "waterLevel": 1184.28
+        },
+        {
+            "station": "泸定",
+            "river": "大渡河",
+            "time": "2026-07-17 10:00",
+            "inflow": 1660,
+            "outflow": 1880,
+            "waterLevel": 1377.82
         },
         {
             "station": "沙湾",
             "river": "大渡河",
-            "time": "2026-07-11 15:00",
-            "inflow": 3010,
-            "outflow": 3340,
-            "waterLevel": 431.3
+            "time": "2026-07-17 08:00",
+            "inflow": 2150,
+            "outflow": 2000,
+            "waterLevel": 430.25
         }
     ],
     "hydroQtdMetrics": [
         {
             "station": "向家坝水库",
             "river": "金沙江",
-            "latestTime": "2026-07-11 21:00",
+            "latestTime": "2026-07-17 10:00",
             "latestInflow": null,
-            "avg7dInflow": 6084.29,
-            "avg14dInflow": 6037.69,
-            "qtdInflow": 6168.18,
-            "sampleHours": 241
+            "avg7dInflow": 5445.71,
+            "avg14dInflow": 5850.71,
+            "qtdInflow": 5947.59,
+            "sampleHours": 362
         },
         {
             "station": "溪洛渡水库",
             "river": "金沙江",
-            "latestTime": "2026-07-11 21:00",
+            "latestTime": "2026-07-17 10:00",
             "latestInflow": null,
-            "avg7dInflow": 5848.57,
-            "avg14dInflow": 5807.69,
-            "qtdInflow": 5772.73,
-            "sampleHours": 241
+            "avg7dInflow": 5954.29,
+            "avg14dInflow": 6002.86,
+            "qtdInflow": 5912.05,
+            "sampleHours": 362
         },
         {
             "station": "龚嘴",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 2430,
-            "avg7dInflow": 2202.65,
-            "avg14dInflow": 2589.41,
-            "qtdInflow": 2268.3,
-            "sampleHours": 241
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 2630,
+            "avg7dInflow": 2365.55,
+            "avg14dInflow": 2259.68,
+            "qtdInflow": 2290.97,
+            "sampleHours": 362
         },
         {
             "station": "铜街子",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 3730,
-            "avg7dInflow": 2126.62,
-            "avg14dInflow": 2483.26,
-            "qtdInflow": 2156.25,
-            "sampleHours": 240
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 2890,
+            "avg7dInflow": 2319.48,
+            "avg14dInflow": 2182.44,
+            "qtdInflow": 2196.76,
+            "sampleHours": 361
         },
         {
             "station": "瀑布沟",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 2560,
-            "avg7dInflow": 1885.45,
-            "avg14dInflow": 2225.07,
-            "qtdInflow": 2043.54,
-            "sampleHours": 241
-        },
-        {
-            "station": "锦屏一级",
-            "river": "雅砻江",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 2017,
-            "avg7dInflow": 1917.59,
-            "avg14dInflow": 1932.84,
-            "qtdInflow": 1937.26,
-            "sampleHours": 235
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 2120,
+            "avg7dInflow": 2100.45,
+            "avg14dInflow": 2019.5,
+            "qtdInflow": 2073.71,
+            "sampleHours": 362
         },
         {
             "station": "沙湾",
             "river": "大渡河",
-            "latestTime": "2026-07-11 15:00",
-            "latestInflow": 3010,
-            "avg7dInflow": 1858.02,
-            "avg14dInflow": 2254.74,
-            "qtdInflow": 1905.18,
-            "sampleHours": 190
+            "latestTime": "2026-07-17 08:00",
+            "latestInflow": 2150,
+            "avg7dInflow": 2140.25,
+            "avg14dInflow": 1970.68,
+            "qtdInflow": 1991.48,
+            "sampleHours": 286
+        },
+        {
+            "station": "锦屏一级",
+            "river": "雅砻江",
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1676,
+            "avg7dInflow": 2061.99,
+            "avg14dInflow": 1978.76,
+            "qtdInflow": 1984.99,
+            "sampleHours": 355
         },
         {
             "station": "二滩",
             "river": "雅砻江",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1862,
-            "avg7dInflow": 1816.61,
-            "avg14dInflow": 1932.53,
-            "qtdInflow": 1896.28,
-            "sampleHours": 235
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 2179,
+            "avg7dInflow": 2039.65,
+            "avg14dInflow": 1942.3,
+            "qtdInflow": 1962.77,
+            "sampleHours": 355
         },
         {
             "station": "大岗山",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1770,
-            "avg7dInflow": 1653.55,
-            "avg14dInflow": 2048.55,
-            "qtdInflow": 1874.85,
-            "sampleHours": 241
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1880,
+            "avg7dInflow": 1804.77,
+            "avg14dInflow": 1768.09,
+            "qtdInflow": 1865.69,
+            "sampleHours": 362
         },
         {
             "station": "官地",
             "river": "雅砻江",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1956,
-            "avg7dInflow": 1780.55,
-            "avg14dInflow": 1804.67,
-            "qtdInflow": 1780.54,
-            "sampleHours": 235
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1764,
+            "avg7dInflow": 1852.39,
+            "avg14dInflow": 1815.28,
+            "qtdInflow": 1809.4,
+            "sampleHours": 355
         },
         {
             "station": "龙头石",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 2340,
-            "avg7dInflow": 1637.99,
-            "avg14dInflow": 1923.04,
-            "qtdInflow": 1759.5,
-            "sampleHours": 241
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1520,
+            "avg7dInflow": 1735.42,
+            "avg14dInflow": 1697.24,
+            "qtdInflow": 1750.83,
+            "sampleHours": 362
         },
         {
             "station": "黄金坪水电站",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1259,
-            "avg7dInflow": 1474.03,
-            "avg14dInflow": 1869.81,
-            "qtdInflow": 1709.31,
-            "sampleHours": 221
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1718,
+            "avg7dInflow": 1469.14,
+            "avg14dInflow": 1508.6,
+            "qtdInflow": 1631.4,
+            "sampleHours": 334
         },
         {
             "station": "泸定",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1200,
-            "avg7dInflow": 1454.9,
-            "avg14dInflow": 1820.31,
-            "qtdInflow": 1642.12,
-            "sampleHours": 241
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1660,
+            "avg7dInflow": 1492.63,
+            "avg14dInflow": 1511.18,
+            "qtdInflow": 1599.19,
+            "sampleHours": 359
         },
         {
             "station": "长河坝水电站",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1032,
-            "avg7dInflow": 1360.17,
-            "avg14dInflow": 1741.37,
-            "qtdInflow": 1565.78,
-            "sampleHours": 226
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1391,
+            "avg7dInflow": 1354.39,
+            "avg14dInflow": 1405.11,
+            "qtdInflow": 1505.62,
+            "sampleHours": 344
         },
         {
             "station": "猴子岩",
             "river": "大渡河",
-            "latestTime": "2026-07-11 21:00",
-            "latestInflow": 1100,
-            "avg7dInflow": 1265.42,
-            "avg14dInflow": 1612.66,
-            "qtdInflow": 1450.5,
-            "sampleHours": 241
+            "latestTime": "2026-07-17 10:00",
+            "latestInflow": 1300,
+            "avg7dInflow": 1198.25,
+            "avg14dInflow": 1281.71,
+            "qtdInflow": 1375.02,
+            "sampleHours": 362
         }
     ],
     "spotWeeklyLatest": [
@@ -39702,8 +42655,8 @@ window.WORKBENCH_DATA = {
     ],
     "publicWindow": {
         "label": "滚动近两年",
-        "cutoff": "2024-02-01",
-        "asOf": "2026-07-16"
+        "cutoff": "2024-07-17",
+        "asOf": "2026-07-17"
     },
     "provinceInstalledCapacityAnnual": [
         {
@@ -67812,6 +70765,736 @@ window.WORKBENCH_DATA = {
             "residential": 7315,
             "dataSource": "Wind EDB / 国家能源局",
             "indicatorCodes": "S0048389/S0048390/S0048391/S0048392/S0048393"
+        }
+    ],
+    "hydroCompanyWeeklyHistory": [
+        {
+            "company": "长江电力",
+            "week": "2026-W01",
+            "period": "12-29~01-04",
+            "days": 4,
+            "power": 27.113276035195792,
+            "yoy": -9.474612670370941,
+            "scope": "六库完整",
+            "coverage": "4/4/4",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W02",
+            "period": "01-05~01-11",
+            "days": 7,
+            "power": 50.05202434670869,
+            "yoy": -4.130703003560132,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W03",
+            "period": "01-12~01-18",
+            "days": 7,
+            "power": 51.15611989607889,
+            "yoy": -3.7632752607966946,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W04",
+            "period": "01-19~01-25",
+            "days": 7,
+            "power": 53.22631978668634,
+            "yoy": 8.633386870202875,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W05",
+            "period": "01-26~02-01",
+            "days": 7,
+            "power": 51.84525099949073,
+            "yoy": 38.96424474547197,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W06",
+            "period": "02-02~02-08",
+            "days": 7,
+            "power": 50.28722969763366,
+            "yoy": 18.872964739980148,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W07",
+            "period": "02-09~02-15",
+            "days": 7,
+            "power": 46.13864185243497,
+            "yoy": -5.705599122806271,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W08",
+            "period": "02-16~02-22",
+            "days": 7,
+            "power": 38.229505261758874,
+            "yoy": -19.77180143075843,
+            "scope": "六库完整",
+            "coverage": "6/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W09",
+            "period": "02-23~03-01",
+            "days": 7,
+            "power": 42.849876676452176,
+            "yoy": -2.6242215986267414,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W10",
+            "period": "03-02~03-08",
+            "days": 7,
+            "power": 49.580509583539424,
+            "yoy": 5.756323552754039,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W11",
+            "period": "03-09~03-15",
+            "days": 7,
+            "power": 49.16730808463329,
+            "yoy": -1.0340132205466035,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W12",
+            "period": "03-16~03-22",
+            "days": 7,
+            "power": 44.98804937723726,
+            "yoy": 7.499230332479767,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W13",
+            "period": "03-23~03-29",
+            "days": 7,
+            "power": 38.5708706451973,
+            "yoy": -6.574800715151818,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W14",
+            "period": "03-30~04-05",
+            "days": 7,
+            "power": 39.019500114427146,
+            "yoy": 22.475526065412566,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W15",
+            "period": "04-06~04-12",
+            "days": 7,
+            "power": 46.87999956682402,
+            "yoy": -4.584012624925638,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W16",
+            "period": "04-13~04-19",
+            "days": 7,
+            "power": 49.22030554377068,
+            "yoy": 4.194926578800473,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W17",
+            "period": "04-20~04-26",
+            "days": 7,
+            "power": 50.573615673872716,
+            "yoy": 6.370013391388629,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W18",
+            "period": "04-27~05-03",
+            "days": 7,
+            "power": 51.01532285220163,
+            "yoy": 13.336936149731171,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W19",
+            "period": "05-04~05-10",
+            "days": 7,
+            "power": 50.51612150186485,
+            "yoy": 2.8416655311433336,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W20",
+            "period": "05-11~05-17",
+            "days": 7,
+            "power": 56.853976993288065,
+            "yoy": 3.51203525320829,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W21",
+            "period": "05-18~05-24",
+            "days": 7,
+            "power": 63.03533673207928,
+            "yoy": 10.140948166873542,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W22",
+            "period": "05-25~05-31",
+            "days": 7,
+            "power": 68.56620681871473,
+            "yoy": 29.93421771987674,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W23",
+            "period": "06-01~06-07",
+            "days": 7,
+            "power": 64.85664617121452,
+            "yoy": 4.078420111652936,
+            "scope": "六库完整",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W24",
+            "period": "06-08~06-14",
+            "days": 7,
+            "power": 60.595625247271116,
+            "yoy": -12.016011695450002,
+            "scope": "六库完整",
+            "coverage": "7/0/0",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W25",
+            "period": "06-15~06-21",
+            "days": 7,
+            "power": 62.661814140226696,
+            "yoy": -8.083101324406105,
+            "scope": "六库完整",
+            "coverage": "7/0/0",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W26",
+            "period": "06-22~06-28",
+            "days": 7,
+            "power": 67.03619056149326,
+            "yoy": -2.843124113260276,
+            "scope": "六库完整",
+            "coverage": "7/0/5",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W27",
+            "period": "06-29~07-05",
+            "days": 7,
+            "power": 69.08405860032956,
+            "yoy": null,
+            "scope": "乌白缺口（四站可见量）",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W28",
+            "period": "07-06~07-12",
+            "days": 7,
+            "power": 50.44279175833821,
+            "yoy": null,
+            "scope": "乌白缺口（四站可见量）",
+            "coverage": "7/7/7",
+            "confidence": "低"
+        },
+        {
+            "company": "长江电力",
+            "week": "2026-W29",
+            "period": "07-13~07-17",
+            "days": 5,
+            "power": 32.08162622755857,
+            "yoy": null,
+            "scope": "乌白缺口（四站可见量）",
+            "coverage": "5/4/5",
+            "confidence": "低"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W01",
+            "period": "12-29~01-04",
+            "days": 7,
+            "power": 5.6,
+            "yoy": 20,
+            "scope": "2025Q4,2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W02",
+            "period": "01-05~01-11",
+            "days": 7,
+            "power": 5.1,
+            "yoy": 19,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W03",
+            "period": "01-12~01-18",
+            "days": 7,
+            "power": 5.2,
+            "yoy": 35,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W04",
+            "period": "01-19~01-25",
+            "days": 6,
+            "power": 5.4,
+            "yoy": 62,
+            "scope": "2026Q1",
+            "coverage": "6/6/6",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W05",
+            "period": "01-26~02-01",
+            "days": 7,
+            "power": 5.2,
+            "yoy": 36,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W06",
+            "period": "02-02~02-08",
+            "days": 7,
+            "power": 4.6,
+            "yoy": 2,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W07",
+            "period": "02-09~02-15",
+            "days": 7,
+            "power": 4.2,
+            "yoy": 5,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W08",
+            "period": "02-16~02-22",
+            "days": 7,
+            "power": 4.5,
+            "yoy": 9,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W09",
+            "period": "02-23~03-01",
+            "days": 7,
+            "power": 4.1,
+            "yoy": -2,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W10",
+            "period": "03-02~03-08",
+            "days": 7,
+            "power": 4.5,
+            "yoy": -9,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W11",
+            "period": "03-09~03-15",
+            "days": 7,
+            "power": 5.2,
+            "yoy": 8,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W12",
+            "period": "03-16~03-22",
+            "days": 7,
+            "power": 4.7,
+            "yoy": -22,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W13",
+            "period": "03-23~03-29",
+            "days": 7,
+            "power": 5,
+            "yoy": 16,
+            "scope": "2026Q1",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W14",
+            "period": "03-30~04-05",
+            "days": 7,
+            "power": 5.5,
+            "yoy": -7,
+            "scope": "2026Q1,2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W15",
+            "period": "04-06~04-12",
+            "days": 7,
+            "power": 6,
+            "yoy": 21,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W16",
+            "period": "04-13~04-19",
+            "days": 7,
+            "power": 6.6,
+            "yoy": 13,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W17",
+            "period": "04-20~04-26",
+            "days": 7,
+            "power": 8.4,
+            "yoy": 37,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W18",
+            "period": "04-27~05-03",
+            "days": 7,
+            "power": 7.8,
+            "yoy": 23,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W19",
+            "period": "05-04~05-10",
+            "days": 7,
+            "power": 8.8,
+            "yoy": 27,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W20",
+            "period": "05-11~05-17",
+            "days": 7,
+            "power": 7.6,
+            "yoy": -8,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W21",
+            "period": "05-18~05-24",
+            "days": 7,
+            "power": 11.6,
+            "yoy": 26,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W22",
+            "period": "05-25~05-31",
+            "days": 7,
+            "power": 12.8,
+            "yoy": 23,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W23",
+            "period": "06-01~06-07",
+            "days": 7,
+            "power": 16.4,
+            "yoy": 9,
+            "scope": "2026Q2",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W24",
+            "period": "06-08~06-14",
+            "days": 1,
+            "power": 1.3,
+            "yoy": -39,
+            "scope": "2026Q2",
+            "coverage": "1/1/1",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W25",
+            "period": "06-15~06-21",
+            "days": 1,
+            "power": 1.1,
+            "yoy": -51,
+            "scope": "2026Q2",
+            "coverage": "1/1/1",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W26",
+            "period": "06-22~06-28",
+            "days": 4,
+            "power": 10.8,
+            "yoy": 22,
+            "scope": "2026Q2",
+            "coverage": "4/4/4",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W27",
+            "period": "06-29~07-05",
+            "days": 7,
+            "power": 17.4,
+            "yoy": 3,
+            "scope": "2026Q2,2026Q3",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W28",
+            "period": "07-06~07-12",
+            "days": 7,
+            "power": 14.8,
+            "yoy": -17,
+            "scope": "2026Q3",
+            "coverage": "7/7/7",
+            "confidence": "中"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W29",
+            "period": "07-13~07-19",
+            "days": 5,
+            "power": 10.6,
+            "yoy": -4,
+            "scope": "2026Q3",
+            "coverage": "5/5/5",
+            "confidence": "中"
+        }
+    ],
+    "hydroCompanyWeeklyLatest": [
+        {
+            "company": "长江电力",
+            "week": "2026-W29",
+            "period": "07-13~07-17",
+            "days": 5,
+            "power": 32.08162622755857,
+            "yoy": null,
+            "scope": "乌白缺口（四站可见量）",
+            "coverage": "5/4/5",
+            "confidence": "低"
+        },
+        {
+            "company": "雅砻江水电",
+            "week": "2026-W29",
+            "period": "周度模型未建",
+            "days": 5,
+            "power": null,
+            "yoy": null,
+            "scope": "来水仅作方向判断",
+            "coverage": "缺周度电量模型",
+            "confidence": "低"
+        },
+        {
+            "company": "国能大渡河",
+            "week": "2026-W29",
+            "period": "07-13~07-19",
+            "days": 5,
+            "power": 10.6,
+            "yoy": -4,
+            "scope": "2026Q3",
+            "coverage": "5/5/5",
+            "confidence": "中"
+        },
+        {
+            "company": "桂冠电力",
+            "week": "2026-W29",
+            "period": "周度模型未建",
+            "days": 5,
+            "power": null,
+            "yoy": null,
+            "scope": "红水河来水代理",
+            "coverage": "缺周度电量模型",
+            "confidence": "低"
+        },
+        {
+            "company": "华能水电",
+            "week": "2026-W29",
+            "period": "缺高频水情",
+            "days": 0,
+            "power": null,
+            "yoy": null,
+            "scope": "澜沧江",
+            "coverage": "缺数据与模型",
+            "confidence": "低"
+        },
+        {
+            "company": "湖北能源",
+            "week": "2026-W29",
+            "period": "周度模型未建",
+            "days": 5,
+            "power": null,
+            "yoy": null,
+            "scope": "清江",
+            "coverage": "缺周度电量模型",
+            "confidence": "低"
+        },
+        {
+            "company": "黔源电力",
+            "week": "2026-W29",
+            "period": "缺主力站水情",
+            "days": 0,
+            "power": null,
+            "yoy": null,
+            "scope": "北盘江",
+            "coverage": "缺数据与模型",
+            "confidence": "低"
+        },
+        {
+            "company": "五凌电力",
+            "week": "2026-W29",
+            "period": "数据停在W27",
+            "days": 0,
+            "power": null,
+            "yoy": null,
+            "scope": "沅水",
+            "coverage": "不可作为本周数",
+            "confidence": "低"
         }
     ]
 };

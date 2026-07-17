@@ -8359,7 +8359,7 @@ window.COMPANY_GENERATION_DATA = {
     ],
     "publicWindow": {
         "label": "滚动近两年",
-        "cutoff": "2024-07-16",
-        "asOf": "2026-07-16"
+        "cutoff": "2024-07-17",
+        "asOf": "2026-07-17"
     }
 };
