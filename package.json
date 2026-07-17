@@ -3,16 +3,17 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "update:hydro": "powershell -NoProfile -ExecutionPolicy Bypass -File ../../outputs/power-data-workbench-prototype/build-data.ps1 && node scripts/update-hydro-data.js",
+    "update:hydro": "powershell -NoProfile -ExecutionPolicy Bypass -File ../../outputs/power-data-workbench-prototype/build-data.ps1 && node scripts/update-hydro-data.js && node scripts/verify-hydro-release.js",
     "prepare:public": "node scripts/prepare-public-snapshot.js",
     "update:province-capacity": "node scripts/update-province-capacity-data.js",
     "update:province-monthly": "node scripts/update-province-monthly-data.js",
     "update:province-sources": "node scripts/update-province-generation-sources.js",
     "verify:province-capacity": "node scripts/verify-province-capacity.js",
     "audit:data": "node scripts/audit-data-consistency.js",
-    "release:public": "npm run update:province-capacity && npm run prepare:public && npm run verify:province-capacity && npm run verify:public",
+    "release:public": "npm run update:province-capacity && npm run prepare:public && npm run verify:province-capacity && npm run verify:hydro && npm run verify:public",
     "screenshot:mobile": "node scripts/mobile-screenshot.js",
-    "verify:public": "node scripts/verify-public-site.js"
+    "verify:public": "node scripts/verify-public-site.js",
+    "verify:hydro": "node scripts/verify-hydro-release.js"
   },
   "devDependencies": {
     "playwright": "1.61.1"
