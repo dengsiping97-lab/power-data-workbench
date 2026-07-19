@@ -1,5 +1,6 @@
 (function () {
   const data = window.WORKBENCH_DATA;
+  const consumptionData = window.CONSUMPTION_DATA || null;
   if (!data) return;
 
   const fmt = (value, digits = 0) => {
@@ -315,6 +316,14 @@
     setText("freshness-weather", window.WEATHER_DATA?.weekEnd ? `截至 ${window.WEATHER_DATA.weekEnd}` : "-");
     setText("freshness-spot", `截至 ${latestPriceDate}`);
     setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
+    const latestConsumption = consumptionData?.nationalUtilization
+      ? [...consumptionData.nationalUtilization].reverse().find((row) => row.windCumulativeRate !== null && row.solarCumulativeRate !== null)
+      : null;
+    setText("freshness-consumption", consumptionData?.freshness?.cumulativeRate ? `累计截至 ${consumptionData.freshness.cumulativeRate}` : "-");
+    setText("metric-consumption", latestConsumption ? `风 ${fmt(latestConsumption.windCumulativeRate, 1)}%` : "月度");
+    setText("metric-consumption-note", latestConsumption
+      ? `${latestConsumption.month} 累计：风电 ${fmt(latestConsumption.windCumulativeRate, 1)}%，光伏 ${fmt(latestConsumption.solarCumulativeRate, 1)}%`
+      : "全国与省级风光利用率");
 
     const riverQtd = buildRiverQtd();
     const strongestRiver = [...riverQtd]
@@ -494,13 +503,14 @@
   };
 
   const renderDataCatalog = () => {
-    setText("summary-p0-count", `${data.datasets.p0.length}`);
+    const p0Datasets = [...data.datasets.p0, ...(consumptionData?.datasets || [])];
+    setText("summary-p0-count", `${p0Datasets.length}`);
     setText("summary-p1-count", `${data.datasets.p1.length}`);
     setText("summary-updated", data.updatedAt);
 
     const p0Body = document.getElementById("p0-dataset-body");
     if (p0Body) {
-      p0Body.innerHTML = data.datasets.p0.map((row) => `
+      p0Body.innerHTML = p0Datasets.map((row) => `
         <tr>
           <td>${row.module}</td>
           <td><code>${row.name}</code></td>

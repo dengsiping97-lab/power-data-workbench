@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, "..");
 const workbenchPath = path.join(root, "assets", "workbench-data.js");
 const weatherHistoryPath = path.join(root, "assets", "weather-history-data.js");
 const companyGenerationPath = path.join(root, "assets", "company-generation-data.js");
+const consumptionPath = path.join(root, "assets", "consumption-data.js");
 
 const readWindowValue = (file, key) => {
   const context = { window: {} };
@@ -88,6 +89,17 @@ recordFilter("dayAheadWeeklyHistory", "weekStart");
 workbench.publicWindow = { label: "滚动近两年", cutoff, asOf };
 writeWindowValue(workbenchPath, "WORKBENCH_DATA", workbench);
 
+const consumption = readWindowValue(consumptionPath, "CONSUMPTION_DATA");
+const consumptionBefore = {};
+const consumptionAfter = {};
+for (const [key, field] of [["nationalUtilization", "month"], ["regionalUtilization", "month"], ["nationalOperations", "month"]]) {
+  consumptionBefore[key] = consumption[key]?.length || 0;
+  consumption[key] = filterRows(consumption[key], field, cutoff, true);
+  consumptionAfter[key] = consumption[key]?.length || 0;
+}
+consumption.publicWindow = { label: "滚动近两年", cutoff, asOf };
+writeWindowValue(consumptionPath, "CONSUMPTION_DATA", consumption);
+
 const weatherHistory = readWindowValue(weatherHistoryPath, "WEATHER_HISTORY");
 const climateBuckets = new Map();
 weatherHistory.filter((row) => Number(String(row.weekStart).slice(0, 4)) <= Number(asOf.slice(0, 4)) - 1).forEach((row) => {
@@ -116,6 +128,7 @@ console.log(JSON.stringify({
   asOf,
   cutoff,
   workbench: Object.fromEntries(Object.keys(before).map((key) => [key, `${before[key]} -> ${after[key]}`])),
+  consumption: Object.fromEntries(Object.keys(consumptionBefore).map((key) => [key, `${consumptionBefore[key]} -> ${consumptionAfter[key]}`])),
   weatherHistory: `${weatherHistory.length} -> ${publicWeatherHistory.length}`,
   companyFacts: `${companyBefore} -> ${companyGeneration.facts.length}`
 }, null, 2));

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新能源消纳 · 电力数据研究工作台</title>
+  <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
+  <style>
+    :root{--bg:#f6f7f8;--surface:#fff;--text:#182026;--muted:#61717c;--line:#dbe2e6;--green:#227d55;--blue:#256f9f;--amber:#9a681c;--shadow:0 10px 28px rgba(20,32,38,.08)}
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text)}
+    .app{min-height:100vh;display:grid;grid-template-columns:248px 1fr}aside{background:#10212a;color:#f7fbfc;padding:20px 16px;position:sticky;top:0;height:100vh}
+    .brand{font-size:20px;font-weight:700;line-height:1.35;margin-bottom:24px}.nav-section{color:#9fb0b8;font-size:12px;margin:22px 8px 8px}
+    nav a{display:flex;color:#d9e4e8;text-decoration:none;padding:10px 12px;border-radius:8px;font-size:14px;margin:2px 0}nav a.active,nav a:hover{background:rgba(255,255,255,.1);color:#fff}
+    main{padding:24px 28px 36px;max-width:1480px;width:100%}.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:18px}
+    .summary{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:var(--shadow);min-height:104px}.summary .label{color:var(--muted);font-size:12px;margin-bottom:8px}.summary .value{font-size:24px;font-weight:700;margin-bottom:6px}.summary .note{color:var(--muted);font-size:12px;line-height:1.45}
+    section{background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow);margin-bottom:16px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:14px 16px}.section-head h2{font-size:16px;margin:0}.section-body{padding:16px}
+    .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.toolbar label{font-size:13px;color:var(--muted)}select{min-width:140px;border:1px solid var(--line);background:#fff;color:var(--text);border-radius:8px;padding:8px 10px;font-size:14px}.filter-note{font-size:12px;color:var(--muted);margin-left:auto}
+    table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px 8px;text-align:left;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;background:#f7f9fa}.pill{display:inline-flex;border-radius:999px;padding:4px 8px;font-size:12px;background:#e8f3ee;color:var(--green)}
+    @media(max-width:1180px){.app{grid-template-columns:1fr}aside{position:static;height:auto}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.summary-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){main{padding:18px 14px 28px}nav{grid-template-columns:1fr 1fr}.summary-grid{grid-template-columns:1fr}.filter-note{width:100%;margin-left:0}}
+  </style>
+  <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260719-consumption-1">
+  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">电力数据<br>研究工作台</div>
+      <div class="nav-section">核心模块</div>
+      <nav>
+        <a href="index.html">跟踪总览</a>
+        <a href="hydro.html">水电跟踪</a>
+        <a href="weather.html">负荷气象</a>
+        <a href="price.html">电价与市场</a>
+        <a class="active" href="consumption.html">新能源消纳</a>
+        <a href="power.html">电力供需</a>
+        <a href="company-generation.html">公司电量</a>
+        <a href="holdings.html">估值与资金</a>
+        <a href="tools.html">测算中心</a>
+      </nav>
+    </aside>
+    <main>
+      <header class="module-hero module-hero--consumption">
+        <div class="module-hero-copy">
+          <div class="eyebrow">RENEWABLE CONSUMPTION MONITOR</div>
+          <h1>新能源消纳</h1>
+          <p class="subtitle">跟踪全国及分省风电、光伏利用率，并与发电量、装机和利用小时交叉验证消纳压力。</p>
+          <div class="module-hero-tags"><span>风电利用率</span><span>光伏利用率</span><span>省级分化</span><span>供给联动</span></div>
+        </div>
+        <div class="module-hero-actions"><a class="module-hero-back" href="index.html">← 返回跟踪总览</a><div class="module-hero-card"><span>本页重点</span><strong>哪里出现消纳压力</strong><small>区分单月与累计，观察风光供给释放后的区域分化</small></div></div>
+      </header>
+
+      <div class="history-range-strip consumption-history-range-strip"><label for="consumption-history-range">历史窗口</label><select id="consumption-history-range" aria-label="选择新能源消纳历史窗口"></select><span>作用于全国、省级详情、发电量和装机图；利用小时固定按年度对比</span></div>
+
+      <div class="consumption-freshness-grid" aria-label="新能源消纳数据新鲜度">
+        <div><span>单月利用率</span><strong id="consumption-freshness-month">加载中</strong></div>
+        <div><span>累计利用率</span><strong id="consumption-freshness-cumulative">加载中</strong></div>
+        <div><span>风光发电量</span><strong id="consumption-freshness-generation">加载中</strong></div>
+        <div><span>装机 / 利用小时</span><strong id="consumption-freshness-capacity">加载中</strong></div>
+      </div>
+
+      <div class="summary-grid consumption-summary-grid">
+        <div class="summary"><div class="label">全国风电单月利用率</div><div class="value" id="consumption-wind-month-rate">加载中</div><div class="note" id="consumption-wind-month-note">读取中</div></div>
+        <div class="summary"><div class="label">全国光伏单月利用率</div><div class="value" id="consumption-solar-month-rate">加载中</div><div class="note" id="consumption-solar-month-note">读取中</div></div>
+        <div class="summary"><div class="label">全国风电累计利用率</div><div class="value" id="consumption-wind-cumulative-rate">加载中</div><div class="note" id="consumption-wind-cumulative-note">读取中</div></div>
+        <div class="summary"><div class="label">全国光伏累计利用率</div><div class="value" id="consumption-solar-cumulative-rate">加载中</div><div class="note" id="consumption-solar-cumulative-note">读取中</div></div>
+      </div>
+
+      <section class="chart-card">
+        <div class="chart-head">
+          <div><h2>全国风光利用率趋势</h2><p>单月值与年内累计值分开展示；缺失月份不插值</p></div>
+          <div class="toolbar"><label for="consumption-national-period-type">口径</label><select id="consumption-national-period-type"><option value="month">单月</option><option value="cumulative">年内累计</option></select></div>
+        </div>
+        <div id="consumption-national-chart" class="echart" role="img" aria-label="全国风电和光伏利用率趋势图"></div>
+      </section>
+
+      <section>
+        <div class="section-head"><div><h2>省级消纳排名</h2><p class="section-subtitle">展示数据库区域口径，不把蒙西、蒙东强行合并</p></div><span class="pill" id="consumption-ranking-coverage">加载中</span></div>
+        <div class="section-body">
+          <div class="toolbar consumption-ranking-toolbar">
+            <label for="consumption-ranking-period">口径</label><select id="consumption-ranking-period"><option value="month">单月</option><option value="cumulative">年内累计</option></select>
+            <label for="consumption-ranking-energy">电源</label><select id="consumption-ranking-energy"><option value="wind">风电</option><option value="solar">光伏</option></select>
+            <label for="consumption-ranking-month">月份</label><select id="consumption-ranking-month"></select>
+            <span class="filter-note" id="consumption-ranking-note">读取排名中</span>
+          </div>
+          <div class="consumption-ranking-layout">
+            <div id="consumption-ranking-chart" class="echart consumption-ranking-chart" role="img" aria-label="省级新能源利用率排名图"></div>
+            <div class="table-scroll consumption-ranking-table"><table><thead><tr><th>排名</th><th>区域</th><th>利用率</th></tr></thead><tbody id="consumption-ranking-body"><tr><td colspan="3">加载省级排名...</td></tr></tbody></table></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chart-card">
+        <div class="chart-head">
+          <div><h2>单区域风光消纳走势</h2><p id="consumption-region-note">选择区域查看风电、光伏利用率</p></div>
+          <div class="toolbar"><label for="consumption-region-select">区域</label><select id="consumption-region-select"></select><label for="consumption-region-period">口径</label><select id="consumption-region-period"><option value="month">单月</option><option value="cumulative">年内累计</option></select></div>
+        </div>
+        <div id="consumption-region-chart" class="echart" role="img" aria-label="单区域风电和光伏利用率趋势图"></div>
+      </section>
+
+      <section>
+        <div class="section-head"><div><h2>全国供给—消纳联动</h2><p class="section-subtitle">分别观察发电量、全口径装机和年内累计利用小时，不合成单一指数</p></div><div class="toolbar"><label for="consumption-operation-energy">电源</label><select id="consumption-operation-energy"><option value="wind">风电</option><option value="solar">光伏</option></select></div></div>
+        <div class="section-body">
+          <div class="summary-grid consumption-operation-summary">
+            <div class="summary"><div class="label">最新单月发电量</div><div class="value" id="consumption-generation-latest">加载中</div><div class="note" id="consumption-generation-note">规上工业口径</div></div>
+            <div class="summary"><div class="label">最新累计装机</div><div class="value" id="consumption-capacity-latest">加载中</div><div class="note" id="consumption-capacity-note">全国全口径</div></div>
+            <div class="summary"><div class="label">最新累计利用小时</div><div class="value" id="consumption-hours-latest">加载中</div><div class="note" id="consumption-hours-note">年内累计</div></div>
+          </div>
+          <div class="consumption-operation-grid">
+            <article class="chart-card"><div class="chart-head"><div><h2>单月发电量</h2><p>规模以上工业口径，单位：亿kWh</p></div></div><div id="consumption-generation-chart" class="echart compact"></div></article>
+            <article class="chart-card"><div class="chart-head"><div><h2>累计装机</h2><p>全国全口径，单位：亿kW</p></div></div><div id="consumption-capacity-chart" class="echart compact"></div></article>
+            <article class="chart-card"><div class="chart-head"><div><h2>累计利用小时年度对比</h2><p>2024/2025/2026同月比较，未披露月份留空</p></div></div><div id="consumption-hours-chart" class="echart compact"></div></article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="assets/consumption-data.js?v=20260719-1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script src="assets/consumption.js?v=20260719-1"></script>
+</body>
+</html>
