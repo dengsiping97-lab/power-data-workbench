@@ -1,14 +1,14 @@
 window.WORKBENCH_DATA = {
-    "updatedAt": "2026-07-17",
+    "updatedAt": "2026-07-19",
     "sourceNote": "本地研究工作台快照；现货实时、全国日前、代理购电与水电数据按各自口径维护。",
     "freshness": {
         "hydroWeekly": "2026-W29",
         "hydroHourly": "2026-07-17 10:00",
-        "spotWeekly": "2026-07-12",
+        "spotWeekly": "2026-06-28",
         "proxyMonthly": "2026-07",
         "systemFeeMonthly": "2026-07",
         "eventsCalendar": "2026-07-14",
-        "dayAheadDaily": "2026-07-14"
+        "dayAheadDaily": "2026-07-18"
     },
     "eventsCalendar": [
         {
@@ -29991,42 +29991,6 @@ window.WORKBENCH_DATA = {
     ],
     "spotWeeklyLatest": [
         {
-            "province": "广东",
-            "coalBenchmark": 453,
-            "isoYear": 2026,
-            "isoWeek": 28,
-            "weekStart": "2026-07-06",
-            "weekEnd": "2026-07-12",
-            "spotAvg": 414.4,
-            "spotYoy": null,
-            "spotWow": 3.2,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "山西",
-            "coalBenchmark": 332,
-            "isoYear": 2026,
-            "isoWeek": 28,
-            "weekStart": "2026-07-06",
-            "weekEnd": "2026-07-12",
-            "spotAvg": 330.1,
-            "spotYoy": null,
-            "spotWow": 12.5,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "四川",
-            "coalBenchmark": 401.2,
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "weekStart": "2026-06-29",
-            "weekEnd": "2026-07-05",
-            "spotAvg": 81.7,
-            "spotYoy": null,
-            "spotWow": 346.4,
-            "source": "四川现货日均价"
-        },
-        {
             "province": "吉林",
             "coalBenchmark": 373.1,
             "isoYear": 2026,
@@ -30060,6 +30024,18 @@ window.WORKBENCH_DATA = {
             "spotAvg": 495,
             "spotYoy": null,
             "spotWow": 21.3,
+            "source": "易能周度实时"
+        },
+        {
+            "province": "广东",
+            "coalBenchmark": 453,
+            "isoYear": 2026,
+            "isoWeek": null,
+            "weekStart": "2026-06-22",
+            "weekEnd": "2026-06-28",
+            "spotAvg": 475,
+            "spotYoy": null,
+            "spotWow": 26.3,
             "source": "易能周度实时"
         },
         {
@@ -30183,18 +30159,6 @@ window.WORKBENCH_DATA = {
             "source": "易能周度实时"
         },
         {
-            "province": "山东",
-            "coalBenchmark": 394.9,
-            "isoYear": 2026,
-            "isoWeek": 26,
-            "weekStart": "2026-06-22",
-            "weekEnd": "2026-06-28",
-            "spotAvg": 296.6,
-            "spotYoy": null,
-            "spotWow": -15.2,
-            "source": "iFind实时均价"
-        },
-        {
             "province": "黑龙江",
             "coalBenchmark": 374,
             "isoYear": 2026,
@@ -30204,6 +30168,18 @@ window.WORKBENCH_DATA = {
             "spotAvg": 276,
             "spotYoy": null,
             "spotWow": 4.5,
+            "source": "易能周度实时"
+        },
+        {
+            "province": "山东",
+            "coalBenchmark": 394.9,
+            "isoYear": 2026,
+            "isoWeek": null,
+            "weekStart": "2026-06-22",
+            "weekEnd": "2026-06-28",
+            "spotAvg": 276,
+            "spotYoy": null,
+            "spotWow": -21.1,
             "source": "易能周度实时"
         },
         {
@@ -30228,6 +30204,18 @@ window.WORKBENCH_DATA = {
             "spotAvg": 269,
             "spotYoy": null,
             "spotWow": -20.6,
+            "source": "易能周度实时"
+        },
+        {
+            "province": "山西",
+            "coalBenchmark": 332,
+            "isoYear": 2026,
+            "isoWeek": null,
+            "weekStart": "2026-06-22",
+            "weekEnd": "2026-06-28",
+            "spotAvg": 252,
+            "spotYoy": null,
+            "spotWow": -5.2,
             "source": "易能周度实时"
         },
         {
@@ -30360,6 +30348,18 @@ window.WORKBENCH_DATA = {
             "spotAvg": 47,
             "spotYoy": null,
             "spotWow": -47.2,
+            "source": "易能周度实时"
+        },
+        {
+            "province": "四川",
+            "coalBenchmark": 401.2,
+            "isoYear": 2026,
+            "isoWeek": null,
+            "weekStart": "2026-06-22",
+            "weekEnd": "2026-06-28",
+            "spotAvg": 18,
+            "spotYoy": null,
+            "spotWow": -52.6,
             "source": "易能周度实时"
         }
     ],
@@ -31508,37 +31508,13 @@ window.WORKBENCH_DATA = {
             "province": "广东",
             "coalBenchmark": 453,
             "isoYear": 2026,
-            "isoWeek": 28,
-            "weekStart": "2026-07-06",
-            "weekEnd": "2026-07-12",
-            "spotAvg": 414.4,
-            "spotYoy": null,
-            "spotWow": 3.2,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "广东",
-            "coalBenchmark": 453,
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "weekStart": "2026-06-29",
-            "weekEnd": "2026-07-05",
-            "spotAvg": 401.5,
-            "spotYoy": null,
-            "spotWow": -15,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "广东",
-            "coalBenchmark": 453,
-            "isoYear": 2026,
-            "isoWeek": 26,
+            "isoWeek": null,
             "weekStart": "2026-06-22",
             "weekEnd": "2026-06-28",
-            "spotAvg": 472.5,
+            "spotAvg": 475,
             "spotYoy": null,
-            "spotWow": 25.6,
-            "source": "iFind实时均价"
+            "spotWow": 26.3,
+            "source": "易能周度实时"
         },
         {
             "province": "广东",
@@ -38528,13 +38504,13 @@ window.WORKBENCH_DATA = {
             "province": "山东",
             "coalBenchmark": 394.9,
             "isoYear": 2026,
-            "isoWeek": 26,
+            "isoWeek": null,
             "weekStart": "2026-06-22",
             "weekEnd": "2026-06-28",
-            "spotAvg": 296.6,
+            "spotAvg": 276,
             "spotYoy": null,
-            "spotWow": -15.2,
-            "source": "iFind实时均价"
+            "spotWow": -21.1,
+            "source": "易能周度实时"
         },
         {
             "province": "山东",
@@ -39464,37 +39440,13 @@ window.WORKBENCH_DATA = {
             "province": "山西",
             "coalBenchmark": 332,
             "isoYear": 2026,
-            "isoWeek": 28,
-            "weekStart": "2026-07-06",
-            "weekEnd": "2026-07-12",
-            "spotAvg": 330.1,
-            "spotYoy": null,
-            "spotWow": 12.5,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "山西",
-            "coalBenchmark": 332,
-            "isoYear": 2026,
-            "isoWeek": 27,
-            "weekStart": "2026-06-29",
-            "weekEnd": "2026-07-05",
-            "spotAvg": 293.3,
-            "spotYoy": null,
-            "spotWow": 16.3,
-            "source": "iFind实时均价"
-        },
-        {
-            "province": "山西",
-            "coalBenchmark": 332,
-            "isoYear": 2026,
-            "isoWeek": 26,
+            "isoWeek": null,
             "weekStart": "2026-06-22",
             "weekEnd": "2026-06-28",
-            "spotAvg": 252.3,
+            "spotAvg": 252,
             "spotYoy": null,
-            "spotWow": -5.1,
-            "source": "iFind实时均价"
+            "spotWow": -5.2,
+            "source": "易能周度实时"
         },
         {
             "province": "山西",
@@ -40952,25 +40904,13 @@ window.WORKBENCH_DATA = {
             "province": "四川",
             "coalBenchmark": 401.2,
             "isoYear": 2026,
-            "isoWeek": 27,
-            "weekStart": "2026-06-29",
-            "weekEnd": "2026-07-05",
-            "spotAvg": 81.7,
-            "spotYoy": null,
-            "spotWow": 346.4,
-            "source": "四川现货日均价"
-        },
-        {
-            "province": "四川",
-            "coalBenchmark": 401.2,
-            "isoYear": 2026,
-            "isoWeek": 26,
+            "isoWeek": null,
             "weekStart": "2026-06-22",
             "weekEnd": "2026-06-28",
-            "spotAvg": 18.3,
+            "spotAvg": 18,
             "spotYoy": null,
-            "spotWow": -51.8,
-            "source": "四川现货日均价"
+            "spotWow": -52.6,
+            "source": "易能周度实时"
         },
         {
             "province": "四川",
@@ -55309,133 +55249,373 @@ window.WORKBENCH_DATA = {
     },
     "dayAheadDailyLatest": [
         {
-            "date": "2026-07-14",
-            "province": "海南",
-            "dayAheadAvg": 527.5,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
             "province": "上海",
-            "dayAheadAvg": 480.7,
+            "dayAheadAvg": 486.9,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "河南",
-            "dayAheadAvg": 471.4,
+            "date": "2026-07-18",
+            "province": "浙江",
+            "dayAheadAvg": 452,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "广东",
-            "dayAheadAvg": 421,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
-            "province": "江西",
+            "date": "2026-07-18",
+            "province": "重庆",
             "dayAheadAvg": 413.8,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "山东",
-            "dayAheadAvg": 413.1,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
-            "province": "湖南",
-            "dayAheadAvg": 381,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
-            "province": "浙江",
-            "dayAheadAvg": 373.5,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
-            "province": "陕西",
-            "dayAheadAvg": 348.9,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
             "province": "冀南",
-            "dayAheadAvg": 343.3,
+            "dayAheadAvg": 394,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "重庆",
-            "dayAheadAvg": 335.7,
+            "date": "2026-07-18",
+            "province": "河南",
+            "dayAheadAvg": 387,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "山西",
-            "dayAheadAvg": 333.9,
+            "date": "2026-07-18",
+            "province": "江西",
+            "dayAheadAvg": 366.4,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "宁夏",
-            "dayAheadAvg": 332.7,
-            "source": "电碳全国日前"
-        },
-        {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
             "province": "江苏",
-            "dayAheadAvg": 320.2,
+            "dayAheadAvg": 352.9,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
+            "province": "山东",
+            "dayAheadAvg": 331.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
             "province": "贵州",
-            "dayAheadAvg": 300.5,
+            "dayAheadAvg": 331.7,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "湖北",
-            "dayAheadAvg": 295,
+            "date": "2026-07-18",
+            "province": "广东",
+            "dayAheadAvg": 312.1,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "广西",
-            "dayAheadAvg": 219.9,
+            "date": "2026-07-18",
+            "province": "海南",
+            "dayAheadAvg": 286.6,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
+            "province": "山西",
+            "dayAheadAvg": 280.3,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "陕西",
+            "dayAheadAvg": 267.4,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "湖南",
+            "dayAheadAvg": 231,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
             "province": "安徽",
-            "dayAheadAvg": 217.6,
+            "dayAheadAvg": 215.9,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
+            "province": "湖北",
+            "dayAheadAvg": 198.8,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
             "province": "甘肃",
-            "dayAheadAvg": 152.2,
+            "dayAheadAvg": 176,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
-            "province": "云南",
-            "dayAheadAvg": 119.1,
+            "date": "2026-07-18",
+            "province": "宁夏",
+            "dayAheadAvg": 160.6,
             "source": "电碳全国日前"
         },
         {
-            "date": "2026-07-14",
+            "date": "2026-07-18",
+            "province": "广西",
+            "dayAheadAvg": 150.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
             "province": "新疆",
-            "dayAheadAvg": 98.2,
+            "dayAheadAvg": 134.9,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "云南",
+            "dayAheadAvg": 83,
             "source": "电碳全国日前"
         }
     ],
     "dayAheadDailyHistory": [
+        {
+            "date": "2026-07-18",
+            "province": "上海",
+            "dayAheadAvg": 486.9,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "浙江",
+            "dayAheadAvg": 452,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "重庆",
+            "dayAheadAvg": 413.8,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "冀南",
+            "dayAheadAvg": 394,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "河南",
+            "dayAheadAvg": 387,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "江西",
+            "dayAheadAvg": 366.4,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "江苏",
+            "dayAheadAvg": 352.9,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "山东",
+            "dayAheadAvg": 331.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "贵州",
+            "dayAheadAvg": 331.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "广东",
+            "dayAheadAvg": 312.1,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "海南",
+            "dayAheadAvg": 286.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "山西",
+            "dayAheadAvg": 280.3,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "陕西",
+            "dayAheadAvg": 267.4,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "湖南",
+            "dayAheadAvg": 231,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "安徽",
+            "dayAheadAvg": 215.9,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "湖北",
+            "dayAheadAvg": 198.8,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "甘肃",
+            "dayAheadAvg": 176,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "宁夏",
+            "dayAheadAvg": 160.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "广西",
+            "dayAheadAvg": 150.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "新疆",
+            "dayAheadAvg": 134.9,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-18",
+            "province": "云南",
+            "dayAheadAvg": 83,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "河南",
+            "dayAheadAvg": 620,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "上海",
+            "dayAheadAvg": 500.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "浙江",
+            "dayAheadAvg": 499.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "江西",
+            "dayAheadAvg": 398.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "重庆",
+            "dayAheadAvg": 396.8,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "冀南",
+            "dayAheadAvg": 396.1,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "贵州",
+            "dayAheadAvg": 375.3,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "江苏",
+            "dayAheadAvg": 371.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "海南",
+            "dayAheadAvg": 369.1,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "广东",
+            "dayAheadAvg": 345.1,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "宁夏",
+            "dayAheadAvg": 337.1,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "陕西",
+            "dayAheadAvg": 311.6,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "湖南",
+            "dayAheadAvg": 268.2,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "湖北",
+            "dayAheadAvg": 254.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "甘肃",
+            "dayAheadAvg": 206.7,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "安徽",
+            "dayAheadAvg": 177.8,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "云南",
+            "dayAheadAvg": 87.4,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "广西",
+            "dayAheadAvg": 69.3,
+            "source": "电碳全国日前"
+        },
+        {
+            "date": "2026-07-16",
+            "province": "新疆",
+            "dayAheadAvg": 59.3,
+            "source": "电碳全国日前"
+        },
         {
             "date": "2026-07-14",
             "province": "海南",
@@ -61090,8 +61270,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 217.6,
-            "nDays": 1,
+            "dayAheadAvg": 203.8,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61170,8 +61350,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 335.7,
-            "nDays": 1,
+            "dayAheadAvg": 382.1,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61250,8 +61430,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 152.2,
-            "nDays": 1,
+            "dayAheadAvg": 178.3,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61330,8 +61510,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 421,
-            "nDays": 1,
+            "dayAheadAvg": 359.4,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61410,8 +61590,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 219.9,
-            "nDays": 1,
+            "dayAheadAvg": 146.6,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61490,8 +61670,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 300.5,
-            "nDays": 1,
+            "dayAheadAvg": 335.8,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61570,8 +61750,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 527.5,
-            "nDays": 1,
+            "dayAheadAvg": 394.4,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61650,8 +61830,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 471.4,
-            "nDays": 1,
+            "dayAheadAvg": 492.8,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61730,8 +61910,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 295,
-            "nDays": 1,
+            "dayAheadAvg": 249.5,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61810,8 +61990,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 381,
-            "nDays": 1,
+            "dayAheadAvg": 293.4,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61890,8 +62070,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 343.3,
-            "nDays": 1,
+            "dayAheadAvg": 377.8,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -61970,8 +62150,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 320.2,
-            "nDays": 1,
+            "dayAheadAvg": 348.2,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62050,8 +62230,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 413.8,
-            "nDays": 1,
+            "dayAheadAvg": 393,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62130,8 +62310,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 332.7,
-            "nDays": 1,
+            "dayAheadAvg": 276.8,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62210,8 +62390,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 413.1,
-            "nDays": 1,
+            "dayAheadAvg": 372.4,
+            "nDays": 2,
             "source": "电碳全国日前"
         },
         {
@@ -62290,8 +62470,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 333.9,
-            "nDays": 1,
+            "dayAheadAvg": 307.1,
+            "nDays": 2,
             "source": "电碳全国日前"
         },
         {
@@ -62370,8 +62550,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 348.9,
-            "nDays": 1,
+            "dayAheadAvg": 309.3,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62450,8 +62630,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 480.7,
-            "nDays": 1,
+            "dayAheadAvg": 489.4,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62530,8 +62710,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 98.2,
-            "nDays": 1,
+            "dayAheadAvg": 97.5,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62610,8 +62790,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 119.1,
-            "nDays": 1,
+            "dayAheadAvg": 96.5,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
@@ -62690,8 +62870,8 @@ window.WORKBENCH_DATA = {
             "isoWeek": 29,
             "weekStart": "2026-07-13",
             "weekEnd": "2026-07-19",
-            "dayAheadAvg": 373.5,
-            "nDays": 1,
+            "dayAheadAvg": 441.7,
+            "nDays": 3,
             "source": "电碳全国日前"
         },
         {
