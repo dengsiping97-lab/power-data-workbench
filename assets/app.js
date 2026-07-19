@@ -873,7 +873,8 @@
   const renderPricePage = () => {
     const latestSpot = data.spotWeeklyLatest?.reduce((latest, row) => !latest || weekEndDate(row) > weekEndDate(latest) ? row : latest, null);
     const avgRealtime = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
-    setText("price-page-date", latestSpot ? weekEndDate(latestSpot) : "-");
+    const latestDayAheadDate = data.freshness?.dayAheadDaily || data.dayAheadDailyLatest?.[0]?.date || null;
+    setText("price-page-date", latestDayAheadDate || "-");
     setText("price-page-avg", `${fmt(avgRealtime, 0)} 元/MWh`);
     setText("price-page-note", `${data.spotWeeklyLatest.length} 个省份各取最新可用周度实时均价`);
     if (data.dayAheadDailyLatest?.length) {

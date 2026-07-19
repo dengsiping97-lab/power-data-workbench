@@ -54,26 +54,13 @@
       </header>
       <div class="history-range-strip"><label for="price-history-range">历史窗口</label><select id="price-history-range" aria-label="选择电价历史窗口"></select><span>统一作用于现货、日前与代理购电</span></div>
       <div class="summary-grid price-summary-grid">
-        <div class="summary"><div class="label">最新现货周度</div><div class="value" id="price-page-date">加载中</div><div class="note">来自现货周度数据</div></div>
+        <div class="summary"><div class="label">最新电价数据</div><div class="value" id="price-page-date">加载中</div><div class="note">来自全国日前日度数据</div></div>
         <div class="summary"><div class="label">实时均价</div><div class="value" id="price-page-avg">加载中</div><div class="note" id="price-page-note">读取快照中</div></div>
         <div class="summary"><div class="label">全国日前</div><div class="value" id="dayahead-page-avg">加载中</div><div class="note" id="dayahead-page-note">读取电碳日度数据</div></div>
         <div class="summary"><div class="label">代理购电价</div><div class="value" id="proxy-page-avg">加载中</div><div class="note" id="proxy-page-note">读取省份月度均价</div></div>
         <div class="summary"><div class="label">系统运行费折价</div><div class="value" id="system-fee-page-avg">加载中</div><div class="note" id="system-fee-page-note">折价口径，可正可负</div></div>
       </div>
 
-      <section class="chart-card">
-        <div class="chart-head">
-          <div>
-            <h2>分省现货电价走势与同比</h2>
-            <p>现货均价与煤电基准使用左轴，同比使用右侧百分比轴</p>
-          </div>
-          <div class="toolbar">
-            <label for="price-chart-province">省份</label>
-            <select id="price-chart-province"></select>
-          </div>
-        </div>
-        <div id="price-history-chart" class="echart" role="img" aria-label="分省现货电价走势与同比图"></div>
-      </section>
       <section class="chart-card">
         <div class="chart-head">
           <div>
@@ -86,6 +73,19 @@
           </div>
         </div>
         <div id="dayahead-history-chart" class="echart" role="img" aria-label="分省日前电价走势、七日均线与煤电基准图"></div>
+      </section>
+      <section class="chart-card">
+        <div class="chart-head">
+          <div>
+            <h2>分省现货电价走势与同比</h2>
+            <p>现货均价与煤电基准使用左轴，同比使用右侧百分比轴</p>
+          </div>
+          <div class="toolbar">
+            <label for="price-chart-province">省份</label>
+            <select id="price-chart-province"></select>
+          </div>
+        </div>
+        <div id="price-history-chart" class="echart" role="img" aria-label="分省现货电价走势与同比图"></div>
       </section>
       <section>
         <div class="section-head"><h2>周度现货电价历史</h2><span class="pill">按省份查看</span></div>
@@ -159,6 +159,6 @@
   </div>
   <script src="assets/workbench-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-  <script src="assets/app.js?v=20260717-tooltip-grid-height-1"></script>
+  <script src="assets/app.js?v=20260719-price-date-order-1"></script>
 </body>
 </html>
