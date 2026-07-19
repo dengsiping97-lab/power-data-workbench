@@ -301,12 +301,11 @@
     const avgSpot = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
     const freshness = data.freshness || {};
     const latestPriceDate = freshness.dayAheadDaily || freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-");
-    const latestSpotDate = freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-");
 
     setText("metric-hydro-signal", isoWeekEndDate(latestWeek.isoYear, latestWeek.isoWeek));
     setText("metric-hydro-note", `${hydroCount} 个周度电站快照，${threeGorges.station}入库 ${fmt(threeGorges.inflow)} m3/s，同比 ${pct(threeGorges.inflowYoy)}`);
     setText("metric-spot", `${fmt(avgSpot, 0)}`);
-    setText("metric-spot-note", `现货周均截至 ${latestSpotDate}；最新电价数据截至 ${latestPriceDate}，单位元/MWh`);
+    setText("metric-spot-note", `最新电价数据截至 ${latestPriceDate}，单位元/MWh`);
     setText("metric-power", latestPower?.month || latestCapacity?.month || "月度");
     setText("metric-power-note", latestPower && latestCapacity ? `全国全社会用电 ${fmt(latestPower.total)} 亿kWh；装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW` : "全国用电、发电、装机结构联动");
 
@@ -319,10 +318,12 @@
     const latestConsumption = consumptionData?.nationalUtilization
       ? [...consumptionData.nationalUtilization].reverse().find((row) => row.windCumulativeRate !== null && row.solarCumulativeRate !== null)
       : null;
-    setText("freshness-consumption", consumptionData?.freshness?.cumulativeRate ? `累计截至 ${consumptionData.freshness.cumulativeRate}` : "-");
-    setText("metric-consumption", latestConsumption ? `风 ${fmt(latestConsumption.windCumulativeRate, 1)}%` : "月度");
+    setText("freshness-consumption", consumptionData?.freshness?.cumulativeRate || "-");
+    setText("metric-consumption", latestConsumption
+      ? `风 ${fmt(latestConsumption.windCumulativeRate, 1)}% · 光 ${fmt(latestConsumption.solarCumulativeRate, 1)}%`
+      : "月度");
     setText("metric-consumption-note", latestConsumption
-      ? `${latestConsumption.month} 累计：风电 ${fmt(latestConsumption.windCumulativeRate, 1)}%，光伏 ${fmt(latestConsumption.solarCumulativeRate, 1)}%`
+      ? `${latestConsumption.month} 全国累计利用率`
       : "全国与省级风光利用率");
 
     const riverQtd = buildRiverQtd();

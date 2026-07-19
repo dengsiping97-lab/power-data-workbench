@@ -110,6 +110,10 @@ const server = http.createServer((request, response) => {
   await page.waitForFunction(() => document.querySelector("#metric-consumption")?.textContent.includes("91.9"));
   assert(await page.locator('a.metric[href="consumption.html"]').count() === 1, "homepage consumption card missing");
   assert((await page.locator("#freshness-consumption").innerText()).includes("202603"), "homepage consumption freshness mismatch");
+  const homepageConsumption = await page.locator("#metric-consumption").innerText();
+  assert(homepageConsumption.includes("风 91.9%") && homepageConsumption.includes("光 91.2%"), "homepage wind/solar utilization mismatch");
+  const homepagePriceNote = await page.locator("#metric-spot-note").innerText();
+  assert(homepagePriceNote.includes("最新电价数据截至") && !homepagePriceNote.includes("现货周均截至"), "homepage price note mismatch");
   await page.goto(`http://127.0.0.1:${server.address().port}/data-catalog.html`, { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => document.querySelector("#p0-dataset-body")?.textContent.includes("新能源利用率_月度主表.csv"));
   assert((await page.locator("#p0-dataset-body").innerText()).includes("新能源消纳_全国月度.csv"), "consumption dataset catalog entry missing");
