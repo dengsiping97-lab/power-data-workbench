@@ -504,6 +504,7 @@
         <a href="hydro.html">水电跟踪</a>
         <a href="weather.html">负荷气象</a>
         <a href="price.html">电价与市场</a>
+        <a href="consumption.html">新能源消纳</a>
         <a href="power.html">电力供需</a>
         <a href="company-generation.html">公司电量</a>
         <a href="holdings.html">估值与资金</a>
@@ -537,6 +538,7 @@
               <span class="freshness-chip"><strong>负荷气象</strong><span id="freshness-weather">加载中</span></span>
               <span class="freshness-chip stale"><strong>现货价格</strong><span id="freshness-spot">加载中</span></span>
               <span class="freshness-chip"><strong>代理购电</strong><span id="freshness-proxy">加载中</span></span>
+              <span class="freshness-chip stale"><strong>新能源消纳</strong><span id="freshness-consumption">加载中</span></span>
             </div>
           </div>
         </div>
@@ -571,6 +573,11 @@
           <div class="value warn" id="metric-spot">分化</div>
           <div class="note" id="metric-spot-note">分省和分电源捕获价需拆开看</div>
         </a>
+        <a class="metric" href="consumption.html">
+          <div class="label">新能源消纳</div>
+          <div class="value" id="metric-consumption">月度</div>
+          <div class="note" id="metric-consumption-note">全国与省级风光利用率</div>
+        </a>
         <a class="metric" href="power.html">
           <div class="label">供需</div>
           <div class="value blue" id="metric-power">月度</div>
@@ -588,6 +595,7 @@
             <div class="topic-links">
               <a class="tab active topic-link" href="hydro.html">来水专题</a>
               <a class="tab active topic-link" href="price.html">电价专题</a>
+              <a class="tab active topic-link" href="consumption.html">消纳专题</a>
               <a class="tab active topic-link" href="power.html">供需专题</a>
             </div>
           </div>
@@ -598,6 +606,7 @@
 
     </main>
   </div>
+  <script src="assets/consumption-data.js?v=20260719-1"></script>
   <script src="assets/workbench-data.js"></script>
   <script src="assets/weather-data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>

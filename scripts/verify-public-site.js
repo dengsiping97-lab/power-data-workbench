@@ -22,6 +22,7 @@ const verifyDataWindow = () => {
   const workbench = loadWindowValue("assets/workbench-data.js", "WORKBENCH_DATA");
   const weather = loadWindowValue("assets/weather-history-data.js", "WEATHER_HISTORY");
   const company = loadWindowValue("assets/company-generation-data.js", "COMPANY_GENERATION_DATA");
+  const consumption = loadWindowValue("assets/consumption-data.js", "CONSUMPTION_DATA");
   const cutoff = workbench.publicWindow?.cutoff;
   assert(cutoff, "workbench public cutoff missing");
   const checks = [
@@ -39,6 +40,19 @@ const verifyDataWindow = () => {
     const min = rows.map((row) => String(row[field]).slice(0, 7)).sort()[0];
     assert(min >= cutoff.slice(0, 7), `${field} exceeds public window: ${min}`);
   });
+  for (const [rows, field] of [[consumption.nationalUtilization, "month"], [consumption.regionalUtilization, "month"], [consumption.nationalOperations, "month"]]) {
+    const min = rows.map((row) => String(row[field]).slice(0, 7)).sort()[0];
+    assert(min >= cutoff.slice(0, 7), `consumption ${field} exceeds public window: ${min}`);
+  }
+  assert(consumption.coverage?.regionCount === 33, "consumption region coverage mismatch");
+  assert(consumption.freshness?.monthRate === "2026-01", "consumption single-month freshness mismatch");
+  assert(consumption.freshness?.cumulativeRate === "2026-03", "consumption cumulative freshness mismatch");
+  assert(consumption.utilizationHoursComparison?.map((row) => row.year).join(",") === "2024,2025,2026", "consumption utilization-hours comparison years mismatch");
+  const nationalMonth = consumption.nationalUtilization.find((row) => row.month === "2026-01");
+  const nationalCumulative = consumption.nationalUtilization.find((row) => row.month === "2026-03");
+  assert(nationalMonth?.windMonthRate === 94.5 && nationalMonth?.solarMonthRate === 94.3, "consumption national single-month values mismatch");
+  assert(nationalCumulative?.windCumulativeRate === 91.9 && nationalCumulative?.solarCumulativeRate === 91.2, "consumption national cumulative values mismatch");
+  assert(!JSON.stringify(consumption).includes("D:\\workspace"), "private path leaked into consumption data");
   const provinceRows = workbench.provinceInstalledCapacityAnnual || [];
   const provinces = new Set(provinceRows.map((row) => row.province));
   const periods = new Set(provinceRows.map((row) => row.period));
@@ -91,7 +105,7 @@ const server = http.createServer((request, response) => {
   await page.click("#access-gate button[type=submit]");
   await page.waitForSelector("#access-gate", { state: "detached" });
 
-  for (const [pageName, rangeId] of [["hydro.html", "hydro-history-range"], ["price.html", "price-history-range"], ["power.html", "power-history-range"], ["weather.html", "weather-history-range"]]) {
+  for (const [pageName, rangeId] of [["hydro.html", "hydro-history-range"], ["price.html", "price-history-range"], ["consumption.html", "consumption-history-range"], ["power.html", "power-history-range"], ["weather.html", "weather-history-range"]]) {
     await page.goto(`http://127.0.0.1:${port}/${pageName}`, { waitUntil: "domcontentloaded" });
     assert(await page.locator("#access-gate").count() === 0, `${pageName} unexpectedly locked in same session`);
     await page.waitForSelector(`#${rangeId}`);
@@ -106,6 +120,13 @@ const server = http.createServer((request, response) => {
       assert(await page.locator("#province-capacity-body tr").count() >= 18, "province monthly table mismatch");
       await page.selectOption("#province-capacity-province", { label: "内蒙古" });
       assert((await page.locator("#province-power-trend-note").innerText()).includes("内蒙古"), "province selector did not update content");
+    }
+    if (pageName === "consumption.html") {
+      await page.waitForSelector("#consumption-ranking-body tr");
+      assert(await page.locator("#consumption-region-select option").count() === 32, "consumption region selector mismatch");
+      assert(await page.locator("#consumption-ranking-body tr").count() === 32, "consumption ranking row count mismatch");
+      assert((await page.locator("#consumption-wind-month-rate").innerText()).includes("94.5%"), "consumption wind single-month card mismatch");
+      assert((await page.locator("#consumption-solar-cumulative-rate").innerText()).includes("91.2%"), "consumption solar cumulative card mismatch");
     }
   }
 
