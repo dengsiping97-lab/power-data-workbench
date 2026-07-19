@@ -334,11 +334,6 @@
       .filter((row) => Number(row.inflowYoy) > 0 && Number(row.inflow) > 0)
       .sort((a, b) => Number(b.inflowYoy) - Number(a.inflowYoy))
       .slice(0, 3);
-    const goodPriceRows = data.spotWeeklyLatest
-      .map((row) => ({ ...row, spread: Number(row.spotAvg) - Number(row.coalBenchmark) }))
-      .filter((row) => Number.isFinite(row.spread) && row.spread > 0)
-      .sort((a, b) => b.spread - a.spread)
-      .slice(0, 4);
     const benchmarkValues = data.spotWeeklyLatest
       .map((row) => Number(row.coalBenchmark))
       .filter(Number.isFinite);
@@ -351,11 +346,6 @@
       : strongestRiver
         ? `${strongestRiver.river}近 7 日较 QTD ${strongestRiver.avg7dInflow >= strongestRiver.qtdInflow ? "改善" : "基本持平"}`
         : "重点流域等待更多样本";
-    const pricePhrase = goodPriceRows.length
-      ? `${goodPriceRows.slice(0, 2).map((row) => row.province).join("、")}现货溢价靠前`
-      : spotSpread === null
-        ? "现货价格继续观察"
-        : `样本省份现货均价较煤电基准${spotSpread >= 0 ? "高" : "低"} ${fmt(Math.abs(spotSpread), 0)} 元/MWh`;
     const dayAheadWeeks = [...new Set((data.dayAheadWeeklyHistory || []).map((row) => row.weekStart))].sort().reverse();
     const latestDayAheadWeek = dayAheadWeeks[0];
     const previousDayAheadWeek = dayAheadWeeks[1];
@@ -393,10 +383,7 @@
       : capacityDemandGap > 0
         ? "装机增速仍快于用电，供需总体偏松"
         : "用电增速快于装机，供需边际收紧";
-    setText("weekly-brief-title", `${hydroPhrase}，${pricePhrase}`);
-    setText("weekly-brief-note", goodPriceRows.length
-      ? "正向信号来自两条线：来水看同比改善电站，电价看现货均价高于煤电基准的省份。"
-      : "现货、来水和代理购电采用各自最新可得口径，不将旧数据冒充本周数据。");
+    setText("weekly-brief-title", `${hydroPhrase}，${dayAheadPhrase}`);
     setText("watch-hydro-title", hydroPhrase);
     setText("watch-hydro", goodHydroStations.length
       ? goodHydroStations.map((row) => `${row.station}同比 ${pct(row.inflowYoy)}`).join("；") + "。"

@@ -114,6 +114,11 @@ const server = http.createServer((request, response) => {
   assert(homepageConsumption.includes("风 91.9%") && homepageConsumption.includes("光 91.2%"), "homepage wind/solar utilization mismatch");
   const homepagePriceNote = await page.locator("#metric-spot-note").innerText();
   assert(homepagePriceNote.includes("最新电价数据截至") && !homepagePriceNote.includes("现货周均截至"), "homepage price note mismatch");
+  const weeklyBriefTitle = await page.locator("#weekly-brief-title").innerText();
+  assert(weeklyBriefTitle.includes("本周日前电价") && !weeklyBriefTitle.includes("现货溢价靠前"), "homepage weekly brief did not use the latest price signal");
+  assert(await page.locator("#weekly-brief-note").count() === 0, "homepage weekly brief note was not removed");
+  const desktopMetricColumns = await page.locator(".signal-metrics").evaluate((node) => getComputedStyle(node).gridTemplateColumns.split(" ").length);
+  assert(desktopMetricColumns === 4, `homepage desktop metric grid mismatch: ${desktopMetricColumns} columns`);
   await page.goto(`http://127.0.0.1:${server.address().port}/data-catalog.html`, { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => document.querySelector("#p0-dataset-body")?.textContent.includes("新能源利用率_月度主表.csv"));
   assert((await page.locator("#p0-dataset-body").innerText()).includes("新能源消纳_全国月度.csv"), "consumption dataset catalog entry missing");
@@ -125,6 +130,9 @@ const server = http.createServer((request, response) => {
   assert(mobileOverflow <= 1, `mobile page overflow: ${mobileOverflow}px`);
   assert(await page.locator("#consumption-ranking-month").isVisible(), "mobile ranking selector hidden");
   assert(await page.locator("#consumption-region-select").isVisible(), "mobile region selector hidden");
+  await page.goto(`http://127.0.0.1:${server.address().port}/index.html`, { waitUntil: "domcontentloaded" });
+  const mobileMetricColumns = await page.locator(".signal-metrics").evaluate((node) => getComputedStyle(node).gridTemplateColumns.split(" ").length);
+  assert(mobileMetricColumns === 1, `homepage mobile metric grid mismatch: ${mobileMetricColumns} columns`);
   assert(!errors.length, `browser errors: ${errors.join(" | ")}`);
   await browser.close();
   server.close();

@@ -517,7 +517,7 @@ main {
 .metric-grid { gap: 12px; margin-bottom: 18px; }
 .signal-metrics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .metric {
   min-height: 132px;
@@ -965,7 +965,7 @@ tbody tr:hover { background: #eef3f6; }
   .power-chart-grid > article:not(.wide),
   .power-year-consumption-grid > section,
   .grid > section { height: auto; }
-  .signal-metrics,
+  .signal-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .event-list { grid-template-columns: 1fr; }
   .chart-card.wide { grid-column: auto; }
   .price-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1115,6 +1115,7 @@ tbody tr:hover { background: #eef3f6; }
   .hero-watch { padding: 18px; }
   .watch-list { gap: 11px; margin-top: 14px; }
   .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .metric-grid.signal-metrics { grid-template-columns: 1fr; }
   .metric { min-height: 112px; padding: 14px; }
   .metric .value { margin: 8px 0 6px; font-size: 22px; }
   .metric .note { font-size: 11.5px; }
