@@ -298,20 +298,22 @@
     const latestCapacity = data.installedCapacityMonthly?.[0];
     const hydroCount = data.hydroWeeklyLatest.length;
     const avgSpot = data.spotWeeklyLatest.reduce((sum, row) => sum + row.spotAvg, 0) / data.spotWeeklyLatest.length;
+    const freshness = data.freshness || {};
+    const latestPriceDate = freshness.dayAheadDaily || freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-");
+    const latestSpotDate = freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-");
 
     setText("metric-hydro-signal", isoWeekEndDate(latestWeek.isoYear, latestWeek.isoWeek));
     setText("metric-hydro-note", `${hydroCount} 个周度电站快照，${threeGorges.station}入库 ${fmt(threeGorges.inflow)} m3/s，同比 ${pct(threeGorges.inflowYoy)}`);
     setText("metric-spot", `${fmt(avgSpot, 0)}`);
-    setText("metric-spot-note", `截至 ${latestSpot.weekEnd || isoWeekEndDate(latestSpot.isoYear, latestSpot.isoWeek)} 周度均值，单位元/MWh`);
+    setText("metric-spot-note", `现货周均截至 ${latestSpotDate}；最新电价数据截至 ${latestPriceDate}，单位元/MWh`);
     setText("metric-power", latestPower?.month || latestCapacity?.month || "月度");
     setText("metric-power-note", latestPower && latestCapacity ? `全国全社会用电 ${fmt(latestPower.total)} 亿kWh；装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW` : "全国用电、发电、装机结构联动");
 
-    const freshness = data.freshness || {};
     setText("freshness-snapshot", data.updatedAt);
     setText("freshness-hydro-week", data.updatedAt || formatWeekFreshness(freshness.hydroWeekly, latestWeek));
     setText("freshness-hydro-hour", String(freshness.hydroHourly || latestHour.time || "").slice(0, 10));
     setText("freshness-weather", window.WEATHER_DATA?.weekEnd ? `截至 ${window.WEATHER_DATA.weekEnd}` : "-");
-    setText("freshness-spot", `截至 ${freshness.spotWeekly || (latestSpot ? weekEndDate(latestSpot) : "-")}`);
+    setText("freshness-spot", `截至 ${latestPriceDate}`);
     setText("freshness-proxy", freshness.proxyMonthly || latestProxy?.month || "-");
 
     const riverQtd = buildRiverQtd();
@@ -344,21 +346,58 @@
       : spotSpread === null
         ? "现货价格继续观察"
         : `样本省份现货均价较煤电基准${spotSpread >= 0 ? "高" : "低"} ${fmt(Math.abs(spotSpread), 0)} 元/MWh`;
+    const dayAheadWeeks = [...new Set((data.dayAheadWeeklyHistory || []).map((row) => row.weekStart))].sort().reverse();
+    const latestDayAheadWeek = dayAheadWeeks[0];
+    const previousDayAheadWeek = dayAheadWeeks[1];
+    const latestDayAheadRows = (data.dayAheadWeeklyHistory || []).filter((row) => row.weekStart === latestDayAheadWeek);
+    const previousDayAheadMap = new Map(
+      (data.dayAheadWeeklyHistory || [])
+        .filter((row) => row.weekStart === previousDayAheadWeek)
+        .map((row) => [row.province, row])
+    );
+    const comparableDayAheadRows = latestDayAheadRows.filter((row) => previousDayAheadMap.has(row.province));
+    const latestDayAheadAvg = comparableDayAheadRows.length
+      ? comparableDayAheadRows.reduce((sum, row) => sum + Number(row.dayAheadAvg), 0) / comparableDayAheadRows.length
+      : null;
+    const previousDayAheadAvg = comparableDayAheadRows.length
+      ? comparableDayAheadRows.reduce((sum, row) => sum + Number(previousDayAheadMap.get(row.province).dayAheadAvg), 0) / comparableDayAheadRows.length
+      : null;
+    const dayAheadWow = latestDayAheadAvg !== null && previousDayAheadAvg
+      ? (latestDayAheadAvg / previousDayAheadAvg - 1) * 100
+      : null;
+    const dayAheadLeaders = [...latestDayAheadRows]
+      .sort((a, b) => Number(b.dayAheadAvg) - Number(a.dayAheadAvg))
+      .slice(0, 3);
+    const dayAheadDayCounts = latestDayAheadRows.map((row) => Number(row.nDays)).filter(Number.isFinite);
+    const dayAheadMinDays = dayAheadDayCounts.length ? Math.min(...dayAheadDayCounts) : null;
+    const dayAheadMaxDays = dayAheadDayCounts.length ? Math.max(...dayAheadDayCounts) : null;
+    const dayAheadDirection = dayAheadWow === null ? "等待完整数据" : dayAheadWow >= 0 ? "小幅上行" : "有所回落";
+    const dayAheadPhrase = dayAheadLeaders.length
+      ? `本周日前电价${dayAheadDirection}，${dayAheadLeaders.map((row) => row.province).join("、")}居前`
+      : "本周日前电价等待更新";
+    const capacityDemandGap = latestPower && latestCapacity
+      ? Number(latestCapacity.totalYoy || 0) - Number(latestPower.totalYoy || 0)
+      : null;
+    const powerPhrase = capacityDemandGap === null
+      ? "供需数据等待补充"
+      : capacityDemandGap > 0
+        ? "装机增速仍快于用电，供需总体偏松"
+        : "用电增速快于装机，供需边际收紧";
     setText("weekly-brief-title", `${hydroPhrase}，${pricePhrase}`);
     setText("weekly-brief-note", goodPriceRows.length
       ? "正向信号来自两条线：来水看同比改善电站，电价看现货均价高于煤电基准的省份。"
       : "现货、来水和代理购电采用各自最新可得口径，不将旧数据冒充本周数据。");
+    setText("watch-hydro-title", hydroPhrase);
     setText("watch-hydro", goodHydroStations.length
       ? goodHydroStations.map((row) => `${row.station}同比 ${pct(row.inflowYoy)}`).join("；") + "。"
       : strongestRiver ? `${strongestRiver.river}：近7日 ${fmt(strongestRiver.avg7dInflow)}，QTD ${fmt(strongestRiver.qtdInflow)} m3/s。` : "比较近 7 日、近 14 日和 QTD 来水。");
-    setText("watch-price", goodPriceRows.length
-      ? goodPriceRows.map((row) => `${row.province}高基准 ${fmt(row.spread, 0)} 元/MWh`).join("；") + "。"
-      : `${data.spotWeeklyLatest.length} 个省份样本，最新数据期 ${freshness.spotWeekly || latestSpot?.weekStart || "-"}。`);
-    setText("watch-power", latestPower && latestCapacity ? `${latestPower.month}全国全社会用电 ${fmt(latestPower.total)} 亿kWh，总装机 ${fmt(latestCapacity.total / 10000, 1)} 亿kW。` : "全国全社会用电量、规上发电量和装机共同验证供需。");
+    setText("watch-price-title", dayAheadPhrase);
+    setText("watch-price", latestDayAheadRows.length
+      ? `截至 ${latestPriceDate}，${latestDayAheadRows.length} 省样本均价 ${fmt(latestDayAheadAvg, 0)} 元/MWh，较上周 ${pct(dayAheadWow)}；${dayAheadLeaders.map((row) => `${row.province} ${fmt(row.dayAheadAvg, 0)}`).join("、")} 元/MWh。本周样本仅 ${dayAheadMinDays === dayAheadMaxDays ? dayAheadMinDays : `${dayAheadMinDays}—${dayAheadMaxDays}`} 个有效日。`
+      : "本周日前电价数据等待更新。");
+    setText("watch-power-title", powerPhrase);
+    setText("watch-power", latestPower && latestCapacity ? `${String(latestPower.month).replace("-", "")}用电同比 ${pct(latestPower.totalYoy)}；${String(latestCapacity.month).replace("-", "")}装机同比 ${pct(latestCapacity.totalYoy)}，增速差 ${fmt(capacityDemandGap, 1)}pct。` : "全国全社会用电量、规上发电量和装机共同验证供需。");
 
-    const capacityDemandGap = latestPower && latestCapacity
-      ? Number(latestCapacity.totalYoy || 0) - Number(latestPower.totalYoy || 0)
-      : null;
     const hydroEdge = strongestRiver?.qtdInflow
       ? ((Number(strongestRiver.avg7dInflow || 0) / Number(strongestRiver.qtdInflow)) - 1) * 100
       : null;
