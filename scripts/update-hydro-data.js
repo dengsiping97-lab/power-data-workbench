@@ -181,10 +181,11 @@ const latestWeek = workbench.hydroWeeklyLatest?.reduce((best, row) => {
 workbench.updatedAt = latestHour.slice(0, 10) || new Date().toISOString().slice(0, 10);
 workbench.freshness = { ...(workbench.freshness || {}), hydroWeekly: latestWeek, hydroHourly: latestHour };
 
-const companyHistory = readCompanyRows(companyWeeklyPath);
+const companyRows = readCompanyRows(companyWeeklyPath);
+const companyHistory = companyRows.filter((row) => row.power !== null && Number.isFinite(row.power));
 workbench.hydroCompanyWeeklyHistory = companyHistory;
 const latestByCompany = new Map();
-for (const row of companyHistory) {
+for (const row of companyRows) {
   if (!latestByCompany.has(row.company) || row.week > latestByCompany.get(row.company).week) latestByCompany.set(row.company, row);
 }
 const listedCompanies = ["长江电力", "国投电力", "国电电力", "桂冠电力", "华能水电", "湖北能源", "黔源电力", "中国电力（水电）"];
