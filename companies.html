@@ -173,12 +173,19 @@
       const latestText = latest.power == null
         ? `${latest.period || "周度模型未建"}；${latest.coverage || "暂无可靠周度序列"}`
         : `最新${latest.week}：${latest.power.toFixed(1)}亿kWh，${latest.days}个有效日；${latest.scope || "模型估算"}；覆盖${latest.coverage || "-"}`;
+      const caveat = latest.company === "桂冠电力"
+        ? "桂冠 W27 同比暂缺：上年同期基准缺失。"
+        : latest.company === "黔源电力"
+          ? "黔源 W23 同比暂缺：上年同期基准缺失。"
+          : latest.company === "长江电力"
+            ? "长江 W29 同比按上年同期 6 个可比日模型计算，置信度低。"
+            : "";
       return {
         key: companyKey(latest.company),
         name: latest.company,
         status: latest.power == null ? "缺数据/模型" : "模型估算",
         unit: "亿kWh",
-        note: `${latest.company}：${latestText}。全序列均为上市公司完整水电口径的周度估算，不是公司公告的周度实际值。`,
+        note: `${latest.company}：${latestText}。${caveat}全序列均为上市公司完整水电口径的周度估算，不是公司公告的周度实际值。`,
         weeks: history.map((row) => row.week.replace("2026-", "")),
         power: history.map((row) => row.power),
         yoy: history.map((row) => row.yoy),
