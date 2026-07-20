@@ -4,6 +4,7 @@
   "type": "commonjs",
   "scripts": {
     "update:hydro": "powershell -NoProfile -ExecutionPolicy Bypass -File ../../outputs/power-data-workbench-prototype/build-data.ps1 && node scripts/update-hydro-data.js && node scripts/verify-hydro-release.js",
+    "update:price": "node scripts/update-price-data.js && node scripts/verify-price-release.js",
     "prepare:public": "node scripts/prepare-public-snapshot.js",
     "update:province-capacity": "node scripts/update-province-capacity-data.js",
     "update:province-monthly": "node scripts/update-province-monthly-data.js",
@@ -15,7 +16,8 @@
     "release:public": "npm run update:province-capacity && npm run update:consumption && npm run prepare:public && npm run verify:province-capacity && npm run verify:consumption && npm run verify:hydro && npm run verify:public",
     "screenshot:mobile": "node scripts/mobile-screenshot.js",
     "verify:public": "node scripts/verify-public-site.js",
-    "verify:hydro": "node scripts/verify-hydro-release.js"
+    "verify:hydro": "node scripts/verify-hydro-release.js",
+    "verify:price": "node scripts/verify-price-release.js"
   },
   "devDependencies": {
     "playwright": "1.61.1"
