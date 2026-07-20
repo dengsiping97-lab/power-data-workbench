@@ -88,5 +88,6 @@
     window.addEventListener('resize', () => chart?.resize());
   };
   const waitForEcharts = (tries=0) => { if (window.echarts) setupHistory(); else if (tries < 40) setTimeout(() => waitForEcharts(tries + 1), 120); };
+  window.addEventListener("echarts-ready", setupHistory, { once: true });
   waitForEcharts();
 })();

@@ -162,6 +162,7 @@
   };
 
   const waitForEcharts = () => {
+    window.addEventListener("echarts-ready", flushPendingCharts);
     if (window.echarts) {
       flushPendingCharts();
       return;

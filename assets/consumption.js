@@ -261,6 +261,11 @@
     refreshRankingMonths();
     renderRegion();
     renderOperations();
+    window.addEventListener("echarts-ready", () => {
+      renderNational();
+      renderRegion();
+      renderOperations();
+    }, { once: true });
     let resizeTimer = null;
     window.addEventListener("resize", () => {
       window.clearTimeout(resizeTimer);

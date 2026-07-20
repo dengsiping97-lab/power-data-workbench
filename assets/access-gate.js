@@ -30,7 +30,7 @@
     }
   };
 
-  document.addEventListener("DOMContentLoaded", () => {
+  const mountGate = () => {
     if (sessionStorage.getItem(SESSION_KEY) === PASSWORD_HASH) {
       unlock();
       return;
@@ -68,5 +68,16 @@
       sessionStorage.setItem(SESSION_KEY, PASSWORD_HASH);
       unlock();
     });
-  });
+  };
+
+  if (document.body) {
+    mountGate();
+  } else {
+    const bodyObserver = new MutationObserver(() => {
+      if (!document.body) return;
+      bodyObserver.disconnect();
+      mountGate();
+    });
+    bodyObserver.observe(document.documentElement, { childList: true });
+  }
 })();

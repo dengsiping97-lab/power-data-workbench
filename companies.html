@@ -7,7 +7,7 @@
   <link rel="icon" type="image/jpeg" href="assets/qiya-avatar.jpg?v=20260717-1">
   <link rel="apple-touch-icon" href="assets/qiya-avatar.jpg?v=20260717-1">
   <link rel="stylesheet" href="assets/dashboard-v2.css?v=20260716-fixed-sidebar-3">
-  <link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260716-1"></script>
+<link rel="stylesheet" href="assets/access-gate.css?v=20260716-1"><script src="assets/access-gate.js?v=20260721-loading-1"></script>
   <style>
     .company-page { max-width: 1180px; margin: 0 auto; padding: 34px 28px 56px; }
     .page-top { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; margin-bottom: 22px; }
@@ -142,10 +142,11 @@
 
   </main>
   <script src="assets/workbench-data.js?v=20260720-price-1"></script>
-  <script async src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+  <script src="assets/echarts-loader.js?v=20260721-1"></script>
   <script>
     const renderCompanyChartsWhenReady = (render) => {
       if (window.echarts) return render();
+      window.addEventListener("echarts-ready", render, { once: true });
       const retry = window.setInterval(() => {
         if (!window.echarts) return;
         window.clearInterval(retry);
