@@ -203,18 +203,31 @@ const dayAheadWeeklyHistory = readCsv("现货电碳_日前_周度.csv")
   .sort((a, b) => a.province.localeCompare(b.province, "zh-Hans-CN") || b.weekStart.localeCompare(a.weekStart));
 
 const snapshot = loadSnapshot();
+const existingDayAheadHistory = Array.isArray(snapshot.dayAheadDailyHistory) ? snapshot.dayAheadDailyHistory : [];
+const existingDayAheadLatest = Array.isArray(snapshot.dayAheadDailyLatest) ? snapshot.dayAheadDailyLatest : [];
+const existingDayAheadWeeklyHistory = Array.isArray(snapshot.dayAheadWeeklyHistory) ? snapshot.dayAheadWeeklyHistory : [];
+const existingDayAheadDate = existingDayAheadHistory.reduce(
+  (latest, row) => row?.date && row.date > latest ? row.date : latest,
+  ""
+);
+const keepExistingDayAhead = existingDayAheadDate > (latestDayAheadDate || "");
+const effectiveDayAheadDate = keepExistingDayAhead ? existingDayAheadDate : latestDayAheadDate;
+const effectiveDayAheadHistory = keepExistingDayAhead ? existingDayAheadHistory : dayAheadHistory;
+const effectiveDayAheadLatest = keepExistingDayAhead ? existingDayAheadLatest : dayAheadLatest;
+const effectiveDayAheadWeeklyHistory = keepExistingDayAhead ? existingDayAheadWeeklyHistory : dayAheadWeeklyHistory;
+
 snapshot.updatedAt = shanghaiDate();
 snapshot.sourceNote = "本地研究工作台快照；现货实时、全国日前、代理购电与水电数据按各自口径维护。";
 snapshot.freshness = {
   ...(snapshot.freshness || {}),
   spotWeekly: spotWeeklyLatest.reduce((latest, row) => row.weekEnd > latest ? row.weekEnd : latest, ""),
-  dayAheadDaily: latestDayAheadDate
+  dayAheadDaily: effectiveDayAheadDate
 };
 snapshot.spotWeeklyLatest = spotWeeklyLatest;
 snapshot.spotWeeklyHistory = spotWeeklyHistory;
-snapshot.dayAheadDailyLatest = dayAheadLatest;
-snapshot.dayAheadDailyHistory = dayAheadHistory;
-snapshot.dayAheadWeeklyHistory = dayAheadWeeklyHistory;
+snapshot.dayAheadDailyLatest = effectiveDayAheadLatest;
+snapshot.dayAheadDailyHistory = effectiveDayAheadHistory;
+snapshot.dayAheadWeeklyHistory = effectiveDayAheadWeeklyHistory;
 if (snapshot.datasets?.p0) {
   const additions = [
     { module: "电价", name: "现货电碳_日前_日度.csv", grain: "省份-日", status: "已接入本地站点" },
@@ -228,4 +241,4 @@ if (snapshot.datasets?.p0) {
 fs.writeFileSync(snapshotPath, `window.WORKBENCH_DATA = ${JSON.stringify(snapshot, null, 4)};\n`, "utf8");
 console.log(`Updated ${snapshotPath}`);
 console.log(`Realtime: ${spotWeeklyLatest.length} provinces, latest ${snapshot.freshness.spotWeekly}`);
-console.log(`Day-ahead: ${dayAheadLatest.length} provinces, latest ${latestDayAheadDate}`);
+console.log(`Day-ahead: ${effectiveDayAheadLatest.length} provinces, latest ${effectiveDayAheadDate}${keepExistingDayAhead ? " (kept newer site snapshot)" : ""}`);
