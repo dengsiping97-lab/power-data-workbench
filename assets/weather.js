@@ -17,7 +17,6 @@
   if (heroMeta) heroMeta.textContent = d.weekStatus === 'provisional' ? '最新完整自然周（暂定值）' : '最新完整自然周';
   document.getElementById('week-end').textContent = `${d.weekStatusLabel || '终值'} 截至 ${d.weekEnd}`;
   document.getElementById('coverage').textContent = `${d.rows.length} 省`;
-  document.getElementById('source').textContent = d.sourceLabel || d.source || '-';
   document.getElementById('quality-note').textContent = `口径提示：${d.qualityNote}`;
   document.getElementById('national-takeaway').textContent = d.nationalTakeaway || '全国天气结论将在最新周度数据更新后生成。';
   const rows = [...d.rows], by = field => [...rows].sort((a,b)=>(b[field]??-999)-(a[field]??-999));
