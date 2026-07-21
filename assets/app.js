@@ -78,7 +78,7 @@
       if (!node) return;
       if (node.nodeType === 3) {
         const parent = node.parentElement;
-        if (!parent || parent.closest(".pct-positive, .pct-negative")) return;
+        if (!parent || parent.closest(".pct-positive, .pct-negative, .pct-neutral")) return;
         const text = node.nodeValue || "";
         const pattern = /([+-]?\d+(?:\.\d+)?)%/g;
         if (!pattern.test(text)) return;
@@ -99,7 +99,7 @@
         parent.replaceChild(fragment, node);
         return;
       }
-      if (node.nodeType !== 1 || node.matches("script, style, .pct-positive, .pct-negative")) return;
+      if (node.nodeType !== 1 || node.matches("script, style, .pct-positive, .pct-negative, .pct-neutral")) return;
       [...node.childNodes].forEach(colorize);
     };
     colorize(document.body);
