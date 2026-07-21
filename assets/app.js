@@ -1023,7 +1023,7 @@
         },
         legend: { top: 12, right: 22, textStyle: { color: "#74808a", fontSize: 11 } },
         grid: { left: 64, right: 68, top: 58, bottom: 72 },
-        xAxis: { type: "category", boundaryGap: true, data: rows.map((row) => row.weekStart), ...axisStyle },
+        xAxis: { type: "category", boundaryGap: true, data: rows.map((row) => weekEndDate(row)), ...axisStyle },
         yAxis: [
           { type: "value", name: "元/MWh", nameTextStyle: { color: "#74808a" }, scale: true, ...axisStyle },
           { type: "value", name: "同比", position: "right", min: -yoyAxisMax, max: yoyAxisMax, nameTextStyle: { color: "#c85c54" }, ...axisStyle, axisLabel: { color: "#c85c54", fontSize: 11, formatter: "{value}%" }, splitLine: { show: false } }
